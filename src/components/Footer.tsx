@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { clubs } from "@/lib/constants";
+import { ECOSYSTEM } from "@/lib/ecosystem";
 
 export default function Footer() {
   return (
@@ -18,10 +19,12 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-cream uppercase tracking-wider mb-4">Guides</h4>
             <ul className="space-y-2.5">
-              <li><Link href="/guides/complete-guide-london-luxury-nightlife" className="text-sm text-warm-gray hover:text-gold transition-colors">Complete Nightlife Guide</Link></li>
+              <li><Link href="/luxury-nightclubs-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Luxury Nightclubs London</Link></li>
+              <li><Link href="/london-nightlife-guide" className="text-sm text-warm-gray hover:text-gold transition-colors">London Nightlife Guide</Link></li>
+              <li><Link href="/celebrity-nightclubs-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Celebrity Nightclubs</Link></li>
+              <li><Link href="/guides/complete-guide-london-luxury-nightlife" className="text-sm text-warm-gray hover:text-gold transition-colors">Complete Luxury Guide</Link></li>
               <li><Link href="/guides/london-nightlife-international-visitors" className="text-sm text-warm-gray hover:text-gold transition-colors">International Visitors</Link></li>
               <li><Link href="/guides/dinner-and-nightclub-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Dinner &amp; Nightclub</Link></li>
-              <li><Link href="/guides/celebrity-clubs-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Celebrity Clubs</Link></li>
               <li><Link href="/guides/corporate-entertainment-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Corporate Entertainment</Link></li>
               <li><Link href="/guides/what-to-wear-london-clubs" className="text-sm text-warm-gray hover:text-gold transition-colors">What to Wear</Link></li>
               <li><Link href="/blog" className="text-sm text-warm-gray hover:text-gold transition-colors">Blog</Link></li>
@@ -55,7 +58,25 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-dark-border mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-dark-border mt-12 pt-8 pb-8">
+          <h4 className="text-sm font-semibold text-cream uppercase tracking-wider mb-4">Our Network</h4>
+          <div className="flex flex-wrap gap-x-8 gap-y-2">
+            <a href={ECOSYSTEM.bottleService.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
+              {ECOSYSTEM.bottleService.name} &mdash; VIP Table Bookings
+            </a>
+            <a href={ECOSYSTEM.mayfairTonight.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
+              {ECOSYSTEM.mayfairTonight.name} &mdash; Tonight&apos;s Events
+            </a>
+            <a href={ECOSYSTEM.londonBirthdayClub.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
+              {ECOSYSTEM.londonBirthdayClub.name} &mdash; Birthday Packages
+            </a>
+            <a href={ECOSYSTEM.londonClubsTonight.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
+              {ECOSYSTEM.londonClubsTonight.name} &mdash; What&apos;s On
+            </a>
+          </div>
+        </div>
+
+        <div className="border-t border-dark-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-warm-gray">
             &copy; {new Date().getFullYear()} London Luxury Nightlife. All rights reserved.
           </p>

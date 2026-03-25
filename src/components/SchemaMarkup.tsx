@@ -117,3 +117,54 @@ export function WebSiteSchema() {
     />
   );
 }
+
+interface BreadcrumbItem {
+  name: string;
+  href: string;
+}
+
+export function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      ...items.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 2,
+        name: item.name,
+        item: `${SITE_URL}${item.href}`,
+      })),
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function SiteNavigationSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    name: "Main Navigation",
+    url: SITE_URL,
+    hasPart: [
+      { "@type": "WebPage", name: "Luxury Clubs", url: `${SITE_URL}/luxury-nightclubs-london` },
+      { "@type": "WebPage", name: "Nightlife Guide", url: `${SITE_URL}/london-nightlife-guide` },
+      { "@type": "WebPage", name: "Celebrity Clubs", url: `${SITE_URL}/celebrity-nightclubs-london` },
+      { "@type": "WebPage", name: "Blog", url: `${SITE_URL}/blog` },
+      { "@type": "WebPage", name: "Plan Your Night", url: `${SITE_URL}/contact` },
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

@@ -13,6 +13,13 @@ const guideSlugs = [
   "what-to-wear-london-clubs",
 ];
 
+const pillarSlugs = [
+  "luxury-nightclubs-london",
+  "london-nightlife-guide",
+  "celebrity-nightclubs-london",
+  "how-to-get-into-tape-london",
+];
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const clubPages: MetadataRoute.Sitemap = clubs.map((club) => ({
     url: `${BASE_URL}/clubs/${club.slug}`,
@@ -43,6 +50,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  const pillarPages: MetadataRoute.Sitemap = pillarSlugs.map((slug) => ({
+    url: `${BASE_URL}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.95,
+  }));
+
   return [
     {
       url: BASE_URL,
@@ -50,6 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 1.0,
     },
+    ...pillarPages,
     ...clubPages,
     ...closedClubPages,
     ...guidePages,

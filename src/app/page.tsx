@@ -45,24 +45,24 @@ export const metadata: Metadata = {
 
 const guides = [
   {
-    title: "The Complete Guide to London\u2019s Luxury Nightlife",
+    title: "Luxury Nightclubs in London",
     description:
-      "Everything you need to know about the city\u2019s most exclusive venues, from table minimums to the unwritten rules that separate insiders from outsiders.",
-    href: "/guides/complete-guide-london-luxury-nightlife",
-    label: "Read the full guide",
+      "The definitive guide to London\u2019s most exclusive clubs. What makes a venue truly luxury, the tiers of exclusivity, and which rooms justify the spend.",
+    href: "/luxury-nightclubs-london",
+    label: "Explore luxury clubs",
   },
   {
-    title: "London Nightlife for International Visitors",
+    title: "London Nightlife Guide",
     description:
-      "Flying in for the weekend? Our visitor\u2019s guide covers the essentials: which nights to target, where to stay for easy access to Mayfair, and how to navigate the door.",
-    href: "/guides/london-nightlife-international-visitors",
-    label: "Plan your visit",
+      "The complete insider\u2019s guide to going out in London. From Mayfair luxury to Soho\u2019s creative underground \u2014 everything you need to know.",
+    href: "/london-nightlife-guide",
+    label: "Read the guide",
   },
   {
-    title: "Celebrity Clubs: Where London\u2019s Famous Faces Go",
+    title: "Celebrity Nightclubs in London",
     description:
-      "A look at the venues that genuinely attract high-profile clientele \u2014 and how the best clubs keep things discreet enough that they keep coming back.",
-    href: "/guides/celebrity-clubs-london",
+      "Which clubs do celebrities actually go to? An insider\u2019s guide to the venues where A-listers, musicians, and athletes spend their nights.",
+    href: "/celebrity-nightclubs-london",
     label: "See the clubs",
   },
   {
@@ -75,9 +75,23 @@ const guides = [
   {
     title: "Dinner & Nightclub: The Perfect London Evening",
     description:
-      "The best evenings in London start at the table. Our guide to pairing world-class restaurants with the right club for a seamless night that builds from first course to last call.",
+      "The best evenings in London start at the table. Our guide to pairing world-class restaurants with the right club for a seamless night.",
     href: "/guides/dinner-and-nightclub-london",
     label: "Plan your evening",
+  },
+  {
+    title: "London Nightlife for International Visitors",
+    description:
+      "Flying in for the weekend? Our visitor\u2019s guide covers the essentials: which nights to target, where to stay, and how to navigate the door.",
+    href: "/guides/london-nightlife-international-visitors",
+    label: "Plan your visit",
+  },
+  {
+    title: "How to Get Into Tape London",
+    description:
+      "The complete entry guide to Mayfair\u2019s most exclusive club. Guestlist strategies, door policy decoded, best nights, and what the team is really looking for.",
+    href: "/how-to-get-into-tape-london",
+    label: "Read the entry guide",
   },
   {
     title: "Corporate Entertainment & Client Nights",
