@@ -18,6 +18,28 @@ const pillarSlugs = [
   "london-nightlife-guide",
   "celebrity-nightclubs-london",
   "how-to-get-into-tape-london",
+  "exclusive-clubs-london",
+  "vip-nightlife-london",
+];
+
+const editorialSlugs = [
+  "london-club-dress-code-guide",
+  "guestlist-vs-table-booking-london",
+  "how-london-nightclub-door-policy-works",
+  "best-hip-hop-clubs-london",
+  "best-house-music-clubs-london",
+  "where-celebrities-party-in-london",
+  "best-nightclubs-for-high-spenders-london",
+  "how-to-plan-a-luxury-night-out-in-london",
+];
+
+const clubGuideSlugs = [
+  "tape-london-guide",
+  "cirque-le-soir-guide",
+  "reign-london-guide",
+  "selene-london-guide",
+  "maddox-club-guide",
+  "the-box-london-guide",
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -57,6 +79,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.95,
   }));
 
+  const editorialPages: MetadataRoute.Sitemap = editorialSlugs.map((slug) => ({
+    url: `${BASE_URL}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  const clubGuidePages: MetadataRoute.Sitemap = clubGuideSlugs.map((slug) => ({
+    url: `${BASE_URL}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
+
   return [
     {
       url: BASE_URL,
@@ -65,6 +101,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1.0,
     },
     ...pillarPages,
+    ...editorialPages,
+    ...clubGuidePages,
     ...clubPages,
     ...closedClubPages,
     ...guidePages,
