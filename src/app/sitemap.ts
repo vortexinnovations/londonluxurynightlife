@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { clubs } from "@/lib/constants";
+import { blogPosts } from "@/lib/blog-data";
 
 const BASE_URL = "https://londonluxurynightlife.com";
 
@@ -27,6 +28,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.9,
   }));
 
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.modifiedDate),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: BASE_URL,
@@ -36,6 +44,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     ...clubPages,
     ...guidePages,
+    {
+      url: `${BASE_URL}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...blogPages,
     {
       url: `${BASE_URL}/contact`,
       lastModified: new Date(),

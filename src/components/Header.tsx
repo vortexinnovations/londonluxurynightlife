@@ -6,7 +6,7 @@ import { whatsappLink, WA_GENERAL_MESSAGE } from "@/lib/constants";
 
 const navLinks = [
   { href: "/guides/complete-guide-london-luxury-nightlife", label: "Nightlife Guide" },
-  { href: "/guides/london-nightlife-international-visitors", label: "Visitors" },
+  { href: "/blog", label: "Blog" },
   { href: "/guides/celebrity-clubs-london", label: "Celebrity Clubs" },
   { href: "/guides/what-to-wear-london-clubs", label: "Dress Code" },
   { href: "/contact", label: "Plan Your Night" },

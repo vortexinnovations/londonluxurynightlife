@@ -24,6 +24,7 @@ export default function Footer() {
               <li><Link href="/guides/celebrity-clubs-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Celebrity Clubs</Link></li>
               <li><Link href="/guides/corporate-entertainment-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Corporate Entertainment</Link></li>
               <li><Link href="/guides/what-to-wear-london-clubs" className="text-sm text-warm-gray hover:text-gold transition-colors">What to Wear</Link></li>
+              <li><Link href="/blog" className="text-sm text-warm-gray hover:text-gold transition-colors">Blog</Link></li>
             </ul>
           </div>
 
