@@ -173,7 +173,7 @@ export default function MaddoxPage() {
           jackets preferred for gentlemen. This is not the place for
           streetwear or fashion-forward experimentation. Think Italian
           refinement. Think well-tailored. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">dress code guide</Link>{" "}
+          <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           has specific recommendations, and our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide

@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Celebrity Nightclubs in London | Where the Famous Go Out in 2025",
+    "Celebrity Nightclubs London: Where A-Listers Actually Go",
   description:
-    "Which London nightclubs do celebrities actually go to? An insider's guide to the clubs where A-listers, musicians, athletes, and influencers spend their nights — and what to expect if you go.",
+    "Which London clubs do celebrities genuinely choose — not where PR says they go. Insider ranking by real celebrity frequency, privacy, and VVIP access.",
   keywords:
     "celebrity nightclubs London, celebrity clubs London, where do celebrities go out London, famous people clubs London, celebrity nightlife London, A-list clubs London",
   openGraph: {

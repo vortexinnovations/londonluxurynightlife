@@ -153,7 +153,7 @@ export default function MayfairVsShoreditchPage() {
           Afrobeats, and the occasional commercial house track. If you want to
           hear Drake, Burna Boy, and Usher in the same set, Mayfair delivers.
           Read our guide to the{" "}
-          <Link href="/blog/best-clubs-london-hip-hop-rnb">
+          <Link href="/best-hip-hop-clubs-london">
             best clubs for hip-hop and R&amp;B
           </Link>{" "}
           for specific recommendations.
@@ -307,7 +307,7 @@ export default function MayfairVsShoreditchPage() {
             </Link>
           </li>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs in London for Hip-Hop and R&amp;B
             </Link>
           </li>
@@ -317,7 +317,7 @@ export default function MayfairVsShoreditchPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Top Clubs
             </Link>
           </li>

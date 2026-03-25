@@ -121,7 +121,7 @@ export default function TheBoxLondonPage() {
           avant-garde designer pieces alongside others in carefully curated
           vintage. The common thread is confidence and a willingness to
           participate in the atmosphere rather than simply observe it. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear at London clubs
           </Link>{" "}
           covers the nuances, but at The Box, individuality is the only rule

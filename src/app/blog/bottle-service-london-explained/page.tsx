@@ -284,7 +284,7 @@ export default function BottleServiceLondonExplainedPage() {
           <li>
             <strong>Ignoring the dress code.</strong> Bottle service does not
             exempt you from{" "}
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               dress code requirements
             </Link>
             . Trainers, casual wear, and sportswear will get you turned away
@@ -396,7 +396,7 @@ export default function BottleServiceLondonExplainedPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Best Clubs
             </Link>
           </li>

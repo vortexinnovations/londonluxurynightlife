@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "How to Plan a Luxury Night Out in London | The Complete Itinerary Guide",
+    "Plan a Luxury Night Out in London: Hour by Hour",
   description:
-    "The definitive planning guide for a luxury evening in London. From 7pm cocktails through dinner to the best clubs — timeline, transport, budgets, dress codes, and every detail that separates a great night from a wasted one.",
+    "The complete luxury evening timeline: 7pm cocktails to 3am close. Restaurants near Mayfair, transport, dress code prep, and the booking strategy.",
   keywords:
     "how to plan a luxury night out london, plan luxury evening london, luxury night out london itinerary, perfect night out london, london luxury evening guide, mayfair night out planning",
   openGraph: {
@@ -324,7 +324,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           Trainers are refused at most Mayfair venues regardless of their
           price. For women, cocktail or evening attire is the standard, with
           heels preferred but not mandated. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             detailed dress code guide
           </Link>{" "}
           covers every venue&apos;s specific requirements.
@@ -505,7 +505,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Best Clubs
             </Link>
           </li>

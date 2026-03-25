@@ -102,7 +102,7 @@ export default function LunaClubLondonPage() {
           getting in becomes a performance in itself. If you are dressed well
           and carry yourself with the right energy, Luna will welcome you. For
           specific guidance on what to wear, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear at London clubs
           </Link>{" "}
           covers the expectations at contemporary Mayfair venues in detail.

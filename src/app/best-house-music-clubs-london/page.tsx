@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best House Music Clubs in London | Deep House, Tech House & Electronic Nightlife",
+    "Best House Music Clubs London: Where to Hear It",
   description:
-    "The definitive guide to London's best house music clubs. From Maddox's dinner-to-dance transition to BEAT London's audiophile sound — every venue where house music is taken seriously.",
+    "London's best house music venues from Mayfair deep house to Fitzrovia sound systems. Maddox, Cuckoo Club, BEAT London — where the sound matters most.",
   keywords:
     "best house music clubs london, house music clubs london, deep house clubs london, house music london nightlife, tech house clubs london, electronic music clubs london",
   openGraph: {

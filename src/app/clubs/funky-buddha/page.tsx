@@ -167,7 +167,7 @@ export default function FunkyBuddhaPage() {
           off-limits, but beyond that, the crowd here dresses with an
           individuality that reflects the eclectic music policy. For detailed
           guidance, consult our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear at London clubs
           </Link>
           .

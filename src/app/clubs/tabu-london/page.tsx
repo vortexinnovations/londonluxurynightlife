@@ -165,7 +165,7 @@ export default function TabuLondonPage() {
           considered outfits work best here. Think about how you would dress
           for an evening in Roppongi, not a night in Mayfair, and you will be
           on the right track. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">dress code guide</Link>{" "}
+          <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           covers the essentials.
         </p>
 

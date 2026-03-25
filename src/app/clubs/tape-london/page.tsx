@@ -149,7 +149,7 @@ export default function TapeLondonPage() {
           considered, but leave the three-piece suit at home. The crowd dresses
           like people who spend real money on clothes but do not need to prove
           it. For more detail, read our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear at London clubs
           </Link>
           .

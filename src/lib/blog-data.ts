@@ -25,18 +25,6 @@ export const blogPosts: BlogPost[] = [
     keywords: ["Mayfair night out cost", "how much bottle service London", "London club prices", "Mayfair club minimum spend"],
   },
   {
-    slug: "best-clubs-london-hip-hop-rnb",
-    title: "The Best Clubs in London for Hip-Hop and RnB",
-    metaTitle: "Best Hip-Hop & RnB Clubs in London | 2025 Insider Guide",
-    metaDescription: "An insider's ranking of the best hip-hop and RnB clubs in London — from Mayfair's elite VIP rooms to high-energy dancefloors that deliver every weekend.",
-    excerpt: "London's hip-hop scene is concentrated in Mayfair, but not every club gets it right. Here's where the sound, the crowd, and the energy actually align.",
-    category: "Music",
-    publishDate: "2025-02-01",
-    modifiedDate: "2025-03-01",
-    readTime: "7 min read",
-    keywords: ["hip hop clubs London", "RnB clubs London", "best hip hop nights London", "London clubs hip hop music"],
-  },
-  {
     slug: "bottle-service-london-explained",
     title: "Bottle Service in London Explained: What You Actually Get",
     metaTitle: "Bottle Service in London Explained | What It Costs & How It Works",

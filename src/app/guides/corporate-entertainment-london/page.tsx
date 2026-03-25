@@ -392,7 +392,7 @@ export default function CorporateEntertainmentPage() {
           leather shoes, open-collar shirt. For women, business evening wear
           — a smart dress, tailored separates, or an elevated version of
           office attire. Consult our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete dress code guide
           </Link>{" "}
           for venue-specific detail.

@@ -240,7 +240,7 @@ export default function NewYearsEveLondonGuidePage() {
           women, floor-length gowns, sequins, and statement pieces are entirely
           appropriate. For men, a well-cut suit is the minimum — consider a
           dinner jacket or tuxedo at the more upscale venues. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete dress code guide
           </Link>{" "}
           covers the fundamentals, but for NYE, push everything one level higher.
@@ -342,7 +342,7 @@ export default function NewYearsEveLondonGuidePage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Luxury Clubs
             </Link>
           </li>

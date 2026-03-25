@@ -161,7 +161,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           the difference between someone who has thought about their outfit and
           someone who simply put on their work clothes. For a broader overview
           of London club dress codes, see our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             what to wear guide
           </Link>
           .
@@ -267,7 +267,7 @@ export default function TheBoxLondonWhatToExpectPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Top Clubs
             </Link>
           </li>

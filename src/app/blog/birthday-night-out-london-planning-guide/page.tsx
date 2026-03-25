@@ -222,7 +222,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           not rely on people reading the club&apos;s website — send specific
           guidance. No trainers, no sportswear, smart shoes required. For
           detailed advice, point the group to our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             what to wear guide
           </Link>
           . If someone in the group is resistant to dressing up, address it
@@ -389,7 +389,7 @@ export default function BirthdayNightOutLondonGuidePage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Luxury Clubs
             </Link>
           </li>

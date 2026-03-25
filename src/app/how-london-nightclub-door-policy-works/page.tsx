@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "How London Nightclub Door Policy Works | Entry Rules Explained",
+    "London Club Door Policy: How It Really Works",
   description:
-    "Demystifying London's nightclub door policies. Why doors are selective, what they look for, group composition rules, the promoter system, worst mistakes, and venue-by-venue strictness rankings.",
+    "Why London clubs turn people away and what they're actually looking for. Group composition, dress standards, the promoter system, and how to get in.",
   keywords:
     "london nightclub door policy, london club door policy, how to get into london clubs, london club entry rules, london nightclub entry, london club bouncers",
   openGraph: {

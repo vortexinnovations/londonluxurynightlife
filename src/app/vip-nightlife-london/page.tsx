@@ -5,9 +5,9 @@ import { ECOSYSTEM } from "@/lib/ecosystem";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VIP Nightlife London | What VIP Actually Means at London Clubs",
+  title: "VIP Nightlife London: What Your Money Actually Gets",
   description:
-    "What VIP really means in London nightlife — beyond the velvet rope. Table service explained, VIP vs VVIP, which venues deliver the best experience, and how to book properly.",
+    "What VIP really means in London clubs — beyond the velvet rope. Table service, VVIP tiers, premium bottles, and whether the upgrade is worth it.",
   keywords:
     "vip nightlife london, vip night out london, vip clubs london, vip experience london, vip table service london, vip nightclub london",
   openGraph: {

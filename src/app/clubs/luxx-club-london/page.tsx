@@ -8,9 +8,10 @@ const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Luxx Club London Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Luxx Club London (Permanently Closed) | Find Alternative Clubs",
   description:
-    "Luxx Club London is permanently closed. Read our honest Luxx Club London review from nightlife insiders. Discover what the Luxx Club experience was really like inside, and find alternative clubs still open.",
+    "Luxx Club London has permanently closed. Discover what made this LED-themed Mayfair venue unique and find the best alternative clubs still open.",
+  robots: { index: false, follow: true },
 };
 
 export default function LuxxClubLondonPage() {
@@ -161,7 +162,7 @@ export default function LuxxClubLondonPage() {
           Smart dress is required with no casual wear. The venue&apos;s visual
           drama rewards guests who dress with similar intention. Dark
           clothing shows beautifully under the LED lighting. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">dress code guide</Link>{" "}
+          <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           has more specific recommendations.
         </p>
 

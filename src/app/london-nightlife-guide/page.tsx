@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Nightlife Guide 2025 | The Complete Insider's Guide to Going Out",
+    "London Nightlife Guide 2026: Mayfair, Soho and Beyond",
   description:
-    "The ultimate London nightlife guide for 2025. From luxury Mayfair clubs to Soho's creative scene, this insider's guide covers everything you need to know about going out in London.",
+    "The complete London nightlife guide. Where to go, what to wear, when to arrive, and how much to spend — from first-timers to seasoned visitors.",
   keywords:
     "London nightlife guide, London nightlife, guide to London nightlife, London clubs guide, going out in London, London nightlife 2025, best nightlife London",
   openGraph: {
@@ -194,7 +194,7 @@ export default function LondonNightlifeGuidePage() {
           and smart shoes for men; cocktail-appropriate attire for women.
           No sportswear, no trainers, no casual denim. Soho venues like
           The Box allow more creative expression. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           covers every venue specifically.

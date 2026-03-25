@@ -206,7 +206,7 @@ export default function ReignLondonPage() {
           Dress code is smart and glamorous. Heels for ladies, sharp tailoring
           for gentlemen. Reign is a venue that rewards those who make an effort,
           and the crowd sets a high standard. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to dressing for London clubs
           </Link>{" "}
           has detailed advice. If you are planning to combine dinner with your

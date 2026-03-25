@@ -8,9 +8,10 @@ const club = closedClubs.find((c) => c.slug === "lio-club-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Lio Club London Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Lio Club London (Permanently Closed) | Find Alternative Venues",
   description:
-    "Lio Club London is permanently closed. Read our honest Lio Club London review from London nightlife insiders. Discover what the Lio Club London experience was really like, and find alternative venues still open.",
+    "Lio Club London has permanently closed. Discover what made this gourmet dining-meets-nightlife venue special and find the best alternatives still open.",
+  robots: { index: false, follow: true },
 };
 
 export default function LioClubLondonReview() {

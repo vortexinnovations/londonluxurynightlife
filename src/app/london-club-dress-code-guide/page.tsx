@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Club Dress Code Guide | What to Wear to London Nightclubs",
+    "London Club Dress Code: What Actually Gets You In",
   description:
-    "The definitive dress code guide for London's best nightclubs. Men's and women's guides, venue-by-venue strictness tiers, Mayfair expectations, common mistakes, and the jeans grey area explained.",
+    "Mayfair dress codes decoded with specific advice per venue. What to wear, what gets you turned away, and why the jeans question depends on which club.",
   keywords:
     "london club dress code, dress code london clubs, what to wear london nightclub, mayfair club dress code, london nightclub dress code men, london nightclub dress code women",
   openGraph: {
@@ -88,7 +88,7 @@ export default function LondonClubDressCodeGuidePage() {
           visiting London for the first time or simply tired of guessing,
           this is the only guide you need. For even deeper detail on specific
           items and seasonal considerations, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete wardrobe guide
           </Link>{" "}
           goes further.
@@ -310,7 +310,7 @@ export default function LondonClubDressCodeGuidePage() {
 
         <ul>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London Clubs: The Complete Wardrobe Guide
             </Link>
           </li>

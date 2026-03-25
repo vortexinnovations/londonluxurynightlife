@@ -236,7 +236,7 @@ export default function FunkyBuddhaLondonReviewPage() {
         <p>
           Dress code is smart and firmly enforced. No trainers, no sportswear,
           no casual denim. For specifics, consult our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>
           .
@@ -256,7 +256,7 @@ export default function FunkyBuddhaLondonReviewPage() {
             </Link>
           </li>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs in London for Hip-Hop and R&amp;B
             </Link>
           </li>

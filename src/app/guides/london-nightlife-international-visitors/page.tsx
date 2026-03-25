@@ -404,7 +404,7 @@ export default function LondonNightlifeInternationalVisitors() {
             complete guide to London luxury nightlife
           </Link>
           . For dress code specifics, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear
           </Link>{" "}
           covers every venue. And if you want someone to handle the planning

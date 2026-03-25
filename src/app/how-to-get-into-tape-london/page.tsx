@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "How to Get Into Tape London | Guestlist, Door Policy & Entry Guide",
+    "How to Get Into Tape London: Entry Guide 2026",
   description:
-    "The complete guide to getting into Tape London — Mayfair's most exclusive nightclub. Guestlist tips, table booking advice, door policy, what to wear, and the best nights to visit.",
+    "The complete guide to Mayfair's most selective door. Guestlist routes, table booking strategy, dress code decoded, and what the door team actually wants.",
   keywords:
     "how to get into Tape London, Tape London guestlist, Tape London door policy, Tape London entry, Tape London table booking, Tape London dress code",
   openGraph: {
@@ -178,7 +178,7 @@ export default function HowToGetIntoTapeLondonPage() {
         <p>
           For specific advice on dressing for Tape and every other London
           club, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           covers everything in detail.
@@ -276,7 +276,7 @@ export default function HowToGetIntoTapeLondonPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Exclusive Clubs
             </Link>
           </li>

@@ -105,7 +105,7 @@ export default function SeleneLondonPage() {
           atmosphere rather than disrupt it. Groups that arrive with the right
           energy and appropriate attire will find a warm welcome. For guidance
           on meeting the expectations, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             guide to what to wear at London clubs
           </Link>{" "}
           provides detailed recommendations for venues with this level of

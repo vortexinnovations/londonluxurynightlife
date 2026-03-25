@@ -158,7 +158,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
             </Link>
           </li>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs in London for Hip-Hop and R&amp;B
             </Link>
           </li>
@@ -168,7 +168,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Exclusive Clubs
             </Link>
           </li>

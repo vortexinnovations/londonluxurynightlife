@@ -293,7 +293,7 @@ export default function DinnerAndNightclubPage() {
           to work seamlessly for both, which means dressing for the stricter
           of the two environments — invariably, the club. For detailed
           guidance, read our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete dress code guide
           </Link>
           .

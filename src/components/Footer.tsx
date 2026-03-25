@@ -26,7 +26,7 @@ export default function Footer() {
               <li><Link href="/guides/london-nightlife-international-visitors" className="text-sm text-warm-gray hover:text-gold transition-colors">International Visitors</Link></li>
               <li><Link href="/guides/dinner-and-nightclub-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Dinner &amp; Nightclub</Link></li>
               <li><Link href="/guides/corporate-entertainment-london" className="text-sm text-warm-gray hover:text-gold transition-colors">Corporate Entertainment</Link></li>
-              <li><Link href="/guides/what-to-wear-london-clubs" className="text-sm text-warm-gray hover:text-gold transition-colors">What to Wear</Link></li>
+              <li><Link href="/london-club-dress-code-guide" className="text-sm text-warm-gray hover:text-gold transition-colors">What to Wear</Link></li>
               <li><Link href="/blog" className="text-sm text-warm-gray hover:text-gold transition-colors">Blog</Link></li>
             </ul>
           </div>
@@ -81,6 +81,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} London Luxury Nightlife. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
+            <Link href="/about" className="text-xs text-warm-gray hover:text-gold transition-colors">
+              About
+            </Link>
             <Link href="/contact" className="text-xs text-warm-gray hover:text-gold transition-colors">
               Contact
             </Link>

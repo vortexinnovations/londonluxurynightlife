@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best Hip Hop Clubs in London | Where to Find Real RnB & Hip-Hop Nights",
+    "Best Hip-Hop Clubs London 2026: Ranked by Insiders",
   description:
-    "The insider's guide to London's best hip-hop and RnB clubs. From Tape London's curated exclusivity to Funky Buddha's enduring legacy — every venue worth your night, ranked and reviewed.",
+    "London's best hip-hop and R&B clubs ranked by music quality, not marketing spend. From Tape's credibility to Funky Buddha's consistency.",
   keywords:
     "best hip hop clubs london, hip hop clubs london, rnb clubs london, hip hop nightlife london, best rnb nights london, hip hop mayfair clubs, london hip hop venues",
   openGraph: {
@@ -354,7 +354,7 @@ export default function BestHipHopClubsLondonPage() {
 
         <ul>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs for Hip-Hop and RnB in London (Blog)
             </Link>
           </li>

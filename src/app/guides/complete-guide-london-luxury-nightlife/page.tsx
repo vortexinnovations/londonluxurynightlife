@@ -5,9 +5,9 @@ import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Complete Guide to London's Luxury Nightlife | Expert Insider's Guide",
+  title: "London Luxury Nightlife: The Complete 2026 Guide",
   description:
-    "The definitive London nightlife guide covering Mayfair's exclusive clubs, VIP table booking, dress codes, bottle service, and everything you need to plan a luxury night out in London.",
+    "Every club, every dress code, every unwritten rule. The only London nightlife guide you need — from Mayfair geography to bottle service mechanics.",
   keywords:
     "London nightlife guide, guide to clubbing in London, London clubs guide for tourists, best nightlife London, Mayfair clubs, luxury nightlife London",
 };
@@ -252,7 +252,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           slightly more formal and prefer jackets for gentlemen, while{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           allows for more individuality. For a deep dive on this, read our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete dress code guide
           </Link>
           .

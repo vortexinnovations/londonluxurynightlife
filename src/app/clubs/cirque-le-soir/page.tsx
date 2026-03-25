@@ -165,7 +165,7 @@ export default function CirqueLeSoirPage() {
           Dress code is smart and glamorous. Think statement outfits rather
           than boardroom formality. This is a place where sequins and bold
           choices are rewarded. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">dress code guide</Link>{" "}
+          <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           has specific advice for Cirque and similar theatrical venues.
         </p>
 

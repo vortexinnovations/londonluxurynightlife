@@ -312,7 +312,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Best Clubs
             </Link>
           </li>

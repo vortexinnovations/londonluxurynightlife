@@ -107,7 +107,7 @@ export default function CuckooClubMayfairPage() {
           <Link href="/clubs/maddox">Maddox</Link>, less creative than{" "}
           <Link href="/clubs/the-box-london">The Box</Link>, solidly in the
           Mayfair mainstream. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           has specific advice. Table bookings are recommended on Friday and
@@ -156,7 +156,7 @@ export default function CuckooClubMayfairPage() {
             </Link>
           </li>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs in London for Hip-Hop and R&amp;B
             </Link>
           </li>

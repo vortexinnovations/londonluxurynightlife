@@ -8,9 +8,10 @@ const club = closedClubs.find((c) => c.slug === "libertine")!;
 
 export const metadata: Metadata = {
   title:
-    "Libertine Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Libertine London (Permanently Closed) | Find Alternative Mayfair Clubs",
   description:
-    "Libertine is permanently closed. Read our honest Libertine review from nightlife insiders. Discover what the Libertine experience was really like inside this futuristic Mayfair venue, and find alternative clubs still open.",
+    "Libertine in Mayfair has permanently closed. Discover what made this futuristic venue special and find the best alternative clubs still open in London.",
+  robots: { index: false, follow: true },
 };
 
 export default function LibertinePage() {
@@ -163,7 +164,7 @@ export default function LibertinePage() {
           Dress code is smart and fashionable, no trainers. This is one of the
           few Mayfair clubs where underdressing will genuinely stand out,
           because the crowd sets a high bar. Consult our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">dress code guide</Link>{" "}
+          <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           for recommendations.
         </p>
 

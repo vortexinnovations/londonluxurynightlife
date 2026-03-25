@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Celebrity Clubs in London | Where the Famous Go Out | London Luxury Nightlife",
+    "Celebrity Club Etiquette in London | How VIP Sections Really Work",
   description:
-    "An insider's guide to the London clubs that genuinely attract A-listers. Which venues celebrities actually choose, what to expect when you're there, and how to enjoy a celebrity-adjacent night out.",
+    "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.",
   keywords:
-    "celebrity clubs London, where do celebrities go out London, celebrity nightlife London, famous people clubs London",
+    "celebrity club etiquette London, VVIP section London clubs, celebrity nightlife etiquette, how VIP sections work London",
 };
 
 export default function CelebrityClubsPage() {
@@ -374,7 +374,7 @@ export default function CelebrityClubsPage() {
         <p>
           For dress code specifics — and these venues are strict — consult
           our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             complete dress code guide
           </Link>
           . Arriving underdressed is the fastest way to spend your evening

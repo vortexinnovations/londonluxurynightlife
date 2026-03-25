@@ -123,7 +123,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           recommended approach on Friday and Saturday. The dress code is
           smart glamorous — think event-worthy rather than smart casual.
           For specifics, our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           covers what works and what does not.
@@ -172,7 +172,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
             </Link>
           </li>
           <li>
-            <Link href="/blog/best-clubs-london-hip-hop-rnb">
+            <Link href="/best-hip-hop-clubs-london">
               Best Clubs in London for Hip-Hop and R&amp;B
             </Link>
           </li>

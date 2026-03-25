@@ -27,12 +27,23 @@ export function FAQSchema({ faqs }: { faqs: FAQItem[] }) {
   );
 }
 
+const ORGANIZATION = {
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: SITE_URL,
+  description: "Independent editorial authority on London's luxury nightlife. Every venue visited, no pay-to-play.",
+  sameAs: [
+    "https://londonbottleservice.com",
+    "https://mayfairtonight.com",
+  ],
+};
+
 export function ArticleSchema({
   title,
   description,
   slug,
   datePublished = "2025-01-15",
-  dateModified = "2025-03-01",
+  dateModified = "2026-03-25",
 }: {
   title: string;
   description: string;
@@ -48,16 +59,8 @@ export function ArticleSchema({
     url: `${SITE_URL}${slug}`,
     datePublished,
     dateModified,
-    author: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    author: ORGANIZATION,
+    publisher: ORGANIZATION,
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}${slug}`,

@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Luxury Nightclubs in London | The Definitive Guide to Exclusive VIP Clubs",
+    "Luxury Nightclubs London: Where Quality Meets Exclusivity",
   description:
-    "The insider's guide to London's most exclusive luxury nightclubs. Discover what makes a club truly premium, which venues deliver the best VIP experience, and how to access Mayfair's most selective doors.",
+    "London's finest nightclubs ranked by experience, not hype. Sound systems, service, crowds, and atmosphere — the insider's quality guide for 2026.",
   keywords:
     "luxury nightclubs London, exclusive clubs London, VIP nightclubs London, premium clubs London, best luxury clubs London, Mayfair nightclubs, high end clubs London",
   openGraph: {
@@ -313,7 +313,7 @@ export default function LuxuryNightclubsLondonPage() {
             complete cost breakdown
           </Link>{" "}
           covers every element of a luxury night out.{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             Dress code expectations
           </Link>{" "}
           vary by venue but the universal rule is effort and intentionality.

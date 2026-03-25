@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Guestlist vs Table Booking London | Which Should You Choose?",
+    "Guestlist vs Table Booking: Which to Choose in London",
   description:
-    "The definitive comparison of guestlist entry vs table bookings at London nightclubs. Cost breakdown, entry guarantees, pros and cons, and which venues require tables vs which work on guestlist.",
+    "The honest comparison: guestlist entry vs table booking at London clubs. Cost, guarantee of entry, which venues require tables, and when guestlist works.",
   keywords:
     "guestlist vs table booking london, london club guestlist, should i book a table london club, london nightclub table booking explained, london club table service, guestlist london nightclubs",
   openGraph: {

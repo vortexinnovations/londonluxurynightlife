@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Most Exclusive Clubs in London | The Definitive Insider Ranking",
+    "Most Exclusive Clubs in London: How to Get In",
   description:
-    "The honest ranking of London's most exclusive nightclubs. From Tape London to Funky Buddha — what makes a club genuinely exclusive, how selective the doors really are, and what it takes to get in.",
+    "London's most selective nightclubs ranked by door difficulty. Which venues actually turn people away, what the door team looks for, and how to get past them.",
   keywords:
     "exclusive clubs london, most exclusive clubs london, exclusive nightclubs london, hardest clubs to get into london, most exclusive nightclubs london, members clubs london nightlife",
   openGraph: {
@@ -288,7 +288,7 @@ export default function ExclusiveClubsLondonPage() {
           all-male groups at every venue on this list. Arrive before midnight
           for the best chance at doors that operate on a capacity basis.
           Dress with intention — the{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           covers every venue. And understand that attitude at the door is the

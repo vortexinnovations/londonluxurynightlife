@@ -182,7 +182,7 @@ export default function SaturdayNightMayfairGuidePage() {
           smart flats. Trainers, sportswear, casual denim, and anything that
           suggests you did not plan ahead will result in a polite refusal at
           the door. Our{" "}
-          <Link href="/guides/what-to-wear-london-clubs">
+          <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
           covers this in full detail.
@@ -274,7 +274,7 @@ export default function SaturdayNightMayfairGuidePage() {
             </Link>
           </li>
           <li>
-            <Link href="/guides/what-to-wear-london-clubs">
+            <Link href="/london-club-dress-code-guide">
               What to Wear to London&apos;s Top Clubs
             </Link>
           </li>

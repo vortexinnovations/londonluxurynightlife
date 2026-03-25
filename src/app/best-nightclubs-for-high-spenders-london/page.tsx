@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best Nightclubs for High Spenders in London | Luxury Bottle Service & VIP Tables",
+    "London Clubs for High Spenders: Where Big Budgets Go",
   description:
-    "Where to spend big in London's nightlife — and where your money actually delivers. The insider's guide to high-roller clubs, premium bottle service tiers, and how to maximise a significant budget.",
+    "Where serious money gets the best experience in London nightlife. Spend tiers, premium tables, dedicated hosting — maximise every pound.",
   keywords:
     "best clubs for high spenders london, luxury bottle service london, high roller clubs london, london clubs for big spenders, premium VIP tables london, high spend nightclubs london",
   openGraph: {

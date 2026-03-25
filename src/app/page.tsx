@@ -69,7 +69,7 @@ const guides = [
     title: "What to Wear to London\u2019s Best Clubs",
     description:
       "Dress codes in Mayfair are enforced, but rarely explained. We break down what each venue actually expects \u2014 and the mistakes that get people turned away.",
-    href: "/guides/what-to-wear-london-clubs",
+    href: "/london-club-dress-code-guide",
     label: "Read the dress code guide",
   },
   {

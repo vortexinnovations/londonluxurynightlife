@@ -8,9 +8,10 @@ const club = closedClubs.find((c) => c.slug === "ministry-of-sound")!;
 
 export const metadata: Metadata = {
   title:
-    "Ministry of Sound Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Ministry of Sound (Permanently Closed) | Find Alternative Venues",
   description:
-    "Ministry of Sound is permanently closed. Read our honest Ministry of Sound review from London nightlife insiders. Discover what the Ministry of Sound experience was really like, and find alternative venues still open.",
+    "Ministry of Sound has permanently closed. Discover what made this iconic electronic music institution legendary and find the best alternative venues still open.",
+  robots: { index: false, follow: true },
 };
 
 export default function MinistryOfSoundReview() {
