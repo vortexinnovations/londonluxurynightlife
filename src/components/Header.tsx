@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { whatsappLink, WA_GENERAL_MESSAGE } from "@/lib/constants";
-import MobileNav from "./MobileNav";
+import LazyMobileNav from "./LazyMobileNav";
 
 const navLinks = [
   { href: "/luxury-nightclubs-london", label: "Luxury Clubs" },
@@ -48,7 +48,7 @@ export default function Header() {
             </a>
           </div>
 
-          <MobileNav />
+          <LazyMobileNav />
         </div>
       </div>
     </header>
