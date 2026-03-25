@@ -29,6 +29,10 @@ const editorialSlugs = [
   "best-house-music-clubs-london",
   "best-nightclubs-for-high-spenders-london",
   "how-to-plan-a-luxury-night-out-in-london",
+  "romantic-nightlife-london-couples",
+  "london-vs-dubai-nightlife",
+  "london-vs-new-york-nightlife",
+  "london-vs-paris-nightlife",
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
