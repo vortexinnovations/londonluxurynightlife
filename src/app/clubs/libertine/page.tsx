@@ -1,16 +1,16 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 
-const club = clubs.find((c) => c.slug === "libertine")!;
+const club = closedClubs.find((c) => c.slug === "libertine")!;
 
 export const metadata: Metadata = {
   title:
     "Libertine Review | What It's Really Like Inside | London Luxury Nightlife",
   description:
-    "An honest Libertine review from nightlife insiders. Discover what the Libertine experience is really like, what is Libertine like inside, and why this futuristic Mayfair venue attracts London's most fashion-forward crowd.",
+    "Libertine is permanently closed. Read our honest Libertine review from nightlife insiders. Discover what the Libertine experience was really like inside this futuristic Mayfair venue, and find alternative clubs still open.",
 };
 
 export default function LibertinePage() {
@@ -24,9 +24,14 @@ export default function LibertinePage() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
-        ctaMessage={waClubMessage(club.name)}
-        ctaLabel="Book a Table at Libertine"
+        ctaMessage={WA_GENERAL_MESSAGE}
+        ctaLabel="Find an Alternative Venue"
       >
+        <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
+          <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
+          <p className="text-warm-gray text-sm">Libertine has permanently closed. This review is kept for reference. Looking for open venues? See our <Link href="/guides/complete-guide-london-luxury-nightlife">complete guide to London&apos;s luxury nightlife</Link> for current recommendations.</p>
+        </div>
+
         <div className="info-box">
           <p>
             <strong>Location:</strong> {club.location}
@@ -203,6 +208,33 @@ export default function LibertinePage() {
           modern. The {club.tablesFrom} minimum spend gets you into a room
           that most cities in the world would struggle to match, and on a good
           Saturday night, Libertine is as good as nightlife gets.
+        </p>
+        <h2>Libertine Has Closed — Where to Go Instead</h2>
+
+        <p>
+          Libertine is permanently closed, but London&apos;s luxury nightlife scene
+          continues to thrive. If you loved what Libertine offered, here are the
+          best alternatives currently open:
+        </p>
+
+        <ul>
+          <li>
+            <Link href="/clubs/tabu-london">TABU London</Link> — A design-forward
+            Mayfair venue with a bold aesthetic and fashion-conscious crowd that
+            captures a similar energy to what Libertine delivered.
+          </li>
+          <li>
+            <Link href="/clubs/selene-london">Selene London</Link> — A sleek,
+            modern Mayfair club with striking interiors and a sophisticated
+            atmosphere for those who appreciate cutting-edge venue design.
+          </li>
+        </ul>
+
+        <p>
+          For a full overview of what is currently open, see our{" "}
+          <Link href="/guides/complete-guide-london-luxury-nightlife">
+            complete guide to London&apos;s luxury nightlife
+          </Link>.
         </p>
       </ArticleLayout>
     </>

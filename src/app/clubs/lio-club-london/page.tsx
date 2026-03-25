@@ -1,16 +1,16 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 
-const club = clubs.find((c) => c.slug === "lio-club-london")!;
+const club = closedClubs.find((c) => c.slug === "lio-club-london")!;
 
 export const metadata: Metadata = {
   title:
     "Lio Club London Review | What It's Really Like Inside | London Luxury Nightlife",
   description:
-    "An honest Lio Club London review from London nightlife insiders. Discover what the Lio Club London experience is really like, from dinner shows to late-night dancing. What is Lio Club London like? Our complete review.",
+    "Lio Club London is permanently closed. Read our honest Lio Club London review from London nightlife insiders. Discover what the Lio Club London experience was really like, and find alternative venues still open.",
 };
 
 export default function LioClubLondonReview() {
@@ -24,9 +24,14 @@ export default function LioClubLondonReview() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
-        ctaMessage={waClubMessage("Lio Club London")}
-        ctaLabel="Book Lio Club London"
+        ctaMessage={WA_GENERAL_MESSAGE}
+        ctaLabel="Find an Alternative Venue"
       >
+        <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
+          <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
+          <p className="text-warm-gray text-sm">Lio Club London has permanently closed. This review is kept for reference. Looking for open venues? See our <Link href="/guides/complete-guide-london-luxury-nightlife">complete guide to London&apos;s luxury nightlife</Link> for current recommendations.</p>
+        </div>
+
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
           <p><strong>Music:</strong> {club.musicStyle}</p>
@@ -93,6 +98,34 @@ export default function LioClubLondonReview() {
         </p>
         <p>
           For those who want to experience Mayfair nightlife in a different register, <Link href="/clubs/dear-darling">Dear Darling</Link> offers cocktail-led sophistication without the dinner-show format, while <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> delivers a reliable two-floor party. If Lio&apos;s entertainment angle appeals but you want something edgier, <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> wraps its musical heritage in an intimate Mayfair setting. And for the complete opposite end of the spectrum, <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> proves that the greatest nights sometimes need nothing more than a sound system and a crowd.
+        </p>
+        <h2>Lio Club London Has Closed — Where to Go Instead</h2>
+
+        <p>
+          Lio Club London is permanently closed, but if you were looking for a
+          venue that combines dining, entertainment, and nightlife, these open
+          venues offer the best alternatives:
+        </p>
+
+        <ul>
+          <li>
+            <Link href="/clubs/maddox">Maddox</Link> — A refined Mayfair venue
+            offering a seamless dinner-to-club experience with excellent food,
+            live entertainment, and a vibrant late-night atmosphere.
+          </li>
+          <li>
+            <Link href="/clubs/reign-london">Reign London</Link> — A glamorous
+            entertainment-led venue with live performances, spectacular
+            production values, and the kind of showmanship that Lio fans will
+            appreciate.
+          </li>
+        </ul>
+
+        <p>
+          For a full overview of what is currently open, see our{" "}
+          <Link href="/guides/complete-guide-london-luxury-nightlife">
+            complete guide to London&apos;s luxury nightlife
+          </Link>.
         </p>
       </ArticleLayout>
     </>

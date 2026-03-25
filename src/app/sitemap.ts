@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { clubs } from "@/lib/constants";
+import { clubs, closedClubs } from "@/lib/constants";
 import { blogPosts } from "@/lib/blog-data";
 
 const BASE_URL = "https://londonluxurynightlife.com";
@@ -19,6 +19,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date(),
     changeFrequency: "monthly",
     priority: 0.8,
+  }));
+
+  // Closed club pages kept for SEO but lower priority
+  const closedClubPages: MetadataRoute.Sitemap = closedClubs.map((club) => ({
+    url: `${BASE_URL}/clubs/${club.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "yearly",
+    priority: 0.3,
   }));
 
   const guidePages: MetadataRoute.Sitemap = guideSlugs.map((slug) => ({
@@ -43,6 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1.0,
     },
     ...clubPages,
+    ...closedClubPages,
     ...guidePages,
     {
       url: `${BASE_URL}/blog`,

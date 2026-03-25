@@ -1,16 +1,16 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 
-const club = clubs.find((c) => c.slug === "luxx-club-london")!;
+const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 
 export const metadata: Metadata = {
   title:
     "Luxx Club London Review | What It's Really Like Inside | London Luxury Nightlife",
   description:
-    "An honest Luxx Club London review from nightlife insiders. Discover what the Luxx Club experience is really like, what is Luxx Club London like inside, and how its immersive light installations redefine the Mayfair clubbing experience.",
+    "Luxx Club London is permanently closed. Read our honest Luxx Club London review from nightlife insiders. Discover what the Luxx Club experience was really like inside, and find alternative clubs still open.",
 };
 
 export default function LuxxClubLondonPage() {
@@ -24,9 +24,14 @@ export default function LuxxClubLondonPage() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
-        ctaMessage={waClubMessage(club.name)}
-        ctaLabel="Book a Table at Luxx"
+        ctaMessage={WA_GENERAL_MESSAGE}
+        ctaLabel="Find an Alternative Venue"
       >
+        <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
+          <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
+          <p className="text-warm-gray text-sm">Luxx Club London has permanently closed. This review is kept for reference. Looking for open venues? See our <Link href="/guides/complete-guide-london-luxury-nightlife">complete guide to London&apos;s luxury nightlife</Link> for current recommendations.</p>
+        </div>
+
         <div className="info-box">
           <p>
             <strong>Location:</strong> {club.location}
@@ -204,6 +209,35 @@ export default function LuxxClubLondonPage() {
           performance. For visual people, for creative people, for anyone who
           believes a nightclub should stimulate more than just the ears, Luxx
           delivers.
+        </p>
+        <h2>Luxx Club Has Closed — Where to Go Instead</h2>
+
+        <p>
+          Luxx Club London is permanently closed, but if you were drawn to its
+          immersive, visually driven nightlife experience, these open venues
+          offer the closest alternatives:
+        </p>
+
+        <ul>
+          <li>
+            <Link href="/clubs/luna-club-london">Luna Club London</Link> — An
+            atmospheric Mayfair venue with striking visual design and an
+            immersive environment that carries forward the spirit of visually
+            ambitious nightlife.
+          </li>
+          <li>
+            <Link href="/clubs/selene-london">Selene London</Link> — A sleek,
+            design-led club with a modern aesthetic and sophisticated atmosphere
+            for those who appreciate venues where the setting is part of the
+            experience.
+          </li>
+        </ul>
+
+        <p>
+          For a full overview of what is currently open, see our{" "}
+          <Link href="/guides/complete-guide-london-luxury-nightlife">
+            complete guide to London&apos;s luxury nightlife
+          </Link>.
         </p>
       </ArticleLayout>
     </>

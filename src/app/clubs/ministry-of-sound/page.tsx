@@ -1,16 +1,16 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 
-const club = clubs.find((c) => c.slug === "ministry-of-sound")!;
+const club = closedClubs.find((c) => c.slug === "ministry-of-sound")!;
 
 export const metadata: Metadata = {
   title:
     "Ministry of Sound Review | What It's Really Like Inside | London Luxury Nightlife",
   description:
-    "An honest Ministry of Sound review from London nightlife insiders. Discover what the Ministry of Sound experience is really like, from the legendary sound system to the multiple rooms. What is Ministry of Sound like? Our complete guide.",
+    "Ministry of Sound is permanently closed. Read our honest Ministry of Sound review from London nightlife insiders. Discover what the Ministry of Sound experience was really like, and find alternative venues still open.",
 };
 
 export default function MinistryOfSoundReview() {
@@ -24,9 +24,14 @@ export default function MinistryOfSoundReview() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
-        ctaMessage={waClubMessage("Ministry of Sound")}
-        ctaLabel="Book Ministry of Sound"
+        ctaMessage={WA_GENERAL_MESSAGE}
+        ctaLabel="Find an Alternative Venue"
       >
+        <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
+          <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
+          <p className="text-warm-gray text-sm">Ministry of Sound has permanently closed. This review is kept for reference. Looking for open venues? See our <Link href="/guides/complete-guide-london-luxury-nightlife">complete guide to London&apos;s luxury nightlife</Link> for current recommendations.</p>
+        </div>
+
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
           <p><strong>Music:</strong> {club.musicStyle}</p>
@@ -96,6 +101,35 @@ export default function MinistryOfSoundReview() {
         </p>
         <p>
           If you are looking to complement a Ministry night with something from the other end of the London nightlife spectrum, <Link href="/clubs/lio-club-london">Lio Club London</Link> offers the glamorous dinner-show experience that Ministry deliberately avoids. <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> provides intimate Mayfair heritage with strong musical programming. And <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia shares Ministry&apos;s sound-system-first philosophy in a more compact, central setting.
+        </p>
+        <h2>Ministry of Sound Has Closed — Where to Go Instead</h2>
+
+        <p>
+          Ministry of Sound is permanently closed, but London still has venues
+          that prioritise sound quality and musical integrity. If you loved what
+          Ministry represented, these open venues offer the closest experiences:
+        </p>
+
+        <ul>
+          <li>
+            <Link href="/clubs/beat-london">BEAT London</Link> — A music-focused
+            venue in Fitzrovia that shares Ministry&apos;s sound-system-first
+            philosophy, delivering powerful audio in a more intimate setting
+            with serious electronic music programming.
+          </li>
+          <li>
+            <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> — A two-floor
+            Mayfair venue with a strong house music programme on its basement
+            dance floor, offering quality sound and a crowd that comes for the
+            music.
+          </li>
+        </ul>
+
+        <p>
+          For a full overview of what is currently open, see our{" "}
+          <Link href="/guides/complete-guide-london-luxury-nightlife">
+            complete guide to London&apos;s luxury nightlife
+          </Link>.
         </p>
       </ArticleLayout>
     </>
