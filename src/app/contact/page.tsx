@@ -19,27 +19,27 @@ export const metadata: Metadata = {
 const guides = [
   {
     title: "The Complete Guide to London Luxury Nightlife",
-    slug: "complete-guide-london-luxury-nightlife",
+    href: "/guides/complete-guide-london-luxury-nightlife",
   },
   {
     title: "Celebrity Clubs in London",
-    slug: "celebrity-clubs-london",
+    href: "/guides/celebrity-clubs-london",
   },
   {
     title: "Corporate Entertainment in London",
-    slug: "corporate-entertainment-london",
+    href: "/guides/corporate-entertainment-london",
   },
   {
     title: "Dinner & Nightclub Experiences",
-    slug: "dinner-and-nightclub-london",
+    href: "/guides/dinner-and-nightclub-london",
   },
   {
     title: "London Nightlife for International Visitors",
-    slug: "london-nightlife-international-visitors",
+    href: "/guides/london-nightlife-international-visitors",
   },
   {
-    title: "What to Wear to London Clubs",
-    slug: "what-to-wear-london-clubs",
+    title: "London Club Dress Code Guide",
+    href: "/london-club-dress-code-guide",
   },
 ];
 
@@ -192,8 +192,8 @@ export default function ContactPage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {guides.map((guide) => (
                 <Link
-                  key={guide.slug}
-                  href={`/guides/${guide.slug}`}
+                  key={guide.href}
+                  href={guide.href}
                   className="block bg-dark-surface border border-dark-border rounded-lg px-5 py-4 text-cream hover:text-gold hover:border-gold/30 transition-all text-sm font-medium text-left"
                 >
                   {guide.title}
