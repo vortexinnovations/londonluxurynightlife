@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -35,6 +36,8 @@ export default function BestHouseMusicClubsLondonPage() {
       <ArticleLayout
         title="Best House Music Clubs in London"
         subtitle="Where four-to-the-floor is not a compromise — it is the entire point"
+        heroImage={GUIDE_IMAGES["best-house-music-clubs-london"]}
+        heroAlt="House music club in London with DJ booth and immersive sound system"
       >
         <p>
           House music in London exists in two distinct worlds. There is the

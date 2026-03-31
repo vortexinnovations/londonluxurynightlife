@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
+import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "tabu-london")!;
 
@@ -24,6 +25,8 @@ export default function TabuLondonPage() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
+        heroImage={CLUB_IMAGES["tabu-london"]?.hero}
+        heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage(club.name)}
         ctaLabel="Book a Table at TABU"
       >

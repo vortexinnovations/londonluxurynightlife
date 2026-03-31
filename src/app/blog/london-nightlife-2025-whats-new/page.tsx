@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function LondonNightlife2025Page() {
       <ArticleLayout
         title="London Nightlife in 2025: What's New and What's Changed"
         subtitle="The current state of the scene — new openings, emerging trends, and what to expect this year"
+        heroImage={BLOG_IMAGES["london-nightlife-2025-whats-new"]}
+        heroAlt="Modern London nightclub interior showcasing 2025 design trends"
       >
         <p>
           London&apos;s nightlife in 2025 is in a genuinely strong position.

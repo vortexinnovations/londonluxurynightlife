@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
       <ArticleLayout
         title="How London Nightclub Door Policy Works"
         subtitle="Why London's doors are selective, what they actually look for, and how to maximise your chances at every venue"
+        heroImage={GUIDE_IMAGES["how-london-nightclub-door-policy-works"]}
+        heroAlt="London nightclub door policy with security and queue outside a Mayfair venue"
       >
         <p>
           London&apos;s nightclub door policies have a reputation for being

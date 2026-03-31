@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
       <ArticleLayout
         title="Scotch of St James: The History and Legacy of London's Most Storied Club"
         subtitle="From Jimi Hendrix to today — how one Mayfair basement became nightlife royalty"
+        heroImage={BLOG_IMAGES["scotch-of-st-james-history-legacy"]}
+        heroAlt="Scotch of St James intimate basement club atmosphere in Mayfair"
       >
         <p>
           There are venues in London with bigger rooms, louder sound systems,

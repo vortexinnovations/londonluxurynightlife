@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
 import { waClubMessage } from "@/lib/constants";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -59,6 +60,8 @@ export default function HowToGetIntoTapeLondonPage() {
       <ArticleLayout
         title="How to Get Into Tape London"
         subtitle="The complete guide to accessing Mayfair's most exclusive nightclub — from guestlist to table booking"
+        heroImage={GUIDE_IMAGES["how-to-get-into-tape-london"]}
+        heroAlt="Tape London nightclub entrance in Mayfair with exclusive door policy"
         ctaMessage={waClubMessage("Tape London")}
         ctaLabel="Book Tape London"
       >

@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function LuxuryNightclubsLondonPage() {
       <ArticleLayout
         title="Luxury Nightclubs in London"
         subtitle="What separates a genuinely exclusive club from one that simply charges more — and where to find the real thing"
+        heroImage={GUIDE_IMAGES["luxury-nightclubs-london"]}
+        heroAlt="Luxury nightclubs in London's Mayfair district with premium VIP interiors"
       >
         <p>
           London has hundreds of nightclubs. It has perhaps a dozen that

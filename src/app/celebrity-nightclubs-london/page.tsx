@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function CelebrityNightclubsLondonPage() {
       <ArticleLayout
         title="Celebrity Nightclubs in London"
         subtitle="Where the famous actually go out — not where marketing says they do"
+        heroImage={GUIDE_IMAGES["celebrity-nightclubs-london"]}
+        heroAlt="Celebrity nightclub in London with exclusive VVIP area and premium atmosphere"
       >
         <p>
           Every London nightclub claims celebrity connections. Most are

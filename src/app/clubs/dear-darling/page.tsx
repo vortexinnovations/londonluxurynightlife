@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
+import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "dear-darling")!;
 
@@ -24,6 +25,8 @@ export default function DearDarlingReview() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
+        heroImage={CLUB_IMAGES["dear-darling"]?.hero}
+        heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage("Dear Darling")}
         ctaLabel="Book Dear Darling"
       >

@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -67,6 +68,8 @@ export default function VIPNightlifeLondonPage() {
       <ArticleLayout
         title="VIP Nightlife London"
         subtitle="What VIP actually means at London's best clubs — and the difference between paying for a label and paying for an experience"
+        heroImage={GUIDE_IMAGES["vip-nightlife-london"]}
+        heroAlt="VIP table service at a premium London nightclub with champagne and bottle sparklers"
       >
         <p>
           VIP is the most overused term in London nightlife. Every venue with

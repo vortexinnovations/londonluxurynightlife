@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_CORPORATE_MESSAGE } from "@/lib/constants";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -56,6 +57,8 @@ export default function CorporateEntertainmentPage() {
       <ArticleLayout
         title="Corporate Entertainment & Client Nights in London's Best Clubs"
         subtitle="The professional's guide to hosting impressive client evenings in London's luxury nightlife venues"
+        heroImage={GUIDE_IMAGES["corporate-entertainment-london"]}
+        heroAlt="Corporate entertainment at a premium London nightclub with VIP table setup"
         ctaMessage={WA_CORPORATE_MESSAGE}
         ctaLabel="Plan a Corporate Evening"
       >

@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -62,6 +63,8 @@ export default function LondonNightlifeGuidePage() {
       <ArticleLayout
         title="London Nightlife Guide"
         subtitle="The complete insider's guide to going out in London — from luxury Mayfair to Soho's creative underground"
+        heroImage={GUIDE_IMAGES["london-nightlife-guide"]}
+        heroAlt="London nightlife scene across Mayfair and Soho with illuminated club venues"
       >
         <p>
           London&apos;s nightlife is the most diverse in the world. Not the

@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function ReignLondonShowclubExperiencePage() {
       <ArticleLayout
         title="Inside Reign London: Is the Showclub Experience Worth It?"
         subtitle="What it's really like inside Piccadilly's most theatrical night out — and who should book"
+        heroImage={BLOG_IMAGES["reign-london-showclub-experience"]}
+        heroAlt="Reign London showclub with aerial performers and live entertainment"
       >
         <p>
           <Link href="/clubs/reign-london">Reign London</Link> — formerly

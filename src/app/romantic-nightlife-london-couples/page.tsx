@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -75,6 +76,8 @@ export default function RomanticNightlifeLondonCouplesPage() {
       <ArticleLayout
         title="Romantic Nightlife in London"
         subtitle="The insider&rsquo;s guide to planning a date night that actually works — from venue selection to table positioning"
+        heroImage={GUIDE_IMAGES["romantic-nightlife-london-couples"]}
+        heroAlt="Romantic couples night out at an intimate London cocktail bar and nightclub"
       >
         <p>
           London nightlife was not designed for couples. It was designed for

@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function ExclusiveClubsLondonPage() {
       <ArticleLayout
         title="Most Exclusive Clubs in London"
         subtitle="What genuinely separates exclusive from merely expensive — and the honest ranking of who gets it right"
+        heroImage={GUIDE_IMAGES["exclusive-clubs-london"]}
+        heroAlt="Exclusive London nightclub entrance with doorman and velvet rope in Mayfair"
       >
         <p>
           Every club in Mayfair calls itself exclusive. Most of them are lying.

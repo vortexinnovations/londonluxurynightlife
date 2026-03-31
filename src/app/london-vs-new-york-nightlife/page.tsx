@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function LondonVsNewYorkNightlifePage() {
       <ArticleLayout
         title="London vs New York Nightlife"
         subtitle="The two cities that defined modern nightlife culture — compared honestly by someone who has spent years in both"
+        heroImage={GUIDE_IMAGES["london-vs-new-york-nightlife"]}
+        heroAlt="London versus New York nightlife comparison featuring iconic club scenes"
       >
         <p>
           London and New York are the only two cities with a legitimate

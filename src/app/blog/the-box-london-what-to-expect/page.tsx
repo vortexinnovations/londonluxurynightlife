@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -35,6 +36,8 @@ export default function TheBoxLondonWhatToExpectPage() {
       <ArticleLayout
         title="The Box London: What to Expect at London's Most Provocative Club"
         subtitle="An honest guide to the venue that makes every other nightclub in London look tame"
+        heroImage={BLOG_IMAGES["the-box-london-what-to-expect"]}
+        heroAlt="The Box Soho theatrical nightclub atmosphere"
       >
         <p>
           Every city has a venue that people talk about in lowered voices.

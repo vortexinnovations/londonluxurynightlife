@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function BestClubsMayfairCompleteRankingPage() {
       <ArticleLayout
         title="Every Mayfair Club Ranked: The Definitive Guide for 2025"
         subtitle="An honest ranking of every luxury nightclub in Mayfair — from established icons to the newest openings"
+        heroImage={BLOG_IMAGES["best-clubs-mayfair-complete-ranking"]}
+        heroAlt="Panoramic view of a premium Mayfair nightclub interior"
       >
         <p>
           Mayfair contains the highest concentration of luxury nightclubs in

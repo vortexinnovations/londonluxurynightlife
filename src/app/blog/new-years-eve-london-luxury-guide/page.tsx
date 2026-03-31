@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function NewYearsEveLondonGuidePage() {
       <ArticleLayout
         title="New Year's Eve in London: The Ultimate Luxury NYE Guide"
         subtitle="How to ring in the new year in style — and avoid the overpriced disappointments"
+        heroImage={BLOG_IMAGES["new-years-eve-london-luxury-guide"]}
+        heroAlt="New Year's Eve celebration at a Mayfair luxury club"
         ctaMessage={WA_GENERAL_MESSAGE}
         ctaLabel="Plan Your NYE"
       >

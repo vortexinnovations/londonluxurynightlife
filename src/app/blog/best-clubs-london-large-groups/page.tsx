@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function BestClubsLondonLargeGroupsPage() {
       <ArticleLayout
         title="The Best London Clubs for Large Groups and Parties"
         subtitle="Where to take 10, 20, or 50+ people without the night falling apart"
+        heroImage={BLOG_IMAGES["best-clubs-london-large-groups"]}
+        heroAlt="Large group enjoying VIP table service at a London club"
         ctaMessage={WA_GENERAL_MESSAGE}
         ctaLabel="Plan Your Group Night"
       >

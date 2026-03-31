@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function CirqueLeSoirCircusNightclubPage() {
       <ArticleLayout
         title="Cirque Le Soir: Inside London's Most Theatrical Nightclub"
         subtitle="Fire breathers, contortionists, and a crowd that includes half of Instagram — what to expect inside"
+        heroImage={BLOG_IMAGES["cirque-le-soir-circus-nightclub-london"]}
+        heroAlt="Cirque Le Soir circus-themed nightclub with theatrical performers"
       >
         <p>
           Describing{" "}

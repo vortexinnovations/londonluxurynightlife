@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -60,6 +61,8 @@ export default function CompleteGuideLondonLuxuryNightlife() {
       <ArticleLayout
         title="The Complete Guide to London's Luxury Nightlife"
         subtitle="Everything you need to know about the city's most exclusive clubs, from Mayfair's velvet-rope venues to South London's iconic dancefloors"
+        heroImage={GUIDE_IMAGES["complete-guide-london-luxury-nightlife"]}
+        heroAlt="Complete guide to London luxury nightlife featuring Mayfair's exclusive club scene"
         ctaMessage={WA_GENERAL_MESSAGE}
         ctaLabel="Plan Your Night Out"
       >

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { clubs, WA_GENERAL_MESSAGE, SITE_URL, SITE_NAME } from "@/lib/constants";
 import ClubCard from "@/components/ClubCard";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
+import { HOME_IMAGES, SECTION_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
   title:
@@ -106,12 +108,21 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative py-24 sm:py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-cream leading-tight tracking-tight">
+      <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+        <Image
+          src={HOME_IMAGES.hero}
+          alt="Luxury nightclub interior in Mayfair, London"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-cream leading-tight tracking-tight drop-shadow-lg">
             The Insider&rsquo;s Guide to London&rsquo;s Most Exclusive Nightlife
           </h1>
-          <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-warm-gray leading-relaxed max-w-2xl mx-auto">
+          <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-white/80 leading-relaxed max-w-2xl mx-auto drop-shadow">
             Honest reviews, real insider knowledge, and direct access to
             Mayfair&rsquo;s finest clubs. We&rsquo;ve spent years in these rooms so you
             know exactly what to expect before you arrive.
@@ -131,9 +142,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Decorative divider */}
-      <div className="max-w-xs mx-auto border-t border-dark-border" />
 
       {/* Editorial Introduction */}
       <section className="py-20 sm:py-24 px-6">
@@ -200,6 +208,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section break image */}
+      <div className="relative h-[250px] sm:h-[300px] overflow-hidden">
+        <Image
+          src={SECTION_IMAGES.vipArea}
+          alt="VIP table service at a London nightclub"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
+
       {/* Guides */}
       <section className="py-20 sm:py-24 px-6">
         <div className="max-w-5xl mx-auto">
@@ -235,8 +255,16 @@ export default function Home() {
       </section>
 
       {/* WhatsApp CTA Section */}
-      <section className="py-20 sm:py-24 px-6 bg-dark-surface border-t border-dark-border">
-        <div className="max-w-2xl mx-auto text-center">
+      <section className="relative py-20 sm:py-24 px-6 overflow-hidden">
+        <Image
+          src={HOME_IMAGES.ctaBackground}
+          alt="Champagne service at an exclusive London nightclub"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="relative z-10 max-w-2xl mx-auto text-center">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-cream mb-4">
             Let Us Handle the Details
           </h2>
@@ -250,7 +278,7 @@ export default function Home() {
             label="Start Planning on WhatsApp"
             variant="primary"
           />
-          <p className="mt-6 text-xs text-warm-gray">
+          <p className="mt-6 text-xs text-white/60">
             Free &amp; no obligation. We respond within minutes during London hours.
           </p>
         </div>

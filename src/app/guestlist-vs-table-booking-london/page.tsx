@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -70,6 +71,8 @@ export default function GuestlistVsTableBookingLondonPage() {
       <ArticleLayout
         title="Guestlist vs Table Booking London"
         subtitle="The definitive comparison — what each option actually gives you, what it costs, and which is right for your night"
+        heroImage={GUIDE_IMAGES["guestlist-vs-table-booking-london"]}
+        heroAlt="VIP table booking versus guestlist entry at a London nightclub"
       >
         <p>
           Every group planning a night out in London faces the same decision:

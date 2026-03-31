@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function LondonClubDressCodeGuidePage() {
       <ArticleLayout
         title="London Club Dress Code Guide"
         subtitle="What to actually wear to London's best nightclubs — venue by venue, gender by gender, and mistake by mistake"
+        heroImage={GUIDE_IMAGES["london-club-dress-code-guide"]}
+        heroAlt="Smart dress code at a London nightclub with well-dressed guests arriving"
       >
         <p>
           More people are turned away from London&apos;s best nightclubs for

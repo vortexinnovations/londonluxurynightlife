@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
+import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "cuckoo-club")!;
 
@@ -24,6 +25,8 @@ export default function CuckooClubReview() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
+        heroImage={CLUB_IMAGES["cuckoo-club"]?.hero}
+        heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage("Cuckoo Club")}
         ctaLabel="Book Cuckoo Club"
       >

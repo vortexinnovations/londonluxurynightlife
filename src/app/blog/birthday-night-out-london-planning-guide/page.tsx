@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function BirthdayNightOutLondonGuidePage() {
       <ArticleLayout
         title="Planning a Birthday Night Out in London: The Complete Guide"
         subtitle="From the first message to the group chat to walking through the door — here's how to make it unforgettable"
+        heroImage={BLOG_IMAGES["birthday-night-out-london-planning-guide"]}
+        heroAlt="Birthday celebration with sparklers at a London nightclub"
         ctaMessage={WA_GENERAL_MESSAGE}
         ctaLabel="Plan Your Birthday"
       >

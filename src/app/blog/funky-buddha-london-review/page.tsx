@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function FunkyBuddhaLondonReviewPage() {
       <ArticleLayout
         title="Funky Buddha London: Why This Mayfair Icon Still Delivers"
         subtitle="The club that helped define Mayfair's nightlife reputation — and why it's still worth your time"
+        heroImage={BLOG_IMAGES["funky-buddha-london-review"]}
+        heroAlt="Funky Buddha Mayfair interior with its signature eclectic decor"
       >
         <p>
           London nightlife moves fast. Venues open with enormous fanfare,

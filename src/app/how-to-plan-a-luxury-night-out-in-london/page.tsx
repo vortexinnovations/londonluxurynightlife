@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -70,6 +71,8 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
       <ArticleLayout
         title="How to Plan a Luxury Night Out in London"
         subtitle="The complete itinerary — from first cocktail to last dance — with every detail that separates exceptional from average"
+        heroImage={GUIDE_IMAGES["how-to-plan-a-luxury-night-out-in-london"]}
+        heroAlt="Planning a luxury night out in London from cocktail bar to Mayfair nightclub"
       >
         <p>
           A truly great night out in London is not improvised. It is planned

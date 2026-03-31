@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
       <ArticleLayout
         title="Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed"
         subtitle="How Mayfair's freshest arrivals compare — and whether the new generation can compete with the established names"
+        heroImage={BLOG_IMAGES["luna-selene-new-mayfair-clubs-2025"]}
+        heroAlt="Luna Club and Selene London new luxury nightclub interiors"
       >
         <p>
           Mayfair&apos;s nightclub scene is not static. While iconic venues

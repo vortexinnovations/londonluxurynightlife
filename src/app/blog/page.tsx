@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { blogPosts } from "@/lib/blog-data";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { BLOG_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
@@ -70,6 +72,19 @@ export default function BlogPage() {
             href={`/blog/${featured.slug}`}
             className="group block bg-dark-surface border border-dark-border rounded-lg overflow-hidden hover:border-gold/30 transition-all"
           >
+            {BLOG_IMAGES[featured.slug] && (
+              <div className="relative aspect-[21/9] overflow-hidden">
+                <Image
+                  src={BLOG_IMAGES[featured.slug]}
+                  alt={featured.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 1024px) 100vw, 1024px"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+              </div>
+            )}
             <div className="p-8 lg:p-12">
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-xs font-medium uppercase tracking-wider text-gold">
@@ -100,26 +115,40 @@ export default function BlogPage() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group block bg-dark-surface border border-dark-border rounded-lg p-6 hover:border-gold/30 transition-all"
+                className="group block bg-dark-surface border border-dark-border rounded-lg overflow-hidden hover:border-gold/30 transition-all"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-medium uppercase tracking-wider text-gold/70">
-                    {post.category}
+                {BLOG_IMAGES[post.slug] && (
+                  <div className="relative aspect-[3/2] overflow-hidden">
+                    <Image
+                      src={BLOG_IMAGES[post.slug]}
+                      alt={post.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  </div>
+                )}
+                <div className="p-5">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="text-xs font-medium uppercase tracking-wider text-gold/70">
+                      {post.category}
+                    </span>
+                    <span className="text-xs text-warm-gray">{post.readTime}</span>
+                  </div>
+                  <h2 className="font-serif text-lg font-bold text-cream group-hover:text-gold transition-colors mb-3 leading-snug">
+                    {post.title}
+                  </h2>
+                  <p className="text-sm text-warm-gray leading-relaxed mb-4">
+                    {post.excerpt}
+                  </p>
+                  <span className="inline-flex items-center gap-1 text-gold text-sm">
+                    Read more
+                    <svg className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
                   </span>
-                  <span className="text-xs text-warm-gray">{post.readTime}</span>
                 </div>
-                <h2 className="font-serif text-lg font-bold text-cream group-hover:text-gold transition-colors mb-3 leading-snug">
-                  {post.title}
-                </h2>
-                <p className="text-sm text-warm-gray leading-relaxed mb-4">
-                  {post.excerpt}
-                </p>
-                <span className="inline-flex items-center gap-1 text-gold text-sm">
-                  Read more
-                  <svg className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
               </Link>
             ))}
           </div>

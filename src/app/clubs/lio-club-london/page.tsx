@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
+import { CLUB_IMAGES } from "@/lib/images";
 
 const club = closedClubs.find((c) => c.slug === "lio-club-london")!;
 
@@ -25,6 +26,8 @@ export default function LioClubLondonReview() {
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}
+        heroImage={CLUB_IMAGES["lio-club-london"]?.hero}
+        heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={WA_GENERAL_MESSAGE}
         ctaLabel="Find an Alternative Venue"
       >

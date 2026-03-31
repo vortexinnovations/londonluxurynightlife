@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
       <ArticleLayout
         title="How Much Does a Night Out in Mayfair Really Cost?"
         subtitle="A transparent breakdown of every expense — from table minimums to the taxi home"
+        heroImage={BLOG_IMAGES["how-much-does-night-out-mayfair-cost"]}
+        heroAlt="VIP bottle service and champagne at a Mayfair nightclub"
       >
         <p>
           The single most common question we get asked is some variation of

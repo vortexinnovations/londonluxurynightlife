@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function TabuLondonJapaneseUndergroundPage() {
       <ArticleLayout
         title="TABU London: Inside Mayfair's Japanese-Inspired Underground Club"
         subtitle="The venue that proves Mayfair can still surprise you"
+        heroImage={BLOG_IMAGES["tabu-london-japanese-underground-nightclub"]}
+        heroAlt="TABU London Japanese-inspired underground nightclub interior"
       >
         <p>
           If you have visited three or four Mayfair nightclubs, you might

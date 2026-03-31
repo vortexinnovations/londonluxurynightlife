@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -53,6 +54,8 @@ export default function DinnerAndNightclubPage() {
       <ArticleLayout
         title="Dinner and Nightclub: Planning a Full Luxury Evening in London"
         subtitle="How to seamlessly combine fine dining with world-class nightlife for an unforgettable London evening"
+        heroImage={GUIDE_IMAGES["dinner-and-nightclub-london"]}
+        heroAlt="Elegant dinner and nightclub evening in London with fine dining and club atmosphere"
       >
         <p>
           The best nights in London are never just one thing. They build. A

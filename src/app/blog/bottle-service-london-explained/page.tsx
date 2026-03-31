@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function BottleServiceLondonExplainedPage() {
       <ArticleLayout
         title="Bottle Service in London Explained: What You Actually Get"
         subtitle="Everything first-timers need to know about table booking, minimum spends, and the unwritten rules"
+        heroImage={BLOG_IMAGES["bottle-service-london-explained"]}
+        heroAlt="Luxury bottle service presentation at a London nightclub"
       >
         <p>
           Bottle service in London is one of those things that sounds

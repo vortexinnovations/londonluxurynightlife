@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function BeatLondonSoundSystemPage() {
       <ArticleLayout
         title="BEAT London: The Sound System That Sets This Fitzrovia Club Apart"
         subtitle="The Margaret Street club that strips away the Mayfair pretence and puts the music first"
+        heroImage={BLOG_IMAGES["beat-london-sound-system-fitzrovia"]}
+        heroAlt="BEAT London club sound system and DJ booth in Fitzrovia"
       >
         <p>
           Most London nightclubs treat sound as a feature. Something to

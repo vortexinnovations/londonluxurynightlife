@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -70,6 +71,8 @@ export default function BestNightclubsForHighSpendersLondonPage() {
       <ArticleLayout
         title="Best Nightclubs for High Spenders in London"
         subtitle="Where your money goes furthest at the premium tier — and how to ensure every pound delivers"
+        heroImage={GUIDE_IMAGES["best-nightclubs-for-high-spenders-london"]}
+        heroAlt="High-end bottle service and champagne presentation at a premium London nightclub"
       >
         <p>
           Spending significant money in a London nightclub is easy. Spending

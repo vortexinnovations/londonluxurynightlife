@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
+import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function BestHipHopClubsLondonPage() {
       <ArticleLayout
         title="Best Hip Hop Clubs in London"
         subtitle="Where to find genuine hip-hop and RnB programming — not a generic playlist on shuffle"
+        heroImage={GUIDE_IMAGES["best-hip-hop-clubs-london"]}
+        heroAlt="Hip hop and RnB night at a London club with DJ and dancefloor energy"
       >
         <p>
           London&apos;s relationship with hip-hop is deeper than most cities

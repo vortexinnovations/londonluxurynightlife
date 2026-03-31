@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function SaturdayNightMayfairGuidePage() {
       <ArticleLayout
         title="Saturday Night in Mayfair: A Local's Guide to the Perfect Evening"
         subtitle="The insider playbook for Mayfair's biggest night — from cocktails at 8pm to closing time at 3am"
+        heroImage={BLOG_IMAGES["saturday-night-mayfair-guide"]}
+        heroAlt="Busy Saturday night atmosphere inside a Mayfair club"
       >
         <p>
           Saturday night is Mayfair&apos;s main event. It is the busiest night,

@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function TapeLondonInsidePage() {
       <ArticleLayout
         title="Inside Tape London: What Makes Mayfair's Most Exclusive Club Different"
         subtitle="The Hanover Square members' club where privacy, sound quality, and genuine exclusivity converge"
+        heroImage={BLOG_IMAGES["tape-london-inside-mayfairs-most-exclusive-club"]}
+        heroAlt="Tape London exclusive members club interior on Hanover Square"
       >
         <p>
           Every nightlife city has a venue that sits at the top of the

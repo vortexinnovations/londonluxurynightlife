@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function MayfairVsShoreditchPage() {
       <ArticleLayout
         title="Mayfair vs Shoreditch: Two Sides of London's Nightlife"
         subtitle="A candid comparison of London's two biggest nightlife districts — and which one suits your style"
+        heroImage={BLOG_IMAGES["mayfair-vs-shoreditch-nightlife-compared"]}
+        heroAlt="Mayfair luxury club interior contrasted with Shoreditch nightlife"
       >
         <p>
           London does not have one nightlife scene. It has several, and the two
