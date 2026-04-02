@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { clubs } from "@/lib/constants";
-import { ECOSYSTEM } from "@/lib/ecosystem";
+
 
 export default function Footer() {
   return (
@@ -58,25 +58,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-dark-border mt-12 pt-8 pb-8">
-          <h4 className="text-sm font-semibold text-cream uppercase tracking-wider mb-4">Our Network</h4>
-          <div className="flex flex-wrap gap-x-8 gap-y-2">
-            <a href={ECOSYSTEM.bottleService.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
-              {ECOSYSTEM.bottleService.name} &mdash; VIP Table Bookings
-            </a>
-            <a href={ECOSYSTEM.mayfairTonight.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
-              {ECOSYSTEM.mayfairTonight.name} &mdash; Tonight&apos;s Events
-            </a>
-            <a href={ECOSYSTEM.londonBirthdayClub.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
-              {ECOSYSTEM.londonBirthdayClub.name} &mdash; Birthday Packages
-            </a>
-            <a href={ECOSYSTEM.londonClubsTonight.url} target="_blank" rel="noopener noreferrer" className="text-sm text-warm-gray hover:text-gold transition-colors">
-              {ECOSYSTEM.londonClubsTonight.name} &mdash; What&apos;s On
-            </a>
-          </div>
-        </div>
-
-        <div className="border-t border-dark-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t border-dark-border mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-warm-gray">
             &copy; {new Date().getFullYear()} London Luxury Nightlife. All rights reserved.
           </p>

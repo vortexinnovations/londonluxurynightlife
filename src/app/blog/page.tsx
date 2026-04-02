@@ -35,8 +35,9 @@ export const metadata: Metadata = {
 const categories = [...new Set(blogPosts.map((p) => p.category))];
 
 export default function BlogPage() {
-  const featured = blogPosts[0];
-  const rest = blogPosts.slice(1);
+  const sorted = [...blogPosts].sort((a, b) => b.publishDate.localeCompare(a.publishDate));
+  const featured = sorted[0];
+  const rest = sorted.slice(1);
 
   return (
     <>
