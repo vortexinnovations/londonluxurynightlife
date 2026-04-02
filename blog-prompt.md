@@ -103,7 +103,6 @@ Select a topic that is genuinely useful, searchable, and fits the site's luxury 
 
 ### Setup requirement
 
-The project root must contain a `.env` file (gitignored) with:
 ```
 SUPABASE_SECRET_KEY=<the secret key>
 ```
