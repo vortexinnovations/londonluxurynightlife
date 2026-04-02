@@ -384,4 +384,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["London Fashion Week nightlife", "LFW afterparties", "fashion week clubs London", "fashion week parties London"],
   },
+  {
+    slug: "stag-night-mayfair-guide",
+    title: "How to Plan a Stag Night in Mayfair",
+    metaTitle: "Plan a Stag Night in Mayfair | London Luxury Nightlife",
+    metaDescription: "How to plan the perfect Mayfair stag night. Bottle service, table bookings, dress codes, timing, and which clubs actually welcome stag groups.",
+    excerpt: "Mayfair does stag nights differently. Get it right and it&apos;s the best night of the year. Get it wrong and you won&apos;t get past the door.",
+    category: "Planning",
+    publishDate: "2026-04-02",
+    modifiedDate: "2026-04-02",
+    readTime: "8 min read",
+    keywords: ["stag night Mayfair", "stag do London clubs", "Mayfair stag party planning", "luxury stag night London", "best clubs stag do London"],
+  },
 ];

@@ -158,6 +158,7 @@ export const BLOG_IMAGES: Record<string, string> = {
   "cuckoo-club-mayfair-two-floors-one-night": img("DSC_6852.jpg"),
   "beat-london-sound-system-fitzrovia": img("DSC_6868.jpg"),
   "luna-selene-new-mayfair-clubs-2025": img("DSC_6874.jpg"),
+  "stag-night-mayfair-guide": img("fe4414_250ad5247e7546dcbe9f0c7b4e2fcbaf.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────
