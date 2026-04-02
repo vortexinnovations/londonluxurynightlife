@@ -104,8 +104,6 @@ Select a topic that is genuinely useful, searchable, and fits the site's luxury 
 ### Setup requirement
 
 ```
-SUPABASE_SECRET_KEY=<the secret key>
-```
 
 ### Fetch available images:
 
@@ -119,8 +117,6 @@ If you cannot read it, try:
 ```bash
 gh api repos/vortexinnovations/blog-scheduler-tracker/contents/images.json --jq '.content' | base64 -d
 ```
-
-This returns all image filenames. No Supabase API key or .env file is needed.
 
 ### Read already-used images:
 
