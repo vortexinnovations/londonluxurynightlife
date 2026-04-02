@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -64,6 +65,8 @@ export default function SohoNightlifeGuidePage() {
       <ArticleLayout
         title="Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond"
         subtitle="London's creative heartland after dark — grittier, bolder, and utterly different from Mayfair"
+        heroImage={BLOG_IMAGES["soho-nightlife-guide"]}
+        heroAlt="Soho nightlife street scene in London"
       >
         <p>
           Soho occupies a unique position in London&apos;s nightlife geography.

@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function LondonNightlifeEtiquettePage() {
       <ArticleLayout
         title="London Nightlife Etiquette: The Unwritten Rules"
         subtitle="Everything the dress code guide doesn't cover — the behavioural codes that define London's luxury club scene"
+        heroImage={BLOG_IMAGES["london-nightlife-etiquette-unwritten-rules"]}
+        heroAlt="Elegant guests at a London luxury nightclub"
       >
         <p>
           Dress codes are published. Door policies can be researched. But the

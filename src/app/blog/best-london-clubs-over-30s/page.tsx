@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function BestLondonClubsOver30sPage() {
       <ArticleLayout
         title="Best London Clubs for Over 30s: Where the Grown-Up Crowd Goes"
         subtitle="Mayfair's luxury scene is the over-30s scene — you just didn't know it yet"
+        heroImage={BLOG_IMAGES["best-london-clubs-over-30s"]}
+        heroAlt="Sophisticated crowd at a Mayfair nightclub"
       >
         <p>
           If you are in your 30s or 40s and wondering whether you have aged out

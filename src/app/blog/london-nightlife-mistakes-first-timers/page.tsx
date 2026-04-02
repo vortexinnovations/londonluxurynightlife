@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -72,6 +73,8 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
       <ArticleLayout
         title="12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)"
         subtitle="The honest guide to avoiding every rookie error on your first London night out"
+        heroImage={BLOG_IMAGES["london-nightlife-mistakes-first-timers"]}
+        heroAlt="First-time visitors arriving at a London nightclub"
       >
         <p>
           London nightlife has its own unwritten rulebook, and nobody hands you

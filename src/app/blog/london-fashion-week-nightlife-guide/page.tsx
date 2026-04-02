@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -67,6 +68,8 @@ export default function LondonFashionWeekNightlifeGuidePage() {
       <ArticleLayout
         title="London Fashion Week Nightlife: Where the Industry Goes After Dark"
         subtitle="How LFW transforms the club scene — and how to be in the right room"
+        heroImage={BLOG_IMAGES["london-fashion-week-nightlife-guide"]}
+        heroAlt="London Fashion Week afterparty at a Mayfair club"
       >
         <p>
           London Fashion Week does not end when the lights go down on the final

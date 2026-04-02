@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function HowLondonVIPClubsWorkBehindScenesPage() {
       <ArticleLayout
         title="How London's VIP Clubs Actually Work Behind the Scenes"
         subtitle="The mechanics, economics, and unwritten rules of Mayfair's VIP nightclub machine"
+        heroImage={BLOG_IMAGES["how-london-vip-clubs-work-behind-scenes"]}
+        heroAlt="Behind the scenes at a London VIP nightclub"
       >
         <p>
           From the outside, a Mayfair VIP club on a Saturday night looks

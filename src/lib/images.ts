@@ -159,6 +159,16 @@ export const BLOG_IMAGES: Record<string, string> = {
   "beat-london-sound-system-fitzrovia": img("DSC_6868.jpg"),
   "luna-selene-new-mayfair-clubs-2025": img("DSC_6874.jpg"),
   "stag-night-mayfair-guide": img("fe4414_250ad5247e7546dcbe9f0c7b4e2fcbaf.jpg"),
+  "best-thursday-night-clubs-london": img("DSC_7167.jpg"),
+  "best-friday-night-clubs-london": img("fe4414_10b096491888432598b5a27177f140f9.jpg"),
+  "london-nightlife-etiquette-unwritten-rules": img("fe4414_281a5650e67a47fca8d2610ee3b66d1e.jpg"),
+  "best-cocktail-bars-mayfair-before-clubbing": img("fe4414_48867584a5004b01a8653964ec5823d9.jpg"),
+  "private-members-clubs-vs-nightclubs-london": img("fe4414_62305106cc704481bbe1e1f491623aa6.jpg"),
+  "best-london-clubs-over-30s": img("fe4414_837f6eb245464b1993e9d10efb3df4d7.jpg"),
+  "soho-nightlife-guide": img("fe4414_9ab97d0f95934c2bbf1f6cbba615f30b.jpg"),
+  "london-nightlife-mistakes-first-timers": img("fe4414_b4688c8e4e75435ea5dbb8b257cccb8a.jpg"),
+  "how-london-vip-clubs-work-behind-scenes": img("fe4414_cd791cc0715e4c7581fcec2e3b9030c3.jpg"),
+  "london-fashion-week-nightlife-guide": img("fe4414_e2f0482a8a69492e892195e6e4455f86.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────

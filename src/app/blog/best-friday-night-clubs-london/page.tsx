@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -69,6 +70,8 @@ export default function BestFridayNightClubsLondonPage() {
       <ArticleLayout
         title="Best Friday Night Clubs in London"
         subtitle="The main event night — which venues deliver, how to time it, and why booking matters"
+        heroImage={BLOG_IMAGES["best-friday-night-clubs-london"]}
+        heroAlt="Friday night atmosphere inside a Mayfair club"
       >
         <p>
           Friday night in London carries a weight that no other evening

@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -68,6 +69,8 @@ export default function PrivateMembersClubsVsNightclubsPage() {
       <ArticleLayout
         title="Private Members Clubs vs Public Nightclubs in London"
         subtitle="An honest comparison of two fundamentally different approaches to London nightlife"
+        heroImage={BLOG_IMAGES["private-members-clubs-vs-nightclubs-london"]}
+        heroAlt="Private members club interior in London"
       >
         <p>
           London supports two parallel nightlife ecosystems that overlap in

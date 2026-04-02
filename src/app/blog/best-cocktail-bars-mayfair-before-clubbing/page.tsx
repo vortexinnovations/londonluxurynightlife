@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -64,6 +65,8 @@ export default function BestCocktailBarsMayfairPage() {
       <ArticleLayout
         title="Best Cocktail Bars Near Mayfair Clubs for Pre-Drinks"
         subtitle="Where to set the tone before the main event — the best bars within walking distance of London's top clubs"
+        heroImage={BLOG_IMAGES["best-cocktail-bars-mayfair-before-clubbing"]}
+        heroAlt="Cocktails at a premium Mayfair bar before clubbing"
       >
         <p>
           The difference between a good night out and a great one often comes
