@@ -169,6 +169,7 @@ export const BLOG_IMAGES: Record<string, string> = {
   "london-nightlife-mistakes-first-timers": img("fe4414_b4688c8e4e75435ea5dbb8b257cccb8a.jpg"),
   "how-london-vip-clubs-work-behind-scenes": img("fe4414_cd791cc0715e4c7581fcec2e3b9030c3.jpg"),
   "london-fashion-week-nightlife-guide": img("fe4414_e2f0482a8a69492e892195e6e4455f86.jpg"),
+  "london-clubs-going-cashless": img("fe4414_554e531fc3bb4def96ed41ade5b0d3a8.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────

@@ -396,4 +396,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["stag night Mayfair", "stag do London clubs", "Mayfair stag party planning", "luxury stag night London", "best clubs stag do London"],
   },
+  {
+    slug: "london-clubs-going-cashless",
+    title: "Why London Clubs Are Going Cashless — And What It Means for You",
+    metaTitle: "London Clubs Going Cashless | London Luxury Nightlife",
+    metaDescription: "London's luxury clubs are ditching cash for card-only systems. What the cashless shift means for table service, tipping, and your night out in Mayfair.",
+    excerpt: "The last notes are disappearing from Mayfair&apos;s biggest clubs. Here&apos;s what the cashless revolution actually changes about your night.",
+    category: "Trends",
+    publishDate: "2026-04-03",
+    modifiedDate: "2026-04-03",
+    readTime: "8 min read",
+    keywords: ["cashless clubs London", "London nightclubs card only", "cashless nightlife London", "Mayfair clubs payment", "London club trends 2026"],
+  },
 ];
