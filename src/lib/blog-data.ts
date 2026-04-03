@@ -408,4 +408,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["cashless clubs London", "London nightclubs card only", "cashless nightlife London", "Mayfair clubs payment", "London club trends 2026"],
   },
+  {
+    slug: "host-private-event-london-nightclub",
+    title: "How to Host a Private Event at a London Nightclub",
+    metaTitle: "Host a Private Event at a London Nightclub | London Luxury Nightlife",
+    metaDescription: "Private event hosting at London nightclubs — from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
+    excerpt: "Full venue buyouts, private rooms, and bespoke packages — here&apos;s how London&apos;s top clubs handle private events, and how to get the best deal.",
+    category: "Guide",
+    publishDate: "2026-04-03",
+    modifiedDate: "2026-04-03",
+    readTime: "8 min read",
+    keywords: ["private event london nightclub", "private hire london club", "exclusive event london nightclub", "nightclub private party london", "venue hire Mayfair club"],
+  },
 ];
