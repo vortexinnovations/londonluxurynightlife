@@ -8,7 +8,7 @@ const img = (filename: string) => `/gallery/images/${filename}`;
 
 // ── Homepage ────────────────────────────────────────────────────────
 export const HOME_IMAGES = {
-  hero: img("DSC_7400.jpg"),
+  hero: img("DSC_7988.jpg"),
   editorial: img("DSC_7612.jpg"),
   ctaBackground: img("DSC_8282.jpg"),
 };
@@ -112,7 +112,7 @@ export const GUIDE_IMAGES: Record<string, string> = {
   "dinner-and-nightclub-london": img("DSC_7952.jpg"),
   "london-nightlife-international-visitors": img("DSC_7984.jpg"),
   // Pillar pages
-  "luxury-nightclubs-london": img("DSC_7988.jpg"),
+  "luxury-nightclubs-london": img("fe4414_743e96da652441c29eaa8123fe09b765.jpg"),
   "exclusive-clubs-london": img("DSC_7990.jpg"),
   "vip-nightlife-london": img("DSC_7993.jpg"),
   "celebrity-nightclubs-london": img("DSC_7995.jpg"),
