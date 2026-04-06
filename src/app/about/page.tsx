@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   title: "About London Luxury Nightlife | Our Editorial Team",
   description:
     "Who we are, how we review, and why we built the most trusted luxury nightlife guide in London. Independent editorial, no pay-to-play, every venue visited in person.",
+  openGraph: {
+    title: "About London Luxury Nightlife | Our Editorial Team",
+    description:
+      "Who we are, how we review, and why we built the most trusted luxury nightlife guide in London.",
+    url: "https://londonluxurynightlife.com/about",
+    type: "website",
+  },
   alternates: {
     canonical: "https://londonluxurynightlife.com/about",
   },

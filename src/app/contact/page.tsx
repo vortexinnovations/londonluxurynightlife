@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   title: "Plan Your Night | London Luxury Nightlife Concierge",
   description:
     "Our personalised nightlife concierge service handles everything — from choosing the perfect venue to securing VIP tables. Tell us what kind of night you're looking for and we'll handle the rest.",
+  openGraph: {
+    title: "Plan Your Night | London Luxury Nightlife Concierge",
+    description:
+      "Our personalised nightlife concierge service handles everything — from choosing the perfect venue to securing VIP tables.",
+    url: `${SITE_URL}/contact`,
+    type: "website",
+  },
   alternates: {
     canonical: `${SITE_URL}/contact`,
   },
