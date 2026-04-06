@@ -420,4 +420,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["private event london nightclub", "private hire london club", "exclusive event london nightclub", "nightclub private party london", "venue hire Mayfair club"],
   },
+  {
+    slug: "wimbledon-season-nightlife-london",
+    title: "Wimbledon Season Nightlife: Where London Goes After the Tennis",
+    metaTitle: "Wimbledon Season Nightlife London | London Luxury Nightlife",
+    metaDescription: "Wimbledon season nightlife in London: where the tennis crowd goes after the final set. The clubs, the after-parties, and the Mayfair scene during SW19 fortnight.",
+    excerpt: "For two weeks every July, London&apos;s luxury club scene runs hotter than usual. Here&apos;s where the Wimbledon crowd goes after dark.",
+    category: "Events",
+    publishDate: "2026-04-06",
+    modifiedDate: "2026-04-06",
+    readTime: "8 min read",
+    keywords: ["wimbledon season nightlife london", "wimbledon afterparty london", "london nightlife wimbledon", "tennis season london clubs", "wimbledon night out mayfair"],
+  },
 ];
