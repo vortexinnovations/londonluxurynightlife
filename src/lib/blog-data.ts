@@ -432,4 +432,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["wimbledon season nightlife london", "wimbledon afterparty london", "london nightlife wimbledon", "tennis season london clubs", "wimbledon night out mayfair"],
   },
+  {
+    slug: "anniversary-night-out-london-planning",
+    title: "How to Plan an Anniversary Night Out in London",
+    metaTitle: "Anniversary Night Out London | London Luxury Nightlife",
+    metaDescription: "How to plan a luxury anniversary night out in London. The right clubs, the right timing, and the details that separate a celebration from just another Saturday.",
+    excerpt: "Most London clubs are built for groups, not couples. Planning an anniversary night that actually works takes a different approach.",
+    category: "Planning",
+    publishDate: "2026-04-21",
+    modifiedDate: "2026-04-21",
+    readTime: "8 min read",
+    keywords: ["anniversary night out london", "romantic club night london", "couples night out mayfair", "luxury anniversary london", "anniversary celebration london clubs"],
+  },
 ];

@@ -172,6 +172,7 @@ export const BLOG_IMAGES: Record<string, string> = {
   "london-clubs-going-cashless": img("fe4414_554e531fc3bb4def96ed41ade5b0d3a8.jpg"),
   "host-private-event-london-nightclub": img("TapeSaturdayNYE311222-114.jpg"),
   "wimbledon-season-nightlife-london": img("maison-close-976.jpg"),
+  "anniversary-night-out-london-planning": img("maison-close-801.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────
