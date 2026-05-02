@@ -444,4 +444,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["anniversary night out london", "romantic club night london", "couples night out mayfair", "luxury anniversary london", "anniversary celebration london clubs"],
   },
+  {
+    slug: "quiet-luxury-london-nightlife",
+    title: "Quiet Luxury in London Nightlife: Why Discretion Is the New Status Symbol",
+    metaTitle: "Quiet Luxury London Nightlife | London Luxury Nightlife",
+    metaDescription: "Quiet luxury is reshaping London's club scene. Why the city's most exclusive venues are choosing discretion over spectacle, and what it means for your night out.",
+    excerpt: "London's most discerning crowd is trading spectacle for discretion. The quiet luxury shift is changing where real money goes after dark.",
+    category: "Trends",
+    publishDate: "2026-05-02",
+    modifiedDate: "2026-05-02",
+    readTime: "8 min read",
+    keywords: ["quiet luxury london nightlife", "discreet clubs london", "understated nightlife london", "exclusive london clubs", "luxury clubbing london"],
+  },
 ];
