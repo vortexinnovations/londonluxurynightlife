@@ -456,4 +456,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["quiet luxury london nightlife", "discreet clubs london", "understated nightlife london", "exclusive london clubs", "luxury clubbing london"],
   },
+  {
+    slug: "london-to-mykonos-club-scene-summer",
+    title: "London to Mykonos: How the Capital's Club Scene Goes Global Each Summer",
+    metaTitle: "London Clubs in Mykonos | London Luxury Nightlife",
+    metaDescription: "How London's top nightclubs expand to Mykonos each summer. The venues, the crowd, and what changes when Mayfair meets the Aegean.",
+    excerpt: "Every summer, London's most exclusive clubs follow their clientele to the Greek islands. Here's what happens when Mayfair relocates to Mykonos.",
+    category: "Guide",
+    publishDate: "2026-05-04",
+    modifiedDate: "2026-05-04",
+    readTime: "8 min read",
+    keywords: ["london clubs mykonos summer", "london nightclub mykonos expansion", "mayfair clubs mykonos", "luxury nightlife mykonos london", "tape mykonos tabu mykonos"],
+  },
 ];

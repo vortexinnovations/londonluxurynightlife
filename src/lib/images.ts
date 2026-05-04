@@ -174,6 +174,7 @@ export const BLOG_IMAGES: Record<string, string> = {
   "wimbledon-season-nightlife-london": img("maison-close-976.jpg"),
   "anniversary-night-out-london-planning": img("maison-close-801.jpg"),
   "quiet-luxury-london-nightlife": img("maison-close-704.jpg"),
+  "london-to-mykonos-club-scene-summer": img("maison-close-540.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────
