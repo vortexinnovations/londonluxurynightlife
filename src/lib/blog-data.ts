@@ -468,4 +468,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["london clubs mykonos summer", "london nightclub mykonos expansion", "mayfair clubs mykonos", "luxury nightlife mykonos london", "tape mykonos tabu mykonos"],
   },
+  {
+    slug: "royal-ascot-week-nightlife-london",
+    title: "Royal Ascot Week Nightlife: Where the Luxury Crowd Goes After the Races",
+    metaTitle: "Royal Ascot Week Nightlife London | London Luxury Nightlife",
+    metaDescription: "How Royal Ascot week transforms London's luxury club scene. Where the racing crowd goes after dark, which nights peak, and how to navigate Mayfair during the races.",
+    excerpt: "Five days of racing, five nights of elevated energy in Mayfair. Ascot week reshapes London's luxury nightlife like few other events can.",
+    category: "Events",
+    publishDate: "2026-05-07",
+    modifiedDate: "2026-05-07",
+    readTime: "8 min read",
+    keywords: ["royal ascot nightlife london", "ascot week clubs london", "ladies day nightlife london", "luxury nightlife racing season", "ascot week london luxury clubs"],
+  },
 ];
