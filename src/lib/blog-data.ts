@@ -480,4 +480,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["royal ascot nightlife london", "ascot week clubs london", "ladies day nightlife london", "luxury nightlife racing season", "ascot week london luxury clubs"],
   },
+  {
+    slug: "london-film-premiere-after-parties",
+    title: "London Film Premiere After-Parties: Inside the Capital's Red Carpet Nightlife Circuit",
+    metaTitle: "London Film Premiere After-Parties | London Luxury Nightlife",
+    metaDescription: "How London film premiere after-parties really work. The venues studios book, who actually gets in, and how premiere season reshapes Mayfair's most exclusive clubs.",
+    excerpt: "Premiere after-parties run on different rules to a Saturday night. Here's how the cast, the studios, and the venues actually choreograph the night.",
+    category: "Events",
+    publishDate: "2026-05-11",
+    modifiedDate: "2026-05-11",
+    readTime: "8 min read",
+    keywords: ["london film premiere after parties", "premiere afterparty london", "london red carpet afterparty", "bfi premiere afterparty", "mayfair film premiere"],
+  },
 ];
