@@ -492,4 +492,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
     keywords: ["london film premiere after parties", "premiere afterparty london", "london red carpet afterparty", "bfi premiere afterparty", "mayfair film premiere"],
   },
+  {
+    slug: "british-grand-prix-london-nightlife",
+    title: "British Grand Prix Nightlife: Where the F1 Crowd Parties in London",
+    metaTitle: "British Grand Prix Nightlife in London | London Luxury Nightlife",
+    metaDescription: "Where the British Grand Prix crowd parties in London. How F1 weekend reshapes Mayfair nightlife, who comes to town, and the nights that matter most.",
+    excerpt: "F1 weekend pulls a global luxury crowd through Mayfair. Here is how the British Grand Prix reshapes London nightlife and where the crowd actually goes.",
+    category: "Events",
+    publishDate: "2026-06-08",
+    modifiedDate: "2026-06-08",
+    readTime: "7 min read",
+    keywords: ["british grand prix london nightlife", "f1 weekend london", "silverstone afterparty london", "formula 1 london clubs", "grand prix luxury nightlife"],
+  },
 ];
