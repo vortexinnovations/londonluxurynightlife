@@ -77,7 +77,7 @@ export default function HenleyRegattaLondonNightlifePage() {
         heroAlt="Elegant London nightclub interior during Henley Royal Regatta week"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By Isabella Marsh, Luxury Lifestyle Editor
+          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 10 June 2026</p>
 

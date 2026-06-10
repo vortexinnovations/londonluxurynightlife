@@ -78,7 +78,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         heroAlt="Luxury nightlife atmosphere at a London club during Royal Ascot week"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By Isabella Marsh, Luxury Lifestyle Editor
+          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
         </p>
         <p className="text-sm text-warm-gray mb-8">
           Last updated: 7 May 2026

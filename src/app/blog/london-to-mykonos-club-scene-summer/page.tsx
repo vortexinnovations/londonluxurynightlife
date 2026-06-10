@@ -65,7 +65,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
         heroAlt="Luxury nightlife atmosphere with warm lighting and premium ambiance"
       >
         <p>
-          <em>By Isabella Marsh, Luxury Lifestyle Editor</em>
+          <em>By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor</em>
         </p>
 
         <p>

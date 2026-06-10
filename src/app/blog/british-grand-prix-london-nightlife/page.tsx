@@ -77,7 +77,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
         heroAlt="Discreet luxury Mayfair nightclub interior during British Grand Prix weekend"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By Isabella Marsh, Luxury Lifestyle Editor
+          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 8 June 2026</p>
 

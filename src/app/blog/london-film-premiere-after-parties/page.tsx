@@ -79,7 +79,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         heroAlt="Discreet luxury nightclub interior in Mayfair during a film premiere after-party"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By Isabella Marsh, Luxury Lifestyle Editor
+          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
         </p>
         <p className="text-sm text-warm-gray mb-8">
           Last updated: 11 May 2026
