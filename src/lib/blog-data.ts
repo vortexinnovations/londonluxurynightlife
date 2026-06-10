@@ -516,4 +516,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["henley regatta london nightlife", "henley royal regatta parties", "regatta week london", "social season nightlife london", "henley after parties london"],
   },
+  {
+    slug: "fight-night-london-nightlife",
+    title: "Fight Night London: How Big Boxing Weekends Take Over the City's Nightlife",
+    metaTitle: "Fight Night London Nightlife | London Luxury Nightlife",
+    metaDescription: "How major boxing nights reshape London nightlife: the crowd that comes to town, the late surge into Mayfair, and how to plan a night around a big card.",
+    excerpt: "Big boxing weekends produce the latest surge in London nightlife. Who comes to town, where the ringside crowd goes, and how to plan around a major card.",
+    category: "Events",
+    publishDate: "2026-06-11",
+    modifiedDate: "2026-06-11",
+    readTime: "7 min read",
+    keywords: ["fight night london nightlife", "boxing after party london", "big fight weekend london", "boxing night out london", "where boxers party london"],
+  },
 ];
