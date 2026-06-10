@@ -504,4 +504,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["british grand prix london nightlife", "f1 weekend london", "silverstone afterparty london", "formula 1 london clubs", "grand prix luxury nightlife"],
   },
+  {
+    slug: "henley-regatta-london-nightlife",
+    title: "Henley Royal Regatta Nightlife: How London Does Regatta Week",
+    metaTitle: "Henley Regatta Nightlife in London | London Luxury Nightlife",
+    metaDescription: "How Henley Royal Regatta week reshapes London nightlife: the social season crowd, the nights that matter, and where the regatta set goes after the river.",
+    excerpt: "Regatta week empties the riverbank into London every evening. Here is how Henley reshapes the capital's luxury nightlife, and the nights that matter.",
+    category: "Events",
+    publishDate: "2026-06-10",
+    modifiedDate: "2026-06-10",
+    readTime: "7 min read",
+    keywords: ["henley regatta london nightlife", "henley royal regatta parties", "regatta week london", "social season nightlife london", "henley after parties london"],
+  },
 ];
