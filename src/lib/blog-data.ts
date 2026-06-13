@@ -528,4 +528,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["fight night london nightlife", "boxing after party london", "big fight weekend london", "boxing night out london", "where boxers party london"],
   },
+  {
+    slug: "london-supercar-season-nightlife",
+    title: "London's Supercar Season: How Summer Wealth Reshapes Mayfair Nightlife",
+    metaTitle: "London Supercar Season Nightlife | London Luxury Nightlife",
+    metaDescription: "How London's summer supercar season reshapes Mayfair nightlife: the wealth influx it signals, the crowd it brings, and where the international set goes after dark.",
+    excerpt: "Each summer a wave of supercars and international wealth descends on Mayfair and Knightsbridge. Here is how it reshapes London's luxury nightlife after dark.",
+    category: "Events",
+    publishDate: "2026-06-13",
+    modifiedDate: "2026-06-13",
+    readTime: "7 min read",
+    keywords: ["london supercar season nightlife", "mayfair supercar season", "knightsbridge supercars summer", "london summer luxury nightlife", "where the wealthy party london"],
+  },
 ];

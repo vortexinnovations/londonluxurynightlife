@@ -137,6 +137,7 @@ export const GUIDE_IMAGES: Record<string, string> = {
 
 // ── Blog post featured images ───────────────────────────────────────
 export const BLOG_IMAGES: Record<string, string> = {
+  "london-supercar-season-nightlife": img("maison-close-382.jpg"),
   "fight-night-london-nightlife": img("maison-close-420.jpg"),
   "henley-regatta-london-nightlife": img("maison-close-303.jpg"),
   "british-grand-prix-london-nightlife": img("maison-close-042.jpg"),
