@@ -540,4 +540,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["london supercar season nightlife", "mayfair supercar season", "knightsbridge supercars summer", "london summer luxury nightlife", "where the wealthy party london"],
   },
+  {
+    slug: "glorious-goodwood-london-season-finale",
+    title: "Glorious Goodwood Week: How London's Social Season Ends After Dark",
+    metaTitle: "Glorious Goodwood Week: London Season Finale | London Luxury Nightlife",
+    metaDescription: "How Glorious Goodwood week plays out in London after dark: the season finale rhythm, the quiet midweek, the last full weekend, and where summer goes next.",
+    excerpt: "The social season that begins at Ascot ends on the Sussex Downs. Here is how Goodwood week actually feels in London after dark, and how to play its finale.",
+    category: "Events",
+    publishDate: "2026-07-06",
+    modifiedDate: "2026-07-06",
+    readTime: "7 min read",
+    keywords: ["glorious goodwood london nightlife", "goodwood week london", "london social season finale", "qatar goodwood festival nightlife", "end of london season party"],
+  },
 ];
