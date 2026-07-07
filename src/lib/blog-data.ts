@@ -552,4 +552,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["glorious goodwood london nightlife", "goodwood week london", "london social season finale", "qatar goodwood festival nightlife", "end of london season party"],
   },
+  {
+    slug: "luxury-night-transport-london",
+    title: "Chauffeurs After Dark: How London's Luxury Crowd Gets Around at Night",
+    metaTitle: "Luxury Night Transport in London: Chauffeurs After Dark | London Luxury Nightlife",
+    metaDescription: "Luxury night transport in London explained: how chauffeurs and security drivers work the club circuit, what standby costs, and how the 3am pick-up is arranged.",
+    excerpt: "The most telling luxury at the end of a London night is not inside the club at all. It is the car that is already waiting, two streets away, when you step out at 3am.",
+    category: "Planning",
+    publishDate: "2026-07-07",
+    modifiedDate: "2026-07-07",
+    readTime: "7 min read",
+    keywords: ["luxury night transport london", "chauffeur night out london", "security driver london nightlife", "private driver london clubs", "3am pick up london clubs"],
+  },
 ];
