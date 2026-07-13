@@ -564,4 +564,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["luxury night transport london", "chauffeur night out london", "security driver london nightlife", "private driver london clubs", "3am pick up london clubs"],
   },
+  {
+    slug: "private-views-london-art-world",
+    title: "Private Views in London: How the Art World Does Its Evenings",
+    metaTitle: "Private Views in London: The Art World After Dark | London Luxury Nightlife",
+    metaDescription: "How private views work in London: the 6pm invitation, the gallery-dinner circle, the migration to members' rooms, and how the art world builds its evenings.",
+    excerpt: "The most exclusive nightlife in London does not always happen after ten. Some of it starts at six, with a glass of white and a room full of new paintings.",
+    category: "Guide",
+    publishDate: "2026-07-13",
+    modifiedDate: "2026-07-13",
+    readTime: "7 min read",
+    keywords: ["london private view culture", "art gallery private view london", "art world evenings london", "gallery opening night london", "art fair week london evenings"],
+  },
 ];

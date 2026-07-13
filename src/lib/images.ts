@@ -183,6 +183,7 @@ export const BLOG_IMAGES: Record<string, string> = {
   "london-film-premiere-after-parties": img("maison-close-180.jpg"),
   "glorious-goodwood-london-season-finale": img("fe4414_d2deed200e764c838ba29b12be5dde53.jpg"),
   "luxury-night-transport-london": img("maison-close-590.jpg"),
+  "private-views-london-art-world": img("maison-close-526.jpg"),
 };
 
 // ── Section break / atmospheric images ──────────────────────────────
