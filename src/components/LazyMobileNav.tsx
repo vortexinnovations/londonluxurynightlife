@@ -5,14 +5,19 @@ import dynamic from "next/dynamic";
 const MobileNav = dynamic(() => import("./MobileNav"), {
   ssr: false,
   loading: () => (
-    <button className="lg:hidden p-2 text-warm-gray" aria-label="Toggle menu">
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
+    <button
+      className="lg:hidden p-2 font-sans text-[11px] font-medium uppercase tracking-[0.35em] text-cream"
+      aria-label="Toggle menu"
+    >
+      Menu
     </button>
   ),
 });
 
-export default function LazyMobileNav() {
-  return <MobileNav />;
+export default function LazyMobileNav({
+  onOpenChange,
+}: {
+  onOpenChange?: (open: boolean) => void;
+}) {
+  return <MobileNav onOpenChange={onOpenChange} />;
 }

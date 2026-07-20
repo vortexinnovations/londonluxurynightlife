@@ -18,9 +18,9 @@ export default function HeroImage({
   children,
 }: HeroImageProps) {
   const overlayClasses = {
-    light: "bg-black/40",
-    heavy: "bg-black/70",
-    gradient: "bg-gradient-to-t from-black via-black/60 to-black/30",
+    light: "bg-ink/40",
+    heavy: "bg-ink/70",
+    gradient: "bg-gradient-to-t from-ink/90 via-ink/50 to-ink/20",
   };
 
   return (
@@ -29,7 +29,7 @@ export default function HeroImage({
         src={src}
         alt={alt}
         fill
-        className="object-cover"
+        className="editorial-img object-cover"
         priority={priority}
         sizes="100vw"
       />

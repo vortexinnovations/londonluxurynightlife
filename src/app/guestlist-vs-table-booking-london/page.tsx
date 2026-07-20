@@ -4,6 +4,8 @@ import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
+import { WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title:
@@ -129,6 +131,14 @@ export default function GuestlistVsTableBookingLondonPage() {
             <li><strong>Worst for:</strong> Peak weekend nights at exclusive venues, large groups, celebrations</li>
           </ul>
         </div>
+
+        <p className="text-center">
+          <WhatsAppCTA
+            message={WA_GUESTLIST_MESSAGE}
+            label="Join a Guestlist on WhatsApp"
+            number={GUESTLIST_NUMBER}
+          />
+        </p>
 
         <h2>Table Booking: What You Actually Get</h2>
 

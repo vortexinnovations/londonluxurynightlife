@@ -4,6 +4,7 @@ import Image from "next/image";
 import { blogPosts } from "@/lib/blog-data";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
+import Reveal from "@/components/Reveal";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import { BLOG_IMAGES } from "@/lib/images";
 
@@ -44,22 +45,23 @@ export default function BlogPage() {
       <div className="pt-28 lg:pt-36 pb-16">
         {/* Header */}
         <header className="max-w-5xl mx-auto px-4 sm:px-6 mb-16 text-center">
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-cream leading-tight mb-4">
-            The London Nightlife Blog
+          <span className="eyebrow justify-center mb-6">The Journal</span>
+          <h1 className="font-serif text-[clamp(2.5rem,6vw,4.25rem)] font-normal text-cream leading-[1.05] mb-6">
+            The London Nightlife <span className="accent-word">Blog</span>
           </h1>
-          <p className="text-lg text-warm-gray max-w-2xl mx-auto leading-relaxed">
+          <p className="font-prose italic text-xl text-warm-gray max-w-2xl mx-auto leading-relaxed">
             Insider knowledge, honest advice, and everything you need to navigate
             London&apos;s luxury club scene with confidence.
           </p>
         </header>
 
         {/* Category filters */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-14">
           <div className="flex flex-wrap gap-3 justify-center">
             {categories.map((cat) => (
               <span
                 key={cat}
-                className="px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-warm-gray bg-dark-surface border border-dark-border rounded"
+                className="px-4 py-2 font-sans text-[10px] font-medium uppercase tracking-[0.25em] text-warm-gray border border-dark-border"
               >
                 {cat}
               </span>
@@ -68,104 +70,112 @@ export default function BlogPage() {
         </div>
 
         {/* Featured post */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-16">
-          <Link
-            href={`/blog/${featured.slug}`}
-            className="group block bg-dark-surface border border-dark-border rounded-lg overflow-hidden hover:border-gold/30 transition-all"
-          >
-            {BLOG_IMAGES[featured.slug] && (
-              <div className="relative aspect-[21/9] overflow-hidden">
-                <Image
-                  src={BLOG_IMAGES[featured.slug]}
-                  alt={featured.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 1024px) 100vw, 1024px"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-              </div>
-            )}
-            <div className="p-8 lg:p-12">
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-xs font-medium uppercase tracking-wider text-gold">
-                  Featured
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-20">
+          <Reveal>
+            <Link href={`/blog/${featured.slug}`} className="group block">
+              {BLOG_IMAGES[featured.slug] && (
+                <div className="relative aspect-[21/9] overflow-hidden">
+                  <Image
+                    src={BLOG_IMAGES[featured.slug]}
+                    alt={featured.title}
+                    fill
+                    className="editorial-img object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-[var(--ease-lux)]"
+                    sizes="(max-width: 1024px) 100vw, 1024px"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink/50 to-transparent" />
+                </div>
+              )}
+              <div className="pt-6 border-t border-dark-border mt-[1px]">
+                <div className="flex items-center gap-5 mb-5">
+                  <span className="eyebrow">Featured</span>
+                  <span className="font-sans text-[11px] uppercase tracking-[0.2em] text-warm-gray">
+                    {featured.readTime}
+                  </span>
+                </div>
+                <h2 className="font-serif text-3xl lg:text-4xl font-normal text-cream group-hover:text-gold-light transition-colors duration-200 leading-tight mb-4">
+                  {featured.title}
+                </h2>
+                <p className="font-prose text-lg text-warm-gray leading-relaxed max-w-2xl mb-6">
+                  {featured.excerpt}
+                </p>
+                <span className="inline-flex items-center gap-2 font-sans text-[11px] uppercase tracking-[0.25em] text-gold">
+                  Read article
+                  <span
+                    aria-hidden
+                    className="group-hover:translate-x-1 transition-transform duration-200 ease-[var(--ease-lux)]"
+                  >
+                    &rarr;
+                  </span>
                 </span>
-                <span className="text-xs text-warm-gray">{featured.readTime}</span>
               </div>
-              <h2 className="font-serif text-2xl lg:text-3xl font-bold text-cream group-hover:text-gold transition-colors mb-4">
-                {featured.title}
-              </h2>
-              <p className="text-warm-gray leading-relaxed max-w-2xl mb-6">
-                {featured.excerpt}
-              </p>
-              <span className="inline-flex items-center gap-2 text-gold text-sm font-medium">
-                Read article
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
-            </div>
-          </Link>
+            </Link>
+          </Reveal>
         </div>
 
         {/* Post grid */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {rest.map((post) => (
-              <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="group block bg-dark-surface border border-dark-border rounded-lg overflow-hidden hover:border-gold/30 transition-all"
-              >
-                {BLOG_IMAGES[post.slug] && (
-                  <div className="relative aspect-[3/2] overflow-hidden">
-                    <Image
-                      src={BLOG_IMAGES[post.slug]}
-                      alt={post.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                  </div>
-                )}
-                <div className="p-5">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-xs font-medium uppercase tracking-wider text-gold/70">
-                      {post.category}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
+            {rest.map((post, i) => (
+              <Reveal key={post.slug} delay={(i % 3) * 80}>
+                <Link href={`/blog/${post.slug}`} className="group block">
+                  {BLOG_IMAGES[post.slug] && (
+                    <div className="relative aspect-[3/2] overflow-hidden">
+                      <Image
+                        src={BLOG_IMAGES[post.slug]}
+                        alt={post.title}
+                        fill
+                        className="editorial-img object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-[var(--ease-lux)]"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-ink/50 to-transparent" />
+                    </div>
+                  )}
+                  <div className="pt-4 border-t border-dark-border mt-[1px]">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="font-sans text-[10px] font-medium uppercase tracking-[0.25em] text-gold">
+                        {post.category}
+                      </span>
+                      <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-warm-gray">
+                        {post.readTime}
+                      </span>
+                    </div>
+                    <h2 className="font-serif text-xl font-medium text-foreground group-hover:text-gold-light transition-colors duration-200 mb-3 leading-snug">
+                      {post.title}
+                    </h2>
+                    <p className="font-prose text-sm text-warm-gray leading-relaxed mb-4">
+                      {post.excerpt}
+                    </p>
+                    <span className="inline-flex items-center gap-2 font-sans text-[10px] uppercase tracking-[0.25em] text-gold">
+                      Read more
+                      <span
+                        aria-hidden
+                        className="group-hover:translate-x-1 transition-transform duration-200 ease-[var(--ease-lux)]"
+                      >
+                        &rarr;
+                      </span>
                     </span>
-                    <span className="text-xs text-warm-gray">{post.readTime}</span>
                   </div>
-                  <h2 className="font-serif text-lg font-bold text-cream group-hover:text-gold transition-colors mb-3 leading-snug">
-                    {post.title}
-                  </h2>
-                  <p className="text-sm text-warm-gray leading-relaxed mb-4">
-                    {post.excerpt}
-                  </p>
-                  <span className="inline-flex items-center gap-1 text-gold text-sm">
-                    Read more
-                    <svg className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </Link>
+                </Link>
+              </Reveal>
             ))}
           </div>
         </div>
 
         {/* CTA */}
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 mt-20 text-center">
-          <div className="border-t border-dark-border pt-12">
-            <p className="font-serif text-xl text-cream mb-3">
-              Done reading? Let us plan your night.
-            </p>
-            <p className="text-warm-gray mb-6">
-              Our team knows every club on this list personally. Tell us what you&apos;re looking for.
-            </p>
-            <WhatsAppCTA message={WA_GENERAL_MESSAGE} label="Speak to Our Team" />
-          </div>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 mt-24 text-center">
+          <Reveal>
+            <div className="border-t border-dark-border pt-14">
+              <span className="eyebrow justify-center mb-6">The Concierge</span>
+              <p className="font-serif text-[clamp(1.75rem,3.5vw,2.5rem)] font-normal text-cream leading-tight mb-4">
+                Done reading? Let us plan your <span className="accent-word">night</span>.
+              </p>
+              <p className="font-prose italic text-lg text-warm-gray leading-relaxed mb-8">
+                Our team knows every club on this list personally. Tell us what you&apos;re looking for.
+              </p>
+              <WhatsAppCTA message={WA_GENERAL_MESSAGE} label="Speak to Our Team" />
+            </div>
+          </Reveal>
         </div>
       </div>
 

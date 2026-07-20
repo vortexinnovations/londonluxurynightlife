@@ -1,10 +1,21 @@
-export const WHATSAPP_NUMBER = "447880662708";
+// Set NEXT_PUBLIC_TABLE_NUMBER / NEXT_PUBLIC_GUESTLIST_NUMBER on Vercel to
+// override these (redeploy required — values are inlined at build time).
+export const TABLE_NUMBER =
+  process.env.NEXT_PUBLIC_TABLE_NUMBER || "447880662708";
+export const GUESTLIST_NUMBER =
+  process.env.NEXT_PUBLIC_GUESTLIST_NUMBER || "447348644054";
 export const SITE_URL = "https://londonluxurynightlife.com";
 export const SITE_NAME = "London Luxury Nightlife";
 
-export function whatsappLink(message: string): string {
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+export function whatsappLink(message: string, number: string = TABLE_NUMBER): string {
+  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
+
+export function guestlistLink(message: string = WA_GUESTLIST_MESSAGE): string {
+  return whatsappLink(message, GUESTLIST_NUMBER);
+}
+
+export const WA_GUESTLIST_MESSAGE = `Hi, I found you on londonluxurynightlife.com and I'd like to join the guestlist. Here are my details:\n\nClub:\nDate:\nGroup size (girls/guys):\nArrival time:`;
 
 export const WA_GENERAL_MESSAGE = `Hi, I found you on londonluxurynightlife.com and I'd like to plan a night out. Here are my details:\n\nDate(s) I'll be in London:\nGroup size:\nWhat kind of night I'm looking for:\nBudget:\nAny preferences:`;
 

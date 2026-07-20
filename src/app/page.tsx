@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { clubs, WA_GENERAL_MESSAGE, SITE_URL, SITE_NAME } from "@/lib/constants";
+import { clubs, WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER, SITE_URL, SITE_NAME } from "@/lib/constants";
 import ClubCard from "@/components/ClubCard";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
+import Reveal from "@/components/Reveal";
 import { HOME_IMAGES, SECTION_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
@@ -49,28 +50,28 @@ const guides = [
   {
     title: "Luxury Nightclubs in London",
     description:
-      "The definitive guide to London\u2019s most exclusive clubs. What makes a venue truly luxury, the tiers of exclusivity, and which rooms justify the spend.",
+      "The definitive guide to London’s most exclusive clubs. What makes a venue truly luxury, the tiers of exclusivity, and which rooms justify the spend.",
     href: "/luxury-nightclubs-london",
     label: "Explore luxury clubs",
   },
   {
     title: "London Nightlife Guide",
     description:
-      "The complete insider\u2019s guide to going out in London. From Mayfair luxury to Soho\u2019s creative underground \u2014 everything you need to know.",
+      "The complete insider’s guide to going out in London. From Mayfair luxury to Soho’s creative underground — everything you need to know.",
     href: "/london-nightlife-guide",
     label: "Read the guide",
   },
   {
     title: "Celebrity Nightclubs in London",
     description:
-      "Which clubs do celebrities actually go to? An insider\u2019s guide to the venues where A-listers, musicians, and athletes spend their nights.",
+      "Which clubs do celebrities actually go to? An insider’s guide to the venues where A-listers, musicians, and athletes spend their nights.",
     href: "/celebrity-nightclubs-london",
     label: "See the clubs",
   },
   {
-    title: "What to Wear to London\u2019s Best Clubs",
+    title: "What to Wear to London’s Best Clubs",
     description:
-      "Dress codes in Mayfair are enforced, but rarely explained. We break down what each venue actually expects \u2014 and the mistakes that get people turned away.",
+      "Dress codes in Mayfair are enforced, but rarely explained. We break down what each venue actually expects — and the mistakes that get people turned away.",
     href: "/london-club-dress-code-guide",
     label: "Read the dress code guide",
   },
@@ -84,14 +85,14 @@ const guides = [
   {
     title: "London Nightlife for International Visitors",
     description:
-      "Flying in for the weekend? Our visitor\u2019s guide covers the essentials: which nights to target, where to stay, and how to navigate the door.",
+      "Flying in for the weekend? Our visitor’s guide covers the essentials: which nights to target, where to stay, and how to navigate the door.",
     href: "/guides/london-nightlife-international-visitors",
     label: "Plan your visit",
   },
   {
     title: "How to Get Into Tape London",
     description:
-      "The complete entry guide to Mayfair\u2019s most exclusive club. Guestlist strategies, door policy decoded, best nights, and what the team is really looking for.",
+      "The complete entry guide to Mayfair’s most exclusive club. Guestlist strategies, door policy decoded, best nights, and what the team is really looking for.",
     href: "/how-to-get-into-tape-london",
     label: "Read the entry guide",
   },
@@ -107,50 +108,68 @@ const guides = [
 export default function Home() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      {/* Hero — the cover */}
+      <section className="relative min-h-[88svh] flex items-end overflow-hidden">
         <Image
           src={HOME_IMAGES.hero}
           alt="Luxury nightclub interior in Mayfair, London"
           fill
-          className="object-cover"
+          className="editorial-img object-cover"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" />
-        <div className="relative z-10 max-w-4xl mx-auto text-center px-6">
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-cream leading-tight tracking-tight drop-shadow-lg">
-            The Insider&rsquo;s Guide to London&rsquo;s Most Exclusive Nightlife
-          </h1>
-          <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-white/80 leading-relaxed max-w-2xl mx-auto drop-shadow">
-            Honest reviews, real insider knowledge, and direct access to
-            Mayfair&rsquo;s finest clubs. We&rsquo;ve spent years in these rooms so you
-            know exactly what to expect before you arrive.
-          </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <WhatsAppCTA
-              message={WA_GENERAL_MESSAGE}
-              label="Plan Your Night"
-              variant="primary"
-            />
-            <Link
-              href="/guides/complete-guide-london-luxury-nightlife"
-              className="text-gold hover:text-gold-light transition-colors text-sm font-medium tracking-wide uppercase"
-            >
-              Read the Guide &rarr;
-            </Link>
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/40 to-ink/20" />
+
+        {/* Vertical masthead label */}
+        <span
+          aria-hidden
+          className="hidden lg:block absolute right-8 bottom-24 z-10 font-sans text-[10px] uppercase tracking-[0.4em] text-warm-gray/70 [writing-mode:vertical-rl]"
+        >
+          Issue &mdash; London &middot; Est. After Midnight
+        </span>
+
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 lg:pb-20">
+          <div className="max-w-3xl">
+            <span className="eyebrow mb-6">Mayfair &middot; London &middot; After Dark</span>
+            <h1 className="font-serif text-[clamp(2.75rem,7.5vw,6rem)] font-normal text-cream leading-[0.98] tracking-[-0.01em]">
+              The Insider&rsquo;s Guide to London&rsquo;s Most Exclusive{" "}
+              <span className="accent-word">Nightlife</span>
+            </h1>
+            <p className="mt-7 font-prose italic text-lg sm:text-xl text-cream/80 leading-relaxed max-w-xl">
+              Honest reviews, real insider knowledge, and direct access to
+              Mayfair&rsquo;s finest clubs. We&rsquo;ve spent years in these rooms so you
+              know exactly what to expect before you arrive.
+            </p>
+            <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10">
+              <WhatsAppCTA
+                message={WA_GENERAL_MESSAGE}
+                label="Plan Your Night"
+                variant="primary"
+                className="items-start"
+              />
+              <Link
+                href="/guides/complete-guide-london-luxury-nightlife"
+                className="link-luxe"
+              >
+                Read the Guide &rarr;
+              </Link>
+            </div>
           </div>
         </div>
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-hairline-gold z-10" />
       </section>
 
       {/* Editorial Introduction */}
-      <section className="py-20 sm:py-24 px-6">
+      <section className="py-24 sm:py-32 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-cream mb-10 text-center">
-            London After Dark
-          </h2>
-          <div className="space-y-6 text-foreground leading-[1.85]">
-            <p>
+          <Reveal>
+            <span className="eyebrow mb-6">The City &middot; No. 01</span>
+            <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-12">
+              London After <span className="accent-word">Dark</span>
+            </h2>
+          </Reveal>
+          <div className="space-y-7 font-prose text-lg text-foreground leading-[1.8]">
+            <p className="italic text-[1.375rem] leading-[1.55] text-cream">
               There is a version of London that only reveals itself after midnight.
               It exists behind unmarked doors on Mayfair side streets, in basement
               rooms beneath Georgian townhouses, and in the private corners of
@@ -188,99 +207,129 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Clubs */}
-      <section className="py-20 sm:py-24 px-6 bg-dark-surface">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-cream mb-4">
-              Featured Clubs
-            </h2>
-            <p className="text-warm-gray max-w-xl mx-auto">
-              Every venue reviewed in depth &mdash; honest assessments of the crowd,
-              the music, the spend, and whether it&rsquo;s worth your evening.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {clubs.map((club) => (
-              <ClubCard key={club.slug} club={club} />
+      {/* Featured Clubs — the magazine well */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-dark-surface border-y border-dark-border">
+        <div className="max-w-6xl mx-auto">
+          <Reveal className="mb-16">
+            <span className="eyebrow mb-6">The Clubs &middot; No. 02</span>
+            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+              <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
+                Featured <span className="accent-word">Clubs</span>
+              </h2>
+              <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
+                Every venue reviewed in depth &mdash; honest assessments of the crowd,
+                the music, the spend, and whether it&rsquo;s worth your evening.
+              </p>
+            </div>
+          </Reveal>
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-x-8 gap-y-16">
+            {clubs.map((club, i) => (
+              <Reveal
+                key={club.slug}
+                delay={(i % 3) * 80}
+                className={i < 2 ? "md:col-span-3" : "md:col-span-2"}
+              >
+                <ClubCard club={club} index={i} />
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
       {/* Section break image */}
-      <div className="relative h-[250px] sm:h-[300px] overflow-hidden">
+      <div className="relative h-[280px] sm:h-[340px] overflow-hidden">
         <Image
           src={SECTION_IMAGES.vipArea}
           alt="VIP table service at a London nightclub"
           fill
-          className="object-cover"
+          className="editorial-img object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-ink/50" />
       </div>
 
-      {/* Guides */}
-      <section className="py-20 sm:py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-cream mb-4">
-              Insider Guides
-            </h2>
-            <p className="text-warm-gray max-w-xl mx-auto">
-              Deep-dive editorial guides covering everything from dress codes to
-              corporate entertaining &mdash; written from genuine experience.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {guides.map((guide) => (
-              <Link
-                key={guide.href}
-                href={guide.href}
-                className="group block bg-dark-surface border border-dark-border rounded-lg p-6 hover:border-gold/30 transition-all"
-              >
-                <h3 className="font-serif text-xl font-bold text-cream mb-3 group-hover:text-gold transition-colors">
-                  {guide.title}
-                </h3>
-                <p className="text-sm text-warm-gray leading-relaxed mb-4">
-                  {guide.description}
-                </p>
-                <span className="text-sm text-gold group-hover:text-gold-light transition-colors font-medium">
-                  {guide.label} &rarr;
-                </span>
-              </Link>
-            ))}
-          </div>
+      {/* Guides — text-first editorial index */}
+      <section className="py-24 sm:py-32 px-4 sm:px-6">
+        <div className="max-w-4xl mx-auto">
+          <Reveal className="mb-14">
+            <span className="eyebrow mb-6">The Knowledge &middot; No. 03</span>
+            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+              <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
+                Insider <span className="accent-word">Guides</span>
+              </h2>
+              <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
+                Deep-dive editorial guides covering everything from dress codes to
+                corporate entertaining &mdash; written from genuine experience.
+              </p>
+            </div>
+          </Reveal>
+          <Reveal>
+            <div className="border-t border-dark-border">
+              {guides.map((guide, i) => (
+                <Link
+                  key={guide.href}
+                  href={guide.href}
+                  className="group flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-8 py-7 px-2 border-b border-dark-border hover:bg-gold-wash hover:border-hairline-gold transition-[background-color,border-color] duration-250"
+                >
+                  <span className="index-num text-sm w-12 flex-shrink-0">
+                    No. {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="flex-1 min-w-0">
+                    <span className="block font-serif italic text-2xl text-foreground group-hover:text-gold-light group-hover:translate-x-2 transition-[color,transform] duration-250 ease-[var(--ease-lux)] mb-1.5">
+                      {guide.title}
+                    </span>
+                    <span className="block font-prose text-[0.9375rem] text-warm-gray leading-relaxed max-w-xl">
+                      {guide.description}
+                    </span>
+                  </span>
+                  <span className="font-sans text-[10px] uppercase tracking-[0.25em] text-gold flex-shrink-0">
+                    {guide.label} &rarr;
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
 
       {/* WhatsApp CTA Section */}
-      <section className="relative py-20 sm:py-24 px-6 overflow-hidden">
+      <section className="relative py-24 sm:py-32 px-4 sm:px-6 overflow-hidden border-y border-hairline-gold">
         <Image
           src={HOME_IMAGES.ctaBackground}
           alt="Champagne service at an exclusive London nightclub"
           fill
-          className="object-cover"
+          className="editorial-img object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-ink/80" />
         <div className="relative z-10 max-w-2xl mx-auto text-center">
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-cream mb-4">
-            Let Us Handle the Details
-          </h2>
-          <p className="text-warm-gray leading-relaxed mb-8 max-w-lg mx-auto">
-            Tell us when you&rsquo;re coming, how many are in your group, and what kind
-            of night you&rsquo;re after. We&rsquo;ll come back with a plan &mdash; the right
-            venue, the right table, and everything arranged before you land.
-          </p>
-          <WhatsAppCTA
-            message={WA_GENERAL_MESSAGE}
-            label="Start Planning on WhatsApp"
-            variant="primary"
-          />
-          <p className="mt-6 text-xs text-white/60">
-            Free &amp; no obligation. We respond within minutes during London hours.
-          </p>
+          <Reveal>
+            <span className="eyebrow justify-center mb-6">The Concierge</span>
+            <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-6">
+              Let Us Handle the <span className="accent-word">Details</span>
+            </h2>
+            <p className="font-prose text-lg text-foreground/80 leading-relaxed mb-10 max-w-lg mx-auto">
+              Tell us when you&rsquo;re coming, how many are in your group, and what kind
+              of night you&rsquo;re after. We&rsquo;ll come back with a plan &mdash; the right
+              venue, the right table, and everything arranged before you land.
+            </p>
+            <WhatsAppCTA
+              message={WA_GENERAL_MESSAGE}
+              label="Start Planning on WhatsApp"
+              variant="primary"
+            />
+            <div className="mt-6">
+              <WhatsAppCTA
+                message={WA_GUESTLIST_MESSAGE}
+                label="Or join the guestlist"
+                variant="inline"
+                number={GUESTLIST_NUMBER}
+              />
+            </div>
+            <p className="mt-8 font-sans text-[11px] uppercase tracking-[0.2em] text-warm-gray">
+              Free &amp; no obligation. We respond within minutes during London hours.
+            </p>
+          </Reveal>
         </div>
       </section>
 

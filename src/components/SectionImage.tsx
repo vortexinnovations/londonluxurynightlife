@@ -20,12 +20,12 @@ export default function SectionImage({
   };
 
   return (
-    <div className={`relative ${aspectClasses[aspect]} w-full overflow-hidden rounded-lg my-8 ${className}`}>
+    <div className={`relative ${aspectClasses[aspect]} w-full overflow-hidden my-8 ${className}`}>
       <Image
         src={src}
         alt={alt}
         fill
-        className="object-cover"
+        className="editorial-img object-cover"
         sizes="(max-width: 768px) 100vw, 768px"
       />
     </div>

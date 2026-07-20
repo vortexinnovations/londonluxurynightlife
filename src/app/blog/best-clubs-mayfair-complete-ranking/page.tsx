@@ -56,7 +56,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           character and execution.
         </p>
 
-        <h2>1. Tape London — The Gold Standard</h2>
+        <h2 className="no-num">1. Tape London — The Gold Standard</h2>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link> sits at the top
@@ -70,7 +70,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           position as Mayfair&apos;s most exclusive night.
         </p>
 
-        <h2>2. Funky Buddha — The Enduring Icon</h2>
+        <h2 className="no-num">2. Funky Buddha — The Enduring Icon</h2>
 
         <p>
           <Link href="/clubs/funky-buddha">Funky Buddha</Link> has outlasted
@@ -83,7 +83,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           <Link href="/blog/funky-buddha-london-review">full Funky Buddha review</Link>.
         </p>
 
-        <h2>3. Scotch of St James — The Heritage Choice</h2>
+        <h2 className="no-num">3. Scotch of St James — The Heritage Choice</h2>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -98,7 +98,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           covers its remarkable story.
         </p>
 
-        <h2>4. Dear Darling — The Cocktail Gateway</h2>
+        <h2 className="no-num">4. Dear Darling — The Cocktail Gateway</h2>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link> is the most
@@ -113,7 +113,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           </Link>.
         </p>
 
-        <h2>5. TABU London — The Dark Horse</h2>
+        <h2 className="no-num">5. TABU London — The Dark Horse</h2>
 
         <p>
           <Link href="/clubs/tabu-london">TABU</Link> arrived quietly and
@@ -126,7 +126,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           you, TABU is the antidote.
         </p>
 
-        <h2>6. Maddox Club — The Complete Evening</h2>
+        <h2 className="no-num">6. Maddox Club — The Complete Evening</h2>
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link> is the only venue on this
@@ -142,7 +142,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           for the full strategy.
         </p>
 
-        <h2>7. Cuckoo Club — The Reliable All-Rounder</h2>
+        <h2 className="no-num">7. Cuckoo Club — The Reliable All-Rounder</h2>
 
         <p>
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
@@ -155,7 +155,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           safest.
         </p>
 
-        <h2>8. Selene London — The Refined Newcomer</h2>
+        <h2 className="no-num">8. Selene London — The Refined Newcomer</h2>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link> has arrived with
@@ -168,7 +168,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           significantly higher as it matures.
         </p>
 
-        <h2>9. Luna Club London — The Fresh Energy</h2>
+        <h2 className="no-num">9. Luna Club London — The Fresh Energy</h2>
 
         <p>
           <Link href="/clubs/luna-club-london">Luna Club</Link> brings
@@ -187,7 +187,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           and occasion.
         </p>
 
-        <h2>Beyond Mayfair: The Notable Outliers</h2>
+        <h2 className="no-num">Beyond Mayfair: The Notable Outliers</h2>
 
         <p>
           Two venues sit outside Mayfair but deserve mention for anyone
@@ -208,7 +208,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           strips everything back to pure sound system quality.
         </p>
 
-        <h2>How to Choose the Right Mayfair Club</h2>
+        <h2 className="no-num">How to Choose the Right Mayfair Club</h2>
 
         <div className="info-box">
           <h4>Quick Decision Guide</h4>
@@ -236,7 +236,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           perfect venue for your specific evening.
         </p>
 
-        <h2>Related Reading</h2>
+        <h2 className="no-num">Related Reading</h2>
 
         <ul>
           <li>

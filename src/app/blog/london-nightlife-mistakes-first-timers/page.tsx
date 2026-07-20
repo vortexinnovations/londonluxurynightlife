@@ -85,7 +85,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           we see repeatedly, along with exactly what to do instead.
         </p>
 
-        <h2>1. Arriving Too Early</h2>
+        <h2 className="no-num">1. Arriving Too Early</h2>
 
         <p>
           This is the single most common mistake, and it comes from a logical
@@ -105,7 +105,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           you arrive.
         </p>
 
-        <h2>2. Arriving Too Late</h2>
+        <h2 className="no-num">2. Arriving Too Late</h2>
 
         <p>
           The opposite error. Turning up at 1:30am expecting to walk straight
@@ -122,7 +122,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           Communicate with your promoter or concierge if you are running late.
         </p>
 
-        <h2>3. Getting the Dress Code Wrong</h2>
+        <h2 className="no-num">3. Getting the Dress Code Wrong</h2>
 
         <p>
           London clubs enforce their{" "}
@@ -142,7 +142,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           for being too well-dressed.
         </p>
 
-        <h2>4. Not Booking Ahead</h2>
+        <h2 className="no-num">4. Not Booking Ahead</h2>
 
         <p>
           Walking up to a premium London club on a Saturday night without any
@@ -159,7 +159,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           entirely. A concierge or promoter handles this in minutes.
         </p>
 
-        <h2>5. Turning Up in a Large Mixed Group Without a Table</h2>
+        <h2 className="no-num">5. Turning Up in a Large Mixed Group Without a Table</h2>
 
         <p>
           A group of eight or ten people arriving at the door on guestlist —
@@ -181,7 +181,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           or four and enter separately.
         </p>
 
-        <h2>6. Not Understanding Minimum Spends</h2>
+        <h2 className="no-num">6. Not Understanding Minimum Spends</h2>
 
         <p>
           First-timers routinely book a table, see the &pound;1,000 minimum
@@ -203,7 +203,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           with your group before the evening — not when the bill arrives.
         </p>
 
-        <h2>7. Trying to Negotiate at the Door</h2>
+        <h2 className="no-num">7. Trying to Negotiate at the Door</h2>
 
         <p>
           Door staff at London clubs have heard every negotiation tactic in
@@ -222,7 +222,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           than anything you can say yourself.
         </p>
 
-        <h2>8. Getting Too Drunk Before Arriving</h2>
+        <h2 className="no-num">8. Getting Too Drunk Before Arriving</h2>
 
         <p>
           Pre-drinking is understandable — club prices are high and budget is
@@ -241,7 +241,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           runs until 3am or later — you need to last.
         </p>
 
-        <h2>9. Not Having a Plan</h2>
+        <h2 className="no-num">9. Not Having a Plan</h2>
 
         <p>
           Wandering around Mayfair at 11pm with a group of six, phones out,
@@ -262,7 +262,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           covers planning in detail for those new to the city.
         </p>
 
-        <h2>10. Relying on Google Maps Reviews</h2>
+        <h2 className="no-num">10. Relying on Google Maps Reviews</h2>
 
         <p>
           Google reviews for London nightclubs are spectacularly unreliable.
@@ -283,7 +283,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           Google reviews.
         </p>
 
-        <h2>11. Ignoring the Promoter System</h2>
+        <h2 className="no-num">11. Ignoring the Promoter System</h2>
 
         <p>
           London&apos;s club scene runs on relationships. Promoters and
@@ -304,7 +304,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           right table. You lose nothing and gain genuine insider access.
         </p>
 
-        <h2>12. Treating London Clubs Like Ibiza or Vegas</h2>
+        <h2 className="no-num">12. Treating London Clubs Like Ibiza or Vegas</h2>
 
         <p>
           London operates on different cultural codes to Ibiza, Las Vegas, Miami,
@@ -327,7 +327,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           are worth understanding before you arrive.
         </p>
 
-        <h2>The One Mistake That Covers All Others</h2>
+        <h2 className="no-num">The One Mistake That Covers All Others</h2>
 
         <p className="pull-quote">
           The real mistake is assuming London nightlife works like nightlife
@@ -359,7 +359,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           .
         </p>
 
-        <h2>Related Reading</h2>
+        <h2 className="no-num">Related Reading</h2>
 
         <ul>
           <li>

@@ -1,16 +1,27 @@
 @import "tailwindcss";
 
+/* ── Midnight Masthead design system ─────────────────────────────────
+   Ink-and-candlelight palette. Bodoni Moda = display voice,
+   Newsreader = prose voice, Archivo = UI voice.
+   Solid gold fill is reserved EXCLUSIVELY for WhatsApp actions. */
+
 :root {
-  --background: #0a0a0a;
-  --foreground: #e8e4de;
-  --gold: #c9a96e;
-  --gold-light: #d4b97a;
-  --gold-dark: #b8944f;
-  --cream: #f5f0e8;
-  --warm-gray: #a39e95;
-  --dark-surface: #141414;
-  --dark-surface-2: #1a1a1a;
-  --dark-border: #2a2723;
+  --background: #0b0a09;
+  --foreground: #ece7dd;
+  --gold: #c6a15b;
+  --gold-light: #e4cb8f;
+  --gold-dark: #8f6f35;
+  --cream: #f4efe6;
+  --warm-gray: #98938a;
+  --dark-surface: #121110;
+  --dark-surface-2: #1a1917;
+  --dark-border: #2b2823;
+  --ink: #050504;
+  --gold-wash: rgba(198, 161, 91, 0.1);
+  --overlay: rgba(5, 5, 4, 0.55);
+  --live: #3ec97a;
+  --hairline-gold: rgba(198, 161, 91, 0.35);
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @theme inline {
@@ -24,13 +35,35 @@
   --color-dark-surface: var(--dark-surface);
   --color-dark-surface-2: var(--dark-surface-2);
   --color-dark-border: var(--dark-border);
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair);
+  --color-ink: var(--ink);
+  --color-gold-wash: var(--gold-wash);
+  --color-live: var(--live);
+  --color-hairline-gold: var(--hairline-gold);
+  --font-sans: var(--font-archivo);
+  --font-serif: var(--font-bodoni);
+  --font-prose: var(--font-newsreader);
+  --ease-lux: var(--ease-lux);
+  /* Sharp corners site-wide — circles are reserved for the live-dot
+     and round icon buttons (rounded-full is untouched). */
+  --radius: 0px;
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+  --radius-4xl: 0px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -39,49 +72,241 @@ body {
   }
 }
 
-/* Editorial typography */
-.article-content h2 {
-  font-family: var(--font-playfair);
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 700;
+/* ── UI voice devices ──────────────────────────────────────────────── */
+
+/* Wide-tracked uppercase micro-label with a leading gold rule */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  font-family: var(--font-archivo);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--warm-gray);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 24px;
+  height: 1px;
+  background: var(--gold-dark);
+  flex-shrink: 0;
+}
+
+/* Editorial index numeral — "No. 01" */
+.index-num {
+  font-family: var(--font-bodoni);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gold-light);
+}
+
+/* The single gold-lit italic word inside a headline */
+.accent-word {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+/* ── CTA system — solid gold is WhatsApp-only ─────────────────────── */
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  background: var(--gold);
+  color: var(--ink);
+  font-family: var(--font-archivo);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition:
+    background 250ms var(--ease-lux),
+    box-shadow 250ms var(--ease-lux);
+}
+
+.btn-gold:hover {
+  background: var(--gold-light);
+  box-shadow: 0 8px 28px rgba(198, 161, 91, 0.3);
+}
+
+.btn-gold:active {
+  background: var(--gold-dark);
   color: var(--cream);
-  margin-top: 3rem;
+}
+
+.btn-gold:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 3px;
+}
+
+/* Secondary text link — sliding gold underline */
+.link-luxe {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-archivo);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--cream);
+  padding-bottom: 3px;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 1px;
+  transition:
+    background-size 250ms var(--ease-lux),
+    color 250ms var(--ease-lux);
+}
+
+.link-luxe:hover {
+  color: var(--gold-light);
+  background-size: 100% 1px;
+}
+
+/* Live availability dot + trust line */
+.live-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background: var(--live);
+  flex-shrink: 0;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.trust-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-archivo);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  color: var(--warm-gray);
+}
+
+/* ── Photography — one global editorial grade ─────────────────────── */
+
+.editorial-img {
+  filter: saturate(0.82) contrast(1.06) brightness(0.96);
+  transition: filter 700ms var(--ease-lux);
+}
+
+.group:hover .editorial-img,
+a:hover > .editorial-img {
+  filter: saturate(0.95) contrast(1.06) brightness(1);
+}
+
+/* ── Scroll reveal (added by the Reveal component after hydration) ── */
+
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.reveal-in {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 650ms var(--ease-lux),
+    transform 650ms var(--ease-lux);
+}
+
+/* ── Editorial typography (article prose) ─────────────────────────── */
+
+.article-content {
+  counter-reset: section;
+}
+
+.article-content h2 {
+  font-family: var(--font-bodoni);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--cream);
+  margin-top: 4rem;
   margin-bottom: 1.25rem;
+}
+
+.article-content h2::before {
+  counter-increment: section;
+  content: "No. " counter(section, decimal-leading-zero);
+  display: block;
+  font-family: var(--font-bodoni);
+  font-style: italic;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
 }
 
 .article-content h3 {
-  font-family: var(--font-playfair);
-  font-size: 1.375rem;
-  line-height: 1.875rem;
-  font-weight: 600;
+  font-family: var(--font-bodoni);
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 500;
   color: var(--cream);
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.article-content p {
-  margin-bottom: 1.25rem;
-  line-height: 1.85;
+/* :where() keeps specificity flat so utility-classed paragraphs
+   (bylines, banners, CTA wrappers) and component rules still win */
+.article-content p:where(:not([class])) {
+  font-family: var(--font-newsreader);
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
   color: var(--foreground);
+}
+
+/* Lede — first paragraph reads as the standfirst */
+.article-content > p:where(:not([class])):first-of-type {
+  font-style: italic;
+  font-size: 1.375rem;
+  line-height: 1.55;
+  color: var(--cream);
 }
 
 .article-content ul,
 .article-content ol {
-  margin-bottom: 1.25rem;
+  font-family: var(--font-newsreader);
+  font-size: 1.0625rem;
+  margin-bottom: 1.5rem;
   padding-left: 1.5rem;
 }
 
 .article-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.625rem;
   line-height: 1.75;
+}
+
+.article-content li::marker {
+  color: var(--gold);
 }
 
 .article-content a {
   color: var(--gold);
   text-decoration: underline;
-  text-underline-offset: 2px;
-  transition: color 0.2s;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color 200ms var(--ease-lux);
 }
 
 .article-content a:hover {
@@ -89,57 +314,153 @@ body {
 }
 
 .article-content blockquote {
-  border-left: 3px solid var(--gold);
-  padding-left: 1.5rem;
-  margin: 2rem 0;
-  font-family: var(--font-playfair);
-  font-size: 1.25rem;
-  line-height: 1.75;
-  color: var(--cream);
+  border-left: 2px solid var(--gold);
+  padding-left: 2rem;
+  margin: 3rem 0;
+  font-family: var(--font-bodoni);
   font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  line-height: 1.35;
+  color: var(--cream);
+}
+
+.article-content blockquote p {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin-bottom: 0;
 }
 
 .article-content strong {
   color: var(--cream);
-  font-weight: 600;
+  font-weight: 500;
+}
+
+.article-content hr {
+  border: 0;
+  width: 48px;
+  height: 1px;
+  background: var(--hairline-gold);
+  margin: 3rem auto;
 }
 
 /* Pull quote */
 .pull-quote {
-  font-family: var(--font-playfair);
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: var(--gold);
-  text-align: center;
-  padding: 2.5rem 2rem;
-  margin: 3rem 0;
-  border-top: 1px solid var(--dark-border);
-  border-bottom: 1px solid var(--dark-border);
+  font-family: var(--font-bodoni);
   font-style: italic;
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+  line-height: 1.35;
+  color: var(--cream);
+  border-left: 2px solid var(--gold);
+  padding: 0.25rem 0 0.25rem 2rem;
+  margin: 3rem 0;
 }
 
-/* Info box */
+.article-content .pull-quote p {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin-bottom: 0;
+}
+
+/* Opt-out for ranked-listicle h2s that carry their own numbering */
+.article-content h2.no-num::before {
+  content: none;
+}
+
+/* Info box — engraved plate */
 .info-box {
   background: var(--dark-surface);
   border: 1px solid var(--dark-border);
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  margin: 2rem 0;
+  border-top: 2px solid var(--gold);
+  padding: 1.75rem 2rem;
+  margin: 2.5rem 0;
 }
 
 .info-box h4 {
-  font-family: var(--font-playfair);
-  font-size: 1.125rem;
+  font-family: var(--font-archivo);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
-/* FAQ styling */
+.info-box p {
+  font-family: var(--font-archivo);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--warm-gray);
+  margin: 0;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--dark-border);
+}
+
+.info-box p:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-box p strong {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cream);
+  margin-right: 0.375rem;
+}
+
+.info-box ul,
+.info-box ol {
+  font-family: var(--font-archivo);
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.info-box li {
+  color: var(--warm-gray);
+  padding: 0.375rem 0;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* FAQ */
 .faq-item {
   border-bottom: 1px solid var(--dark-border);
-  padding: 1.5rem 0;
+  padding: 1.75rem 0;
 }
 
 .faq-item h3 {
   margin-top: 0;
+  font-size: 1.1875rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: var(--warm-gray);
+  margin-bottom: 0;
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal-pending {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

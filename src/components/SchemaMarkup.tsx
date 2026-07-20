@@ -1,4 +1,4 @@
-import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { SITE_URL, SITE_NAME, TABLE_NUMBER } from "@/lib/constants";
 
 interface FAQItem {
   question: string;
@@ -93,7 +93,7 @@ export function LocalBusinessSchema() {
     description: "London's premier luxury nightlife concierge and guide. Expert recommendations for VIP table bookings, exclusive clubs, and luxury evenings in Mayfair and beyond.",
     url: SITE_URL,
     image: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
-    telephone: "+447880662708",
+    telephone: `+${TABLE_NUMBER}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Mayfair",
