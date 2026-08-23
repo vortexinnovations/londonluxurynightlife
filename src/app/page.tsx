@@ -33,6 +33,12 @@ export const metadata: Metadata = {
       "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
     description:
       "The definitive insider's guide to luxury nightlife in London. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
+    images: [
+      {
+        url: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
+        alt: "Luxury nightclub interior in Mayfair, London",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -40,6 +46,7 @@ export const metadata: Metadata = {
       "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
     description:
       "The definitive insider's guide to luxury nightlife in London. Expert reviews, VIP table booking, celebrity hotspots, and insider tips.",
+    images: [`${SITE_URL}/gallery/images/DSC_7988.jpg`],
   },
   alternates: {
     canonical: SITE_URL,
@@ -274,14 +281,14 @@ export default function Home() {
                   <span className="index-num text-sm w-12 flex-shrink-0">
                     No. {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span className="flex-1 min-w-0">
-                    <span className="block font-serif italic text-2xl text-foreground group-hover:text-gold-light group-hover:translate-x-2 transition-[color,transform] duration-250 ease-[var(--ease-lux)] mb-1.5">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-serif italic font-normal text-2xl text-foreground group-hover:text-gold-light group-hover:translate-x-2 transition-[color,transform] duration-250 ease-[var(--ease-lux)] mb-1.5">
                       {guide.title}
-                    </span>
+                    </h3>
                     <span className="block font-prose text-[0.9375rem] text-warm-gray leading-relaxed max-w-xl">
                       {guide.description}
                     </span>
-                  </span>
+                  </div>
                   <span className="font-sans text-[10px] uppercase tracking-[0.25em] text-gold flex-shrink-0">
                     {guide.label} &rarr;
                   </span>

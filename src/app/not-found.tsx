@@ -39,6 +39,16 @@ export default function NotFound() {
               Plan Your Night
             </Link>
           </div>
+          <p className="mt-6 font-sans text-[11px] text-warm-gray/60">
+            Full index of every page:{" "}
+            <a href="/sitemap.xml" className="underline underline-offset-2 hover:text-gold-light transition-colors">
+              sitemap.xml
+            </a>{" "}
+            &middot; Machine-readable site guide:{" "}
+            <a href="/llms.txt" className="underline underline-offset-2 hover:text-gold-light transition-colors">
+              llms.txt
+            </a>
+          </p>
         </div>
       </div>
     </div>

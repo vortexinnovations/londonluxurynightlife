@@ -52,12 +52,19 @@ export const metadata: Metadata = {
     title: "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
     description:
       "The definitive guide to London's luxury nightlife. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
+    images: [
+      {
+        url: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
+        alt: "Luxury nightclub interior in Mayfair, London",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "London Luxury Nightlife | The Insider's Guide",
     description:
       "The definitive guide to London's luxury nightlife. Expert reviews, VIP table booking, and insider tips.",
+    images: [`${SITE_URL}/gallery/images/DSC_7988.jpg`],
   },
   robots: {
     index: true,
@@ -82,7 +89,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${archivo.variable} ${bodoni.variable} ${newsreader.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://wa.me" />
       </head>
       <body className="min-h-screen bg-background text-foreground font-sans antialiased">

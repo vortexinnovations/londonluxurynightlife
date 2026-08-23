@@ -94,6 +94,16 @@ export function LocalBusinessSchema() {
     url: SITE_URL,
     image: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
     telephone: `+${TABLE_NUMBER}`,
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: `+${TABLE_NUMBER}`,
+        contactType: "customer service",
+        areaServed: "GB",
+        availableLanguage: "English",
+        url: `${SITE_URL}/contact`,
+      },
+    ],
     address: {
       "@type": "PostalAddress",
       streetAddress: "Mayfair",

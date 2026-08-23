@@ -82,6 +82,9 @@ export default function Footer() {
             <Link href="/contact" className="font-sans text-[10px] uppercase tracking-[0.25em] text-warm-gray hover:text-cream transition-colors">
               Contact
             </Link>
+            <Link href="/privacy" className="font-sans text-[10px] uppercase tracking-[0.25em] text-warm-gray hover:text-cream transition-colors">
+              Privacy
+            </Link>
             <Link href="/guides/complete-guide-london-luxury-nightlife" className="font-sans text-[10px] uppercase tracking-[0.25em] text-warm-gray hover:text-cream transition-colors">
               Nightlife Guide
             </Link>
