@@ -63,6 +63,25 @@ test("homepage serves meaningful no-JS content with heading hierarchy", async ()
   assert.ok(stripTags(html).length >= 500, "500+ chars of raw text without JS");
 });
 
+test("homepage heading outline has no level skips and anchored sections", async () => {
+  const res = await get("/");
+  const html = await res.text();
+  const levels = [...html.matchAll(/<h([1-6])[\s>]/g)].map((m) => Number(m[1]));
+  assert.ok(levels.length >= 10, "substantial heading outline");
+  assert.equal(levels[0], 1, "outline starts at h1");
+  let prev = levels[0];
+  for (const lvl of levels) {
+    assert.ok(lvl <= prev + 1, `no heading level skip (h${prev} -> h${lvl})`);
+    prev = lvl;
+  }
+  for (const id of ["hero-heading", "london-after-dark", "featured-clubs", "insider-guides", "concierge"]) {
+    assert.match(html, new RegExp(`<h[12][^>]*id="${id}"`), `anchored heading #${id}`);
+    if (id !== "hero-heading") {
+      assert.match(html, new RegExp(`aria-labelledby="${id}"`), `section labelled by #${id}`);
+    }
+  }
+});
+
 // ── 3. Markdown content negotiation (acceptmarkdown.com) ────────────
 
 test("Accept: text/markdown on homepage returns compliant markdown", async () => {

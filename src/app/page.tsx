@@ -116,7 +116,7 @@ export default function Home() {
   return (
     <>
       {/* Hero — the cover */}
-      <section className="relative min-h-[88svh] flex items-end overflow-hidden">
+      <section aria-labelledby="hero-heading" className="relative min-h-[88svh] flex items-end overflow-hidden">
         <Image
           src={HOME_IMAGES.hero}
           alt="Luxury nightclub interior in Mayfair, London"
@@ -138,7 +138,7 @@ export default function Home() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 lg:pb-20">
           <div className="max-w-3xl">
             <span className="eyebrow mb-6">Mayfair &middot; London &middot; After Dark</span>
-            <h1 className="font-serif text-[clamp(2.75rem,7.5vw,6rem)] font-normal text-cream leading-[0.98] tracking-[-0.01em]">
+            <h1 id="hero-heading" className="font-serif text-[clamp(2.75rem,7.5vw,6rem)] font-normal text-cream leading-[0.98] tracking-[-0.01em]">
               The Insider&rsquo;s Guide to London&rsquo;s Most Exclusive{" "}
               <span className="accent-word">Nightlife</span>
             </h1>
@@ -167,11 +167,11 @@ export default function Home() {
       </section>
 
       {/* Editorial Introduction */}
-      <section className="py-24 sm:py-32 px-4 sm:px-6">
+      <section aria-labelledby="london-after-dark" className="py-24 sm:py-32 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <Reveal>
             <span className="eyebrow mb-6">The City &middot; No. 01</span>
-            <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-12">
+            <h2 id="london-after-dark" className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-12">
               London After <span className="accent-word">Dark</span>
             </h2>
           </Reveal>
@@ -215,12 +215,12 @@ export default function Home() {
       </section>
 
       {/* Featured Clubs — the magazine well */}
-      <section className="py-24 sm:py-32 px-4 sm:px-6 bg-dark-surface border-y border-dark-border">
+      <section aria-labelledby="featured-clubs" className="py-24 sm:py-32 px-4 sm:px-6 bg-dark-surface border-y border-dark-border">
         <div className="max-w-6xl mx-auto">
           <Reveal className="mb-16">
             <span className="eyebrow mb-6">The Clubs &middot; No. 02</span>
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
-              <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
+              <h2 id="featured-clubs" className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
                 Featured <span className="accent-word">Clubs</span>
               </h2>
               <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
@@ -256,12 +256,12 @@ export default function Home() {
       </div>
 
       {/* Guides — text-first editorial index */}
-      <section className="py-24 sm:py-32 px-4 sm:px-6">
+      <section aria-labelledby="insider-guides" className="py-24 sm:py-32 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <Reveal className="mb-14">
             <span className="eyebrow mb-6">The Knowledge &middot; No. 03</span>
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
-              <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
+              <h2 id="insider-guides" className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
                 Insider <span className="accent-word">Guides</span>
               </h2>
               <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
@@ -300,7 +300,7 @@ export default function Home() {
       </section>
 
       {/* WhatsApp CTA Section */}
-      <section className="relative py-24 sm:py-32 px-4 sm:px-6 overflow-hidden border-y border-hairline-gold">
+      <section aria-labelledby="concierge" className="relative py-24 sm:py-32 px-4 sm:px-6 overflow-hidden border-y border-hairline-gold">
         <Image
           src={HOME_IMAGES.ctaBackground}
           alt="Champagne service at an exclusive London nightclub"
@@ -312,7 +312,7 @@ export default function Home() {
         <div className="relative z-10 max-w-2xl mx-auto text-center">
           <Reveal>
             <span className="eyebrow justify-center mb-6">The Concierge</span>
-            <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-6">
+            <h2 id="concierge" className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-6">
               Let Us Handle the <span className="accent-word">Details</span>
             </h2>
             <p className="font-prose text-lg text-foreground/80 leading-relaxed mb-10 max-w-lg mx-auto">
