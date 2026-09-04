@@ -576,4 +576,16 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
     keywords: ["london private view culture", "art gallery private view london", "art world evenings london", "gallery opening night london", "art fair week london evenings"],
   },
+  {
+    slug: "frieze-week-london-nightlife",
+    title: "Frieze Week Nightlife: Where London's Art Crowd Goes After Dark",
+    metaTitle: "Frieze Week Nightlife London | London Luxury Nightlife",
+    metaDescription: "How Frieze week reshapes London's luxury nightlife every October. The dinners, the members' rooms, which nights peak, and how the art crowd actually socialises.",
+    excerpt: "For one week each October the art world takes over Mayfair's evenings. How Frieze week nightlife actually works, and why it looks nothing like fashion week.",
+    category: "Events",
+    publishDate: "2026-09-04",
+    modifiedDate: "2026-09-04",
+    readTime: "8 min read",
+    keywords: ["frieze week london nightlife", "art fair week london evenings", "london art week dinners", "luxury nightlife october london", "frieze london after dark"],
+  },
 ];
