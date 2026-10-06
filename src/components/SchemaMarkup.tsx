@@ -32,7 +32,7 @@ const ORGANIZATION = {
   name: SITE_NAME,
   url: SITE_URL,
   logo: `${SITE_URL}/icon.svg`,
-  image: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
+  image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
   description: "Independent editorial authority on London's luxury nightlife. Every venue visited, no pay-to-play.",
   address: {
     "@type": "PostalAddress",
@@ -92,7 +92,7 @@ export function LocalBusinessSchema() {
     name: SITE_NAME,
     description: "London's premier luxury nightlife concierge and guide. Expert recommendations for VIP table bookings, exclusive clubs, and luxury evenings in Mayfair and beyond.",
     url: SITE_URL,
-    image: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
+    image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
     telephone: `+${TABLE_NUMBER}`,
     contactPoint: [
       {

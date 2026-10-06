@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       "The definitive guide to London's luxury nightlife. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
     images: [
       {
-        url: `${SITE_URL}/gallery/images/DSC_7988.jpg`,
+        url: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
         alt: "Luxury nightclub interior in Mayfair, London",
       },
     ],
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "London Luxury Nightlife | The Insider's Guide",
     description:
       "The definitive guide to London's luxury nightlife. Expert reviews, VIP table booking, and insider tips.",
-    images: [`${SITE_URL}/gallery/images/DSC_7988.jpg`],
+    images: [`${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`],
   },
   robots: {
     index: true,
