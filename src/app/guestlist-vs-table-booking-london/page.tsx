@@ -228,7 +228,6 @@ export default function GuestlistVsTableBookingLondonPage() {
           <Link href="/clubs/reign-london">Reign London</Link>,{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
           <Link href="/clubs/selene-london">Selene</Link>,{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>,{" "}
           <Link href="/clubs/libertine">Libertine</Link>,{" "}
           <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
           <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}

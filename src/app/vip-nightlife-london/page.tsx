@@ -222,9 +222,6 @@ export default function VIPNightlifeLondonPage() {
           delivers VIP with genuine heritage character.{" "}
           <Link href="/clubs/the-box-london">The Box</Link> provides VIP for
           the adventurous — the performances are not for the faint-hearted.{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> and{" "}
-          <Link href="/clubs/libertine">Libertine</Link> round out the options
-          with contemporary energy and late-night atmosphere respectively.{" "}
           <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
           <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}

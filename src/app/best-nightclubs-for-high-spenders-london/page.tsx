@@ -253,15 +253,15 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>The New Generation</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> and{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> represent
-          compelling options for high spenders who want to be early adopters.
-          New venues often offer more competitive terms and more attentive
-          service as they build their client base. The{" "}
+          <Link href="/clubs/selene-london">Selene</Link> is the compelling
+          option for high spenders who want to be early adopters. Newer venues
+          often offer more competitive terms and more attentive service as they
+          build their client base. Luna Club, which opened in the same wave,
+          has since closed; the{" "}
           <Link href="/blog/luna-selene-new-mayfair-clubs-2025">
-            full review
+            Selene review
           </Link>{" "}
-          covers what both venues offer at each spend level.
+          covers what Selene offers.
         </p>
 
         <h2>How to Maximise Your Spend</h2>

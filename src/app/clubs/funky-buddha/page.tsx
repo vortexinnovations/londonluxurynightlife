@@ -77,8 +77,7 @@ export default function FunkyBuddhaPage() {
           The interiors lean into dark woods, ambient lighting, and an aesthetic
           that feels more like a private members&apos; lounge than a nightclub.
           Compared to newer venues like{" "}
-          <Link href="/clubs/luna-club-london">Luna Club London</Link> or{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>, Funky Buddha
+          <Link href="/clubs/selene-london">Selene London</Link>, Funky Buddha
           makes no attempt to dazzle you with contemporary design or LED
           installations. Its confidence comes from somewhere deeper than that.
           The room knows what it is, and so does everyone in it.

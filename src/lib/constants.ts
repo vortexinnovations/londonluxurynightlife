@@ -162,18 +162,6 @@ export const clubs: Club[] = [
     shortDescription: "London's most provocative and boundary-pushing nightclub, where theatrical performances push every limit and the crowd comes expecting the unexpected.",
   },
   {
-    name: "Luna Club London",
-    slug: "luna-club-london",
-    tagline: "Mayfair's newest luxury nightlife destination",
-    location: "Mayfair",
-    area: "Mayfair",
-    musicStyle: "Hip-Hop, RnB, Open Format",
-    tablesFrom: "£1,000",
-    openingNights: "Thursday – Saturday",
-    dressCode: "Smart and stylish. No casual wear.",
-    shortDescription: "A fresh addition to Mayfair's luxury nightlife scene, Luna Club brings a contemporary edge to the established formula with sleek design and premium service.",
-  },
-  {
     name: "Selene London",
     slug: "selene-london",
     tagline: "Sophisticated elegance in the heart of Mayfair",
@@ -201,6 +189,19 @@ export const clubs: Club[] = [
 
 /** Permanently closed venues — pages kept for SEO but excluded from active listings */
 export const closedClubs: Club[] = [
+  {
+    name: "Luna Club London",
+    slug: "luna-club-london",
+    tagline: "The Mayfair club with a celestial edge, now closed",
+    location: "Mayfair",
+    area: "Mayfair",
+    musicStyle: "Hip-Hop, RnB, Open Format",
+    tablesFrom: "£1,000",
+    openingNights: "Permanently Closed",
+    dressCode: "Smart and stylish.",
+    shortDescription: "A contemporary Mayfair club with sleek interiors and an open-format hip-hop and RnB policy. Luna Club London has closed.",
+    status: "closed",
+  },
   {
     name: "Libertine",
     slug: "libertine",

@@ -224,10 +224,9 @@ export default function LuxxClubLondonPage() {
 
         <ul>
           <li>
-            <Link href="/clubs/luna-club-london">Luna Club London</Link> — An
-            atmospheric Mayfair venue with striking visual design and an
-            immersive environment that carries forward the spirit of visually
-            ambitious nightlife.
+            <Link href="/clubs/reign-london">Reign London</Link>: a
+            production-led Piccadilly venue where aerial acts and live
+            performance make the room part of the night.
           </li>
           <li>
             <Link href="/clubs/selene-london">Selene London</Link> — A sleek,

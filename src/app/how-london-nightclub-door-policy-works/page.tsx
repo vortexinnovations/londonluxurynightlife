@@ -302,7 +302,6 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
           <Link href="/clubs/reign-london">Reign London</Link>,{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>,{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
           <Link href="/clubs/libertine">Libertine</Link>,{" "}
           <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}

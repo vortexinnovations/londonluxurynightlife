@@ -254,16 +254,15 @@ export default function LuxuryNightclubsLondonPage() {
           anyone visiting Mayfair for the first time.
         </p>
 
-        <h3>Selene London &amp; Luna Club — The New Generation</h3>
+        <h3>Selene London — The New Generation</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link> brings refined
-          sophistication while{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> brings
-          contemporary energy. Both represent the next generation of
-          Mayfair luxury and are worth watching closely. Our{" "}
+          sophistication and represents the next generation of Mayfair
+          luxury. Luna Club, which opened in the same wave, has since
+          closed. Our{" "}
           <Link href="/blog/luna-selene-new-mayfair-clubs-2025">
-            review of both
+            Selene review
           </Link>{" "}
           covers what to expect.
         </p>

@@ -223,7 +223,6 @@ export default function LondonClubDressCodeGuidePage() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
           <Link href="/clubs/tabu-london">TABU</Link>,{" "}
           <Link href="/clubs/selene-london">Selene</Link>,{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/reign-london">Reign London</Link>.
           Smart-casual standard enforced. Dark jeans acceptable, smart shoes

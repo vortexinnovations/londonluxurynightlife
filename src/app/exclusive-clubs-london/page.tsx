@@ -238,9 +238,8 @@ export default function ExclusiveClubsLondonPage() {
           <Link href="/clubs/maddox">Maddox</Link> combines dining and
           nightlife with a door that reflects its dual format — refined but
           accessible with a booking.{" "}
-          <Link href="/clubs/selene-london">Selene</Link> and{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> are building
-          their reputations as part of a new generation of Mayfair venues.{" "}
+          <Link href="/clubs/selene-london">Selene</Link> is building its
+          reputation as part of a new generation of Mayfair venues.{" "}
           <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
           operates with music-first selectivity that prizes genuine enthusiasm
           over status.{" "}

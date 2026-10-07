@@ -231,18 +231,7 @@ export default function BestHipHopClubsLondonPage() {
           covers what makes it worth watching.
         </p>
 
-        <h3>7. Luna Club — Contemporary Edge</h3>
-
-        <p>
-          <Link href="/clubs/luna-club-london">Luna Club</Link> brings a
-          contemporary sensibility that appeals to a younger crowd without
-          sacrificing quality. The hip-hop programming here leans towards
-          current releases and emerging artists, making it the venue for
-          people who want to hear what is happening in hip-hop right now
-          rather than relive what happened ten years ago.
-        </p>
-
-        <h3>8. BEAT London — Sound System First</h3>
+        <h3>7. BEAT London — Sound System First</h3>
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia

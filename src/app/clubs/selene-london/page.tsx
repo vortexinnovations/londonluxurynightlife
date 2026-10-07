@@ -94,9 +94,7 @@ export default function SeleneLondonPage() {
           well-travelled international visitors, established entrepreneurs, and
           couples who want a premium night out without the chaos that can
           accompany some of Mayfair&apos;s busier venues. The average age skews
-          slightly older than{" "}
-          <Link href="/clubs/luna-club-london">Luna Club London</Link>, and the
-          overall energy is correspondingly more measured. This is not a room
+          slightly older than at most Mayfair clubs, and the overall energy is correspondingly more measured. This is not a room
           that erupts. It is a room that hums, steadily and satisfyingly, with
           the kind of quiet confidence that comes from everyone in the space
           being exactly where they want to be.

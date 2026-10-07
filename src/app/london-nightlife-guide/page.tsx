@@ -106,11 +106,9 @@ export default function LondonNightlifeGuidePage() {
           <Link href="/clubs/maddox">Maddox</Link> (the best for dinner
           and dancing),{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> (the most
-          reliable),{" "}
+          reliable), and{" "}
           <Link href="/clubs/selene-london">Selene</Link> (the most
-          refined newcomer), and{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> (the
-          freshest energy). Our{" "}
+          refined newcomer). Our{" "}
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>{" "}
