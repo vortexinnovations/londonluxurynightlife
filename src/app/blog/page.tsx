@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { blogPosts } from "@/lib/blog-data";
+import { getMergedPosts } from "@/lib/blog-data";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Reveal from "@/components/Reveal";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
-import { BLOG_IMAGES } from "@/lib/images";
+import { postImage } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
@@ -33,9 +33,12 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = [...new Set(blogPosts.map((p) => p.category))];
+// Prerendered; /api/revalidate marks it stale when the content API publishes.
+export const revalidate = 86400;
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const blogPosts = await getMergedPosts();
+  const categories = [...new Set(blogPosts.map((p) => p.category))];
   const sorted = [...blogPosts].sort((a, b) => b.publishDate.localeCompare(a.publishDate));
   const featured = sorted[0];
   const rest = sorted.slice(1);
@@ -73,10 +76,10 @@ export default function BlogPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-20">
           <Reveal>
             <Link href={`/blog/${featured.slug}`} className="group block">
-              {BLOG_IMAGES[featured.slug] && (
+              {postImage(featured) && (
                 <div className="relative aspect-[21/9] overflow-hidden">
                   <Image
-                    src={BLOG_IMAGES[featured.slug]}
+                    src={postImage(featured)}
                     alt={featured.title}
                     fill
                     className="editorial-img object-cover group-hover:scale-[1.03] transition-transform duration-700 ease-[var(--ease-lux)]"
@@ -119,10 +122,10 @@ export default function BlogPage() {
             {rest.map((post, i) => (
               <Reveal key={post.slug} delay={(i % 3) * 80}>
                 <Link href={`/blog/${post.slug}`} className="group block">
-                  {BLOG_IMAGES[post.slug] && (
+                  {postImage(post) && (
                     <div className="relative aspect-[3/2] overflow-hidden">
                       <Image
-                        src={BLOG_IMAGES[post.slug]}
+                        src={postImage(post)}
                         alt={post.title}
                         fill
                         className="editorial-img object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-[var(--ease-lux)]"

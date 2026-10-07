@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { clubs, closedClubs } from "@/lib/constants";
-import { blogPosts } from "@/lib/blog-data";
+import { getListingPosts } from "@/lib/blog-data";
 
 const BASE_URL = "https://londonluxurynightlife.com";
 
@@ -35,7 +35,12 @@ const editorialSlugs = [
   "london-vs-paris-nightlife",
 ];
 
+// Rendered per request from a cached post list (marked stale on every
+// content-API publish): on Vercel a prerendered sitemap is never refreshed.
+export const dynamic = "force-dynamic";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const blogPosts = await getListingPosts();
   const clubPages: MetadataRoute.Sitemap = clubs.map((club) => ({
     url: `${BASE_URL}/clubs/${club.slug}`,
     lastModified: new Date(),

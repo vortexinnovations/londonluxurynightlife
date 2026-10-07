@@ -136,6 +136,11 @@ export const GUIDE_IMAGES: Record<string, string> = {
 };
 
 // ── Blog post featured images ───────────────────────────────────────
+/** A post's featured image: its own (database posts), else the slug map. */
+export function postImage(post: { slug: string; image?: string }): string {
+  return post.image || BLOG_IMAGES[post.slug] || "";
+}
+
 export const BLOG_IMAGES: Record<string, string> = {
   "london-supercar-season-nightlife": img("maison-close-382.jpg"),
   "fight-night-london-nightlife": img("maison-close-420.jpg"),
