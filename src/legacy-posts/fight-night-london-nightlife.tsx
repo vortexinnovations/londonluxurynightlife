@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Fight Night London Nightlife | London Luxury Nightlife",
+  title: "Fight Night London Nightlife",
   description:
     "How major boxing nights reshape London nightlife: the crowd that comes to town, the late surge into Mayfair, and how to plan a night around a big card.",
   keywords:

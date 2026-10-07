@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Planning a Birthday Night Out in London: The Complete Guide | London Luxury Nightlife",
+    "Planning a Birthday Night Out in London: The Complete Guide",
   description:
     "Everything you need to plan a birthday night out in London's best clubs. Venue selection, birthday packages, group management, budget planning, and the timeline for making it unforgettable.",
   keywords:

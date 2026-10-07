@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "scotch-of-st-james")!;
 
 export const metadata: Metadata = {
   title:
-    "Scotch of St James Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Scotch of St James Review | What It's Really Like Inside",
   description:
     "An honest Scotch of St James review from London nightlife insiders. Discover what the Scotch of St James experience is really like, from the 1960s heritage to the modern crowd. What is Scotch of St James like? We break it all down.",
 };

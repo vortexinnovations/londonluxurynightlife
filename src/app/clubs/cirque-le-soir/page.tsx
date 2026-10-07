@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "cirque-le-soir")!;
 
 export const metadata: Metadata = {
   title:
-    "Cirque Le Soir Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Cirque Le Soir Review | What It's Really Like Inside",
   description:
     "An honest Cirque Le Soir review from nightlife insiders. Discover what the Cirque Le Soir experience is really like, what is Cirque Le Soir like inside, and why this circus-themed club is unlike anything else in London.",
 };

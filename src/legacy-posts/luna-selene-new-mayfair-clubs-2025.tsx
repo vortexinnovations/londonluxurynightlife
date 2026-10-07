@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed | London Luxury Nightlife",
+    "Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed",
   description:
     "An insider review of Luna Club London and Selene London — Mayfair's two newest luxury nightclubs. How they compare, what they offer, and whether the new arrivals can compete with the established names.",
   keywords:

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Fashion Week Nightlife: Where the Industry Goes After Dark | London Luxury Nightlife",
+    "London Fashion Week Nightlife: Where the Industry Goes After Dark",
   description:
     "Where fashion industry insiders go out during London Fashion Week. LFW afterparties, which clubs host events, what to wear, and how to get into the best parties.",
   keywords:

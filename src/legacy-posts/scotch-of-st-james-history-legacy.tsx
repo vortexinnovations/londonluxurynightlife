@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Scotch of St James: The History and Legacy of London's Most Storied Club | London Luxury Nightlife",
+    "Scotch of St James: The History and Legacy of London's Most Storied Club",
   description:
     "From Jimi Hendrix in the 1960s to today — the incredible history of Scotch of St James, Mayfair's most storied nightclub and why it still matters.",
   keywords:

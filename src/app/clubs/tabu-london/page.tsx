@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "tabu-london")!;
 
 export const metadata: Metadata = {
   title:
-    "TABU London Review | What It's Really Like Inside | London Luxury Nightlife",
+    "TABU London Review | What It's Really Like Inside",
   description:
     "An honest TABU London review from nightlife insiders. Discover what the TABU London experience is really like, what is TABU London like inside, and why this Japanese-inspired Mayfair club stands apart.",
 };

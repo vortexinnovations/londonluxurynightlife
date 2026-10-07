@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Wimbledon Season Nightlife in London | London Luxury Nightlife",
+  title: "Wimbledon Season Nightlife in London",
   description: "Wimbledon season nightlife in London: where the tennis crowd goes after the final set. The clubs, the after-parties, and the Mayfair scene during SW19 fortnight.",
   keywords: "wimbledon season nightlife london, wimbledon afterparty london, london nightlife wimbledon, tennis season london clubs",
   openGraph: {

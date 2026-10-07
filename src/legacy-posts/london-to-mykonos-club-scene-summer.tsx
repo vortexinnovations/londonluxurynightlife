@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "London Clubs in Mykonos | London Luxury Nightlife",
+  title: "London Clubs in Mykonos",
   description: "How London's top nightclubs expand to Mykonos each summer. The venues, the crowd, and what changes when Mayfair meets the Aegean.",
   keywords: "london clubs mykonos summer, london nightclub mykonos expansion, mayfair clubs mykonos, luxury nightlife mykonos london",
   authors: [{ name: "Isabella Marsh", url: "https://londonluxurynightlife.com/about-the-editor/" }],

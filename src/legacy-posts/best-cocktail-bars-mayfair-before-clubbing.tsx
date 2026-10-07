@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide | London Luxury Nightlife",
+    "Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide",
   description:
     "Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, Cuckoo Club, and more — with timing, dress code, and price guidance.",
   keywords:

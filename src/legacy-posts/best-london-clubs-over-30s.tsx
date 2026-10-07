@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best London Clubs for Over 30s: Where the Grown-Up Crowd Goes | London Luxury Nightlife",
+    "Best London Clubs for Over 30s: Where the Grown-Up Crowd Goes",
   description:
     "The best London clubs for over 30s who want a sophisticated night out without the student crowd. Mayfair venues where 28-45 is the norm, not the exception.",
   keywords:

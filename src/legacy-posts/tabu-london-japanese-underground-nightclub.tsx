@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "TABU London: Inside Mayfair's Japanese-Inspired Underground Club | London Luxury Nightlife",
+    "TABU London: Inside Mayfair's Japanese-Inspired Underground Club",
   description:
     "What makes TABU London different from every other Mayfair nightclub. The Japanese aesthetics, the underground atmosphere, and why this venue is the antidote to Mayfair sameness.",
   keywords:

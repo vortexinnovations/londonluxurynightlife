@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Glorious Goodwood Week: London Season Finale | London Luxury Nightlife",
+  title: "Glorious Goodwood Week: London Season Finale",
   description:
     "How Glorious Goodwood week plays out in London after dark: the season finale rhythm, the quiet midweek, the last full weekend, and where summer goes next.",
   keywords:

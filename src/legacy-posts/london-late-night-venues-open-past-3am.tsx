@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Clubs Open Past 3AM | Late Night Venues Guide | London Luxury Nightlife",
+    "London Clubs Open Past 3AM | Late Night Venues Guide",
   description:
     "Where to go when Mayfair closes its doors. The best late-night London clubs, after-hours options, casino bars, and venues open past 3am — an insider's guide to London after dark.",
   keywords:

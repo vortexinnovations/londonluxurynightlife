@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "BEAT London: The Sound System That Sets This Fitzrovia Club Apart | London Luxury Nightlife",
+    "BEAT London: The Sound System That Sets This Fitzrovia Club Apart",
   description:
     "Why BEAT London on Margaret Street has one of the best sound systems in the city. A club built for people who care about music first and everything else second.",
   keywords:

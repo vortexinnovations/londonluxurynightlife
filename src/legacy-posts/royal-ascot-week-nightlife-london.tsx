@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Royal Ascot Week Nightlife London | London Luxury Nightlife",
+  title: "Royal Ascot Week Nightlife London",
   description:
     "How Royal Ascot week transforms London's luxury club scene. Where the racing crowd goes after dark, which nights peak, and how to navigate Mayfair during the races.",
   keywords:

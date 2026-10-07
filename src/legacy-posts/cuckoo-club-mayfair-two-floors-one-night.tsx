@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Cuckoo Club Mayfair: Two Floors, One Perfect Night | London Luxury Nightlife",
+    "Cuckoo Club Mayfair: Two Floors, One Perfect Night",
   description:
     "Why Cuckoo Club on Swallow Street is Mayfair's most reliable night out. Two floors, two genres, and a consistency that more famous venues struggle to match.",
   keywords:

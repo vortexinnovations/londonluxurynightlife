@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Henley Regatta Nightlife in London | London Luxury Nightlife",
+  title: "Henley Regatta Nightlife in London",
   description:
     "How Henley Royal Regatta week reshapes London nightlife: the social season crowd, the nights that matter, and where the regatta set goes after the river.",
   keywords:

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Dear Darling vs Maddox: Mayfair's Best Cocktail-to-Club Experiences | London Luxury Nightlife",
+    "Dear Darling vs Maddox: Mayfair's Best Cocktail-to-Club Experiences",
   description:
     "Two Mayfair venues that blend cocktails with late-night energy. Dear Darling vs Maddox — which suits your style and how each handles the transition from elegant to electric.",
   keywords:

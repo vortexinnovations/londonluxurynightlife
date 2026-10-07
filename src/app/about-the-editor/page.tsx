@@ -3,7 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About the Editor — Isabella Marsh | London Luxury Nightlife",
+  title: "About the Editor — Isabella Marsh",
   description:
     "Meet Isabella Marsh, Luxury Lifestyle Editor. She covers London's high-end nightlife: members' clubs, celebrity-spotted venues, and the season's most exclusive parties.",
   openGraph: {

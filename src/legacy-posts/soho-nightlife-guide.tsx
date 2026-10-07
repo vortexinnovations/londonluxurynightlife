@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond | London Luxury Nightlife",
+    "Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond",
   description:
     "The insider guide to Soho nightlife in London. From The Box and Cirque Le Soir to late-night bars and the walk to Mayfair — everything you need for a night in Soho.",
   keywords:

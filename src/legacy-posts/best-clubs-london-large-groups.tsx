@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best London Clubs for Large Groups and Parties | London Luxury Nightlife",
+    "Best London Clubs for Large Groups and Parties",
   description:
     "Where to take 10, 20, or 50+ people for a night out in London. The best clubs for large groups, corporate parties, stag and hen dos, and how to manage multi-table bookings without the night falling apart.",
   keywords:

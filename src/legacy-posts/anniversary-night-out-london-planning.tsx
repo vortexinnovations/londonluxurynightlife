@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Anniversary Night Out London | London Luxury Nightlife",
+  title: "Anniversary Night Out London",
   description: "How to plan a luxury anniversary night out in London. The right clubs, the right timing, and the details that separate a celebration from just another Saturday.",
   keywords: "anniversary night out london, romantic club night london, couples night out mayfair, luxury anniversary london",
   openGraph: {

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Funky Buddha London: Why This Mayfair Icon Still Delivers | London Luxury Nightlife",
+    "Funky Buddha London: Why This Mayfair Icon Still Delivers",
   description:
     "An insider review of Funky Buddha in Mayfair — its history, the celebrity connection, what the experience is like now, and why this London nightclub has outlasted nearly every rival.",
   keywords:

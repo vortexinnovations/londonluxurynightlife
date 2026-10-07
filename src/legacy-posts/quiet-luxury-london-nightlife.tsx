@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Quiet Luxury London Nightlife | London Luxury Nightlife",
+  title: "Quiet Luxury London Nightlife",
   description: "Quiet luxury is reshaping London's club scene. Why the city's most exclusive venues are choosing discretion over spectacle, and what it means for your night out.",
   keywords: "quiet luxury london nightlife, discreet clubs london, understated nightlife london, exclusive london clubs, luxury clubbing london",
   openGraph: {

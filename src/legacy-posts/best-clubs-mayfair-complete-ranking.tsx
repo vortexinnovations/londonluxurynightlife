@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Every Mayfair Club Ranked: The Definitive Guide for 2025 | London Luxury Nightlife",
+    "Every Mayfair Club Ranked: The Definitive Guide for 2025",
   description:
     "An honest ranking of every luxury nightclub in Mayfair for 2025 — from established icons to the newest openings. The insider's guide to choosing the right venue.",
   keywords:

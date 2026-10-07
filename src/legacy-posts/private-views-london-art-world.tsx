@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Private Views in London: The Art World After Dark | London Luxury Nightlife",
+  title: "Private Views in London: The Art World After Dark",
   description:
     "How private views work in London: the 6pm invitation, the gallery-dinner circle, the migration to members' rooms, and how the art world builds its evenings.",
   keywords:

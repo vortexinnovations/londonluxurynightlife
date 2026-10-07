@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Luxury Night Transport in London: Chauffeurs After Dark | London Luxury Nightlife",
+  title: "Luxury Night Transport in London: Chauffeurs After Dark",
   description:
     "Luxury night transport in London explained: how chauffeurs and security drivers work the club circuit, what standby costs, and how the 3am pick-up is arranged.",
   keywords:

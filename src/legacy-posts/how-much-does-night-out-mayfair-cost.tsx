@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "How Much Does a Night Out in Mayfair Really Cost? | London Luxury Nightlife",
+    "How Much Does a Night Out in Mayfair Really Cost?",
   description:
     "A transparent breakdown of every expense on a Mayfair night out — from club minimum spends and bottle prices to dinner, transport, and tips. Realistic budgets for every level.",
   keywords:

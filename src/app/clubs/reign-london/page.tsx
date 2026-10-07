@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "reign-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Reign London Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Reign London Review | What It's Really Like Inside",
   description:
     "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.",
 };

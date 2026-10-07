@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "selene-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Selene London Review | Sophisticated Mayfair Elegance | London Luxury Nightlife",
+    "Selene London Review | Sophisticated Mayfair Elegance",
   description:
     "An insider review of Selene London. Discover why this sophisticated Mayfair club is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.",
 };

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Mayfair vs Shoreditch Nightlife Compared | London Luxury Nightlife",
+    "Mayfair vs Shoreditch Nightlife Compared",
   description:
     "A candid comparison of London's two biggest nightlife districts. Mayfair's bottle service luxury versus Shoreditch's underground creativity — which one suits your style?",
   keywords:

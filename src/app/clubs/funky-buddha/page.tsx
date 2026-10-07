@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "funky-buddha")!;
 
 export const metadata: Metadata = {
   title:
-    "Funky Buddha Review | Mayfair's Legendary Nightclub | London Luxury Nightlife",
+    "Funky Buddha Review | Mayfair's Legendary Nightclub",
   description:
     "An insider review of Funky Buddha on Berkeley Street. Discover why this iconic Mayfair nightclub has been a celebrity favourite for over a decade, what to expect inside, and whether it lives up to its legendary reputation.",
 };

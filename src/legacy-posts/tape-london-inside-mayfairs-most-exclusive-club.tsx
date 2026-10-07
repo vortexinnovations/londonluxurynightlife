@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Inside Tape London: What Makes Mayfair's Most Exclusive Club Different | London Luxury Nightlife",
+    "Inside Tape London: What Makes Mayfair's Most Exclusive Club Different",
   description:
     "An insider's look at Tape London — the Hanover Square members' club where celebrities and music industry insiders go when they want genuine privacy and exceptional sound.",
   keywords:

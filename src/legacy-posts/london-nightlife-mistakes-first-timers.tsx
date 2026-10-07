@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them) | London Luxury Nightlife",
+    "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)",
   description:
     "The most common London nightlife mistakes — from wrong dress codes and bad timing to ignoring the promoter system. Honest advice so your first night out goes smoothly.",
   keywords:

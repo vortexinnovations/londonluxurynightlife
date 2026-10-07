@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Private Members Clubs vs Public Nightclubs in London: An Honest Comparison | London Luxury Nightlife",
+    "Private Members Clubs vs Public Nightclubs in London: An Honest Comparison",
   description:
     "Members clubs or nightclubs? We compare atmosphere, cost, exclusivity, music, dress code, and crowd to help you choose the right London nightlife experience.",
   keywords:

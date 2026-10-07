@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Plan a Stag Night in Mayfair | London Luxury Nightlife",
+  title: "Plan a Stag Night in Mayfair",
   description:
     "How to plan the perfect Mayfair stag night. Bottle service, table bookings, dress codes, timing, and which clubs actually welcome stag groups.",
   keywords:

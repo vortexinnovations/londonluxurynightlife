@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Saturday Night in Mayfair: A Local's Guide | London Luxury Nightlife",
+    "Saturday Night in Mayfair: A Local's Guide",
   description:
     "The insider playbook for Mayfair's biggest night out. From cocktails at 8pm to closing time at 3am — timing, venues, bookings, and the mistakes to avoid.",
   keywords:

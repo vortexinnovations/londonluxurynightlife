@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Frieze Week Nightlife London | London Luxury Nightlife",
+  title: "Frieze Week Nightlife London",
   description:
     "How Frieze week reshapes London's luxury nightlife every October. The dinners, the members' rooms, which nights peak, and how the art crowd actually socialises.",
   keywords:

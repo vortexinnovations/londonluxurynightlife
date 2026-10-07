@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "How London's VIP Clubs Actually Work Behind the Scenes | London Luxury Nightlife",
+    "How London's VIP Clubs Actually Work Behind the Scenes",
   description:
     "An insider look at how London VIP clubs operate — the promoter system, table allocation, door decisions, bottle service economics, celebrity management, and the timeline of a Saturday night.",
   keywords:

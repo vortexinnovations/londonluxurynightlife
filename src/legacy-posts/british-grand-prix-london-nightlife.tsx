@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "British Grand Prix Nightlife in London | London Luxury Nightlife",
+  title: "British Grand Prix Nightlife in London",
   description:
     "Where the British Grand Prix crowd parties in London. How F1 weekend reshapes Mayfair nightlife, who comes to town, and the nights that matter most.",
   keywords:

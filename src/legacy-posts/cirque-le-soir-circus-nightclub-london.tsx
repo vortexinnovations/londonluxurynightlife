@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Cirque Le Soir: Inside London's Most Theatrical Nightclub | London Luxury Nightlife",
+    "Cirque Le Soir: Inside London's Most Theatrical Nightclub",
   description:
     "What it's really like inside Cirque Le Soir — the circus-themed Soho nightclub where fire breathers, contortionists, and celebrities share the dance floor.",
   keywords:

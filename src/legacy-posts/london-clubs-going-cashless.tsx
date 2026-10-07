@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "London Clubs Going Cashless | London Luxury Nightlife",
+  title: "London Clubs Going Cashless",
   description:
     "London's luxury clubs are ditching cash for card-only systems. What the cashless shift means for table service, tipping, and your night out in Mayfair.",
   keywords:

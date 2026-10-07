@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "The Box London: What to Expect at London's Most Provocative Club | London Luxury Nightlife",
+    "The Box London: What to Expect at London's Most Provocative Club",
   description:
     "An honest guide to The Box in Soho — what the shows are really like, the door policy, what to wear, how to get on the guestlist, and who should (and shouldn't) go.",
   keywords:

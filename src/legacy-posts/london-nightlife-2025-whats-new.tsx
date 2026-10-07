@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Nightlife 2025: What's New and What's Changed | London Luxury Nightlife",
+    "London Nightlife 2025: What's New and What's Changed",
   description:
     "The current state of London's club scene in 2025 — new openings, emerging trends, the dining-meets-nightlife movement, and what to expect from London's best clubs this year.",
   keywords:

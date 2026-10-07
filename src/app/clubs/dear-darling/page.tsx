@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "dear-darling")!;
 
 export const metadata: Metadata = {
   title:
-    "Dear Darling Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Dear Darling Review | What It's Really Like Inside",
   description:
     "An honest Dear Darling review from London nightlife insiders. Discover what the Dear Darling experience is really like, from opulent cocktails to late-night revelry. What is Dear Darling like? Our full review.",
 };

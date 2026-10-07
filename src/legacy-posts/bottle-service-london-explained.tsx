@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Bottle Service in London Explained: What You Actually Get | London Luxury Nightlife",
+    "Bottle Service in London Explained: What You Actually Get",
   description:
     "Everything first-timers need to know about bottle service in London clubs. How minimum spends work, what is included, bottle prices, how to book, tipping, and common mistakes to avoid.",
   keywords:

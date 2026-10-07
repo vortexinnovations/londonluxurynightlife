@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "London Supercar Season Nightlife | London Luxury Nightlife",
+  title: "London Supercar Season Nightlife",
   description:
     "How London's summer supercar season reshapes Mayfair nightlife: the wealth influx it signals, the crowd it brings, and where the international set goes after dark.",
   keywords:

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "New Year's Eve in London: The Ultimate Luxury NYE Guide | London Luxury Nightlife",
+    "New Year's Eve in London: The Ultimate Luxury NYE Guide",
   description:
     "The insider's guide to New Year's Eve in London's luxury clubs. Which Mayfair venues run the best NYE events, what tables actually cost, when to book, and how to avoid the overpriced disappointments.",
   keywords:

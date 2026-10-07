@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Corporate Entertainment London Nightclub | Client Nights | London Luxury Nightlife",
+    "Corporate Entertainment London Nightclub | Client Nights",
   description:
     "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.",
   keywords:

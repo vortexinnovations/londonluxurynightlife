@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "beat-london")!;
 
 export const metadata: Metadata = {
   title:
-    "BEAT London Review | What It's Really Like Inside | London Luxury Nightlife",
+    "BEAT London Review | What It's Really Like Inside",
   description:
     "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.",
 };

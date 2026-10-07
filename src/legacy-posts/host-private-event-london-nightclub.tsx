@@ -5,7 +5,7 @@ import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Host a Private Event at a London Nightclub | London Luxury Nightlife",
+  title: "Host a Private Event at a London Nightclub",
   description: "Private event hosting at London nightclubs — from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
   keywords: "private event london nightclub, private hire london club, exclusive event london, nightclub private party london",
   openGraph: {

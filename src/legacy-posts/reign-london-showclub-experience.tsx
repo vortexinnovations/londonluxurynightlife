@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Inside Reign London: Is the Showclub Experience Worth It? | London Luxury Nightlife",
+    "Inside Reign London: Is the Showclub Experience Worth It?",
   description:
     "What it's really like inside Reign London — Piccadilly's most theatrical night out. The shows, the spectacle, and who should book. Formerly The London Reign.",
   keywords:

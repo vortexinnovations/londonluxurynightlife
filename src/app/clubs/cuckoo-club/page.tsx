@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "cuckoo-club")!;
 
 export const metadata: Metadata = {
   title:
-    "Cuckoo Club Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Cuckoo Club Review | What It's Really Like Inside",
   description:
     "An honest Cuckoo Club review from London nightlife insiders. Discover what the Cuckoo Club experience is really like, its two-floor setup, and what to expect. What is Cuckoo Club like? We cover everything.",
 };

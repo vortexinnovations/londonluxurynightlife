@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "luna-club-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Luna Club London Review | Mayfair's Newest Luxury Club | London Luxury Nightlife",
+    "Luna Club London Review | Mayfair's Newest Luxury Club",
   description:
     "An insider review of Luna Club London. Discover why this sleek new Mayfair nightclub is attracting a younger affluent crowd, what to expect from the experience, and how it compares to established venues.",
 };

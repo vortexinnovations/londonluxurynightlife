@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Film Premiere After-Parties | London Luxury Nightlife",
+    "London Film Premiere After-Parties",
   description:
     "How London film premiere after-parties really work. The venues studios book, who actually gets in, and how premiere season reshapes Mayfair's most exclusive clubs.",
   keywords:

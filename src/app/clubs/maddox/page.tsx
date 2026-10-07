@@ -9,7 +9,7 @@ const club = clubs.find((c) => c.slug === "maddox")!;
 
 export const metadata: Metadata = {
   title:
-    "Maddox Review | What It's Really Like Inside | London Luxury Nightlife",
+    "Maddox Review | What It's Really Like Inside",
   description:
     "An honest Maddox review from nightlife insiders. Discover what the Maddox experience is really like, what is Maddox like inside, and why this Italian restaurant-nightclub hybrid is Mayfair's best dinner-to-club destination.",
 };

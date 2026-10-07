@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best Thursday Night Clubs in London: The Insider's Guide | London Luxury Nightlife",
+    "Best Thursday Night Clubs in London: The Insider's Guide",
   description:
     "Discover the best Thursday night clubs in London. From Tape London to TABU, Cuckoo Club, and Scotch of St James — where to go, what to expect, and why Thursday is the insider's night out.",
   keywords:

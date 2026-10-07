@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "London Nightlife Etiquette: The Unwritten Rules Nobody Tells You | London Luxury Nightlife",
+    "London Nightlife Etiquette: The Unwritten Rules Nobody Tells You",
   description:
     "The unwritten rules of London's luxury club scene. Phone etiquette, tipping protocol, VIP section behaviour, how to handle the door, and the social codes that separate insiders from tourists.",
   keywords:
