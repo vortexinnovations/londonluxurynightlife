@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import Link from "next/link";
+import { FAQSchema } from "@/components/SchemaMarkup";
 import { getMergedPostBySlug, getMergedPosts } from "@/lib/blog-data";
 import { bodyFaqs } from "@/lib/body-faqs";
-import { SITE_URL, TABLE_NUMBER } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, TABLE_NUMBER } from "@/lib/constants";
 import { postImage } from "@/lib/images";
 import { legacyPosts } from "@/legacy-posts";
 
@@ -64,6 +65,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const withLiveWhatsApp = (md: string) =>
   md.replace(/(wa\.me\/|api\.whatsapp\.com\/send\?phone=)\d+/g, `$1${TABLE_NUMBER}`);
 
+// Database posts carry the editor byline and Person authorship the site's
+// recent posts use (the content API rejects a byline in the body).
+const EDITOR = { name: "Isabella Marsh", jobTitle: "Luxury Lifestyle Editor", url: `${SITE_URL}/about-the-editor/` };
+
+const longDate = (iso: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = await getMergedPostBySlug(slug);
@@ -78,22 +86,34 @@ export default async function BlogPostPage({ params }: Props) {
 
   const body = post.bodyMd ?? "";
   const faqs = bodyFaqs(body);
+  const image = postImage(post);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.metaDescription,
+    url: `${SITE_URL}/blog/${slug}`,
+    datePublished: post.publishDate,
+    dateModified: post.modifiedDate,
+    author: { "@type": "Person", ...EDITOR },
+    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    ...(image ? { image: image.startsWith("/") ? `${SITE_URL}${image}` : image } : {}),
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${slug}` },
+  };
   return (
     <>
-      <ArticleSchema
-        title={post.title}
-        description={post.metaDescription}
-        slug={`/blog/${slug}`}
-        datePublished={post.publishDate}
-        dateModified={post.modifiedDate}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqs.length > 0 && <FAQSchema faqs={faqs} />}
       <ArticleLayout
         title={post.title}
         subtitle={post.excerpt}
-        heroImage={postImage(post)}
+        heroImage={image}
         heroAlt={post.imageAlt}
       >
+        <p className="text-sm text-warm-gray mb-1">
+          By <Link href="/about-the-editor">{EDITOR.name}</Link>, {EDITOR.jobTitle}
+        </p>
+        <p className="text-sm text-warm-gray mb-8">Last updated: {longDate(post.modifiedDate)}</p>
         <div
           className="db-body"
           dangerouslySetInnerHTML={{ __html: marked.parse(withLiveWhatsApp(body), { async: false }) }}
