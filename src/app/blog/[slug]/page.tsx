@@ -26,7 +26,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = await getMergedPostBySlug(slug);
   if (!post) return {};
-  if (post.source !== "db") return (await legacyPosts[slug]?.())?.metadata ?? {};
+  if (post.source !== "db") {
+    const metadata = (await legacyPosts[slug]?.())?.metadata ?? {};
+    // The original modules carry no dates: add the post's dates and category
+    // from blog-data as article:* tags (read by the content API's editor).
+    return {
+      ...metadata,
+      openGraph: {
+        ...metadata.openGraph,
+        type: "article",
+        publishedTime: post.publishDate,
+        modifiedTime: post.modifiedDate,
+        section: post.category,
+      },
+    };
+  }
   const url = `${SITE_URL}/blog/${slug}`;
   const image = postImage(post);
   return {
@@ -39,6 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.publishDate,
       modifiedTime: post.modifiedDate,
+      section: post.category,
       ...(image ? { images: [{ url: image, alt: post.imageAlt ?? post.title }] } : {}),
     },
     alternates: { canonical: url },
