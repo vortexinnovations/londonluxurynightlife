@@ -165,6 +165,11 @@ export default function SeleneLondonPage() {
           for more recommendations.
         </p>
 
+        <p>
+          Alongside the club rooms, Selene also has private bowling lanes,
+          which can be booked together with your table.
+        </p>
+
         <blockquote>
           Selene is the answer to a question that discerning guests have been
           asking for years: where in Mayfair can you experience genuine luxury
