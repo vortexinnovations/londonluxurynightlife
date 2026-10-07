@@ -95,18 +95,12 @@ export default function LondonNightlifeGuidePage() {
           you can choose between{" "}
           <Link href="/clubs/tape-london">Tape London</Link> (the most
           exclusive),{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> (the most
-          enduring),{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           (the most historic),{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link> (the most
           elegant),{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> (the most
-          atmospheric),{" "}
           <Link href="/clubs/maddox">Maddox</Link> (the best for dinner
-          and dancing),{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> (the most
-          reliable), and{" "}
+          and dancing), and{" "}
           <Link href="/clubs/selene-london">Selene</Link> (the most
           refined newcomer). Our{" "}
           <Link href="/luxury-nightclubs-london">
@@ -219,10 +213,10 @@ export default function LondonNightlifeGuidePage() {
         <div className="info-box">
           <h4>Quick Guide by Preference</h4>
           <ul>
-            <li><strong>First time in London:</strong> <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> or <Link href="/clubs/funky-buddha">Funky Buddha</Link></li>
+            <li><strong>First time in London:</strong> <Link href="/clubs/selene-london">Selene</Link> or <Link href="/clubs/dear-darling">Dear Darling</Link></li>
             <li><strong>Celebrity atmosphere:</strong> <Link href="/clubs/tape-london">Tape London</Link> or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
             <li><strong>Dinner + club:</strong> <Link href="/clubs/maddox">Maddox</Link></li>
-            <li><strong>Something different:</strong> <Link href="/clubs/tabu-london">TABU</Link> or <Link href="/clubs/the-box-london">The Box</Link></li>
+            <li><strong>Something different:</strong> <Link href="/clubs/the-box-london">The Box</Link> or <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link></li>
             <li><strong>Music quality:</strong> <Link href="/clubs/tape-london">Tape London</Link> or <Link href="/clubs/beat-london">BEAT</Link></li>
             <li><strong>Celebration/birthday:</strong> <Link href="/clubs/reign-london">Reign</Link> or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
             <li><strong>Corporate entertainment:</strong> <Link href="/clubs/maddox">Maddox</Link> or <Link href="/clubs/scotch-of-st-james">Scotch</Link></li>

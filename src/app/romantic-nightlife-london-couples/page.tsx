@@ -224,28 +224,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
           is unlike anything else in London.
         </p>
 
-        <h3>4. TABU — Atmosphere as Intimacy</h3>
-
-        <p>
-          <Link href="/clubs/tabu-london">TABU</Link> creates intimacy
-          through atmosphere in a way that other Mayfair venues do not
-          attempt. The Japanese-inspired aesthetic — dark woods, careful
-          lighting, underground energy — produces a mood that draws couples
-          into the same world. The curated hip-hop and R&amp;B programming
-          builds slowly, which means the early hours are genuinely
-          conducive to conversation and connection before the room shifts
-          into full nightclub mode.
-        </p>
-
-        <p>
-          For couples who find mainstream Mayfair too predictable, TABU
-          offers something with genuine edge. The crowd tends toward
-          creative professionals and music enthusiasts rather than the
-          usual bottle-service demographic, which creates an atmosphere
-          that rewards being present rather than performing.
-        </p>
-
-        <h3>5. Selene — Refined Sophistication</h3>
+        <h3>4. Selene — Refined Sophistication</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link> represents the
@@ -280,7 +259,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
           choice. If you prefer to curate each stage separately, the
           strongest formula is dinner in Mayfair&rsquo;s restaurant
           quarter, cocktails at Dear Darling from 10pm, and a decision at
-          midnight about whether to stay or move to Scotch or TABU for a
+          midnight about whether to stay or move to Scotch or Selene for a
           change of scene. The latter approach requires slightly more
           planning but creates a richer evening with more variety.
         </p>

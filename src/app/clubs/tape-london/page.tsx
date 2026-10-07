@@ -126,7 +126,7 @@ export default function TapeLondonPage() {
 
         <p>
           The other factor that separates Tape from competitors like{" "}
-          <Link href="/clubs/libertine">Libertine</Link> or{" "}
+          <Link href="/clubs/reign-london">Reign London</Link> or{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> is the
           absence of spectacle. There are no performers, no LED shows, no
           theatrical elements. The entertainment is the room itself, the people

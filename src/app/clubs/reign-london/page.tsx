@@ -174,9 +174,7 @@ export default function ReignLondonPage() {
           London has no shortage of clubs that incorporate performance
           elements.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> delivers
-          immersive circus theatre in an intimate Soho setting.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link> channels Eastern
-          aesthetics into something atmospheric and refined. But Reign occupies
+          immersive circus theatre in an intimate Soho setting. But Reign occupies
           its own territory: a large-format showclub where the scale of the
           production matches the grandeur of the venue. The aerial acts require
           height. The stage shows require depth. The cabaret requires

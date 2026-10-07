@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "Which London clubs are best for American visitors?",
     answer:
-      "American visitors tend to gravitate toward Tape London, Libertine, and Cirque Le Soir — venues with strong hip-hop and RnB programming, high energy, and a familiar bottle-service format. If you prefer house music or a more European vibe, try Maddox or Ministry of Sound. For a theatrical experience unlike anything in the US, Cirque Le Soir is unmissable.",
+      "American visitors tend to gravitate toward Tape London, Selene, and Cirque Le Soir — venues with strong hip-hop and RnB programming, high energy, and a familiar bottle-service format. If you prefer house music or a more European vibe, try Maddox or Ministry of Sound. For a theatrical experience unlike anything in the US, Cirque Le Soir is unmissable.",
   },
   {
     question: "Do London clubs have a last entry time?",
@@ -90,8 +90,7 @@ export default function LondonNightlifeInternationalVisitors() {
           The Dorchester and The Connaught on Park Lane and Mount Street
           respectively put you within a ten-minute walk of{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
           <Link href="/clubs/maddox">Maddox</Link>. Claridge&apos;s on Brook
           Street is equally central. For something more contemporary, The
           Beaumont on Balderton Street is a short walk from Hanover Square and
@@ -148,10 +147,9 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           This is genuinely one of Mayfair&apos;s greatest nightlife advantages.
           <Link href="/clubs/tape-london"> Tape London</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>, and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
           <Link href="/clubs/maddox">Maddox</Link> are all within a five to
           ten minute walk of each other. You can comfortably visit two or even
           three venues in one night without ever needing a taxi. This is a
@@ -293,8 +291,8 @@ export default function LondonNightlifeInternationalVisitors() {
           If you are used to the bottle-service format of New York or Miami, you
           will feel at home at{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>, and{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link>. These venues
+          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
+          <Link href="/clubs/reign-london">Reign London</Link>. These venues
           combine familiar hip-hop and RnB music with the refined edge that
           distinguishes London from US nightlife. For something you genuinely
           cannot get back home, add{" "}
@@ -306,8 +304,7 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           London has long been a summer destination for visitors from the Gulf,
           and the club scene reflects this.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
           <Link href="/clubs/the-london-reign">The London Reign</Link> are
           popular with Gulf visitors for their premium table service, opulent
           interiors, and strong hip-hop programming. Table booking is strongly
@@ -323,24 +320,19 @@ export default function LondonNightlifeInternationalVisitors() {
           be your first stop — its sound system and programming are world-class.
           Within Mayfair,{" "}
           <Link href="/clubs/maddox">Maddox</Link> offers sophisticated house
-          music in an elegant setting, and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> splits its two
-          floors between house and hip-hop. For cocktail-forward evenings,{" "}
+          music in an elegant setting. For cocktail-forward evenings,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link> delivers a
           refined experience that European visitors particularly appreciate.
         </p>
 
         <h3>Asian Visitors</h3>
         <p>
-          <Link href="/clubs/tabu-london">TABU</Link>&apos;s Japanese-inspired
-          design and intimate atmosphere resonates well with visitors from East
-          Asia.{" "}
-          <Link href="/clubs/lio-club-london">Lio Club London</Link> appeals
-          to visitors who appreciate the dinner-to-nightclub format common in
-          Hong Kong and Tokyo.{" "}
-          <Link href="/clubs/libertine">Libertine</Link>&apos;s visual impact
-          and fashion-conscious crowd also draw visitors who prioritise
-          aesthetics and design.
+          <Link href="/clubs/maddox">Maddox</Link> appeals to visitors who
+          appreciate the dinner-to-nightclub format common in Hong Kong and
+          Tokyo.{" "}
+          <Link href="/clubs/selene-london">Selene</Link>&apos;s refined
+          interiors and fashion-conscious crowd also draw visitors who
+          prioritise aesthetics and design.
         </p>
 
         <h2>Time of Year Matters</h2>

@@ -1,18 +1,19 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
 
-const club = closedClubs.find((c) => c.slug === "ministry-of-sound")!;
+const club = clubs.find((c) => c.slug === "ministry-of-sound")!;
+
+// Open: Ministry of Sound in Elephant and Castle is trading (public listings show
+// club nights through October 2026). It was wrongly marked closed in March 2026.
 
 export const metadata: Metadata = {
-  title:
-    "Ministry of Sound (Permanently Closed) | Find Alternative Venues",
+  title: "Ministry of Sound Review | What It's Really Like Inside",
   description:
-    "Ministry of Sound has permanently closed. Discover what made this iconic electronic music institution legendary and find the best alternative venues still open.",
-  robots: { index: false, follow: true },
+    "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.",
 };
 
 export default function MinistryOfSoundReview() {
@@ -28,14 +29,9 @@ export default function MinistryOfSoundReview() {
         subtitle={club.tagline}
         heroImage={CLUB_IMAGES["ministry-of-sound"]?.hero}
         heroAlt={`${club.name} nightclub in ${club.location}`}
-        ctaMessage={WA_GENERAL_MESSAGE}
-        ctaLabel="Find an Alternative Venue"
+        ctaMessage={waClubMessage(club.name)}
+        ctaLabel="Plan a Night at Ministry of Sound"
       >
-        <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
-          <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
-          <p className="text-warm-gray text-sm">Ministry of Sound has permanently closed. This review is kept for reference. Looking for open venues? See our <Link href="/guides/complete-guide-london-luxury-nightlife">complete guide to London&apos;s luxury nightlife</Link> for current recommendations.</p>
-        </div>
-
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
           <p><strong>Music:</strong> {club.musicStyle}</p>
@@ -104,36 +100,7 @@ export default function MinistryOfSoundReview() {
           Ministry of Sound is not just worth it. For a certain kind of nightlife enthusiast, it is the single most important venue in London. The sound system is genuinely world-class. The programming is consistently excellent. The atmosphere, when the room connects, is transcendent. There is nowhere else in the city where the gap between an ordinary night out and something genuinely memorable is so consistently bridged. Whether you are visiting London for the first time or you have lived here for decades, Ministry of Sound remains the benchmark against which all other nightclub experiences are measured.
         </p>
         <p>
-          If you are looking to complement a Ministry night with something from the other end of the London nightlife spectrum, <Link href="/clubs/lio-club-london">Lio Club London</Link> offers the glamorous dinner-show experience that Ministry deliberately avoids. <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> provides intimate Mayfair heritage with strong musical programming. And <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia shares Ministry&apos;s sound-system-first philosophy in a more compact, central setting.
-        </p>
-        <h2>Ministry of Sound Has Closed — Where to Go Instead</h2>
-
-        <p>
-          Ministry of Sound is permanently closed, but London still has venues
-          that prioritise sound quality and musical integrity. If you loved what
-          Ministry represented, these open venues offer the closest experiences:
-        </p>
-
-        <ul>
-          <li>
-            <Link href="/clubs/beat-london">BEAT London</Link> — A music-focused
-            venue in Fitzrovia that shares Ministry&apos;s sound-system-first
-            philosophy, delivering powerful audio in a more intimate setting
-            with serious electronic music programming.
-          </li>
-          <li>
-            <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> — A two-floor
-            Mayfair venue with a strong house music programme on its basement
-            dance floor, offering quality sound and a crowd that comes for the
-            music.
-          </li>
-        </ul>
-
-        <p>
-          For a full overview of what is currently open, see our{" "}
-          <Link href="/guides/complete-guide-london-luxury-nightlife">
-            complete guide to London&apos;s luxury nightlife
-          </Link>.
+          If you are looking to complement a Ministry night with something from the other end of the London nightlife spectrum, <Link href="/clubs/reign-london">Reign London</Link> offers the glamorous dinner-and-show experience that Ministry deliberately avoids. <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> provides intimate Mayfair heritage with strong musical programming. And <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia shares Ministry&apos;s sound-system-first philosophy in a more compact, central setting.
         </p>
       </ArticleLayout>
     </>

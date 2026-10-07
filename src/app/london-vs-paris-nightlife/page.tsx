@@ -63,9 +63,7 @@ export default function LondonVsParisNightlifePage() {
           London&apos;s premium nightlife clusters in Mayfair with
           extraordinary density.{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
+          <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -104,8 +102,8 @@ export default function LondonVsParisNightlifePage() {
         <p>
           London offers the widest range of high-quality music
           programming of any nightlife city. The hip-hop and R&amp;B
-          at <Link href="/clubs/funky-buddha">Funky Buddha</Link> and{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, the house at{" "}
+          at <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, the house at{" "}
           <Link href="/clubs/maddox">Maddox</Link> and{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>, the
           eclectic programming at{" "}

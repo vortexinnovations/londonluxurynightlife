@@ -92,7 +92,7 @@ export default function ScotchOfStJamesReview() {
           Without question. In a city saturated with nightlife options that blur into one another, Scotch of St James occupies a category of its own. It is one of the very few London clubs where you can feel the weight of genuine history in the walls while dancing to a DJ who is playing for the joy of it. The minimum spends are reasonable, the atmosphere is magnetic, and the crowd is the kind of company that makes a night memorable. If you only visit one Mayfair club during your time in London, there is a strong argument that Scotch should be the one.
         </p>
         <p>
-          For a different Mayfair experience, explore <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> for its two-floor setup, or <Link href="/clubs/dear-darling">Dear Darling</Link> if you want cocktail-forward elegance. Those drawn to Scotch&apos;s music-first philosophy will also appreciate <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia or the legendary <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> in South London.
+          For a different Mayfair experience, explore <Link href="/clubs/selene-london">Selene</Link> for a refined room, or <Link href="/clubs/dear-darling">Dear Darling</Link> if you want cocktail-forward elegance. Those drawn to Scotch&apos;s music-first philosophy will also appreciate <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia or the legendary <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> in South London.
         </p>
       </ArticleLayout>
     </>

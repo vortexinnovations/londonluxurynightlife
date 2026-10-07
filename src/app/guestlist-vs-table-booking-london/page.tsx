@@ -91,8 +91,8 @@ export default function GuestlistVsTableBookingLondonPage() {
           truth is that the right choice varies wildly by circumstance. A
           table at <Link href="/clubs/tape-london">Tape London</Link> on a
           Saturday is non-negotiable — guestlist is essentially decorative.
-          A table at <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on
-          a Wednesday is a luxury rather than a necessity. This guide gives
+          A table at <Link href="/clubs/maddox">Maddox</Link> on a
+          Wednesday is a luxury rather than a necessity. This guide gives
           you the specific information needed to make the right call for your
           particular evening.
         </p>
@@ -210,9 +210,7 @@ export default function GuestlistVsTableBookingLondonPage() {
         <h3>Table Strongly Recommended</h3>
 
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link> and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           on weekends. Guestlist entry is possible at these venues but
           the intimate capacities mean the door fills quickly. A table
@@ -223,14 +221,10 @@ export default function GuestlistVsTableBookingLondonPage() {
         <h3>Guestlist Works Well</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
           <Link href="/clubs/reign-london">Reign London</Link>,{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
-          <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>.
           These venues operate healthy guestlist systems that deliver genuine
           value. Arrive before midnight, dress appropriately, and a guestlist

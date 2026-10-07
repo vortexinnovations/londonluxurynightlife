@@ -132,8 +132,8 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           <Link href="/clubs/tape-london">Tape London</Link> on Hanover
           Square, choose a restaurant in the surrounding streets. If you are
           heading to{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
-          Street, Regent Street restaurants are your natural catchment.
+          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly,
+          Regent Street restaurants are your natural catchment.
         </p>
 
         <p>
@@ -205,12 +205,8 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
               Five-minute walk to the venue.
             </li>
             <li>
-              <strong>For Cuckoo Club (Swallow Street):</strong> Regent
+              <strong>For Reign London (Piccadilly):</strong> Regent
               Street and Piccadilly restaurants. Three-minute walk.
-            </li>
-            <li>
-              <strong>For Funky Buddha (Berkeley Street):</strong> Berkeley
-              Square and surrounds. Immediate proximity.
             </li>
             <li>
               <strong>For Cirque Le Soir / The Box (Soho):</strong> Dean
@@ -387,8 +383,6 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         <p>
           For mixed groups — different ages, different preferences, different
           energy levels — venue selection becomes critical.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> handles mixed
-          preferences with its two-floor format.{" "}
           <Link href="/clubs/maddox">Maddox</Link> handles mixed energy
           levels with its gradual dinner-to-club transition.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> unites

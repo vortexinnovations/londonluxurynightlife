@@ -126,8 +126,8 @@ export default function MaddoxPage() {
         <p>
           Maddox attracts a sophisticated, slightly older crowd compared to
           pure nightclub venues like{" "}
-          <Link href="/clubs/libertine">Libertine</Link> or{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link>. The
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> or{" "}
+          <Link href="/clubs/beat-london">BEAT London</Link>. The
           dinner-first format naturally filters for people who appreciate a
           slower build and a more refined evening. You will find couples on
           date nights, groups of friends who started with the intention of a
@@ -153,7 +153,7 @@ export default function MaddoxPage() {
           Second, the house music. In Mayfair, this is a genuinely
           distinctive choice. If you have spent nights at{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, or{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, or{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, you have
           heard excellent hip-hop and RnB. Maddox offers a completely
           different sonic landscape. For house music lovers who also want the

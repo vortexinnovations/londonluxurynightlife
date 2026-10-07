@@ -106,12 +106,6 @@ export default function CelebrityClubsPage() {
 
         <ul>
           <li>
-            <Link href="/clubs/libertine">Libertine</Link> draws a
-            fashion-forward celebrity crowd — models, designers, and the
-            younger generation of actors who gravitate toward its
-            futuristic aesthetic and Mayfair location.
-          </li>
-          <li>
             <Link href="/clubs/scotch-of-st-james">
               Scotch of St James
             </Link>{" "}
@@ -136,35 +130,16 @@ export default function CelebrityClubsPage() {
             forced.
           </li>
           <li>
-            <Link href="/clubs/tabu-london">TABU London</Link> is
-            increasingly on the radar for younger celebrities and musicians
-            who appreciate its underground Japanese-inspired atmosphere and
-            Mayfair discretion.
-          </li>
-          <li>
-            <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> remains a
-            reliable spot for celebrity sightings, particularly among the
-            London-based fashion and media set who have been coming for
-            years.
-          </li>
-          <li>
             <Link href="/clubs/dear-darling">Dear Darling</Link> attracts
             celebrities who prefer a more intimate, cocktail-forward
             environment — the kind of venue where a famous face might spend
             the early part of the evening before heading elsewhere.
           </li>
           <li>
-            <Link href="/clubs/luxx-club-london">Luxx Club</Link> and{" "}
-            <Link href="/clubs/beat-london">BEAT London</Link> both see
+            <Link href="/clubs/beat-london">BEAT London</Link> sees
             occasional celebrity appearances, particularly from musicians
             and DJs who appreciate the focus on sound and energy over
             posturing.
-          </li>
-          <li>
-            <Link href="/clubs/lio-club-london">Lio Club London</Link>{" "}
-            draws the international jet-set crowd who know the brand from
-            Ibiza, including European celebrities and the global party
-            circuit regulars.
           </li>
           <li>
             <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}

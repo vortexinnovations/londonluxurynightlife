@@ -95,7 +95,7 @@ export default function DearDarlingReview() {
           Emphatically yes, particularly for anyone who has felt caught between wanting to go out and wanting something more refined than a conventional nightclub. Dear Darling occupies a unique position in London nightlife: genuinely beautiful, genuinely fun, and genuinely sophisticated all at once. The cocktails alone justify the visit, and the seamless transition into late-night energy makes it one of the most complete evenings Mayfair has to offer.
         </p>
         <p>
-          For those who want a full-scale nightclub experience afterward, <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> is nearby and delivers reliably. <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> offers a similarly intimate but more music-forward alternative. And for a dining-led evening with entertainment, <Link href="/clubs/lio-club-london">Lio Club London</Link> takes the dinner-to-nightlife concept in a more theatrical direction.
+          For those who want a full-scale nightclub experience afterward, <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly is a short walk away. <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> offers a similarly intimate but more music-forward alternative. And for a dining-led evening, <Link href="/clubs/maddox">Maddox</Link> takes the dinner-to-nightlife concept in a more house-led direction.
         </p>
       </ArticleLayout>
     </>

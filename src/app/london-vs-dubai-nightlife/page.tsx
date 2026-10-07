@@ -63,7 +63,7 @@ export default function LondonVsDubaiNightlifePage() {
           London&apos;s nightlife operates on a principle of
           exclusivity-through-curation. The best venues —{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           — earn their status through door policies that select for the
           right crowd, music programming that rewards genuine taste, and
@@ -114,8 +114,8 @@ export default function LondonVsDubaiNightlifePage() {
           has one of the most diverse and credible music scenes of any
           nightlife city in the world. From the hip-hop and R&amp;B
           programming at{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> and{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>, to the
+          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, to the
           house music at{" "}
           <Link href="/clubs/maddox">Maddox</Link>, to the eclectic
           programming at{" "}

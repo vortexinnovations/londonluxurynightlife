@@ -275,8 +275,6 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
             dedicated Tape entry guide
           </Link>{" "}
           covers the specifics.{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> runs a close
-          second, with an intimate capacity that demands rigorous curation.{" "}
           <Link href="/clubs/the-box-london">The Box</Link> adds an
           additional layer — the door assesses not just whether you meet the
           standard but whether you can handle the performances.
@@ -287,8 +285,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>, and{" "}
           <Link href="/clubs/selene-london">Selene</Link>. These venues
           enforce clear standards but a well-presented group with a guestlist
           or booking will navigate the door comfortably on most nights.
@@ -299,13 +296,9 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <h3>Welcoming with Standards</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
           <Link href="/clubs/reign-london">Reign London</Link>,{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
-          <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
+          <Link href="/clubs/beat-london">BEAT London</Link>, and{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>.
           These venues maintain dress codes and basic standards but operate
           with a welcoming approach that makes entry straightforward for

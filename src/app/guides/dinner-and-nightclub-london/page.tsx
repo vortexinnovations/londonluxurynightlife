@@ -28,7 +28,7 @@ const faqs = [
     question:
       "Which London clubs are best for a dinner and nightclub combination?",
     answer:
-      "Maddox and Lio Club London are purpose-built for this — both offer high-end dining that transitions directly into club nights. For a more varied evening, dine in Soho then walk to Cirque Le Soir, or eat in Mayfair before heading to Tape London or Libertine.",
+      "Maddox is purpose-built for this, with high-end dining that transitions directly into a club night, and Reign London pairs dinner with a show. For a more varied evening, dine in Soho then walk to Cirque Le Soir, or eat in Mayfair before heading to Tape London or Selene.",
   },
   {
     question: "Do I need to book the club separately from the restaurant?",
@@ -136,18 +136,15 @@ export default function DinnerAndNightclubPage() {
         <p>
           If you are heading to{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, or{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link>, you are
+          <Link href="/clubs/selene-london">Selene</Link>, or{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>, you are
           spoilt for restaurant choices. Mayfair itself is home to some of
           London&apos;s finest dining. High-end Italian restaurants along
           Mount Street and Bruton Place are reliable choices for groups —
           the food is consistently excellent, the atmosphere is appropriately
           glamorous, and the clientele tends to be heading to the same places
           you are. Japanese restaurants in the area offer something more
-          intimate if your party is smaller, and pair particularly well with
-          a later visit to the Japanese-inspired{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>.
+          intimate if your party is smaller.
         </p>
 
         <p>
@@ -224,20 +221,6 @@ export default function DinnerAndNightclubPage() {
           evolves into something more social.
         </p>
 
-        <h3>Lio Club London: Ibiza Glamour</h3>
-
-        <p>
-          <Link href="/clubs/lio-club-london">Lio Club London</Link> takes
-          a different approach to the same concept. Inspired by its Ibiza
-          counterpart, Lio pairs gourmet dining with live entertainment from
-          the moment you sit down — cabaret performers, dancers, and
-          musicians weave between courses. As the evening progresses, the
-          dining room transforms into a full nightclub. It is more
-          theatrical than Maddox, more overtly spectacular, and ideal for
-          celebrations or groups who want the evening to feel like an event
-          from the first moment.
-        </p>
-
         <h2>Recommended Dinner-to-Club Combinations</h2>
 
         <p>
@@ -251,7 +234,7 @@ export default function DinnerAndNightclubPage() {
           Dinner at an upscale Italian on Mount Street, followed by a short
           walk to{" "}
           <Link href="/clubs/tape-london">Tape London</Link> or{" "}
-          <Link href="/clubs/libertine">Libertine</Link>. This is the
+          <Link href="/clubs/selene-london">Selene</Link>. This is the
           refined choice — excellent food, a beautiful walk through
           Mayfair&apos;s quieter streets, and arrival at a venue where the
           atmosphere matches the standard you have already set. Ideal for

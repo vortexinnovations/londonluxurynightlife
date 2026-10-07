@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best Hip-Hop Clubs London 2026: Ranked by Insiders",
   description:
-    "London's best hip-hop and R&B clubs ranked by music quality, not marketing spend. From Tape's credibility to Funky Buddha's consistency.",
+    "London's best hip-hop and R&B clubs ranked by music quality, not marketing spend. From Tape's credibility to Cirque Le Soir's theatre.",
   keywords:
     "best hip hop clubs london, hip hop clubs london, rnb clubs london, hip hop nightlife london, best rnb nights london, hip hop mayfair clubs, london hip hop venues",
   openGraph: {
@@ -29,7 +29,7 @@ export default function BestHipHopClubsLondonPage() {
     <>
       <ArticleSchema
         title="Best Hip Hop Clubs in London: The Definitive Guide"
-        description="The insider's guide to London's best hip-hop and RnB clubs — from Tape London's curated exclusivity to Funky Buddha's enduring legacy."
+        description="The insider's guide to London's best hip-hop and RnB clubs — from Tape London's curated exclusivity to Cirque Le Soir's live entertainment."
         slug="/best-hip-hop-clubs-london"
       />
       <ArticleLayout
@@ -115,82 +115,7 @@ export default function BestHipHopClubsLondonPage() {
           for the full picture.
         </p>
 
-        <h3>2. Funky Buddha — The Enduring Icon</h3>
-
-        <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> has been the
-          spiritual home of London hip-hop nightlife for two decades, and its
-          endurance is the strongest possible endorsement. Trends come and go.
-          Venues open and close within eighteen months. Funky Buddha on
-          Berkeley Street has outlasted every challenger because it
-          understood, from the very beginning, that the blend of hip-hop,
-          R&amp;B, and funky house — delivered in an intimate room with
-          impeccable sound — is a formula that does not need reinvention.
-        </p>
-
-        <p>
-          The crowd at Funky Buddha skews slightly older and more discerning
-          than many Mayfair venues. These are people who have been coming for
-          years, who know the DJs, who understand the music. That creates a
-          self-reinforcing quality standard: the best DJs want to play to
-          knowledgeable crowds, and knowledgeable crowds return for the best
-          DJs. Friday and Saturday are peak nights, though Thursday has
-          developed a loyal following among those who prefer a slightly less
-          intense atmosphere. See our{" "}
-          <Link href="/blog/funky-buddha-london-review">
-            full Funky Buddha review
-          </Link>
-          .
-        </p>
-
-        <h3>3. TABU London — Curated Underground</h3>
-
-        <p>
-          <Link href="/clubs/tabu-london">TABU</Link> represents a different
-          philosophy. Where Tape and Funky Buddha deliver polished,
-          premium-tier hip-hop experiences, TABU brings an underground
-          sensibility wrapped in Mayfair aesthetics. The Japanese-inspired
-          design and the deliberately slow-building energy create a venue that
-          feels genuinely different from anything else in the postcode.
-        </p>
-
-        <p>
-          The hip-hop and R&amp;B programming at TABU leans towards the
-          moodier, more atmospheric end of the spectrum. This is not a venue
-          for mainstream anthems played at maximum volume — it is a venue
-          where the music is part of a carefully constructed atmosphere that
-          rewards patience. The energy builds gradually, peaking well after
-          midnight, and the crowd that gravitates here tends to be the type
-          that finds mainstream Mayfair predictable. Our{" "}
-          <Link href="/blog/tabu-london-japanese-underground-nightclub">
-            TABU review
-          </Link>{" "}
-          covers the full experience.
-        </p>
-
-        <h3>4. Cuckoo Club — The Two-Floor Advantage</h3>
-
-        <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
-          Street offers something architecturally unique in Mayfair: hip-hop
-          upstairs and house music downstairs, in the same venue, on the same
-          night. For groups where musical preferences diverge — and this is
-          more common than anyone admits — Cuckoo provides the diplomatic
-          solution.
-        </p>
-
-        <p>
-          The hip-hop floor at Cuckoo delivers consistent, crowd-pleasing
-          programming that balances classics with current releases. It is not
-          attempting the curated exclusivity of Tape or the underground
-          credibility of TABU — it is delivering a reliably excellent hip-hop
-          experience in a well-designed room with strong sound. For first-time
-          visitors to Mayfair who want hip-hop, Cuckoo is the safest
-          recommendation. Wednesday through Saturday all deliver, with Friday
-          being the standout night.
-        </p>
-
-        <h3>5. Cirque Le Soir — Hip-Hop Meets Entertainment</h3>
+        <h3>2. Cirque Le Soir — Hip-Hop Meets Entertainment</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> does not
@@ -216,7 +141,7 @@ export default function BestHipHopClubsLondonPage() {
           has the full breakdown.
         </p>
 
-        <h3>6. Selene London — Refined New Energy</h3>
+        <h3>3. Selene London — Refined New Energy</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link> represents the new
@@ -231,7 +156,7 @@ export default function BestHipHopClubsLondonPage() {
           covers what makes it worth watching.
         </p>
 
-        <h3>7. BEAT London — Sound System First</h3>
+        <h3>4. BEAT London — Sound System First</h3>
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
@@ -242,6 +167,18 @@ export default function BestHipHopClubsLondonPage() {
           that you have never noticed before. It is a different proposition
           from the Mayfair venues, but for genuine music enthusiasts, it is
           essential.
+        </p>
+
+        <h3>Renamed and Closed: TABU, Cuckoo Club and Funky Buddha</h3>
+
+        <p>
+          Three names from older versions of this list have changed.{" "}
+          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link> and{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>;
+          both are booked under their new names, with current music, nights and
+          minimums confirmed when you book.{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, and
+          Itzel now operates at its Berkeley Street address.
         </p>
 
         <p className="pull-quote">
@@ -280,18 +217,16 @@ export default function BestHipHopClubsLondonPage() {
           <h4>Weekly Hip-Hop Calendar</h4>
           <ul>
             <li>
-              <strong>Wednesday:</strong> Cuckoo Club offers a strong midweek
-              option. TABU&apos;s Wednesday sessions are building a cult
-              following.
+              <strong>Wednesday:</strong> Cirque Le Soir opens from
+              Wednesday, the strongest midweek hip-hop option.
             </li>
             <li>
-              <strong>Thursday:</strong> Funky Buddha&apos;s Thursday crowd is
-              discerning and loyal. Good for those who prefer a slightly more
-              relaxed atmosphere.
+              <strong>Thursday:</strong> Tape and Selene open from Thursday,
+              for those who prefer a slightly more relaxed atmosphere.
             </li>
             <li>
               <strong>Friday:</strong> The peak night across all venues. Tape,
-              Funky Buddha, and Cuckoo all deliver their strongest programming.
+              Cirque Le Soir and BEAT all deliver their strongest programming.
             </li>
             <li>
               <strong>Saturday:</strong> Every venue fires. Cirque Le Soir adds
@@ -304,7 +239,7 @@ export default function BestHipHopClubsLondonPage() {
 
         <p>
           Every venue on this list operates a door policy, and the premium
-          venues — Tape, Funky Buddha, Cirque — are genuinely selective. The
+          venues (Tape and Cirque above all) are genuinely selective. The
           most reliable route is always a table booking through a recognised
           promoter or concierge. For table reservations across all these
           venues,{" "}

@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What is the best area in London for luxury nightlife?",
     answer:
-      "Mayfair is the undisputed epicentre of London's luxury nightlife. Within a few streets you'll find Tape London, Libertine, TABU, Maddox, Cuckoo Club, and several more high-end venues. Most are walking distance from one another, making it easy to move between clubs in a single evening.",
+      "Mayfair is the undisputed epicentre of London's luxury nightlife. Within a few streets you'll find Tape London, Maddox, Dear Darling, Scotch of St James, Selene and several more high-end venues. Most are walking distance from one another, making it easy to move between clubs in a single evening.",
   },
   {
     question: "How much does a VIP table cost at a London nightclub?",
@@ -127,17 +127,12 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Within Mayfair you will find{" "}
           <Link href="/clubs/tape-london">Tape London</Link> on Hanover Square,
           the music-industry favourite;{" "}
-          <Link href="/clubs/libertine">Libertine</Link>, with its futuristic
-          design and fashionable crowd;{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, an underground
-          Japanese-inspired venue;{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, refined and newer;{" "}
           <Link href="/clubs/maddox">Maddox</Link>, which pairs Italian dining
           with late-night house music;{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow Street;{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, draped in
           chandeliers and velvet;{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link> with its
-          immersive LED installations; and{" "}
+          and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>, one
           of the most historically significant nightclubs in the world. The fact
           that all of these exist within a few streets of each other is what
@@ -306,11 +301,10 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Beloved by music industry insiders and the celebrity crowd that
           follows them, Tape plays the best in hip-hop, RnB, and commercial
           music in one of Mayfair&apos;s most exclusive settings.{" "}
-          <Link href="/clubs/libertine">Libertine</Link> and{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> also run strong hip-hop
-          and RnB programming, each with a distinct atmosphere — Libertine
-          skewing futuristic and fashion-forward, TABU leaning into its moody,
-          Japanese-inspired underground aesthetic.
+          <Link href="/clubs/selene-london">Selene</Link> also runs hip-hop
+          and RnB in a more refined Mayfair room. TABU is now{" "}
+          <Link href="/clubs/tabu-london">Rumour</Link>, booked under its new
+          name.
         </p>
 
         <h3>House Music &amp; Electronic</h3>
@@ -320,10 +314,9 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           mature crowd. For pure electronic music heritage,{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           remains unmatched — its Box room is one of the finest purpose-built
-          dance music spaces in the world.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> offers house music
-          on its lower floor alongside hip-hop upstairs, giving you the best of
-          both worlds in a single venue.
+          dance music spaces in the world. Cuckoo Club is now{" "}
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>, booked under
+          its new name.
         </p>
 
         <h3>Entertainment &amp; Showclubs</h3>
@@ -335,10 +328,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           city has replicated.{" "}
           <Link href="/clubs/the-london-reign">The London Reign</Link> on
           Piccadilly brings aerial acts and cabaret into a lavish showclub
-          setting.{" "}
-          <Link href="/clubs/lio-club-london">Lio Club London</Link> combines
-          gourmet dining with live entertainment and a party atmosphere
-          imported from its famous Ibiza original.
+          setting.
         </p>
 
         <h3>Cocktail Bars &amp; Late-Night Lounges</h3>
@@ -368,9 +358,8 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           The best luxury nights in London follow a rhythm. Start with dinner at
           8pm or 8:30pm — Mayfair has no shortage of outstanding restaurants,
-          and venues like <Link href="/clubs/maddox">Maddox</Link> and{" "}
-          <Link href="/clubs/lio-club-london">Lio Club</Link> offer the option
-          of dining and clubbing under one roof. For more on combining dinner
+          and venues like <Link href="/clubs/maddox">Maddox</Link> offer the
+          option of dining and clubbing under one roof. For more on combining dinner
           and nightlife, see our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide

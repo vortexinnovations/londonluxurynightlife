@@ -136,9 +136,7 @@ export default function CirqueLeSoirPage() {
           There is nothing else like Cirque Le Soir in London. Other venues
           incorporate performance elements.{" "}
           <Link href="/clubs/the-london-reign">The London Reign</Link> has
-          aerial acts.{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link> has immersive
-          lighting. But none of them make performance the core of the
+          aerial acts. But none of them make performance the core of the
           experience in the way Cirque does. Here, the performers are not an
           addition to the nightclub. The nightclub is built around the
           performers. Every design decision, from the compact floorplan to the

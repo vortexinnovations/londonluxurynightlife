@@ -36,7 +36,14 @@ export interface Club {
   openingNights: string;
   dressCode: string;
   shortDescription: string;
-  status?: "open" | "closed";
+  /** "rebranded": the same venue trading under a new name (see renamedClubs). */
+  status?: "open" | "closed" | "rebranded";
+  /** Rebranded venues: the old name people still search for. */
+  formerName?: string;
+  /** Closed or rebranded venues: the venue now at that address (owner-confirmed). */
+  successor?: string;
+  /** The successor's page on this site, when the site covers it. */
+  successorSlug?: string;
 }
 
 /** Active, currently open venues — shown in all listings and navigation */
@@ -76,42 +83,6 @@ export const clubs: Club[] = [
     openingNights: "Friday – Saturday",
     dressCode: "Smart and glamorous. Heels for ladies.",
     shortDescription: "An extravagant showclub on Piccadilly featuring aerial acts, live performances, and a crowd that comes as much for the spectacle as the party.",
-  },
-  {
-    name: "TABU London",
-    slug: "tabu-london",
-    tagline: "Mayfair's underground Japanese-inspired nightclub",
-    location: "Mayfair",
-    area: "Mayfair",
-    musicStyle: "Hip-Hop, RnB",
-    tablesFrom: "£1,000",
-    openingNights: "Thursday – Saturday",
-    dressCode: "Smart. No sportswear or casual wear.",
-    shortDescription: "A Japanese-inspired underground venue in the heart of Mayfair. TABU blends Eastern aesthetics with West End energy for something genuinely different.",
-  },
-  {
-    name: "Funky Buddha",
-    slug: "funky-buddha",
-    tagline: "Mayfair's legendary celebrity nightclub",
-    location: "Berkeley Street, Mayfair",
-    area: "Mayfair",
-    musicStyle: "Hip-Hop, RnB, Funky House",
-    tablesFrom: "£1,000",
-    openingNights: "Wednesday – Saturday",
-    dressCode: "Smart and stylish. No sportswear.",
-    shortDescription: "One of Mayfair's most iconic nightclubs, Funky Buddha has been a celebrity magnet for over a decade. The name alone carries weight in London nightlife.",
-  },
-  {
-    name: "Cuckoo Club",
-    slug: "cuckoo-club",
-    tagline: "Mayfair's stylish two-floor nightclub",
-    location: "Swallow Street, Mayfair",
-    area: "Mayfair",
-    musicStyle: "House, Hip-Hop",
-    tablesFrom: "£1,000",
-    openingNights: "Wednesday – Saturday",
-    dressCode: "Smart and stylish. No sportswear.",
-    shortDescription: "A stylish two-floor venue on Swallow Street offering house downstairs and hip-hop upstairs. Cuckoo Club is a Mayfair staple for good reason.",
   },
   {
     name: "Scotch of St James",
@@ -185,10 +156,36 @@ export const clubs: Club[] = [
     dressCode: "Smart casual. No sportswear.",
     shortDescription: "A high-energy nightclub on Margaret Street with one of London's best sound systems. BEAT strips away the pretence and focuses on the music.",
   },
+  {
+    name: "Ministry of Sound",
+    slug: "ministry-of-sound",
+    tagline: "London's iconic temple of electronic music",
+    location: "Elephant & Castle, South London",
+    area: "South London",
+    musicStyle: "House, Techno, Electronic, Dance",
+    tablesFrom: "£1,000",
+    openingNights: "Friday – Saturday, special events",
+    dressCode: "Relaxed but smart.",
+    shortDescription: "An iconic super club with multiple rooms, a world-class sound system, and three decades of electronic music heritage.",
+  },
 ];
 
 /** Permanently closed venues — pages kept for SEO but excluded from active listings */
 export const closedClubs: Club[] = [
+  {
+    name: "Funky Buddha",
+    slug: "funky-buddha",
+    tagline: "The Berkeley Street club, now closed",
+    location: "Berkeley Street, Mayfair",
+    area: "Mayfair",
+    musicStyle: "Hip-Hop, RnB, Funky House",
+    tablesFrom: "Closed",
+    openingNights: "Permanently Closed",
+    dressCode: "Smart and stylish.",
+    shortDescription: "Funky Buddha has closed. Itzel now operates at its Berkeley Street address in Mayfair.",
+    status: "closed",
+    successor: "Itzel",
+  },
   {
     name: "Luna Club London",
     slug: "luna-club-london",
@@ -212,8 +209,10 @@ export const closedClubs: Club[] = [
     tablesFrom: "£1,000",
     openingNights: "Permanently Closed",
     dressCode: "Smart and fashionable.",
-    shortDescription: "A sophisticated, futuristic venue that attracted Mayfair's most fashionable crowd. Libertine has permanently closed.",
+    shortDescription: "A sophisticated, futuristic venue that attracted Mayfair's most fashionable crowd. Libertine has closed, and Selene now operates in its place.",
     status: "closed",
+    successor: "Selene London",
+    successorSlug: "selene-london",
   },
   {
     name: "Luxx Club London",
@@ -225,8 +224,9 @@ export const closedClubs: Club[] = [
     tablesFrom: "£1,000",
     openingNights: "Permanently Closed",
     dressCode: "Smart.",
-    shortDescription: "A premium Mayfair venue known for LED installations and electric light shows. Luxx Club has permanently closed.",
+    shortDescription: "A premium Mayfair venue known for LED installations and electric light shows. Luxx Club has closed, and its successor is Itzel.",
     status: "closed",
+    successor: "Itzel",
   },
   {
     name: "Lio Club London",
@@ -241,17 +241,42 @@ export const closedClubs: Club[] = [
     shortDescription: "An elegant Mayfair venue that combined gourmet dining with live entertainment. Lio Club London has permanently closed.",
     status: "closed",
   },
+];
+
+/**
+ * Renamed venues (owner, 2026-10-07): the same club trading under a new name.
+ * Kept for the old name's search traffic; booked under the new name. Old-club
+ * details (music, prices, dress code) are not carried over to the new venue.
+ */
+export const renamedClubs: Club[] = [
   {
-    name: "Ministry of Sound",
-    slug: "ministry-of-sound",
-    tagline: "London's iconic temple of electronic music",
-    location: "Elephant & Castle, South London",
-    area: "South London",
-    musicStyle: "House, Techno, Electronic, Dance",
-    tablesFrom: "£1,000",
-    openingNights: "Friday – Saturday, special events",
-    dressCode: "Relaxed but smart.",
-    shortDescription: "An iconic super club with multiple rooms, a world-class sound system, and three decades of electronic music heritage.",
-    status: "closed",
+    name: "Rumour (formerly TABU)",
+    slug: "tabu-london",
+    tagline: "TABU London is now Rumour",
+    location: "Mayfair",
+    area: "Mayfair",
+    musicStyle: "Ask us for the current music policy",
+    tablesFrom: "Ask us for current minimums",
+    openingNights: "Ask us for current nights",
+    dressCode: "Smart. Ask us for the current door policy.",
+    shortDescription: "TABU London is now Rumour. Tables and guestlist are booked under the new name.",
+    status: "rebranded",
+    formerName: "TABU London",
+    successor: "Rumour",
+  },
+  {
+    name: "99 Regent Street (formerly Cuckoo Club)",
+    slug: "cuckoo-club",
+    tagline: "Cuckoo Club is now 99 Regent Street",
+    location: "Swallow Street, Mayfair",
+    area: "Mayfair",
+    musicStyle: "Ask us for the current music policy",
+    tablesFrom: "Ask us for current minimums",
+    openingNights: "Ask us for current nights",
+    dressCode: "Smart. Ask us for the current door policy.",
+    shortDescription: "Cuckoo Club is now 99 Regent Street. Tables and guestlist are booked under the new name.",
+    status: "rebranded",
+    formerName: "Cuckoo Club",
+    successor: "99 Regent Street",
   },
 ];

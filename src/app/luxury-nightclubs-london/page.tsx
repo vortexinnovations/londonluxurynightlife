@@ -115,23 +115,6 @@ export default function LuxuryNightclubsLondonPage() {
           .
         </p>
 
-        <h3>Funky Buddha — The Enduring Standard</h3>
-
-        <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> has survived
-          every trend, every rival opening, and every shift in London
-          nightlife fashion. That longevity is not luck — it is the result
-          of a venue that got the fundamentals right from the beginning and
-          has refused to compromise them. The intimate Berkeley Street room,
-          the blend of hip-hop, R&amp;B, and funky house, the curated door
-          policy, and the returning crowd create an experience that newer
-          venues are still trying to replicate. See our{" "}
-          <Link href="/blog/funky-buddha-london-review">
-            full Funky Buddha review
-          </Link>
-          .
-        </p>
-
         <h3>Scotch of St James — Heritage as Luxury</h3>
 
         <p>
@@ -190,21 +173,6 @@ export default function LuxuryNightclubsLondonPage() {
           sophistication and a party in the same evening.
         </p>
 
-        <h3>TABU London — Aesthetic Luxury</h3>
-
-        <p>
-          <Link href="/clubs/tabu-london">TABU</Link> brings a Japanese
-          aesthetic sensibility to Mayfair that creates something genuinely
-          different. The underground atmosphere, the curated hip-hop and
-          R&amp;B programming, and the slow-building energy make TABU the
-          venue for people who find mainstream Mayfair predictable. Read
-          our{" "}
-          <Link href="/blog/tabu-london-japanese-underground-nightclub">
-            TABU review
-          </Link>
-          .
-        </p>
-
         <h3>Maddox Club — Dining Luxury</h3>
 
         <p>
@@ -244,16 +212,6 @@ export default function LuxuryNightclubsLondonPage() {
           feel like an event.
         </p>
 
-        <h3>Cuckoo Club — Reliable Premium</h3>
-
-        <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
-          Street offers two genres on two floors and the most consistent
-          delivery in Mayfair. House downstairs, hip-hop upstairs, strong
-          nights Wednesday through Saturday. The safest recommendation for
-          anyone visiting Mayfair for the first time.
-        </p>
-
         <h3>Selene London — The New Generation</h3>
 
         <p>
@@ -274,6 +232,15 @@ export default function LuxuryNightclubsLondonPage() {
           defines luxury through sound quality. The room-tuned system
           delivers an audio experience that Mayfair venues cannot match,
           attracting a crowd united by genuine enthusiasm for music.
+        </p>
+
+        <p>
+          Older names, updated:{" "}
+          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
+          (both booked under their new names), and{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
+          Itzel now at its Berkeley Street address.
         </p>
 
         <h2>How to Access London&apos;s Luxury Clubs</h2>

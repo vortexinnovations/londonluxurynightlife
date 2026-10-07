@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "Can I wear jeans to a London nightclub?",
     answer:
-      "It depends on the venue and the jeans. Dark, slim-fit designer jeans are accepted at most London clubs including many Mayfair venues. Distressed, ripped, baggy, or light-wash jeans will be refused at strict venues like Tape London, Funky Buddha, and Dear Darling. When in doubt, choose tailored trousers instead — they are never the wrong choice.",
+      "It depends on the venue and the jeans. Dark, slim-fit designer jeans are accepted at most London clubs including many Mayfair venues. Distressed, ripped, baggy, or light-wash jeans will be refused at strict venues like Tape London, Scotch of St James, and Dear Darling. When in doubt, choose tailored trousers instead — they are never the wrong choice.",
   },
   {
     question: "What should men wear to Mayfair nightclubs?",
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "Will I be turned away for wearing trainers to a London club?",
     answer:
-      "At most Mayfair clubs, yes. Trainers — even expensive designer ones — are refused at venues like Tape London, Funky Buddha, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London, Cuckoo Club, and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
+      "At most Mayfair clubs, yes. Trainers — even expensive designer ones — are refused at venues like Tape London, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London, The Box, and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
   },
   {
     question: "What is the dress code for The Box London?",
@@ -206,7 +206,6 @@ export default function LondonClubDressCodeGuidePage() {
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>.
           These venues enforce the highest standard. Smart shoes mandatory,
@@ -221,7 +220,6 @@ export default function LondonClubDressCodeGuidePage() {
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>,{" "}
           <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/reign-london">Reign London</Link>.
@@ -234,12 +232,8 @@ export default function LondonClubDressCodeGuidePage() {
         <h3>Tier 3: Relaxed Smart — Personality Welcome</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
-          <Link href="/clubs/the-box-london">The Box</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
-          <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
+          <Link href="/clubs/the-box-london">The Box</Link>, and{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>.
           These venues welcome more personality in dress. Clean designer
           trainers are generally accepted, dark jeans work comfortably, and

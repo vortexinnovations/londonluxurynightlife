@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "Do I need a VIP table to get into London's best clubs?",
     answer:
-      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends — guestlist and walk-up entry is extremely limited. At venues like Cuckoo Club, Maddox, and BEAT London, guestlist entry is viable without a table on most nights. A table booking always improves your chances regardless of venue.",
+      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends — guestlist and walk-up entry is extremely limited. At venues like Selene, Maddox, and BEAT London, guestlist entry is viable without a table on most nights. A table booking always improves your chances regardless of venue.",
   },
   {
     question: "How many people can sit at a VIP table in London clubs?",
@@ -191,12 +191,9 @@ export default function VIPNightlifeLondonPage() {
         <h3>Best for a First VIP Experience</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> delivers
-          consistently excellent VIP with two floors, two music genres, and
-          minimum spends that are accessible without being cheap. The service
-          is attentive, the crowd is reliably good, and the door is selective
-          without being intimidating. For anyone experiencing Mayfair VIP for
-          the first time, Cuckoo is the safest recommendation.{" "}
+          <Link href="/clubs/selene-london">Selene</Link> is a refined, newer
+          Mayfair room with minimum spends that are accessible without being
+          cheap and a door that is selective without being intimidating.{" "}
           <Link href="/clubs/maddox">Maddox</Link> pairs VIP nightlife with
           Italian dining for a complete evening under one roof.
         </p>
@@ -207,25 +204,18 @@ export default function VIPNightlifeLondonPage() {
           <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
           delivers VIP where the sound system is the star. The room-tuned
           audio means your table puts you inside the music rather than beside
-          it.{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> combines hip-hop and
-          R&amp;B programming with a Japanese-inspired underground atmosphere
-          that makes VIP feel genuinely different from the Mayfair mainstream.
+          it.
         </p>
 
         <h3>Other Notable VIP Experiences</h3>
 
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> offers intimate
-          VIP in one of London&apos;s most storied rooms.{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           delivers VIP with genuine heritage character.{" "}
           <Link href="/clubs/the-box-london">The Box</Link> provides VIP for
           the adventurous — the performances are not for the faint-hearted.{" "}
-          <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
-          <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
-          each offer distinctive VIP propositions worth exploring.
+          offers a different VIP proposition built around its sound system.
         </p>
 
         <h2>How to Book VIP Properly</h2>
@@ -271,7 +261,7 @@ export default function VIPNightlifeLondonPage() {
           a venue based on name recognition alone. The best VIP experience
           for your group depends on your priorities: music preference, group
           size, budget, and what kind of evening you want. A group of eight
-          who love hip-hop will have a better time at TABU than at Dear
+          who love hip-hop will have a better time at Tape than at Dear
           Darling, regardless of which venue has more Instagram followers.
           Our{" "}
           <Link href="/contact">concierge team</Link> matches groups to

@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "Which London clubs offer the best value for high spenders?",
     answer:
-      "Maddox offers exceptional value because the minimum spend covers both dinner and nightclub access in one venue. Cuckoo Club provides strong value with two music floors and consistent delivery. For pure exclusivity per pound spent, Tape London justifies its premium through an experience no other venue can replicate.",
+      "Maddox offers exceptional value because the minimum spend covers both dinner and nightclub access in one venue. Dear Darling provides strong value with cocktails and a late night in one opulent room. For pure exclusivity per pound spent, Tape London justifies its premium through an experience no other venue can replicate.",
   },
   {
     question: "Can you negotiate minimum spends at London nightclubs?",
@@ -110,7 +110,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <p>
           A &pound;1,000 minimum spend at Mayfair&apos;s top venues secures
           a table, entry, and a respectable position. At{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
+          <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, this tier
           provides a genuinely premium experience — good tables, attentive
@@ -137,10 +137,8 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           where the minimum spend alone filters for a crowd that genuinely
           enhances the experience. At{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>, &pound;1,500
-          secures premium table positions closer to the action. At{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, it unlocks the best
-          tables in the underground room.
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,
+          &pound;1,500 secures premium table positions closer to the action.
         </p>
 
         <p>
@@ -226,16 +224,13 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           arguably the highest of any London venue.
         </p>
 
-        <h3>Best for Groups: Cuckoo Club</h3>
+        <h3>Best for Groups: Reign London</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> excels for
-          larger groups and mixed-preference parties. The two-floor format
-          means a single booking satisfies hip-hop and house music
-          preferences simultaneously. The minimum spends are reasonable, the
-          delivery is consistent, and the location on Swallow Street is
-          central and accessible. For groups of ten or more, Cuckoo
-          frequently offers the best overall package.
+          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly is
+          the easiest premium room for a big group: space for adjacent tables,
+          aerial acts and live performance through the night, and a mixed
+          playlist that suits everyone in the party.
         </p>
 
         <h3>Best for Unique Experiences: The Box</h3>

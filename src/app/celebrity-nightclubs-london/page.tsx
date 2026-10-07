@@ -109,17 +109,13 @@ export default function CelebrityNightclubsLondonPage() {
           more visible celebrity crowd than Tape.
         </p>
 
-        <h3>3. Funky Buddha — The Veteran Magnet</h3>
-
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> has been
-          attracting celebrities since before Instagram existed, which
-          tells you something important about the quality of the
-          experience. The Berkeley Street venue&apos;s enduring appeal to
-          high-profile guests is rooted in the same qualities that make it
-          excellent for everyone else: intimate room, exceptional music,
-          curated crowd. Celebrities return because the night is good, not
-          because the PR is.
+          Older names, updated:{" "}
+          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
+          (both booked under their new names), and{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
+          Itzel now at its Berkeley Street address.
         </p>
 
         <h2>The Second Tier: Regular Celebrity Sightings</h2>

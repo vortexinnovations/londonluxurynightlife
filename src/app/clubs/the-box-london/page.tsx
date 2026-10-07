@@ -82,8 +82,8 @@ export default function TheBoxLondonPage() {
           dark, theatrical, and unapologetically decadent, equal parts cabaret
           hall and underground speakeasy. Compared to the clean lines of a venue
           like <Link href="/clubs/tape-london">Tape London</Link> or the
-          Japanese-influenced design of{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>, The Box feels
+          opulence of{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>, The Box feels
           deliberately raw and unpolished. That roughness is part of the appeal.
         </p>
 

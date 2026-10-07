@@ -19,7 +19,7 @@ const faqs = [
     question:
       "Which London clubs are best for corporate client entertainment?",
     answer:
-      "Maddox and Lio Club London are ideal for their dinner-to-club format, allowing a structured evening. Scotch of St James and Dear Darling suit sophisticated, conversation-friendly entertainment. The best choice depends on your client relationship and industry — contact us for a tailored recommendation.",
+      "Maddox and Reign London are ideal for their dinner-to-club format, allowing a structured evening. Scotch of St James and Dear Darling suit sophisticated, conversation-friendly entertainment. The best choice depends on your client relationship and industry — contact us for a tailored recommendation.",
   },
   {
     question:
@@ -41,7 +41,7 @@ const faqs = [
     question:
       "What if my clients have dietary requirements or don't drink alcohol?",
     answer:
-      "All premium London clubs offer soft drinks, premium water, and non-alcoholic cocktails alongside bottle service. For dinner-club venues like Maddox and Lio, dietary requirements are handled as they would be at any high-end restaurant — just inform us when booking.",
+      "All premium London clubs offer soft drinks, premium water, and non-alcoholic cocktails alongside bottle service. For dinner-club venues like Maddox and Reign London, dietary requirements are handled as they would be at any high-end restaurant — just inform us when booking.",
   },
 ];
 
@@ -125,9 +125,9 @@ export default function CorporateEntertainmentPage() {
         </p>
 
         <p>
-          <Link href="/clubs/lio-club-london">Lio Club London</Link> offers
-          a more theatrical alternative, with live entertainment woven
-          through dinner. This works brilliantly for clients who appreciate
+          <Link href="/clubs/reign-london">Reign London</Link> offers
+          a more theatrical alternative, with aerial acts and live
+          performance through the evening. This works brilliantly for clients who appreciate
           spectacle and for celebrations (deal closings, milestones, end of
           year). It is a bolder choice than Maddox but a memorable one.
         </p>
@@ -140,10 +140,10 @@ export default function CorporateEntertainmentPage() {
           a big night. In these cases, you can go further:{" "}
           <Link href="/clubs/tape-london">Tape London</Link> for exclusivity
           and potential celebrity sightings,{" "}
-          <Link href="/clubs/libertine">Libertine</Link> for Mayfair
+          <Link href="/clubs/selene-london">Selene</Link> for Mayfair
           sophistication with real energy, or{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> for a stylish
-          Mayfair night with broad musical appeal.
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> for
+          a storied Mayfair night with broad musical appeal.
         </p>
 
         <div className="info-box">
@@ -266,7 +266,7 @@ export default function CorporateEntertainmentPage() {
           strongly recommend it — budget £100-£200 per person at the
           restaurant or dinner-club venues like{" "}
           <Link href="/clubs/maddox">Maddox</Link> and{" "}
-          <Link href="/clubs/lio-club-london">Lio Club</Link>. This covers
+          <Link href="/clubs/reign-london">Reign London</Link>. This covers
           a three-course meal with wine. You can spend more, of course, but
           this range delivers an impressive experience without being
           extravagant.
@@ -311,7 +311,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           Two hours is ideal. Long enough for proper conversation and
           relationship building, short enough that energy does not flag. If
-          you are at Maddox or Lio, this is built into the venue. If you
+          you are at Maddox or Reign, this is built into the venue. If you
           are dining elsewhere, choose a restaurant within walking distance
           of your club — see our{" "}
           <Link href="/guides/dinner-and-nightclub-london">

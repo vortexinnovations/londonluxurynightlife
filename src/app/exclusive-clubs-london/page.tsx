@@ -132,23 +132,7 @@ export default function ExclusiveClubsLondonPage() {
           in our dedicated guide.
         </p>
 
-        <h3>#2 — Funky Buddha</h3>
-
-        <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on Berkeley
-          Street has maintained its exclusivity for longer than most London
-          clubs have existed. The intimate capacity means the door has to be
-          selective by necessity — there is simply no room for compromise. But
-          the selectivity goes beyond capacity management. Funky Buddha&apos;s
-          door team operates with a clear vision of what the room should look
-          and feel like, and they enforce that vision with a consistency that
-          larger venues cannot match. The celebrity frequency remains
-          extraordinary, and the crowd demographic — a blend of media,
-          entertainment, and old Mayfair money — has barely shifted in a
-          decade. That stability is itself a form of exclusivity.
-        </p>
-
-        <h3>#3 — Scotch of St James</h3>
+        <h3>#2 — Scotch of St James</h3>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -162,7 +146,7 @@ export default function ExclusiveClubsLondonPage() {
           harder to game than venues where a large booking guarantees entry.
         </p>
 
-        <h3>#4 — The Box</h3>
+        <h3>#3 — The Box</h3>
 
         <p>
           <Link href="/clubs/the-box-london">The Box</Link> in Soho operates
@@ -180,7 +164,7 @@ export default function ExclusiveClubsLondonPage() {
           .
         </p>
 
-        <h3>#5 — Cirque Le Soir</h3>
+        <h3>#4 — Cirque Le Soir</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> combines
@@ -193,7 +177,7 @@ export default function ExclusiveClubsLondonPage() {
           matches its energy.
         </p>
 
-        <h3>#6 — Dear Darling</h3>
+        <h3>#5 — Dear Darling</h3>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link> in Mayfair has
@@ -205,18 +189,7 @@ export default function ExclusiveClubsLondonPage() {
           feels genuinely curated rather than merely controlled.
         </p>
 
-        <h3>#7 — TABU London</h3>
-
-        <p>
-          <Link href="/clubs/tabu-london">TABU</Link> operates with a
-          selectivity that suits its underground aesthetic. The Japanese-inspired
-          Mayfair venue attracts a crowd that skews fashion-forward and
-          musically literate, and the door policy reinforces that positioning.
-          Walk-ups face genuine scrutiny, and the intimate capacity means even
-          table bookings are not guaranteed a spot on peak nights.
-        </p>
-
-        <h3>#8 — Reign London</h3>
+        <h3>#6 — Reign London</h3>
 
         <p>
           <Link href="/clubs/reign-london">Reign London</Link> near Piccadilly
@@ -229,12 +202,18 @@ export default function ExclusiveClubsLondonPage() {
           minimum spends.
         </p>
 
+        <p>
+          Older names, updated:{" "}
+          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
+          (both booked under their new names), and{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
+          Itzel now at its Berkeley Street address.
+        </p>
+
         <h3>The Rest of the Field</h3>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> delivers reliable
-          quality with a door that is selective without being severe — an
-          excellent introduction to Mayfair for first-time visitors.{" "}
           <Link href="/clubs/maddox">Maddox</Link> combines dining and
           nightlife with a door that reflects its dual format — refined but
           accessible with a booking.{" "}
@@ -243,12 +222,9 @@ export default function ExclusiveClubsLondonPage() {
           <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
           operates with music-first selectivity that prizes genuine enthusiasm
           over status.{" "}
-          <Link href="/clubs/libertine">Libertine</Link>,{" "}
-          <Link href="/clubs/lio-club-london">LIO London</Link>,{" "}
-          <Link href="/clubs/luxx-club-london">LUXX</Link>, and{" "}
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
-          each bring distinct propositions — from Libertine&apos;s late-night
-          energy to Ministry&apos;s legendary sound system.
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> in
+          Elephant and Castle is a different proposition altogether, built
+          around one of the most famous sound systems in the world.
         </p>
 
         <h2>How to Maximise Your Chances</h2>
@@ -279,8 +255,8 @@ export default function ExclusiveClubsLondonPage() {
               Not viable at Tape or Cirque on weekends.
             </li>
             <li>
-              <strong>Walk-up:</strong> Only realistic at Cuckoo Club, Maddox,
-              and BEAT on quieter nights. Do not attempt at Tape.
+              <strong>Walk-up:</strong> Only realistic at Maddox and BEAT on
+              quieter nights. Do not attempt at Tape.
             </li>
           </ul>
         </div>

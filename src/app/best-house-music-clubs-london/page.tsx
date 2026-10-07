@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best House Music Clubs London: Where to Hear It",
   description:
-    "London's best house music venues from Mayfair deep house to Fitzrovia sound systems. Maddox, Cuckoo Club, BEAT London — where the sound matters most.",
+    "London's best house music venues from Mayfair deep house to Fitzrovia sound systems. Maddox, BEAT London, Dear Darling: where the sound matters most.",
   keywords:
     "best house music clubs london, house music clubs london, deep house clubs london, house music london nightlife, tech house clubs london, electronic music clubs london",
   openGraph: {
@@ -128,28 +128,6 @@ export default function BestHouseMusicClubsLondonPage() {
           for current table pricing.
         </p>
 
-        <h3>Cuckoo Club — The Dedicated House Floor</h3>
-
-        <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
-          Street provides the most reliable house music experience in Mayfair
-          through its dedicated downstairs floor. While hip-hop occupies the
-          upper level, the basement delivers house music with a consistency
-          that has earned it a devoted following. The room is darker, more
-          intimate, and acoustically suited to the genre — the low ceilings
-          and compact dimensions create an intensity that larger rooms
-          struggle to achieve.
-        </p>
-
-        <p>
-          The programming on the house floor covers a range from deep house
-          through to more energetic tech-house territory, adapting across the
-          week. Wednesday and Thursday lean deeper and more atmospheric.
-          Friday and Saturday bring more energy. The beauty of
-          Cuckoo&apos;s format is optionality — if someone in your group
-          prefers hip-hop, they walk upstairs. No one compromises.
-        </p>
-
         <h3>BEAT London — Where Sound Quality Defines Everything</h3>
 
         <p>
@@ -223,9 +201,7 @@ export default function BestHouseMusicClubsLondonPage() {
           The strength of any house music venue is ultimately determined by
           its DJ bookings. Maddox has built the most consistent roster, with
           resident DJs who understand the venue&apos;s specific energy and
-          regular guest bookings that bring fresh perspectives. Cuckoo&apos;s
-          house floor benefits from DJs who have been playing the room for
-          years and understand its acoustic characteristics intimately.
+          regular guest bookings that bring fresh perspectives.
           BEAT&apos;s bookings tend towards the more adventurous — DJs who
           appreciate the sound system and want to showcase their
           production-level mixing.
@@ -248,11 +224,6 @@ export default function BestHouseMusicClubsLondonPage() {
               <strong>Maddox:</strong> Dinner from 7pm, club from 11pm. Deep
               house and melodic tech house. Best for a complete evening.
               Minimum spend from &pound;1,000.
-            </li>
-            <li>
-              <strong>Cuckoo Club:</strong> Dedicated basement house floor.
-              Open Wednesday to Saturday. Best for groups with mixed music
-              preferences. Minimum spend from &pound;1,000.
             </li>
             <li>
               <strong>BEAT London:</strong> Fitzrovia. Superior sound system.

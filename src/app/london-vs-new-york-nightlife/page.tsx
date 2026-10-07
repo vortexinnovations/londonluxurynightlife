@@ -63,9 +63,7 @@ export default function LondonVsNewYorkNightlifePage() {
           London&apos;s premium nightlife is remarkably concentrated.
           Mayfair alone contains{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
+          <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -145,14 +143,14 @@ export default function LondonVsNewYorkNightlifePage() {
           London&apos;s premium nightlife splits cleanly along a musical
           axis. The hip-hop and R&amp;B venues —{" "}
           <Link href="/clubs/tape-london">Tape</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>,{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> — operate in one
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
+          <Link href="/clubs/selene-london">Selene</Link> — operate in one
           lane. The house music venues —{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
           <Link href="/clubs/beat-london">BEAT</Link> — operate in
           another. A few, like{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> with its
-          two-floor format, bridge the gap. This specialisation means
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,
+          bridge the gap from night to night. This specialisation means
           each venue does its genre exceptionally well, but you need to
           choose your musical lane before you choose your venue.
         </p>
