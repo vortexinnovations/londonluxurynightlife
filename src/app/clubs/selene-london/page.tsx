@@ -9,9 +9,9 @@ const club = clubs.find((c) => c.slug === "selene-london")!;
 
 export const metadata: Metadata = {
   title:
-    "Selene London Review | Sophisticated Mayfair Elegance",
+    "Selene London Review | Sophisticated Fitzrovia Elegance",
   description:
-    "An insider review of Selene London. Discover why this sophisticated Mayfair club is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.",
+    "An insider review of Selene London. Discover why this sophisticated club just north of Oxford Circus is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.",
 };
 
 export default function SeleneLondonPage() {
@@ -19,7 +19,7 @@ export default function SeleneLondonPage() {
     <>
       <ArticleSchema
         title="Selene London Review"
-        description="An insider review of Selene London, the sophisticated Mayfair nightclub offering refined interiors, impeccable service, and an elevated nightlife experience for a discerning crowd."
+        description="An insider review of Selene London, the sophisticated Fitzrovia nightclub just north of Oxford Circus, offering refined interiors, impeccable service, and an elevated nightlife experience for a discerning crowd."
         slug="/clubs/selene-london"
       />
       <ArticleLayout
@@ -172,7 +172,7 @@ export default function SeleneLondonPage() {
 
         <blockquote>
           Selene is the answer to a question that discerning guests have been
-          asking for years: where in Mayfair can you experience genuine luxury
+          asking for years: where in central London can you experience genuine luxury
           without the noise, the flash, and the constant pressure to perform
           your enjoyment for the room? Here. The answer is here.
         </blockquote>
@@ -197,7 +197,7 @@ export default function SeleneLondonPage() {
 
         <ul>
           <li>Guests who prioritise sophistication and refinement over spectacle</li>
-          <li>Couples seeking an elegant, upscale evening in Mayfair</li>
+          <li>Couples seeking an elegant, upscale evening just north of Mayfair</li>
           <li>Corporate hosts who need impeccable service and a polished setting</li>
           <li>International visitors accustomed to the world&apos;s best hotel bars and private clubs</li>
           <li>Anyone who finds mainstream Mayfair nightlife too loud and too flash</li>
@@ -226,8 +226,8 @@ export default function SeleneLondonPage() {
           feels curated rather than manufactured. It will not suit those who
           want high-energy spectacle or a raucous dancefloor, but for its
           intended audience, Selene is one of the most satisfying experiences
-          Mayfair has to offer. In a neighbourhood where excess is the default,
-          Selene proves that restraint can be the most luxurious choice of all.
+          the West End has to offer. Just north of Mayfair, where excess is the
+          default, Selene proves that restraint can be the most luxurious choice of all.
         </p>
 
         <p>

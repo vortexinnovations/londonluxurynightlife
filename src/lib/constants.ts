@@ -135,14 +135,14 @@ export const clubs: Club[] = [
   {
     name: "Selene London",
     slug: "selene-london",
-    tagline: "Sophisticated elegance in the heart of Mayfair",
-    location: "Mayfair",
-    area: "Mayfair",
+    tagline: "Sophisticated elegance just north of Oxford Circus",
+    location: "Fitzrovia",
+    area: "Fitzrovia",
     musicStyle: "Hip-Hop, RnB, Commercial",
     tablesFrom: "£1,000",
     openingNights: "Thursday to Sunday",
     dressCode: "Smart and elegant. No sportswear.",
-    shortDescription: "A sophisticated Mayfair venue offering an elevated nightlife experience with refined interiors, premium bottle service, and a discerning crowd.",
+    shortDescription: "A sophisticated Fitzrovia venue, just north of Oxford Circus, offering an elevated nightlife experience with refined interiors, premium bottle service, and a discerning crowd.",
   },
   {
     name: "BEAT London",
