@@ -140,7 +140,7 @@ export const clubs: Club[] = [
     area: "Mayfair",
     musicStyle: "Hip-Hop, RnB, Commercial",
     tablesFrom: "£1,000",
-    openingNights: "Thursday – Saturday",
+    openingNights: "Thursday to Sunday",
     dressCode: "Smart and elegant. No sportswear.",
     shortDescription: "A sophisticated Mayfair venue offering an elevated nightlife experience with refined interiors, premium bottle service, and a discerning crowd.",
   },
