@@ -190,7 +190,11 @@ export default function CelebrityNightclubsLondonPage() {
           with genuine relationships at these venues.{" "}
           <Link href="/contact">Our team</Link>{" "}books tables at every club
           on this list and can advise on the best nights for the highest
-          chance of notable company. For direct bookings,{" "}
+          chance of notable company. Some weekends are predictable: a{" "}
+          <Link href="/blog/fight-night-london-nightlife">big London fight night</Link>{" "}
+          brings the ringside crowd into these rooms after the main event, and the summer{" "}
+          <Link href="/blog/london-supercar-season-nightlife">supercar season</Link>{" "}
+          fills them with international visitors. For direct bookings,{" "}
           <a
             href={ECOSYSTEM.bottleService.url}
             target="_blank"

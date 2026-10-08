@@ -122,6 +122,8 @@ export default function TapeLondonPage() {
           a nightclub and more like a very well-connected house party. The staff
           are exceptional too, striking that rare balance between attentive and
           invisible. Your table will be looked after without anyone hovering.
+          Each summer the brand also runs a Mykonos outpost, covered in our guide to{" "}
+          <Link href="/blog/london-to-mykonos-club-scene-summer">how the London club scene moves to Mykonos</Link>.
         </p>
 
         <p>
