@@ -130,7 +130,7 @@ export default function SohoNightlifeGuidePage() {
           accustomed to the unexpected. Tables start at &pound;1,000 and the
           door policy is selective — creativity in how you present yourself
           matters here. Music spans mixed genres including hip-hop and house,
-          but the performances are the main event. Open Thursday through
+          but the performances are the main event. Open Wednesday to
           Saturday, with Thursday being the night that draws the most
           industry-connected crowd.
         </p>
@@ -142,7 +142,7 @@ export default function SohoNightlifeGuidePage() {
               <strong>Location:</strong>{" "}Walker&apos;s Court, Soho
             </li>
             <li>
-              <strong>Open:</strong>{" "}Thursday &ndash; Saturday
+              <strong>Open:</strong>{" "}Wednesday to Saturday
             </li>
             <li>
               <strong>Music:</strong>{" "}Mixed, Hip-Hop, House
@@ -177,8 +177,8 @@ export default function SohoNightlifeGuidePage() {
           The crowd is international, affluent, and there for the experience
           as much as the music. Hip-hop and RnB drive the playlist, tables
           start at &pound;1,000, and the dress code is smart glamorous. Cirque
-          Le Soir opens Wednesday through Saturday, making it one of the more
-          accessible Soho options for midweek evenings. Wednesday and Thursday
+          Le Soir opens on Monday, Wednesday, Friday and Saturday, making it one of the more
+          accessible Soho options for midweek evenings. Monday and Wednesday
           tend to be slightly more relaxed in atmosphere while maintaining the
           full production.
         </p>

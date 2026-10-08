@@ -114,7 +114,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           <ul>
             <li><strong>Location:</strong>{" "}Ganton Street, Soho</li>
             <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B</li>
-            <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
+            <li><strong>Open:</strong>{" "}Monday, Wednesday, Friday and Saturday</li>
             <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
             <li><strong>Dress code:</strong>{" "}Smart glamorous — dress to impress</li>
           </ul>

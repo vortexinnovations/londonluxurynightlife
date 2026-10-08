@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Best Thursday Night Clubs in London: The Insider's Guide",
   description:
-    "Discover the best Thursday night clubs in London. From Tape London to TABU, Cuckoo Club, and Scotch of St James — where to go, what to expect, and why Thursday is the insider's night out.",
+    "Discover the best Thursday night clubs in London. From TABU to Cuckoo Club and Scotch of St James — where to go, what to expect, and why Thursday is the insider's night out.",
   keywords:
     "best Thursday night clubs London, Thursday night out London, London clubs Thursday, Thursday clubbing London, Thursday nightlife Mayfair",
   openGraph: {
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "Which London clubs are open on Thursday nights?",
     answer:
-      "Several of London's best luxury clubs open on Thursday, including Tape London, TABU London, Cuckoo Club, Scotch of St James, Funky Buddha, Dear Darling, Luna Club London, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
+      "Several of London's best luxury clubs open on Thursday, including TABU London, Cuckoo Club, Scotch of St James, Funky Buddha, Dear Darling, Luna Club London, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
   },
   {
     question: "Is Thursday a good night to go clubbing in London?",
@@ -110,18 +110,6 @@ export default function BestThursdayNightClubsLondonPage() {
         </p>
 
         <h2>The Best Thursday Night Clubs</h2>
-
-        <h3>Tape London</h3>
-        <p>
-          <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover
-          Square is arguably at its best on Thursday. The music industry crowd
-          that defines this venue&apos;s character is more present midweek
-          than on the busier weekend nights. The room feels more exclusive,
-          the music leans heavier into hip-hop and RnB, and the celebrity
-          sightings are, paradoxically, more frequent when fewer cameras are
-          around. Tables start from &pound;1,500, but Thursday minimums are
-          often more accessible than Saturday equivalents.
-        </p>
 
         <h3>TABU London</h3>
         <p>
@@ -209,9 +197,6 @@ export default function BestThursdayNightClubsLondonPage() {
         <div className="info-box">
           <h4>Thursday Night Quick Guide</h4>
           <ul>
-            <li>
-              <strong>Music industry atmosphere:</strong>{" "}Tape London
-            </li>
             <li>
               <strong>Visually unique setting:</strong>{" "}TABU London
             </li>

@@ -92,7 +92,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           table at <Link href="/clubs/tape-london">Tape London</Link>{" "}on a
           Saturday is non-negotiable — guestlist is essentially decorative.
           A table at <Link href="/clubs/maddox">Maddox</Link>{" "}on a
-          Wednesday is a luxury rather than a necessity. This guide gives
+          Thursday is a luxury rather than a necessity. This guide gives
           you the specific information needed to make the right call for your
           particular evening.
         </p>

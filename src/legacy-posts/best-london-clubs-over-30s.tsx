@@ -142,9 +142,9 @@ export default function BestLondonClubsOver30sPage() {
           groups prefer. Start with Italian dining upstairs, then transition to
           deep house and house music into the early hours. The crowd is polished,
           the dress code leans elegant — jacket preferred for gentlemen — and the
-          atmosphere is distinctly grown-up. The fact that it opens Tuesday
-          through Saturday gives midweek options when the venues are quieter and
-          the crowd is even more refined.
+          atmosphere is distinctly grown-up. It opens Thursday
+          to Saturday, and Thursday is the quieter night, when the crowd is
+          even more refined.
         </p>
 
         <h3>Dear Darling</h3>
@@ -157,7 +157,7 @@ export default function BestLondonClubsOver30sPage() {
           later hours bring energy without abandoning sophistication. The lounge
           and house music policy keeps the atmosphere refined. This is an
           excellent choice for couples or smaller groups who want quality over
-          volume. Open Wednesday through Saturday.
+          volume. Open Thursday to Sunday.
         </p>
 
         <h3>Tape London</h3>

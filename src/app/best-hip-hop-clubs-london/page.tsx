@@ -218,11 +218,11 @@ export default function BestHipHopClubsLondonPage() {
           <h4>Weekly Hip-Hop Calendar</h4>
           <ul>
             <li>
-              <strong>Wednesday:</strong>{" "}Cirque Le Soir opens from
+              <strong>Wednesday:</strong>{" "}Cirque Le Soir opens on Monday and
               Wednesday, the strongest midweek hip-hop option.
             </li>
             <li>
-              <strong>Thursday:</strong>{" "}Tape and Selene open from Thursday,
+              <strong>Thursday:</strong>{" "}Selene opens from Thursday,
               for those who prefer a slightly more relaxed atmosphere.
             </li>
             <li>

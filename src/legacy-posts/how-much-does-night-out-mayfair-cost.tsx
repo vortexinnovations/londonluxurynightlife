@@ -57,7 +57,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           <Link href="/clubs/maddox">Maddox</Link>, table minimum
           spends typically start at <strong>&pound;1,000 to &pound;1,500</strong>{" "}
           on a standard Friday or Saturday night. Smaller tables or quieter
-          nights (Wednesdays, Thursdays) can occasionally start lower, around
+          nights (Tuesday at Tape, Thursday at Maddox) can occasionally start lower, around
           &pound;500&ndash;&pound;800. Premium tables — those closest to the DJ
           or in the best sightlines — run &pound;2,000 to &pound;5,000 or more
           at top-tier venues.
