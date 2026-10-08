@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     absolute: "How to Get Into Tape London: Guestlist, Tables, Dress Code",
   },
   description:
-    "Tape London, 17 Hanover Square: open Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am as of October 2026. Guestlist, tables, door policy and dress code.",
+    "Tape London, 17 Hanover Square: open Tuesday, Friday, Saturday and Sunday, 11pm to 3.45am as of October 2026. Guestlist, tables, door policy and dress code.",
   keywords:
     "how to get into Tape London, Tape London guestlist, Tape London door policy, Tape London entry, Tape London table booking, Tape London dress code",
   openGraph: {
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     question: "What are the opening nights and hours at Tape London?",
-    answer: "As of October 2026, Tape London opens on Tuesday, Friday, Saturday and Sunday from 11pm to 3.30am. The Little Tape after party runs on Friday and Saturday from 3am to 5.30am. Saturday is the biggest night, with the highest energy and the most selective door, and Friday is close behind. For a first visit with a table, Saturday is recommended.",
+    answer: "As of October 2026, Tape London opens on Tuesday, Friday, Saturday and Sunday from 11pm to 3.45am. The Little Tape after party runs on Friday and Saturday from 3am to 5.30am. Saturday is the biggest night, with the highest energy and the most selective door, and Friday is close behind. For a first visit with a table, Saturday is recommended.",
   },
   {
     question: "Is Tape London a members' club?",
@@ -90,7 +90,7 @@ export default function HowToGetIntoTapeLondonPage() {
           <h4>Tape London at a Glance (as of October 2026)</h4>
           <ul>
             <li><strong>Address:</strong>{" "}17 Hanover Square, Mayfair, London W1S 1HU, a few minutes&apos; walk from Oxford Circus station</li>
-            <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am</li>
+            <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.45am</li>
             <li><strong>After party:</strong>{" "}Little Tape, Friday and Saturday, 3am to 5.30am</li>
             <li><strong>Getting in:</strong>{" "}a table booking, or a guestlist place requested through a promoter, a concierge or the Tape Members app</li>
             <li><strong>ID:</strong>{" "}physical ID for every guest; photographs of ID are not accepted</li>
@@ -224,7 +224,7 @@ export default function HowToGetIntoTapeLondonPage() {
 
         <p>
           As of October 2026, Tape opens on Tuesday, Friday, Saturday and
-          Sunday, from 11pm to 3.30am. It does not open on Thursday.
+          Sunday, from 11pm to 3.45am. It does not open on Thursday.
         </p>
 
         <p>
@@ -251,7 +251,7 @@ export default function HowToGetIntoTapeLondonPage() {
         <h2>Arrival Timing</h2>
 
         <p>
-          Tape opens at 11pm and closes at 3.30am (as of October 2026). For
+          Tape opens at 11pm and closes at 3.45am (as of October 2026). For
           guestlist entry, arrive between 11pm and midnight, when the door is
           most accommodating. For table
           bookings, arriving between 11:30pm and 12:30am hits the sweet

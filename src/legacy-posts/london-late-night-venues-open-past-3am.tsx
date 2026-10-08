@@ -222,7 +222,7 @@ export default function LondonLateNightVenuesPage() {
 
         <p>
           There is an argument — and experienced London nightlife people make
-          it often — that the 3am closing time actually improves the Mayfair
+          it often — that the early closing time actually improves the Mayfair
           experience. It concentrates the energy into a tighter window. Rather
           than a crowd that drifts in and out over eight hours, you get a room
           that fills together, peaks together, and shares a collective
