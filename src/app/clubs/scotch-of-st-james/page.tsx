@@ -40,7 +40,7 @@ export default function ScotchOfStJamesReview() {
         </div>
 
         <p>
-          <strong>In short:</strong> The Scotch of St James is a small club at
+          <strong>In short:</strong>{" "}The Scotch of St James is a small club at
           13 Mason&apos;s Yard, St James&apos;s, a short walk from Green Park,
           open since the 1960s and the room where Jimi Hendrix played in 1966.
           It suits people who want history, character and an eclectic music

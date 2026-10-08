@@ -50,7 +50,7 @@ export default function MaddoxPage() {
         </div>
 
         <p>
-          <strong>In short:</strong> Maddox Club, at 3-5 Mill Street in
+          <strong>In short:</strong>{" "}Maddox Club, at 3-5 Mill Street in
           Mayfair, is an Italian restaurant that turns into a house music club
           late in the evening, with the music running until 3am. It is the most
           complete dinner-to-club night in Mayfair, best for groups who would

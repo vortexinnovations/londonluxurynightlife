@@ -50,7 +50,7 @@ export default function CirqueLeSoirPage() {
         </div>
 
         <p>
-          <strong>In short:</strong> Cirque Le Soir is a circus-themed
+          <strong>In short:</strong>{" "}Cirque Le Soir is a circus-themed
           nightclub at 15-21 Ganton Street, Soho, a few minutes&apos; walk from
           Oxford Circus. Nowhere else in London puts fire breathers,
           contortionists and aerialists on the floor beside a celebrity-heavy

@@ -75,7 +75,7 @@ export default function HowToGetIntoTapeLondonPage() {
         ctaLabel="Book Tape London"
       >
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> is the most
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is the most
           selective nightclub in Mayfair, and getting through the door
           requires more than simply showing up well-dressed. The Hanover
           Square venue operates at a level of exclusivity that frustrates
@@ -187,7 +187,7 @@ export default function HowToGetIntoTapeLondonPage() {
         </p>
 
         <p>
-          <strong>What the club bans:</strong> Tape&apos;s published dress
+          <strong>What the club bans:</strong>{" "}Tape&apos;s published dress
           code (as of October 2026) asks for stylish, elegant attire and
           lists what is not allowed: sportswear and gym wear; gym, dirty or
           everyday trainers; denim shorts; hot pants; visible underwear;
@@ -204,7 +204,7 @@ export default function HowToGetIntoTapeLondonPage() {
         </p>
 
         <p>
-          <strong>Women:</strong> Cocktail-appropriate attire. A well-chosen
+          <strong>Women:</strong>{" "}Cocktail-appropriate attire. A well-chosen
           dress, tailored separates, or a smart jumpsuit with heels. Tape&apos;s
           crowd is fashionable without being ostentatious: quality over
           logos. Avoid: overly revealing or casual looks, hot pants, flat

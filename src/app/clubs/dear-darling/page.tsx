@@ -40,7 +40,7 @@ export default function DearDarlingReview() {
         </div>
 
         <p>
-          <strong>In short:</strong> Dear Darling, the venue most people search
+          <strong>In short:</strong>{" "}Dear Darling, the venue most people search
           for as Dear Darling Mayfair, is a chandeliered cocktail bar at 91
           Jermyn Street, St James&apos;s, on the southern edge of Mayfair, that
           turns into a late-night club as the evening builds. It is one of the

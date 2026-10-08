@@ -137,7 +137,7 @@ export default function DinnerAndNightclubPage() {
           If you are heading to{" "}
           <Link href="/clubs/tape-london">Tape London</Link> or{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, or to{" "}
-          <Link href="/clubs/selene-london">Selene</Link> just north of
+          <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus, you are spoilt for restaurant choices. Mayfair itself is home to some of
           London&apos;s finest dining. High-end Italian restaurants along
           Mount Street and Bruton Place are reliable choices for groups —
@@ -235,7 +235,7 @@ export default function DinnerAndNightclubPage() {
           walk to{" "}
           <Link href="/clubs/tape-london">Tape London</Link>, or a little
           further to{" "}
-          <Link href="/clubs/selene-london">Selene</Link> just north of
+          <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus. This is the
           refined choice — excellent food, a beautiful walk through
           Mayfair&apos;s quieter streets, and arrival at a venue where the
