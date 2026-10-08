@@ -68,8 +68,7 @@ export default function TheBoxLondonWhatToExpectPage() {
         <p>
           This makes The Box fundamentally different from every other venue on
           the London circuit. At{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>, the music
+          <Link href="/clubs/tape-london">Tape London</Link>, the music
           drives the evening. At{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, the
           performers enhance the party. At The Box, the performances are the
@@ -214,9 +213,8 @@ export default function TheBoxLondonWhatToExpectPage() {
           not for people who are easily offended by adult content or nudity.
           It is not for people who want a conventional dance-floor-and-DJ
           experience — venues like{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>,{" "}
-          <Link href="/clubs/maddox">Maddox</Link>, or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}are far better
+          <Link href="/clubs/maddox">Maddox</Link>{" "}or{" "}
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}are far better
           choices for that. It is not ideal for large corporate groups unless
           you are very confident about every attendee&apos;s tolerance for
           provocative content. And it is not for anyone looking for a quiet,

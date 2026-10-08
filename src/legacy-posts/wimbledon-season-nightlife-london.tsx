@@ -112,18 +112,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/luna-club-london">Luna</Link>{" "}has become a quiet
-          favourite for these groups. Its newer profile means it hasn&apos;t
-          accumulated the same reputation as the legacy Mayfair clubs, but that
-          works in its favour &mdash; corporate hosts get exclusivity without the
-          risk of their clients ending up in tabloid photos. The venue&apos;s
-          layout also accommodates group bookings without feeling cramped, which
-          matters when you&apos;re entertaining eight people on a Tuesday after
-          a quarter-final.
-        </p>
-
-        <p>
-          For groups that want something with more spectacle,{" "}
+          For corporate groups that want built-in entertainment,{" "}
           <Link href="/clubs/reign-london">Reign&apos;s showclub format</Link>{" "}
           provides built-in entertainment that removes the pressure of keeping
           the conversation going. When half your group barely knows each other,

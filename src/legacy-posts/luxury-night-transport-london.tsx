@@ -82,10 +82,10 @@ export default function LuxuryNightTransportLondonPage() {
         <p>
           There is a version of a luxury night out in London that never
           touches a taxi rank. It ends the way it began: a door held open, a
-          quiet pavement, and a car that is already there. I have spent enough
-          late nights around the capital&apos;s{" "}
-          <Link href="/vip-nightlife-london">VIP nightlife</Link>{" "}to know that
-          the most reliable tell of serious money is not the table, the magnum
+          quiet pavement, and a car that is already there. Across the
+          capital&apos;s{" "}
+          <Link href="/vip-nightlife-london">VIP nightlife</Link>, the most
+          reliable tell of serious money is not the table, the magnum
           or the watch. It is the transport, arranged hours earlier, idling in
           the dark two streets away, timed to the minute. This is how the
           luxury crowd actually moves through London at night: who drives
@@ -98,11 +98,10 @@ export default function LuxuryNightTransportLondonPage() {
         <p>
           Stand on a Mayfair square at one in the morning and watch the kerb
           rather than the door, and a hidden layer of the night reveals
-          itself. I have counted the same three cars pass four times in twenty
-          minutes, hazard lights blinking a lap of the square, because
-          Westminster gives them nowhere to sit and the doormen move them on
+          itself. The same few cars circle the square again and again, hazard
+          lights blinking, because Westminster gives them nowhere to sit and the doormen move them on
           with a nod they all understand. The choreography runs on messages.
-          From experience, the cloakroom is the real signal: when a guest asks
+          The cloakroom is the real signal: when a guest asks
           for their coat, someone on the door team is already texting the
           driver, and the car completes its final lap to arrive as the guest
           reaches the pavement. Nobody who matters waits on the kerb. The
@@ -121,7 +120,7 @@ export default function LuxuryNightTransportLondonPage() {
           close-protection professionals who plan routes in advance, know
           which side streets stay clear after big fixtures, and position the
           car so the door opens onto the building line rather than the road.
-          From my conversations with drivers who work these circuits, the
+          From what drivers who work these circuits tell our team, the
           busiest weeks mirror the events calendar we track across the{" "}
           <Link href="/blog/london-film-premiere-after-parties">
             premiere after-party circuit
@@ -161,11 +160,10 @@ export default function LuxuryNightTransportLondonPage() {
           of ride-share pins and unsteady goodbyes. Hotel guests barely see
           the mechanics at all: the concierge desk holds the driver&apos;s
           number, the door team makes one call, and the handover happens
-          before the guest has finished saying goodnight. On my last late
-          finish in W1 I watched a party of six leave a club in the time it
-          took the group beside them to agree whose app had the shortest
-          wait. The difference was not money spent inside the room; it was a
-          plan made at four in the afternoon.
+          before the guest has finished saying goodnight. A group with a car
+          booked can be gone in the time it takes the group beside them to
+          agree whose app has the shortest wait. The difference is not money
+          spent inside the room; it is a plan made at four in the afternoon.
         </p>
 
         <div className="info-box">
@@ -217,7 +215,7 @@ export default function LuxuryNightTransportLondonPage() {
             supercar season
           </Link>
           , are display; the blacked-out saloon that ghosts away at three is
-          its opposite, and in my opinion the more telling of the two. It
+          its opposite, and in our view the more telling of the two. It
           belongs to the same instinct we traced in{" "}
           <Link href="/blog/quiet-luxury-london-nightlife">
             quiet luxury in London nightlife

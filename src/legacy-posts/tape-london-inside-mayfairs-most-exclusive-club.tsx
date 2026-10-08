@@ -108,7 +108,6 @@ export default function TapeLondonInsidePage() {
           models, and international visitors who understand what they are
           paying for. If the selectivity concerns you, it is worth noting
           that venues like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           offer comparable musical quality with a slightly more accessible
           entry point.

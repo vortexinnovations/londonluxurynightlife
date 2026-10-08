@@ -70,20 +70,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           position as Mayfair&apos;s most exclusive night.
         </p>
 
-        <h2 className="no-num">2. Funky Buddha — The Enduring Icon</h2>
-
-        <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}has outlasted
-          every trend and every rival. The formula — intimate room, credible
-          music, curated crowd — has not changed because it does not need to.
-          The blend of hip-hop, R&amp;B, and funky house creates an energy
-          that newer venues are still trying to manufacture. On a good
-          Saturday, the dance floor between midnight and 2am is among the best
-          experiences Mayfair offers. Read our{" "}
-          <Link href="/blog/funky-buddha-london-review">full Funky Buddha review</Link>.
-        </p>
-
-        <h2 className="no-num">3. Scotch of St James — The Heritage Choice</h2>
+        <h2 className="no-num">2. Scotch of St James — The Heritage Choice</h2>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -98,7 +85,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           covers its remarkable story.
         </p>
 
-        <h2 className="no-num">4. Dear Darling — The Cocktail Gateway</h2>
+        <h2 className="no-num">3. Dear Darling — The Cocktail Gateway</h2>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
@@ -113,20 +100,19 @@ export default function BestClubsMayfairCompleteRankingPage() {
           </Link>.
         </p>
 
-        <h2 className="no-num">5. TABU London — The Dark Horse</h2>
+        <h2 className="no-num">4. Rumour (formerly TABU London): The Dark Horse</h2>
 
         <p>
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}arrived quietly and
-          has built a devoted following through atmosphere rather than
-          marketing. The Japanese-inspired underground aesthetic creates
-          something genuinely different from the typical Mayfair formula.
-          The energy builds slowly — this is not a venue that hits you over
-          the head. It draws you in. The hip-hop and R&amp;B programming is
-          curated rather than commercial. If Mayfair&apos;s sameness bothers
-          you, TABU is the antidote.
+          <Link href="/clubs/tabu-london">Rumour</Link>{" "}is the Mayfair club
+          that traded as TABU London, and it now opens Wednesday to Saturday
+          under its new name. As TABU it built a devoted following through
+          atmosphere rather than marketing, with a slow-building night that
+          stood apart from the typical Mayfair formula. The music policy and
+          table minimums may have changed with the rename, so we confirm
+          Rumour&apos;s current terms when you enquire.
         </p>
 
-        <h2 className="no-num">6. Maddox Club — The Complete Evening</h2>
+        <h2 className="no-num">5. Maddox Club — The Complete Evening</h2>
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the only venue on this
@@ -142,20 +128,19 @@ export default function BestClubsMayfairCompleteRankingPage() {
           for the full strategy.
         </p>
 
-        <h2 className="no-num">7. Cuckoo Club — The Reliable All-Rounder</h2>
+        <h2 className="no-num">6. 99 Regent Street (formerly Cuckoo Club): The Reliable All-Rounder</h2>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
-          Street offers something no other venue can: two completely different
-          nights under one roof. House music downstairs, hip-hop upstairs.
-          If your group cannot agree on a genre, Cuckoo solves the problem
-          instantly. The consistency is remarkable — it delivers a strong
-          night Wednesday through Saturday without the peaks and troughs that
-          affect other venues. Not the most exciting choice, but one of the
-          safest.
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}is the
+          Swallow Street venue that traded as Cuckoo Club, open Wednesday to
+          Saturday. As Cuckoo Club it offered two different nights under one
+          roof, with house and hip-hop on separate floors, and a consistency
+          that made it one of Mayfair&apos;s safest choices for groups who
+          cannot agree on a genre. Ask us for the current music policy under
+          the new name.
         </p>
 
-        <h2 className="no-num">8. Selene London — The Refined Newcomer</h2>
+        <h2 className="no-num">7. Selene London — The Refined Newcomer</h2>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link>{" "}sits just outside
@@ -169,19 +154,6 @@ export default function BestClubsMayfairCompleteRankingPage() {
           commercial music delivered in a room that whispers rather than
           shouts. Early signs are very promising — this could climb
           significantly higher as it matures.
-        </p>
-
-        <h2 className="no-num">9. Luna Club London — The Fresh Energy</h2>
-
-        <p>
-          <Link href="/clubs/luna-club-london">Luna Club</Link>{" "}brings
-          contemporary design and a younger affluent crowd to the Mayfair
-          mix. The sleek interiors and open-format music policy attract
-          people who want luxury without the stuffiness that can creep into
-          more established venues. It is still finding its identity, which
-          is both its strength (freshness, willingness to experiment) and
-          its limitation (not yet the institutional confidence of a Tape or
-          Funky Buddha). Worth watching closely.
         </p>
 
         <p className="pull-quote">
@@ -216,13 +188,13 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <div className="info-box">
           <h4>Quick Decision Guide</h4>
           <ul>
-            <li><strong>Best for dancing:</strong>{" "}Funky Buddha, TABU, Cuckoo Club</li>
+            <li><strong>Best for dancing:</strong>{" "}Tape London, Rumour (formerly TABU), 99 Regent Street (formerly Cuckoo Club)</li>
             <li><strong>Best for exclusivity:</strong>{" "}Tape London, Scotch of St James</li>
             <li><strong>Best for cocktails first:</strong>{" "}Dear Darling, Maddox</li>
             <li><strong>Best for dinner + club:</strong>{" "}Maddox</li>
-            <li><strong>Best for groups:</strong>{" "}Cuckoo Club, Luna Club</li>
-            <li><strong>Best for a first Mayfair visit:</strong>{" "}Funky Buddha, Cuckoo Club</li>
-            <li><strong>Best for something different:</strong>{" "}TABU, Selene</li>
+            <li><strong>Best for groups:</strong>{" "}99 Regent Street, Maddox</li>
+            <li><strong>Best for a first Mayfair visit:</strong>{" "}Dear Darling, 99 Regent Street</li>
+            <li><strong>Best for something different:</strong>{" "}Rumour, Selene</li>
           </ul>
         </div>
 

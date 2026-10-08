@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "TABU London: Inside Mayfair's Japanese-Inspired Underground Club",
+    "TABU London (Now Rumour): Mayfair's Japanese-Inspired Club",
   description:
-    "What makes TABU London different from every other Mayfair nightclub. The Japanese aesthetics, the underground atmosphere, and why this venue is the antidote to Mayfair sameness.",
+    "TABU London in Mayfair is now Rumour, open Wednesday to Saturday. Our review of the club as TABU: the Japanese aesthetics, the underground atmosphere, and how to book Rumour.",
   keywords:
     "TABU London, TABU nightclub Mayfair, TABU London review, Japanese nightclub London, underground club Mayfair",
   openGraph: {
-    title: "TABU London: Inside Mayfair's Japanese-Inspired Underground Club",
+    title: "TABU London (Now Rumour): Mayfair's Japanese-Inspired Club",
     description:
-      "What makes TABU different from every other Mayfair nightclub — Japanese aesthetics and underground atmosphere.",
+      "TABU London is now Rumour. Our review of the club as TABU, and how to book Rumour.",
     url: "https://londonluxurynightlife.com/blog/tabu-london-japanese-underground-nightclub",
     type: "article",
   },
@@ -28,16 +28,23 @@ export default function TabuLondonJapaneseUndergroundPage() {
   return (
     <>
       <ArticleSchema
-        title="TABU London: Inside Mayfair's Japanese-Inspired Underground Club"
-        description="What makes TABU different from every other Mayfair nightclub — the Japanese aesthetics and underground atmosphere."
+        title="TABU London (Now Rumour): Mayfair's Japanese-Inspired Club"
+        description="TABU London is now Rumour. Our review of the club as TABU, and how to book Rumour."
         slug="/blog/tabu-london-japanese-underground-nightclub"
       />
       <ArticleLayout
-        title="TABU London: Inside Mayfair's Japanese-Inspired Underground Club"
-        subtitle="The venue that proves Mayfair can still surprise you"
+        title="TABU London (Now Rumour): Mayfair's Japanese-Inspired Club"
+        subtitle="TABU London is now Rumour: our review of the venue as TABU"
         heroImage={BLOG_IMAGES["tabu-london-japanese-underground-nightclub"]}
         heroAlt="TABU London Japanese-inspired underground nightclub interior"
       >
+
+        <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
+          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Now Rumour</p>
+          <p className="text-warm-gray text-sm">
+            TABU London is now Rumour, open Wednesday to Saturday. Tables and guestlist are booked under the new name. This review describes the venue as TABU; the music policy, minimums and door policy may have changed, so message us for Rumour&apos;s current terms.
+          </p>
+        </div>
         <p>
           If you have visited three or four Mayfair nightclubs, you might
           conclude that you have visited them all. Dark rooms, bottle service,
@@ -90,8 +97,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           The music at TABU is hip-hop and R&amp;B, which places it in the
           same genre bracket as{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>. The
+          <Link href="/clubs/tape-london">Tape London</Link>. The
           difference is curation. TABU&apos;s sets lean toward the deeper,
           more atmospheric end of the spectrum. The programming feels curated
           for the room rather than assembled from a commercial playlist. If
@@ -113,12 +119,13 @@ export default function TabuLondonJapaneseUndergroundPage() {
         </p>
 
         <div className="info-box">
-          <h4>TABU London — Key Details</h4>
+          <h4>Rumour (formerly TABU London): Key Details</h4>
           <ul>
+            <li><strong>Now called:</strong>{" "}Rumour</li>
             <li><strong>Location:</strong>{" "}Mayfair</li>
-            <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B</li>
+            <li><strong>Music (as TABU):</strong>{" "}Hip-Hop, R&amp;B</li>
             <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
-            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
+            <li><strong>Tables (as TABU):</strong>{" "}from &pound;1,000; ask us for Rumour&apos;s current minimums</li>
             <li><strong>Dress code:</strong>{" "}Smart, no sportswear or casual wear</li>
           </ul>
         </div>
@@ -141,15 +148,16 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           If TABU&apos;s moody, slow-building approach is not your speed,
           venues like{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}or{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>{" "}offer more
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club) or{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}offer more
           immediate energy. For international visitors building a London
           nightlife itinerary, our{" "}
           <Link href="/guides/london-nightlife-international-visitors">
             visitors&apos; guide
           </Link>{" "}
           pairs TABU with complementary venues for contrast.{" "}
-          <Link href="/contact">Contact our team</Link>{" "}for bookings.
+          <Link href="/contact">Contact our team</Link>{" "}for bookings at Rumour.
         </p>
 
         <h2>Related Reading</h2>
@@ -157,7 +165,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <ul>
           <li>
             <Link href="/clubs/tabu-london">
-              TABU London: Full Venue Profile
+              Rumour (formerly TABU London)
             </Link>
           </li>
           <li>

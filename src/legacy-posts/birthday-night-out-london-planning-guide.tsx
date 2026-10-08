@@ -122,9 +122,6 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/libertine">Libertine</Link>{" "}attracts a younger,
-          fashion-conscious crowd and suits birthday groups where energy and
-          style matter more than theatrical production.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the pick if you want to
           combine a seated birthday dinner with the club night in a single
           venue — their format transitions seamlessly from restaurant to dance
@@ -136,8 +133,8 @@ export default function BirthdayNightOutLondonGuidePage() {
           <h4>Matching Venue to Group Size</h4>
           <p>
             Groups of 8-12 work at almost any Mayfair club. Groups of 15-20
-            need venues with flexible table configurations — The London Reign,
-            Libertine, and BEAT London handle this well. For 20+, see our{" "}
+            need venues with flexible table configurations: The London Reign
+            and BEAT London handle this well. For 20+, see our{" "}
             <Link href="/blog/best-clubs-london-large-groups">
               guide to London clubs for large groups
             </Link>

@@ -170,8 +170,8 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
 
         <p>
           For a different flavour entirely, venues like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}offer pure nightclub
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}offer pure nightclub
           experiences without the cocktail-bar or restaurant preamble. And
           for the complete landscape of options, our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">

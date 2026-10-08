@@ -147,7 +147,6 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           </Link>
           , we often recommend Scotch as one night on a multi-night London
           itinerary, paired with a more contemporary venue like{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}or{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}for contrast.
         </p>
 

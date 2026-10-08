@@ -65,8 +65,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           <strong>Full venue hire</strong>{" "}gives you the entire club for your
           guests only. This is the premium option — no general admission, no
           strangers, complete control over music and lighting. Venues like{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}both offer full
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}offer full
           buyouts for private events, typically on quieter midweek nights or for
           Sunday through Tuesday bookings. Expect minimum spends starting from
           &pound;5,000 and climbing significantly for Friday or Saturday nights.
@@ -217,7 +216,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           Friday night could start at &pound;10,000 to &pound;15,000 depending
           on the venue&apos;s profile and your date. Saturday nights at top-tier
           venues like Maddox or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}command the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}command the
           highest premiums.
         </p>
 

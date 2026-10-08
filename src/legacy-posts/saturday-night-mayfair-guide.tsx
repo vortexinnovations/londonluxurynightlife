@@ -78,9 +78,8 @@ export default function SaturdayNightMayfairGuidePage() {
           You are looking at a long evening with expensive drinks, and a proper
           meal provides the foundation you need. The dining-to-nightlife
           pipeline is well established: venues like{" "}
-          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
-          <Link href="/clubs/lio-club-london">Lio Club</Link>{" "}combine dinner
-          and clubbing in a single venue, meaning your evening flows without a
+          <Link href="/clubs/maddox">Maddox</Link>{" "}combine dinner and
+          clubbing in a single venue, meaning your evening flows without a
           geographic transition. For restaurants that pair naturally with a
           club visit afterwards, see our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
@@ -166,7 +165,7 @@ export default function SaturdayNightMayfairGuidePage() {
         <p>
           One of Mayfair&apos;s great advantages is its density. Nearly every
           significant club is within a ten-minute walk of the others. Tape
-          London on Hanover Square, Maddox on Maddox Street, TABU on
+          London on Hanover Square, Maddox on Maddox Street, Itzel on
           Berkeley Street — you can cover the entire
           district on foot. This makes Mayfair uniquely suited to an evening
           where you start at one venue and move to another. No taxis, no surge

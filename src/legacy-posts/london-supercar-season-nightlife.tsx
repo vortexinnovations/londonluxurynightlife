@@ -114,14 +114,13 @@ export default function LondonSupercarSeasonNightlifePage() {
         <h2>From the Street to the Velvet Rope</h2>
 
         <p>
-          That same crowd does not park up at midnight. From experience, the
+          That same crowd does not park up at midnight. From our bookings, the
           supercar season is the period when Mayfair&apos;s most established rooms
           feel most international, and most uncompromising about spend. The
           visitors who ship a car across a continent are the same guests booking
-          the prime tables, and the venues know it. I have watched a quiet
-          Tuesday in early July fill with a clientele that simply was not in
-          London a month earlier, the accents and the watches both telling the
-          same story.
+          the prime tables, and the venues know it. Our bookings team sees
+          even a quiet Tuesday in early July fill with a clientele that simply
+          was not in London a month earlier.
         </p>
 
         <p className="pull-quote">

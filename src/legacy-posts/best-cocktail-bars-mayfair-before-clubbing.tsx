@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide",
   description:
-    "Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, Cuckoo Club, and more — with timing, dress code, and price guidance.",
+    "Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more — with timing, dress code, and price guidance.",
   keywords:
     "best cocktail bars Mayfair before clubbing, pre-drinks Mayfair, cocktail bars near Mayfair clubs, where to drink before clubbing London, pre-club bars Mayfair",
   openGraph: {
@@ -58,7 +58,7 @@ export default function BestCocktailBarsMayfairPage() {
     <>
       <ArticleSchema
         title="Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide"
-        description="Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, Cuckoo Club, and more — with timing and price guidance."
+        description="Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more — with timing and price guidance."
         slug="/blog/best-cocktail-bars-mayfair-before-clubbing"
       />
       <FAQSchema faqs={faqs} />
@@ -142,7 +142,7 @@ export default function BestCocktailBarsMayfairPage() {
           house-made ingredients, and combinations you will not find
           elsewhere. Cocktails from &pound;16. Located between Soho and
           Mayfair, it works well as a pre-club stop before heading to{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}or the Soho
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly Cuckoo Club) or the Soho
           venues. Best for groups who take cocktails seriously.
         </p>
 
@@ -165,7 +165,7 @@ export default function BestCocktailBarsMayfairPage() {
           and the overall excess of the design create an atmosphere that
           primes you perfectly for Mayfair&apos;s club scene. Cocktails are
           well-executed and range from &pound;18 to &pound;25. The Berkeley
-          Square location puts you within two minutes of Funky Buddha and
+          Square location puts you within two minutes of Itzel on Berkeley Street and
           five minutes of most other Mayfair venues. Best for groups who
           want the full Mayfair experience from the first drink.
         </p>
@@ -258,12 +258,12 @@ export default function BestCocktailBarsMayfairPage() {
               Claridge&apos;s Fumoir (both under 5 minutes walk)
             </li>
             <li>
-              <strong>Before Cuckoo Club:</strong>{" "}Nightjar Carnaby or Kwant
+              <strong>Before 99 Regent Street (formerly Cuckoo Club):</strong>{" "}Nightjar Carnaby or Kwant
               (both under 10 minutes walk)
             </li>
             <li>
-              <strong>Before Funky Buddha:</strong>{" "}Sexy Fish Bar (2 minutes
-              walk on Berkeley Square)
+              <strong>Before Itzel:</strong>{" "}Sexy Fish Bar (2 minutes
+              walk from Berkeley Square)
             </li>
             <li>
               <strong>Before Dear Darling:</strong>{" "}Kwant or Mr Fogg&apos;s

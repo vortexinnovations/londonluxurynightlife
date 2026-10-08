@@ -88,23 +88,18 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}is a strong choice
-          at this size. The two-floor layout gives your group the option to
-          move between house music downstairs and hip-hop upstairs without
-          leaving the venue, which keeps varied tastes satisfied under one roof.
-          The table areas are well-positioned for groups, and the staff are
-          experienced with multi-table bookings.
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club), open Wednesday to Saturday, is a strong choice at this
+          size. The two-floor layout gives your group room to spread out
+          without leaving the venue; ask us for the current music policy
+          under the new name.
         </p>
 
         <p>
-          <Link href="/clubs/libertine">Libertine</Link>{" "}handles groups of this
-          size with ease. The venue&apos;s layout allows adjacent tables to feel
-          connected, and the fashionable, high-energy crowd creates an
-          atmosphere that elevates the evening beyond a private gathering.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>{" "}offers a similar
-          experience with a distinctive Japanese-inspired aesthetic that gives
-          the group something visually memorable — particularly valuable for
-          birthday or celebration groups who want photos that stand out.
+          <Link href="/clubs/tabu-london">Rumour</Link>{" "}(formerly TABU
+          London) is another Mayfair option at this size, open Wednesday to
+          Saturday; we confirm its current table layout and minimums when you
+          enquire.
         </p>
 
         <div className="info-box">
@@ -307,8 +302,9 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>&apos;s two-floor
-          format, Ministry of Sound&apos;s multiple rooms, and The London
+          The two floors at{" "}
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club), Ministry of Sound&apos;s multiple rooms, and The London
           Reign&apos;s mix of entertainment and club energy all serve this
           purpose. The worst choice for a diverse group is a single-room venue
           playing one genre at high volume — if half the group does not like the

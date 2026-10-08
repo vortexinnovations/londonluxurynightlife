@@ -76,8 +76,7 @@ export default function BottleServiceLondonExplainedPage() {
           Every table at every premium London club comes with a minimum spend.
           This is the amount you must spend on drinks — primarily bottles — over
           the course of the evening. At venues like{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link>, and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/maddox">Maddox</Link>, standard table minimums
           range from <strong>&pound;1,000 to &pound;1,500</strong>{" "}on a Friday
           or Saturday. Premium tables — better locations, larger spaces — start

@@ -114,7 +114,7 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
           >
             Evening Standard
           </a>{" "}
-          chronicle the sporting week itself; what interests me is what it does
+          chronicle the sporting week itself; what interests us is what it does
           to the city everyone leaves behind.
         </p>
 
@@ -127,11 +127,10 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
           the opposite. The Downs are a proper journey from the capital, and
           the crowd that decamps for the festival largely stays down there, in
           rented estates, country houses and long private dinners under Sussex
-          skies. From experience, the midweek of Goodwood is the quietest the
-          top end of London gets all summer. I have watched a Mayfair room on
-          the Wednesday of the festival hold more staff than guests before
-          midnight, seventy-two hours before the same door was turning people
-          away.
+          skies. From our bookings, the midweek of Goodwood is the quietest the
+          top end of London gets all summer: Mayfair rooms can be close to
+          empty before midnight on the Wednesday of the festival, only days
+          before the same doors are turning people away.
         </p>
 
         <p className="pull-quote">
@@ -145,7 +144,7 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
         <p>
           Then the festival closes, and the tide turns. The final race is run
           on the Saturday, the estates empty, and the circuit reconvenes in the
-          capital for what is, in my opinion, the true closing night of the
+          capital for what is, in our view, the true closing night of the
           London season: the first weekend after Goodwood. The rooms we cover
           in our guide to{" "}
           <Link href="/celebrity-nightclubs-london">

@@ -124,7 +124,7 @@ export default function ReignLondonShowclubExperiencePage() {
           venue&apos;s entertainment-first philosophy. If you want cutting-edge
           DJ sets, venues like{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}are better choices.
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}are better choices.
           If you want a room where everyone is singing, dancing, and having
           the time of their lives, Reign delivers consistently.
         </p>
@@ -148,8 +148,7 @@ export default function ReignLondonShowclubExperiencePage() {
           it also buys you a production. Whether that additional layer justifies
           the spend depends on what you value. For a standard Friday night
           with friends who just want to dance, a venue like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}or{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}delivers excellent
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}delivers excellent
           value with the minimum spend focused entirely on drinks and
           atmosphere. For an occasion — a birthday, an anniversary, impressing
           visitors from abroad — Reign&apos;s entertainment layer makes the

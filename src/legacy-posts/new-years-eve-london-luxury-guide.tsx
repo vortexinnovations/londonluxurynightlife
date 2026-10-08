@@ -110,14 +110,6 @@ export default function NewYearsEveLondonGuidePage() {
           you want entertainment alongside your celebration, this is the pick.
         </p>
 
-        <p>
-          <Link href="/clubs/libertine">Libertine</Link>{" "}attracts a fashion-forward,
-          high-energy crowd on NYE and the venue&apos;s futuristic design lends
-          itself well to the occasion. The atmosphere tends to be younger and
-          more energetic than Tape, which suits groups looking for intensity over
-          exclusivity.
-        </p>
-
         <h3>Strong Alternatives</h3>
 
         <p>

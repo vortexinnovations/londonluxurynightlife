@@ -82,7 +82,7 @@ export default function MayfairVsShoreditchPage() {
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
           <Link href="/clubs/the-london-reign">The London Reign</Link>, and{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>, among others. This
+          <Link href="/clubs/tabu-london">Rumour</Link>{" "}(formerly TABU), among others. This
           density means you can move between venues in a single evening without
           ever needing a taxi.
         </p>

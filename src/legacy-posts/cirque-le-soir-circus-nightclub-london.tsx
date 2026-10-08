@@ -149,9 +149,8 @@ export default function CirqueLeSoirCircusNightclubPage() {
           It is less suitable for anyone who wants a conventional, music-led
           club experience without the theatrical elements. If you want
           outstanding hip-hop in a more traditional nightclub setting,{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>, or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}are stronger choices.
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}are stronger choices.
           It is also not ideal for very large groups who might struggle to
           secure adjacent tables — for group bookings, see our{" "}
           <Link href="/blog/best-clubs-london-large-groups">

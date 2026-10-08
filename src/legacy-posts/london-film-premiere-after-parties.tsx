@@ -90,9 +90,9 @@ export default function LondonFilmPremiereAfterPartiesPage() {
           Square red carpets to BFI London Film Festival galas every October.
           Each one ends the same way: a guest list of stars, studio executives,
           agents, and a tightly vetted layer of press migrating to a venue that
-          has been quietly booked weeks in advance. What I have found, over
-          years of covering this scene from the edges, is that premiere
-          after-parties operate on different rules to a typical Saturday in{" "}
+          has been quietly booked weeks in advance. In our experience as a
+          booking service, premiere after-parties operate on different rules
+          to a typical Saturday in{" "}
           <Link href="/celebrity-nightclubs-london">
             London&apos;s celebrity nightclub circuit
           </Link>
@@ -142,10 +142,9 @@ export default function LondonFilmPremiereAfterPartiesPage() {
           performer in this category. Its private rooms upstairs make it
           natural for the more intimate after-receptions, where the cast and
           the producers gather before joining the broader guest list
-          downstairs. When I went to a premiere after-party here earlier this
-          year, I noticed the bar staff had clearly been briefed in advance:
-          no eye contact with the talent, no acknowledgement of who was at
-          which table, no exceptions to the no-phone rule. That kind of
+          downstairs. On premiere nights the staff are typically briefed in
+          advance: no eye contact with the talent, no acknowledgement of who
+          is at which table, no exceptions to the no-phone rule. That kind of
           discipline is rare in central London and is exactly what studios are
           paying for.
         </p>
@@ -172,7 +171,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
           <Link href="/clubs/the-box-london">The Box Soho</Link>{" "}handles the
           more performative end of the premiere circuit. Studios that want
           spectacle, late-night theatre, and a sense of occasion tend to book
-          this venue. From experience, the crowd reacts differently when a
+          this venue. Guests we book tell us the crowd reacts differently when a
           major star walks through the room here, more openly and more
           vocally, which suits some films and undermines others.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}sits in the
@@ -231,11 +230,10 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         <p>
           What does exist is a secondary circuit. Many premiere after-parties
           wind down by 1am, at which point the venue resumes normal operation.
-          Anyone with a table booked for that evening at, for example,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on a night that
+          Anyone with a table booked that evening at a Mayfair club that
           turns out to be a premiere venue can find themselves sharing the
-          room with talent for the final hour. From experience this is not
-          something you can plan for, but it does happen often enough that
+          room with talent for the final hour. This is not something you can
+          plan for, but it does happen often enough that
           regular Mayfair clubgoers have stories about it.
         </p>
 

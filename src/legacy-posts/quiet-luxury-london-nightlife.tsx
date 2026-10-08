@@ -97,14 +97,9 @@ export default function QuietLuxuryLondonNightlifePage() {
 
         <p>
           But the newer venues opening in Mayfair and beyond are choosing a
-          different path. Maison Close operates at lower capacity than its
-          neighbours, favouring quality of experience over volume. Rex Rooms
-          brought a refined Chelsea sensibility to a scene long dominated by
-          Mayfair, with interiors that feel more like a private residence
-          than a commercial venue.{" "}
-          <Link href="/clubs/luna-club-london">Luna</Link>, tucked into a
-          Mayfair side street, is deliberately low-profile. Its regulars
-          prefer it that way.
+          different path. Rex Rooms brought a refined Chelsea sensibility to
+          a scene long dominated by Mayfair, with interiors that feel more
+          like a private residence than a commercial venue.
         </p>
 
         <p>
@@ -187,7 +182,7 @@ export default function QuietLuxuryLondonNightlifePage() {
         <div className="info-box">
           <h4>Quick Reference - London&apos;s Quiet Luxury Shift</h4>
           <ul>
-            <li><strong>Venues leading the trend:</strong>{" "}Dear Darling, Selene, Maison Close, Rex Rooms, Luna</li>
+            <li><strong>Venues leading the trend:</strong>{" "}Dear Darling, Selene, Rex Rooms</li>
             <li><strong>What defines it:</strong>{" "}Understated design, lower capacity, privacy-first</li>
             <li><strong>Who it serves:</strong>{" "}International visitors, corporate hosts, couples</li>
             <li><strong>Price range:</strong>{" "}Comparable to or higher than theatrical venues</li>

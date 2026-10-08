@@ -86,15 +86,6 @@ export default function AnniversaryNightOutLondonPlanningPage() {
           grown-up without being stiff.
         </p>
 
-        <p>
-          <Link href="/clubs/luna-club-london">Luna</Link>{" "}is the
-          under-the-radar choice. It doesn&apos;t carry the name recognition of
-          the legacy clubs, and that works in your favour. Tables are easier to
-          secure, the atmosphere is consistently refined, and the music leans
-          toward the kind of R&amp;B and soulful house that suits a romantic
-          evening.
-        </p>
-
         <p className="pull-quote">
           The best anniversary night out doesn&apos;t compete with a regular
           Saturday. It replaces it with something that feels considered from
@@ -141,9 +132,9 @@ export default function AnniversaryNightOutLondonPlanningPage() {
           anniversary. Most Mayfair clubs will accommodate requests for
           particular table positions - corners for privacy, slightly elevated
           spots for better views of the room.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}handles these
-          requests particularly well, with its split-level layout creating
-          natural pockets of intimacy even on busy nights.
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club) has a split-level layout that creates natural pockets
+          of intimacy even on busy nights.
         </p>
 
         <p>

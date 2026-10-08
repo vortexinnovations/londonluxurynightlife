@@ -86,10 +86,9 @@ export default function FriezeWeekLondonNightlifePage() {
           evenings change shape entirely, and the October art fair week is the
           one people outside the art world notice least. It arrives quietly,
           fills Mayfair with an international crowd almost overnight, and then
-          disappears again. Having spent several of these weeks watching the
-          city from the evening side rather than the fair side, I find it the
-          most interesting week in the calendar precisely because so little of
-          it happens in public.
+          disappears again. Seen from the evening side rather than the fair
+          side, it is in our view the most interesting week in the calendar,
+          precisely because so little of it happens in public.
         </p>
 
         <p>
@@ -140,7 +139,7 @@ export default function FriezeWeekLondonNightlifePage() {
           three in a single evening. From roughly eight the crowd thins as it
           splits into dinners, and this is the part of the week that actually
           matters, because the art world conducts most of its business at a
-          table rather than standing up. I have written separately about how
+          table rather than standing up. We have written separately about how
           those{" "}
           <Link href="/blog/private-views-london-art-world">
             private view evenings work
@@ -217,7 +216,7 @@ export default function FriezeWeekLondonNightlifePage() {
         <h2>Getting Into the Week Itself</h2>
 
         <p>
-          The honest position, and I would rather say it plainly, is that the
+          The honest position, and we would rather say it plainly, is that the
           dinners and the after-parties of art fair week are invitation-led.
           They run on gallery relationships and long-standing acquaintance
           rather than on anything that can be arranged from outside. Nobody

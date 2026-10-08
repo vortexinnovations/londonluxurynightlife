@@ -100,10 +100,10 @@ export default function BritishGrandPrixLondonNightlifePage() {
           British society set, but the Formula 1 paddock is relentlessly
           international: Monaco-based drivers, Gulf and American sponsors, and a
           travelling celebrity contingent that follows the championship around
-          the world. When I covered the weekend last year, I noticed how much
-          younger and more international the Mayfair rooms felt compared with the
-          racing crowd in June, with conversations in five languages at a single
-          table. As{" "}
+          the world. Our bookings team sees the Mayfair rooms turn noticeably
+          younger and more international over the race weekend than with the
+          racing crowd in June, with tables mixing guests from several
+          countries. As{" "}
           <a
             href="https://www.gq-magazine.co.uk"
             target="_blank"
@@ -118,7 +118,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
         <p>
           The timing matters too. The race itself is on Sunday, so the London
           nights cluster at the front and back of the weekend rather than across
-          it. From experience, the city is busiest on the Thursday and Friday,
+          it. From our bookings, the city is busiest on the Thursday and Friday,
           empties noticeably on the Saturday as everyone heads north to
           Silverstone for qualifying and the race, then surges back on Sunday
           evening for the post-race celebrations.
@@ -141,8 +141,8 @@ export default function BritishGrandPrixLondonNightlifePage() {
           <Link href="/clubs/tape-london">Tape London</Link>{" "}draws the
           music-and-fashion side of the F1 set, the part of the paddock that
           overlaps with the celebrity and influencer world rather than the
-          engineering one. On my last visit during a major race weekend, the room
-          did not properly fill until well after midnight, and the energy was
+          engineering one. Guests we book over a major race weekend tell us the
+          room fills later than usual, often well after midnight, with energy
           closer to a fashion-week night than a typical Friday. For a younger,
           more theatrical crowd,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}picks up the
@@ -196,8 +196,8 @@ export default function BritishGrandPrixLondonNightlifePage() {
           , the contrast is stark. Ascot is dress-led and traditional, Wimbledon
           is understated and sporting, and the Grand Prix is the flashiest of the
           three. It brings the most overt displays of wealth, the most
-          international money, and the youngest crowd of the summer season. In my
-          opinion it is also the least predictable, because the guest list
+          international money, and the youngest crowd of the summer season. In our
+          view it is also the least predictable, because the guest list
           changes with whichever drivers and celebrities happen to be in form
           that year.
         </p>

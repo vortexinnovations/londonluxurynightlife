@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Cuckoo Club Mayfair: Two Floors, One Perfect Night",
+    "Cuckoo Club Mayfair (Now 99 Regent Street): Two Floors, One Night",
   description:
-    "Why Cuckoo Club on Swallow Street is Mayfair's most reliable night out. Two floors, two genres, and a consistency that more famous venues struggle to match.",
+    "Cuckoo Club on Swallow Street is now 99 Regent Street, open Wednesday to Saturday. Our review of the venue as Cuckoo Club: two floors, two genres, and a famously consistent night.",
   keywords:
     "Cuckoo Club London, Cuckoo Club Mayfair, Cuckoo Club review, Swallow Street nightclub, Cuckoo Club nights",
   openGraph: {
-    title: "Cuckoo Club Mayfair: Two Floors, One Perfect Night",
+    title: "Cuckoo Club Mayfair (Now 99 Regent Street): Two Floors, One Night",
     description:
-      "Why Cuckoo Club is Mayfair's most reliable night out — two floors, two genres, zero compromise.",
+      "Cuckoo Club is now 99 Regent Street. Our review of the two-floor Swallow Street venue as Cuckoo Club.",
     url: "https://londonluxurynightlife.com/blog/cuckoo-club-mayfair-two-floors-one-night",
     type: "article",
   },
@@ -28,16 +28,23 @@ export default function CuckooClubMayfairPage() {
   return (
     <>
       <ArticleSchema
-        title="Cuckoo Club Mayfair: Two Floors, One Perfect Night"
-        description="Why Cuckoo Club is Mayfair's most reliable night out — two floors, two genres, zero compromise."
+        title="Cuckoo Club Mayfair (Now 99 Regent Street): Two Floors, One Night"
+        description="Cuckoo Club is now 99 Regent Street. Our review of the two-floor Swallow Street venue as Cuckoo Club."
         slug="/blog/cuckoo-club-mayfair-two-floors-one-night"
       />
       <ArticleLayout
-        title="Cuckoo Club Mayfair: Two Floors, One Perfect Night"
-        subtitle="The Swallow Street venue that solves the genre debate — and delivers the most consistent nights in Mayfair"
+        title="Cuckoo Club Mayfair (Now 99 Regent Street): Two Floors, One Night"
+        subtitle="Cuckoo Club is now 99 Regent Street: our review of the Swallow Street venue as Cuckoo Club"
         heroImage={BLOG_IMAGES["cuckoo-club-mayfair-two-floors-one-night"]}
         heroAlt="Cuckoo Club Mayfair dual-floor nightclub on Swallow Street"
       >
+
+        <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
+          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Now 99 Regent Street</p>
+          <p className="text-warm-gray text-sm">
+            Cuckoo Club is now 99 Regent Street, open Wednesday to Saturday. Tables and guestlist are booked under the new name. This review describes the venue as Cuckoo Club; the music policy, minimums and door policy may have changed, so message us for 99 Regent Street&apos;s current terms.
+          </p>
+        </div>
         <p>
           Every group has the same argument.{" "}
           Half want hip-hop. Half want house. Someone suggests a compromise
@@ -95,12 +102,13 @@ export default function CuckooClubMayfairPage() {
         <h2>The Practical Details</h2>
 
         <div className="info-box">
-          <h4>Cuckoo Club — Key Details</h4>
+          <h4>99 Regent Street (formerly Cuckoo Club): Key Details</h4>
           <ul>
+            <li><strong>Now called:</strong>{" "}99 Regent Street</li>
             <li><strong>Location:</strong>{" "}Swallow Street, Mayfair</li>
-            <li><strong>Music:</strong>{" "}House (upstairs), Hip-Hop &amp; R&amp;B (downstairs)</li>
+            <li><strong>Music (as Cuckoo Club):</strong>{" "}House (upstairs), Hip-Hop &amp; R&amp;B (downstairs)</li>
             <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
-            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
+            <li><strong>Tables (as Cuckoo Club):</strong>{" "}from &pound;1,000; ask us for current minimums</li>
             <li><strong>Dress code:</strong>{" "}Smart and stylish, no sportswear</li>
           </ul>
         </div>
@@ -115,7 +123,7 @@ export default function CuckooClubMayfairPage() {
           </Link>{" "}
           has specific advice. Table bookings are recommended on Friday and
           Saturday but not essential on midweek nights. For group bookings,
-          Cuckoo is one of our top recommendations — our{" "}
+          Cuckoo Club was one of our top recommendations; our{" "}
           <Link href="/blog/best-clubs-london-large-groups">
             group night out guide
           </Link>{" "}
@@ -138,7 +146,7 @@ export default function CuckooClubMayfairPage() {
 
         <p>
           If you want something with more edge, consider{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}for atmosphere or{" "}
+          <Link href="/clubs/tabu-london">Rumour</Link>{" "}(formerly TABU) or{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}for a newer
           refined experience.{" "}
           <Link href="/contact">Contact our team</Link>{" "}for bookings and
@@ -150,7 +158,7 @@ export default function CuckooClubMayfairPage() {
         <ul>
           <li>
             <Link href="/clubs/cuckoo-club">
-              Cuckoo Club: Full Venue Profile
+              99 Regent Street (formerly Cuckoo Club)
             </Link>
           </li>
           <li>

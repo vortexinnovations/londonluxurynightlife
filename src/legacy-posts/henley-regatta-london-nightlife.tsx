@@ -102,8 +102,8 @@ export default function HenleyRegattaLondonNightlifePage() {
           The enclosures wind down in the early evening, the town is small, and
           the smart crowd has somewhere better to be. A large share of regatta
           guests are London-based or London-staying, so the week works as a
-          daily round trip: river by day, capital by night. From experience,
-          the evening trains back towards Paddington during regatta week are
+          daily round trip: river by day, capital by night.
+          The evening trains back towards Paddington during regatta week are
           one of the great people-watching journeys of the English summer, a
           carriage of striped blazers, boat-club ties, and panama hats, all
           headed for dinner in town.
@@ -132,12 +132,12 @@ export default function HenleyRegattaLondonNightlifePage() {
         <p>
           The rhythm is earlier than a normal London week. Guests have been
           drinking champagne in the sun since midday, so the evenings start
-          sooner and peak sooner. When I covered regatta week, I noticed the
-          Mayfair rooms filling from half past ten with a crowd still half in
-          regatta dress, men with club blazers over their arms, and an energy
-          that was celebratory but noticeably softer than a Saturday peak. By
-          half past one the rooms were already exhaling, which by Mayfair
-          standards is early.
+          sooner and peak sooner. During regatta week the Mayfair rooms tend
+          to fill from half past ten with a crowd still half in regatta dress,
+          men with club blazers over their arms, and an energy that is
+          celebratory but noticeably softer than a Saturday peak. By half past
+          one the rooms are often already exhaling, which by Mayfair standards
+          is early.
         </p>
 
         <p className="pull-quote">
@@ -210,7 +210,7 @@ export default function HenleyRegattaLondonNightlifePage() {
           is understated and international, Henley is tribal and traditional.
           The uniform is stricter, the crowd more tightly knit, and the
           evenings more communal, less about being seen and more about being
-          among your own. In my opinion it is the most relaxed luxury week of
+          among your own. In our view it is the most relaxed luxury week of
           the summer precisely because so much of the status signalling is
           settled by lunchtime on the river.
         </p>

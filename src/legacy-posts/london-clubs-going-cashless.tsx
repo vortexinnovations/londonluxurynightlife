@@ -202,8 +202,7 @@ export default function LondonClubsGoingCashlessPage() {
           or a declined card. If your only payment method is Apple Pay and your
           phone dies at midnight, you are in trouble. The simple fix: carry a
           physical card as backup. Venues like{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}accept chip and
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}accept chip and
           PIN as well as contactless, so a physical card will always work.
         </p>
 

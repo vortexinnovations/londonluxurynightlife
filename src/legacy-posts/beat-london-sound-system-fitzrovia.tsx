@@ -107,7 +107,7 @@ export default function BeatLondonSoundSystemPage() {
           Saturday attract the strongest lineups, with DJs selected for
           technical ability and crowd-reading skills rather than Instagram
           followers. If you enjoy the hip-hop programming at{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}or the house
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or the house
           music at{" "}
           <Link href="/clubs/maddox">Maddox</Link>, BEAT offers elements of
           both in a room that prioritises the listening experience above all.
@@ -143,8 +143,8 @@ export default function BeatLondonSoundSystemPage() {
         <p>
           If you prefer the Mayfair experience — more formal service, higher
           production values, a more curated crowd — venues like{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>{" "}or{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}deliver that,
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
+          <Link href="/clubs/maddox">Maddox</Link>{" "}deliver that,
           and so does{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus.

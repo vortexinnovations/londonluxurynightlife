@@ -62,7 +62,7 @@ export default function AboutTheEditorPage() {
         </p>
         <p>
           She comes from a long-form luxury journalism background, and it shows in the work: every
-          guide is grounded in firsthand visits, every event piece in being in the room, and every
+          guide draws on what our bookings team sees across the venues, and every
           date-sensitive detail carries the month it was checked. When the season moves, from
           Ascot to Henley to the Grand Prix, her guides move with it.
         </p>

@@ -90,7 +90,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           capital&apos;s premium clubs absorb a wave of guests who have spent
           their afternoon in morning suits, fascinators, and champagne-fuelled
           Royal Enclosure energy. The result is a nightlife atmosphere unlike
-          any other week of the year, and I&apos;ve found that understanding
+          any other week of the year, and understanding
           how it works gives you a genuine advantage when planning a night in{" "}
           <Link href="/celebrity-nightclubs-london">
             London&apos;s most exclusive circles
@@ -115,10 +115,10 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          I&apos;ve been in Mayfair on Ladies&apos; Day evening, and the
-          shift is unmistakable. By 9pm, the restaurants around Berkeley
-          Square are operating at full stretch. By 10:30pm, clubs like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}are receiving
+          On Ladies&apos; Day evening the shift in Mayfair is unmistakable.
+          By 9pm, the restaurants around Berkeley Square are operating at
+          full stretch. By 10:30pm, clubs like{" "}
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}are receiving
           guests still carrying that post-racing energy, animated,
           well-dressed, and in the mood to extend the day into the early
           hours.
@@ -145,24 +145,21 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
-          Street has been a post-Ascot destination for years. The crowd
-          during racing week trends towards established regulars and their
-          guests, mixing UK-based racing enthusiasts with international
-          visitors who have built their London trip around the event. I
-          noticed last year that the energy peaks noticeably earlier during
-          Ascot week than on a normal Saturday - by 11pm the main floor is
-          packed, where on a standard weekend that would not happen until
-          closer to midnight.
+          The crowd during racing week trends towards established regulars
+          and their guests, mixing UK-based racing enthusiasts with
+          international visitors who have built their London trip around the
+          event. Our bookings team sees the energy peak noticeably earlier
+          during Ascot week than on a normal Saturday: by 11pm the main
+          floors are packed, where on a standard weekend that would not
+          happen until closer to midnight.
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
-          Street draws a similar post-racing crowd but with a slightly
-          younger edge. The two-floor layout works particularly well during
-          Ascot week because the upstairs bar offers space for extended
-          conversation while the basement club floor absorbs those who want
-          to dance. It is a natural venue for groups who are not entirely
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club) on Swallow Street, open Wednesday to Saturday, suits
+          the same post-racing crowd. The two-floor layout works particularly
+          well during Ascot week because one floor offers space for extended
+          conversation while the other absorbs those who want to dance. It is a natural venue for groups who are not entirely
           aligned on what kind of night they want.
         </p>
 
@@ -170,9 +167,8 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           <Link href="/clubs/maddox">Maddox Club</Link>{" "}attracts the
           corporate entertainment contingent - groups who have hosted clients
           at Ascot during the day and want to continue the evening at a
-          matching standard. On my last visit during racing week, I was
-          struck by how many tables had been arranged for groups of eight
-          to twelve, a clear sign that corporate organisers had planned the
+          matching standard. During racing week our bookings team sees a
+          marked rise in tables for groups of eight to twelve, a clear sign that corporate organisers had planned the
           full day-to-night arc well in advance.
         </p>
 
@@ -196,7 +192,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          What I find interesting about Thursday nights during Ascot week
+          What stands out about Thursday nights during Ascot week
           is how the normal London pattern inverts. Typically, Thursday is
           a quieter warm-up to the weekend. During Ascot, it becomes the
           main event. The crowds are larger, the energy is higher, and the
@@ -224,7 +220,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
 
         <p>
           The practical differences during Ascot week are worth noting.
-          Tables at venues like Funky Buddha and Maddox Club are in higher
+          Tables at venues like Maddox Club and 99 Regent Street are in higher
           demand, particularly for Thursday. Planning ahead by at least a
           week is advisable. Walk-in availability, which exists on normal
           weeknights, tightens considerably.
@@ -236,7 +232,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           spirits, having spent hours in one of the most social sporting
           environments in the country. If you prefer your luxury nightlife
           on the quieter side, consider{" "}
-          <Link href="/clubs/luna-club-london">Luna</Link>{" "}or Selene, where
+          <Link href="/clubs/selene-london">Selene</Link>{" "}or Dear Darling, where
           the capacity constraints naturally moderate the energy.
         </p>
 
@@ -255,11 +251,11 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
               <strong>Peak night:</strong>{" "}Thursday (Ladies&apos; Day)
             </li>
             <li>
-              <strong>Top venues:</strong>{" "}Funky Buddha, Cuckoo Club, Maddox
-              Club
+              <strong>Top venues:</strong>{" "}Maddox Club, 99 Regent Street
+              (formerly Cuckoo Club)
             </li>
             <li>
-              <strong>Quieter alternatives:</strong>{" "}Selene, Dear Darling, Luna
+              <strong>Quieter alternatives:</strong>{" "}Selene, Dear Darling
             </li>
             <li>
               <strong>Planning:</strong>{" "}Reserve tables at least one week ahead
@@ -286,11 +282,6 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           <li>
             <Link href="/blog/wimbledon-season-nightlife-london">
               Wimbledon Season Nightlife: Where London Goes After the Tennis
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog/funky-buddha-london-review">
-              Funky Buddha London: Why This Mayfair Icon Still Delivers
             </Link>
           </li>
           <li>

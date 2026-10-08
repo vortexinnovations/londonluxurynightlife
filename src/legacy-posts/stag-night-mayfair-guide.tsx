@@ -87,10 +87,11 @@ export default function StagNightMayfairGuidePage() {
         <p>
           For a more classic luxury experience,{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}
-          both handle groups well. Maddox has the advantage of a ground-floor bar
-          that works for earlier drinks before moving downstairs. Cuckoo&apos;s
-          two-floor layout means the group can spread out without losing each other.
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club, open Wednesday to Saturday) both handle groups well.
+          Maddox has the advantage of a ground-floor bar that works for earlier
+          drinks before moving downstairs. 99 Regent Street&apos;s two-floor
+          layout means the group can spread out without losing each other.
         </p>
 
         <p>
@@ -110,7 +111,7 @@ export default function StagNightMayfairGuidePage() {
           <h4>Quick Reference &mdash; Best Clubs by Stag Type</h4>
           <ul>
             <li>
-              <strong>Big group (10+):</strong>{" "}Cirque Le Soir, Cuckoo Club
+              <strong>Big group (10+):</strong>{" "}Cirque Le Soir, 99 Regent Street (formerly Cuckoo Club)
             </li>
             <li>
               <strong>Intimate group (6-8):</strong>{" "}Scotch of St James, Tape London
@@ -119,7 +120,7 @@ export default function StagNightMayfairGuidePage() {
               <strong>Mixed group with partners:</strong>{" "}Maddox, Dear Darling
             </li>
             <li>
-              <strong>First-timers in Mayfair:</strong>{" "}Cuckoo Club, Maddox
+              <strong>First-timers in Mayfair:</strong>{" "}99 Regent Street, Maddox
             </li>
             <li>
               <strong>Music-focused:</strong>{" "}Scotch of St James, BEAT London (in Fitzrovia, a short walk from Mayfair)

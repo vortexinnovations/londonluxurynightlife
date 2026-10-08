@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Funky Buddha London: Why This Mayfair Icon Still Delivers",
+    "Funky Buddha London Review: The Mayfair Icon, Now Closed",
   description:
-    "An insider review of Funky Buddha in Mayfair — its history, the celebrity connection, what the experience is like now, and why this London nightclub has outlasted nearly every rival.",
+    "Funky Buddha in Mayfair has closed, and Itzel now operates at 15 Berkeley Street. A look back at the club, its history and celebrity connection, and where to go instead.",
   keywords:
     "Funky Buddha London, Funky Buddha Mayfair, Funky Buddha review, Funky Buddha nightclub",
   openGraph: {
-    title: "Funky Buddha London: Why This Mayfair Icon Still Delivers",
+    title: "Funky Buddha London Review: The Mayfair Icon, Now Closed",
     description:
-      "An insider review of Funky Buddha — its history, celebrity legacy, and why this Mayfair nightclub remains one of London's best nights out.",
+      "Funky Buddha in Mayfair has closed, and Itzel now operates at 15 Berkeley Street. A look back at the club and where to go instead.",
     url: "https://londonluxurynightlife.com/blog/funky-buddha-london-review",
     type: "article",
   },
@@ -28,16 +28,23 @@ export default function FunkyBuddhaLondonReviewPage() {
   return (
     <>
       <ArticleSchema
-        title="Funky Buddha London: Why This Mayfair Icon Still Delivers"
-        description="An insider review of Funky Buddha in Mayfair — its history, celebrity legacy, and why this nightclub has outlasted nearly every rival."
+        title="Funky Buddha London Review: The Mayfair Icon, Now Closed"
+        description="Funky Buddha in Mayfair has closed, and Itzel now operates at 15 Berkeley Street. A look back at the club and where to go instead."
         slug="/blog/funky-buddha-london-review"
       />
       <ArticleLayout
-        title="Funky Buddha London: Why This Mayfair Icon Still Delivers"
-        subtitle="The club that helped define Mayfair's nightlife reputation — and why it's still worth your time"
+        title="Funky Buddha London Review: The Mayfair Icon, Now Closed"
+        subtitle="The club that helped define Mayfair's nightlife reputation, now closed, and where to go instead"
         heroImage={BLOG_IMAGES["funky-buddha-london-review"]}
         heroAlt="Funky Buddha Mayfair interior with its signature eclectic decor"
       >
+
+        <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
+          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Closed</p>
+          <p className="text-warm-gray text-sm">
+            Funky Buddha has closed. Itzel now operates at 15 Berkeley Street, open Thursday to Saturday. This review describes Funky Buddha as it was; message us to book Itzel or one of the open Mayfair clubs.
+          </p>
+        </div>
         <p>
           London nightlife moves fast. Venues open with enormous fanfare,
           dominate Instagram for eighteen months, and then quietly disappear —
@@ -187,30 +194,24 @@ export default function FunkyBuddhaLondonReviewPage() {
           in the area.
         </p>
 
-        <h2>How It Compares to Newer Venues</h2>
+        <h2>Where to Go Now</h2>
 
         <p>
-          The most common question we receive about Funky Buddha is whether the
-          newer openings have surpassed it. Venues like{" "}
-          <Link href="/clubs/tabu-london">TABU</Link>,{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>, and{" "}
-          <Link href="/clubs/selene-london">Selene</Link>{" "}bring fresh design,
-          modern sound systems, and the excitement of novelty. They are
-          excellent venues in their own right, and our{" "}
+          Funky Buddha has closed, and Itzel now operates at 15 Berkeley
+          Street, open Thursday to Saturday. For the hip-hop and R&amp;B night
+          Funky Buddha was known for,{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}(Tuesday,
+          Friday, Saturday and Sunday) and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>{" "}(Thursday to
+          Sunday, just north of Oxford Circus) are the closest open
+          alternatives, and our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">
             complete Mayfair club ranking
           </Link>{" "}
-          covers each one in detail. But newer does not automatically mean
-          better. What Funky Buddha offers that newer venues are still trying to
-          build is institutional memory — a staff that knows how to run the
-          room, a returning crowd that sets the tone, and a confidence that
-          comes from years of getting it right.
+          covers the rest.
         </p>
 
         <p>
-          The smart approach, if you are spending multiple nights in London, is
-          to experience both. Try a newer venue on Friday and Funky Buddha on
-          Saturday, or vice versa. The contrast is instructive and enjoyable.
           For a broader view of how to plan a full weekend, our{" "}
           <Link href="/blog/saturday-night-mayfair-guide">
             Saturday night Mayfair guide
@@ -221,12 +222,8 @@ export default function FunkyBuddhaLondonReviewPage() {
         <h2>Booking and Guestlist</h2>
 
         <p>
-          Funky Buddha operates a guestlist and table reservation system.
-          Guestlist entry is available on most nights but is not guaranteed
-          admission — it reduces or waives the cover charge but does not
-          override the door policy. Table bookings come with minimum spends
-          that are competitive with other Mayfair venues. For the best
-          experience,{" "}
+          Funky Buddha can no longer be booked because it has closed. For
+          Itzel at 15 Berkeley Street, or any of the open Mayfair clubs,{" "}
           <Link href="/contact">contact us</Link>{" "}and we will secure the
           right table for your group size and occasion. For visitors from
           outside the UK, our{" "}
@@ -237,8 +234,8 @@ export default function FunkyBuddhaLondonReviewPage() {
         </p>
 
         <p>
-          Dress code is smart and firmly enforced. No trainers, no sportswear,
-          no casual denim. For specifics, consult our{" "}
+          Mayfair dress codes are smart and firmly enforced. No trainers, no
+          sportswear, no casual denim. For specifics, consult our{" "}
           <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>
@@ -250,7 +247,7 @@ export default function FunkyBuddhaLondonReviewPage() {
         <ul>
           <li>
             <Link href="/clubs/funky-buddha">
-              Funky Buddha: Full Venue Profile
+              Funky Buddha Has Closed: Mayfair Alternatives
             </Link>
           </li>
           <li>

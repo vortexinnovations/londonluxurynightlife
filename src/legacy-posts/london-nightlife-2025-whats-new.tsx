@@ -38,6 +38,13 @@ export default function LondonNightlife2025Page() {
         heroImage={BLOG_IMAGES["london-nightlife-2025-whats-new"]}
         heroAlt="Modern London nightclub interior showcasing 2025 design trends"
       >
+
+        <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
+          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Update, October 2026</p>
+          <p className="text-warm-gray text-sm">
+            This round-up describes the scene in 2025. Since then TABU has become Rumour and Cuckoo Club has become 99 Regent Street (both open Wednesday to Saturday), Luxx Club and Lio Club have closed, and Itzel has opened at 15 Berkeley Street (Thursday to Saturday).
+          </p>
+        </div>
         <p>
           London&apos;s nightlife in 2025 is in a genuinely strong position.
           The post-pandemic years brought closures and uncertainty, but what
@@ -64,7 +71,7 @@ export default function LondonNightlife2025Page() {
 
         <h2>New Openings and Refreshed Venues</h2>
 
-        <h3>TABU London</h3>
+        <h3>TABU London (now Rumour)</h3>
 
         <p>
           <Link href="/clubs/tabu-london">TABU</Link>{" "}has quickly established
@@ -75,10 +82,11 @@ export default function LondonNightlife2025Page() {
           the crowd reflects a younger, fashion-conscious international
           clientele. TABU fills a gap that existed between the established
           institutions and the underground — it is unquestionably luxury, but
-          it does not feel like a venue trading on legacy alone.
+          it does not feel like a venue trading on legacy alone. TABU now
+          trades as Rumour, open Wednesday to Saturday.
         </p>
 
-        <h3>Luxx Club London</h3>
+        <h3>Luxx Club London (since closed)</h3>
 
         <p>
           <Link href="/clubs/luxx-club-london">Luxx Club</Link>{" "}represents the
@@ -88,10 +96,11 @@ export default function LondonNightlife2025Page() {
           experience as the music. This is a deliberate response to a crowd
           that expects more than a dark room with a DJ — the Instagram
           generation wants spectacle, and Luxx delivers it without sacrificing
-          the fundamentals of sound quality and atmosphere.
+          the fundamentals of sound quality and atmosphere. Luxx Club has
+          since closed.
         </p>
 
-        <h3>Lio Club London</h3>
+        <h3>Lio Club London (since closed)</h3>
 
         <p>
           <Link href="/clubs/lio-club-london">Lio Club</Link>{" "}brought the
@@ -102,6 +111,7 @@ export default function LondonNightlife2025Page() {
           London&apos;s appetite for complete evening experiences. Lio is not
           just a new venue; it is a new format for London, and its success is
           already influencing how other operators think about their programming.
+          Lio Club has since closed.
         </p>
 
         <h2>The Dining-Meets-Nightlife Trend</h2>
@@ -113,9 +123,9 @@ export default function LondonNightlife2025Page() {
           dining and nightlife coexist under one roof.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}has refined this format
           over years, offering a restaurant experience that flows naturally
-          into a club night without the disruption of changing venues. Lio Club
-          has taken it further with theatrical entertainment woven through the
-          dining service.
+          into a club night without the disruption of changing venues. Lio Club,
+          since closed, took it further with theatrical entertainment woven
+          through the dining service.
         </p>
 
         <p>
@@ -134,7 +144,6 @@ export default function LondonNightlife2025Page() {
           <h4>Best Venues for the Complete Evening Experience</h4>
           <ul>
             <li>Maddox — refined restaurant-to-club transition, live music</li>
-            <li>Lio Club — theatrical dinner entertainment into late-night clubbing</li>
             <li>Dear Darling — cocktail bar that evolves into an intimate late-night venue</li>
             <li>The London Reign — multi-floor experience with dining, cabaret, and club</li>
           </ul>
@@ -150,8 +159,9 @@ export default function LondonNightlife2025Page() {
           in venues that previously played it rarely.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}incorporates house and
           disco elements into its programming, and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>&apos;s upstairs
-          space has leaned further into house and electronic music. This
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}(now 99 Regent
+          Street) leaned its upstairs space further into house and electronic
+          music. This
           reflects a broader cultural shift — house music&apos;s resurgence in
           mainstream culture has reached the point where even traditionally
           hip-hop venues are programming house-leaning sets on selected nights.
@@ -173,9 +183,6 @@ export default function LondonNightlife2025Page() {
           Nightclub-goers in 2025 expect more than a DJ and a dance floor. The
           venues gaining the most traction are those offering something beyond
           the standard format.{" "}
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link>&apos;s
-          LED light shows create an environment that changes through the
-          evening.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}continues
           to evolve its circus-theatrical concept, adding new performers and
           acts that keep even regular visitors surprised. The London Reign

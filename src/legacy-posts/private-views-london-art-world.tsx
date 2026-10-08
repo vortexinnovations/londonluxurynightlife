@@ -87,8 +87,8 @@ export default function PrivateViewsLondonArtWorldPage() {
           a club&apos;s. The private view is the art world&apos;s version of
           nightlife, it runs on its own codes, and it feeds the capital&apos;s{" "}
           <Link href="/exclusive-clubs-london">exclusive evening circuit</Link>{" "}
-          far more directly than outsiders realise. I have spent years on
-          this circuit, and this is how it actually works, as of July 2026.
+          far more directly than outsiders realise. This is how it actually
+          works, as of July 2026.
         </p>
 
         <h2>What a Private View Actually Is</h2>
@@ -111,7 +111,7 @@ export default function PrivateViewsLondonArtWorldPage() {
         <h2>The Gallery Evening, Hour by Hour</h2>
 
         <p>
-          From experience, the rhythm barely varies. The first hour belongs
+          The rhythm barely varies. The first hour belongs
           to the serious: collectors taking a quiet early lap, the gallery
           team working the room in soft focus. The second hour is the social
           peak, when the room fills, the noise doubles and the pavement
@@ -120,8 +120,8 @@ export default function PrivateViewsLondonArtWorldPage() {
           gallery&apos;s inner circle peels away to the dinner, a table
           somewhere nearby booked weeks ago for the artist, the buyers and
           the chosen, while everyone else graduates to the pub on the corner
-          or the next opening down the street. I noticed years ago that you
-          can read anyone&apos;s standing with a gallery by one detail alone:
+          or the next opening down the street. You can read anyone&apos;s
+          standing with a gallery by one detail alone:
           whether they know where the dinner is.
         </p>
 

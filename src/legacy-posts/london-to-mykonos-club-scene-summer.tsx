@@ -76,11 +76,10 @@ export default function LondonToMykonosClubSceneSummerPage() {
           Every June, something predictable happens to London&apos;s luxury
           nightlife circuit. The crowd thins. Tables that are usually booked
           weeks out open up. The WhatsApp groups that coordinate Saturday nights
-          in Mayfair start filling with Mykonos flight links instead. I noticed
-          it first three summers ago when I walked into{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on what should
-          have been a packed Saturday and found the room half-empty. The regulars
-          had already left for the Aegean. London&apos;s top club brands had
+          in Mayfair start filling with Mykonos flight links instead. Our
+          bookings team sees it every year: Mayfair rooms that should be packed
+          on a Saturday run noticeably quieter, because the regulars have
+          already left for the Aegean. London&apos;s top club brands had
           followed them, opening seasonal outposts on the island that now rival
           the original venues in reputation.
         </p>
@@ -130,13 +129,13 @@ export default function LondonToMykonosClubSceneSummerPage() {
         </p>
 
         <p>
-          Tabu Mykonos brings the same Japanese-inspired design language as{" "}
-          <Link href="/clubs/tabu-london">Tabu London</Link>, adapted for the
-          island context. When I visited last July, the outdoor terrace was the
-          main draw, with low seating areas that felt more like a private villa
-          party than a commercial club. The cocktail programme mirrors what
-          you&apos;d find on Conduit Street, but the pacing of the night is
-          entirely different. In London, Tabu peaks around 1am. In Mykonos, the
+          Tabu Mykonos carries the Japanese-inspired design language of the
+          original TABU London in Mayfair (now{" "}
+          <Link href="/clubs/tabu-london">Rumour</Link>), adapted for the
+          island context. The outdoor terrace is the main draw, with low
+          seating areas that feel more like a private villa party than a
+          commercial club. The pacing of the night is entirely different: in
+          London, the Mayfair rooms peak around 1am. In Mykonos, the
           energy builds from dinner and the peak sits closer to midnight, with
           the crowd often moving on to after-parties by 2am.
         </p>
@@ -153,9 +152,9 @@ export default function LondonToMykonosClubSceneSummerPage() {
 
         <p>
           The overlap between the London and Mykonos clientele runs at roughly
-          70 percent, from what I have seen across several summers. The core
+          70 percent, from what our bookings team sees across several summers. The core
           regulars from{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly Cuckoo Club),{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}show up in Mykonos
           between late June and mid-August. They bring the same table-booking
@@ -182,8 +181,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
         <h2>What Changes When Mayfair Meets the Aegean</h2>
 
         <p>
-          On my last visit to Tape Mykonos, I was struck by how much the setting
-          alters the social dynamic. In London, the booth layout creates defined
+          At Tape Mykonos, the setting noticeably alters the social dynamic. In London, the booth layout creates defined
           territories. Each table is its own micro-world. In Mykonos, the
           open-air format dissolves those boundaries. Guests drift between
           tables, conversations happen between groups that would never interact
@@ -234,9 +232,9 @@ export default function LondonToMykonosClubSceneSummerPage() {
         </p>
 
         <p>
-          We went during the first week of August last year and found the island
-          at maximum intensity. Every restaurant required a booking, every club
-          was at capacity by 11pm, and the energy was relentless. If you thrive
+          The first week of August is the island at maximum intensity. Every
+          restaurant requires a booking, every club is at capacity by 11pm,
+          and the energy is relentless. If you thrive
           on that, August is your month. If you prefer the London approach of
           arriving to a room that still has space to breathe, aim for July or
           early September.
@@ -260,7 +258,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
           succeed are the ones that can maintain quality, atmosphere, and
           exclusivity across multiple locations. Not every London club has the
           infrastructure or the clientele to make this work. The ones that do,
-          Tape and Tabu among them, are building something closer to a global
+          Tape among them, are building something closer to a global
           nightlife network than a traditional single-venue operation. Read more
           about how this{" "}
           <Link href="/blog/quiet-luxury-london-nightlife">quiet luxury approach</Link>{" "}
@@ -271,7 +269,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
 
         <ul>
           <li><Link href="/clubs/tape-london">Tape London: Full Club Profile</Link></li>
-          <li><Link href="/clubs/tabu-london">Tabu London: Full Club Profile</Link></li>
+          <li><Link href="/clubs/tabu-london">Rumour (formerly TABU London)</Link></li>
           <li><Link href="/blog/quiet-luxury-london-nightlife">Quiet Luxury in London Nightlife</Link></li>
         </ul>
       </ArticleLayout>

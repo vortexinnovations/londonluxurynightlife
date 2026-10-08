@@ -99,7 +99,7 @@ export default function FightNightLondonNightlifePage() {
           The defining feature of a boxing night is the clock. Big cards build
           through an undercard and rarely crown their main event before
           midnight, which means the night out starts when most London nights
-          are peaking. From experience, fight-night energy hits the West End in
+          are peaking. From our bookings, fight-night energy hits the West End in
           a single late wave: the rooms sit unusually quiet through the
           evening, then fill in a rush in the small hours, and the atmosphere
           carries the result of the fight with it. A dramatic finish makes the
@@ -135,10 +135,10 @@ export default function FightNightLondonNightlifePage() {
           gatherings are private affairs, arranged long before the first bell.
           What is open is everything around them: the established Mayfair rooms
           absorb the ringside overflow, and the atmosphere on a big fight
-          Saturday is unmistakable even if you never saw the card. I noticed on
-          the last marquee fight weekend that the room's rhythm ran a full
-          hour later than an ordinary Saturday, with tables still being seated
-          at a time when the night would normally be winding down.
+          Saturday is unmistakable even if you never saw the card. On marquee
+          fight weekends our bookings team sees the night run later than an
+          ordinary Saturday, with tables still being seated at a time when the
+          night would normally be winding down.
         </p>
 
         <p>

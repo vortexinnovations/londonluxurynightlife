@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Best Thursday Night Clubs in London: The Insider's Guide",
   description:
-    "Discover the best Thursday night clubs in London. From TABU to Cuckoo Club and Scotch of St James — where to go, what to expect, and why Thursday is the insider's night out.",
+    "Discover the best Thursday night clubs in London. From Rumour (formerly TABU) to 99 Regent Street and Scotch of St James: where to go, what to expect, and why Thursday is the insider's night out.",
   keywords:
     "best Thursday night clubs London, Thursday night out London, London clubs Thursday, Thursday clubbing London, Thursday nightlife Mayfair",
   openGraph: {
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "Which London clubs are open on Thursday nights?",
     answer:
-      "Several of London's best luxury clubs open on Thursday, including TABU London, Cuckoo Club, Scotch of St James, Funky Buddha, Dear Darling, Luna Club London, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
+      "Several of London's best luxury clubs open on Thursday, including Rumour (formerly TABU London), 99 Regent Street (formerly Cuckoo Club), Itzel, Scotch of St James, Dear Darling, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
   },
   {
     question: "Is Thursday a good night to go clubbing in London?",
@@ -111,27 +111,24 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h2>The Best Thursday Night Clubs</h2>
 
-        <h3>TABU London</h3>
+        <h3>Rumour (formerly TABU London)</h3>
         <p>
-          <Link href="/clubs/tabu-london">TABU London</Link>&apos;s
-          Japanese-inspired underground setting is perfectly suited to
-          Thursday&apos;s more intimate energy. The venue&apos;s dark,
-          atmospheric design rewards smaller crowds — when the room is at
-          Thursday capacity rather than Saturday capacity, the lighting and
-          sound design feel more immersive. Hip-hop and RnB dominate the
-          playlist. This is an excellent choice for groups who want something
-          visually distinctive without the weekend intensity.
+          <Link href="/clubs/tabu-london">Rumour</Link>, the Mayfair club that
+          traded as TABU London, opens Wednesday to Saturday, so Thursday is
+          one of its nights. As TABU, its dark, atmospheric room suited
+          Thursday&apos;s more intimate energy. The music policy and table
+          minimums may have changed with the new name, so we confirm
+          Rumour&apos;s current terms when you enquire.
         </p>
 
-        <h3>Cuckoo Club</h3>
+        <h3>99 Regent Street (formerly Cuckoo Club)</h3>
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
-          Street runs a well-established Thursday night. The two-floor format
-          — house music downstairs, hip-hop upstairs — gives you options
-          within a single venue, which is particularly useful on a night when
-          you might not want to commit to one genre. The Mayfair crowd here
-          skews younger on Thursday than on Saturday, with a strong showing
-          from London&apos;s fashion and media set.
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>, the Swallow
+          Street venue that traded as Cuckoo Club, opens Wednesday to
+          Saturday. As Cuckoo Club it ran two floors with different music on
+          each, which gave groups options within a single venue on a night
+          when they might not want to commit to one genre. Ask us for the
+          current music policy under the new name.
         </p>
 
         <h3>Scotch of St James</h3>
@@ -146,16 +143,12 @@ export default function BestThursdayNightClubsLondonPage() {
           nightclub, Scotch on a Thursday delivers.
         </p>
 
-        <h3>Funky Buddha</h3>
+        <h3>Itzel</h3>
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
-          Street has been a Mayfair fixture for over a decade, and its
-          Thursday night carries a distinct personality. The hip-hop and RnB
-          programming is tight, the crowd is predominantly regulars and
-          industry, and the room&apos;s relatively compact size means the
-          atmosphere builds quickly even with a smaller turnout. For a
-          reliable Thursday with proven energy, Funky Buddha rarely
-          disappoints.
+          Itzel now operates at 15 Berkeley Street, the address that was
+          home to Funky Buddha, and opens Thursday to Saturday, so Thursday
+          is the first night of its week. Message us for current table
+          minimums and door policy.
         </p>
 
         <h3>Dear Darling</h3>
@@ -168,16 +161,6 @@ export default function BestThursdayNightClubsLondonPage() {
           atmosphere after midnight. The mixed and lounge music policy keeps
           things sophisticated. This is the Thursday pick for those who want
           elegance without the full nightclub commitment.
-        </p>
-
-        <h3>Luna Club London</h3>
-        <p>
-          <Link href="/clubs/luna-club-london">Luna Club London</Link>{" "}brings
-          a contemporary edge to Thursday nightlife. As one of Mayfair&apos;s
-          newer venues, it is still building its Thursday identity, which
-          means the crowd tends to be early adopters and the curious — exactly
-          the kind of people who make a Thursday night interesting. The
-          hip-hop, RnB, and open format programming keeps the energy flexible.
         </p>
 
         <h3>Selene London</h3>
@@ -198,22 +181,19 @@ export default function BestThursdayNightClubsLondonPage() {
           <h4>Thursday Night Quick Guide</h4>
           <ul>
             <li>
-              <strong>Visually unique setting:</strong>{" "}TABU London
+              <strong>Renamed Mayfair club:</strong>{" "}Rumour (formerly TABU)
             </li>
             <li>
-              <strong>Two genres, one venue:</strong>{" "}Cuckoo Club
+              <strong>Two floors on Swallow Street:</strong>{" "}99 Regent Street (formerly Cuckoo Club)
             </li>
             <li>
               <strong>Historic, eclectic energy:</strong>{" "}Scotch of St James
             </li>
             <li>
-              <strong>Reliable hip-hop and RnB:</strong>{" "}Funky Buddha
+              <strong>New on Berkeley Street:</strong>{" "}Itzel
             </li>
             <li>
               <strong>Cocktails to late-night:</strong>{" "}Dear Darling
-            </li>
-            <li>
-              <strong>Contemporary newcomer:</strong>{" "}Luna Club London
             </li>
             <li>
               <strong>Refined elegance:</strong>{" "}Selene London
@@ -276,12 +256,12 @@ export default function BestThursdayNightClubsLondonPage() {
           </li>
           <li>
             <Link href="/clubs/tabu-london">
-              TABU London: Japanese-Inspired Nightlife
+              Rumour (formerly TABU London)
             </Link>
           </li>
           <li>
             <Link href="/clubs/cuckoo-club">
-              Cuckoo Club: Two Floors, One Night
+              99 Regent Street (formerly Cuckoo Club)
             </Link>
           </li>
           <li>

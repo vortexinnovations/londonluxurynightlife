@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "What are the best clubs in London on a Friday night?",
     answer:
-      "The best Friday night clubs in London include Tape London for celebrity-grade exclusivity, Cirque Le Soir for theatrical spectacle, Reign London for showclub entertainment, Maddox Club for house music, BEAT London for pure sound system energy, and Cuckoo Club and Funky Buddha for reliable Mayfair nightlife. The best choice depends on your music preference and what kind of evening you want.",
+      "The best Friday night clubs in London include Tape London for celebrity-grade exclusivity, Cirque Le Soir for theatrical spectacle, Reign London for showclub entertainment, Maddox Club for house music, BEAT London for pure sound system energy, and 99 Regent Street (formerly Cuckoo Club) for reliable Mayfair nightlife. The best choice depends on your music preference and what kind of evening you want.",
   },
   {
     question: "What time should I arrive at a London club on Friday?",
@@ -114,11 +114,7 @@ export default function BestFridayNightClubsLondonPage() {
           most heavily on Friday, when the week&apos;s releases and studio
           sessions spill over into the evening&apos;s energy. Tables from
           &pound;1,500, and on Friday they are in high demand — booking early
-          is essential.{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
-          Street offers a similarly hip-hop-focused evening with a slightly
-          more accessible entry point, and its compact room ensures the
-          energy is concentrated rather than dispersed.
+          is essential.
         </p>
 
         <h3>For Theatrical Spectacle</h3>
@@ -166,13 +162,14 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For a Cocktail-to-Club Transition</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}both excel as
-          venues where Friday evening can begin with cocktails and evolve
-          into a full club night without changing location. Dear Darling&apos;s
-          opulent setting serves world-class cocktails before the late-night
-          energy takes over, while Cuckoo Club&apos;s dual-floor format lets
-          you move between house and hip-hop as the mood takes you.
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}excels as a
+          venue where Friday evening can begin with cocktails and evolve into
+          a full club night without changing location. Its opulent setting
+          serves world-class cocktails before the late-night energy takes
+          over.{" "}
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club, open Wednesday to Saturday) has two floors on Swallow
+          Street; ask us for its current music policy.
         </p>
 
         <h2>Friday Night Timing Strategy</h2>
@@ -240,9 +237,9 @@ export default function BestFridayNightClubsLondonPage() {
         <p>
           Nearly every premium venue in London operates on Friday. The full
           list of clubs open on Friday night includes Tape London, Cirque Le
-          Soir, Reign London, TABU London, Funky Buddha, Cuckoo Club, Scotch
-          of St James, Dear Darling, Maddox Club, The Box, Luna Club London,
-          Selene London, and BEAT London. For the Saturday continuation, see
+          Soir, Reign London, Rumour (formerly TABU London), 99 Regent Street
+          (formerly Cuckoo Club), Itzel, Scotch of St James, Dear Darling,
+          Maddox Club, The Box, Selene London, and BEAT London. For the Saturday continuation, see
           our{" "}
           <Link href="/blog/saturday-night-mayfair-guide">
             Saturday night Mayfair guide
