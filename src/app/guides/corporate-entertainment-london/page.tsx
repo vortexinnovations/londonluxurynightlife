@@ -140,8 +140,8 @@ export default function CorporateEntertainmentPage() {
           a big night. In these cases, you can go further:{" "}
           <Link href="/clubs/tape-london">Tape London</Link> for exclusivity
           and potential celebrity sightings,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> for Mayfair
-          sophistication with real energy, or{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus, for sophistication with real energy, or{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> for
           a storied Mayfair night with broad musical appeal.
         </p>

@@ -52,10 +52,9 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           This is the headline number and where most of your budget goes. At
-          Mayfair&apos;s premium venues —{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/maddox">Maddox</Link>,{" "}
-          <Link href="/clubs/libertine">Libertine</Link> — table minimum
+          Mayfair&apos;s premium venues, such as{" "}
+          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>, table minimum
           spends typically start at <strong>&pound;1,000 to &pound;1,500</strong>{" "}
           on a standard Friday or Saturday night. Smaller tables or quieter
           nights (Wednesdays, Thursdays) can occasionally start lower, around

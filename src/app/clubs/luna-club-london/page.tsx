@@ -95,7 +95,8 @@ export default function LunaClubLondonPage() {
           </li>
           <li>
             <Link href="/clubs/selene-london">Selene London</Link>: the other
-            newer Mayfair opening, more refined and a little older in crowd.
+            newer opening, just north of Oxford Circus in Fitzrovia, more
+            refined and a little older in crowd.
           </li>
           <li>
             <Link href="/clubs/reign-london">Reign London</Link>: production,

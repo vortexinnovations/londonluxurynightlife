@@ -63,11 +63,12 @@ export default function LondonVsParisNightlifePage() {
           London&apos;s premium nightlife clusters in Mayfair with
           extraordinary density.{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          are all within walking distance. Add the Soho venues —{" "}
+          are all within walking distance, with{" "}
+          <Link href="/clubs/selene-london">Selene</Link> just north of
+          Oxford Circus. Add the Soho venues —{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
           <Link href="/clubs/the-box-london">The Box</Link> — and you
           have a walkable ecosystem of world-class venues. Our{" "}

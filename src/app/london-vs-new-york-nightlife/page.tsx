@@ -63,12 +63,12 @@ export default function LondonVsNewYorkNightlifePage() {
           London&apos;s premium nightlife is remarkably concentrated.
           Mayfair alone contains{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          — all within a fifteen-minute walk of each other. Add Soho
-          venues like{" "}
+          — all within a fifteen-minute walk of each other. Add{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus, and Soho venues like{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
           <Link href="/clubs/the-box-london">The Box</Link>, and you have
           a density of premium nightlife unmatched anywhere in the world.

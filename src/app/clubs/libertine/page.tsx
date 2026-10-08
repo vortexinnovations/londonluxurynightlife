@@ -11,7 +11,7 @@ const club = closedClubs.find((c) => c.slug === "libertine")!;
 export const metadata: Metadata = {
   title: "Libertine London Has Closed: Selene Now Operates in Its Place",
   description:
-    "Libertine in Mayfair has closed, and Selene London now operates in its place. What Libertine was, and the open Mayfair clubs to book instead.",
+    "Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead.",
 };
 
 export default function LibertinePage() {
@@ -19,7 +19,7 @@ export default function LibertinePage() {
     <>
       <ArticleSchema
         title="Libertine London Has Closed: Selene Now Operates in Its Place"
-        description="Libertine in Mayfair has closed, and Selene London now operates in its place. What Libertine was, and the open Mayfair clubs to book instead."
+        description="Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead."
         slug="/clubs/libertine"
       />
       <ArticleLayout
@@ -50,13 +50,13 @@ export default function LibertinePage() {
         </div>
 
         <p>
-          Libertine was one of the more design-led clubs in Mayfair, and it has now closed. Selene London now operates in its place. People still search for Libertine by name, so this page explains what it was and where to book now.
+          Libertine, at 4 Winsley Street in Fitzrovia just north of Oxford Circus, was one of the more design-led clubs in the West End, and it has now closed. Selene London now operates in its place. People still search for Libertine by name, so this page explains what it was and where to book now.
         </p>
 
         <h2>What Libertine Was</h2>
 
         <p>
-          When it was open, Libertine went for a futuristic look: LED-lit surfaces, geometric lines and mirrored materials, with hip-hop, RnB and commercial music for a fashion-conscious Mayfair crowd.
+          When it was open, Libertine went for a futuristic look: LED-lit surfaces, geometric lines and mirrored materials, with hip-hop, RnB and commercial music for a fashion-conscious West End crowd.
         </p>
 
         <h2>Where to Go Instead</h2>
@@ -67,7 +67,7 @@ export default function LibertinePage() {
 
         <ul>
           <li>
-            <Link href="/clubs/selene-london">Selene London</Link>: now operating in Libertine&apos;s place: a refined Mayfair room with hip-hop, RnB and commercial sets.
+            <Link href="/clubs/selene-london">Selene London</Link>: now operating in Libertine&apos;s place at 4 Winsley Street: a refined room just north of Oxford Circus with hip-hop, RnB and commercial sets.
           </li>
           <li>
             <Link href="/clubs/tape-london">Tape London</Link>: hip-hop and RnB on Hanover Square, with one of the hardest doors in London.

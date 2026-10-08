@@ -80,7 +80,8 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           <Link href="/clubs/selene-london">Selene</Link> draws a different
           slice of the Wimbledon crowd: the fashion-conscious, the player
           entourages, the people who want something more intimate than a 500-capacity
-          showclub. Its Mayfair location and later opening hours make it a natural
+          showclub. Its location just north of Oxford Circus, a short walk from
+          Mayfair, and its later opening hours make it a natural
           second stop after dinner, and the crowd during tennis season skews
           noticeably more international than the rest of the year.
         </p>

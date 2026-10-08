@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed",
   description:
-    "An insider review of Luna Club London and Selene London — Mayfair's two newest luxury nightclubs. How they compare, what they offer, and whether the new arrivals can compete with the established names.",
+    "An insider review of Luna Club London in Mayfair and Selene London, just north of Oxford Circus: how two of the West End's newest clubs compare, and whether they can compete.",
   keywords:
     "Luna Club London, Selene London, new Mayfair clubs, new clubs London 2025, Luna Club review, Selene London review",
   openGraph: {
     title: "Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed",
     description:
-      "An insider review of Mayfair's two newest nightclubs — how they compare and whether they can compete.",
+      "An insider review of Luna Club London in Mayfair and Selene London, just north of Oxford Circus: how they compare and whether they can compete.",
     url: "https://londonluxurynightlife.com/blog/luna-selene-new-mayfair-clubs-2025",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function LunaSeleneNewMayfairClubsPage() {
     <>
       <ArticleSchema
         title="Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed"
-        description="An insider review of Mayfair's two newest nightclubs — how they compare and whether they compete with the established names."
+        description="An insider review of Luna Club London in Mayfair and Selene London, just north of Oxford Circus: how they compare and whether they compete with the established names."
         slug="/blog/luna-selene-new-mayfair-clubs-2025"
       />
       <ArticleLayout
         title="Luna Club and Selene London: Mayfair's Newest Luxury Clubs Reviewed"
-        subtitle="How Mayfair's freshest arrivals compare — and whether the new generation can compete with the established names"
+        subtitle="How two of the West End's freshest arrivals compare, and whether the new generation can compete with the established names"
         heroImage={BLOG_IMAGES["luna-selene-new-mayfair-clubs-2025"]}
         heroAlt="Luna Club and Selene London new luxury nightclub interiors"
       >
@@ -49,7 +49,10 @@ export default function LunaSeleneNewMayfairClubsPage() {
           <Link href="/clubs/luna-club-london">Luna Club London</Link> and{" "}
           <Link href="/clubs/selene-london">Selene London</Link> are the
           most notable additions — and both are worth understanding if you
-          are planning a night in Mayfair.
+          are planning a night in Mayfair. One note on geography: Selene is
+          not in Mayfair itself. It is at 4 Winsley Street in Fitzrovia, in
+          Libertine&apos;s former space just north of Oxford Circus, a short
+          walk from the Mayfair clubs.
         </p>
 
         <h2>Luna Club London: The Contemporary Energy</h2>
@@ -90,7 +93,7 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <p>
           Where Luna brings energy and contemporary design, Selene brings
           refinement. This is a venue that prioritises sophistication above
-          all — the interiors are among the most considered in Mayfair, with
+          all — the interiors are among the most considered in the West End, with
           a design sensibility that whispers rather than shouts. Selene feels
           like a venue built for people who have been to every club in
           Mayfair and want something that operates at a quieter, more
@@ -112,7 +115,7 @@ export default function LunaSeleneNewMayfairClubsPage() {
 
         <p className="pull-quote">
           Luna brings the energy that Mayfair needs. Selene brings the
-          restraint that Mayfair respects. Both represent the future of the
+          restraint that Mayfair regulars respect. Both represent the future of the
           scene — and both are worth a visit.
         </p>
 
@@ -127,7 +130,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
             <li><strong>Music:</strong> Both hip-hop/R&amp;B focused. Luna louder, Selene more curated</li>
             <li><strong>Best for:</strong> Luna = groups wanting energy / Selene = couples and smaller groups wanting sophistication</li>
             <li><strong>Tables from:</strong> Both from &pound;1,000</li>
-            <li><strong>Open:</strong> Both Thursday to Saturday</li>
+            <li><strong>Location:</strong> Luna = Mayfair / Selene = 4 Winsley Street, Fitzrovia, just north of Oxford Circus</li>
+            <li><strong>Open:</strong> Luna = Thursday to Saturday / Selene = Thursday to Sunday</li>
           </ul>
         </div>
 
@@ -153,8 +157,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
           new. Try <Link href="/clubs/tape-london">Tape</Link> or{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha</Link> on one night
           and Luna or Selene on another. The contrast is instructive and
-          enjoyable. For a full ranking of every Mayfair venue, including
-          where Luna and Selene sit in the hierarchy, see our{" "}
+          enjoyable. For a full ranking of the Mayfair venues, and where
+          Luna and Selene sit alongside them, see our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">
             complete Mayfair club ranking
           </Link>

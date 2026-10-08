@@ -185,14 +185,14 @@ export default function VIPNightlifeLondonPage() {
           quality of the drinks programme means your table spend goes
           further in terms of pure enjoyment.{" "}
           <Link href="/clubs/selene-london">Selene</Link> offers a similar
-          blend of sophistication and energy for the new Mayfair generation.
+          blend of sophistication and energy just north of Oxford Circus.
         </p>
 
         <h3>Best for a First VIP Experience</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link> is a refined, newer
-          Mayfair room with minimum spends that are accessible without being
+          room just north of Oxford Circus with minimum spends that are accessible without being
           cheap and a door that is selective without being intimidating.{" "}
           <Link href="/clubs/maddox">Maddox</Link> pairs VIP nightlife with
           Italian dining for a complete evening under one roof.

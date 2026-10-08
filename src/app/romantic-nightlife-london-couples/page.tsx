@@ -227,8 +227,9 @@ export default function RomanticNightlifeLondonCouplesPage() {
         <h3>4. Selene — Refined Sophistication</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> represents the
-          newest generation of Mayfair nightlife, and its design reflects a
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus, represents the newest generation of West End
+          nightlife, and its design reflects a
           modern understanding of what luxury means. The room is refined
           without being sterile, sophisticated without being pretentious.
           For couples, Selene offers the advantage of a venue still

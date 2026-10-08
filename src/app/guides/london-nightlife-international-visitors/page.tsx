@@ -89,9 +89,10 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           The Dorchester and The Connaught on Park Lane and Mount Street
           respectively put you within a ten-minute walk of{" "}
-          <Link href="/clubs/tape-london">Tape London</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
-          <Link href="/clubs/maddox">Maddox</Link>. Claridge&apos;s on Brook
+          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>, and within easy reach of{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, just north of Oxford
+          Circus. Claridge&apos;s on Brook
           Street is equally central. For something more contemporary, The
           Beaumont on Balderton Street is a short walk from Hanover Square and
           the heart of the Mayfair club district. Brown&apos;s Hotel on
@@ -148,10 +149,11 @@ export default function LondonNightlifeInternationalVisitors() {
           This is genuinely one of Mayfair&apos;s greatest nightlife advantages.
           <Link href="/clubs/tape-london"> Tape London</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>, and{" "}
           <Link href="/clubs/maddox">Maddox</Link> are all within a five to
-          ten minute walk of each other. You can comfortably visit two or even
+          ten minute walk of each other, and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus in Fitzrovia, is a short walk further. You can comfortably visit two or even
           three venues in one night without ever needing a taxi. This is a
           significant advantage over cities where clubs are scattered across
           different districts.

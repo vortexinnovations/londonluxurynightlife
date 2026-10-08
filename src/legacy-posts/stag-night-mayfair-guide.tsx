@@ -122,7 +122,7 @@ export default function StagNightMayfairGuidePage() {
               <strong>First-timers in Mayfair:</strong> Cuckoo Club, Maddox
             </li>
             <li>
-              <strong>Music-focused:</strong> Scotch of St James, BEAT London
+              <strong>Music-focused:</strong> Scotch of St James, BEAT London (in Fitzrovia, a short walk from Mayfair)
             </li>
           </ul>
         </div>

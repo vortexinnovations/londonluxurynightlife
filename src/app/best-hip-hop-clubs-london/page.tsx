@@ -144,8 +144,9 @@ export default function BestHipHopClubsLondonPage() {
         <h3>3. Selene London — Refined New Energy</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> represents the new
-          generation of Mayfair venues that understand hip-hop as a
+          <Link href="/clubs/selene-london">Selene</Link>, in Fitzrovia just
+          north of Oxford Circus, represents the new generation of West End
+          venues that understand hip-hop as a
           sophisticated music form rather than a genre to be tamed for upscale
           audiences. The venue pairs refined interiors with programming that
           respects the music&apos;s energy, creating an atmosphere that feels

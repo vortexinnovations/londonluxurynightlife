@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "Which London clubs are open on Thursday nights?",
     answer:
-      "Several of London's best luxury clubs open on Thursday, including Tape London, TABU London, Cuckoo Club, Scotch of St James, Funky Buddha, Dear Darling, Luna Club London, and Selene London. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
+      "Several of London's best luxury clubs open on Thursday, including Tape London, TABU London, Cuckoo Club, Scotch of St James, Funky Buddha, Dear Darling, Luna Club London, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
   },
   {
     question: "Is Thursday a good night to go clubbing in London?",
@@ -194,8 +194,10 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Selene London</h3>
         <p>
-          <Link href="/clubs/selene-london">Selene London</Link> offers
-          sophisticated elegance with a discerning crowd. On Thursday, the
+          <Link href="/clubs/selene-london">Selene London</Link>, at 4
+          Winsley Street in Fitzrovia just north of Oxford Circus, a short
+          walk from Mayfair, offers sophisticated elegance with a discerning
+          crowd. On Thursday, the
           refined interiors and premium service feel less rushed, more
           considered. The hip-hop and RnB soundtrack works well at Thursday
           volume levels, and the overall experience is one of measured

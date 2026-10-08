@@ -123,7 +123,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           For smaller, more refined gatherings,{" "}
           <Link href="/clubs/selene-london">Selene</Link> offers an intimate
           setting that suits dinners transitioning into late-night drinks. The
-          newer Mayfair venues tend to be more flexible with bespoke packages
+          newer West End venues tend to be more flexible with bespoke packages
           because they&apos;re actively building their events portfolio.
         </p>
 

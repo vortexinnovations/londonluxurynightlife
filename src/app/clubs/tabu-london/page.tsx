@@ -65,7 +65,7 @@ export default function TabuLondonPage() {
           As TABU, the venue was a below-street-level Mayfair club with Japanese-inspired interiors, dark timber and paper-screen dividers, and a hip-hop and RnB music policy. Those were TABU&apos;s details under the old name.
         </p>
 
-        <h2>Other Mayfair Clubs to Book</h2>
+        <h2>Other Mayfair and West End Clubs to Book</h2>
 
         <p>
           If you want something with a similar crowd, these open venues are also booked through us.
@@ -79,7 +79,7 @@ export default function TabuLondonPage() {
             <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>: hip-hop and RnB with performers working the room all night.
           </li>
           <li>
-            <Link href="/clubs/selene-london">Selene London</Link>: a refined Mayfair room with hip-hop, RnB and commercial sets.
+            <Link href="/clubs/selene-london">Selene London</Link>: a refined room just north of Oxford Circus with hip-hop, RnB and commercial sets.
           </li>
           <li>
             <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>: a small, storied club in Mason&apos;s Yard.

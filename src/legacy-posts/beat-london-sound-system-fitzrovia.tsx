@@ -143,9 +143,11 @@ export default function BeatLondonSoundSystemPage() {
         <p>
           If you prefer the Mayfair experience — more formal service, higher
           production values, a more curated crowd — venues like{" "}
-          <Link href="/clubs/selene-london">Selene</Link>,{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link>, or{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> deliver that.
+          <Link href="/clubs/luna-club-london">Luna Club</Link> or{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> deliver that,
+          and so does{" "}
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus.
           BEAT is the alternative for when the Mayfair formula feels like
           exactly that — a formula.{" "}
           <Link href="/contact">Contact our team</Link> for bookings.

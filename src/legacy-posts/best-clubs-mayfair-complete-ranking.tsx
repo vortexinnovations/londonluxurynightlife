@@ -158,9 +158,12 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">8. Selene London — The Refined Newcomer</h2>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> has arrived with
+          <Link href="/clubs/selene-london">Selene</Link> sits just outside
+          Mayfair: it is at 4 Winsley Street in Fitzrovia, just north of
+          Oxford Circus and a short walk from the Mayfair clubs. It has
+          arrived with
           a clear proposition: sophistication first, volume second. The
-          interiors are among the most considered in Mayfair, the crowd
+          interiors are among the most considered in the West End, the crowd
           is well-dressed and discerning, and the overall experience feels
           a step above the standard new-opening formula. Hip-hop and
           commercial music delivered in a room that whispers rather than

@@ -76,7 +76,7 @@ export default function LuxxClubLondonPage() {
             <Link href="/clubs/the-box-london">The Box</Link>: late-night theatre in Walker&apos;s Court, Soho.
           </li>
           <li>
-            <Link href="/clubs/selene-london">Selene London</Link>: a refined Mayfair room with hip-hop, RnB and commercial sets.
+            <Link href="/clubs/selene-london">Selene London</Link>: a refined room just north of Oxford Circus with hip-hop, RnB and commercial sets.
           </li>
         </ul>
 

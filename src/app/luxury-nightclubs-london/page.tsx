@@ -215,9 +215,9 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>Selene London — The New Generation</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> brings refined
-          sophistication and represents the next generation of Mayfair
-          luxury. Luna Club, which opened in the same wave, has since
+          <Link href="/clubs/selene-london">Selene</Link>, just north of
+          Oxford Circus in Fitzrovia, brings refined sophistication and
+          represents the next generation of West End luxury. Luna Club, which opened in the same wave, has since
           closed. Our{" "}
           <Link href="/blog/luna-selene-new-mayfair-clubs-2025">
             Selene review

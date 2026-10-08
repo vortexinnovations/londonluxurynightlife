@@ -108,7 +108,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>The &pound;1,000 Tier — Entry to Premium</h3>
 
         <p>
-          A &pound;1,000 minimum spend at Mayfair&apos;s top venues secures
+          A &pound;1,000 minimum spend at the top Mayfair and West End venues secures
           a table, entry, and a respectable position. At{" "}
           <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}

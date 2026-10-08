@@ -99,10 +99,12 @@ export default function LondonNightlifeGuidePage() {
           (the most historic),{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link> (the most
           elegant),{" "}
+          and{" "}
           <Link href="/clubs/maddox">Maddox</Link> (the best for dinner
-          and dancing), and{" "}
-          <Link href="/clubs/selene-london">Selene</Link> (the most
-          refined newcomer). Our{" "}
+          and dancing). Just north of Oxford Circus, in Fitzrovia and a short
+          walk from Mayfair,{" "}
+          <Link href="/clubs/selene-london">Selene</Link> is the most
+          refined newcomer. Our{" "}
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>{" "}

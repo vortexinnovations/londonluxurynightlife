@@ -73,7 +73,7 @@ export default function FunkyBuddhaPage() {
             <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>: hip-hop and RnB with performers working the room all night.
           </li>
           <li>
-            <Link href="/clubs/selene-london">Selene London</Link>: a refined Mayfair room with hip-hop, RnB and commercial sets.
+            <Link href="/clubs/selene-london">Selene London</Link>: a refined room just north of Oxford Circus with hip-hop, RnB and commercial sets.
           </li>
           <li>
             <Link href="/clubs/reign-london">Reign London</Link>: production, aerial acts and a mixed playlist on Piccadilly for bigger groups.

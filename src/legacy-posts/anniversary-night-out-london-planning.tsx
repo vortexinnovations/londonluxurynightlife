@@ -79,8 +79,9 @@ export default function AnniversaryNightOutLondonPlanningPage() {
           If your partner values design and something contemporary,{" "}
           <Link href="/clubs/selene-london">Selene</Link> deserves
           consideration. It opened recently enough that the interiors still
-          feel fresh, and its Mayfair location keeps it in the centre of the
-          city&apos;s best dining options. The crowd here trends slightly older
+          feel fresh, and its location just north of Oxford Circus, a short
+          walk from Mayfair, keeps it close to the city&apos;s best dining
+          options. The crowd here trends slightly older
           and more international, which creates an atmosphere that feels
           grown-up without being stiff.
         </p>

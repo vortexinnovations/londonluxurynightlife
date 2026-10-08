@@ -121,8 +121,7 @@ export default function SaturdayNightMayfairGuidePage() {
           DJs are playing their strongest material. This is why you came. This
           is the moment that justifies the planning, the booking, and the
           minimum spend. At venues like{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
-          <Link href="/clubs/libertine">Libertine</Link>, the 1am hour on a
+          <Link href="/clubs/tape-london">Tape London</Link>, the 1am hour on a
           Saturday is genuinely electric.
         </p>
 
@@ -167,8 +166,8 @@ export default function SaturdayNightMayfairGuidePage() {
         <p>
           One of Mayfair&apos;s great advantages is its density. Nearly every
           significant club is within a ten-minute walk of the others. Tape
-          London on Hanover Square, Maddox on Maddox Street, Libertine on
-          Winsley Street, TABU on Berkeley Street — you can cover the entire
+          London on Hanover Square, Maddox on Maddox Street, TABU on
+          Berkeley Street — you can cover the entire
           district on foot. This makes Mayfair uniquely suited to an evening
           where you start at one venue and move to another. No taxis, no surge
           pricing, no waiting. Just a short walk through some of London&apos;s

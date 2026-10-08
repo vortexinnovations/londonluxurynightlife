@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What is the best area in London for luxury nightlife?",
     answer:
-      "Mayfair is the undisputed epicentre of London's luxury nightlife. Within a few streets you'll find Tape London, Maddox, Dear Darling, Scotch of St James, Selene and several more high-end venues. Most are walking distance from one another, making it easy to move between clubs in a single evening.",
+      "Mayfair is the undisputed epicentre of London's luxury nightlife. Within a few streets you'll find Tape London, Maddox, Dear Darling, Scotch of St James and several more high-end venues, with Selene just north of Oxford Circus in Fitzrovia, a short walk away. Most are walking distance from one another, making it easy to move between clubs in a single evening.",
   },
   {
     question: "How much does a VIP table cost at a London nightclub?",
@@ -127,7 +127,6 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Within Mayfair you will find{" "}
           <Link href="/clubs/tape-london">Tape London</Link> on Hanover Square,
           the music-industry favourite;{" "}
-          <Link href="/clubs/selene-london">Selene</Link>, refined and newer;{" "}
           <Link href="/clubs/maddox">Maddox</Link>, which pairs Italian dining
           with late-night house music;{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, draped in
@@ -136,7 +135,10 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>, one
           of the most historically significant nightclubs in the world. The fact
           that all of these exist within a few streets of each other is what
-          makes Mayfair unique.
+          makes Mayfair unique. Just north of Oxford Circus, in Fitzrovia and a
+          short walk from Mayfair,{" "}
+          <Link href="/clubs/selene-london">Selene</Link> is the refined newer
+          option.
         </p>
 
         <h3>Soho &amp; the West End</h3>
@@ -302,7 +304,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           follows them, Tape plays the best in hip-hop, RnB, and commercial
           music in one of Mayfair&apos;s most exclusive settings.{" "}
           <Link href="/clubs/selene-london">Selene</Link> also runs hip-hop
-          and RnB in a more refined Mayfair room. TABU is now{" "}
+          and RnB in a more refined room just north of Oxford Circus. TABU is now{" "}
           <Link href="/clubs/tabu-london">Rumour</Link>, booked under its new
           name.
         </p>
