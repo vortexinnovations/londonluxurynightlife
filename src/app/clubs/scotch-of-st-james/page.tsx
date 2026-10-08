@@ -8,18 +8,19 @@ import { CLUB_IMAGES } from "@/lib/images";
 const club = clubs.find((c) => c.slug === "scotch-of-st-james")!;
 
 export const metadata: Metadata = {
-  title:
-    "Scotch of St James Review | What It's Really Like Inside",
+  title: {
+    absolute: "The Scotch of St James Review: Honest Guide, Dress Code",
+  },
   description:
-    "An honest Scotch of St James review from London nightlife insiders. Discover what the Scotch of St James experience is really like, from the 1960s heritage to the modern crowd. What is Scotch of St James like? We break it all down.",
+    "Honest review of The Scotch of St James, the 1960s Mason's Yard club where Hendrix played. Crowd, music, dress code, tables from £1,000 as of October 2026.",
 };
 
 export default function ScotchOfStJamesReview() {
   return (
     <>
       <ArticleSchema
-        title="Scotch of St James Review | What It's Really Like Inside"
-        description="An insider review of Scotch of St James, London's legendary Mayfair nightclub dating back to the 1960s. Everything you need to know before booking."
+        title="The Scotch of St James Review: Honest Guide, Dress Code"
+        description="An insider review of Scotch of St James, London's legendary St James's nightclub on the edge of Mayfair, dating back to the 1960s. Everything you need to know before booking."
         slug="/clubs/scotch-of-st-james"
       />
       <ArticleLayout
@@ -37,6 +38,16 @@ export default function ScotchOfStJamesReview() {
           <p><strong>Dress Code:</strong> {club.dressCode}</p>
           <p><strong>Tables From:</strong> {club.tablesFrom}</p>
         </div>
+
+        <p>
+          <strong>In short:</strong> The Scotch of St James is a small club at
+          13 Mason&apos;s Yard, St James&apos;s, a short walk from Green Park,
+          open since the 1960s and the room where Jimi Hendrix played in 1966.
+          It suits people who want history, character and an eclectic music
+          policy more than a big-room spectacle. This honest review covers the
+          room, the crowd, the music, the dress code and what a table costs
+          (from &pound;1,000 as of October 2026).
+        </p>
 
         <p>
           There is a small courtyard tucked behind a gallery in Mason&apos;s Yard where, if you know where to look, a staircase descends into one of the most significant nightlife venues London has ever produced. Scotch of St James does not announce itself. There is no velvet rope spectacle, no queue snaking around the block for photographers to capture. The entrance is discreet because the club has never needed to shout. When your history includes Jimi Hendrix performing on your stage and The Beatles drinking at your bar, you have nothing left to prove.

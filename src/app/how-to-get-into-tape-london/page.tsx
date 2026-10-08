@@ -7,16 +7,17 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "How to Get Into Tape London: Entry Guide 2026",
+  title: {
+    absolute: "How to Get Into Tape London: Guestlist, Tables, Dress Code",
+  },
   description:
-    "The complete guide to Mayfair's most selective door. Guestlist routes, table booking strategy, dress code decoded, and what the door team actually wants.",
+    "Tape London, 17 Hanover Square: open Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am as of October 2026. Guestlist, tables, door policy and dress code.",
   keywords:
     "how to get into Tape London, Tape London guestlist, Tape London door policy, Tape London entry, Tape London table booking, Tape London dress code",
   openGraph: {
-    title: "How to Get Into Tape London | The Complete Entry Guide",
+    title: "How to Get Into Tape London: Guestlist, Tables, Dress Code",
     description:
-      "Everything you need to know about getting into Tape London — guestlist, door policy, and table bookings.",
+      "Getting into Tape London at 17 Hanover Square: opening nights, guestlist through the members' app, table bookings, door policy, ID and dress code.",
     url: "https://londonluxurynightlife.com/how-to-get-into-tape-london",
     type: "article",
   },
@@ -36,15 +37,23 @@ const faqs = [
   },
   {
     question: "What should I wear to Tape London?",
-    answer: "Smart and stylish is the standard. For men: tailored trousers, a quality collared shirt, smart shoes — no trainers, no sportswear, no casual denim. For women: cocktail-appropriate attire, heels recommended. The door team values effort and style over specific brands.",
+    answer: "Stylish and elegant is the standard. The club's published dress code (as of October 2026) turns away sportswear and gym wear, gym, dirty or everyday trainers, denim shorts, hot pants, visible underwear, flat open-toe shoes or sliders, and sunglasses. Jeans are not on that list, but tailored trousers, a collared shirt and smart shoes are the safer choice for men on a busy night. For women: cocktail-appropriate attire, heels recommended, nothing overly revealing. The door team values effort and style over specific brands.",
   },
   {
-    question: "What are the best nights at Tape London?",
-    answer: "Tape London operates Thursday through Saturday. Saturday is the biggest night with the highest energy and most exclusive crowd. Thursday attracts a strong music industry crowd. Friday sits between the two. For the best experience on a first visit, Saturday is recommended.",
+    question: "Where is Tape London?",
+    answer: "Tape London is at 17 Hanover Square, Mayfair, London W1S 1HU, a few minutes' walk from Oxford Circus station.",
+  },
+  {
+    question: "What are the opening nights and hours at Tape London?",
+    answer: "As of October 2026, Tape London opens on Tuesday, Friday, Saturday and Sunday from 11pm to 3.30am. The Little Tape after party runs on Friday and Saturday from 3am to 5.30am. Saturday is the biggest night, with the highest energy and the most selective door, and Friday is close behind. For a first visit with a table, Saturday is recommended.",
   },
   {
     question: "Is Tape London a members' club?",
-    answer: "Tape London operates as an exclusive nightclub with members' club sensibilities rather than a traditional members' club with annual fees. Access is through table bookings and curated guestlists rather than membership cards, but the selectivity is comparable to the most exclusive private clubs.",
+    answer: "Tape describes itself as primarily a private members' club, with membership handled through the Tape Members app. Non-members get in through table bookings and guestlists, which can be requested through the app, a promoter or a concierge. Either way, the door team makes the final call on the night.",
+  },
+  {
+    question: "Do I need ID to get into Tape London?",
+    answer: "Yes. Every guest must show physical ID at the door, and the club states that photographs of ID are not accepted.",
   },
 ];
 
@@ -53,7 +62,7 @@ export default function HowToGetIntoTapeLondonPage() {
     <>
       <ArticleSchema
         title="How to Get Into Tape London: The Complete Entry Guide"
-        description="Everything you need to know about getting into Tape London — guestlist, door policy, and table bookings."
+        description="Getting into Tape London at 17 Hanover Square: opening nights, guestlist through the members' app, table bookings, door policy, ID and dress code."
         slug="/how-to-get-into-tape-london"
       />
       <FAQSchema faqs={faqs} />
@@ -76,6 +85,18 @@ export default function HowToGetIntoTapeLondonPage() {
           maximise your chances of experiencing what is genuinely London&apos;s
           finest nightclub.
         </p>
+
+        <div className="info-box">
+          <h4>Tape London at a Glance (as of October 2026)</h4>
+          <ul>
+            <li><strong>Address:</strong> 17 Hanover Square, Mayfair, London W1S 1HU, a few minutes&apos; walk from Oxford Circus station</li>
+            <li><strong>Open:</strong> Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am</li>
+            <li><strong>After party:</strong> Little Tape, Friday and Saturday, 3am to 5.30am</li>
+            <li><strong>Getting in:</strong> a table booking, or a guestlist place requested through a promoter, a concierge or the Tape Members app</li>
+            <li><strong>ID:</strong> physical ID for every guest; photographs of ID are not accepted</li>
+            <li><strong>Tables:</strong> minimum spends from &pound;1,500</li>
+          </ul>
+        </div>
 
         <h2>The Three Routes In</h2>
 
@@ -114,15 +135,16 @@ export default function HowToGetIntoTapeLondonPage() {
         <h3>2. Guestlist — The Conditional Route</h3>
 
         <p>
-          Guestlist entry at Tape is managed through promoters and
-          concierges — there is no website form or sign-up page. Being on
+          Guestlist entry at Tape is managed through promoters, concierges
+          and the club&apos;s own Tape Members app, where you can request a
+          place for the night you want to attend. Being on
           the guestlist removes the cover charge and gets you to the front
           of any queue, but it does not override the door policy. The door
           team makes the final decision based on the crowd balance, your
           group composition, your appearance, and the night&apos;s capacity.
-          Guestlist is viable on Thursday nights and earlier in the evening
-          on Fridays, but on Saturday — when Tape is at its most exclusive —
-          guestlist entry is significantly harder to achieve.
+          Guestlist is most viable early in the evening, and on Saturday,
+          when Tape is at its most exclusive, guestlist entry is
+          significantly harder to achieve.
         </p>
 
         <h3>3. Walk-Up — The Improbable Route</h3>
@@ -149,6 +171,7 @@ export default function HowToGetIntoTapeLondonPage() {
           <ul>
             <li><strong>Group composition:</strong> Mixed groups (men and women) are strongly preferred. All-male groups without a booking face near-certain rejection.</li>
             <li><strong>Dress standard:</strong> Smart, stylish, and considered. The team can tell the difference between someone who dressed for the occasion and someone who dressed for work.</li>
+            <li><strong>ID:</strong> Every guest must show physical ID. The club states that photographs of ID are not accepted, so bring the card itself.</li>
             <li><strong>Sobriety:</strong> Anyone appearing excessively intoxicated will be turned away regardless of booking status.</li>
             <li><strong>Attitude:</strong> Entitlement, aggression, or trying to name-drop your way in are immediate disqualifiers.</li>
             <li><strong>Capacity:</strong> Even legitimate guestlist entries are subject to the room&apos;s capacity on any given night.</li>
@@ -164,18 +187,28 @@ export default function HowToGetIntoTapeLondonPage() {
         </p>
 
         <p>
-          <strong>Men:</strong> Tailored trousers (not jeans), a quality
-          shirt or smart polo, and leather shoes. A blazer or tailored
-          jacket elevates the look further. Avoid: trainers of any kind
-          (including designer), sportswear, casual denim, shorts, open-toe
-          shoes.
+          <strong>What the club bans:</strong> Tape&apos;s published dress
+          code (as of October 2026) asks for stylish, elegant attire and
+          lists what is not allowed: sportswear and gym wear; gym, dirty or
+          everyday trainers; denim shorts; hot pants; visible underwear;
+          overly revealing or casual outfits; flat open-toe shoes or
+          sliders; and sunglasses. Tailored smart shorts are allowed.
+        </p>
+
+        <p>
+          <strong>Men:</strong> Tailored trousers, a quality shirt or smart
+          polo, and leather shoes. A blazer or tailored jacket elevates the
+          look further. Jeans are not on the banned list, but on a busy
+          night tailored trousers are the safer choice. Avoid: sportswear,
+          gym or everyday trainers, denim shorts, open-toe shoes.
         </p>
 
         <p>
           <strong>Women:</strong> Cocktail-appropriate attire. A well-chosen
           dress, tailored separates, or a smart jumpsuit with heels. Tape&apos;s
-          crowd is fashionable without being ostentatious — quality over
-          logos. Avoid: overly casual looks, flip-flops, beachwear.
+          crowd is fashionable without being ostentatious: quality over
+          logos. Avoid: overly revealing or casual looks, hot pants, flat
+          sliders or flip-flops, beachwear.
         </p>
 
         <p>
@@ -190,30 +223,37 @@ export default function HowToGetIntoTapeLondonPage() {
         <h2>The Best Nights to Visit</h2>
 
         <p>
-          <strong>Thursday:</strong> The music industry night. Slightly
-          easier guestlist entry, a crowd heavy with people who work in
-          music, and a more intimate atmosphere. The best night for first
-          visits if you are on guestlist rather than a table.
+          As of October 2026, Tape opens on Tuesday, Friday, Saturday and
+          Sunday, from 11pm to 3.30am. It does not open on Thursday.
         </p>
 
         <p>
-          <strong>Friday:</strong> A strong transitional night between
-          Thursday&apos;s industry vibe and Saturday&apos;s peak exclusivity.
-          Good energy, strong music, slightly more accessible than Saturday.
+          <strong>Tuesday and Sunday:</strong> The nights either side of
+          the weekend. If you are hoping for a guestlist place rather than a
+          table, ask your promoter or concierge, or request through the Tape
+          Members app, which nights have space that week.
+        </p>
+
+        <p>
+          <strong>Friday:</strong> The start of the weekend at Tape. Good
+          energy, strong music, slightly more accessible than Saturday, and
+          followed by the Little Tape after party from 3am to 5.30am.
         </p>
 
         <p>
           <strong>Saturday:</strong> The main event. The most exclusive
           crowd, the highest energy, and the most selective door. Table
           booking is essentially required. If you want the definitive Tape
-          experience, this is the night.
+          experience, this is the night, and Little Tape carries it on from
+          3am to 5.30am.
         </p>
 
         <h2>Arrival Timing</h2>
 
         <p>
-          Tape opens at 11pm. For guestlist entry, arrive between 11pm and
-          midnight — the door is most accommodating early. For table
+          Tape opens at 11pm and closes at 3.30am (as of October 2026). For
+          guestlist entry, arrive between 11pm and midnight, when the door is
+          most accommodating. For table
           bookings, arriving between 11:30pm and 12:30am hits the sweet
           spot where the room has energy but your table is ready and
           waiting. Arriving after 1am on a table booking is fine but you

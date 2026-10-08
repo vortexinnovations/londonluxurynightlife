@@ -8,17 +8,18 @@ import { CLUB_IMAGES } from "@/lib/images";
 const club = clubs.find((c) => c.slug === "maddox")!;
 
 export const metadata: Metadata = {
-  title:
-    "Maddox Review | What It's Really Like Inside",
+  title: {
+    absolute: "Maddox Club London Review: Dinner, Dress Code and Tables",
+  },
   description:
-    "An honest Maddox review from nightlife insiders. Discover what the Maddox experience is really like, what is Maddox like inside, and why this Italian restaurant-nightclub hybrid is Mayfair's best dinner-to-club destination.",
+    "Honest Maddox Club review: Italian dinner at 3-5 Mill Street, Mayfair, then house music until 3am. Jacket preferred, tables from £1,000 as of October 2026.",
 };
 
 export default function MaddoxPage() {
   return (
     <>
       <ArticleSchema
-        title="Maddox Review"
+        title="Maddox Club London Review: Dinner, Dress Code and Tables"
         description="An insider review of Maddox, the Mayfair restaurant-nightclub hybrid where Italian dining transitions seamlessly into house music until the early hours."
         slug="/clubs/maddox"
       />
@@ -47,6 +48,16 @@ export default function MaddoxPage() {
             <strong>Tables From:</strong> {club.tablesFrom}
           </p>
         </div>
+
+        <p>
+          <strong>In short:</strong> Maddox Club, at 3-5 Mill Street in
+          Mayfair, is an Italian restaurant that turns into a house music club
+          late in the evening, with the music running until 3am. It is the most
+          complete dinner-to-club night in Mayfair, best for groups who would
+          rather not change venue at midnight. This honest review covers the
+          food, the music, the crowd, the dress code (a jacket is preferred for
+          men) and what a table costs (from &pound;1,000 as of October 2026).
+        </p>
 
         <p>
           The eternal problem with a big night out in Mayfair is the awkward

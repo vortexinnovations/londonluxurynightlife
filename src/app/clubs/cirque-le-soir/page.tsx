@@ -8,17 +8,18 @@ import { CLUB_IMAGES } from "@/lib/images";
 const club = clubs.find((c) => c.slug === "cirque-le-soir")!;
 
 export const metadata: Metadata = {
-  title:
-    "Cirque Le Soir Review | What It's Really Like Inside",
+  title: {
+    absolute: "Cirque Le Soir Review: Honest Guide to Entry and Dress Code",
+  },
   description:
-    "An honest Cirque Le Soir review from nightlife insiders. Discover what the Cirque Le Soir experience is really like, what is Cirque Le Soir like inside, and why this circus-themed club is unlike anything else in London.",
+    "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.",
 };
 
 export default function CirqueLeSoirPage() {
   return (
     <>
       <ArticleSchema
-        title="Cirque Le Soir Review"
+        title="Cirque Le Soir Review: Honest Guide to Entry and Dress Code"
         description="An insider review of Cirque Le Soir, London's most theatrical nightclub where circus performers and celebrity clientele collide in Soho."
         slug="/clubs/cirque-le-soir"
       />
@@ -47,6 +48,16 @@ export default function CirqueLeSoirPage() {
             <strong>Tables From:</strong> {club.tablesFrom}
           </p>
         </div>
+
+        <p>
+          <strong>In short:</strong> Cirque Le Soir is a circus-themed
+          nightclub at 15-21 Ganton Street, Soho, a few minutes&apos; walk from
+          Oxford Circus. Nowhere else in London puts fire breathers,
+          contortionists and aerialists on the floor beside a celebrity-heavy
+          crowd, but the door is strict and it is never a quiet night. This
+          honest review covers the entrance, the shows, the crowd, the dress
+          code and what a table costs (from &pound;1,000 as of October 2026).
+        </p>
 
         <p>
           Cirque Le Soir is not a nightclub with a theme. It is a fully

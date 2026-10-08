@@ -8,18 +8,19 @@ import { CLUB_IMAGES } from "@/lib/images";
 const club = clubs.find((c) => c.slug === "dear-darling")!;
 
 export const metadata: Metadata = {
-  title:
-    "Dear Darling Review | What It's Really Like Inside",
+  title: {
+    absolute: "Dear Darling Mayfair: Honest Review, Dress Code and Tables",
+  },
   description:
-    "An honest Dear Darling review from London nightlife insiders. Discover what the Dear Darling experience is really like, from opulent cocktails to late-night revelry. What is Dear Darling like? Our full review.",
+    "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.",
 };
 
 export default function DearDarlingReview() {
   return (
     <>
       <ArticleSchema
-        title="Dear Darling Review | What It's Really Like Inside"
-        description="An insider review of Dear Darling, Mayfair's opulent cocktail bar with chandeliers, velvet booths, and late-night energy. Everything you need to know before visiting."
+        title="Dear Darling Mayfair: Honest Review, Dress Code and Tables"
+        description="An insider review of Dear Darling, the opulent Jermyn Street cocktail bar on the edge of Mayfair with chandeliers, velvet booths, and late-night energy. Everything you need to know before visiting."
         slug="/clubs/dear-darling"
       />
       <ArticleLayout
@@ -37,6 +38,17 @@ export default function DearDarlingReview() {
           <p><strong>Dress Code:</strong> {club.dressCode}</p>
           <p><strong>Tables From:</strong> {club.tablesFrom}</p>
         </div>
+
+        <p>
+          <strong>In short:</strong> Dear Darling, the venue most people search
+          for as Dear Darling Mayfair, is a chandeliered cocktail bar at 91
+          Jermyn Street, St James&apos;s, on the southern edge of Mayfair, that
+          turns into a late-night club as the evening builds. It is one of the
+          most beautiful rooms in the West End and our pick for a dressed-up
+          night that starts with cocktails rather than a dance floor. This
+          honest review covers the room, the crowd, the drinks, the dress code
+          and what a table costs (from &pound;1,000 as of October 2026).
+        </p>
 
         <p>
           Not every evening in Mayfair needs to end in a nightclub. Sometimes the best nights are the ones that begin with exceptional cocktails in a room so beautiful you do not want to leave, and then slowly, imperceptibly, the room transforms around you until you realise you are dancing and it is two in the morning and you have not once considered going anywhere else. Dear Darling understands this trajectory intimately. It is a venue built for the long evening, the kind that unfolds in chapters rather than arriving all at once.

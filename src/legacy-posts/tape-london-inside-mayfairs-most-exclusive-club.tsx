@@ -119,9 +119,9 @@ export default function TapeLondonInsidePage() {
         <div className="info-box">
           <h4>Tape London — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> Hanover Square, Mayfair</li>
+            <li><strong>Location:</strong> 17 Hanover Square, Mayfair</li>
             <li><strong>Music:</strong> Hip-Hop, R&amp;B, Commercial</li>
-            <li><strong>Open:</strong> Thursday to Saturday</li>
+            <li><strong>Open:</strong> Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am (as of October 2026)</li>
             <li><strong>Tables from:</strong> &pound;1,500</li>
             <li><strong>Dress code:</strong> Smart and stylish, no sportswear</li>
           </ul>
