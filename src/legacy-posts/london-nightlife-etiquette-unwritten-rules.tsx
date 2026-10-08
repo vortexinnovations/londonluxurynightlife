@@ -172,21 +172,21 @@ export default function LondonNightlifeEtiquettePage() {
           <h4>Tipping Guide for London Clubs</h4>
           <ul>
             <li>
-              <strong>Table host:</strong> &pound;20&ndash;&pound;50 in cash
+              <strong>Table host:</strong>{" "}&pound;20&ndash;&pound;50 in cash
               for good service. More for exceptional attention. Service charge
               is already on the bill, so this is discretionary but noticed.
             </li>
             <li>
-              <strong>Bar staff:</strong> Not expected in London. Rounding up
+              <strong>Bar staff:</strong>{" "}Not expected in London. Rounding up
               or leaving a pound is a courteous gesture but not obligatory.
             </li>
             <li>
-              <strong>Door staff:</strong> Do not tip. This is not the custom
+              <strong>Door staff:</strong>{" "}Do not tip. This is not the custom
               in London and can appear as an attempted bribe, which creates
               the opposite of the impression you want.
             </li>
             <li>
-              <strong>Cloakroom:</strong> &pound;1&ndash;&pound;2 is
+              <strong>Cloakroom:</strong>{" "}&pound;1&ndash;&pound;2 is
               customary when collecting your coat.
             </li>
           </ul>
@@ -218,27 +218,27 @@ export default function LondonNightlifeEtiquettePage() {
 
         <ul>
           <li>
-            <strong>Your bottles, your table.</strong> Do not pour from
+            <strong>Your bottles, your table.</strong>{" "}Do not pour from
             bottles at neighbouring tables, and do not allow strangers to help
             themselves to yours. Your host will manage this if it becomes an
             issue — a quiet word to them is more effective than a
             confrontation.
           </li>
           <li>
-            <strong>Guest management.</strong> If friends want to join you at
+            <strong>Guest management.</strong>{" "}If friends want to join you at
             your table, clear it with your host first. Every additional person
             affects the space and potentially the minimum spend. Surprises are
             unwelcome.
           </li>
           <li>
-            <strong>Ordering rounds.</strong> Within your own group, establish
+            <strong>Ordering rounds.</strong>{" "}Within your own group, establish
             early whether you are splitting the bill or whether one person is
             hosting. The table host needs a clear point of contact for orders
             and billing. Confusion at the end of the night about who is
             paying is genuinely embarrassing at these venues.
           </li>
           <li>
-            <strong>Keep your area presentable.</strong> Your host clears
+            <strong>Keep your area presentable.</strong>{" "}Your host clears
             glasses and keeps things tidy, but they cannot compensate for
             active mess. Spilled drinks, overflowing ashtrays on the terrace,
             and general disorder reflect on you and on the venue.
@@ -269,7 +269,7 @@ export default function LondonNightlifeEtiquettePage() {
           happens constantly. Security will stop you, your host will not
           vouch for you, and the interaction creates a small scene that
           benefits nobody. Read our{" "}
-          <Link href="/vip-nightlife-london">VIP nightlife guide</Link> to
+          <Link href="/vip-nightlife-london">VIP nightlife guide</Link>{" "}to
           understand how the VIP system works and how to access it properly.
         </p>
 

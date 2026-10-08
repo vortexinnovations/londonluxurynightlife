@@ -126,8 +126,8 @@ export default function TapeLondonPage() {
 
         <p>
           The other factor that separates Tape from competitors like{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> or{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> is the
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}or{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}is the
           absence of spectacle. There are no performers, no LED shows, no
           theatrical elements. The entertainment is the room itself, the people
           in it, and the music. It is nightlife stripped back to its most
@@ -180,8 +180,8 @@ export default function TapeLondonPage() {
             guide to celebrity clubs in London
           </Link>
           . Tape sits at the very top of that list, but venues like{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> offer a
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}offer a
           completely different flavour of high-end nightlife.
         </p>
 

@@ -87,7 +87,7 @@ export default function LondonSupercarSeasonNightlifePage() {
           the cars they ship in with them, and that daytime spectacle has a
           direct after-dark counterpart. The supercar season is, in truth, the
           most visible signal of who is in town, and it reshapes the city&apos;s{" "}
-          <Link href="/luxury-nightclubs-london">luxury nightclubs</Link> for the
+          <Link href="/luxury-nightclubs-london">luxury nightclubs</Link>{" "}for the
           length of the British summer.
         </p>
 
@@ -133,7 +133,7 @@ export default function LondonSupercarSeasonNightlifePage() {
         <p>
           The geography is tight. The supercar crowd keeps to the same square
           mile after dark that it cruises by day, which is why the established{" "}
-          <Link href="/vip-nightlife-london">VIP rooms</Link> of Mayfair feel the
+          <Link href="/vip-nightlife-london">VIP rooms</Link>{" "}of Mayfair feel the
           season most. This is the crowd that the city&apos;s discreet, big-spend
           venues are built around, the same rooms we cover in our guide to{" "}
           <Link href="/celebrity-nightclubs-london">
@@ -205,23 +205,23 @@ export default function LondonSupercarSeasonNightlifePage() {
           <h4>Quick Reference - London&apos;s Supercar Season</h4>
           <ul>
             <li>
-              <strong>When:</strong> Roughly June to September, peaking July and
+              <strong>When:</strong>{" "}Roughly June to September, peaking July and
               August, as of 2026
             </li>
             <li>
-              <strong>Where:</strong> Mayfair and Knightsbridge by day, the same
+              <strong>Where:</strong>{" "}Mayfair and Knightsbridge by day, the same
               square mile&apos;s exclusive rooms by night
             </li>
             <li>
-              <strong>The crowd:</strong> International ultra-wealthy summer
+              <strong>The crowd:</strong>{" "}International ultra-wealthy summer
               visitors, high spend, holiday-time stamina
             </li>
             <li>
-              <strong>The effect:</strong> Busier doors, higher minimums, later
+              <strong>The effect:</strong>{" "}Busier doors, higher minimums, later
               and fuller rooms than the rest of the year
             </li>
             <li>
-              <strong>Smart move:</strong> Book ahead; midweek for the same crowd
+              <strong>Smart move:</strong>{" "}Book ahead; midweek for the same crowd
               with more room
             </li>
           </ul>

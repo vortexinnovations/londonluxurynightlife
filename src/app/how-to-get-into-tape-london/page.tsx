@@ -89,12 +89,12 @@ export default function HowToGetIntoTapeLondonPage() {
         <div className="info-box">
           <h4>Tape London at a Glance (as of October 2026)</h4>
           <ul>
-            <li><strong>Address:</strong> 17 Hanover Square, Mayfair, London W1S 1HU, a few minutes&apos; walk from Oxford Circus station</li>
-            <li><strong>Open:</strong> Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am</li>
-            <li><strong>After party:</strong> Little Tape, Friday and Saturday, 3am to 5.30am</li>
-            <li><strong>Getting in:</strong> a table booking, or a guestlist place requested through a promoter, a concierge or the Tape Members app</li>
-            <li><strong>ID:</strong> physical ID for every guest; photographs of ID are not accepted</li>
-            <li><strong>Tables:</strong> minimum spends from &pound;1,500</li>
+            <li><strong>Address:</strong>{" "}17 Hanover Square, Mayfair, London W1S 1HU, a few minutes&apos; walk from Oxford Circus station</li>
+            <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am</li>
+            <li><strong>After party:</strong>{" "}Little Tape, Friday and Saturday, 3am to 5.30am</li>
+            <li><strong>Getting in:</strong>{" "}a table booking, or a guestlist place requested through a promoter, a concierge or the Tape Members app</li>
+            <li><strong>ID:</strong>{" "}physical ID for every guest; photographs of ID are not accepted</li>
+            <li><strong>Tables:</strong>{" "}minimum spends from &pound;1,500</li>
           </ul>
         </div>
 
@@ -118,7 +118,7 @@ export default function HowToGetIntoTapeLondonPage() {
           you get the best available table position rather than whatever is
           left. It also means your host knows your arrival time, your group
           size, and any specific requirements.{" "}
-          <Link href="/contact">Our concierge team</Link> books Tape
+          <Link href="/contact">Our concierge team</Link>{" "}books Tape
           regularly and can secure the right table for your evening. For
           direct table reservations,{" "}
           <a
@@ -169,12 +169,12 @@ export default function HowToGetIntoTapeLondonPage() {
         <div className="info-box">
           <h4>What the Door Team Is Looking For</h4>
           <ul>
-            <li><strong>Group composition:</strong> Mixed groups (men and women) are strongly preferred. All-male groups without a booking face near-certain rejection.</li>
-            <li><strong>Dress standard:</strong> Smart, stylish, and considered. The team can tell the difference between someone who dressed for the occasion and someone who dressed for work.</li>
-            <li><strong>ID:</strong> Every guest must show physical ID. The club states that photographs of ID are not accepted, so bring the card itself.</li>
-            <li><strong>Sobriety:</strong> Anyone appearing excessively intoxicated will be turned away regardless of booking status.</li>
-            <li><strong>Attitude:</strong> Entitlement, aggression, or trying to name-drop your way in are immediate disqualifiers.</li>
-            <li><strong>Capacity:</strong> Even legitimate guestlist entries are subject to the room&apos;s capacity on any given night.</li>
+            <li><strong>Group composition:</strong>{" "}Mixed groups (men and women) are strongly preferred. All-male groups without a booking face near-certain rejection.</li>
+            <li><strong>Dress standard:</strong>{" "}Smart, stylish, and considered. The team can tell the difference between someone who dressed for the occasion and someone who dressed for work.</li>
+            <li><strong>ID:</strong>{" "}Every guest must show physical ID. The club states that photographs of ID are not accepted, so bring the card itself.</li>
+            <li><strong>Sobriety:</strong>{" "}Anyone appearing excessively intoxicated will be turned away regardless of booking status.</li>
+            <li><strong>Attitude:</strong>{" "}Entitlement, aggression, or trying to name-drop your way in are immediate disqualifiers.</li>
+            <li><strong>Capacity:</strong>{" "}Even legitimate guestlist entries are subject to the room&apos;s capacity on any given night.</li>
           </ul>
         </div>
 
@@ -196,7 +196,7 @@ export default function HowToGetIntoTapeLondonPage() {
         </p>
 
         <p>
-          <strong>Men:</strong> Tailored trousers, a quality shirt or smart
+          <strong>Men:</strong>{" "}Tailored trousers, a quality shirt or smart
           polo, and leather shoes. A blazer or tailored jacket elevates the
           look further. Jeans are not on the banned list, but on a busy
           night tailored trousers are the safer choice. Avoid: sportswear,
@@ -228,20 +228,20 @@ export default function HowToGetIntoTapeLondonPage() {
         </p>
 
         <p>
-          <strong>Tuesday and Sunday:</strong> The nights either side of
+          <strong>Tuesday and Sunday:</strong>{" "}The nights either side of
           the weekend. If you are hoping for a guestlist place rather than a
           table, ask your promoter or concierge, or request through the Tape
           Members app, which nights have space that week.
         </p>
 
         <p>
-          <strong>Friday:</strong> The start of the weekend at Tape. Good
+          <strong>Friday:</strong>{" "}The start of the weekend at Tape. Good
           energy, strong music, slightly more accessible than Saturday, and
           followed by the Little Tape after party from 3am to 5.30am.
         </p>
 
         <p>
-          <strong>Saturday:</strong> The main event. The most exclusive
+          <strong>Saturday:</strong>{" "}The main event. The most exclusive
           crowd, the highest energy, and the most selective door. Table
           booking is essentially required. If you want the definitive Tape
           experience, this is the night, and Little Tape carries it on from
@@ -273,7 +273,7 @@ export default function HowToGetIntoTapeLondonPage() {
         <h2>Ready to Book?</h2>
 
         <p>
-          <Link href="/contact">Contact our team</Link> for Tape London
+          <Link href="/contact">Contact our team</Link>{" "}for Tape London
           table bookings and guestlist. We work with the venue weekly and
           can advise on the best night, the best table position, and what
           to expect. For the full Tape London experience review, read

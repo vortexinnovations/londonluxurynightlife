@@ -43,7 +43,7 @@ export default function CuckooClubMayfairPage() {
           Half want hip-hop. Half want house. Someone suggests a compromise
           venue that satisfies nobody. The night starts with tension and ends
           with regret.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
           Street exists to eliminate this problem entirely. Two floors, two
           genres, one venue. House music downstairs, hip-hop upstairs. Your
           group migrates freely between them all night. Problem solved.
@@ -75,7 +75,7 @@ export default function CuckooClubMayfairPage() {
 
         <p>
           Cuckoo Club does not have the celebrity magnetism of{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or the
           theatrical spectacle of{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>. What it
           has, and what matters more than most people realise, is consistency.
@@ -97,11 +97,11 @@ export default function CuckooClubMayfairPage() {
         <div className="info-box">
           <h4>Cuckoo Club — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> Swallow Street, Mayfair</li>
-            <li><strong>Music:</strong> House (upstairs), Hip-Hop &amp; R&amp;B (downstairs)</li>
-            <li><strong>Open:</strong> Wednesday to Saturday</li>
-            <li><strong>Tables from:</strong> &pound;1,000</li>
-            <li><strong>Dress code:</strong> Smart and stylish, no sportswear</li>
+            <li><strong>Location:</strong>{" "}Swallow Street, Mayfair</li>
+            <li><strong>Music:</strong>{" "}House (upstairs), Hip-Hop &amp; R&amp;B (downstairs)</li>
+            <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
+            <li><strong>Dress code:</strong>{" "}Smart and stylish, no sportswear</li>
           </ul>
         </div>
 
@@ -138,10 +138,10 @@ export default function CuckooClubMayfairPage() {
 
         <p>
           If you want something with more edge, consider{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> for atmosphere or{" "}
-          <Link href="/clubs/selene-london">Selene</Link> for a newer
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}for atmosphere or{" "}
+          <Link href="/clubs/selene-london">Selene</Link>{" "}for a newer
           refined experience.{" "}
-          <Link href="/contact">Contact our team</Link> for bookings and
+          <Link href="/contact">Contact our team</Link>{" "}for bookings and
           advice on the best floor and table position for your group.
         </p>
 

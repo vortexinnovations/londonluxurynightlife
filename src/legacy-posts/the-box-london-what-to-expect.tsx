@@ -68,7 +68,7 @@ export default function TheBoxLondonWhatToExpectPage() {
         <p>
           This makes The Box fundamentally different from every other venue on
           the London circuit. At{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha</Link>, the music
           drives the evening. At{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, the
@@ -146,7 +146,7 @@ export default function TheBoxLondonWhatToExpectPage() {
             <li>Mixed groups (men and women together) are strongly preferred over single-gender groups</li>
             <li>Dress creatively but smartly — The Box appreciates fashion-forward choices over corporate formality</li>
             <li>Arrive before midnight for the best chance on guestlist</li>
-            <li>Use a concierge service — <Link href="/contact">contact us</Link> to arrange entry properly</li>
+            <li>Use a concierge service — <Link href="/contact">contact us</Link>{" "}to arrange entry properly</li>
           </ul>
         </div>
 
@@ -184,7 +184,7 @@ export default function TheBoxLondonWhatToExpectPage() {
         </p>
 
         <p>
-          <Link href="/contact">Contact us</Link> for guestlist and table
+          <Link href="/contact">Contact us</Link>{" "}for guestlist and table
           arrangements. We work with The Box regularly and can advise on the
           best approach for your specific group.
         </p>
@@ -194,7 +194,7 @@ export default function TheBoxLondonWhatToExpectPage() {
         <p>
           The Box is for people who want their night out to be an event rather
           than a routine. If you have visited{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and wanted
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and wanted
           something more intense, The Box is the logical next step. If you are
           visiting London from abroad and want a single venue that you cannot
           replicate anywhere else, The Box delivers that. If you are
@@ -216,7 +216,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           experience — venues like{" "}
           <Link href="/clubs/tabu-london">TABU</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> are far better
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}are far better
           choices for that. It is not ideal for large corporate groups unless
           you are very confident about every attendee&apos;s tolerance for
           provocative content. And it is not for anyone looking for a quiet,

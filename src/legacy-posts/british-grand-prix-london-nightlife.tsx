@@ -89,7 +89,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
           stays in London. Drivers, team principals, sponsors, and a genuinely
           global celebrity crowd pass through the capital in the days around the
           race, and that influx reshapes the city&apos;s{" "}
-          <Link href="/vip-nightlife-london">VIP nightlife</Link> for the better
+          <Link href="/vip-nightlife-london">VIP nightlife</Link>{" "}for the better
           part of a week.
         </p>
 
@@ -132,20 +132,20 @@ export default function BritishGrandPrixLondonNightlifePage() {
           This is the window for the sponsor dinners and brand activations that
           increasingly attach themselves to the championship, many of which
           spill into a private room at a club afterwards.{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link> tends to absorb the more
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}tends to absorb the more
           corporate, dinner-led end of this, with its upstairs rooms suited to a
           sponsor party that wants privacy before it opens up.
         </p>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> draws the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}draws the
           music-and-fashion side of the F1 set, the part of the paddock that
           overlaps with the celebrity and influencer world rather than the
           engineering one. On my last visit during a major race weekend, the room
           did not properly fill until well after midnight, and the energy was
           closer to a fashion-week night than a typical Friday. For a younger,
           more theatrical crowd,{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> picks up the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}picks up the
           overflow.
         </p>
 
@@ -221,22 +221,22 @@ export default function BritishGrandPrixLondonNightlifePage() {
           <h4>Quick Reference - British Grand Prix Weekend in London</h4>
           <ul>
             <li>
-              <strong>When:</strong> Early July (race on the Sunday), as of 2026
+              <strong>When:</strong>{" "}Early July (race on the Sunday), as of 2026
             </li>
             <li>
-              <strong>Busiest London nights:</strong> Thursday, Friday, and
+              <strong>Busiest London nights:</strong>{" "}Thursday, Friday, and
               Sunday evening
             </li>
             <li>
-              <strong>Quietest night:</strong> Saturday, when the crowd is at
+              <strong>Quietest night:</strong>{" "}Saturday, when the crowd is at
               Silverstone
             </li>
             <li>
-              <strong>The crowd:</strong> International, younger, sponsor and
+              <strong>The crowd:</strong>{" "}International, younger, sponsor and
               celebrity-heavy
             </li>
             <li>
-              <strong>Access reality:</strong> Team and sponsor parties are
+              <strong>Access reality:</strong>{" "}Team and sponsor parties are
               private; the wider Mayfair atmosphere is open to anyone
             </li>
           </ul>

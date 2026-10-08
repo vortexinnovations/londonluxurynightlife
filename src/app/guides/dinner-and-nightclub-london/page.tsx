@@ -88,26 +88,26 @@ export default function DinnerAndNightclubPage() {
 
         <div className="info-box">
           <p>
-            <strong>7:30-8:00pm:</strong> Arrive at the restaurant. Pre-dinner
+            <strong>7:30-8:00pm:</strong>{" "}Arrive at the restaurant. Pre-dinner
             cocktails if the venue has a bar.
           </p>
           <p>
-            <strong>8:00-10:00pm:</strong> Dinner. Two hours is ideal — long
+            <strong>8:00-10:00pm:</strong>{" "}Dinner. Two hours is ideal — long
             enough to enjoy three courses without rushing, short enough to
             maintain energy.
           </p>
           <p>
-            <strong>10:00-10:45pm:</strong> The transition window. Settle the
+            <strong>10:00-10:45pm:</strong>{" "}The transition window. Settle the
             bill, refresh, move to a nearby cocktail bar or lounge for a
             digestif.
           </p>
           <p>
-            <strong>11:00pm-12:00am:</strong> Arrive at the club. This is the
+            <strong>11:00pm-12:00am:</strong>{" "}Arrive at the club. This is the
             sweet spot — the venue is filling with energy but not yet at
             capacity.
           </p>
           <p>
-            <strong>12:00am-3:00am:</strong> The main event. Peak hours at
+            <strong>12:00am-3:00am:</strong>{" "}The main event. Peak hours at
             most Mayfair clubs.
           </p>
         </div>
@@ -135,7 +135,7 @@ export default function DinnerAndNightclubPage() {
 
         <p>
           If you are heading to{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, or to{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus, you are spoilt for restaurant choices. Mayfair itself is home to some of
@@ -159,8 +159,8 @@ export default function DinnerAndNightclubPage() {
 
         <p>
           If{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> or{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> is
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}or{" "}
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}is
           your destination, Soho is where you should eat. The neighbourhood
           is dense with excellent restaurants spanning every cuisine, and the
           walk to either venue takes minutes. The energy of Soho on a
@@ -182,7 +182,7 @@ export default function DinnerAndNightclubPage() {
         <h3>Fitzrovia for BEAT London</h3>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> sits on
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}sits on
           Margaret Street in Fitzrovia, a neighbourhood with its own
           excellent restaurant scene. Charlotte Street in particular is lined
           with bistros, trattorias, and contemporary restaurants that are
@@ -208,7 +208,7 @@ export default function DinnerAndNightclubPage() {
         <h3>Maddox: The Gold Standard</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is purpose-built for
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is purpose-built for
           this. The venue operates as an Italian fine dining restaurant
           earlier in the evening, then transforms into a house music club as
           midnight approaches. You sit down for dinner at 8pm, enjoy an
@@ -255,7 +255,7 @@ export default function DinnerAndNightclubPage() {
         <h3>The Sophisticated Option</h3>
         <p>
           Cocktails and light bites at a Mayfair hotel bar, followed by{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> or{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>.
           For evenings where conversation matters as much as the party, this
           pairing keeps the energy elegant throughout. Dear Darling&apos;s
@@ -266,7 +266,7 @@ export default function DinnerAndNightclubPage() {
         <h3>The Music-First Night</h3>
         <p>
           Dinner in Fitzrovia, then{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> for serious
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}for serious
           sound system energy, or a pre-booked taxi south to{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           for a legendary electronic music experience. This route suits
@@ -288,7 +288,7 @@ export default function DinnerAndNightclubPage() {
         </p>
 
         <p>
-          <strong>For men:</strong> Tailored trousers, a collared shirt
+          <strong>For men:</strong>{" "}Tailored trousers, a collared shirt
           (open collar is fine), smart leather shoes, and either a blazer or
           a well-fitted smart jacket. This look works at every restaurant in
           Mayfair and will sail past every door policy on the circuit. Avoid
@@ -296,7 +296,7 @@ export default function DinnerAndNightclubPage() {
         </p>
 
         <p>
-          <strong>For women:</strong> A cocktail dress, a sharp trouser suit,
+          <strong>For women:</strong>{" "}A cocktail dress, a sharp trouser suit,
           or an elevated going-out look with heels. London&apos;s best
           restaurants and clubs share an expectation of glamour, so leaning
           slightly overdressed is always better than underdressed. Bring a
@@ -313,26 +313,26 @@ export default function DinnerAndNightclubPage() {
 
         <ul>
           <li>
-            <strong>Walk if you can.</strong> If your restaurant and club are
+            <strong>Walk if you can.</strong>{" "}If your restaurant and club are
             both in Mayfair or both in Soho, walk. The streets are safe, the
             atmosphere is part of the experience, and you avoid the chaos of
             trying to find a taxi at 10:30pm on a Saturday in the West End.
           </li>
           <li>
-            <strong>Pre-book a private car.</strong> For groups of six or
+            <strong>Pre-book a private car.</strong>{" "}For groups of six or
             more, or if your restaurant and club are in different
             neighbourhoods, arrange a private car in advance. Do not rely on
             ride-hailing apps at peak time — surge pricing and wait times can
             derail the momentum of your evening.
           </li>
           <li>
-            <strong>Use the restaurant concierge.</strong> Most high-end
+            <strong>Use the restaurant concierge.</strong>{" "}Most high-end
             London restaurants will happily arrange a taxi or car for you as
             you finish dinner. Ask when you book the restaurant so they are
             prepared.
           </li>
           <li>
-            <strong>Avoid the Tube.</strong> The Underground is excellent
+            <strong>Avoid the Tube.</strong>{" "}The Underground is excellent
             transport, but descending into a station in evening wear, waiting
             on a platform, and emerging at the other end does not suit the
             tone of the evening you are building.
@@ -367,7 +367,7 @@ export default function DinnerAndNightclubPage() {
           Coordinating a dinner-to-club evening involves multiple bookings,
           timing considerations, and the kind of venue knowledge that only
           comes from doing this regularly.{" "}
-          <Link href="/contact">Contact us</Link> and we will build the
+          <Link href="/contact">Contact us</Link>{" "}and we will build the
           entire evening for you — restaurant recommendation, club table
           booking, transport advice, and any other details your group needs.
           We do this every week, and we are very good at it.

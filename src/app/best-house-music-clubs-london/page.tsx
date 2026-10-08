@@ -89,7 +89,7 @@ export default function BestHouseMusicClubsLondonPage() {
         <h3>Maddox Club — The Dinner-to-House Transition</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is the most important
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the most important
           house music venue in Mayfair, and the reason is architectural as
           much as musical. The venue operates as an Italian restaurant until
           approximately 11pm, at which point the same room transforms into a
@@ -131,7 +131,7 @@ export default function BestHouseMusicClubsLondonPage() {
         <h3>BEAT London — Where Sound Quality Defines Everything</h3>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           occupies a unique position in this guide. It is not a Mayfair
           venue, and it does not offer the same luxury framework. What it
           offers instead is a sound system that is arguably the finest in any
@@ -154,7 +154,7 @@ export default function BestHouseMusicClubsLondonPage() {
         <h3>Dear Darling — Cocktail House</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is not
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is not
           primarily a house music venue, but its late-night programming
           increasingly incorporates the genre, and the result is one of
           Mayfair&apos;s most elegant house experiences. The cocktail bar
@@ -169,7 +169,7 @@ export default function BestHouseMusicClubsLondonPage() {
         <h3>Tape London — The Selective Sessions</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> does not
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}does not
           programme house music every night, but when it does, the
           combination of Mayfair&apos;s most exclusive room with genuinely
           credible electronic music programming is remarkable. The no-phones
@@ -221,20 +221,20 @@ export default function BestHouseMusicClubsLondonPage() {
           <h4>Venue Comparison</h4>
           <ul>
             <li>
-              <strong>Maddox:</strong> Dinner from 7pm, club from 11pm. Deep
+              <strong>Maddox:</strong>{" "}Dinner from 7pm, club from 11pm. Deep
               house and melodic tech house. Best for a complete evening.
               Minimum spend from &pound;1,000.
             </li>
             <li>
-              <strong>BEAT London:</strong> Fitzrovia. Superior sound system.
+              <strong>BEAT London:</strong>{" "}Fitzrovia. Superior sound system.
               Best for music purists. Lower minimum spends than Mayfair.
             </li>
             <li>
-              <strong>Dear Darling:</strong> Cocktail bar transitioning to
+              <strong>Dear Darling:</strong>{" "}Cocktail bar transitioning to
               late-night house. Best for couples and smaller groups.
             </li>
             <li>
-              <strong>Tape London:</strong> Selective house nights. Best for
+              <strong>Tape London:</strong>{" "}Selective house nights. Best for
               exclusive, intimate experience. Minimum spend from &pound;1,500.
             </li>
           </ul>
@@ -262,7 +262,7 @@ export default function BestHouseMusicClubsLondonPage() {
             London Bottle Service
           </a>{" "}
           provides direct reservations, or{" "}
-          <Link href="/contact">contact our concierge team</Link> for
+          <Link href="/contact">contact our concierge team</Link>{" "}for
           personalised recommendations based on your group and preferences.
         </p>
 

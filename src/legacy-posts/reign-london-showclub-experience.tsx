@@ -39,7 +39,7 @@ export default function ReignLondonShowclubExperiencePage() {
         heroAlt="Reign London showclub with aerial performers and live entertainment"
       >
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> — formerly
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}— formerly
           known as The London Reign — occupies a unique position in the
           capital&apos;s nightlife landscape. While most clubs compete on
           music, exclusivity, or interior design, Reign competes on spectacle.
@@ -123,8 +123,8 @@ export default function ReignLondonShowclubExperiencePage() {
           impress music purists. This is a deliberate choice that matches the
           venue&apos;s entertainment-first philosophy. If you want cutting-edge
           DJ sets, venues like{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> are better choices.
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}are better choices.
           If you want a room where everyone is singing, dancing, and having
           the time of their lives, Reign delivers consistently.
         </p>
@@ -134,11 +134,11 @@ export default function ReignLondonShowclubExperiencePage() {
         <div className="info-box">
           <h4>Reign London at a Glance</h4>
           <ul>
-            <li><strong>Location:</strong> Piccadilly, West End</li>
-            <li><strong>Tables from:</strong> &pound;1,000 minimum spend</li>
-            <li><strong>Best nights:</strong> Friday and Saturday</li>
-            <li><strong>Best for:</strong> Birthdays, celebrations, tourists, corporate events</li>
-            <li><strong>Music:</strong> Mixed, commercial, hip-hop</li>
+            <li><strong>Location:</strong>{" "}Piccadilly, West End</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,000 minimum spend</li>
+            <li><strong>Best nights:</strong>{" "}Friday and Saturday</li>
+            <li><strong>Best for:</strong>{" "}Birthdays, celebrations, tourists, corporate events</li>
+            <li><strong>Music:</strong>{" "}Mixed, commercial, hip-hop</li>
           </ul>
         </div>
 
@@ -148,8 +148,8 @@ export default function ReignLondonShowclubExperiencePage() {
           it also buys you a production. Whether that additional layer justifies
           the spend depends on what you value. For a standard Friday night
           with friends who just want to dance, a venue like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> or{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> delivers excellent
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}or{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}delivers excellent
           value with the minimum spend focused entirely on drinks and
           atmosphere. For an occasion — a birthday, an anniversary, impressing
           visitors from abroad — Reign&apos;s entertainment layer makes the
@@ -191,7 +191,7 @@ export default function ReignLondonShowclubExperiencePage() {
             international visitors&apos; guide
           </Link>{" "}
           provides the wider context for planning your trip.{" "}
-          <Link href="/contact">Contact our team</Link> for table
+          <Link href="/contact">Contact our team</Link>{" "}for table
           availability and the best seating positions for performances.
         </p>
 

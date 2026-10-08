@@ -55,7 +55,7 @@ export default function QuietLuxuryLondonNightlifePage() {
         </p>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> in Mayfair is
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}in Mayfair is
           the clearest example. Its ground-floor cocktail bar operates with
           the confidence of a standalone venue, drawing a well-dressed crowd
           that drifts naturally toward the club floor as the night deepens.
@@ -66,7 +66,7 @@ export default function QuietLuxuryLondonNightlifePage() {
         </p>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> takes a different
+          <Link href="/clubs/selene-london">Selene</Link>{" "}takes a different
           approach to the same philosophy. The interiors lean modern and
           design-forward, the music programme shifts between R&amp;B and
           soulful house depending on the night, and the crowd skews
@@ -88,7 +88,7 @@ export default function QuietLuxuryLondonNightlifePage() {
         <p>
           For most of the 2010s, London&apos;s premium nightlife was defined
           by production.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque le Soir</Link> built its
+          <Link href="/clubs/cirque-le-soir">Cirque le Soir</Link>{" "}built its
           reputation on circus performers and surreal staging. The Box pushed
           the boundaries of what a club could present on stage. These venues
           remain excellent at what they do, and they continue to draw crowds
@@ -165,7 +165,7 @@ export default function QuietLuxuryLondonNightlifePage() {
           in tone. Smart remains essential. The difference is that the
           emphasis falls on fit and fabric rather than flash. Think
           well-tailored and considered, not attention-seeking. Venues like{" "}
-          <Link href="/clubs/maddox">Maddox</Link> set the standard here,
+          <Link href="/clubs/maddox">Maddox</Link>{" "}set the standard here,
           where the crowd dresses with the kind of quiet confidence the club
           itself projects.
         </p>
@@ -187,11 +187,11 @@ export default function QuietLuxuryLondonNightlifePage() {
         <div className="info-box">
           <h4>Quick Reference - London&apos;s Quiet Luxury Shift</h4>
           <ul>
-            <li><strong>Venues leading the trend:</strong> Dear Darling, Selene, Maison Close, Rex Rooms, Luna</li>
-            <li><strong>What defines it:</strong> Understated design, lower capacity, privacy-first</li>
-            <li><strong>Who it serves:</strong> International visitors, corporate hosts, couples</li>
-            <li><strong>Price range:</strong> Comparable to or higher than theatrical venues</li>
-            <li><strong>When to arrive:</strong> 10pm-10:30pm for the best experience</li>
+            <li><strong>Venues leading the trend:</strong>{" "}Dear Darling, Selene, Maison Close, Rex Rooms, Luna</li>
+            <li><strong>What defines it:</strong>{" "}Understated design, lower capacity, privacy-first</li>
+            <li><strong>Who it serves:</strong>{" "}International visitors, corporate hosts, couples</li>
+            <li><strong>Price range:</strong>{" "}Comparable to or higher than theatrical venues</li>
+            <li><strong>When to arrive:</strong>{" "}10pm-10:30pm for the best experience</li>
           </ul>
         </div>
 

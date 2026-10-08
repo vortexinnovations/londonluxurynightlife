@@ -146,7 +146,7 @@ export default function CirqueLeSoirPage() {
         <p>
           There is nothing else like Cirque Le Soir in London. Other venues
           incorporate performance elements.{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> has
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}has
           aerial acts. But none of them make performance the core of the
           experience in the way Cirque does. Here, the performers are not an
           addition to the nightclub. The nightclub is built around the
@@ -216,7 +216,7 @@ export default function CirqueLeSoirPage() {
           Cirque Le Soir demands participation. It rewards those who lean into
           the chaos and fall flat for anyone who wants to sit quietly in a
           corner. If you want understated sophistication, choose{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/maddox">Maddox</Link>. But if you want a night
           that you will still be talking about months later, a night that
           genuinely surprises you, Cirque Le Soir is the answer. Nothing in

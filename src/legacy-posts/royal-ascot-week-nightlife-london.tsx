@@ -118,7 +118,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           I&apos;ve been in Mayfair on Ladies&apos; Day evening, and the
           shift is unmistakable. By 9pm, the restaurants around Berkeley
           Square are operating at full stretch. By 10:30pm, clubs like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> are receiving
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}are receiving
           guests still carrying that post-racing energy, animated,
           well-dressed, and in the mood to extend the day into the early
           hours.
@@ -145,7 +145,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on Berkeley
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
           Street has been a post-Ascot destination for years. The crowd
           during racing week trends towards established regulars and their
           guests, mixing UK-based racing enthusiasts with international
@@ -157,7 +157,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
           Street draws a similar post-racing crowd but with a slightly
           younger edge. The two-floor layout works particularly well during
           Ascot week because the upstairs bar offers space for extended
@@ -167,7 +167,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox Club</Link> attracts the
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}attracts the
           corporate entertainment contingent - groups who have hosted clients
           at Ascot during the day and want to continue the evening at a
           matching standard. On my last visit during racing week, I was
@@ -177,8 +177,8 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> and{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> represent
+          <Link href="/clubs/selene-london">Selene</Link>{" "}and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}represent
           the quieter end of the Ascot week spectrum. If the main Mayfair
           clubs feel too energetic after a full day at the races, these
           venues offer a more measured pace - cocktails first, club
@@ -236,7 +236,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           spirits, having spent hours in one of the most social sporting
           environments in the country. If you prefer your luxury nightlife
           on the quieter side, consider{" "}
-          <Link href="/clubs/luna-club-london">Luna</Link> or Selene, where
+          <Link href="/clubs/luna-club-london">Luna</Link>{" "}or Selene, where
           the capacity constraints naturally moderate the energy.
         </p>
 
@@ -252,25 +252,25 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           <h4>Quick Reference - Royal Ascot Week Nightlife</h4>
           <ul>
             <li>
-              <strong>Peak night:</strong> Thursday (Ladies&apos; Day)
+              <strong>Peak night:</strong>{" "}Thursday (Ladies&apos; Day)
             </li>
             <li>
-              <strong>Top venues:</strong> Funky Buddha, Cuckoo Club, Maddox
+              <strong>Top venues:</strong>{" "}Funky Buddha, Cuckoo Club, Maddox
               Club
             </li>
             <li>
-              <strong>Quieter alternatives:</strong> Selene, Dear Darling, Luna
+              <strong>Quieter alternatives:</strong>{" "}Selene, Dear Darling, Luna
             </li>
             <li>
-              <strong>Planning:</strong> Reserve tables at least one week ahead
+              <strong>Planning:</strong>{" "}Reserve tables at least one week ahead
               for Thursday
             </li>
             <li>
-              <strong>Atmosphere:</strong> Celebratory, well-dressed, unified
+              <strong>Atmosphere:</strong>{" "}Celebratory, well-dressed, unified
               energy
             </li>
             <li>
-              <strong>Pricing:</strong> Standard rates as of May 2026
+              <strong>Pricing:</strong>{" "}Standard rates as of May 2026
             </li>
           </ul>
         </div>

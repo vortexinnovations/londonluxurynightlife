@@ -45,7 +45,7 @@ export default function FunkyBuddhaPage() {
             <strong>Music (when open):</strong> {club.musicStyle}
           </p>
           <p>
-            <strong>Status:</strong> Closed. Itzel now operates at this address.
+            <strong>Status:</strong>{" "}Closed. Itzel now operates at this address.
           </p>
         </div>
 

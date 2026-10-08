@@ -123,7 +123,7 @@ export default function ReignLondonPage() {
           celebrate and to be entertained, and the shared sense of occasion
           creates a warmth that is sometimes absent in more exclusive or
           image-conscious venues. If{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> attracts those
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}attracts those
           who want to be seen, Reign attracts those who want to see something
           extraordinary. The distinction matters. It makes for a more generous,
           outward-looking crowd.
@@ -173,7 +173,7 @@ export default function ReignLondonPage() {
         <p>
           London has no shortage of clubs that incorporate performance
           elements.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> delivers
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}delivers
           immersive circus theatre in an intimate Soho setting. But Reign occupies
           its own territory: a large-format showclub where the scale of the
           production matches the grandeur of the venue. The aerial acts require

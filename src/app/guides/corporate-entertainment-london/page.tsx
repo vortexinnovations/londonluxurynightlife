@@ -103,7 +103,7 @@ export default function CorporateEntertainmentPage() {
           is exceptional for this — its heritage lends gravitas, the
           atmosphere is refined without being stiff, and the mixed music
           policy means there is something for everyone.{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is another
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is another
           strong option, particularly for smaller groups where conversation
           is important. Its cocktail-focused, chandelier-draped interior
           reads as unambiguously premium.
@@ -114,7 +114,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           If you want to structure the evening with a clear arc — dinner
           first, then drinks and entertainment —{" "}
-          <Link href="/clubs/maddox">Maddox</Link> is the gold standard for
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the gold standard for
           corporate entertaining.{" "}
           The Italian dining is genuinely excellent, the
           transition into the club feels organic rather than forced, and the
@@ -125,7 +125,7 @@ export default function CorporateEntertainmentPage() {
         </p>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> offers
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}offers
           a more theatrical alternative, with aerial acts and live
           performance through the evening. This works brilliantly for clients who appreciate
           spectacle and for celebrations (deal closings, milestones, end of
@@ -138,11 +138,11 @@ export default function CorporateEntertainmentPage() {
           Sometimes you know your clients. Perhaps you have been working
           together for years, or perhaps they have explicitly said they want
           a big night. In these cases, you can go further:{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> for exclusivity
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}for exclusivity
           and potential celebrity sightings,{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus, for sophistication with real energy, or{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> for
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}for
           a storied Mayfair night with broad musical appeal.
         </p>
 
@@ -175,7 +175,7 @@ export default function CorporateEntertainmentPage() {
           individual guests. For corporate groups, you need a direct
           relationship with the venue or, better still, a nightlife
           concierge who has one.{" "}
-          <Link href="/contact">Contact us directly</Link> — we have
+          <Link href="/contact">Contact us directly</Link>{" "}— we have
           standing relationships with every venue mentioned in this guide,
           and we can secure tables, negotiate arrangements, and handle
           special requests in a way that a website form simply cannot.
@@ -189,29 +189,29 @@ export default function CorporateEntertainmentPage() {
 
         <ul>
           <li>
-            <strong>Date and arrival time.</strong> Be specific. Clubs
+            <strong>Date and arrival time.</strong>{" "}Be specific. Clubs
             allocate tables to specific time slots, and a confirmed arrival
             time ensures your table is ready when you walk through the door.
           </li>
           <li>
-            <strong>Group size and composition.</strong> How many guests,
+            <strong>Group size and composition.</strong>{" "}How many guests,
             and what is the gender split? Most Mayfair clubs have ratio
             considerations at the door, and a heads-up ensures no awkward
             moments for your guests.
           </li>
           <li>
-            <strong>Budget.</strong> Be upfront about what you want to
+            <strong>Budget.</strong>{" "}Be upfront about what you want to
             spend. This allows the venue to recommend the right table
             position and package, and avoids any surprises on the night.
           </li>
           <li>
-            <strong>Any VIP requirements.</strong> If there are particularly
+            <strong>Any VIP requirements.</strong>{" "}If there are particularly
             senior guests, or if you need a degree of privacy, say so. Table
             positioning in a club is strategic, and the right spot can make
             a significant difference to your evening.
           </li>
           <li>
-            <strong>Dietary requirements and preferences.</strong> Essential
+            <strong>Dietary requirements and preferences.</strong>{" "}Essential
             for dinner-club venues, but also relevant for bottle service
             — some guests may prefer specific spirits, champagne, or
             non-alcoholic options.
@@ -237,15 +237,15 @@ export default function CorporateEntertainmentPage() {
 
         <ul>
           <li>
-            <strong>Standard VIP table:</strong> £1,000-£2,000 minimum
+            <strong>Standard VIP table:</strong>{" "}£1,000-£2,000 minimum
             spend, suitable for groups of 6-10.
           </li>
           <li>
-            <strong>Premium table positions:</strong> £2,000-£5,000 minimum
+            <strong>Premium table positions:</strong>{" "}£2,000-£5,000 minimum
             spend, for prime locations near the DJ or dance floor.
           </li>
           <li>
-            <strong>VVIP or private areas:</strong> £5,000+ for the most
+            <strong>VVIP or private areas:</strong>{" "}£5,000+ for the most
             exclusive spaces, typically only necessary for very large groups
             or very high-profile occasions.
           </li>
@@ -265,7 +265,7 @@ export default function CorporateEntertainmentPage() {
           If you are incorporating dinner — and for corporate groups, we
           strongly recommend it — budget £100-£200 per person at the
           restaurant or dinner-club venues like{" "}
-          <Link href="/clubs/maddox">Maddox</Link> and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
           <Link href="/clubs/reign-london">Reign London</Link>. This covers
           a three-course meal with wine. You can spend more, of course, but
           this range delivers an impressive experience without being
@@ -351,19 +351,19 @@ export default function CorporateEntertainmentPage() {
 
         <ul>
           <li>
-            <strong>Do a recce.</strong> If possible, visit the venue before
+            <strong>Do a recce.</strong>{" "}If possible, visit the venue before
             the night. Know where the entrance is, where your table will
             be, where the cloakroom and restrooms are. On the night, you
             lead confidently.
           </li>
           <li>
-            <strong>Brief the venue on your guests.</strong> Let the
+            <strong>Brief the venue on your guests.</strong>{" "}Let the
             management know the nature of the evening. They will ensure
             attentive but not intrusive service, and they will understand
             that you need the evening to be seamless.
           </li>
           <li>
-            <strong>Handle payment discreetly.</strong> At dinner, arrange
+            <strong>Handle payment discreetly.</strong>{" "}At dinner, arrange
             to settle the bill away from the table — a quick word with the
             restaurant manager. At the club, the minimum spend is arranged
             in advance. Your clients should never see a bill, never see a
@@ -371,7 +371,7 @@ export default function CorporateEntertainmentPage() {
             of the evening intrudes.
           </li>
           <li>
-            <strong>Have an exit strategy.</strong> Know when the evening
+            <strong>Have an exit strategy.</strong>{" "}Know when the evening
             should wind down and how guests will get home. Have car numbers
             or a taxi account ready. The end of the evening should feel as
             polished as the beginning.
@@ -425,26 +425,26 @@ export default function CorporateEntertainmentPage() {
 
         <ul>
           <li>
-            <strong>Not briefing guests on dress code.</strong> Nothing
+            <strong>Not briefing guests on dress code.</strong>{" "}Nothing
             derails a corporate evening faster than a senior client being
             turned away at the door for wearing trainers. Communicate the
             dress code in writing, in advance.
           </li>
           <li>
-            <strong>Overcatering the evening.</strong> A long dinner
+            <strong>Overcatering the evening.</strong>{" "}A long dinner
             followed by hours at a club can feel exhausting. Two courses
             rather than three, or cocktails rather than a full dinner, can
             keep the energy right.
           </li>
           <li>
-            <strong>Choosing the wrong venue for the audience.</strong> Know
+            <strong>Choosing the wrong venue for the audience.</strong>{" "}Know
             your clients. The managing partner of a law firm may not enjoy
             Cirque Le Soir&apos;s fire breathers. A tech startup founder
             might find Scotch of St James too traditional. Match the venue
             to the person.
           </li>
           <li>
-            <strong>Not having a plan B.</strong> London nightlife is
+            <strong>Not having a plan B.</strong>{" "}London nightlife is
             dynamic. If your booking falls through or the venue is
             unexpectedly quiet, have an alternative in mind. This is
             another area where working with a concierge service protects
@@ -457,7 +457,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           Organising corporate entertainment in a world you may not know
           well is stressful. It does not have to be.{" "}
-          <Link href="/contact">Contact us</Link> with your brief — date,
+          <Link href="/contact">Contact us</Link>{" "}with your brief — date,
           group size, budget, client type — and we will handle everything.
           We have coordinated corporate evenings for financial institutions,
           tech companies, creative agencies, and professional services firms

@@ -67,10 +67,10 @@ export default function LondonVsParisNightlifePage() {
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           are all within walking distance, with{" "}
-          <Link href="/clubs/selene-london">Selene</Link> just north of
+          <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus. Add the Soho venues —{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> — and you
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}— and you
           have a walkable ecosystem of world-class venues. Our{" "}
           <Link href="/london-nightlife-guide">
             London nightlife guide
@@ -103,9 +103,9 @@ export default function LondonVsParisNightlifePage() {
         <p>
           London offers the widest range of high-quality music
           programming of any nightlife city. The hip-hop and R&amp;B
-          at <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          at <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, the house at{" "}
-          <Link href="/clubs/maddox">Maddox</Link> and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>, the
           eclectic programming at{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -214,7 +214,7 @@ export default function LondonVsParisNightlifePage() {
           constant attention to detail — Mayfair&apos;s table-service
           culture is the most polished in the world. The experience of
           holding a table at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}
           is a complete luxury experience in itself.
         </p>
@@ -362,7 +362,7 @@ export default function LondonVsParisNightlifePage() {
           For visitors who choose London, advance booking is essential
           at premium venues. Our concierge team works with every club
           in Mayfair and Soho —{" "}
-          <Link href="/contact">contact us</Link> with your dates and
+          <Link href="/contact">contact us</Link>{" "}with your dates and
           preferences and we will handle the details. For direct table
           reservations,{" "}
           <a

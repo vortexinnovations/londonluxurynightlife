@@ -89,7 +89,7 @@ export default function BestHipHopClubsLondonPage() {
         <h3>1. Tape London — Credibility Above Everything</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> earns the top
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}earns the top
           position because its hip-hop credentials are not a marketing choice
           — they are embedded in the venue&apos;s DNA. Founded by music
           industry professionals, Tape was designed from the ground up for
@@ -118,7 +118,7 @@ export default function BestHipHopClubsLondonPage() {
         <h3>2. Cirque Le Soir — Hip-Hop Meets Entertainment</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> does not
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}does not
           fit neatly into any category, which is precisely its appeal. The
           Soho venue combines hip-hop and R&amp;B music with live circus
           entertainment — fire breathers, contortionists, stilt walkers —
@@ -160,7 +160,7 @@ export default function BestHipHopClubsLondonPage() {
         <h3>4. BEAT London — Sound System First</h3>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           deserves mention because its room-tuned sound system delivers
           hip-hop with a clarity and weight that Mayfair venues cannot match.
           When BEAT programmes hip-hop nights, the experience is defined by
@@ -174,7 +174,7 @@ export default function BestHipHopClubsLondonPage() {
 
         <p>
           Three names from older versions of this list have changed.{" "}
-          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link> and{" "}
+          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>{" "}and{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>;
           both are booked under their new names, with current music, nights and
           minimums confirmed when you book.{" "}
@@ -218,19 +218,19 @@ export default function BestHipHopClubsLondonPage() {
           <h4>Weekly Hip-Hop Calendar</h4>
           <ul>
             <li>
-              <strong>Wednesday:</strong> Cirque Le Soir opens from
+              <strong>Wednesday:</strong>{" "}Cirque Le Soir opens from
               Wednesday, the strongest midweek hip-hop option.
             </li>
             <li>
-              <strong>Thursday:</strong> Tape and Selene open from Thursday,
+              <strong>Thursday:</strong>{" "}Tape and Selene open from Thursday,
               for those who prefer a slightly more relaxed atmosphere.
             </li>
             <li>
-              <strong>Friday:</strong> The peak night across all venues. Tape,
+              <strong>Friday:</strong>{" "}The peak night across all venues. Tape,
               Cirque Le Soir and BEAT all deliver their strongest programming.
             </li>
             <li>
-              <strong>Saturday:</strong> Every venue fires. Cirque Le Soir adds
+              <strong>Saturday:</strong>{" "}Every venue fires. Cirque Le Soir adds
               the entertainment dimension. Tape at its most exclusive.
             </li>
           </ul>
@@ -253,7 +253,7 @@ export default function BestHipHopClubsLondonPage() {
             London Bottle Service
           </a>{" "}
           handles bookings directly. Alternatively,{" "}
-          <Link href="/contact">contact our concierge team</Link> and we will
+          <Link href="/contact">contact our concierge team</Link>{" "}and we will
           match you to the right venue and the right night for your group.
         </p>
 

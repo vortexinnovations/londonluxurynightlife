@@ -40,7 +40,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
       >
         <p>
           Describing{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> to
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}to
           someone who has never been is an exercise in controlled
           understatement, because the reality consistently exceeds whatever
           you imagine. This is a nightclub where a fire breather might appear
@@ -112,11 +112,11 @@ export default function CirqueLeSoirCircusNightclubPage() {
         <div className="info-box">
           <h4>Cirque Le Soir — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> Ganton Street, Soho</li>
-            <li><strong>Music:</strong> Hip-Hop, R&amp;B</li>
-            <li><strong>Open:</strong> Wednesday to Saturday</li>
-            <li><strong>Tables from:</strong> &pound;1,000</li>
-            <li><strong>Dress code:</strong> Smart glamorous — dress to impress</li>
+            <li><strong>Location:</strong>{" "}Ganton Street, Soho</li>
+            <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B</li>
+            <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
+            <li><strong>Dress code:</strong>{" "}Smart glamorous — dress to impress</li>
           </ul>
         </div>
 
@@ -151,7 +151,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           outstanding hip-hop in a more traditional nightclub setting,{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha</Link>, or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> are stronger choices.
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}are stronger choices.
           It is also not ideal for very large groups who might struggle to
           secure adjacent tables — for group bookings, see our{" "}
           <Link href="/blog/best-clubs-london-large-groups">
@@ -161,7 +161,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
         </p>
 
         <p>
-          <Link href="/contact">Contact our team</Link> to book. We can
+          <Link href="/contact">Contact our team</Link>{" "}to book. We can
           advise on the best nights and table positions for the full Cirque
           experience.
         </p>

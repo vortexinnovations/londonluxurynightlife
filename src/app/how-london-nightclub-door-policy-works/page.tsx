@@ -104,7 +104,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           destroy the product — the crowd would be random, the energy
           unpredictable, and the experience inconsistent. The people who pay
           &pound;1,000 for a table at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> are paying for
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}are paying for
           a curated room. If the curation disappears, so does their reason
           to return.
         </p>
@@ -130,7 +130,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           <h4>The Five Door Criteria</h4>
           <ul>
             <li>
-              <strong>Dress code compliance:</strong> The most common reason
+              <strong>Dress code compliance:</strong>{" "}The most common reason
               for refusal and the easiest to control. See our{" "}
               <Link href="/london-club-dress-code-guide">
                 complete dress code guide
@@ -138,25 +138,25 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
               for venue-specific standards.
             </li>
             <li>
-              <strong>Group composition:</strong> Mixed-gender groups are
+              <strong>Group composition:</strong>{" "}Mixed-gender groups are
               strongly preferred. All-female groups are welcomed. All-male
               groups face the most scrutiny, with difficulty increasing
               with group size.
             </li>
             <li>
-              <strong>Sobriety:</strong> Visibly intoxicated guests are
+              <strong>Sobriety:</strong>{" "}Visibly intoxicated guests are
               refused everywhere, regardless of booking status. This is
               non-negotiable and the one criterion where no amount of
               spending power helps.
             </li>
             <li>
-              <strong>Attitude and energy:</strong> Confident and relaxed
+              <strong>Attitude and energy:</strong>{" "}Confident and relaxed
               gains entry. Aggressive, entitled, or excessively loud gets
               refused. The door is reading whether you will add to or
               subtract from the room&apos;s energy.
             </li>
             <li>
-              <strong>Capacity and balance:</strong> Even when all other
+              <strong>Capacity and balance:</strong>{" "}Even when all other
               criteria are met, a full venue may require the door to hold.
               This is not a rejection — it is physics. Arriving earlier
               eliminates this variable.
@@ -232,7 +232,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           Finding promoters is straightforward: venue Instagram accounts
           often tag their promoters, nightlife apps connect guests with
           promoters, and our{" "}
-          <Link href="/contact">concierge team</Link> can make
+          <Link href="/contact">concierge team</Link>{" "}can make
           introductions to the right people for your preferred venues.
         </p>
 
@@ -268,14 +268,14 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <h3>Most Selective</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> operates the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}operates the
           strictest door in the city — table bookings are refused, let alone
           walk-ups. Our{" "}
           <Link href="/how-to-get-into-tape-london">
             dedicated Tape entry guide
           </Link>{" "}
           covers the specifics.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> adds an
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}adds an
           additional layer — the door assesses not just whether you meet the
           standard but whether you can handle the performances.
         </p>

@@ -107,7 +107,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#1 — Tape London</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> is the most
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is the most
           exclusive nightclub in London by every meaningful measure. The Hanover
           Square venue operates with a door policy that routinely turns away
           table bookings — not walk-ups, not guestlist hopefuls, but people
@@ -149,7 +149,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#3 — The Box</h3>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> in Soho operates
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho operates
           one of London&apos;s most unpredictable doors. The performance-first
           format means the venue needs an audience that can handle provocation,
           and the door team filters accordingly. Groups that appear easily
@@ -167,7 +167,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#4 — Cirque Le Soir</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> combines
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}combines
           a selective door with the highest celebrity density outside of Tape.
           The circus-themed Soho venue attracts A-list names on a weekly basis,
           and the intimate capacity means the door must be ruthless. Table
@@ -180,7 +180,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#5 — Dear Darling</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> in Mayfair has
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}in Mayfair has
           quickly established one of the more discerning doors in the area.
           The cocktail-forward format attracts a crowd that values
           sophistication, and the door policy reflects that preference. Groups
@@ -192,7 +192,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#6 — Reign London</h3>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> near Piccadilly
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}near Piccadilly
           Circus combines theatrical entertainment with a door policy that has
           tightened considerably since opening. The larger capacity means it
           cannot match the intimacy-driven exclusivity of smaller venues, but
@@ -214,16 +214,16 @@ export default function ExclusiveClubsLondonPage() {
         <h3>The Rest of the Field</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> combines dining and
+          <Link href="/clubs/maddox">Maddox</Link>{" "}combines dining and
           nightlife with a door that reflects its dual format — refined but
           accessible with a booking.{" "}
           <Link href="/clubs/selene-london">Selene</Link>, in Fitzrovia just
           north of Oxford Circus, is building its reputation as part of a new
           generation of West End venues.{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           operates with music-first selectivity that prizes genuine enthusiasm
           over status.{" "}
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> in
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}in
           Elephant and Castle is a different proposition altogether, built
           around one of the most famous sound systems in the world.
         </p>
@@ -234,12 +234,12 @@ export default function ExclusiveClubsLondonPage() {
           <h4>The Access Hierarchy for Exclusive Venues</h4>
           <ul>
             <li>
-              <strong>Promoter introduction + table booking:</strong> The gold
+              <strong>Promoter introduction + table booking:</strong>{" "}The gold
               standard. A respected promoter vouches for your group and secures
               a table. This is the only reliable route at Tape and The Box.
             </li>
             <li>
-              <strong>Direct table booking:</strong> Reliable at most venues
+              <strong>Direct table booking:</strong>{" "}Reliable at most venues
               but not a guarantee at the most exclusive doors. Book through{" "}
               <a
                 href={ECOSYSTEM.bottleService.url}
@@ -252,11 +252,11 @@ export default function ExclusiveClubsLondonPage() {
               for the best table positions.
             </li>
             <li>
-              <strong>Guestlist:</strong> Works at tier two and three venues.
+              <strong>Guestlist:</strong>{" "}Works at tier two and three venues.
               Not viable at Tape or Cirque on weekends.
             </li>
             <li>
-              <strong>Walk-up:</strong> Only realistic at Maddox and BEAT on
+              <strong>Walk-up:</strong>{" "}Only realistic at Maddox and BEAT on
               quieter nights. Do not attempt at Tape.
             </li>
           </ul>

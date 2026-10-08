@@ -43,7 +43,7 @@ export default function LondonClubsGoingCashlessPage() {
           scene, venues are moving to card-only and contactless payment systems
           at a pace that would have been unthinkable five years ago. For anyone
           planning a night at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/reign-london">Reign</Link>, the shift is already
           complete. Cash is no longer part of the equation.
         </p>
@@ -89,7 +89,7 @@ export default function LondonClubsGoingCashlessPage() {
 
         <p>
           If you are booking a VIP table at a club like{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> or{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
           <Link href="/clubs/maddox">Maddox</Link>, the cashless shift has
           streamlined the process considerably. Most venues now take a card on
           file when you book. Your minimum spend is pre-authorised, and
@@ -113,23 +113,23 @@ export default function LondonClubsGoingCashlessPage() {
           <h4>Quick Reference — Cashless Night Out Essentials</h4>
           <ul>
             <li>
-              <strong>Payment methods accepted:</strong> Contactless, chip
+              <strong>Payment methods accepted:</strong>{" "}Contactless, chip
               &amp; PIN, Apple Pay, Google Pay
             </li>
             <li>
-              <strong>Cash acceptance:</strong> Most Mayfair clubs no longer
+              <strong>Cash acceptance:</strong>{" "}Most Mayfair clubs no longer
               accept cash at bars or for table service
             </li>
             <li>
-              <strong>Tipping:</strong> Added digitally, typically 15-20% on
+              <strong>Tipping:</strong>{" "}Added digitally, typically 15-20% on
               table service
             </li>
             <li>
-              <strong>Pre-authorisation:</strong> Expect a hold on your card
+              <strong>Pre-authorisation:</strong>{" "}Expect a hold on your card
               equal to the table minimum
             </li>
             <li>
-              <strong>International cards:</strong> Visa and Mastercard
+              <strong>International cards:</strong>{" "}Visa and Mastercard
               universally accepted; Amex at most venues
             </li>
           </ul>
@@ -150,7 +150,7 @@ export default function LondonClubsGoingCashlessPage() {
           For table service, tipping is built into the checkout process. You will
           typically see a suggested gratuity of 15-20% on your final bill. At
           venues like{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
           <Link href="/clubs/the-box-london">The Box</Link>, where the
           performance element adds to the service expectation, tips tend to sit
           at the higher end. The key difference is transparency: everything is
@@ -202,8 +202,8 @@ export default function LondonClubsGoingCashlessPage() {
           or a declined card. If your only payment method is Apple Pay and your
           phone dies at midnight, you are in trouble. The simple fix: carry a
           physical card as backup. Venues like{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> accept chip and
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}and{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}accept chip and
           PIN as well as contactless, so a physical card will always work.
         </p>
 

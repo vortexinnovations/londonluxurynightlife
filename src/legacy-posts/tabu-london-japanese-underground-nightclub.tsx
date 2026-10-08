@@ -43,7 +43,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
           conclude that you have visited them all. Dark rooms, bottle service,
           hip-hop, velvet ropes — the formula is profitable and most venues
           stick to it faithfully.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link> exists to
+          <Link href="/clubs/tabu-london">TABU London</Link>{" "}exists to
           challenge that assumption. Drawing on Japanese aesthetic traditions
           — minimalism, shadow play, deliberate restraint — TABU has created
           a nightlife experience that feels genuinely different from anything
@@ -76,7 +76,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
           something{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           achieves through heritage and{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> achieves
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}achieves
           through cocktail craft. TABU does it through pure spatial design.
         </p>
 
@@ -90,7 +90,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           The music at TABU is hip-hop and R&amp;B, which places it in the
           same genre bracket as{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha</Link>. The
           difference is curation. TABU&apos;s sets lean toward the deeper,
           more atmospheric end of the spectrum. The programming feels curated
@@ -115,11 +115,11 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <div className="info-box">
           <h4>TABU London — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> Mayfair</li>
-            <li><strong>Music:</strong> Hip-Hop, R&amp;B</li>
-            <li><strong>Open:</strong> Thursday to Saturday</li>
-            <li><strong>Tables from:</strong> &pound;1,000</li>
-            <li><strong>Dress code:</strong> Smart, no sportswear or casual wear</li>
+            <li><strong>Location:</strong>{" "}Mayfair</li>
+            <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B</li>
+            <li><strong>Open:</strong>{" "}Thursday to Saturday</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
+            <li><strong>Dress code:</strong>{" "}Smart, no sportswear or casual wear</li>
           </ul>
         </div>
 
@@ -141,15 +141,15 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           If TABU&apos;s moody, slow-building approach is not your speed,
           venues like{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> or{" "}
-          <Link href="/clubs/luna-club-london">Luna Club</Link> offer more
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}or{" "}
+          <Link href="/clubs/luna-club-london">Luna Club</Link>{" "}offer more
           immediate energy. For international visitors building a London
           nightlife itinerary, our{" "}
           <Link href="/guides/london-nightlife-international-visitors">
             visitors&apos; guide
           </Link>{" "}
           pairs TABU with complementary venues for contrast.{" "}
-          <Link href="/contact">Contact our team</Link> for bookings.
+          <Link href="/contact">Contact our team</Link>{" "}for bookings.
         </p>
 
         <h2>Related Reading</h2>

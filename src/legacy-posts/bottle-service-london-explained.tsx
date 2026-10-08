@@ -79,7 +79,7 @@ export default function BottleServiceLondonExplainedPage() {
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/libertine">Libertine</Link>, and{" "}
           <Link href="/clubs/maddox">Maddox</Link>, standard table minimums
-          range from <strong>&pound;1,000 to &pound;1,500</strong> on a Friday
+          range from <strong>&pound;1,000 to &pound;1,500</strong>{" "}on a Friday
           or Saturday. Premium tables — better locations, larger spaces — start
           at &pound;2,000 and go significantly higher.
         </p>
@@ -102,27 +102,27 @@ export default function BottleServiceLondonExplainedPage() {
 
         <ul>
           <li>
-            <strong>Reserved table and seating:</strong> Your own space in the
+            <strong>Reserved table and seating:</strong>{" "}Your own space in the
             club, typically a booth or banquette with a table. The exact
             position depends on the table category you book.
           </li>
           <li>
-            <strong>Dedicated host or waitress:</strong> One person assigned to
+            <strong>Dedicated host or waitress:</strong>{" "}One person assigned to
             your table for the entire night. They take your orders, pour your
             drinks, keep the table clean, clear empty glasses, and ensure you
             are looked after.
           </li>
           <li>
-            <strong>Mixers:</strong> Tonic water, soda, cranberry juice,
+            <strong>Mixers:</strong>{" "}Tonic water, soda, cranberry juice,
             orange juice, Red Bull, Coca-Cola — all included. You do not pay
             extra for these.
           </li>
           <li>
-            <strong>Ice and glassware:</strong> Kept replenished throughout the
+            <strong>Ice and glassware:</strong>{" "}Kept replenished throughout the
             night.
           </li>
           <li>
-            <strong>Table security:</strong> At most venues, your area is
+            <strong>Table security:</strong>{" "}At most venues, your area is
             monitored to ensure uninvited guests do not encroach on your space.
           </li>
         </ul>
@@ -203,7 +203,7 @@ export default function BottleServiceLondonExplainedPage() {
         </p>
 
         <p>
-          <Link href="/contact">Contact us</Link> and we will handle the
+          <Link href="/contact">Contact us</Link>{" "}and we will handle the
           entire process — venue recommendation, table selection, booking
           confirmation, and any special requests. There is no fee to you for
           this service.
@@ -218,29 +218,29 @@ export default function BottleServiceLondonExplainedPage() {
 
         <ul>
           <li>
-            <strong>Arrival:</strong> Give your name at the door. If you have
+            <strong>Arrival:</strong>{" "}Give your name at the door. If you have
             booked through us, your name will be on the guestlist and the door
             staff will be expecting you. Arrive together as a group where
             possible.
           </li>
           <li>
-            <strong>Seating:</strong> You are escorted to your table by a host
+            <strong>Seating:</strong>{" "}You are escorted to your table by a host
             or a member of the floor team. Your table host introduces
             themselves and hands you the bottle menu.
           </li>
           <li>
-            <strong>First order:</strong> Choose your bottles. Your host will
+            <strong>First order:</strong>{" "}Choose your bottles. Your host will
             advise if needed. Most groups start with one or two bottles and
             order more as the night progresses.
           </li>
           <li>
-            <strong>Service throughout:</strong> Your host pours drinks, brings
+            <strong>Service throughout:</strong>{" "}Your host pours drinks, brings
             fresh ice, clears glasses, and checks in regularly without being
             intrusive. Need anything — more mixers, a different bottle, water
             — just ask.
           </li>
           <li>
-            <strong>The bill:</strong> At the end of the night, or when you are
+            <strong>The bill:</strong>{" "}At the end of the night, or when you are
             ready to leave, your host brings the bill. Service charge is
             typically included (12.5&ndash;15%). Card payment is standard.
           </li>
@@ -263,29 +263,29 @@ export default function BottleServiceLondonExplainedPage() {
 
         <ul>
           <li>
-            <strong>Ordering too many bottles upfront.</strong> Start with one
+            <strong>Ordering too many bottles upfront.</strong>{" "}Start with one
             or two and see how the night develops. You can always order more.
             Bottles do not go back.
           </li>
           <li>
-            <strong>Not understanding the minimum.</strong> The minimum is not
+            <strong>Not understanding the minimum.</strong>{" "}The minimum is not
             a budget — it is a floor. If your minimum is &pound;1,000, you
             cannot order &pound;600 in bottles and leave. Know the number
             before you book.
           </li>
           <li>
-            <strong>Arriving too early.</strong> Most clubs are quiet before
+            <strong>Arriving too early.</strong>{" "}Most clubs are quiet before
             11:30pm. Your table is reserved all night — there is no advantage
             to arriving at 10pm and sitting in an empty room.
           </li>
           <li>
-            <strong>Bringing the wrong group size.</strong> A table for four
+            <strong>Bringing the wrong group size.</strong>{" "}A table for four
             does not comfortably seat eight. Be honest about your numbers when
             booking, or you will end up cramped and potentially asked to
             increase your minimum.
           </li>
           <li>
-            <strong>Ignoring the dress code.</strong> Bottle service does not
+            <strong>Ignoring the dress code.</strong>{" "}Bottle service does not
             exempt you from{" "}
             <Link href="/london-club-dress-code-guide">
               dress code requirements

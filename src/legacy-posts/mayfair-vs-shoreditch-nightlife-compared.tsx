@@ -270,11 +270,11 @@ export default function MayfairVsShoreditchPage() {
         <p>
           If you genuinely want elements of both worlds, the answer is not to
           split the night between postcodes but to find venues that blend the
-          aesthetics. <Link href="/clubs/beat-london">BEAT London</Link> in
+          aesthetics. <Link href="/clubs/beat-london">BEAT London</Link>{" "}in
           Fitzrovia offers a more creative, music-forward environment with
           production values and a crowd that bridges the gap between Mayfair
           polish and East London energy.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> in Soho
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}in Soho
           provides an immersive, theatrical experience that feels neither
           traditionally Mayfair nor traditionally Shoreditch — it occupies its
           own category entirely.

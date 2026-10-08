@@ -132,11 +132,11 @@ export default function BestNightclubsForHighSpendersLondonPage() {
 
         <p>
           At &pound;1,500, the experience noticeably elevates.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> becomes
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}becomes
           accessible at this threshold, and it is the only venue in Mayfair
           where the minimum spend alone filters for a crowd that genuinely
           enhances the experience. At{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,
           &pound;1,500 secures premium table positions closer to the action.
         </p>
@@ -186,7 +186,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>Best Overall: Tape London</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> delivers the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}delivers the
           highest return on investment at the premium tier because its
           exclusivity is genuine. The &pound;1,500 minimum is the highest in
           Mayfair, but it buys access to a room that money alone cannot
@@ -200,7 +200,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>Best Value: Maddox Club</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> offers the most
+          <Link href="/clubs/maddox">Maddox</Link>{" "}offers the most
           intelligent use of a premium budget because the dinner-to-club
           format eliminates the cost and friction of a separate restaurant.
           A &pound;1,000 to &pound;1,500 spend at Maddox covers Italian
@@ -215,7 +215,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>Best for Entertainment: Cirque Le Soir</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> delivers
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}delivers
           the most tangible return on a high spend because the entertainment
           component is built into the experience. A premium table at Cirque
           means you are not simply buying bottles and a table — you are
@@ -227,7 +227,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>Best for Groups: Reign London</h3>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly is
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}on Piccadilly is
           the easiest premium room for a big group: space for adjacent tables,
           aerial acts and live performance through the night, and a mixed
           playlist that suits everyone in the party.
@@ -236,7 +236,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>Best for Unique Experiences: The Box</h3>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> in Soho is the
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho is the
           venue for high spenders who have done Mayfair and want something
           genuinely different. The provocative performance format creates
           evenings that people talk about for years. Premium booths offer
@@ -248,7 +248,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h3>The New Generation</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> is the compelling
+          <Link href="/clubs/selene-london">Selene</Link>{" "}is the compelling
           option for high spenders who want to be early adopters. Newer venues
           often offer more competitive terms and more attentive service as they
           build their client base. Luna Club, which opened in the same wave,
@@ -270,23 +270,23 @@ export default function BestNightclubsForHighSpendersLondonPage() {
               that are not available to direct bookings.
             </li>
             <li>
-              <strong>Choose your night strategically:</strong> Thursday
+              <strong>Choose your night strategically:</strong>{" "}Thursday
               often delivers a comparable experience to Saturday at lower
               minimum spends. Wednesday is increasingly popular among
               discerning crowds.
             </li>
             <li>
-              <strong>Arrive at the right time:</strong> Too early and the
+              <strong>Arrive at the right time:</strong>{" "}Too early and the
               room is empty. Too late and the best moments have passed.
               11:30pm to midnight is optimal for most Mayfair venues.
             </li>
             <li>
-              <strong>Build venue relationships:</strong> Returning to the
+              <strong>Build venue relationships:</strong>{" "}Returning to the
               same venue generates loyalty that translates into better
               tables, better hosts, and occasionally better terms.
             </li>
             <li>
-              <strong>Consider the full evening cost:</strong> Maddox&apos;s
+              <strong>Consider the full evening cost:</strong>{" "}Maddox&apos;s
               dinner-to-club format often costs less than a separate
               restaurant and club combination at comparable quality.
             </li>
@@ -328,7 +328,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
             London Bottle Service
           </a>{" "}
           provides direct bookings with full spend guidance. Our{" "}
-          <Link href="/contact">concierge team</Link> offers personalised
+          <Link href="/contact">concierge team</Link>{" "}offers personalised
           venue selection and table positioning based on your budget and
           requirements. For cost planning, our{" "}
           <Link href="/blog/how-much-does-night-out-mayfair-cost">

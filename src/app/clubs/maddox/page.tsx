@@ -137,7 +137,7 @@ export default function MaddoxPage() {
         <p>
           Maddox attracts a sophisticated, slightly older crowd compared to
           pure nightclub venues like{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> or{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}or{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>. The
           dinner-first format naturally filters for people who appreciate a
           slower build and a more refined evening. You will find couples on

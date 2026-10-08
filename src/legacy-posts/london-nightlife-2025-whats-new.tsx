@@ -67,7 +67,7 @@ export default function LondonNightlife2025Page() {
         <h3>TABU London</h3>
 
         <p>
-          <Link href="/clubs/tabu-london">TABU</Link> has quickly established
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}has quickly established
           itself as one of Mayfair&apos;s most compelling new entries. Located
           on Berkeley Street, it brings a modern sensibility to the
           bottle-service model — the design is sleek and contemporary, the
@@ -81,7 +81,7 @@ export default function LondonNightlife2025Page() {
         <h3>Luxx Club London</h3>
 
         <p>
-          <Link href="/clubs/luxx-club-london">Luxx Club</Link> represents the
+          <Link href="/clubs/luxx-club-london">Luxx Club</Link>{" "}represents the
           new generation of immersive nightlife. Its LED-driven light
           installations transform the room throughout the evening, creating an
           environment where the visual production is as much a part of the
@@ -94,7 +94,7 @@ export default function LondonNightlife2025Page() {
         <h3>Lio Club London</h3>
 
         <p>
-          <Link href="/clubs/lio-club-london">Lio Club</Link> brought the
+          <Link href="/clubs/lio-club-london">Lio Club</Link>{" "}brought the
           Ibiza dining-and-entertainment concept to London, and its arrival
           signals a broader trend. The format — a full dinner service with live
           entertainment that transitions seamlessly into a club night — has
@@ -111,7 +111,7 @@ export default function LondonNightlife2025Page() {
           2025. The traditional model — dinner at one venue, then a separate
           journey to a club — is being replaced by integrated experiences where
           dining and nightlife coexist under one roof.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> has refined this format
+          <Link href="/clubs/maddox">Maddox</Link>{" "}has refined this format
           over years, offering a restaurant experience that flows naturally
           into a club night without the disruption of changing venues. Lio Club
           has taken it further with theatrical entertainment woven through the
@@ -148,7 +148,7 @@ export default function LondonNightlife2025Page() {
           soundtrack for bottle-service rooms, and there is no indication this
           is changing. What is evolving is the growing presence of house music
           in venues that previously played it rarely.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> incorporates house and
+          <Link href="/clubs/maddox">Maddox</Link>{" "}incorporates house and
           disco elements into its programming, and{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>&apos;s upstairs
           space has leaned further into house and electronic music. This
@@ -176,7 +176,7 @@ export default function LondonNightlife2025Page() {
           <Link href="/clubs/luxx-club-london">Luxx Club</Link>&apos;s
           LED light shows create an environment that changes through the
           evening.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> continues
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}continues
           to evolve its circus-theatrical concept, adding new performers and
           acts that keep even regular visitors surprised. The London Reign
           offers a multi-floor journey from cabaret to nightclub. This is not
@@ -236,10 +236,10 @@ export default function LondonNightlife2025Page() {
         <p>
           Amidst the new openings and trends, the enduring strength of
           London&apos;s established venues is worth noting.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> remains the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}remains the
           definitive Mayfair experience — its celebrity draw, its music-industry
           DNA, and its consistently electric atmosphere are undiminished.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> has been
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}has been
           reinventing its format for over a decade and shows no sign of
           creative fatigue. Ministry of Sound, approaching its fourth decade,
           continues to attract the world&apos;s best DJs.{" "}

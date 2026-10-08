@@ -91,7 +91,7 @@ export default function HenleyRegattaLondonNightlifePage() {
           champagne-warmed crowd arrives back in the capital looking for
           somewhere to finish the day. That nightly migration quietly reshapes
           the city&apos;s{" "}
-          <Link href="/vip-nightlife-london">VIP nightlife</Link> for the best
+          <Link href="/vip-nightlife-london">VIP nightlife</Link>{" "}for the best
           part of a week.
         </p>
 
@@ -167,9 +167,9 @@ export default function HenleyRegattaLondonNightlifePage() {
           recent graduates, the international rowing families, who carry the
           week into proper nightlife. They gravitate to the established Mayfair
           rooms:{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link> suits the dinner-led,
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}suits the dinner-led,
           well-tailored end of the crowd, while{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> catches the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}catches the
           group that wants the night to escalate after a long, formal day. The
           common thread is polish: this is a crowd raised on dress codes, and
           it books rooms to match.
@@ -233,23 +233,23 @@ export default function HenleyRegattaLondonNightlifePage() {
           <h4>Quick Reference - Henley Royal Regatta Week in London</h4>
           <ul>
             <li>
-              <strong>When:</strong> End of June into the first weekend of
+              <strong>When:</strong>{" "}End of June into the first weekend of
               July, as of 2026
             </li>
             <li>
-              <strong>Busiest London nights:</strong> Friday and Saturday of
+              <strong>Busiest London nights:</strong>{" "}Friday and Saturday of
               finals weekend
             </li>
             <li>
-              <strong>The crowd:</strong> Old-money, collegiate, rowing alumni
+              <strong>The crowd:</strong>{" "}Old-money, collegiate, rowing alumni
               and international crews
             </li>
             <li>
-              <strong>The rhythm:</strong> Earlier starts, earlier peaks, a
+              <strong>The rhythm:</strong>{" "}Earlier starts, earlier peaks, a
               softer finish than a standard Mayfair weekend
             </li>
             <li>
-              <strong>Access reality:</strong> Crew and club celebrations are
+              <strong>Access reality:</strong>{" "}Crew and club celebrations are
               private; the wider luxury-room atmosphere is open to anyone
             </li>
           </ul>

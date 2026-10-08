@@ -239,23 +239,23 @@ export default function FriezeWeekLondonNightlifePage() {
           <h3 className="text-lg font-semibold mb-4">Frieze Week at a Glance</h3>
           <ul>
             <li>
-              <strong>When:</strong> A few days in mid-October each year, in
+              <strong>When:</strong>{" "}A few days in mid-October each year, in
               Regent&apos;s Park; confirm the published dates
             </li>
             <li>
-              <strong>Peak evening:</strong> Thursday, with Tuesday and
+              <strong>Peak evening:</strong>{" "}Thursday, with Tuesday and
               Wednesday close behind
             </li>
             <li>
-              <strong>Shape of the night:</strong> Private views from six,
+              <strong>Shape of the night:</strong>{" "}Private views from six,
               dinners from eight, members&apos; rooms from around ten thirty
             </li>
             <li>
-              <strong>Crowd:</strong> International, older, dinner-led, and
+              <strong>Crowd:</strong>{" "}International, older, dinner-led, and
               deliberately low-profile
             </li>
             <li>
-              <strong>Planning:</strong> Reserve restaurant tables well ahead;
+              <strong>Planning:</strong>{" "}Reserve restaurant tables well ahead;
               the after-dinner rooms are busy but manageable, as of September 2026
             </li>
           </ul>

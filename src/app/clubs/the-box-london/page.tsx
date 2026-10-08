@@ -81,7 +81,7 @@ export default function TheBoxLondonPage() {
           and a standing area that fills quickly on busy nights. The aesthetic is
           dark, theatrical, and unapologetically decadent, equal parts cabaret
           hall and underground speakeasy. Compared to the clean lines of a venue
-          like <Link href="/clubs/tape-london">Tape London</Link> or the
+          like <Link href="/clubs/tape-london">Tape London</Link>{" "}or the
           opulence of{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, The Box feels
           deliberately raw and unpolished. That roughness is part of the appeal.
@@ -206,7 +206,7 @@ export default function TheBoxLondonPage() {
           talk about than any other night out in the city. However, if
           provocative performances and an unconventional atmosphere are not what
           you are after, your money is better spent at a venue like{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> or{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
           <Link href="/clubs/maddox">Maddox Club</Link>, where the experience
           is luxurious but more predictable.
         </p>

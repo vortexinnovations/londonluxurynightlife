@@ -103,7 +103,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         </p>
 
         <div className="info-box">
-          <strong>The London Difference:</strong> Clubs here close between 3am
+          <strong>The London Difference:</strong>{" "}Clubs here close between 3am
           and 4am — far earlier than Ibiza or Berlin. This compresses the
           energy into a shorter window and means the atmosphere peaks hard
           between midnight and 2am. Plan accordingly.
@@ -125,7 +125,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         </p>
         <p>
           Within Mayfair you will find{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> on Hanover Square,
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover Square,
           the music-industry favourite;{" "}
           <Link href="/clubs/maddox">Maddox</Link>, which pairs Italian dining
           with late-night house music;{" "}
@@ -137,7 +137,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           that all of these exist within a few streets of each other is what
           makes Mayfair unique. Just north of Oxford Circus, in Fitzrovia and a
           short walk from Mayfair,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> is the refined newer
+          <Link href="/clubs/selene-london">Selene</Link>{" "}is the refined newer
           option.
         </p>
 
@@ -145,12 +145,12 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           Just east of Mayfair, Soho brings a grittier, more theatrical energy
           to the mix.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> on Ganton
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on Ganton
           Street is the standout — a circus-themed nightclub with live
           performers, fire breathers, and a celebrity clientele that has made it
           one of the most photographed venues in the city. The West End also
           hosts{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> on
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}on
           Piccadilly, an extravagant showclub where the entertainment is as much
           a draw as the party.
         </p>
@@ -158,7 +158,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Fitzrovia</h3>
         <p>
           North of Oxford Street,{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> on Margaret Street
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}on Margaret Street
           has carved out a reputation for pure, unfiltered nightclub energy.
           Less concerned with table politics and more focused on sound quality,
           BEAT attracts those who want to dance rather than be seen — while
@@ -168,7 +168,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
 
         <h3>South London</h3>
         <p>
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> at
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}at
           Elephant &amp; Castle is in a category of its own. Three decades of
           electronic music heritage, a sound system that remains one of the
           finest on the planet, and a global reputation that precedes it.
@@ -231,11 +231,11 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         </p>
 
         <div className="info-box">
-          <strong>Insider tip:</strong> If you are a smaller group of two to
+          <strong>Insider tip:</strong>{" "}If you are a smaller group of two to
           four, ask about bar tables or cocktail tables — these often have
           lower minimum spends than the main booths and still give you a
           dedicated space. Contact us via{" "}
-          <Link href="/contact">our concierge service</Link> and we can advise
+          <Link href="/contact">our concierge service</Link>{" "}and we can advise
           on the best option for your group size and budget.
         </div>
 
@@ -248,7 +248,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           well-fitted shirt, tailored trousers, and leather shoes for men;
           cocktail dresses, heels, and polished evening wear for women. No
           trainers, no sportswear, no ripped jeans, no shorts, no flip-flops.
-          Some venues like <Link href="/clubs/maddox">Maddox</Link> lean
+          Some venues like <Link href="/clubs/maddox">Maddox</Link>{" "}lean
           slightly more formal and prefer jackets for gentlemen, while{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           allows for more individuality. For a deep dive on this, read our{" "}
@@ -299,11 +299,11 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Hip-Hop &amp; RnB</h3>
         <p>
           If hip-hop is your priority,{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> is the flagship.
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is the flagship.
           Beloved by music industry insiders and the celebrity crowd that
           follows them, Tape plays the best in hip-hop, RnB, and commercial
           music in one of Mayfair&apos;s most exclusive settings.{" "}
-          <Link href="/clubs/selene-london">Selene</Link> also runs hip-hop
+          <Link href="/clubs/selene-london">Selene</Link>{" "}also runs hip-hop
           and RnB in a more refined room just north of Oxford Circus. TABU is now{" "}
           <Link href="/clubs/tabu-london">Rumour</Link>, booked under its new
           name.
@@ -311,7 +311,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
 
         <h3>House Music &amp; Electronic</h3>
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is the Mayfair destination
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the Mayfair destination
           for house music, pairing deep house and house sets with an elegant,
           mature crowd. For pure electronic music heritage,{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
@@ -325,10 +325,10 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           London excels at theatrical nightlife. For an experience that defies
           easy description,{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> fuses
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}fuses
           nightclub energy with live circus performance in a way that no other
           city has replicated.{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> on
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}on
           Piccadilly brings aerial acts and cabaret into a lavish showclub
           setting.
         </p>
@@ -336,7 +336,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Cocktail Bars &amp; Late-Night Lounges</h3>
         <p>
           Not every great night in London requires a dancefloor.{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is an opulent
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is an opulent
           Mayfair bar that transitions from world-class cocktails early in the
           evening to a late-night party atmosphere as the hours progress. It is
           perfect for groups who want elegance and energy without committing to
@@ -360,14 +360,14 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           The best luxury nights in London follow a rhythm. Start with dinner at
           8pm or 8:30pm — Mayfair has no shortage of outstanding restaurants,
-          and venues like <Link href="/clubs/maddox">Maddox</Link> offer the
+          and venues like <Link href="/clubs/maddox">Maddox</Link>{" "}offer the
           option of dining and clubbing under one roof. For more on combining dinner
           and nightlife, see our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide
           </Link>
           . After dinner, move to a cocktail bar like{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> for pre-club
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}for pre-club
           drinks around 10pm. Arrive at your main club between 11pm and
           midnight, and you will be perfectly timed for the peak hours ahead.
         </p>
@@ -407,7 +407,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
             corporate entertainment guide
           </Link>{" "}
           for detailed advice on making it work, or{" "}
-          <Link href="/contact">contact us directly</Link> for bespoke
+          <Link href="/contact">contact us directly</Link>{" "}for bespoke
           planning.
         </p>
 
@@ -416,8 +416,8 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           London&apos;s luxury clubs attract a genuinely A-list crowd, but the
           culture is markedly different from, say, a Las Vegas nightclub where
           celebrity appearances are announced and marketed.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> are
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}are
           particularly known for their celebrity clientele. For a full
           breakdown, see our{" "}
           <Link href="/guides/celebrity-clubs-london">

@@ -57,7 +57,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
         </p>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is built for
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is built for
           exactly this. The cocktail bar downstairs creates a natural starting
           point - arrive early, settle in with drinks, and let the evening
           build its own momentum before moving upstairs to the club floor. The
@@ -67,7 +67,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> offers a similar dual-level
+          <Link href="/clubs/maddox">Maddox</Link>{" "}offers a similar dual-level
           approach. The bar area at ground level handles the early part of the
           evening with quiet confidence, and the club below fills gradually as
           the night progresses. For couples, the corner tables in the lower
@@ -77,7 +77,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
 
         <p>
           If your partner values design and something contemporary,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> deserves
+          <Link href="/clubs/selene-london">Selene</Link>{" "}deserves
           consideration. It opened recently enough that the interiors still
           feel fresh, and its location just north of Oxford Circus, a short
           walk from Mayfair, keeps it close to the city&apos;s best dining
@@ -87,7 +87,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
         </p>
 
         <p>
-          <Link href="/clubs/luna-club-london">Luna</Link> is the
+          <Link href="/clubs/luna-club-london">Luna</Link>{" "}is the
           under-the-radar choice. It doesn&apos;t carry the name recognition of
           the legacy clubs, and that works in your favour. Tables are easier to
           secure, the atmosphere is consistently refined, and the music leans
@@ -141,7 +141,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
           anniversary. Most Mayfair clubs will accommodate requests for
           particular table positions - corners for privacy, slightly elevated
           spots for better views of the room.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> handles these
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}handles these
           requests particularly well, with its split-level layout creating
           natural pockets of intimacy even on busy nights.
         </p>
@@ -166,12 +166,12 @@ export default function AnniversaryNightOutLondonPlanningPage() {
         <div className="info-box">
           <h4>Quick Reference - Anniversary Night Planning</h4>
           <ul>
-            <li><strong>Dinner booking:</strong> 8pm-8:30pm, within walking distance of your club</li>
-            <li><strong>Club arrival:</strong> 10:30pm-11pm for the best atmosphere</li>
-            <li><strong>Table booking:</strong> Contact the venue at least one week ahead</li>
-            <li><strong>Budget for two:</strong> &pound;300-&pound;600 depending on bottle service</li>
-            <li><strong>Dress code:</strong> Smart and considered - check the venue&apos;s specific requirements</li>
-            <li><strong>Transport home:</strong> Pre-book to avoid the 2am surge pricing</li>
+            <li><strong>Dinner booking:</strong>{" "}8pm-8:30pm, within walking distance of your club</li>
+            <li><strong>Club arrival:</strong>{" "}10:30pm-11pm for the best atmosphere</li>
+            <li><strong>Table booking:</strong>{" "}Contact the venue at least one week ahead</li>
+            <li><strong>Budget for two:</strong>{" "}&pound;300-&pound;600 depending on bottle service</li>
+            <li><strong>Dress code:</strong>{" "}Smart and considered - check the venue&apos;s specific requirements</li>
+            <li><strong>Transport home:</strong>{" "}Pre-book to avoid the 2am surge pricing</li>
           </ul>
         </div>
 

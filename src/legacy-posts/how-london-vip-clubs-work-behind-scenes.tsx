@@ -183,7 +183,7 @@ export default function HowLondonVIPClubsWorkBehindScenesPage() {
               &pound;350&ndash;&pound;500
             </li>
             <li>
-              <strong>Typical markup:</strong> 8&ndash;12x wholesale
+              <strong>Typical markup:</strong>{" "}8&ndash;12x wholesale
             </li>
             <li>
               <strong>Average table spend on a Saturday:</strong>{" "}
@@ -252,20 +252,20 @@ export default function HowLondonVIPClubsWorkBehindScenesPage() {
 
         <ul>
           <li>
-            <strong>The promoter or concierge:</strong> Your external contact.
+            <strong>The promoter or concierge:</strong>{" "}Your external contact.
             They recommend the venue, secure the booking, handle
             communications before the evening, and are your point of contact
             if anything needs adjusting. They may or may not be present at the
             venue on the night.
           </li>
           <li>
-            <strong>The booker:</strong> Works within the venue managing the
+            <strong>The booker:</strong>{" "}Works within the venue managing the
             table plan and reservations. They allocate table positions, manage
             the evening&apos;s bookings, and coordinate with promoters. You
             may never interact with the booker directly.
           </li>
           <li>
-            <strong>The VIP host:</strong> Your in-venue contact. They escort
+            <strong>The VIP host:</strong>{" "}Your in-venue contact. They escort
             you to your table, take your bottle orders, pour your drinks, keep
             your area clean, and manage your experience from arrival to
             departure. The host is the person you interact with most on the
@@ -321,37 +321,37 @@ export default function HowLondonVIPClubsWorkBehindScenesPage() {
 
         <ul>
           <li>
-            <strong>4pm &ndash; 6pm:</strong> Setup begins. Sound checks,
+            <strong>4pm &ndash; 6pm:</strong>{" "}Setup begins. Sound checks,
             lighting adjustments, bar stock, and table preparation. The
             booker finalises the table plan based on confirmed reservations.
           </li>
           <li>
-            <strong>6pm &ndash; 9pm:</strong> Pre-event briefing for floor
+            <strong>6pm &ndash; 9pm:</strong>{" "}Pre-event briefing for floor
             staff and security. Hosts are assigned to specific tables.
             Promoters confirm final guest details with the door team.
           </li>
           <li>
-            <strong>9pm &ndash; 10:30pm:</strong> Doors open. The room is
+            <strong>9pm &ndash; 10:30pm:</strong>{" "}Doors open. The room is
             deliberately quiet. A few early table bookings and guestlist
             arrivals. Staff prepare for the rush.
           </li>
           <li>
-            <strong>10:30pm &ndash; midnight:</strong> The main arrival
+            <strong>10:30pm &ndash; midnight:</strong>{" "}The main arrival
             window. Table bookings check in, guestlist entries flow through
             the door. The room begins to fill. First bottle orders are placed.
           </li>
           <li>
-            <strong>Midnight &ndash; 1:30am:</strong> Peak atmosphere. The
+            <strong>Midnight &ndash; 1:30am:</strong>{" "}Peak atmosphere. The
             dance floor is full, every table is occupied, the bar is busy.
             The DJ is playing their strongest sets. This is the golden window.
           </li>
           <li>
-            <strong>1:30am &ndash; 3am:</strong> Sustained energy but the
+            <strong>1:30am &ndash; 3am:</strong>{" "}Sustained energy but the
             crowd begins to thin after 2am. Second and third bottle orders
             keep tables active. The door may close to new entries.
           </li>
           <li>
-            <strong>3am onwards:</strong> Last orders, bills, and wind-down.
+            <strong>3am onwards:</strong>{" "}Last orders, bills, and wind-down.
             Security manages the exit. Taxis queue outside. The venue clears
             and the cleanup begins.
           </li>

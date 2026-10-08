@@ -104,7 +104,7 @@ export default function BestLondonClubsOver30sPage() {
           professionals, entrepreneurs, visiting executives, and people
           celebrating occasions that warrant spending properly. The median age
           reflects this naturally. Walk into{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> on a
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}on a
           Friday evening and you will see a room of confident, well-dressed
           adults having a genuinely good time — not a foam party in sight.
         </p>
@@ -123,7 +123,7 @@ export default function BestLondonClubsOver30sPage() {
         <h3>Scotch of St James</h3>
 
         <p>
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link> is
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}is
           perhaps the most naturally over-30s-friendly club in London. Tucked
           away on Mason&apos;s Yard in Mayfair, it carries decades of heritage
           dating back to the 1960s. The crowd is cultured, the atmosphere is
@@ -137,7 +137,7 @@ export default function BestLondonClubsOver30sPage() {
         <h3>Maddox Club</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox Club</Link> is a restaurant-nightclub
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}is a restaurant-nightclub
           hybrid that exemplifies the dinner-to-dancing format many over-30s
           groups prefer. Start with Italian dining upstairs, then transition to
           deep house and house music into the early hours. The crowd is polished,
@@ -150,7 +150,7 @@ export default function BestLondonClubsOver30sPage() {
         <h3>Dear Darling</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is the most
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
           elegant option on this list. An opulent Mayfair space draped in
           chandeliers and velvet, where world-class cocktails transition into
           late-night music. The early evening is cocktail-bar civilised; the
@@ -163,7 +163,7 @@ export default function BestLondonClubsOver30sPage() {
         <h3>Tape London</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> operates as a
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}operates as a
           members&apos; club on Hanover Square, and the members&apos; club
           format naturally selects for a more mature, connected crowd. Music
           industry figures, celebrities, and well-established professionals
@@ -185,26 +185,26 @@ export default function BestLondonClubsOver30sPage() {
           <h4>How Mayfair Nightlife Differs from Your 20s</h4>
           <ul>
             <li>
-              <strong>No queuing in the cold:</strong> With a table booking, you
+              <strong>No queuing in the cold:</strong>{" "}With a table booking, you
               give your name at the door and walk straight in.
             </li>
             <li>
-              <strong>No fighting for the bar:</strong> Your host brings
+              <strong>No fighting for the bar:</strong>{" "}Your host brings
               everything to your table. Bottles, mixers, ice — all managed for
               you.
             </li>
             <li>
-              <strong>Somewhere to sit:</strong> This alone transforms the
+              <strong>Somewhere to sit:</strong>{" "}This alone transforms the
               evening. Your table is your base for the entire night.
             </li>
             <li>
-              <strong>A dress code that works in your favour:</strong> Looking
+              <strong>A dress code that works in your favour:</strong>{" "}Looking
               sharp at 35 is easier than looking sharp at 22. The{" "}
               <Link href="/london-club-dress-code-guide">dress code</Link>{" "}
               rewards maturity.
             </li>
             <li>
-              <strong>Conversation is possible:</strong> Table areas are
+              <strong>Conversation is possible:</strong>{" "}Table areas are
               designed so you can actually talk to the people you came with.
             </li>
           </ul>
@@ -251,19 +251,19 @@ export default function BestLondonClubsOver30sPage() {
 
         <ul>
           <li>
-            <strong>Thursday:</strong> The sweet spot. Busy enough to have
+            <strong>Thursday:</strong>{" "}The sweet spot. Busy enough to have
             atmosphere, but the crowd is predominantly professional — people who
             go out midweek tend to be established and deliberate about their
             evenings. Many Mayfair clubs open their week on Thursdays.
           </li>
           <li>
-            <strong>Friday:</strong> Excellent energy across every venue. Friday
+            <strong>Friday:</strong>{" "}Excellent energy across every venue. Friday
             draws the after-work crowd and visitors, so the demographic is
             broad but weighted toward working professionals. The atmosphere is
             celebratory without being chaotic.
           </li>
           <li>
-            <strong>Saturday:</strong> The highest energy night and the most
+            <strong>Saturday:</strong>{" "}The highest energy night and the most
             mixed in terms of age. Saturdays attract everyone, including younger
             groups on special occasions. With a table, this matters less — you
             have your own space regardless.
@@ -286,29 +286,29 @@ export default function BestLondonClubsOver30sPage() {
 
         <ul>
           <li>
-            <strong>Book in advance.</strong> Always. Walking up without a
+            <strong>Book in advance.</strong>{" "}Always. Walking up without a
             booking at 35 is not the same as walking up at 22. A table or
             guestlist reservation removes all uncertainty.
           </li>
           <li>
-            <strong>Arrive at the right time.</strong> Between 11pm and midnight
+            <strong>Arrive at the right time.</strong>{" "}Between 11pm and midnight
             is the window. Arriving at 9:30pm means sitting in an empty room
             feeling self-conscious. Arriving at 1am means dealing with a
             harder door.
           </li>
           <li>
-            <strong>Dress with intention.</strong> The{" "}
-            <Link href="/london-club-dress-code-guide">dress code</Link> at
+            <strong>Dress with intention.</strong>{" "}The{" "}
+            <Link href="/london-club-dress-code-guide">dress code</Link>{" "}at
             Mayfair clubs rewards quality and effort. You do not need to dress
             young — you need to dress well.
           </li>
           <li>
-            <strong>Do not over-commit on the night.</strong> One great venue
+            <strong>Do not over-commit on the night.</strong>{" "}One great venue
             for three or four hours is infinitely better than venue-hopping
             between three places. This is not a pub crawl.
           </li>
           <li>
-            <strong>Use a concierge.</strong> A{" "}
+            <strong>Use a concierge.</strong>{" "}A{" "}
             <Link href="/vip-nightlife-london">VIP concierge service</Link>{" "}
             handles the logistics — venue selection, booking, guestlist — so
             you simply turn up and enjoy the evening.

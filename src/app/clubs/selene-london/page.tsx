@@ -75,9 +75,9 @@ export default function SeleneLondonPage() {
 
         <p>
           Where a venue like{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> overwhelms
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}overwhelms
           the senses with visual spectacle, and{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> deliberately
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}deliberately
           provokes, Selene seduces through understatement. The design draws
           inspiration from some of the world&apos;s finest hotel bars and
           private members&apos; clubs, spaces where the luxury is in what has
@@ -206,9 +206,9 @@ export default function SeleneLondonPage() {
         <p>
           If Selene&apos;s refined approach appeals to you, consider also
           exploring{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> for a similarly
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}for a similarly
           elegant atmosphere with a cocktail-forward approach, or{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link> for a venue that
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}for a venue that
           combines dinner with late-night house music. Our{" "}
           <Link href="/guides/celebrity-clubs-london">
             guide to celebrity clubs in London

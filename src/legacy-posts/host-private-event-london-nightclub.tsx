@@ -62,30 +62,30 @@ export default function HostPrivateEventLondonNightclubPage() {
         </p>
 
         <p>
-          <strong>Full venue hire</strong> gives you the entire club for your
+          <strong>Full venue hire</strong>{" "}gives you the entire club for your
           guests only. This is the premium option — no general admission, no
           strangers, complete control over music and lighting. Venues like{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link> and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> both offer full
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}and{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}both offer full
           buyouts for private events, typically on quieter midweek nights or for
           Sunday through Tuesday bookings. Expect minimum spends starting from
           &pound;5,000 and climbing significantly for Friday or Saturday nights.
         </p>
 
         <p>
-          <strong>Private room hire</strong> is the more common option. Most
+          <strong>Private room hire</strong>{" "}is the more common option. Most
           Mayfair clubs have dedicated spaces — separate rooms, mezzanine areas,
           or cordoned VIP sections — that can be reserved exclusively for your
           group while the rest of the club operates as normal.{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           has its downstairs space that works perfectly for groups of 30 to 80.{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> offers its
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}offers its
           cocktail lounge for early-evening events before the club opens to
           the public.
         </p>
 
         <p>
-          <strong>Enhanced table packages</strong> sit between a standard VIP
+          <strong>Enhanced table packages</strong>{" "}sit between a standard VIP
           table and a private hire. You get a prime section of the club, a
           dedicated host, and an elevated drinks package — but the rest of the
           venue remains open. This works well for groups of 10 to 25 who want
@@ -102,7 +102,7 @@ export default function HostPrivateEventLondonNightclubPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox Club</Link> is one of London&apos;s
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}is one of London&apos;s
           most versatile private event spaces. The multi-level layout means you
           can take over one floor while the other remains open, or hire the whole
           venue for up to 350 guests. The club&apos;s central Mayfair location
@@ -111,7 +111,7 @@ export default function HostPrivateEventLondonNightclubPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> is the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}is the
           obvious pick for events that need spectacle. The resident performers,
           theatrical staging, and immersive environment do the heavy lifting for
           entertainment — your event automatically has a talking point. Private
@@ -121,7 +121,7 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p>
           For smaller, more refined gatherings,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> offers an intimate
+          <Link href="/clubs/selene-london">Selene</Link>{" "}offers an intimate
           setting that suits dinners transitioning into late-night drinks. The
           newer West End venues tend to be more flexible with bespoke packages
           because they&apos;re actively building their events portfolio.
@@ -162,11 +162,11 @@ export default function HostPrivateEventLondonNightclubPage() {
         <div className="info-box">
           <h4>Quick Reference — Private Event Essentials</h4>
           <ul>
-            <li><strong>Lead time:</strong> 4-8 weeks for weekends, 2-3 weeks for midweek</li>
-            <li><strong>Minimum spend:</strong> From &pound;2,000 (private room) to &pound;15,000+ (full venue Saturday)</li>
-            <li><strong>Typical capacity:</strong> Private rooms 20-80, full venue 150-400</li>
-            <li><strong>What&apos;s included:</strong> Dedicated bar staff, sound system, security, host</li>
-            <li><strong>What costs extra:</strong> Bespoke menus, performers, branding, AV setup</li>
+            <li><strong>Lead time:</strong>{" "}4-8 weeks for weekends, 2-3 weeks for midweek</li>
+            <li><strong>Minimum spend:</strong>{" "}From &pound;2,000 (private room) to &pound;15,000+ (full venue Saturday)</li>
+            <li><strong>Typical capacity:</strong>{" "}Private rooms 20-80, full venue 150-400</li>
+            <li><strong>What&apos;s included:</strong>{" "}Dedicated bar staff, sound system, security, host</li>
+            <li><strong>What costs extra:</strong>{" "}Bespoke menus, performers, branding, AV setup</li>
           </ul>
         </div>
 
@@ -184,10 +184,10 @@ export default function HostPrivateEventLondonNightclubPage() {
         <p>
           Beyond the basics, most clubs offer additions that can elevate the
           event.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> can incorporate
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}can incorporate
           elements of their signature performance shows into private events.
           Several{" "}
-          <Link href="/vip-nightlife-london">VIP-focused venues</Link> offer
+          <Link href="/vip-nightlife-london">VIP-focused venues</Link>{" "}offer
           bespoke drinks menus, branded collateral (ice buckets, napkins,
           projections), and canapé or dinner service before the main event.
         </p>
@@ -217,7 +217,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           Friday night could start at &pound;10,000 to &pound;15,000 depending
           on the venue&apos;s profile and your date. Saturday nights at top-tier
           venues like Maddox or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> command the
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}command the
           highest premiums.
         </p>
 

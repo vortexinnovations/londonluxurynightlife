@@ -113,7 +113,7 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Tape London</h3>
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> on Hanover
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover
           Square is arguably at its best on Thursday. The music industry crowd
           that defines this venue&apos;s character is more present midweek
           than on the busier weekend nights. The room feels more exclusive,
@@ -137,7 +137,7 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Cuckoo Club</h3>
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
           Street runs a well-established Thursday night. The two-floor format
           — house music downstairs, hip-hop upstairs — gives you options
           within a single venue, which is particularly useful on a night when
@@ -160,7 +160,7 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Funky Buddha</h3>
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on Berkeley
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
           Street has been a Mayfair fixture for over a decade, and its
           Thursday night carries a distinct personality. The hip-hop and RnB
           programming is tight, the crowd is predominantly regulars and
@@ -172,7 +172,7 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Dear Darling</h3>
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> straddles the
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}straddles the
           line between cocktail bar and late-night venue, which makes it
           particularly effective on Thursday. You can arrive earlier in the
           evening for world-class cocktails in an opulent, chandelier-lit
@@ -184,7 +184,7 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Luna Club London</h3>
         <p>
-          <Link href="/clubs/luna-club-london">Luna Club London</Link> brings
+          <Link href="/clubs/luna-club-london">Luna Club London</Link>{" "}brings
           a contemporary edge to Thursday nightlife. As one of Mayfair&apos;s
           newer venues, it is still building its Thursday identity, which
           means the crowd tends to be early adopters and the curious — exactly
@@ -210,28 +210,28 @@ export default function BestThursdayNightClubsLondonPage() {
           <h4>Thursday Night Quick Guide</h4>
           <ul>
             <li>
-              <strong>Music industry atmosphere:</strong> Tape London
+              <strong>Music industry atmosphere:</strong>{" "}Tape London
             </li>
             <li>
-              <strong>Visually unique setting:</strong> TABU London
+              <strong>Visually unique setting:</strong>{" "}TABU London
             </li>
             <li>
-              <strong>Two genres, one venue:</strong> Cuckoo Club
+              <strong>Two genres, one venue:</strong>{" "}Cuckoo Club
             </li>
             <li>
-              <strong>Historic, eclectic energy:</strong> Scotch of St James
+              <strong>Historic, eclectic energy:</strong>{" "}Scotch of St James
             </li>
             <li>
-              <strong>Reliable hip-hop and RnB:</strong> Funky Buddha
+              <strong>Reliable hip-hop and RnB:</strong>{" "}Funky Buddha
             </li>
             <li>
-              <strong>Cocktails to late-night:</strong> Dear Darling
+              <strong>Cocktails to late-night:</strong>{" "}Dear Darling
             </li>
             <li>
-              <strong>Contemporary newcomer:</strong> Luna Club London
+              <strong>Contemporary newcomer:</strong>{" "}Luna Club London
             </li>
             <li>
-              <strong>Refined elegance:</strong> Selene London
+              <strong>Refined elegance:</strong>{" "}Selene London
             </li>
           </ul>
         </div>

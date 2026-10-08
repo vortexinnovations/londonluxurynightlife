@@ -200,23 +200,23 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
           <h4>Quick Reference - Goodwood Week in London</h4>
           <ul>
             <li>
-              <strong>When:</strong> Five days at the end of July on the Sussex
+              <strong>When:</strong>{" "}Five days at the end of July on the Sussex
               Downs, as of 2026
             </li>
             <li>
-              <strong>Midweek in London:</strong> The quietest premium nights of
+              <strong>Midweek in London:</strong>{" "}The quietest premium nights of
               the summer, and the smartest value play
             </li>
             <li>
-              <strong>The finale:</strong> The first weekend after the racing,
+              <strong>The finale:</strong>{" "}The first weekend after the racing,
               London&apos;s true end-of-season night
             </li>
             <li>
-              <strong>What follows:</strong> The August dispersal to the Med and
+              <strong>What follows:</strong>{" "}The August dispersal to the Med and
               the peak of the international visitor season
             </li>
             <li>
-              <strong>Smart move:</strong> Book the finale weekend early; take
+              <strong>Smart move:</strong>{" "}Book the finale weekend early; take
               the festival midweek for space
             </li>
           </ul>

@@ -105,7 +105,7 @@ export default function BestCocktailBarsMayfairPage() {
           masterclass in art deco elegance, and the signature martini trolley
           service is an experience in itself. Cocktails start around
           &pound;22. The Connaught is a five-minute walk from{" "}
-          <Link href="/clubs/maddox">Maddox Club</Link> and within easy
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}and within easy
           reach of most Mayfair venues. Best for groups who want pre-drinks
           to feel like an event rather than a warm-up.
         </p>
@@ -118,7 +118,7 @@ export default function BestCocktailBarsMayfairPage() {
           balances familiar spirits with unexpected flavour combinations.
           Cocktails range from &pound;17 to &pound;23. Its Piccadilly
           location makes it particularly convenient for{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> and the
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and the
           Berkeley Street clubs. Best for groups who want something visually
           distinctive.
         </p>
@@ -142,7 +142,7 @@ export default function BestCocktailBarsMayfairPage() {
           house-made ingredients, and combinations you will not find
           elsewhere. Cocktails from &pound;16. Located between Soho and
           Mayfair, it works well as a pre-club stop before heading to{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> or the Soho
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}or the Soho
           venues. Best for groups who take cocktails seriously.
         </p>
 
@@ -188,19 +188,19 @@ export default function BestCocktailBarsMayfairPage() {
           <h4>The Ideal Pre-Club Timeline</h4>
           <ul>
             <li>
-              <strong>8:30pm &ndash; 9:00pm:</strong> Arrive at the cocktail
+              <strong>8:30pm &ndash; 9:00pm:</strong>{" "}Arrive at the cocktail
               bar. Secure your spot before the later rush.
             </li>
             <li>
-              <strong>9:00pm &ndash; 10:15pm:</strong> Enjoy two to three
+              <strong>9:00pm &ndash; 10:15pm:</strong>{" "}Enjoy two to three
               cocktails. This is the social heart of pre-drinks.
             </li>
             <li>
-              <strong>10:15pm &ndash; 10:30pm:</strong> Settle the bill,
+              <strong>10:15pm &ndash; 10:30pm:</strong>{" "}Settle the bill,
               regroup, freshen up.
             </li>
             <li>
-              <strong>10:30pm &ndash; 11:00pm:</strong> Walk to the club.
+              <strong>10:30pm &ndash; 11:00pm:</strong>{" "}Walk to the club.
               Arrive within the ideal entry window.
             </li>
           </ul>
@@ -254,23 +254,23 @@ export default function BestCocktailBarsMayfairPage() {
           <h4>Proximity Pairings</h4>
           <ul>
             <li>
-              <strong>Before Maddox Club:</strong> Connaught Bar or
+              <strong>Before Maddox Club:</strong>{" "}Connaught Bar or
               Claridge&apos;s Fumoir (both under 5 minutes walk)
             </li>
             <li>
-              <strong>Before Cuckoo Club:</strong> Nightjar Carnaby or Kwant
+              <strong>Before Cuckoo Club:</strong>{" "}Nightjar Carnaby or Kwant
               (both under 10 minutes walk)
             </li>
             <li>
-              <strong>Before Funky Buddha:</strong> Sexy Fish Bar (2 minutes
+              <strong>Before Funky Buddha:</strong>{" "}Sexy Fish Bar (2 minutes
               walk on Berkeley Square)
             </li>
             <li>
-              <strong>Before Dear Darling:</strong> Kwant or Mr Fogg&apos;s
+              <strong>Before Dear Darling:</strong>{" "}Kwant or Mr Fogg&apos;s
               Residence
             </li>
             <li>
-              <strong>Before Tape London:</strong> Connaught Bar or Mr
+              <strong>Before Tape London:</strong>{" "}Connaught Bar or Mr
               Fogg&apos;s Residence
             </li>
           </ul>

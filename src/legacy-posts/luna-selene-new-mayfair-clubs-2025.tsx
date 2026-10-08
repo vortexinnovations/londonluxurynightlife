@@ -41,13 +41,13 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <p>
           Mayfair&apos;s nightclub scene is not static. While iconic venues
           like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> and{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           continue to draw loyal crowds, a new generation of venues is
           emerging with fresh design, contemporary programming, and a younger
           affluent audience.{" "}
-          <Link href="/clubs/luna-club-london">Luna Club London</Link> and{" "}
-          <Link href="/clubs/selene-london">Selene London</Link> are the
+          <Link href="/clubs/luna-club-london">Luna Club London</Link>{" "}and{" "}
+          <Link href="/clubs/selene-london">Selene London</Link>{" "}are the
           most notable additions — and both are worth understanding if you
           are planning a night in Mayfair. One note on geography: Selene is
           not in Mayfair itself. It is at 4 Winsley Street in Fitzrovia, in
@@ -70,8 +70,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <p>
           The music policy is open format with a hip-hop and R&amp;B centre
           of gravity. This positions Luna alongside venues like{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> rather than
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}and{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}rather than
           the house music territory occupied by{" "}
           <Link href="/clubs/maddox">Maddox</Link>. The DJs lean younger
           and more contemporary, which attracts a crowd that matches — late
@@ -124,14 +124,14 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <div className="info-box">
           <h4>Luna Club vs Selene: At a Glance</h4>
           <ul>
-            <li><strong>Energy level:</strong> Luna = higher, more dynamic / Selene = lower, more refined</li>
-            <li><strong>Design:</strong> Luna = contemporary, sleek / Selene = elegant, considered</li>
-            <li><strong>Crowd:</strong> Luna = younger, energetic / Selene = older, discerning</li>
-            <li><strong>Music:</strong> Both hip-hop/R&amp;B focused. Luna louder, Selene more curated</li>
-            <li><strong>Best for:</strong> Luna = groups wanting energy / Selene = couples and smaller groups wanting sophistication</li>
-            <li><strong>Tables from:</strong> Both from &pound;1,000</li>
-            <li><strong>Location:</strong> Luna = Mayfair / Selene = 4 Winsley Street, Fitzrovia, just north of Oxford Circus</li>
-            <li><strong>Open:</strong> Luna = Thursday to Saturday / Selene = Thursday to Sunday</li>
+            <li><strong>Energy level:</strong>{" "}Luna = higher, more dynamic / Selene = lower, more refined</li>
+            <li><strong>Design:</strong>{" "}Luna = contemporary, sleek / Selene = elegant, considered</li>
+            <li><strong>Crowd:</strong>{" "}Luna = younger, energetic / Selene = older, discerning</li>
+            <li><strong>Music:</strong>{" "}Both hip-hop/R&amp;B focused. Luna louder, Selene more curated</li>
+            <li><strong>Best for:</strong>{" "}Luna = groups wanting energy / Selene = couples and smaller groups wanting sophistication</li>
+            <li><strong>Tables from:</strong>{" "}Both from &pound;1,000</li>
+            <li><strong>Location:</strong>{" "}Luna = Mayfair / Selene = 4 Winsley Street, Fitzrovia, just north of Oxford Circus</li>
+            <li><strong>Open:</strong>{" "}Luna = Thursday to Saturday / Selene = Thursday to Sunday</li>
           </ul>
         </div>
 
@@ -144,18 +144,18 @@ export default function LunaSeleneNewMayfairClubsPage() {
           is still finding its identity. What they lack, and can only build
           with time, is the institutional confidence that comes from years
           of proven execution.{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> knows its
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}knows its
           room, its crowd, and its rhythm with a certainty that newer venues
           are still developing.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> has
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}has
           relationships with artists and a reputation for privacy that cannot
           be manufactured overnight.
         </p>
 
         <p>
           The smart approach is to experience both the established and the
-          new. Try <Link href="/clubs/tape-london">Tape</Link> or{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on one night
+          new. Try <Link href="/clubs/tape-london">Tape</Link>{" "}or{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on one night
           and Luna or Selene on another. The contrast is instructive and
           enjoyable. For a full ranking of the Mayfair venues, and where
           Luna and Selene sit alongside them, see our{" "}
@@ -166,7 +166,7 @@ export default function LunaSeleneNewMayfairClubsPage() {
         </p>
 
         <p>
-          <Link href="/contact">Contact our team</Link> for bookings at
+          <Link href="/contact">Contact our team</Link>{" "}for bookings at
           either venue or for a recommendation based on your group and
           preferences. For international visitors planning their London
           nightlife itinerary, our{" "}

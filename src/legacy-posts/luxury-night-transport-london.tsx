@@ -84,7 +84,7 @@ export default function LuxuryNightTransportLondonPage() {
           touches a taxi rank. It ends the way it began: a door held open, a
           quiet pavement, and a car that is already there. I have spent enough
           late nights around the capital&apos;s{" "}
-          <Link href="/vip-nightlife-london">VIP nightlife</Link> to know that
+          <Link href="/vip-nightlife-london">VIP nightlife</Link>{" "}to know that
           the most reliable tell of serious money is not the table, the magnum
           or the watch. It is the transport, arranged hours earlier, idling in
           the dark two streets away, timed to the minute. This is how the
@@ -172,23 +172,23 @@ export default function LuxuryNightTransportLondonPage() {
           <h4>Quick Reference - Luxury Night Transport in London</h4>
           <ul>
             <li>
-              <strong>Book:</strong> 24 to 48 hours ahead for a dedicated
+              <strong>Book:</strong>{" "}24 to 48 hours ahead for a dedicated
               evening car, earlier in event weeks, as of July 2026
             </li>
             <li>
-              <strong>Minimums:</strong> Four to six hours is the standard
+              <strong>Minimums:</strong>{" "}Four to six hours is the standard
               evening block
             </li>
             <li>
-              <strong>Chauffeur vs security driver:</strong> Service polish vs
+              <strong>Chauffeur vs security driver:</strong>{" "}Service polish vs
               SIA-licensed protection and route planning
             </li>
             <li>
-              <strong>The handover:</strong> The door team cues the driver
+              <strong>The handover:</strong>{" "}The door team cues the driver
               before you reach the pavement
             </li>
             <li>
-              <strong>Smart move:</strong> Pre-agree a pick-up point two
+              <strong>Smart move:</strong>{" "}Pre-agree a pick-up point two
               streets from the venue
             </li>
           </ul>

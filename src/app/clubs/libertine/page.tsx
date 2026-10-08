@@ -45,7 +45,7 @@ export default function LibertinePage() {
             <strong>Music (when open):</strong> {club.musicStyle}
           </p>
           <p>
-            <strong>Status:</strong> Closed. Selene London now operates in its place.
+            <strong>Status:</strong>{" "}Closed. Selene London now operates in its place.
           </p>
         </div>
 

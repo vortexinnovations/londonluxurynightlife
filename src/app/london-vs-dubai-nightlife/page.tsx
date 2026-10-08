@@ -114,14 +114,14 @@ export default function LondonVsDubaiNightlifePage() {
           has one of the most diverse and credible music scenes of any
           nightlife city in the world. From the hip-hop and R&amp;B
           programming at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, to the
           house music at{" "}
           <Link href="/clubs/maddox">Maddox</Link>, to the eclectic
           programming at{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>
           , to the sound-system-first approach at{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> — the
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}— the
           variety is genuine and the quality is high. Our guides to the{" "}
           <Link href="/best-hip-hop-clubs-london">
             best hip-hop clubs
@@ -194,7 +194,7 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           London&apos;s celebrity nightlife is defined by privacy. Venues
-          like <Link href="/clubs/tape-london">Tape London</Link> enforce
+          like <Link href="/clubs/tape-london">Tape London</Link>{" "}enforce
           strict no-phone policies, creating spaces where high-profile
           guests can relax without surveillance. The celebrity presence in
           London is genuine but invisible — you might share a room with a
@@ -329,7 +329,7 @@ export default function LondonVsDubaiNightlifePage() {
           straightforward. Secure a table booking through a reputable
           promoter or concierge — our team works with every premium venue
           in the city.{" "}
-          <Link href="/contact">Contact us</Link> with your dates and
+          <Link href="/contact">Contact us</Link>{" "}with your dates and
           preferences. For self-service bookings,{" "}
           <a
             href={ECOSYSTEM.bottleService.url}

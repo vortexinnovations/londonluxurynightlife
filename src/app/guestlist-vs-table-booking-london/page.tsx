@@ -89,9 +89,9 @@ export default function GuestlistVsTableBookingLondonPage() {
         <p>
           We have used both routes at every major London club, and the honest
           truth is that the right choice varies wildly by circumstance. A
-          table at <Link href="/clubs/tape-london">Tape London</Link> on a
+          table at <Link href="/clubs/tape-london">Tape London</Link>{" "}on a
           Saturday is non-negotiable — guestlist is essentially decorative.
-          A table at <Link href="/clubs/maddox">Maddox</Link> on a
+          A table at <Link href="/clubs/maddox">Maddox</Link>{" "}on a
           Wednesday is a luxury rather than a necessity. This guide gives
           you the specific information needed to make the right call for your
           particular evening.
@@ -123,12 +123,12 @@ export default function GuestlistVsTableBookingLondonPage() {
         <div className="info-box">
           <h4>Guestlist: The Honest Summary</h4>
           <ul>
-            <li><strong>Cost:</strong> Free to &pound;15 per person (vs &pound;20-30 walk-up cover)</li>
-            <li><strong>Entry guarantee:</strong> No. Priority only.</li>
-            <li><strong>Reserved space:</strong> No. You stand or find seating as available.</li>
-            <li><strong>Drinks included:</strong> No. Bar prices apply.</li>
-            <li><strong>Best for:</strong> Couples, small groups, budget-conscious nights, midweek visits</li>
-            <li><strong>Worst for:</strong> Peak weekend nights at exclusive venues, large groups, celebrations</li>
+            <li><strong>Cost:</strong>{" "}Free to &pound;15 per person (vs &pound;20-30 walk-up cover)</li>
+            <li><strong>Entry guarantee:</strong>{" "}No. Priority only.</li>
+            <li><strong>Reserved space:</strong>{" "}No. You stand or find seating as available.</li>
+            <li><strong>Drinks included:</strong>{" "}No. Bar prices apply.</li>
+            <li><strong>Best for:</strong>{" "}Couples, small groups, budget-conscious nights, midweek visits</li>
+            <li><strong>Worst for:</strong>{" "}Peak weekend nights at exclusive venues, large groups, celebrations</li>
           </ul>
         </div>
 
@@ -166,12 +166,12 @@ export default function GuestlistVsTableBookingLondonPage() {
         <div className="info-box">
           <h4>Table Booking: The Honest Summary</h4>
           <ul>
-            <li><strong>Cost:</strong> &pound;500-1,500+ minimum spend (venue dependent)</li>
-            <li><strong>Entry guarantee:</strong> Yes. The closest thing to guaranteed in London nightlife.</li>
-            <li><strong>Reserved space:</strong> Yes. Your table for the entire evening.</li>
-            <li><strong>Drinks included:</strong> Your spend goes towards bottles at venue prices.</li>
-            <li><strong>Best for:</strong> Groups of 4+, weekend nights, exclusive venues, celebrations</li>
-            <li><strong>Worst for:</strong> Couples on a budget, casual midweek nights, venue-hopping</li>
+            <li><strong>Cost:</strong>{" "}&pound;500-1,500+ minimum spend (venue dependent)</li>
+            <li><strong>Entry guarantee:</strong>{" "}Yes. The closest thing to guaranteed in London nightlife.</li>
+            <li><strong>Reserved space:</strong>{" "}Yes. Your table for the entire evening.</li>
+            <li><strong>Drinks included:</strong>{" "}Your spend goes towards bottles at venue prices.</li>
+            <li><strong>Best for:</strong>{" "}Groups of 4+, weekend nights, exclusive venues, celebrations</li>
+            <li><strong>Worst for:</strong>{" "}Couples on a budget, casual midweek nights, venue-hopping</li>
           </ul>
         </div>
 
@@ -186,8 +186,8 @@ export default function GuestlistVsTableBookingLondonPage() {
         <h3>Table Essential (Weekends)</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> operate
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}operate
           primarily on table bookings at weekends. Guestlist entry at these
           venues on a Friday or Saturday is technically possible but
           practically unreliable — the door prioritises table bookings so
@@ -203,14 +203,14 @@ export default function GuestlistVsTableBookingLondonPage() {
             London Bottle Service
           </a>{" "}
           and treat the minimum spend as the cost of admission.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> operates similarly
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}operates similarly
           — without a booking, entry is a genuine gamble.
         </p>
 
         <h3>Table Strongly Recommended</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           on weekends. Guestlist entry is possible at these venues but
           the intimate capacities mean the door fills quickly. A table
@@ -240,7 +240,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           spots. They are motivated to get you in because they are paid per
           head. Find promoters through venue social media, dedicated apps,
           or by contacting our{" "}
-          <Link href="/contact">concierge team</Link> for introductions.
+          <Link href="/contact">concierge team</Link>{" "}for introductions.
           Second: through the venue directly. Many clubs offer guestlist
           sign-up through their website or Instagram. This works but spots
           fill fast and venue-direct guestlists are often the first to be

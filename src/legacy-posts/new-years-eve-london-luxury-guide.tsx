@@ -95,7 +95,7 @@ export default function NewYearsEveLondonGuidePage() {
         <h3>The Top Tier</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> runs one of
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}runs one of
           Mayfair&apos;s most coveted NYE events. The crowd is elite, the
           production is elevated, and the intimacy of the space means the
           midnight moment actually feels significant rather than lost in a sea of
@@ -103,7 +103,7 @@ export default function NewYearsEveLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> leans hard
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}leans hard
           into the spectacle for NYE. The performers, the production, the sheer
           theatre of the evening makes it one of the few clubs where you
           genuinely feel you are getting something beyond a standard night. If
@@ -111,7 +111,7 @@ export default function NewYearsEveLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/libertine">Libertine</Link> attracts a fashion-forward,
+          <Link href="/clubs/libertine">Libertine</Link>{" "}attracts a fashion-forward,
           high-energy crowd on NYE and the venue&apos;s futuristic design lends
           itself well to the occasion. The atmosphere tends to be younger and
           more energetic than Tape, which suits groups looking for intensity over
@@ -121,11 +121,11 @@ export default function NewYearsEveLondonGuidePage() {
         <h3>Strong Alternatives</h3>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link> offers
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}offers
           sheer spectacle with aerial performers and live entertainment that
           gives the evening a sense of occasion. It also handles larger groups
           well, which is valuable on a night when party sizes tend to swell.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> is worth considering if you
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is worth considering if you
           want the dinner-to-club transition built into one venue — their NYE
           packages often include a seated dinner before the club opens up.
         </p>
@@ -272,17 +272,17 @@ export default function NewYearsEveLondonGuidePage() {
 
         <ul>
           <li>
-            <strong>Booking in December.</strong> By this point, the best options
+            <strong>Booking in December.</strong>{" "}By this point, the best options
             are gone. You are choosing from what is left, not what is best.
           </li>
           <li>
-            <strong>Trying to club-hop.</strong> On a normal Saturday, moving
+            <strong>Trying to club-hop.</strong>{" "}On a normal Saturday, moving
             between venues is straightforward. On NYE, every club is at capacity,
             re-entry is not guaranteed, and the streets between venues are
             chaotic. Pick one venue and commit.
           </li>
           <li>
-            <strong>Underestimating the budget.</strong> If you plan for normal
+            <strong>Underestimating the budget.</strong>{" "}If you plan for normal
             Saturday pricing and encounter NYE pricing, the night sours quickly.
             Know the real numbers before you go. Our{" "}
             <Link href="/blog/how-much-does-night-out-mayfair-cost">
@@ -291,12 +291,12 @@ export default function NewYearsEveLondonGuidePage() {
             gives you a baseline — then multiply accordingly.
           </li>
           <li>
-            <strong>Choosing the wrong venue for your group.</strong> A couple
+            <strong>Choosing the wrong venue for your group.</strong>{" "}A couple
             has different needs from a group of twelve. Match the venue to the
             occasion, not the hype.
           </li>
           <li>
-            <strong>Ignoring transport.</strong> The night does not end when you
+            <strong>Ignoring transport.</strong>{" "}The night does not end when you
             leave the club. Plan the exit as carefully as the entrance.
           </li>
         </ul>

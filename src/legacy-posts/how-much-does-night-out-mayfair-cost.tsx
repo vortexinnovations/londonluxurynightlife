@@ -53,7 +53,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
         <p>
           This is the headline number and where most of your budget goes. At
           Mayfair&apos;s premium venues, such as{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/maddox">Maddox</Link>, table minimum
           spends typically start at <strong>&pound;1,000 to &pound;1,500</strong>{" "}
           on a standard Friday or Saturday night. Smaller tables or quieter
@@ -98,23 +98,23 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <ul>
           <li>
-            <strong>Premium vodka</strong> (Grey Goose, Belvedere):
+            <strong>Premium vodka</strong>{" "}(Grey Goose, Belvedere):
             &pound;350&ndash;&pound;500 per bottle
           </li>
           <li>
-            <strong>Whisky/tequila</strong> (Don Julio, Clase Azul):
+            <strong>Whisky/tequila</strong>{" "}(Don Julio, Clase Azul):
             &pound;400&ndash;&pound;600
           </li>
           <li>
-            <strong>Champagne</strong> (Mo&euml;t, Veuve Clicquot):
+            <strong>Champagne</strong>{" "}(Mo&euml;t, Veuve Clicquot):
             &pound;350&ndash;&pound;500
           </li>
           <li>
-            <strong>Premium champagne</strong> (Dom P&eacute;rignon):
+            <strong>Premium champagne</strong>{" "}(Dom P&eacute;rignon):
             &pound;600&ndash;&pound;900
           </li>
           <li>
-            <strong>Ultra-premium champagne</strong> (Ace of Spades, Cristal):
+            <strong>Ultra-premium champagne</strong>{" "}(Ace of Spades, Cristal):
             &pound;1,000&ndash;&pound;2,000+
           </li>
         </ul>
@@ -146,7 +146,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           Most people doing Mayfair properly will eat first. A quality dinner
           in the area — Novikov, Sexy Fish, Zuma, or any of the excellent
           restaurants within walking distance of the clubs — runs{" "}
-          <strong>&pound;60&ndash;&pound;150 per person</strong> including a
+          <strong>&pound;60&ndash;&pound;150 per person</strong>{" "}including a
           couple of drinks. You can spend more, obviously, but that range covers
           a genuinely excellent meal. For specific restaurant-to-club pairings,
           see our{" "}
@@ -171,7 +171,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           An Uber from central London to Mayfair costs roughly{" "}
-          <strong>&pound;15&ndash;&pound;30</strong> depending on distance
+          <strong>&pound;15&ndash;&pound;30</strong>{" "}depending on distance
           and surge pricing. Black cabs are similar. At the end of the night —
           2am to 3am — expect surge pricing on ride-hailing apps, pushing a
           return journey to &pound;25&ndash;&pound;50 depending on where you are
@@ -183,17 +183,17 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <ul>
           <li>
-            <strong>Cloakroom:</strong> &pound;2&ndash;&pound;5 per item. Not
+            <strong>Cloakroom:</strong>{" "}&pound;2&ndash;&pound;5 per item. Not
             optional in winter — you are not bringing a coat to the table.
           </li>
           <li>
-            <strong>Tips for your table host:</strong> Not mandatory in London,
+            <strong>Tips for your table host:</strong>{" "}Not mandatory in London,
             but &pound;20&ndash;&pound;50 is appreciated and ensures even
             better service next time. If your host has been exceptional, tip
             accordingly.
           </li>
           <li>
-            <strong>Cash for incidentals:</strong> Some cloakrooms are
+            <strong>Cash for incidentals:</strong>{" "}Some cloakrooms are
             cash-only. Keep &pound;20 in notes on you.
           </li>
         </ul>
@@ -232,7 +232,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
             Champagne-heavy bottle selection. This is where you stop counting
             and start enjoying. Groups regularly spend &pound;5,000&ndash;&pound;10,000+
             on a table at venues like{" "}
-            <Link href="/clubs/tape-london">Tape London</Link> or{" "}
+            <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
             <Link href="/clubs/the-london-reign">The London Reign</Link>.
           </p>
         </div>
@@ -246,28 +246,28 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <ul>
           <li>
-            <strong>Go on a weeknight.</strong> Wednesday and Thursday minimums
+            <strong>Go on a weeknight.</strong>{" "}Wednesday and Thursday minimums
             are often lower, and the crowds are more interesting — fewer tourist
             groups, more regulars.
           </li>
           <li>
             <strong>Book through a promoter or concierge.</strong>{" "}
-            <Link href="/contact">Contact us</Link> — we can often secure
+            <Link href="/contact">Contact us</Link>{" "}— we can often secure
             better table positions or more favourable minimums than walking in
             cold.
           </li>
           <li>
-            <strong>Stick to spirits over champagne.</strong> Two bottles of
+            <strong>Stick to spirits over champagne.</strong>{" "}Two bottles of
             vodka will cover a &pound;1,000 minimum and keep four to six people
             going all night. The same spend on champagne disappears much faster.
           </li>
           <li>
-            <strong>Eat well but not extravagantly.</strong> There are excellent
+            <strong>Eat well but not extravagantly.</strong>{" "}There are excellent
             Mayfair restaurants at the &pound;60&ndash;&pound;80pp mark. You do
             not need to spend &pound;150 on dinner to have a brilliant meal.
           </li>
           <li>
-            <strong>Grow your group.</strong> A &pound;1,500 minimum split
+            <strong>Grow your group.</strong>{" "}A &pound;1,500 minimum split
             between six people is &pound;250 each. The same table split between
             three is &pound;500. Numbers matter.
           </li>

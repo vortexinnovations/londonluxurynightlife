@@ -68,7 +68,7 @@ export default function LondonLateNightVenuesPage() {
         <h3>Ministry of Sound</h3>
 
         <p>
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> is
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}is
           London&apos;s most significant late-night venue, and it is not
           particularly close. On regular club nights, it runs until 6am. On
           special events and bank holiday weekends, it has been known to push
@@ -188,7 +188,7 @@ export default function LondonLateNightVenuesPage() {
 
         <ul>
           <li>
-            <strong>Eat properly before midnight.</strong> A full dinner — not
+            <strong>Eat properly before midnight.</strong>{" "}A full dinner — not
             bar snacks — provides the stamina for a long evening. Our{" "}
             <Link href="/guides/dinner-and-nightclub-london">
               dinner and nightclub guide
@@ -196,24 +196,24 @@ export default function LondonLateNightVenuesPage() {
             covers the best pre-club dining options.
           </li>
           <li>
-            <strong>Pace your drinking.</strong> The difference between 3am and
+            <strong>Pace your drinking.</strong>{" "}The difference between 3am and
             6am is three hours of additional consumption. Alternate with water.
             Nobody who has been to enough of these nights will judge you for
             ordering sparkling water at 4am.
           </li>
           <li>
-            <strong>Sort transport in advance.</strong> At 6am, night buses are
+            <strong>Sort transport in advance.</strong>{" "}At 6am, night buses are
             running but taxis are scarce. If you are heading to Ministry or
             Fabric, know your route home before you arrive.
           </li>
           <li>
-            <strong>Dress in layers or bring options.</strong> If you are
+            <strong>Dress in layers or bring options.</strong>{" "}If you are
             transitioning from a Mayfair club to an East London warehouse, the
             dress code shifts dramatically. A change of shoes, at minimum, can
             save you discomfort.
           </li>
           <li>
-            <strong>Phone battery.</strong> By 4am, your phone is likely below
+            <strong>Phone battery.</strong>{" "}By 4am, your phone is likely below
             20%. A portable charger is not optional — it is your way home.
           </li>
         </ul>
@@ -228,8 +228,8 @@ export default function LondonLateNightVenuesPage() {
           that fills together, peaks together, and shares a collective
           awareness that the time is limited and therefore precious. The best
           Saturday nights at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> or{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> have an
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}have an
           intensity that more permissive cities sometimes lack — precisely
           because everyone knows the clock is ticking.
         </p>

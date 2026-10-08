@@ -117,9 +117,9 @@ export default function PrivateMembersClubsVsNightclubsPage() {
 
         <p>
           Nightclubs are engineered for sensation. The sound systems at
-          venues like <Link href="/clubs/beat-london">BEAT London</Link> are
+          venues like <Link href="/clubs/beat-london">BEAT London</Link>{" "}are
           designed to be felt in the chest. The lighting at{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> is
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}is
           choreographed to the music. The atmosphere builds deliberately
           through the evening, peaking between midnight and 2am with an
           intensity that members clubs neither pursue nor desire. If you want
@@ -219,7 +219,7 @@ export default function PrivateMembersClubsVsNightclubsPage() {
               of &pound;500&ndash;&pound;1,500)
             </li>
             <li>
-              <strong>Members club spending:</strong> Food and drinks at
+              <strong>Members club spending:</strong>{" "}Food and drinks at
               members&apos; prices — typically 20&ndash;40% cheaper than
               equivalent public venues
             </li>
@@ -229,7 +229,7 @@ export default function PrivateMembersClubsVsNightclubsPage() {
               Saturday
             </li>
             <li>
-              <strong>Nightclub guestlist (per visit):</strong> Free entry
+              <strong>Nightclub guestlist (per visit):</strong>{" "}Free entry
               where available, plus &pound;15&ndash;&pound;25 per drink
             </li>
           </ul>

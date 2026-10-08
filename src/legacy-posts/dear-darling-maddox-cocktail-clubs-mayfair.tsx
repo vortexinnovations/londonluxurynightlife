@@ -45,7 +45,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
           means losing your table, braving the cold, joining a new queue,
           and hoping the second venue matches the standard of the first. Two
           Mayfair venues have solved this problem elegantly:{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and{" "}
           <Link href="/clubs/maddox">Maddox Club</Link>. Both offer
           complete evenings under one roof, but they do it very differently.
         </p>
@@ -110,17 +110,17 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         <div className="info-box">
           <h4>Dear Darling vs Maddox: At a Glance</h4>
           <ul>
-            <li><strong>Starting point:</strong> Dear Darling = cocktail bar / Maddox = restaurant</li>
-            <li><strong>Music:</strong> Dear Darling = mixed, lounge, house / Maddox = house, deep house</li>
-            <li><strong>Transition:</strong> Dear Darling = gradual mood shift / Maddox = distinct dinner-to-club phases</li>
-            <li><strong>Dress code:</strong> Dear Darling = elegant / Maddox = smart elegant, jacket preferred</li>
-            <li><strong>Best for:</strong> Dear Darling = cocktail lovers, couples / Maddox = dinner planners, house music fans</li>
-            <li><strong>Tables from:</strong> Both from &pound;1,000</li>
+            <li><strong>Starting point:</strong>{" "}Dear Darling = cocktail bar / Maddox = restaurant</li>
+            <li><strong>Music:</strong>{" "}Dear Darling = mixed, lounge, house / Maddox = house, deep house</li>
+            <li><strong>Transition:</strong>{" "}Dear Darling = gradual mood shift / Maddox = distinct dinner-to-club phases</li>
+            <li><strong>Dress code:</strong>{" "}Dear Darling = elegant / Maddox = smart elegant, jacket preferred</li>
+            <li><strong>Best for:</strong>{" "}Dear Darling = cocktail lovers, couples / Maddox = dinner planners, house music fans</li>
+            <li><strong>Tables from:</strong>{" "}Both from &pound;1,000</li>
           </ul>
         </div>
 
         <p>
-          <strong>Music:</strong> If house music is your sound, Maddox is the
+          <strong>Music:</strong>{" "}If house music is your sound, Maddox is the
           clear choice. The late-night DJ programme focuses on deep house and
           house music, which makes it an outlier in Mayfair where hip-hop
           dominates. Dear Darling&apos;s music is more eclectic — lounge-led
@@ -129,7 +129,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         </p>
 
         <p>
-          <strong>Food:</strong> Only Maddox offers a full dining experience.
+          <strong>Food:</strong>{" "}Only Maddox offers a full dining experience.
           If you want dinner and clubbing in one evening without moving
           venues, Maddox is the answer. For the broader dinner-and-club
           strategy including multi-venue options, see our{" "}
@@ -140,7 +140,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         </p>
 
         <p>
-          <strong>Atmosphere:</strong> Dear Darling is more intimate and
+          <strong>Atmosphere:</strong>{" "}Dear Darling is more intimate and
           opulent. The room is designed to flatter — low lighting, rich
           textures, a sense of enclosure that makes everything feel personal.
           Maddox is more open and dynamic, with the energy building as the
@@ -150,7 +150,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         <h2>Which Should You Choose?</h2>
 
         <p>
-          Choose <Link href="/clubs/dear-darling">Dear Darling</Link> if:
+          Choose <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}if:
           you prioritise cocktails and atmosphere, you want an elegant evening
           that naturally evolves into a party, or you are looking for a more
           intimate, boutique experience. Dear Darling is also the stronger
@@ -159,7 +159,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         </p>
 
         <p>
-          Choose <Link href="/clubs/maddox">Maddox</Link> if: you want
+          Choose <Link href="/clubs/maddox">Maddox</Link>{" "}if: you want
           dinner and clubbing in one venue, you love house music, you are
           planning corporate entertainment where the seamless format impresses
           clients, or you have a larger group that benefits from the structured
@@ -170,15 +170,15 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
 
         <p>
           For a different flavour entirely, venues like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> or{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> offer pure nightclub
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}or{" "}
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}offer pure nightclub
           experiences without the cocktail-bar or restaurant preamble. And
           for the complete landscape of options, our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">
             Mayfair club ranking
           </Link>{" "}
           covers every venue in detail.{" "}
-          <Link href="/contact">Contact our team</Link> to book either
+          <Link href="/contact">Contact our team</Link>{" "}to book either
           venue or for a recommendation based on your specific evening.
         </p>
 

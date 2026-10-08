@@ -53,7 +53,7 @@ export default function CelebrityClubsPage() {
         <h3>Tape London: The Undisputed Leader</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> is, without
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is, without
           question, the club most consistently frequented by genuine
           celebrities in London. Its position on Hanover Square in Mayfair,
           its origins as a music industry hub, and its rigorously maintained
@@ -77,7 +77,7 @@ export default function CelebrityClubsPage() {
         <h3>Cirque Le Soir: The Spectacle That Attracts Stars</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> holds a
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}holds a
           unique position in London&apos;s celebrity nightlife. Its
           circus-themed spectacle — fire breathers, contortionists, stilt
           walkers, and performers who defy easy description — creates an
@@ -122,7 +122,7 @@ export default function CelebrityClubsPage() {
             athletes celebrating in style.
           </li>
           <li>
-            <Link href="/clubs/maddox">Maddox</Link> sees a more discreet
+            <Link href="/clubs/maddox">Maddox</Link>{" "}sees a more discreet
             celebrity crowd, particularly those who prefer house music and a
             slightly older, more sophisticated atmosphere. The
             restaurant-to-club format means celebrities can arrive early
@@ -130,13 +130,13 @@ export default function CelebrityClubsPage() {
             forced.
           </li>
           <li>
-            <Link href="/clubs/dear-darling">Dear Darling</Link> attracts
+            <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}attracts
             celebrities who prefer a more intimate, cocktail-forward
             environment — the kind of venue where a famous face might spend
             the early part of the evening before heading elsewhere.
           </li>
           <li>
-            <Link href="/clubs/beat-london">BEAT London</Link> sees
+            <Link href="/clubs/beat-london">BEAT London</Link>{" "}sees
             occasional celebrity appearances, particularly from musicians
             and DJs who appreciate the focus on sound and energy over
             posturing.
@@ -213,28 +213,28 @@ export default function CelebrityClubsPage() {
 
         <ul>
           <li>
-            <strong>Genuine privacy culture.</strong> Venues like Tape have
+            <strong>Genuine privacy culture.</strong>{" "}Venues like Tape have
             strict phone policies in certain areas. Staff are trained never
             to acknowledge celebrity guests publicly. There is an understood
             code of discretion that extends from the management to the
             regulars.
           </li>
           <li>
-            <strong>Quality that justifies the price.</strong> Celebrity
+            <strong>Quality that justifies the price.</strong>{" "}Celebrity
             minimum spends are significant, often running into five figures.
             These venues justify that with exceptional service, premium
             spirits, and an atmosphere that genuinely cannot be replicated
             at home.
           </li>
           <li>
-            <strong>The right crowd.</strong> Famous people want to be
+            <strong>The right crowd.</strong>{" "}Famous people want to be
             around other interesting people. The door policies at these
             venues ensure that the room is filled with a well-dressed,
             well-behaved, socially aware crowd — people who are there to
             enjoy their own evening, not to gawk.
           </li>
           <li>
-            <strong>Reliability.</strong> When you are flying into London
+            <strong>Reliability.</strong>{" "}When you are flying into London
             for 48 hours, you do not want to gamble on an unknown venue.
             Celebrities return to the same clubs because they know exactly
             what they will get, every time.
@@ -284,13 +284,13 @@ export default function CelebrityClubsPage() {
 
         <ul>
           <li>
-            <strong>Do not approach uninvited.</strong> If a celebrity wants
+            <strong>Do not approach uninvited.</strong>{" "}If a celebrity wants
             to socialise with the broader room, they will. If they are at
             their table with their group, that is a clear signal. Respect
             it.
           </li>
           <li>
-            <strong>No photographs.</strong> This cannot be stressed enough.
+            <strong>No photographs.</strong>{" "}This cannot be stressed enough.
             Taking photographs of celebrities in London&apos;s private clubs
             is not just rude — it can get you permanently banned from the
             venue and, through the small world of London nightlife
@@ -298,13 +298,13 @@ export default function CelebrityClubsPage() {
             when it matters.
           </li>
           <li>
-            <strong>Do not send over drinks unsolicited.</strong> It is a
+            <strong>Do not send over drinks unsolicited.</strong>{" "}It is a
             nice gesture in theory, but celebrities at these venues have
             their own table with their own bottles. An unrequested drink
             from a stranger creates an awkward obligation nobody wants.
           </li>
           <li>
-            <strong>Match the energy.</strong> The best thing you can do is
+            <strong>Match the energy.</strong>{" "}The best thing you can do is
             have an excellent night at your own table. Be well-dressed, be
             fun, be generous with your own group. That kind of energy is
             attractive, and it is noticed. The most genuine celebrity
@@ -312,7 +312,7 @@ export default function CelebrityClubsPage() {
             bar, through mutual friends — not through forced approaches.
           </li>
           <li>
-            <strong>Trust the process.</strong> If you are at a venue like
+            <strong>Trust the process.</strong>{" "}If you are at a venue like
             Tape or Cirque regularly, and you conduct yourself well, the
             nightlife world is surprisingly small. Introductions happen
             naturally through promoters, through mutual acquaintances,
@@ -326,9 +326,9 @@ export default function CelebrityClubsPage() {
         <p>
           If seeing celebrities is part of the appeal (and there is no shame
           in that), your best strategy is straightforward: book a table at{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> on a Saturday,
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}on a Saturday,
           or at{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> on a
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on a
           Friday. These are the highest-probability options. A VIP table
           puts you closer to the action and ensures you are treated as a
           valued guest, which in turn means staff are more likely to share
@@ -360,7 +360,7 @@ export default function CelebrityClubsPage() {
         </p>
 
         <p>
-          <Link href="/contact">Get in touch</Link> and tell us what you
+          <Link href="/contact">Get in touch</Link>{" "}and tell us what you
           are looking for. We know which nights are likely to be memorable,
           and we can position you in the right venue at the right time. The
           rest is up to you — and the evening.

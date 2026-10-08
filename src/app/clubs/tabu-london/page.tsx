@@ -39,10 +39,10 @@ export default function TabuLondonPage() {
 
         <div className="info-box">
           <p>
-            <strong>Now called:</strong> Rumour
+            <strong>Now called:</strong>{" "}Rumour
           </p>
           <p>
-            <strong>Formerly:</strong> TABU London
+            <strong>Formerly:</strong>{" "}TABU London
           </p>
           <p>
             <strong>Location:</strong> {club.location}

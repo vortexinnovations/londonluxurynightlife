@@ -108,7 +108,7 @@ export default function TapeLondonInsidePage() {
           models, and international visitors who understand what they are
           paying for. If the selectivity concerns you, it is worth noting
           that venues like{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> and{" "}
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           offer comparable musical quality with a slightly more accessible
           entry point.
@@ -119,11 +119,11 @@ export default function TapeLondonInsidePage() {
         <div className="info-box">
           <h4>Tape London — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> 17 Hanover Square, Mayfair</li>
-            <li><strong>Music:</strong> Hip-Hop, R&amp;B, Commercial</li>
-            <li><strong>Open:</strong> Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am (as of October 2026)</li>
-            <li><strong>Tables from:</strong> &pound;1,500</li>
-            <li><strong>Dress code:</strong> Smart and stylish, no sportswear</li>
+            <li><strong>Location:</strong>{" "}17 Hanover Square, Mayfair</li>
+            <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B, Commercial</li>
+            <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.30am (as of October 2026)</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,500</li>
+            <li><strong>Dress code:</strong>{" "}Smart and stylish, no sportswear</li>
           </ul>
         </div>
 
@@ -131,8 +131,8 @@ export default function TapeLondonInsidePage() {
           The honest answer depends on what you value. If you want the
           biggest room, the loudest music, or the most theatrical
           entertainment,{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> or{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> will
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}or{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}will
           deliver more spectacle for your money. If you want a pure nightclub
           experience where the music, the crowd, and the atmosphere are
           operating at the highest level London offers, Tape justifies
@@ -146,7 +146,7 @@ export default function TapeLondonInsidePage() {
             Mayfair cost guide
           </Link>{" "}
           breaks down what to expect. For help securing a table at Tape,{" "}
-          <Link href="/contact">contact our concierge team</Link> — we work
+          <Link href="/contact">contact our concierge team</Link>{" "}— we work
           with the venue regularly and can advise on availability and the best
           nights for your group.
         </p>

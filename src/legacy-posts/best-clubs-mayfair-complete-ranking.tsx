@@ -59,7 +59,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">1. Tape London — The Gold Standard</h2>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> sits at the top
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}sits at the top
           for a reason that no amount of investment can replicate: genuine
           exclusivity backed by genuine quality. The room is intimate, the
           sound system is exceptional, and the crowd includes people who could
@@ -73,7 +73,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">2. Funky Buddha — The Enduring Icon</h2>
 
         <p>
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> has outlasted
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}has outlasted
           every trend and every rival. The formula — intimate room, credible
           music, curated crowd — has not changed because it does not need to.
           The blend of hip-hop, R&amp;B, and funky house creates an energy
@@ -101,7 +101,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">4. Dear Darling — The Cocktail Gateway</h2>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is the most
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
           elegant room in Mayfair. Chandeliers, velvet booths, and a cocktail
           programme that rivals dedicated bars. The genius is in the
           transition: what begins as a refined cocktail evening seamlessly
@@ -116,7 +116,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">5. TABU London — The Dark Horse</h2>
 
         <p>
-          <Link href="/clubs/tabu-london">TABU</Link> arrived quietly and
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}arrived quietly and
           has built a devoted following through atmosphere rather than
           marketing. The Japanese-inspired underground aesthetic creates
           something genuinely different from the typical Mayfair formula.
@@ -129,7 +129,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">6. Maddox Club — The Complete Evening</h2>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is the only venue on this
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the only venue on this
           list where you can eat Italian cuisine at 8pm and dance to house
           music at 2am without changing buildings. That seamless dinner-to-club
           transition makes it uniquely practical for corporate entertainment,
@@ -145,7 +145,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">7. Cuckoo Club — The Reliable All-Rounder</h2>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> on Swallow
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
           Street offers something no other venue can: two completely different
           nights under one roof. House music downstairs, hip-hop upstairs.
           If your group cannot agree on a genre, Cuckoo solves the problem
@@ -158,7 +158,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">8. Selene London — The Refined Newcomer</h2>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> sits just outside
+          <Link href="/clubs/selene-london">Selene</Link>{" "}sits just outside
           Mayfair: it is at 4 Winsley Street in Fitzrovia, just north of
           Oxford Circus and a short walk from the Mayfair clubs. It has
           arrived with
@@ -174,7 +174,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">9. Luna Club London — The Fresh Energy</h2>
 
         <p>
-          <Link href="/clubs/luna-club-london">Luna Club</Link> brings
+          <Link href="/clubs/luna-club-london">Luna Club</Link>{" "}brings
           contemporary design and a younger affluent crowd to the Mayfair
           mix. The sleek interiors and open-format music policy attract
           people who want luxury without the stuffiness that can creep into
@@ -195,19 +195,19 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <p>
           Two venues sit outside Mayfair but deserve mention for anyone
           building a complete London nightlife itinerary.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> in Soho is
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho is
           London&apos;s most provocative nightclub — performance-driven,
           boundary-pushing, and utterly unique. Read our{" "}
           <Link href="/blog/the-box-london-what-to-expect">
             Box guide
           </Link>{" "}
           before visiting.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> in Soho
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}in Soho
           delivers circus-themed spectacle with celebrity magnetism.{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}on Piccadilly
           offers theatrical showclub entertainment on a scale Mayfair
           venues cannot match.{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           strips everything back to pure sound system quality.
         </p>
 
@@ -216,13 +216,13 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <div className="info-box">
           <h4>Quick Decision Guide</h4>
           <ul>
-            <li><strong>Best for dancing:</strong> Funky Buddha, TABU, Cuckoo Club</li>
-            <li><strong>Best for exclusivity:</strong> Tape London, Scotch of St James</li>
-            <li><strong>Best for cocktails first:</strong> Dear Darling, Maddox</li>
-            <li><strong>Best for dinner + club:</strong> Maddox</li>
-            <li><strong>Best for groups:</strong> Cuckoo Club, Luna Club</li>
-            <li><strong>Best for a first Mayfair visit:</strong> Funky Buddha, Cuckoo Club</li>
-            <li><strong>Best for something different:</strong> TABU, Selene</li>
+            <li><strong>Best for dancing:</strong>{" "}Funky Buddha, TABU, Cuckoo Club</li>
+            <li><strong>Best for exclusivity:</strong>{" "}Tape London, Scotch of St James</li>
+            <li><strong>Best for cocktails first:</strong>{" "}Dear Darling, Maddox</li>
+            <li><strong>Best for dinner + club:</strong>{" "}Maddox</li>
+            <li><strong>Best for groups:</strong>{" "}Cuckoo Club, Luna Club</li>
+            <li><strong>Best for a first Mayfair visit:</strong>{" "}Funky Buddha, Cuckoo Club</li>
+            <li><strong>Best for something different:</strong>{" "}TABU, Selene</li>
           </ul>
         </div>
 
@@ -235,7 +235,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
             complete guide to London luxury nightlife
           </Link>{" "}
           provides the broader context, and our{" "}
-          <Link href="/contact">concierge team</Link> can recommend the
+          <Link href="/contact">concierge team</Link>{" "}can recommend the
           perfect venue for your specific evening.
         </p>
 

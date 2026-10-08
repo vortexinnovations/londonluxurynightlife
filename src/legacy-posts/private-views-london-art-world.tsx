@@ -200,23 +200,23 @@ export default function PrivateViewsLondonArtWorldPage() {
           <h4>Quick Reference - The London Private View</h4>
           <ul>
             <li>
-              <strong>Format:</strong> Six to nine in the evening, drinks in
+              <strong>Format:</strong>{" "}Six to nine in the evening, drinks in
               hand, exhibition on the walls
             </li>
             <li>
-              <strong>Getting in:</strong> Join gallery mailing lists, show
+              <strong>Getting in:</strong>{" "}Join gallery mailing lists, show
               up repeatedly, buy small; the dinner is earned separately
             </li>
             <li>
-              <strong>The sorting hour:</strong> From half past eight the
+              <strong>The sorting hour:</strong>{" "}From half past eight the
               inner circle leaves for dinner; the evening splits
             </li>
             <li>
-              <strong>After nine:</strong> Members&apos; rooms and quiet bars
+              <strong>After nine:</strong>{" "}Members&apos; rooms and quiet bars
               on ordinary nights; proper parties in fair week
             </li>
             <li>
-              <strong>Peak season:</strong> October&apos;s fair week, as of
+              <strong>Peak season:</strong>{" "}October&apos;s fair week, as of
               2026; August is silent
             </li>
           </ul>

@@ -68,7 +68,7 @@ export default function CelebrityNightclubsLondonPage() {
         <h3>1. Tape London — The Industry Standard</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> is where
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is where
           celebrities go when they want to be off-duty. The strict
           no-phones policy creates an environment of genuine privacy that
           no other London club can match. Musicians, actors, and athletes
@@ -81,7 +81,7 @@ export default function CelebrityNightclubsLondonPage() {
         </p>
 
         <p>
-          <strong>Who you might see:</strong> Chart-topping musicians,
+          <strong>Who you might see:</strong>{" "}Chart-topping musicians,
           Premier League footballers, actors between film shoots, fashion
           designers during London Fashion Week. The specifics change weekly
           — the calibre does not.
@@ -90,7 +90,7 @@ export default function CelebrityNightclubsLondonPage() {
         <h3>2. Cirque Le Soir — The Celebrity Spectacle</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> has
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}has
           built a reputation as the venue where celebrities come to be
           entertained rather than merely to be present. The circus-themed
           format gives high-profile guests a reason to attend beyond the
@@ -103,7 +103,7 @@ export default function CelebrityNightclubsLondonPage() {
         </p>
 
         <p>
-          <strong>Who you might see:</strong> International musicians,
+          <strong>Who you might see:</strong>{" "}International musicians,
           reality TV stars at the higher end, visiting athletes, social
           media figures with genuine reach. Cirque attracts a younger,
           more visible celebrity crowd than Tape.
@@ -123,7 +123,7 @@ export default function CelebrityNightclubsLondonPage() {
         <h3>The Box — The Provocative Choice</h3>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> attracts
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}attracts
           celebrities from the creative industries — fashion, music, art —
           who want a night that challenges rather than flatters. The Soho
           venue&apos;s provocative performances draw a crowd that values
@@ -148,7 +148,7 @@ export default function CelebrityNightclubsLondonPage() {
         <h3>Reign London — The Event Celebrity</h3>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> attracts
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}attracts
           celebrities for special occasions — birthday celebrations,
           post-show parties, promotional events. The theatrical format
           provides a spectacular backdrop that creates genuine social
@@ -166,11 +166,11 @@ export default function CelebrityNightclubsLondonPage() {
         <div className="info-box">
           <h4>The VIP Reality</h4>
           <ul>
-            <li><strong>Separate entrances:</strong> Most top-tier venues have discreet side or rear entrances for high-profile guests</li>
-            <li><strong>VVIP sections:</strong> Separate from regular VIP — often elevated, curtained, or in a distinct area</li>
-            <li><strong>Security:</strong> Personal security is accommodated but expected to be discreet</li>
-            <li><strong>Privacy:</strong> Genuine celebrity venues enforce phone restrictions in VVIP areas</li>
-            <li><strong>Service:</strong> Dedicated hosts, direct management attention, pre-arranged preferences</li>
+            <li><strong>Separate entrances:</strong>{" "}Most top-tier venues have discreet side or rear entrances for high-profile guests</li>
+            <li><strong>VVIP sections:</strong>{" "}Separate from regular VIP — often elevated, curtained, or in a distinct area</li>
+            <li><strong>Security:</strong>{" "}Personal security is accommodated but expected to be discreet</li>
+            <li><strong>Privacy:</strong>{" "}Genuine celebrity venues enforce phone restrictions in VVIP areas</li>
+            <li><strong>Service:</strong>{" "}Dedicated hosts, direct management attention, pre-arranged preferences</li>
           </ul>
         </div>
 
@@ -188,7 +188,7 @@ export default function CelebrityNightclubsLondonPage() {
         <p>
           The most effective approach is through a concierge or promoter
           with genuine relationships at these venues.{" "}
-          <Link href="/contact">Our team</Link> books tables at every club
+          <Link href="/contact">Our team</Link>{" "}books tables at every club
           on this list and can advise on the best nights for the highest
           chance of notable company. For direct bookings,{" "}
           <a

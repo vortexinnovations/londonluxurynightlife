@@ -67,24 +67,24 @@ export default function AboutPage() {
 
       <ul>
         <li>
-          <strong>In-depth club reviews</strong> — honest assessments of
+          <strong>In-depth club reviews</strong>{" "}— honest assessments of
           every venue we cover, updated as experiences change
         </li>
         <li>
-          <strong>Editorial guides</strong> — from{" "}
-          <Link href="/london-club-dress-code-guide">dress codes</Link> to{" "}
+          <strong>Editorial guides</strong>{" "}— from{" "}
+          <Link href="/london-club-dress-code-guide">dress codes</Link>{" "}to{" "}
           <Link href="/how-london-nightclub-door-policy-works">door policies</Link>,{" "}
-          <Link href="/guestlist-vs-table-booking-london">booking strategy</Link> to{" "}
+          <Link href="/guestlist-vs-table-booking-london">booking strategy</Link>{" "}to{" "}
           <Link href="/how-to-plan-a-luxury-night-out-in-london">evening planning</Link>
         </li>
         <li>
-          <strong>Pillar guides</strong> — comprehensive resources on{" "}
+          <strong>Pillar guides</strong>{" "}— comprehensive resources on{" "}
           <Link href="/luxury-nightclubs-london">luxury nightclubs</Link>,{" "}
           <Link href="/celebrity-nightclubs-london">celebrity venues</Link>, and{" "}
           <Link href="/london-nightlife-guide">the full London scene</Link>
         </li>
         <li>
-          <strong>Concierge service</strong> — direct table booking and
+          <strong>Concierge service</strong>{" "}— direct table booking and
           guestlist access at every venue through our{" "}
           <Link href="/contact">WhatsApp concierge</Link>
         </li>

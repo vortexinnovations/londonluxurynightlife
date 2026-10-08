@@ -89,7 +89,7 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           The Dorchester and The Connaught on Park Lane and Mount Street
           respectively put you within a ten-minute walk of{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and within easy reach of{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of Oxford
           Circus. Claridge&apos;s on Brook
@@ -102,18 +102,18 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           If Mayfair hotels exceed your budget, Soho is an excellent
           alternative. You will be close to{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and within a
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and within a
           short taxi ride of everything in Mayfair. Hotels around Marylebone and
           Fitzrovia also work well, putting you near{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> and a quick cab
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}and a quick cab
           from the Mayfair cluster.
         </p>
 
         <div className="info-box">
-          <strong>Pro tip:</strong> When booking a hotel, check if they offer a
+          <strong>Pro tip:</strong>{" "}When booking a hotel, check if they offer a
           concierge service that handles nightclub reservations. Many five-star
           London hotels have direct relationships with clubs. Alternatively,{" "}
-          <Link href="/contact">reach out to us</Link> — we can arrange
+          <Link href="/contact">reach out to us</Link>{" "}— we can arrange
           guestlists, tables, and full evening itineraries regardless of where
           you are staying.
         </div>
@@ -150,7 +150,7 @@ export default function LondonNightlifeInternationalVisitors() {
           <Link href="/clubs/tape-london"> Tape London</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>, and{" "}
-          <Link href="/clubs/maddox">Maddox</Link> are all within a five to
+          <Link href="/clubs/maddox">Maddox</Link>{" "}are all within a five to
           ten minute walk of each other, and{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus in Fitzrovia, is a short walk further. You can comfortably visit two or even
@@ -160,7 +160,7 @@ export default function LondonNightlifeInternationalVisitors() {
         </p>
 
         <div className="info-box">
-          <strong>Transport summary:</strong> Download Uber and Bolt before your
+          <strong>Transport summary:</strong>{" "}Download Uber and Bolt before your
           night out. Keep £50 in cash for black cabs as backup. If you are
           staying in Mayfair, you can walk between most clubs. The Night Tube
           runs on Friday and Saturday nights on select lines.
@@ -298,7 +298,7 @@ export default function LondonNightlifeInternationalVisitors() {
           combine familiar hip-hop and RnB music with the refined edge that
           distinguishes London from US nightlife. For something you genuinely
           cannot get back home, add{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> to your
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}to your
           itinerary — the theatrical element is unparalleled.
         </p>
 
@@ -306,8 +306,8 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           London has long been a summer destination for visitors from the Gulf,
           and the club scene reflects this.{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> and{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link> are
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}are
           popular with Gulf visitors for their premium table service, opulent
           interiors, and strong hip-hop programming. Table booking is strongly
           recommended, especially during the July-August peak season when
@@ -318,18 +318,18 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           If you are coming from Berlin, Amsterdam, or Paris with a taste for
           electronic music,{" "}
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> should
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}should
           be your first stop — its sound system and programming are world-class.
           Within Mayfair,{" "}
-          <Link href="/clubs/maddox">Maddox</Link> offers sophisticated house
+          <Link href="/clubs/maddox">Maddox</Link>{" "}offers sophisticated house
           music in an elegant setting. For cocktail-forward evenings,{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> delivers a
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}delivers a
           refined experience that European visitors particularly appreciate.
         </p>
 
         <h3>Asian Visitors</h3>
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> appeals to visitors who
+          <Link href="/clubs/maddox">Maddox</Link>{" "}appeals to visitors who
           appreciate the dinner-to-nightclub format common in Hong Kong and
           Tokyo.{" "}
           <Link href="/clubs/selene-london">Selene</Link>&apos;s refined
@@ -345,20 +345,20 @@ export default function LondonNightlifeInternationalVisitors() {
         </p>
         <ul>
           <li>
-            <strong>Summer (June&ndash;August):</strong> Peak season. The city
+            <strong>Summer (June&ndash;August):</strong>{" "}Peak season. The city
             is at its busiest, the weather allows for rare open-air events, and
             the international crowd swells London&apos;s clubs with visitors
             from the Gulf, the US, and southern Europe. Tables should be booked
             well in advance, especially in July and August.
           </li>
           <li>
-            <strong>Autumn (September&ndash;November):</strong> Excellent for
+            <strong>Autumn (September&ndash;November):</strong>{" "}Excellent for
             nightlife. The summer tourist peak fades, regulars return, and the
             atmosphere in clubs feels more authentically London. Fashion Week in
             September brings a particularly glamorous crowd.
           </li>
           <li>
-            <strong>Winter (December&ndash;February):</strong> December is
+            <strong>Winter (December&ndash;February):</strong>{" "}December is
             electric — Christmas parties and New Year&apos;s Eve make it one
             of the busiest months for London&apos;s clubs. January and February
             are quieter, which means lower minimum spends, easier guestlist
@@ -366,7 +366,7 @@ export default function LondonNightlifeInternationalVisitors() {
             first visit.
           </li>
           <li>
-            <strong>Spring (March&ndash;May):</strong> The city wakes up. May
+            <strong>Spring (March&ndash;May):</strong>{" "}The city wakes up. May
             bank holidays bring long weekends and strong club nights. Easter is
             a popular time for European visitors. Spring offers a good balance
             between atmosphere and accessibility.
@@ -374,11 +374,11 @@ export default function LondonNightlifeInternationalVisitors() {
         </ul>
 
         <div className="info-box">
-          <strong>New Year&apos;s Eve:</strong> The biggest night of the year
+          <strong>New Year&apos;s Eve:</strong>{" "}The biggest night of the year
           for London clubs. Expect elevated minimum spends (often double or
           triple the standard), advance booking requirements, and very strict
           door policies. Book weeks or even months ahead.{" "}
-          <Link href="/contact">Contact us early</Link> if you are planning a
+          <Link href="/contact">Contact us early</Link>{" "}if you are planning a
           NYE night out.
         </div>
 
@@ -406,7 +406,7 @@ export default function LondonNightlifeInternationalVisitors() {
           </Link>{" "}
           covers every venue. And if you want someone to handle the planning
           entirely,{" "}
-          <Link href="/contact">our concierge team</Link> specialises in
+          <Link href="/contact">our concierge team</Link>{" "}specialises in
           building perfect nights for international visitors. Tell us your
           dates, your group, and your preferences, and we will take care of the
           rest.

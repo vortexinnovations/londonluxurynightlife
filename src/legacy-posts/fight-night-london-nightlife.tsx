@@ -214,23 +214,23 @@ export default function FightNightLondonNightlifePage() {
           <h4>Quick Reference - Big Fight Nights in London</h4>
           <ul>
             <li>
-              <strong>When:</strong> A handful of marquee cards a year, usually
+              <strong>When:</strong>{" "}A handful of marquee cards a year, usually
               Saturdays, as of 2026
             </li>
             <li>
-              <strong>The rhythm:</strong> Quiet evenings, then a single late
+              <strong>The rhythm:</strong>{" "}Quiet evenings, then a single late
               surge after the main event
             </li>
             <li>
-              <strong>Busiest window:</strong> Midnight to closing, the latest
+              <strong>Busiest window:</strong>{" "}Midnight to closing, the latest
               peak in the luxury calendar
             </li>
             <li>
-              <strong>The crowd:</strong> Ringside celebrities, sport and music
+              <strong>The crowd:</strong>{" "}Ringside celebrities, sport and music
               crossover, international visitors
             </li>
             <li>
-              <strong>Access reality:</strong> Official after-parties are
+              <strong>Access reality:</strong>{" "}Official after-parties are
               private; the main Mayfair rooms are open and carry the energy
             </li>
           </ul>

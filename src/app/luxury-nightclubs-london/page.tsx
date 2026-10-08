@@ -94,7 +94,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>Tape London — Mayfair&apos;s Most Exclusive Room</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> occupies the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}occupies the
           top position for a reason that money alone cannot create: genuine
           exclusivity backed by genuine quality. The Hanover Square venue
           was founded by music industry professionals, and that DNA runs
@@ -165,7 +165,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>Dear Darling — Cocktail Elegance</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is the most
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
           beautiful room in Mayfair. Chandeliers, velvet, and a cocktail
           programme that rivals any dedicated bar in London. The seamless
           transition from refined cocktail evening to late-night energy
@@ -176,7 +176,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>Maddox Club — Dining Luxury</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is the only venue where
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the only venue where
           you can eat Italian cuisine at 8pm and dance to house music at
           2am without changing buildings. That seamless format makes it
           uniquely practical for{" "}
@@ -191,7 +191,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>The Box — Provocative Excellence</h3>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> in Soho is
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho is
           luxury expressed as daring. The performance-first nightclub pushes
           boundaries that other venues do not approach, creating evenings
           that are genuinely unforgettable. Not for everyone — but for the
@@ -205,7 +205,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>Reign London — Spectacle at Scale</h3>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> delivers
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}delivers
           theatrical entertainment — aerial acts, cabaret, live
           performances — on a scale that Mayfair venues cannot match.
           Ideal for celebrations and occasions where the evening needs to
@@ -228,7 +228,7 @@ export default function LuxuryNightclubsLondonPage() {
         <h3>BEAT London — Sonic Luxury</h3>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           defines luxury through sound quality. The room-tuned system
           delivers an audio experience that Mayfair venues cannot match,
           attracting a crowd united by genuine enthusiasm for music.
@@ -248,16 +248,16 @@ export default function LuxuryNightclubsLondonPage() {
         <div className="info-box">
           <h4>The Access Hierarchy</h4>
           <ul>
-            <li><strong>Table booking through a promoter:</strong> The most reliable route. Guarantees entry, guarantees a table, and a good promoter secures the best positions.</li>
-            <li><strong>Guestlist through a concierge:</strong> Reduces or removes cover charge but does not guarantee entry. Suitable for quieter nights.</li>
-            <li><strong>Walk-up:</strong> Only viable at less selective venues or on quiet midweek nights. Not recommended for Tape, Cirque, or The Box.</li>
+            <li><strong>Table booking through a promoter:</strong>{" "}The most reliable route. Guarantees entry, guarantees a table, and a good promoter secures the best positions.</li>
+            <li><strong>Guestlist through a concierge:</strong>{" "}Reduces or removes cover charge but does not guarantee entry. Suitable for quieter nights.</li>
+            <li><strong>Walk-up:</strong>{" "}Only viable at less selective venues or on quiet midweek nights. Not recommended for Tape, Cirque, or The Box.</li>
           </ul>
         </div>
 
         <p>
           For table bookings at any venue on this list, our concierge team
           works with every club directly.{" "}
-          <Link href="/contact">Contact us</Link> with your dates, group
+          <Link href="/contact">Contact us</Link>{" "}with your dates, group
           size, and preferences, and we will handle everything. For
           self-service bookings,{" "}
           <a

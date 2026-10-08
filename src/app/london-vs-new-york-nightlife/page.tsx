@@ -69,7 +69,7 @@ export default function LondonVsNewYorkNightlifePage() {
           — all within a fifteen-minute walk of each other. Add{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus, and Soho venues like{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> and{" "}
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
           <Link href="/clubs/the-box-london">The Box</Link>, and you have
           a density of premium nightlife unmatched anywhere in the world.
           Our{" "}
@@ -144,10 +144,10 @@ export default function LondonVsNewYorkNightlifePage() {
           axis. The hip-hop and R&amp;B venues —{" "}
           <Link href="/clubs/tape-london">Tape</Link>,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> — operate in one
+          <Link href="/clubs/selene-london">Selene</Link>{" "}— operate in one
           lane. The house music venues —{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
-          <Link href="/clubs/beat-london">BEAT</Link> — operate in
+          <Link href="/clubs/beat-london">BEAT</Link>{" "}— operate in
           another. A few, like{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,
           bridge the gap from night to night. This specialisation means
@@ -333,7 +333,7 @@ export default function LondonVsNewYorkNightlifePage() {
           For visitors choosing London, the key to a successful evening
           is advance planning. Secure a table booking through our
           concierge team —{" "}
-          <Link href="/contact">contact us</Link> with your dates,
+          <Link href="/contact">contact us</Link>{" "}with your dates,
           group size, and musical preferences, and we will recommend
           the right venue and handle the booking. For self-service
           reservations,{" "}

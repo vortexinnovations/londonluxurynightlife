@@ -78,7 +78,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
           weeks out open up. The WhatsApp groups that coordinate Saturday nights
           in Mayfair start filling with Mykonos flight links instead. I noticed
           it first three summers ago when I walked into{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on what should
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on what should
           have been a packed Saturday and found the room half-empty. The regulars
           had already left for the Aegean. London&apos;s top club brands had
           followed them, opening seasonal outposts on the island that now rival
@@ -157,7 +157,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
           regulars from{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
-          <Link href="/clubs/selene-london">Selene</Link> show up in Mykonos
+          <Link href="/clubs/selene-london">Selene</Link>{" "}show up in Mykonos
           between late June and mid-August. They bring the same table-booking
           habits, the same host relationships, and often the same group
           configurations. If you have spent any time in Mayfair on a Friday
@@ -213,12 +213,12 @@ export default function LondonToMykonosClubSceneSummerPage() {
         <div className="info-box">
           <h4>Quick Reference - London to Mykonos Club Guide</h4>
           <ul>
-            <li><strong>Season:</strong> Late June through mid-September</li>
-            <li><strong>Key London brands on the island:</strong> Tape Mykonos, Tabu Mykonos</li>
-            <li><strong>Table minimums:</strong> 15-25% above London equivalents (as of May 2026)</li>
-            <li><strong>Peak period:</strong> Mid-July through late August</li>
-            <li><strong>Dress code:</strong> Resort-smart (linen, loafers, relaxed tailoring)</li>
-            <li><strong>Booking:</strong> Essential, especially July-August weekends</li>
+            <li><strong>Season:</strong>{" "}Late June through mid-September</li>
+            <li><strong>Key London brands on the island:</strong>{" "}Tape Mykonos, Tabu Mykonos</li>
+            <li><strong>Table minimums:</strong>{" "}15-25% above London equivalents (as of May 2026)</li>
+            <li><strong>Peak period:</strong>{" "}Mid-July through late August</li>
+            <li><strong>Dress code:</strong>{" "}Resort-smart (linen, loafers, relaxed tailoring)</li>
+            <li><strong>Booking:</strong>{" "}Essential, especially July-August weekends</li>
           </ul>
         </div>
 

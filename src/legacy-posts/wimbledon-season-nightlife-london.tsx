@@ -68,7 +68,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         <p>
           The clubs that benefit most during Wimbledon are the ones already
           positioned for high-spending international guests.{" "}
-          <Link href="/clubs/reign-london">Reign</Link> sits at the top of that
+          <Link href="/clubs/reign-london">Reign</Link>{" "}sits at the top of that
           list. Its showclub format &mdash; performances, production, bottle
           service on a grand scale &mdash; appeals to the corporate groups and
           sponsor parties that define Wimbledon nightlife. During the fortnight,
@@ -77,7 +77,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> draws a different
+          <Link href="/clubs/selene-london">Selene</Link>{" "}draws a different
           slice of the Wimbledon crowd: the fashion-conscious, the player
           entourages, the people who want something more intimate than a 500-capacity
           showclub. Its location just north of Oxford Circus, a short walk from
@@ -87,7 +87,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> has carved out a
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}has carved out a
           particular niche during Wimbledon fortnight. The cocktail bar downstairs
           fills early with groups arriving from the tennis, still in their summer
           linens, transitioning smoothly into the club upstairs as the evening
@@ -112,7 +112,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/luna-club-london">Luna</Link> has become a quiet
+          <Link href="/clubs/luna-club-london">Luna</Link>{" "}has become a quiet
           favourite for these groups. Its newer profile means it hasn&apos;t
           accumulated the same reputation as the legacy Mayfair clubs, but that
           works in its favour &mdash; corporate hosts get exclusivity without the
@@ -133,11 +133,11 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         <div className="info-box">
           <h4>Quick Reference &mdash; Wimbledon Nightlife Essentials</h4>
           <ul>
-            <li><strong>Peak nights:</strong> Men&apos;s and Women&apos;s semi-final and final days</li>
-            <li><strong>Book ahead:</strong> Tables fill 1&ndash;2 weeks before the tournament starts</li>
-            <li><strong>Arrival time:</strong> 10:30pm&ndash;11:30pm on match days (later than usual)</li>
-            <li><strong>Expect to spend:</strong> Minimum spends increase 20&ndash;30% at premium venues</li>
-            <li><strong>Transport:</strong> Uber surge pricing peaks at 11pm during Wimbledon &mdash; pre-book or use a car service</li>
+            <li><strong>Peak nights:</strong>{" "}Men&apos;s and Women&apos;s semi-final and final days</li>
+            <li><strong>Book ahead:</strong>{" "}Tables fill 1&ndash;2 weeks before the tournament starts</li>
+            <li><strong>Arrival time:</strong>{" "}10:30pm&ndash;11:30pm on match days (later than usual)</li>
+            <li><strong>Expect to spend:</strong>{" "}Minimum spends increase 20&ndash;30% at premium venues</li>
+            <li><strong>Transport:</strong>{" "}Uber surge pricing peaks at 11pm during Wimbledon &mdash; pre-book or use a car service</li>
           </ul>
         </div>
 
@@ -177,7 +177,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> handles this rhythm well.
+          <Link href="/clubs/maddox">Maddox</Link>{" "}handles this rhythm well.
           Its cocktail bar absorbs the early arrivals while the club floor
           fills gradually. By 12:30am, the room has the kind of atmosphere that
           only happens when an entire crowd has shared the same day &mdash; the
@@ -190,8 +190,8 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           The Men&apos;s Singles Final Sunday is the crescendo. The winner&apos;s
           after-party occasionally lands in Mayfair, though venues understandably
           keep those arrangements quiet until the last moment.{" "}
-          <Link href="/clubs/selene-london">Selene</Link> and{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> have both
+          <Link href="/clubs/selene-london">Selene</Link>{" "}and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}have both
           attracted post-tournament celebrations in recent years, though nothing
           is ever confirmed in advance.
         </p>

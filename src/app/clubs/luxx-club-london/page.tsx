@@ -45,7 +45,7 @@ export default function LuxxClubLondonPage() {
             <strong>Music (when open):</strong> {club.musicStyle}
           </p>
           <p>
-            <strong>Status:</strong> Closed. Its successor is Itzel.
+            <strong>Status:</strong>{" "}Closed. Its successor is Itzel.
           </p>
         </div>
 

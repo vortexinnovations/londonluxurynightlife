@@ -121,7 +121,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         <h3>Tape London</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> has the strongest
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}has the strongest
           association with Fashion Week nightlife. Its Hanover Square location,
           members&apos; club status, and music-industry pedigree make it a
           natural home for brand afterparties and industry gatherings. During
@@ -134,7 +134,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         <h3>The Box</h3>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> attracts the more
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}attracts the more
           creatively ambitious end of the fashion spectrum. Its theatrical
           format and provocative performances appeal to designers, stylists,
           and the editorial crowd who seek experience over convention. During
@@ -148,7 +148,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         <h3>Cirque Le Soir</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> draws the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}draws the
           international contingent. Buyers, editors, and models from the global
           fashion circuit gravitate toward its spectacle and energy. The circus
           performances provide a talking point that transcends industry
@@ -183,23 +183,23 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           <h4>How to Be in the Right Room During LFW</h4>
           <ul>
             <li>
-              <strong>Book a table at a key venue:</strong> This guarantees
+              <strong>Book a table at a key venue:</strong>{" "}This guarantees
               your presence in the room. Table bookings are honoured regardless
               of private events happening alongside.
             </li>
             <li>
-              <strong>Book early:</strong> Fashion Week dates are published
+              <strong>Book early:</strong>{" "}Fashion Week dates are published
               months in advance. The best tables at key venues sell out weeks
               before the shows begin.
             </li>
             <li>
-              <strong>Use a connected concierge:</strong> A concierge with
+              <strong>Use a connected concierge:</strong>{" "}A concierge with
               fashion industry relationships can advise on which venue is
               hosting which event on which night — information that is not
               publicly available.
             </li>
             <li>
-              <strong>Target midweek:</strong> Tuesday through Thursday during
+              <strong>Target midweek:</strong>{" "}Tuesday through Thursday during
               LFW often hosts the most significant industry events. The weekend
               is busy but less industry-focused.
             </li>
@@ -243,7 +243,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
 
         <ul>
           <li>
-            <strong>February (Autumn/Winter shows):</strong> The quieter of
+            <strong>February (Autumn/Winter shows):</strong>{" "}The quieter of
             the two seasons. London is cold, the fashion crowd is mid-circuit
             between New York and Milan, and the nightlife has a more intimate
             quality. Afterparties are slightly less frenzied, and table
@@ -252,7 +252,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
             social-media focused.
           </li>
           <li>
-            <strong>September (Spring/Summer shows):</strong> The bigger,
+            <strong>September (Spring/Summer shows):</strong>{" "}The bigger,
             more energetic season. The weather is warmer, London is busier,
             and the fashion crowd is in a more celebratory mood. September
             LFW generates more press, more parties, and more demand on

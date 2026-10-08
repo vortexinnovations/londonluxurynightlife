@@ -121,7 +121,7 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           powerfully — on a strong Thursday or Saturday, the room generates
           an atmosphere that larger venues spend fortunes trying to create.
           If you appreciate what{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> does with
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}does with
           musical credibility in an intimate setting, Scotch operates in a
           similar emotional register but with a broader sonic palette.
         </p>
@@ -147,18 +147,18 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           </Link>
           , we often recommend Scotch as one night on a multi-night London
           itinerary, paired with a more contemporary venue like{" "}
-          <Link href="/clubs/tabu-london">TABU</Link> or{" "}
-          <Link href="/clubs/selene-london">Selene</Link> for contrast.
+          <Link href="/clubs/tabu-london">TABU</Link>{" "}or{" "}
+          <Link href="/clubs/selene-london">Selene</Link>{" "}for contrast.
         </p>
 
         <div className="info-box">
           <h4>Scotch of St James — Key Details</h4>
           <ul>
-            <li><strong>Location:</strong> Mason&apos;s Yard, Mayfair</li>
-            <li><strong>Music:</strong> Mixed — rock, indie, hip-hop, electronic</li>
-            <li><strong>Best nights:</strong> Thursday and Saturday</li>
-            <li><strong>Dress code:</strong> Smart but not overly formal — individuality welcomed</li>
-            <li><strong>Tables from:</strong> &pound;1,000</li>
+            <li><strong>Location:</strong>{" "}Mason&apos;s Yard, Mayfair</li>
+            <li><strong>Music:</strong>{" "}Mixed — rock, indie, hip-hop, electronic</li>
+            <li><strong>Best nights:</strong>{" "}Thursday and Saturday</li>
+            <li><strong>Dress code:</strong>{" "}Smart but not overly formal — individuality welcomed</li>
+            <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
           </ul>
         </div>
 
@@ -166,7 +166,7 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           Whether you come for the history or discover it after you arrive,
           Scotch of St James delivers a night that no other London venue can
           replicate.{" "}
-          <Link href="/contact">Contact our team</Link> for reservations and
+          <Link href="/contact">Contact our team</Link>{" "}for reservations and
           guestlist.
         </p>
 

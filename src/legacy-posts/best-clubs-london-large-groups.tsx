@@ -88,7 +88,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> is a strong choice
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}is a strong choice
           at this size. The two-floor layout gives your group the option to
           move between house music downstairs and hip-hop upstairs without
           leaving the venue, which keeps varied tastes satisfied under one roof.
@@ -97,11 +97,11 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/libertine">Libertine</Link> handles groups of this
+          <Link href="/clubs/libertine">Libertine</Link>{" "}handles groups of this
           size with ease. The venue&apos;s layout allows adjacent tables to feel
           connected, and the fashionable, high-energy crowd creates an
           atmosphere that elevates the evening beyond a private gathering.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link> offers a similar
+          <Link href="/clubs/tabu-london">TABU London</Link>{" "}offers a similar
           experience with a distinctive Japanese-inspired aesthetic that gives
           the group something visually memorable — particularly valuable for
           birthday or celebration groups who want photos that stand out.
@@ -128,7 +128,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link> is
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}is
           purpose-built for this scale. The venue&apos;s generous floor plan,
           semi-private areas, and experience with large party bookings make it
           one of the most reliable choices in central London for groups in this
@@ -138,7 +138,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> delivers raw
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}delivers raw
           nightclub energy with a sound system that ranks among London&apos;s
           best. For groups that prioritise the music and the party over visual
           spectacle, BEAT is the pick. The venue can accommodate larger bookings
@@ -146,7 +146,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> enters
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}enters
           the conversation at this size. With multiple rooms spanning different
           genres, a group of twenty with varied musical tastes can split across
           rooms without actually splitting up — everyone is still in the same
@@ -166,7 +166,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link> is the
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}is the
           definitive choice for groups of this size. The venue holds well over a
           thousand people across multiple rooms, and their events team is
           experienced with large-scale group bookings, corporate events, and
@@ -176,7 +176,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link> can
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}can
           accommodate groups in the thirty-to-fifty range with advance
           coordination. Their events team can configure sections of the venue
           for a semi-private experience, which gives you the energy of a public
@@ -189,7 +189,7 @@ export default function BestClubsLondonLargeGroupsPage() {
           Not every London club welcomes stag and hen groups, and it is
           important to know the distinction before booking. Venues that position
           themselves at the more exclusive end — particularly{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> — are generally
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}— are generally
           not the right fit for large hen parties. The intimate, members&apos;
           club atmosphere does not align with the energy of a typical hen do,
           and you risk the group feeling out of place or, worse, being asked to
@@ -223,11 +223,11 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is excellent for corporate
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is excellent for corporate
           entertainment — the dinner-to-club format provides a structured
           evening, and the house music soundtrack is sophisticated without being
           aggressive.{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> offers an
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}offers an
           elegant cocktail-led evening that works well for client entertainment
           and works functions where a full nightclub might be too much. For a
           deeper dive into corporate options, see our{" "}

@@ -138,7 +138,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         </p>
 
         <p>
-          <Link href="/clubs/maddox">Maddox Club</Link> is the most reliable
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}is the most reliable
           performer in this category. Its private rooms upstairs make it
           natural for the more intimate after-receptions, where the cast and
           the producers gather before joining the broader guest list
@@ -151,7 +151,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         </p>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> on Hanover Square
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover Square
           attracts a slightly different category of premiere - music-driven
           films, documentaries, and projects with industry crossover. The
           members-only structure means the entire room is already pre-vetted,
@@ -169,13 +169,13 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box Soho</Link> handles the
+          <Link href="/clubs/the-box-london">The Box Soho</Link>{" "}handles the
           more performative end of the premiere circuit. Studios that want
           spectacle, late-night theatre, and a sense of occasion tend to book
           this venue. From experience, the crowd reacts differently when a
           major star walks through the room here, more openly and more
           vocally, which suits some films and undermines others.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> sits in the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}sits in the
           same category for younger-skewing premieres, where the theatrical
           staging makes it a natural extension of the red carpet.
         </p>
@@ -232,7 +232,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
           What does exist is a secondary circuit. Many premiere after-parties
           wind down by 1am, at which point the venue resumes normal operation.
           Anyone with a table booked for that evening at, for example,{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on a night that
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on a night that
           turns out to be a premiere venue can find themselves sharing the
           room with talent for the final hour. From experience this is not
           something you can plan for, but it does happen often enough that
@@ -272,23 +272,23 @@ export default function LondonFilmPremiereAfterPartiesPage() {
           <h4>Quick Reference - London Premiere After-Parties</h4>
           <ul>
             <li>
-              <strong>Peak premiere months:</strong> October (BFI Festival),
+              <strong>Peak premiere months:</strong>{" "}October (BFI Festival),
               February (BAFTA week), and tentpole release windows
             </li>
             <li>
-              <strong>Most-booked venues:</strong> Maddox Club, Tape London,
+              <strong>Most-booked venues:</strong>{" "}Maddox Club, Tape London,
               The Box Soho, Cirque Le Soir
             </li>
             <li>
-              <strong>Typical timing:</strong> 9:30pm arrival, peak 11pm to
+              <strong>Typical timing:</strong>{" "}9:30pm arrival, peak 11pm to
               midnight, talent departs by 1am
             </li>
             <li>
-              <strong>Access reality:</strong> True after-parties are
+              <strong>Access reality:</strong>{" "}True after-parties are
               guest-list only with passport ID checks
             </li>
             <li>
-              <strong>Photography:</strong> Strictly controlled in the first
+              <strong>Photography:</strong>{" "}Strictly controlled in the first
               hour, banned thereafter
             </li>
           </ul>

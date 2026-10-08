@@ -88,7 +88,7 @@ export default function PrivacyPage() {
         us to delete it, or object to our processing of it. Because we hold so
         little, the usual answer is a quick one. To exercise any of these
         rights, message us through the{" "}
-        <Link href="/contact">contact page</Link> and tell us what you need.
+        <Link href="/contact">contact page</Link>{" "}and tell us what you need.
         If you are unhappy with how we have handled your data, you have the
         right to complain to the Information Commissioner&apos;s Office
         (ico.org.uk).
@@ -103,7 +103,7 @@ export default function PrivacyPage() {
       </p>
 
       <p>
-        <strong>Last updated:</strong> 21 July 2026
+        <strong>Last updated:</strong>{" "}21 July 2026
       </p>
     </ArticleLayout>
   );

@@ -104,7 +104,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           read the room rather than playing to a predetermined formula, which
           means the energy builds organically through the night. If you enjoy
           venues like{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> for their musical
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}for their musical
           credibility, Funky Buddha operates in a similar space but with a
           warmer, more soulful edge.
         </p>
@@ -122,7 +122,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           everyone present has made an effort and wants to be there, which
           creates a self-reinforcing cycle of quality. This is the same
           principle that makes{" "}
-          <Link href="/clubs/cuckoo-club">The Cuckoo Club</Link> and{" "}
+          <Link href="/clubs/cuckoo-club">The Cuckoo Club</Link>{" "}and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           consistently strong on their best nights.
         </p>
@@ -177,11 +177,11 @@ export default function FunkyBuddhaLondonReviewPage() {
         <p>
           Funky Buddha is ideal for groups who want to dance. If your priority
           is a seated, cocktail-focused evening with background music, venues
-          like <Link href="/clubs/dear-darling">Dear Darling</Link> or{" "}
-          <Link href="/clubs/maddox">Maddox</Link> may suit you better. If
+          like <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
+          <Link href="/clubs/maddox">Maddox</Link>{" "}may suit you better. If
           you want spectacle and theatrical performances,{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> or{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> are designed
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}or{" "}
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}are designed
           for that. But if you want a proper club night — music, dancing,
           atmosphere — Funky Buddha remains one of the most reliable choices
           in the area.
@@ -194,7 +194,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           newer openings have surpassed it. Venues like{" "}
           <Link href="/clubs/tabu-london">TABU</Link>,{" "}
           <Link href="/clubs/luna-club-london">Luna Club</Link>, and{" "}
-          <Link href="/clubs/selene-london">Selene</Link> bring fresh design,
+          <Link href="/clubs/selene-london">Selene</Link>{" "}bring fresh design,
           modern sound systems, and the excitement of novelty. They are
           excellent venues in their own right, and our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">
@@ -227,7 +227,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           override the door policy. Table bookings come with minimum spends
           that are competitive with other Mayfair venues. For the best
           experience,{" "}
-          <Link href="/contact">contact us</Link> and we will secure the
+          <Link href="/contact">contact us</Link>{" "}and we will secure the
           right table for your group size and occasion. For visitors from
           outside the UK, our{" "}
           <Link href="/guides/london-nightlife-international-visitors">

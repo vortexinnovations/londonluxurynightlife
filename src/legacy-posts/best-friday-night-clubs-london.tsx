@@ -108,14 +108,14 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For Hip-Hop and RnB</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> is the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}is the
           definitive Friday destination for hip-hop and RnB in a luxury
           setting. The Hanover Square venue draws its music industry clientele
           most heavily on Friday, when the week&apos;s releases and studio
           sessions spill over into the evening&apos;s energy. Tables from
           &pound;1,500, and on Friday they are in high demand — booking early
           is essential.{" "}
-          <Link href="/clubs/funky-buddha">Funky Buddha</Link> on Berkeley
+          <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}on Berkeley
           Street offers a similarly hip-hop-focused evening with a slightly
           more accessible entry point, and its compact room ensures the
           energy is concentrated rather than dispersed.
@@ -124,7 +124,7 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For Theatrical Spectacle</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> in Soho
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}in Soho
           delivers an experience that no other London venue attempts. Friday
           night brings the full circus production — fire breathers,
           contortionists, acrobats weaving between tables while the room
@@ -138,7 +138,7 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For Showclub Entertainment</h3>
 
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}on Piccadilly
           brings aerial acts, live performers, and a production-heavy
           evening to Friday nightlife. The multi-floor format offers different
           experiences depending on where you position yourself, and the
@@ -151,14 +151,14 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For House Music</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox Club</Link> is the Friday
+          <Link href="/clubs/maddox">Maddox Club</Link>{" "}is the Friday
           destination for house music devotees. The restaurant-nightclub
           hybrid in Mayfair transitions from Italian dining to deep house
           after midnight, and Friday is when the music programming is at its
           sharpest. The crowd here is slightly older and more musically
           invested than at the hip-hop venues — people come for the sound
           rather than the scene. For a different take on house and electronic
-          music, <Link href="/clubs/beat-london">BEAT London</Link> on
+          music, <Link href="/clubs/beat-london">BEAT London</Link>{" "}on
           Margaret Street in Fitzrovia offers one of London&apos;s best sound
           systems in a stripped-back, music-first environment.
         </p>
@@ -166,8 +166,8 @@ export default function BestFridayNightClubsLondonPage() {
         <h3>For a Cocktail-to-Club Transition</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link> both excel as
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and{" "}
+          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}both excel as
           venues where Friday evening can begin with cocktails and evolve
           into a full club night without changing location. Dear Darling&apos;s
           opulent setting serves world-class cocktails before the late-night
@@ -181,24 +181,24 @@ export default function BestFridayNightClubsLondonPage() {
           <h4>Friday Night Timeline</h4>
           <ul>
             <li>
-              <strong>9:00pm &ndash; 10:30pm:</strong> Pre-drinks at a
+              <strong>9:00pm &ndash; 10:30pm:</strong>{" "}Pre-drinks at a
               cocktail bar. Set the tone, get the group together.
             </li>
             <li>
-              <strong>10:30pm &ndash; 11:30pm:</strong> Arrive at the club.
+              <strong>10:30pm &ndash; 11:30pm:</strong>{" "}Arrive at the club.
               This is the guestlist window and the ideal table arrival time.
             </li>
             <li>
-              <strong>11:30pm &ndash; 12:30am:</strong> The room fills. Energy
+              <strong>11:30pm &ndash; 12:30am:</strong>{" "}The room fills. Energy
               builds. Order your first bottles if on a table.
             </li>
             <li>
-              <strong>12:30am &ndash; 2:30am:</strong> Peak hours. The DJ is
+              <strong>12:30am &ndash; 2:30am:</strong>{" "}Peak hours. The DJ is
               in full flow, the room is at capacity, and the atmosphere is at
               its highest.
             </li>
             <li>
-              <strong>2:30am &ndash; 3:00am+:</strong> Last orders and wind
+              <strong>2:30am &ndash; 3:00am+:</strong>{" "}Last orders and wind
               down. Some venues push later on Friday.
             </li>
           </ul>

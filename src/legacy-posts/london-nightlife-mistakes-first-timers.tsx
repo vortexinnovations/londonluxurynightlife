@@ -98,7 +98,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Arrive between 11pm and midnight.
+          <strong>What to do instead:</strong>{" "}Arrive between 11pm and midnight.
           If you have a table booking, 11:30pm is the sweet spot. If you are
           on guestlist, aim for 10:30&ndash;11:30pm — early enough to get in
           before the door tightens, late enough that there is atmosphere when
@@ -116,7 +116,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> If you are on guestlist, you
+          <strong>What to do instead:</strong>{" "}If you are on guestlist, you
           need to be inside by midnight. Table bookings offer more flexibility,
           but most venues specify an arrival window — typically by 12:30am.
           Communicate with your promoter or concierge if you are running late.
@@ -135,7 +135,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> For men — tailored trousers or
+          <strong>What to do instead:</strong>{" "}For men — tailored trousers or
           smart dark jeans, a collared shirt or quality knitwear, and proper
           shoes. For women — cocktail-appropriate attire with heels. When in
           doubt, overdress. Nobody has ever been turned away from a London club
@@ -154,7 +154,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Always book. Guestlist is free.
+          <strong>What to do instead:</strong>{" "}Always book. Guestlist is free.
           Table bookings guarantee entry. Either route removes the uncertainty
           entirely. A concierge or promoter handles this in minutes.
         </p>
@@ -174,7 +174,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Large groups need a table. This
+          <strong>What to do instead:</strong>{" "}Large groups need a table. This
           solves every problem at once — guaranteed entry, guaranteed space,
           and revenue for the venue that justifies accommodating your numbers.
           If a table is not in the budget, split into smaller groups of three
@@ -197,7 +197,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Know your minimum before you
+          <strong>What to do instead:</strong>{" "}Know your minimum before you
           book. Look at the bottle menu in advance if possible. Budget for
           the minimum plus 15&ndash;20% for service charge. Discuss the spend
           with your group before the evening — not when the bill arrives.
@@ -214,7 +214,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Be polite, be patient, and be
+          <strong>What to do instead:</strong>{" "}Be polite, be patient, and be
           honest. If you have a booking, state it clearly. If you do not have
           a booking and are being turned away, accept it gracefully and try
           another venue. Having a promoter or concierge contact who can
@@ -234,7 +234,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Have drinks beforehand — a
+          <strong>What to do instead:</strong>{" "}Have drinks beforehand — a
           civilised dinner with wine, cocktails at a bar — but calibrate. You
           want to arrive in good spirits, not incapable. Eat properly before
           you go out. Pace yourself. The evening starts at midnight and
@@ -253,7 +253,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Decide on your venue before the
+          <strong>What to do instead:</strong>{" "}Decide on your venue before the
           evening begins. Book your table or guestlist spot. Know the address.
           Know the arrival time. Have a backup option. The{" "}
           <Link href="/guides/london-nightlife-international-visitors">
@@ -274,7 +274,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Use specialist resources. Read
+          <strong>What to do instead:</strong>{" "}Use specialist resources. Read
           editorial reviews from people who have actually been inside the
           venues on the nights that matter. Speak to a concierge who knows the
           current state of each club — which venues are hot this season, which
@@ -295,7 +295,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Book through a{" "}
+          <strong>What to do instead:</strong>{" "}Book through a{" "}
           <Link href="/guestlist-vs-table-booking-london">
             concierge or promoter
           </Link>
@@ -317,7 +317,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong> Match the energy of the room.
+          <strong>What to do instead:</strong>{" "}Match the energy of the room.
           London&apos;s best clubs have atmosphere and excitement, but it is
           calibrated. Enjoy your evening confidently without performing it.
           The unwritten rules of{" "}

@@ -154,7 +154,7 @@ export default function VIPNightlifeLondonPage() {
         <h3>Best for Privacy and Exclusivity</h3>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> delivers the
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}delivers the
           most private VIP experience in the city. The no-phones policy means
           your evening stays in the room, the sound system is world-class,
           and the service anticipates rather than responds. Tables from
@@ -165,13 +165,13 @@ export default function VIPNightlifeLondonPage() {
         <h3>Best for Entertainment</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> turns VIP
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}turns VIP
           into a front-row seat at the most extraordinary show in London
           nightlife. Fire breathers perform feet from your table,
           contortionists weave between guests, and the energy is relentless.
           No other venue combines bottle service with live entertainment at
           this level.{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> offers a
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}offers a
           similar entertainment-forward VIP experience at a larger scale,
           with cabaret and aerial performances.
         </p>
@@ -179,29 +179,29 @@ export default function VIPNightlifeLondonPage() {
         <h3>Best for Sophistication</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> delivers VIP
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}delivers VIP
           with cocktail-bar refinement. The transition from elegant early
           evening to energetic late night happens around you, and the
           quality of the drinks programme means your table spend goes
           further in terms of pure enjoyment.{" "}
-          <Link href="/clubs/selene-london">Selene</Link> offers a similar
+          <Link href="/clubs/selene-london">Selene</Link>{" "}offers a similar
           blend of sophistication and energy just north of Oxford Circus.
         </p>
 
         <h3>Best for a First VIP Experience</h3>
 
         <p>
-          <Link href="/clubs/selene-london">Selene</Link> is a refined, newer
+          <Link href="/clubs/selene-london">Selene</Link>{" "}is a refined, newer
           room just north of Oxford Circus with minimum spends that are accessible without being
           cheap and a door that is selective without being intimidating.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> pairs VIP nightlife with
+          <Link href="/clubs/maddox">Maddox</Link>{" "}pairs VIP nightlife with
           Italian dining for a complete evening under one roof.
         </p>
 
         <h3>Best for Music-Focused VIP</h3>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link> in Fitzrovia
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           delivers VIP where the sound system is the star. The room-tuned
           audio means your table puts you inside the music rather than beside
           it.
@@ -212,7 +212,7 @@ export default function VIPNightlifeLondonPage() {
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           delivers VIP with genuine heritage character.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> provides VIP for
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}provides VIP for
           the adventurous — the performances are not for the faint-hearted.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           offers a different VIP proposition built around its sound system.
@@ -224,7 +224,7 @@ export default function VIPNightlifeLondonPage() {
           <h4>Booking Essentials</h4>
           <ul>
             <li>
-              <strong>Book through a concierge or promoter:</strong> Better
+              <strong>Book through a concierge or promoter:</strong>{" "}Better
               table positions, managed expectations, and someone in your
               corner at the venue. For direct table reservations,{" "}
               <a
@@ -238,18 +238,18 @@ export default function VIPNightlifeLondonPage() {
               secures the best available positions across all top venues.
             </li>
             <li>
-              <strong>Confirm your group size accurately:</strong> Table
+              <strong>Confirm your group size accurately:</strong>{" "}Table
               allocation is based on numbers. Arriving with more guests than
               booked creates problems. Fewer is usually fine.
             </li>
             <li>
-              <strong>Arrive within your window:</strong> Most VIP bookings
+              <strong>Arrive within your window:</strong>{" "}Most VIP bookings
               have an arrival window (typically 10:30pm-12:30am). Arriving
               late risks losing your table or receiving a less desirable
               position.
             </li>
             <li>
-              <strong>Understand your minimum spend:</strong> Confirm whether
+              <strong>Understand your minimum spend:</strong>{" "}Confirm whether
               it is per person or per table, what is included, and whether
               entry is charged separately.
             </li>
@@ -264,7 +264,7 @@ export default function VIPNightlifeLondonPage() {
           who love hip-hop will have a better time at Tape than at Dear
           Darling, regardless of which venue has more Instagram followers.
           Our{" "}
-          <Link href="/contact">concierge team</Link> matches groups to
+          <Link href="/contact">concierge team</Link>{" "}matches groups to
           venues based on these factors — it is the most valuable part of
           what we do.
         </p>

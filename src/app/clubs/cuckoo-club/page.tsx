@@ -39,10 +39,10 @@ export default function CuckooClubPage() {
 
         <div className="info-box">
           <p>
-            <strong>Now called:</strong> 99 Regent Street
+            <strong>Now called:</strong>{" "}99 Regent Street
           </p>
           <p>
-            <strong>Formerly:</strong> Cuckoo Club
+            <strong>Formerly:</strong>{" "}Cuckoo Club
           </p>
           <p>
             <strong>Location:</strong> {club.location}

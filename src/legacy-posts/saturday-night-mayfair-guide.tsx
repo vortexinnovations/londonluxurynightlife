@@ -60,7 +60,7 @@ export default function SaturdayNightMayfairGuidePage() {
 
         <p>
           The evening starts earlier than most visitors expect.{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> is an excellent
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is an excellent
           starting point — it operates as a sophisticated cocktail bar and
           restaurant before transitioning into a late-night venue, which means
           you can settle into the evening without rushing. The Mayfair hotel
@@ -78,8 +78,8 @@ export default function SaturdayNightMayfairGuidePage() {
           You are looking at a long evening with expensive drinks, and a proper
           meal provides the foundation you need. The dining-to-nightlife
           pipeline is well established: venues like{" "}
-          <Link href="/clubs/maddox">Maddox</Link> and{" "}
-          <Link href="/clubs/lio-club-london">Lio Club</Link> combine dinner
+          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
+          <Link href="/clubs/lio-club-london">Lio Club</Link>{" "}combine dinner
           and clubbing in a single venue, meaning your evening flows without a
           geographic transition. For restaurants that pair naturally with a
           club visit afterwards, see our{" "}
@@ -156,7 +156,7 @@ export default function SaturdayNightMayfairGuidePage() {
             <li>Confirm your booking the day before — no-shows lose tables</li>
             <li>Communicate your group size accurately (adding guests last-minute is difficult)</li>
             <li>
-              <Link href="/contact">Contact us</Link> for same-week bookings — we can often secure tables that are not publicly available
+              <Link href="/contact">Contact us</Link>{" "}for same-week bookings — we can often secure tables that are not publicly available
             </li>
           </ul>
         </div>
@@ -214,31 +214,31 @@ export default function SaturdayNightMayfairGuidePage() {
 
         <ul>
           <li>
-            <strong>Not booking a table:</strong> The single most common error.
+            <strong>Not booking a table:</strong>{" "}The single most common error.
             Walking up on Saturday without a reservation is gambling with your
             entire evening.
           </li>
           <li>
-            <strong>Arriving after midnight:</strong> You miss the easy entry
+            <strong>Arriving after midnight:</strong>{" "}You miss the easy entry
             window and arrive when the room is already at peak capacity. Your
             table may be given away if you are significantly late.
           </li>
           <li>
-            <strong>Underdressing:</strong> Saturday door policies are the
+            <strong>Underdressing:</strong>{" "}Saturday door policies are the
             strictest of the week. There is no negotiating your way past a door
             team when you are wearing trainers.
           </li>
           <li>
-            <strong>Skipping dinner:</strong> A Mayfair Saturday is a marathon,
+            <strong>Skipping dinner:</strong>{" "}A Mayfair Saturday is a marathon,
             not a sprint. Arriving hungry at 11pm with bottles of vodka on
             the way is a recipe for an early exit.
           </li>
           <li>
-            <strong>No transport plan:</strong> Hoping to find a taxi at 3am on
+            <strong>No transport plan:</strong>{" "}Hoping to find a taxi at 3am on
             a Saturday is optimism, not planning.
           </li>
           <li>
-            <strong>Splitting the group across venues:</strong> If you have a
+            <strong>Splitting the group across venues:</strong>{" "}If you have a
             large party, commit to one venue for the main event. Moving a
             group of ten between clubs on a Saturday night is logistically
             painful and rarely works smoothly.

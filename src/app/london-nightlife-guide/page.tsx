@@ -93,17 +93,17 @@ export default function LondonNightlifeGuidePage() {
           Mayfair contains the highest concentration of luxury nightclubs
           in Europe. Within a fifteen-minute walk of Green Park station,
           you can choose between{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> (the most
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}(the most
           exclusive),{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           (the most historic),{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link> (the most
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}(the most
           elegant),{" "}
           and{" "}
-          <Link href="/clubs/maddox">Maddox</Link> (the best for dinner
+          <Link href="/clubs/maddox">Maddox</Link>{" "}(the best for dinner
           and dancing). Just north of Oxford Circus, in Fitzrovia and a short
           walk from Mayfair,{" "}
-          <Link href="/clubs/selene-london">Selene</Link> is the most
+          <Link href="/clubs/selene-london">Selene</Link>{" "}is the most
           refined newcomer. Our{" "}
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
@@ -125,10 +125,10 @@ export default function LondonNightlifeGuidePage() {
         <p>
           Soho is where London&apos;s nightlife gets interesting beyond the
           luxury formula.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> on
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on
           Ganton Street delivers circus-themed spectacle with genuine
           celebrity magnetism.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link> on
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}on
           Walker&apos;s Court is the most provocative nightclub in London,
           built around boundary-pushing live performances. Soho&apos;s
           character is creative, unpredictable, and more varied than
@@ -140,7 +140,7 @@ export default function LondonNightlifeGuidePage() {
         <p>
           Fitzrovia sits between Mayfair and Soho, drawing from both without
           belonging to either.{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link> on Margaret
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}on Margaret
           Street has established itself as the area&apos;s flagship venue,
           with a sound system that prioritises audio quality over everything
           else. The scene is smaller but growing, attracting a crowd that
@@ -215,13 +215,13 @@ export default function LondonNightlifeGuidePage() {
         <div className="info-box">
           <h4>Quick Guide by Preference</h4>
           <ul>
-            <li><strong>First time in London:</strong> <Link href="/clubs/selene-london">Selene</Link> or <Link href="/clubs/dear-darling">Dear Darling</Link></li>
-            <li><strong>Celebrity atmosphere:</strong> <Link href="/clubs/tape-london">Tape London</Link> or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
+            <li><strong>First time in London:</strong> <Link href="/clubs/selene-london">Selene</Link>{" "}or <Link href="/clubs/dear-darling">Dear Darling</Link></li>
+            <li><strong>Celebrity atmosphere:</strong> <Link href="/clubs/tape-london">Tape London</Link>{" "}or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
             <li><strong>Dinner + club:</strong> <Link href="/clubs/maddox">Maddox</Link></li>
-            <li><strong>Something different:</strong> <Link href="/clubs/the-box-london">The Box</Link> or <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link></li>
-            <li><strong>Music quality:</strong> <Link href="/clubs/tape-london">Tape London</Link> or <Link href="/clubs/beat-london">BEAT</Link></li>
-            <li><strong>Celebration/birthday:</strong> <Link href="/clubs/reign-london">Reign</Link> or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
-            <li><strong>Corporate entertainment:</strong> <Link href="/clubs/maddox">Maddox</Link> or <Link href="/clubs/scotch-of-st-james">Scotch</Link></li>
+            <li><strong>Something different:</strong> <Link href="/clubs/the-box-london">The Box</Link>{" "}or <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link></li>
+            <li><strong>Music quality:</strong> <Link href="/clubs/tape-london">Tape London</Link>{" "}or <Link href="/clubs/beat-london">BEAT</Link></li>
+            <li><strong>Celebration/birthday:</strong> <Link href="/clubs/reign-london">Reign</Link>{" "}or <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link></li>
+            <li><strong>Corporate entertainment:</strong> <Link href="/clubs/maddox">Maddox</Link>{" "}or <Link href="/clubs/scotch-of-st-james">Scotch</Link></li>
           </ul>
         </div>
 
@@ -278,7 +278,7 @@ export default function LondonNightlifeGuidePage() {
             Mayfair Tonight
           </a>{" "}
           tracks current listings. And for everything else —{" "}
-          <Link href="/contact">contact our concierge team</Link> and
+          <Link href="/contact">contact our concierge team</Link>{" "}and
           we will plan your night from start to finish.
         </p>
 

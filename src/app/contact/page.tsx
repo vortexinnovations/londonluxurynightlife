@@ -241,7 +241,7 @@ export default function ContactPage() {
             <Reveal className="text-center mb-12">
               <span className="eyebrow justify-center mb-6">The Library</span>
               <h2 className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight mb-6">
-                Prefer to <span className="accent-word">Research</span> First?
+                Prefer to <span className="accent-word">Research</span>{" "}First?
               </h2>
               <p className="font-prose italic text-lg text-warm-gray leading-relaxed max-w-2xl mx-auto">
                 If you&apos;d like to explore the options before getting in touch,

@@ -86,7 +86,7 @@ export default function StagNightMayfairGuidePage() {
 
         <p>
           For a more classic luxury experience,{" "}
-          <Link href="/clubs/maddox">Maddox</Link> and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}
           both handle groups well. Maddox has the advantage of a ground-floor bar
           that works for earlier drinks before moving downstairs. Cuckoo&apos;s
@@ -110,19 +110,19 @@ export default function StagNightMayfairGuidePage() {
           <h4>Quick Reference &mdash; Best Clubs by Stag Type</h4>
           <ul>
             <li>
-              <strong>Big group (10+):</strong> Cirque Le Soir, Cuckoo Club
+              <strong>Big group (10+):</strong>{" "}Cirque Le Soir, Cuckoo Club
             </li>
             <li>
-              <strong>Intimate group (6-8):</strong> Scotch of St James, Tape London
+              <strong>Intimate group (6-8):</strong>{" "}Scotch of St James, Tape London
             </li>
             <li>
-              <strong>Mixed group with partners:</strong> Maddox, Dear Darling
+              <strong>Mixed group with partners:</strong>{" "}Maddox, Dear Darling
             </li>
             <li>
-              <strong>First-timers in Mayfair:</strong> Cuckoo Club, Maddox
+              <strong>First-timers in Mayfair:</strong>{" "}Cuckoo Club, Maddox
             </li>
             <li>
-              <strong>Music-focused:</strong> Scotch of St James, BEAT London (in Fitzrovia, a short walk from Mayfair)
+              <strong>Music-focused:</strong>{" "}Scotch of St James, BEAT London (in Fitzrovia, a short walk from Mayfair)
             </li>
           </ul>
         </div>
@@ -231,11 +231,11 @@ export default function StagNightMayfairGuidePage() {
         <div className="info-box">
           <h4>Stag Night Planning Checklist</h4>
           <ul>
-            <li><strong>6 weeks out:</strong> Choose venue, book table, confirm group size</li>
-            <li><strong>4 weeks out:</strong> Collect money from the group</li>
-            <li><strong>2 weeks out:</strong> Send dress code reminder, confirm final numbers</li>
-            <li><strong>1 week out:</strong> Book pre-drinks bar, arrange transport home</li>
-            <li><strong>On the night:</strong> Arrive at pre-drinks by 8pm, club by 11:30pm</li>
+            <li><strong>6 weeks out:</strong>{" "}Choose venue, book table, confirm group size</li>
+            <li><strong>4 weeks out:</strong>{" "}Collect money from the group</li>
+            <li><strong>2 weeks out:</strong>{" "}Send dress code reminder, confirm final numbers</li>
+            <li><strong>1 week out:</strong>{" "}Book pre-drinks bar, arrange transport home</li>
+            <li><strong>On the night:</strong>{" "}Arrive at pre-drinks by 8pm, club by 11:30pm</li>
           </ul>
         </div>
 

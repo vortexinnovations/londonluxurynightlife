@@ -132,22 +132,22 @@ export default function LondonClubDressCodeGuidePage() {
           <h4>Men&apos;s Safe Formula</h4>
           <ul>
             <li>
-              <strong>Shoes:</strong> Leather or suede shoes — loafers, Chelsea
+              <strong>Shoes:</strong>{" "}Leather or suede shoes — loafers, Chelsea
               boots, smart brogues, or dress shoes. This is the single most
               important item. Wrong shoes guarantee refusal at strict venues.
             </li>
             <li>
-              <strong>Trousers:</strong> Tailored trousers, chinos, or dark
+              <strong>Trousers:</strong>{" "}Tailored trousers, chinos, or dark
               slim-fit designer jeans. No joggers, no cargo trousers, no
               shorts under any circumstances.
             </li>
             <li>
-              <strong>Top:</strong> Collared shirt (not necessarily formal —
+              <strong>Top:</strong>{" "}Collared shirt (not necessarily formal —
               an open-collar shirt works), smart fitted knitwear, or a
               well-chosen polo. No t-shirts at strict venues.
             </li>
             <li>
-              <strong>Optional:</strong> A blazer elevates any outfit and is
+              <strong>Optional:</strong>{" "}A blazer elevates any outfit and is
               the fastest way to shift from borderline to comfortable. Even
               an unstructured blazer over a simple shirt changes the
               impression entirely.

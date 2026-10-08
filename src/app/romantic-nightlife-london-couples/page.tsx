@@ -155,7 +155,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
         <h3>1. Dear Darling — Cocktail Elegance Perfected</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link> occupies
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}occupies
           the top position because it was effectively designed for the kind
           of evening couples want. The Mayfair venue combines a
           world-class cocktail programme with an intimate room that
@@ -181,7 +181,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
         <h3>2. Maddox — The Dinner-to-Club Transition</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link> is the most practical
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the most practical
           choice for couples who want dinner and nightlife without the
           logistical friction of changing venues. The Mayfair institution
           serves Italian cuisine at restaurant level before transitioning
@@ -399,7 +399,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
           For anniversaries, proposals, and milestone celebrations, the
           standard date night approach needs elevation. Start by contacting
           the venue directly — or through our{" "}
-          <Link href="/contact">concierge team</Link> — to discuss the
+          <Link href="/contact">concierge team</Link>{" "}— to discuss the
           occasion. Premium venues will arrange champagne on arrival,
           specific table decorations, and personalised touches that
           transform a good evening into an unforgettable one.

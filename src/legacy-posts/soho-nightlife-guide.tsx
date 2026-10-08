@@ -115,7 +115,7 @@ export default function SohoNightlifeGuidePage() {
         <h2>The Box: London&apos;s Most Provocative Club</h2>
 
         <p>
-          <Link href="/clubs/the-box-london">The Box</Link> on Walker&apos;s
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}on Walker&apos;s
           Court is not a nightclub in any conventional sense. It is a
           theatre of the absurd that happens to have a dance floor and bottle
           service. The performances — which range from burlesque to
@@ -139,23 +139,23 @@ export default function SohoNightlifeGuidePage() {
           <h4>The Box at a Glance</h4>
           <ul>
             <li>
-              <strong>Location:</strong> Walker&apos;s Court, Soho
+              <strong>Location:</strong>{" "}Walker&apos;s Court, Soho
             </li>
             <li>
-              <strong>Open:</strong> Thursday &ndash; Saturday
+              <strong>Open:</strong>{" "}Thursday &ndash; Saturday
             </li>
             <li>
-              <strong>Music:</strong> Mixed, Hip-Hop, House
+              <strong>Music:</strong>{" "}Mixed, Hip-Hop, House
             </li>
             <li>
-              <strong>Tables from:</strong> &pound;1,000
+              <strong>Tables from:</strong>{" "}&pound;1,000
             </li>
             <li>
-              <strong>Dress code:</strong> Smart and fashionable. Creativity
+              <strong>Dress code:</strong>{" "}Smart and fashionable. Creativity
               encouraged.
             </li>
             <li>
-              <strong>Best for:</strong> Fashion crowd, creatives, anyone
+              <strong>Best for:</strong>{" "}Fashion crowd, creatives, anyone
               wanting something genuinely different
             </li>
           </ul>
@@ -164,7 +164,7 @@ export default function SohoNightlifeGuidePage() {
         <h2>Cirque Le Soir: The Circus That Never Stops</h2>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> on Ganton
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on Ganton
           Street takes the theatrical concept in a different direction — pure
           spectacle. Fire breathers, contortionists, stilt walkers, and
           acrobats share the floor with the crowd, creating an environment
@@ -284,17 +284,17 @@ export default function SohoNightlifeGuidePage() {
           <h4>Quick Comparison</h4>
           <ul>
             <li>
-              <strong>Choose Soho if:</strong> You want theatrical spectacle,
+              <strong>Choose Soho if:</strong>{" "}You want theatrical spectacle,
               creative energy, fashion-forward crowds, and the option to
               explore bars on foot
             </li>
             <li>
-              <strong>Choose Mayfair if:</strong> You want polished luxury,
+              <strong>Choose Mayfair if:</strong>{" "}You want polished luxury,
               bottle service as the centrepiece, and a consistently affluent
               crowd
             </li>
             <li>
-              <strong>Choose both if:</strong> You want the best possible
+              <strong>Choose both if:</strong>{" "}You want the best possible
               London evening — Soho for character, Mayfair for the final act
             </li>
           </ul>

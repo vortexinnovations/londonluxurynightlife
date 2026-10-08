@@ -129,10 +129,10 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           are extraordinary. The key consideration is proximity to your club
           — ideally within walking distance, which in Mayfair means within
           a ten-minute stroll. If your club is{" "}
-          <Link href="/clubs/tape-london">Tape London</Link> on Hanover
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover
           Square, choose a restaurant in the surrounding streets. If you are
           heading to{" "}
-          <Link href="/clubs/reign-london">Reign London</Link> on Piccadilly,
+          <Link href="/clubs/reign-london">Reign London</Link>{" "}on Piccadilly,
           Regent Street restaurants are your natural catchment.
         </p>
 
@@ -200,21 +200,21 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           <h4>Dinner-to-Club Routes</h4>
           <ul>
             <li>
-              <strong>For Tape London (Hanover Square):</strong> Dine on or
+              <strong>For Tape London (Hanover Square):</strong>{" "}Dine on or
               near Hanover Square, Maddox Street, or the surrounding grid.
               Five-minute walk to the venue.
             </li>
             <li>
-              <strong>For Reign London (Piccadilly):</strong> Regent
+              <strong>For Reign London (Piccadilly):</strong>{" "}Regent
               Street and Piccadilly restaurants. Three-minute walk.
             </li>
             <li>
-              <strong>For Cirque Le Soir / The Box (Soho):</strong> Dean
+              <strong>For Cirque Le Soir / The Box (Soho):</strong>{" "}Dean
               Street, Wardour Street, or Frith Street restaurants. The heart
               of London&apos;s dining scene.
             </li>
             <li>
-              <strong>For Maddox (Maddox Street):</strong> Dine at the venue
+              <strong>For Maddox (Maddox Street):</strong>{" "}Dine at the venue
               itself. The most seamless option available.
             </li>
           </ul>
@@ -273,21 +273,21 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <ul>
           <li>
-            <strong>Standard Friday/Saturday:</strong> Book the club one
+            <strong>Standard Friday/Saturday:</strong>{" "}Book the club one
             week ahead. Book the restaurant two weeks ahead.
           </li>
           <li>
-            <strong>Premium dates (NYE, bank holidays):</strong> Book the
+            <strong>Premium dates (NYE, bank holidays):</strong>{" "}Book the
             club three to four weeks ahead. Book the restaurant as early as
             possible.
           </li>
           <li>
-            <strong>Tape London or The Box:</strong> Always book as far
+            <strong>Tape London or The Box:</strong>{" "}Always book as far
             ahead as possible. These venues have the most selective door
             policies and fill their table allocation first.
           </li>
           <li>
-            <strong>Midweek (Wednesday/Thursday):</strong> A few days&apos;
+            <strong>Midweek (Wednesday/Thursday):</strong>{" "}A few days&apos;
             notice is usually sufficient for both restaurant and club.
           </li>
         </ul>
@@ -303,7 +303,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
             London Bottle Service
           </a>{" "}
           for direct table reservations, or{" "}
-          <Link href="/contact">our concierge team</Link> to coordinate the
+          <Link href="/contact">our concierge team</Link>{" "}to coordinate the
           entire evening — restaurant, club, and transport.
         </p>
 
@@ -340,7 +340,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           <h4>Per-Person Budget Guide (Group of 6)</h4>
           <ul>
             <li>
-              <strong>Cocktails (2 drinks):</strong> &pound;40&ndash;&pound;50
+              <strong>Cocktails (2 drinks):</strong>{" "}&pound;40&ndash;&pound;50
             </li>
             <li>
               <strong>Dinner (3 courses + wine):</strong>{" "}
@@ -351,7 +351,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
               &pound;170&ndash;&pound;250
             </li>
             <li>
-              <strong>Transport:</strong> &pound;20&ndash;&pound;50
+              <strong>Transport:</strong>{" "}&pound;20&ndash;&pound;50
             </li>
             <li>
               <strong>Total per person:</strong>{" "}
@@ -383,9 +383,9 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         <p>
           For mixed groups — different ages, different preferences, different
           energy levels — venue selection becomes critical.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> handles mixed energy
+          <Link href="/clubs/maddox">Maddox</Link>{" "}handles mixed energy
           levels with its gradual dinner-to-club transition.{" "}
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> unites
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}unites
           any group through shared spectacle. Choose the venue that solves
           your group&apos;s specific dynamic.
         </p>
@@ -399,23 +399,23 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <ul>
           <li>
-            <strong>Door refusal:</strong> Almost always a dress code
+            <strong>Door refusal:</strong>{" "}Almost always a dress code
             violation or arriving without a booking at a selective venue.
             Solution: book a table and follow the dress code.
           </li>
           <li>
-            <strong>Dead atmosphere:</strong> Arriving too early or choosing
+            <strong>Dead atmosphere:</strong>{" "}Arriving too early or choosing
             the wrong night. Solution: arrive between 11:00pm and midnight on
             Friday or Saturday at any venue on our{" "}
             <Link href="/luxury-nightclubs-london">recommended list</Link>.
           </li>
           <li>
-            <strong>Group fragmentation:</strong> No coordinator, no plan,
+            <strong>Group fragmentation:</strong>{" "}No coordinator, no plan,
             too many opinions. Solution: designate a coordinator or use a
             concierge.
           </li>
           <li>
-            <strong>Budget surprise:</strong> Not understanding minimum
+            <strong>Budget surprise:</strong>{" "}Not understanding minimum
             spends or premium date pricing. Solution: confirm all costs in
             advance. Our{" "}
             <Link href="/blog/bottle-service-london-explained">
@@ -424,15 +424,15 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
             explains exactly how pricing works.
           </li>
           <li>
-            <strong>Transport failure:</strong> Surge pricing, no
+            <strong>Transport failure:</strong>{" "}Surge pricing, no
             availability, group splitting into multiple vehicles. Solution:
             walk between Mayfair venues, pre-book a car service for the end
             of the evening.
           </li>
           <li>
-            <strong>Wrong venue for the group:</strong> A hip-hop venue for
+            <strong>Wrong venue for the group:</strong>{" "}A hip-hop venue for
             a group that wants house music, or vice versa. Solution: read our{" "}
-            <Link href="/best-hip-hop-clubs-london">hip-hop guide</Link> and{" "}
+            <Link href="/best-hip-hop-clubs-london">hip-hop guide</Link>{" "}and{" "}
             <Link href="/best-house-music-clubs-london">
               house music guide
             </Link>{" "}
@@ -446,7 +446,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           Everything in this guide can be handled by our concierge team. We
           coordinate restaurant reservations, club table bookings, transport,
           and every detail in between.{" "}
-          <Link href="/contact">Contact us</Link> with your dates, group
+          <Link href="/contact">Contact us</Link>{" "}with your dates, group
           size, and preferences, and we will build your evening.
         </p>
 

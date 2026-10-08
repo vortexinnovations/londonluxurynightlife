@@ -94,7 +94,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         <h3>Best Clubs for Birthday Celebrations</h3>
 
         <p>
-          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link> is the
+          <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}is the
           standout choice if you want the birthday person to feel like the
           evening was produced for them. The live performers, the theatrical
           atmosphere, and the built-in spectacle mean the night has an inherent
@@ -104,7 +104,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/tape-london">Tape London</Link> delivers prestige.
+          <Link href="/clubs/tape-london">Tape London</Link>{" "}delivers prestige.
           If the birthday person values exclusivity and a discerning crowd over
           spectacle, Tape is the natural choice. The intimate space makes a
           birthday table feel significant rather than lost in a larger venue.
@@ -113,7 +113,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link> combines
+          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}combines
           spectacle with space. The aerial performers and live entertainment
           create natural talking points for a group where not everyone knows
           each other, and the venue handles larger parties well. For groups of
@@ -122,10 +122,10 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/libertine">Libertine</Link> attracts a younger,
+          <Link href="/clubs/libertine">Libertine</Link>{" "}attracts a younger,
           fashion-conscious crowd and suits birthday groups where energy and
           style matter more than theatrical production.{" "}
-          <Link href="/clubs/maddox">Maddox</Link> is the pick if you want to
+          <Link href="/clubs/maddox">Maddox</Link>{" "}is the pick if you want to
           combine a seated birthday dinner with the club night in a single
           venue — their format transitions seamlessly from restaurant to dance
           floor, removing the logistical challenge of moving a large group
@@ -290,19 +290,19 @@ export default function BirthdayNightOutLondonGuidePage() {
 
         <ul>
           <li>
-            <strong>Table minimum spend:</strong> £1,000 to £3,000 depending on
+            <strong>Table minimum spend:</strong>{" "}£1,000 to £3,000 depending on
             venue, night, and table position.
           </li>
           <li>
-            <strong>Dinner:</strong> £50 to £150 per person at a quality
+            <strong>Dinner:</strong>{" "}£50 to £150 per person at a quality
             restaurant.
           </li>
           <li>
-            <strong>Transport:</strong> £30 to £60 per person for taxis or
+            <strong>Transport:</strong>{" "}£30 to £60 per person for taxis or
             rideshare, more on peak nights.
           </li>
           <li>
-            <strong>Additional drinks:</strong> Budget for pre-dinner cocktails
+            <strong>Additional drinks:</strong>{" "}Budget for pre-dinner cocktails
             or a bar stop between dinner and club.
           </li>
         </ul>
@@ -319,21 +319,21 @@ export default function BirthdayNightOutLondonGuidePage() {
 
         <ul>
           <li>
-            <strong>Half the group gets turned away.</strong> This happens when
+            <strong>Half the group gets turned away.</strong>{" "}This happens when
             dress code is not communicated or when people show up who are not on
             the guest list. Lock your numbers early and enforce the dress code.
           </li>
           <li>
-            <strong>The table is too small.</strong> Fifteen people at a table
+            <strong>The table is too small.</strong>{" "}Fifteen people at a table
             for eight is miserable. Be honest about your headcount when booking.
           </li>
           <li>
-            <strong>Nobody can find each other.</strong> Designate a meeting
+            <strong>Nobody can find each other.</strong>{" "}Designate a meeting
             point and share the table location once you arrive. In a loud club,
             WhatsApp messages go unread — have a plan.
           </li>
           <li>
-            <strong>The bill creates drama.</strong> Settle contributions before
+            <strong>The bill creates drama.</strong>{" "}Settle contributions before
             the night. Period.
           </li>
           <li>
@@ -352,23 +352,23 @@ export default function BirthdayNightOutLondonGuidePage() {
 
         <ul>
           <li>
-            <strong>4 weeks before:</strong> Choose the venue and make the table
+            <strong>4 weeks before:</strong>{" "}Choose the venue and make the table
             booking. Set the RSVP deadline.
           </li>
           <li>
-            <strong>3 weeks before:</strong> Book the restaurant. Confirm the
+            <strong>3 weeks before:</strong>{" "}Book the restaurant. Confirm the
             headcount and communicate dress code.
           </li>
           <li>
-            <strong>2 weeks before:</strong> Collect contributions. Chase
+            <strong>2 weeks before:</strong>{" "}Collect contributions. Chase
             outstanding RSVPs. Confirm birthday extras with the venue.
           </li>
           <li>
-            <strong>1 week before:</strong> Send final details to the group —
+            <strong>1 week before:</strong>{" "}Send final details to the group —
             meeting time, restaurant address, club name, dress code reminder.
           </li>
           <li>
-            <strong>Day of:</strong> Confirm the reservation and table booking.
+            <strong>Day of:</strong>{" "}Confirm the reservation and table booking.
             Send a final message to the group with the plan.
           </li>
         </ul>
