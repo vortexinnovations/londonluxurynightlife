@@ -118,7 +118,7 @@ export default function BeatLondonSoundSystemPage() {
           <ul>
             <li><strong>Location:</strong>{" "}Margaret Street, Fitzrovia</li>
             <li><strong>Music:</strong>{" "}Mixed — hip-hop, house, electronic</li>
-            <li><strong>Open:</strong>{" "}Friday and Saturday</li>
+            <li><strong>Open:</strong>{" "}Friday and Saturday, plus select Thursdays</li>
             <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
             <li><strong>Dress code:</strong>{" "}Smart casual, no sportswear</li>
           </ul>

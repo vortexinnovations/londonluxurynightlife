@@ -152,7 +152,7 @@ export const clubs: Club[] = [
     area: "Fitzrovia",
     musicStyle: "Mixed, Hip-Hop, House, Electronic",
     tablesFrom: "£1,000",
-    openingNights: "Friday – Saturday",
+    openingNights: "Thursday (select nights), Friday and Saturday",
     dressCode: "Smart casual. No sportswear.",
     shortDescription: "A high-energy nightclub on Margaret Street with one of London's best sound systems. BEAT strips away the pretence and focuses on the music.",
   },
