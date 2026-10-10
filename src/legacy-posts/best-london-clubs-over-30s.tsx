@@ -54,7 +54,7 @@ const faqs = [
   {
     question: "What should someone over 30 wear to a London club?",
     answer:
-      "Smart and refined. For men: tailored trousers or dark jeans, a well-fitted shirt or blazer, and quality shoes — no trainers. For women: cocktail dress, elegant separates, or tailored pieces with heels. The Mayfair dress code rewards polish and understated quality over trend-chasing.",
+      "Smart and refined. For men: tailored trousers or dark jeans, a well-fitted shirt or blazer, and quality shoes. No trainers. For women: cocktail dress, elegant separates, or tailored pieces with heels. The Mayfair dress code rewards polish and understated quality over trend-chasing.",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function BestLondonClubsOver30sPage() {
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best London Clubs for Over 30s: Where the Grown-Up Crowd Goes"
-        subtitle="Mayfair's luxury scene is the over-30s scene — you just didn't know it yet"
+        subtitle="Mayfair's luxury scene is the over-30s scene, you just didn't know it yet"
         heroImage={BLOG_IMAGES["best-london-clubs-over-30s"]}
         heroAlt="Sophisticated crowd at a Mayfair nightclub"
       >
@@ -77,7 +77,7 @@ export default function BestLondonClubsOver30sPage() {
           If you are in your 30s or 40s and wondering whether you have aged out
           of London nightlife, the answer is an emphatic no. You have aged into
           it. The student clubs and sticky-floored venues of your twenties were
-          never the whole picture — they were the entry point. London&apos;s
+          never the whole picture; they were the entry point. London&apos;s
           Mayfair club scene exists specifically for adults with taste,
           disposable income, and zero interest in queuing behind eighteen-year-olds
           at a bar.
@@ -85,7 +85,7 @@ export default function BestLondonClubsOver30sPage() {
 
         <p>
           The crowd at most luxury Mayfair venues skews 28 to 45. This is not a
-          concession — it is the business model. These clubs operate on table
+          concession; it is the business model. These clubs operate on table
           service, minimum spends, and a{" "}
           <Link href="/how-london-nightclub-door-policy-works">
             door policy
@@ -106,7 +106,7 @@ export default function BestLondonClubsOver30sPage() {
           reflects this naturally. Walk into{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}on a
           Friday evening and you will see a room of confident, well-dressed
-          adults having a genuinely good time — not a foam party in sight.
+          adults having a genuinely good time, not a foam party in sight.
         </p>
 
         <p>
@@ -114,7 +114,7 @@ export default function BestLondonClubsOver30sPage() {
           Acoustics that allow conversation at your table. Attentive staff who
           know how to read the room. Dress codes that ensure everyone has made an
           effort. This is nightlife calibrated for people who have outgrown
-          tolerating bad service and crowded bars — and are willing to pay for
+          tolerating bad service and crowded bars, and are willing to pay for
           something better.
         </p>
 
@@ -125,11 +125,11 @@ export default function BestLondonClubsOver30sPage() {
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}is
           perhaps the most naturally over-30s-friendly club in London. Tucked
-          away on Mason&apos;s Yard in Mayfair, it carries decades of heritage
+          away on Mason&apos;s Yard in St James&apos;s, it carries decades of heritage
           dating back to the 1960s. The crowd is cultured, the atmosphere is
           social without being aggressive, and the music policy spans mixed
           genres including rock, indie, and hip-hop. Individuality is genuinely
-          welcomed here — you do not need to fit a particular mould. The intimate
+          welcomed here: you do not need to fit a particular mould. The intimate
           scale means the room feels like a private gathering rather than a mass
           event. Open Thursday to Saturday.
         </p>
@@ -141,7 +141,7 @@ export default function BestLondonClubsOver30sPage() {
           hybrid that exemplifies the dinner-to-dancing format many over-30s
           groups prefer. Start with Italian dining upstairs, then transition to
           deep house and house music into the early hours. The crowd is polished,
-          the dress code leans elegant — jacket preferred for gentlemen — and the
+          the dress code leans elegant (jacket preferred for gentlemen) and the
           atmosphere is distinctly grown-up. It opens Thursday
           to Saturday, and Thursday is the quieter night, when the crowd is
           even more refined.
@@ -190,7 +190,7 @@ export default function BestLondonClubsOver30sPage() {
             </li>
             <li>
               <strong>No fighting for the bar:</strong>{" "}Your host brings
-              everything to your table. Bottles, mixers, ice — all managed for
+              everything to your table. Bottles, mixers, ice: all managed for
               you.
             </li>
             <li>
@@ -213,14 +213,14 @@ export default function BestLondonClubsOver30sPage() {
         <h2>Why Table Service Changes Everything for This Age Group</h2>
 
         <p className="pull-quote">
-          Table service is not a luxury extra for the over-30s crowd — it is the
+          Table service is not a luxury extra for the over-30s crowd; it is the
           format that makes nightlife enjoyable again.
         </p>
 
         <p>
-          The core frustrations that drive people away from clubs in their 30s —
-          standing for hours, queuing for drinks, nowhere to put a coat, being
-          crushed against strangers — all vanish with a table booking. A{" "}
+          The core frustrations that drive people away from clubs in their 30s
+          (standing for hours, queuing for drinks, nowhere to put a coat, being
+          crushed against strangers) all vanish with a table booking. A{" "}
           <Link href="/blog/bottle-service-london-explained">
             bottle service
           </Link>{" "}
@@ -233,7 +233,7 @@ export default function BestLondonClubsOver30sPage() {
         <p>
           The cost comparison is even more favourable when you consider the
           alternative. Six people buying cocktails at a bar for five hours will
-          easily spend &pound;150&ndash;&pound;200 each with nothing to show for
+          easily spend &pound;150 to &pound;200 each with nothing to show for
           it but tired feet. The table is better value, better service, and a
           better evening. Read our{" "}
           <Link href="/blog/how-much-does-night-out-mayfair-cost">
@@ -252,7 +252,7 @@ export default function BestLondonClubsOver30sPage() {
         <ul>
           <li>
             <strong>Thursday:</strong>{" "}The sweet spot. Busy enough to have
-            atmosphere, but the crowd is predominantly professional — people who
+            atmosphere, but the crowd is predominantly professional: people who
             go out midweek tend to be established and deliberate about their
             evenings. Many Mayfair clubs open their week on Thursdays.
           </li>
@@ -265,7 +265,7 @@ export default function BestLondonClubsOver30sPage() {
           <li>
             <strong>Saturday:</strong>{" "}The highest energy night and the most
             mixed in terms of age. Saturdays attract everyone, including younger
-            groups on special occasions. With a table, this matters less — you
+            groups on special occasions. With a table, this matters less: you
             have your own space regardless.
           </li>
         </ul>
@@ -273,7 +273,7 @@ export default function BestLondonClubsOver30sPage() {
         <p>
           For the most consistently mature atmosphere, Thursday is the night to
           target. For pure energy and occasion, Friday delivers reliably. Saturday
-          is never a mistake with a table booking — you control your own
+          is never a mistake with a table booking: you control your own
           experience.
         </p>
 
@@ -300,7 +300,7 @@ export default function BestLondonClubsOver30sPage() {
             <strong>Dress with intention.</strong>{" "}The{" "}
             <Link href="/london-club-dress-code-guide">dress code</Link>{" "}at
             Mayfair clubs rewards quality and effort. You do not need to dress
-            young — you need to dress well.
+            young; you need to dress well.
           </li>
           <li>
             <strong>Do not over-commit on the night.</strong>{" "}One great venue
@@ -310,18 +310,18 @@ export default function BestLondonClubsOver30sPage() {
           <li>
             <strong>Use a concierge.</strong>{" "}A{" "}
             <Link href="/vip-nightlife-london">VIP concierge service</Link>{" "}
-            handles the logistics — venue selection, booking, guestlist — so
+            handles the logistics (venue selection, booking, guestlist) so
             you simply turn up and enjoy the evening.
           </li>
         </ul>
 
-        <h2>You Have Not Aged Out — You Have Levelled Up</h2>
+        <h2>You Have Not Aged Out: You Have Levelled Up</h2>
 
         <p>
           The anxiety around age and nightlife is entirely misplaced when it
           comes to London&apos;s luxury scene. These venues are not tolerating
-          older guests — they are designed for them. The minimum spends, the
-          dress codes, the door policies, the service standards — every element
+          older guests; they are designed for them. The minimum spends, the
+          dress codes, the door policies, the service standards: every element
           of the Mayfair model favours the confident, established adult over the
           uncertain twenty-something.
         </p>
@@ -338,22 +338,22 @@ export default function BestLondonClubsOver30sPage() {
         <ul>
           <li>
             <Link href="/clubs/scotch-of-st-james">
-              Scotch of St James &mdash; Full Review
+              Scotch of St James: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/maddox">
-              Maddox Club &mdash; Full Review
+              Maddox Club: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/dear-darling">
-              Dear Darling &mdash; Full Review
+              Dear Darling: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/tape-london">
-              Tape London &mdash; Full Review
+              Tape London: Full Review
             </Link>
           </li>
           <li>

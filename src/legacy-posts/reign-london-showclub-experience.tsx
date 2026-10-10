@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Inside Reign London: Is the Showclub Experience Worth It?",
   description:
-    "What it's really like inside Reign London — Piccadilly's most theatrical night out. The shows, the spectacle, and who should book. Formerly The London Reign.",
+    "What it's really like inside Reign London, Piccadilly's most theatrical night out. The shows, the spectacle, and who should book. Formerly The London Reign.",
   keywords:
     "Reign London, Reign London review, Reign nightclub London, Reign London showclub",
   openGraph: {
     title: "Inside Reign London: Is the Showclub Experience Worth It?",
     description:
-      "What it's really like inside Reign London — Piccadilly's most theatrical night out.",
+      "What it's really like inside Reign London, Piccadilly's most theatrical night out.",
     url: "https://londonluxurynightlife.com/blog/reign-london-showclub-experience",
     type: "article",
   },
@@ -29,18 +29,18 @@ export default function ReignLondonShowclubExperiencePage() {
     <>
       <ArticleSchema
         title="Inside Reign London: Is the Showclub Experience Worth It?"
-        description="What it's really like inside Reign London — the shows, the spectacle, and who should book."
+        description="What it's really like inside Reign London: the shows, the spectacle, and who should book."
         slug="/blog/reign-london-showclub-experience"
       />
       <ArticleLayout
         title="Inside Reign London: Is the Showclub Experience Worth It?"
-        subtitle="What it's really like inside Piccadilly's most theatrical night out — and who should book"
+        subtitle="What it's really like inside Piccadilly's most theatrical night out, and who should book"
         heroImage={BLOG_IMAGES["reign-london-showclub-experience"]}
         heroAlt="Reign London showclub with aerial performers and live entertainment"
       >
         <p>
-          <Link href="/clubs/reign-london">Reign London</Link>{" "}— formerly
-          known as The London Reign — occupies a unique position in the
+          <Link href="/clubs/reign-london">Reign London</Link>, formerly
+          known as The London Reign, occupies a unique position in the
           capital&apos;s nightlife landscape. While most clubs compete on
           music, exclusivity, or interior design, Reign competes on spectacle.
           This is a showclub in the truest sense: aerial performances, cabaret
@@ -57,7 +57,7 @@ export default function ReignLondonShowclubExperiencePage() {
           follows an arc: early hours lean toward cabaret and performance,
           building through the night into a full nightclub experience. The
           performances are integrated into the evening rather than being
-          separate from it — aerial acts above the dance floor, performers
+          separate from it: aerial acts above the dance floor, performers
           weaving through the tables, production moments that punctuate the
           music rather than interrupting it.
         </p>
@@ -80,7 +80,7 @@ export default function ReignLondonShowclubExperiencePage() {
           scale most Mayfair venues cannot match. The main room has high
           ceilings that accommodate the aerial rigging, with tables arranged
           around a central performance area that ensures sightlines from every
-          position. The production values are genuine — lighting, sound, and
+          position. The production values are genuine: lighting, sound, and
           staging are at theatrical standard rather than nightclub afterthought.
           The design is opulent without being garish, walking the line between
           spectacle and taste with more success than many competitors manage.
@@ -98,7 +98,7 @@ export default function ReignLondonShowclubExperiencePage() {
           Reign attracts a celebratory, international crowd. Birthday groups,
           tourists who want a memorable London experience, corporate
           entertainment parties, and couples looking for a date night with
-          genuine wow factor. The atmosphere is joyful rather than cool — this
+          genuine wow factor. The atmosphere is joyful rather than cool: this
           is not a venue where people stand around looking unimpressed. The
           performances give everyone a shared experience, which breaks down
           the usual nightclub awkwardness and creates genuine energy in the
@@ -118,7 +118,7 @@ export default function ReignLondonShowclubExperiencePage() {
         <h2>Music and Entertainment</h2>
 
         <p>
-          The music policy at Reign is mixed and commercial — hip-hop, chart
+          The music policy at Reign is mixed and commercial: hip-hop, chart
           hits, crowd-pleasers designed to keep the energy high rather than
           impress music purists. This is a deliberate choice that matches the
           venue&apos;s entertainment-first philosophy. If you want cutting-edge
@@ -150,8 +150,8 @@ export default function ReignLondonShowclubExperiencePage() {
           with friends who just want to dance, a venue like{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}delivers excellent
           value with the minimum spend focused entirely on drinks and
-          atmosphere. For an occasion — a birthday, an anniversary, impressing
-          visitors from abroad — Reign&apos;s entertainment layer makes the
+          atmosphere. For an occasion (a birthday, an anniversary, impressing
+          visitors from abroad) Reign&apos;s entertainment layer makes the
           evening feel special in a way that a standard club cannot replicate.
         </p>
 
@@ -171,7 +171,7 @@ export default function ReignLondonShowclubExperiencePage() {
           The closest comparison to Reign is{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, which
           also features performers but in a more intimate, unpredictable
-          format. Cirque is chaos in the best sense — you never quite know
+          format. Cirque is chaos in the best sense: you never quite know
           what is happening next. Reign is more structured and polished.
           Both are excellent for different reasons. If you want to be
           surprised, choose Cirque. If you want to be impressed, choose

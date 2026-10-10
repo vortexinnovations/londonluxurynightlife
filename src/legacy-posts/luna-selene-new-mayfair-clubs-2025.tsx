@@ -53,9 +53,9 @@ export default function LunaSeleneNewMayfairClubsPage() {
           emerging with fresh design, contemporary programming, and a younger
           affluent audience.{" "}
           <Link href="/clubs/luna-club-london">Luna Club London</Link>{" "}and{" "}
-          <Link href="/clubs/selene-london">Selene London</Link>{" "}are the
-          most notable additions — and both are worth understanding if you
-          are planning a night in Mayfair. One note on geography: Selene is
+          <Link href="/clubs/selene-london">Selene London</Link>{" "}were the
+          most notable additions. Luna has since closed; Selene is worth
+          understanding if you are planning a night in Mayfair. One note on geography: Selene is
           not in Mayfair itself. It is at 4 Winsley Street in Fitzrovia, in
           Libertine&apos;s former space just north of Oxford Circus, a short
           walk from the Mayfair clubs.
@@ -64,29 +64,29 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <h2>Luna Club London: The Contemporary Energy</h2>
 
         <p>
-          Luna Club has positioned itself as the sleek, contemporary
+          Luna Club positioned itself as the sleek, contemporary
           alternative to Mayfair&apos;s more traditional offerings. The
-          design language is modern and clean — polished surfaces, considered
+          design language is modern and clean: polished surfaces, considered
           lighting, a colour palette that feels current without chasing
           trends. If the established Mayfair clubs sometimes feel like they
-          are trading on reputation, Luna feels like it is earning its place
+          are trading on reputation, Luna felt like it was earning its place
           in real time.
         </p>
 
         <p>
-          The music policy is open format with a hip-hop and R&amp;B centre
+          The music policy was open format with a hip-hop and R&amp;B centre
           of gravity. This positioned Luna alongside Mayfair&apos;s hip-hop
           rooms rather than the house music territory occupied by{" "}
           <Link href="/clubs/maddox">Maddox</Link>. The DJs lean younger
-          and more contemporary, which attracts a crowd that matches — late
+          and more contemporary, which attracted a crowd that matched: late
           twenties, well-dressed, there to dance and socialise with energy
           rather than cool detachment.
         </p>
 
         <p>
-          The table service is polished and attentive. Minimum spends start
+          The table service was polished and attentive. Minimum spends started
           from &pound;1,000, competitive with the Mayfair standard. The
-          layout accommodates both table bookings and a genuine dance floor,
+          layout accommodated both table bookings and a genuine dance floor,
           avoiding the common trap of venues that are all tables and no
           energy. Thursday through Saturday was the active schedule, with
           Saturday consistently the strongest night.
@@ -95,9 +95,9 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <h2>Selene London: The Refined Elegance</h2>
 
         <p>
-          Where Luna brings energy and contemporary design, Selene brings
+          Where Luna brought energy and contemporary design, Selene brings
           refinement. This is a venue that prioritises sophistication above
-          all — the interiors are among the most considered in the West End, with
+          all: the interiors are among the most considered in the West End, with
           a design sensibility that whispers rather than shouts. Selene feels
           like a venue built for people who have been to every club in
           Mayfair and want something that operates at a quieter, more
@@ -107,8 +107,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <p>
           The crowd reflects this positioning. Selene attracts a discerning,
           well-dressed clientele that values elegance and atmosphere over
-          volume and spectacle. The music — hip-hop, R&amp;B, and commercial
-          tracks — is delivered at a level that fills the room without
+          volume and spectacle. The music, hip-hop, R&amp;B, and commercial
+          tracks, is delivered at a level that fills the room without
           overwhelming conversation, which makes Selene particularly strong
           for the early evening and for groups where not everyone is a
           committed clubber. Like{" "}
@@ -143,9 +143,9 @@ export default function LunaSeleneNewMayfairClubsPage() {
 
         <p>
           The honest answer is: in some ways yes, in some ways not yet.
-          What Luna and Selene offer that established venues cannot is
-          freshness — new design, new energy, the excitement of a venue that
-          is still finding its identity. What they lack, and can only build
+          What Selene offers that established venues cannot is
+          freshness: new design, new energy, the excitement of a venue that
+          is still finding its identity. What it lacks, and can only build
           with time, is the institutional confidence that comes from years
           of proven execution.{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}has

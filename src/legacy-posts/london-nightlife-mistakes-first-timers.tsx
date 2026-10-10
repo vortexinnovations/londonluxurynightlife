@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   title:
     "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)",
   description:
-    "The most common London nightlife mistakes — from wrong dress codes and bad timing to ignoring the promoter system. Honest advice so your first night out goes smoothly.",
+    "The most common London nightlife mistakes, from wrong dress codes and bad timing to ignoring the promoter system. Honest advice so your first night out goes smoothly.",
   keywords:
     "London nightlife mistakes, London clubbing mistakes, first time London nightlife tips, what not to do London clubs, London nightlife tips beginners",
   openGraph: {
     title:
       "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)",
     description:
-      "Every common mistake first-timers make at London clubs — and exactly what to do instead. The honest guide nobody else writes.",
+      "Every common mistake first-timers make at London clubs, and exactly what to do instead. The honest guide nobody else writes.",
     url: "https://londonluxurynightlife.com/blog/london-nightlife-mistakes-first-timers",
     type: "article",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)",
     description:
-      "Every common mistake first-timers make at London clubs — and exactly what to do instead.",
+      "Every common mistake first-timers make at London clubs, and exactly what to do instead.",
   },
   alternates: {
     canonical:
@@ -42,7 +42,7 @@ const faqs = [
     question:
       "What should you not wear to a London club?",
     answer:
-      "Avoid trainers, sportswear, casual shorts, flip-flops, and overly casual attire. Most Mayfair clubs enforce a smart dress code — dark jeans or tailored trousers with a collared shirt or smart knitwear for men, and cocktail-appropriate attire for women. When in doubt, overdress rather than underdress.",
+      "Avoid trainers, sportswear, casual shorts, flip-flops, and overly casual attire. Most Mayfair clubs enforce a smart dress code: dark jeans or tailored trousers with a collared shirt or smart knitwear for men, and cocktail-appropriate attire for women. When in doubt, overdress rather than underdress.",
   },
   {
     question: "Do you need to book ahead for London clubs?",
@@ -66,7 +66,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
     <>
       <ArticleSchema
         title="12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)"
-        description="The most common London nightlife mistakes — from wrong dress codes and bad timing to ignoring the promoter system. Honest advice for first-timers."
+        description="The most common London nightlife mistakes, from wrong dress codes and bad timing to ignoring the promoter system. Honest advice for first-timers."
         slug="/blog/london-nightlife-mistakes-first-timers"
       />
       <FAQSchema faqs={faqs} />
@@ -78,8 +78,8 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
       >
         <p>
           London nightlife has its own unwritten rulebook, and nobody hands you
-          a copy at the door. First-timers — whether visiting from abroad or
-          simply stepping up from local bars to Mayfair&apos;s club scene —
+          a copy at the door. First-timers, whether visiting from abroad or
+          simply stepping up from local bars to Mayfair&apos;s club scene,
           make the same mistakes with remarkable consistency. Most are entirely
           avoidable with the right information. Here are twelve genuine errors
           we see repeatedly, along with exactly what to do instead.
@@ -90,7 +90,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           This is the single most common mistake, and it comes from a logical
           assumption: the club opens at 10pm, so arriving at 10pm must be
-          sensible. In practice, London clubs are quiet — genuinely empty — until
+          sensible. In practice, London clubs are quiet, genuinely empty, until
           11pm at the earliest. Arriving at 10pm means sitting in a
           cavernous space with staff outnumbering guests, wondering whether
           you have made a terrible decision. You have not. You have just
@@ -100,7 +100,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           <strong>What to do instead:</strong>{" "}Arrive between 11pm and midnight.
           If you have a table booking, 11:30pm is the sweet spot. If you are
-          on guestlist, aim for 10:30&ndash;11:30pm — early enough to get in
+          on guestlist, aim for 10:30 to 11:30pm, early enough to get in
           before the door tightens, late enough that there is atmosphere when
           you arrive.
         </p>
@@ -118,7 +118,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           <strong>What to do instead:</strong>{" "}If you are on guestlist, you
           need to be inside by midnight. Table bookings offer more flexibility,
-          but most venues specify an arrival window — typically by 12:30am.
+          but most venues specify an arrival window, typically by 12:30am.
           Communicate with your promoter or concierge if you are running late.
         </p>
 
@@ -127,7 +127,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           London clubs enforce their{" "}
           <Link href="/london-club-dress-code-guide">dress codes</Link>{" "}
-          seriously. This is not a suggestion or a guideline — it is a hard
+          seriously. This is not a suggestion or a guideline; it is a hard
           rule enforced at the door, and no amount of arguing, name-dropping,
           or offering to pay more will change the outcome. Trainers, sportswear,
           casual shorts, and unkempt presentation will get you turned away
@@ -135,9 +135,9 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong>{" "}For men — tailored trousers or
+          <strong>What to do instead:</strong>{" "}For men: tailored trousers or
           smart dark jeans, a collared shirt or quality knitwear, and proper
-          shoes. For women — cocktail-appropriate attire with heels. When in
+          shoes. For women: cocktail-appropriate attire with heels. When in
           doubt, overdress. Nobody has ever been turned away from a London club
           for being too well-dressed.
         </p>
@@ -146,7 +146,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
 
         <p>
           Walking up to a premium London club on a Saturday night without any
-          booking — no guestlist, no table, no contact — is the nightlife
+          booking (no guestlist, no table, no contact) is the nightlife
           equivalent of arriving at a Michelin-starred restaurant hoping they
           have a free table. It might work. It probably will not. And if it does
           work, you will have spent forty minutes in a queue experiencing the
@@ -162,20 +162,20 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <h2 className="no-num">5. Turning Up in a Large Mixed Group Without a Table</h2>
 
         <p>
-          A group of eight or ten people arriving at the door on guestlist —
-          particularly if the gender ratio is heavily male — faces a near-certain
+          A group of eight or ten people arriving at the door on guestlist,
+          particularly if the gender ratio is heavily male, faces a near-certain
           refusal. Clubs manage their crowd composition carefully. A large
           group on guestlist is difficult to accommodate, disrupts the
           floor&apos;s balance, and offers the venue no revenue guarantee. The{" "}
           <Link href="/how-london-nightclub-door-policy-works">
             door policy
           </Link>{" "}
-          is not arbitrary — it is strategic.
+          is not arbitrary; it is strategic.
         </p>
 
         <p>
           <strong>What to do instead:</strong>{" "}Large groups need a table. This
-          solves every problem at once — guaranteed entry, guaranteed space,
+          solves every problem at once: guaranteed entry, guaranteed space,
           and revenue for the venue that justifies accommodating your numbers.
           If a table is not in the budget, split into smaller groups of three
           or four and enter separately.
@@ -186,7 +186,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           First-timers routinely book a table, see the &pound;1,000 minimum
           spend, and assume this is the total cost of the evening split between
-          the group. It is not. The minimum spend is the floor — the least you
+          the group. It is not. The minimum spend is the floor: the least you
           will spend on bottles. You are choosing bottles from a menu at club
           prices, and your selections must total at least the minimum. If they
           exceed it, you pay the higher amount. Understanding how{" "}
@@ -199,8 +199,8 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           <strong>What to do instead:</strong>{" "}Know your minimum before you
           book. Look at the bottle menu in advance if possible. Budget for
-          the minimum plus 15&ndash;20% for service charge. Discuss the spend
-          with your group before the evening — not when the bill arrives.
+          the minimum plus 15 to 20% for service charge. Discuss the spend
+          with your group before the evening, not when the bill arrives.
         </p>
 
         <h2 className="no-num">7. Trying to Negotiate at the Door</h2>
@@ -208,7 +208,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p>
           Door staff at London clubs have heard every negotiation tactic in
           existence. Offering money, arguing about the policy, claiming to know
-          the owner, or insisting there has been a mistake — none of these work.
+          the owner, or insisting there has been a mistake: none of these work.
           They actively decrease your chances of entry. The door team has full
           authority, and their decision is final.
         </p>
@@ -225,7 +225,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <h2 className="no-num">8. Getting Too Drunk Before Arriving</h2>
 
         <p>
-          Pre-drinking is understandable — club prices are high and budget is
+          Pre-drinking is understandable: club prices are high and budget is
           real. But arriving visibly intoxicated is the fastest way to be
           refused entry at any venue in London. Door staff are trained to spot
           it, and no booking or guestlist overrides a safety assessment.
@@ -234,18 +234,18 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         </p>
 
         <p>
-          <strong>What to do instead:</strong>{" "}Have drinks beforehand — a
-          civilised dinner with wine, cocktails at a bar — but calibrate. You
+          <strong>What to do instead:</strong>{" "}Have drinks beforehand (a
+          civilised dinner with wine, cocktails at a bar), but calibrate. You
           want to arrive in good spirits, not incapable. Eat properly before
           you go out. Pace yourself. The evening starts at midnight and
-          runs until 3am or later — you need to last.
+          runs until 3am or later: you need to last.
         </p>
 
         <h2 className="no-num">9. Not Having a Plan</h2>
 
         <p>
           Wandering around Mayfair at 11pm with a group of six, phones out,
-          Googling &quot;clubs near me&quot; — this is a recipe for a wasted
+          Googling &quot;clubs near me&quot;: this is a recipe for a wasted
           evening. Premium venues are not stumbled upon. They do not have
           obvious signage, visible queues, or welcoming open doors. Without a
           plan, you will end up at whatever tourist-facing venue has the most
@@ -277,7 +277,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           <strong>What to do instead:</strong>{" "}Use specialist resources. Read
           editorial reviews from people who have actually been inside the
           venues on the nights that matter. Speak to a concierge who knows the
-          current state of each club — which venues are hot this season, which
+          current state of each club: which venues are hot this season, which
           have changed management, which are consistent. Information from
           someone inside the industry is worth more than a thousand anonymous
           Google reviews.
@@ -291,7 +291,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           transactional and impersonal. A good promoter has a relationship with
           the venue, can secure better tables, provides honest recommendations,
           and acts as your advocate if anything goes wrong. Using a promoter
-          or concierge is free to you — their commission comes from the venue.
+          or concierge is free to you: their commission comes from the venue.
         </p>
 
         <p>
@@ -300,7 +300,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
             concierge or promoter
           </Link>
           . Tell them your date, group size, budget, and preferences. They do
-          this every night — let them guide you to the right venue and the
+          this every night. Let them guide you to the right venue and the
           right table. You lose nothing and gain genuine insider access.
         </p>
 
@@ -312,7 +312,7 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
           and the behaviour expectations are higher. Loud, attention-seeking
           behaviour that might be celebrated in Vegas will get you quietly
           removed in Mayfair. Standing on furniture, pouring champagne on people,
-          and treating the venue like a personal playground — these do not land
+          and treating the venue like a personal playground: these do not land
           well.
         </p>
 
@@ -332,14 +332,14 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         <p className="pull-quote">
           The real mistake is assuming London nightlife works like nightlife
           anywhere else. It does not. It has its own codes, its own timing,
-          and its own expectations — and the reward for learning them is a
+          and its own expectations, and the reward for learning them is a
           genuinely exceptional evening.
         </p>
 
         <p>
           Every mistake on this list stems from the same root cause:
           insufficient information. London clubs are not hostile or deliberately
-          difficult — they simply operate within a system that is not immediately
+          difficult; they simply operate within a system that is not immediately
           obvious to outsiders. Once you understand the system, everything
           becomes straightforward. Book ahead, dress well, arrive at the right
           time, and use someone who knows the landscape. Do those four things

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond",
   description:
-    "The insider guide to Soho nightlife in London. From The Box and Cirque Le Soir to late-night bars and the walk to Mayfair — everything you need for a night in Soho.",
+    "The insider guide to Soho nightlife in London. From The Box and Cirque Le Soir to late-night bars and the walk to Mayfair: everything you need for a night in Soho.",
   keywords:
     "Soho nightlife guide, best clubs Soho London, Soho nightlife, nightclubs Soho, going out in Soho London",
   openGraph: {
     title: "Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond",
     description:
-      "Soho's nightlife district offers something Mayfair cannot — raw creative energy with luxury options. The complete guide to going out in Soho.",
+      "Soho's nightlife district offers something Mayfair cannot: raw creative energy with luxury options. The complete guide to going out in Soho.",
     url: "https://londonluxurynightlife.com/blog/soho-nightlife-guide",
     type: "article",
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond",
     description:
-      "Soho's nightlife district offers something Mayfair cannot — raw creative energy with luxury options. The complete guide.",
+      "Soho's nightlife district offers something Mayfair cannot: raw creative energy with luxury options. The complete guide.",
   },
   alternates: {
     canonical:
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "What should I wear to Soho clubs?",
     answer:
-      "Soho clubs reward fashion-forward, creative dressing rather than the strict smart-elegant codes of Mayfair. At The Box, creativity is actively encouraged. At Cirque Le Soir, smart glamorous is the standard. Both venues appreciate effort and personality in how you dress — looking interesting matters as much as looking expensive.",
+      "Soho clubs reward fashion-forward, creative dressing rather than the strict smart-elegant codes of Mayfair. At The Box, creativity is actively encouraged. At Cirque Le Soir, smart glamorous is the standard. Both venues appreciate effort and personality in how you dress: looking interesting matters as much as looking expensive.",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function SohoNightlifeGuidePage() {
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond"
-        subtitle="London's creative heartland after dark — grittier, bolder, and utterly different from Mayfair"
+        subtitle="London's creative heartland after dark: grittier, bolder, and utterly different from Mayfair"
         heroImage={BLOG_IMAGES["soho-nightlife-guide"]}
         heroAlt="Soho nightlife street scene in London"
       >
@@ -74,8 +74,8 @@ export default function SohoNightlifeGuidePage() {
           bustle of the West End, it operates on different rules entirely.
           Where Mayfair is about exclusivity and spending power, Soho trades
           on creative energy, theatrical ambition, and a willingness to push
-          boundaries. The two districts sit side by side — a ten-minute walk
-          separates them — yet the nightlife experiences they offer are
+          boundaries. The two districts sit side by side (a ten-minute walk
+          separates them), yet the nightlife experiences they offer are
           worlds apart.
         </p>
 
@@ -84,7 +84,7 @@ export default function SohoNightlifeGuidePage() {
           is essential territory. It is home to two of London&apos;s most
           singular club venues, a dense network of late-night bars, and a
           pre-club dining scene that benefits from Chinatown&apos;s proximity.
-          This guide covers the full picture — the flagship clubs, the
+          This guide covers the full picture: the flagship clubs, the
           surrounding area, and how Soho fits into a broader London evening.
         </p>
 
@@ -92,8 +92,8 @@ export default function SohoNightlifeGuidePage() {
 
         <p>
           Soho has always been London&apos;s bohemian district. Its history as
-          the city&apos;s entertainment quarter — theatres, jazz clubs, and
-          less salubrious establishments — gives it a character that cannot be
+          the city&apos;s entertainment quarter (theatres, jazz clubs, and
+          less salubrious establishments) gives it a character that cannot be
           manufactured. The streets are narrow, the signage is neon, and the
           energy after dark is palpably different from the composed elegance of
           Mayfair. This is where the creative industries drink, where fashion
@@ -109,7 +109,7 @@ export default function SohoNightlifeGuidePage() {
           <Link href="/blog/mayfair-vs-shoreditch-nightlife-compared">
             Mayfair represents one end of the spectrum
           </Link>
-          , Soho sits in the compelling middle — luxury with an edge.
+          , Soho sits in the compelling middle: luxury with an edge.
         </p>
 
         <h2>The Box: London&apos;s Most Provocative Club</h2>
@@ -118,8 +118,8 @@ export default function SohoNightlifeGuidePage() {
           <Link href="/clubs/the-box-london">The Box</Link>{" "}on Walker&apos;s
           Court is not a nightclub in any conventional sense. It is a
           theatre of the absurd that happens to have a dance floor and bottle
-          service. The performances — which range from burlesque to
-          genuinely transgressive live art — are the reason people come, and
+          service. The performances, which range from burlesque to
+          genuinely transgressive live art, are the reason people come, and
           they are unlike anything else operating in London. Nothing is
           off-limits, nothing is predictable, and first-time visitors
           routinely describe it as the most memorable night out of their lives.
@@ -128,7 +128,7 @@ export default function SohoNightlifeGuidePage() {
         <p>
           The crowd at The Box is fashion-forward, media-adjacent, and
           accustomed to the unexpected. Tables start at &pound;1,000 and the
-          door policy is selective — creativity in how you present yourself
+          door policy is selective: creativity in how you present yourself
           matters here. Music spans mixed genres including hip-hop and house,
           but the performances are the main event. Open Wednesday to
           Saturday, with Thursday being the night that draws the most
@@ -165,7 +165,7 @@ export default function SohoNightlifeGuidePage() {
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on Ganton
-          Street takes the theatrical concept in a different direction — pure
+          Street takes the theatrical concept in a different direction: pure
           spectacle. Fire breathers, contortionists, stilt walkers, and
           acrobats share the floor with the crowd, creating an environment
           that is part club, part immersive circus. The production values are
@@ -212,7 +212,7 @@ export default function SohoNightlifeGuidePage() {
           Not everyone wants a full club experience, and Soho accommodates
           this with a constellation of late-night bars that stay open well past
           midnight. The streets around Old Compton Street, Dean Street, and
-          Wardour Street are dense with options — from cocktail bars to
+          Wardour Street are dense with options, from cocktail bars to
           members&apos; clubs to unpretentious drinking dens. Soho&apos;s
           late-night bar scene functions as both a pre-club warmup and an
           alternative to clubbing entirely.
@@ -223,8 +223,8 @@ export default function SohoNightlifeGuidePage() {
           offers the flexibility to decide as the night unfolds. Start with
           cocktails, gauge the mood, and either escalate to a club or
           settle into a bar for the duration. This optionality is something
-          Mayfair — where the venues are more spread out and the commitment
-          to a table booking is more definitive — cannot match.
+          Mayfair (where the venues are more spread out and the commitment
+          to a table booking is more definitive) cannot match.
         </p>
 
         <h2>The Soho-to-Mayfair Transition</h2>
@@ -235,13 +235,13 @@ export default function SohoNightlifeGuidePage() {
           London nightlife. From the heart of Soho around Wardour Street to
           Mayfair&apos;s club corridor on Berkeley Street takes roughly
           ten to fifteen minutes on foot. This proximity means you do not
-          have to choose between the two — a well-planned evening can
+          have to choose between the two: a well-planned evening can
           encompass both.
         </p>
 
         <p className="pull-quote">
           The ten-minute walk from Soho to Mayfair is the most valuable
-          transition in London nightlife — two entirely different worlds
+          transition in London nightlife: two entirely different worlds
           connected by a single stroll through Regent Street.
         </p>
 
@@ -257,7 +257,7 @@ export default function SohoNightlifeGuidePage() {
         <h2>Getting There and Getting Home</h2>
 
         <p>
-          Soho is served by multiple tube stations — Leicester Square, Piccadilly
+          Soho is served by multiple tube stations: Leicester Square, Piccadilly
           Circus, Tottenham Court Road, and Oxford Circus all sit within a
           five-minute walk of the main nightlife streets. Note that the tube
           closes between midnight and 12:30am on most nights (the Night Tube
@@ -295,7 +295,7 @@ export default function SohoNightlifeGuidePage() {
             </li>
             <li>
               <strong>Choose both if:</strong>{" "}You want the best possible
-              London evening — Soho for character, Mayfair for the final act
+              London evening: Soho for character, Mayfair for the final act
             </li>
           </ul>
         </div>
@@ -313,12 +313,12 @@ export default function SohoNightlifeGuidePage() {
         <ul>
           <li>
             <Link href="/clubs/the-box-london">
-              The Box London &mdash; Full Review
+              The Box London: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/cirque-le-soir">
-              Cirque Le Soir &mdash; Full Review
+              Cirque Le Soir: Full Review
             </Link>
           </li>
           <li>

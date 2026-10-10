@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide",
   description:
-    "Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more — with timing, dress code, and price guidance.",
+    "Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more, with timing, dress code, and price guidance.",
   keywords:
     "best cocktail bars Mayfair before clubbing, pre-drinks Mayfair, cocktail bars near Mayfair clubs, where to drink before clubbing London, pre-club bars Mayfair",
   openGraph: {
@@ -39,12 +39,12 @@ const faqs = [
   {
     question: "What should I drink at a cocktail bar before clubbing?",
     answer:
-      "Start with cocktails you enjoy but pace yourself — the evening is a marathon, not a sprint. Classic cocktails (Negroni, Old Fashioned, Espresso Martini) are reliable choices at quality bars. Avoid heavy, cream-based drinks that sit in the stomach. Switch to champagne or lighter serves towards the end of pre-drinks to keep your energy up for the club.",
+      "Start with cocktails you enjoy but pace yourself: the evening is a marathon, not a sprint. Classic cocktails (Negroni, Old Fashioned, Espresso Martini) are reliable choices at quality bars. Avoid heavy, cream-based drinks that sit in the stomach. Switch to champagne or lighter serves towards the end of pre-drinks to keep your energy up for the club.",
   },
   {
     question: "Do I need to dress for the club at the cocktail bar?",
     answer:
-      "Yes. Dress for your final destination from the start of the evening. Mayfair cocktail bars have smart dress codes that align with club standards, so there is no conflict. Changing outfits between venues is impractical and unnecessary. Wear your club outfit to the bar — you will fit in perfectly at both.",
+      "Yes. Dress for your final destination from the start of the evening. Mayfair cocktail bars have smart dress codes that align with club standards, so there is no conflict. Changing outfits between venues is impractical and unnecessary. Wear your club outfit to the bar: you will fit in perfectly at both.",
   },
   {
     question: "How much do cocktails cost in Mayfair?",
@@ -58,13 +58,13 @@ export default function BestCocktailBarsMayfairPage() {
     <>
       <ArticleSchema
         title="Best Cocktail Bars in Mayfair Before Clubbing: Pre-Drinks Guide"
-        description="Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more — with timing and price guidance."
+        description="Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more, with timing and price guidance."
         slug="/blog/best-cocktail-bars-mayfair-before-clubbing"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Cocktail Bars Near Mayfair Clubs for Pre-Drinks"
-        subtitle="Where to set the tone before the main event — the best bars within walking distance of London's top clubs"
+        subtitle="Where to set the tone before the main event: the best bars within walking distance of London's top clubs"
         heroImage={BLOG_IMAGES["best-cocktail-bars-mayfair-before-clubbing"]}
         heroAlt="Cocktails at a premium Mayfair bar before clubbing"
       >
@@ -74,7 +74,7 @@ export default function BestCocktailBarsMayfairPage() {
           cocktail bar set the pace, gather the group, and establish the
           atmosphere for the evening ahead. In Mayfair and the surrounding
           streets of Soho, some of London&apos;s finest cocktail bars sit
-          within a short walk of the clubs you will be heading to later — and
+          within a short walk of the clubs you will be heading to later, and
           choosing the right one is as much a part of planning the evening as
           choosing the club itself.
         </p>
@@ -126,7 +126,7 @@ export default function BestCocktailBarsMayfairPage() {
         <h3>The Fumoir at Claridge&apos;s</h3>
         <p>
           Claridge&apos;s needs no introduction, and The Fumoir is its
-          intimate cocktail lounge — all leather banquettes, low lighting,
+          intimate cocktail lounge: all leather banquettes, low lighting,
           and impeccable service. The cocktail list is classically oriented
           with modern technique, and the atmosphere is one of quiet
           confidence. Cocktails from &pound;20. Located on Brook Street, it
@@ -138,7 +138,7 @@ export default function BestCocktailBarsMayfairPage() {
         <p>
           The Carnaby Street outpost of the legendary Nightjar brings
           speakeasy energy to the edge of Soho. The cocktail programme is
-          among London&apos;s most ambitious — theatrical presentations,
+          among London&apos;s most ambitious: theatrical presentations,
           house-made ingredients, and combinations you will not find
           elsewhere. Cocktails from &pound;16. Located between Soho and
           Mayfair, it works well as a pre-club stop before heading to{" "}
@@ -150,7 +150,7 @@ export default function BestCocktailBarsMayfairPage() {
         <p>
           On Bruton Lane in the heart of Mayfair, Mr Fogg&apos;s Residence
           is an immersive Victorian-themed cocktail bar stuffed with
-          antiques and curiosities. The experience is theatrical — every
+          antiques and curiosities. The experience is theatrical: every
           surface tells a story, and the cocktails are crafted to match the
           aesthetic. Cocktails from &pound;15. The location is central to
           nearly every Mayfair club, and the atmosphere is lively enough to
@@ -160,8 +160,8 @@ export default function BestCocktailBarsMayfairPage() {
 
         <h3>Sexy Fish Bar</h3>
         <p>
-          The bar at Sexy Fish on Berkeley Square is a destination in itself
-          — the Frank Gehry crocodile sculptures, the Damien Hirst artwork,
+          The bar at Sexy Fish on Berkeley Square is a destination in itself:
+           the Frank Gehry crocodile sculptures, the Damien Hirst artwork,
           and the overall excess of the design create an atmosphere that
           primes you perfectly for Mayfair&apos;s club scene. Cocktails are
           well-executed and range from &pound;18 to &pound;25. The Berkeley
@@ -188,19 +188,19 @@ export default function BestCocktailBarsMayfairPage() {
           <h4>The Ideal Pre-Club Timeline</h4>
           <ul>
             <li>
-              <strong>8:30pm &ndash; 9:00pm:</strong>{" "}Arrive at the cocktail
+              <strong>8:30pm to 9:00pm:</strong>{" "}Arrive at the cocktail
               bar. Secure your spot before the later rush.
             </li>
             <li>
-              <strong>9:00pm &ndash; 10:15pm:</strong>{" "}Enjoy two to three
+              <strong>9:00pm to 10:15pm:</strong>{" "}Enjoy two to three
               cocktails. This is the social heart of pre-drinks.
             </li>
             <li>
-              <strong>10:15pm &ndash; 10:30pm:</strong>{" "}Settle the bill,
+              <strong>10:15pm to 10:30pm:</strong>{" "}Settle the bill,
               regroup, freshen up.
             </li>
             <li>
-              <strong>10:30pm &ndash; 11:00pm:</strong>{" "}Walk to the club.
+              <strong>10:30pm to 11:00pm:</strong>{" "}Walk to the club.
               Arrive within the ideal entry window.
             </li>
           </ul>
@@ -209,14 +209,14 @@ export default function BestCocktailBarsMayfairPage() {
         <p>
           The temptation is to linger. Resist it. Pre-drinks should enhance
           your evening, not consume it. Two to three cocktails over ninety
-          minutes is the sweet spot — enough to set the mood, not enough to
+          minutes is the sweet spot: enough to set the mood, not enough to
           compromise your evening at the club.
         </p>
 
         <h2>What to Drink</h2>
 
         <p>
-          Start with whatever you enjoy — a Negroni, an Old Fashioned, or
+          Start with whatever you enjoy: a Negroni, an Old Fashioned, or
           whatever the bar does best. For your final drink, consider
           switching to champagne or a lighter cocktail. An Espresso Martini
           as your last pre-club drink is a well-worn strategy for a reason:
@@ -225,7 +225,7 @@ export default function BestCocktailBarsMayfairPage() {
         </p>
 
         <p className="pull-quote">
-          The best pre-drinks session leaves you perfectly primed — sociable,
+          The best pre-drinks session leaves you perfectly primed: sociable,
           energised, and ready for the main event. Not three cocktails past
           the point of no return.
         </p>
@@ -279,7 +279,7 @@ export default function BestCocktailBarsMayfairPage() {
         <p>
           Walking between your cocktail bar and club should take no more than
           ten minutes. Mayfair is compact, and the proximity of these bars to
-          the clubs is deliberate — the entire area is designed for evenings
+          the clubs is deliberate: the entire area is designed for evenings
           that flow between venues. Our{" "}
           <Link href="/blog/saturday-night-mayfair-guide">
             Saturday night Mayfair guide

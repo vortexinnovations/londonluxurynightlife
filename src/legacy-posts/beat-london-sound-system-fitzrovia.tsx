@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BEAT London: The Sound System That Sets This Fitzrovia Club Apart",
     description:
-      "Why BEAT London has one of the best sound systems in the city — a club built for music lovers.",
+      "Why BEAT London has one of the best sound systems in the city, a club built for music lovers.",
     url: "https://londonluxurynightlife.com/blog/beat-london-sound-system-fitzrovia",
     type: "article",
   },
@@ -29,7 +29,7 @@ export default function BeatLondonSoundSystemPage() {
     <>
       <ArticleSchema
         title="BEAT London: The Sound System That Sets This Fitzrovia Club Apart"
-        description="Why BEAT London has one of the best sound systems in the city — a club built for music lovers."
+        description="Why BEAT London has one of the best sound systems in the city, a club built for music lovers."
         slug="/blog/beat-london-sound-system-fitzrovia"
       />
       <ArticleLayout
@@ -43,8 +43,8 @@ export default function BeatLondonSoundSystemPage() {
           mention in the marketing, a line in the press release, a technical
           specification that nobody outside the audio industry understands.{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}treats sound as
-          the entire point. Located on Margaret Street in Fitzrovia — a
-          deliberate step away from the Mayfair postcode — BEAT is built
+          the entire point. Located on Margaret Street in Fitzrovia, a
+          deliberate step away from the Mayfair postcode, BEAT is built
           around a sound system that does not merely amplify music but
           transforms how you experience it. If you care about what you hear
           as much as what you see, this is the venue that respects that
@@ -71,7 +71,7 @@ export default function BeatLondonSoundSystemPage() {
           <Link href="/clubs/tape-london">Tape London</Link>{" "}shares a
           similar respect for sound, but in a more exclusive, intimate
           setting. The comparison that BEAT most invites is with larger
-          electronic venues — but unlike those warehouse spaces, BEAT
+          electronic venues, but unlike those warehouse spaces, BEAT
           delivers the sonic quality at a scale that remains social. You can
           dance and still communicate with the person beside you. That
           balance is harder to achieve than it sounds.
@@ -88,7 +88,7 @@ export default function BeatLondonSoundSystemPage() {
         <p>
           BEAT&apos;s decision to locate in Fitzrovia rather than Mayfair
           is deliberate and significant. Fitzrovia sits adjacent to Mayfair
-          but operates with a different energy — more creative, less
+          but operates with a different energy: more creative, less
           corporate, more focused on substance than signalling. This is
           reflected in BEAT&apos;s crowd: a democratic mix united by genuine
           enthusiasm for music rather than stratified by table spend. The
@@ -102,7 +102,7 @@ export default function BeatLondonSoundSystemPage() {
         <p>
           BEAT runs an open-format policy that spans hip-hop, house, and
           electronic music depending on the night and the DJ. The breadth
-          is intentional — this is a room built for great music regardless
+          is intentional: this is a room built for great music regardless
           of genre, and the programming reflects that confidence. Friday and
           Saturday attract the strongest lineups, with DJs selected for
           technical ability and crowd-reading skills rather than Instagram
@@ -114,10 +114,10 @@ export default function BeatLondonSoundSystemPage() {
         </p>
 
         <div className="info-box">
-          <h4>BEAT London — Key Details</h4>
+          <h4>BEAT London: Key Details</h4>
           <ul>
             <li><strong>Location:</strong>{" "}Margaret Street, Fitzrovia</li>
-            <li><strong>Music:</strong>{" "}Mixed — hip-hop, house, electronic</li>
+            <li><strong>Music:</strong>{" "}Mixed (hip-hop, house, electronic)</li>
             <li><strong>Open:</strong>{" "}Friday and Saturday, plus select Thursdays</li>
             <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
             <li><strong>Dress code:</strong>{" "}Smart casual, no sportswear</li>
@@ -131,25 +131,25 @@ export default function BeatLondonSoundSystemPage() {
           they see. People who find Mayfair&apos;s bottle-service culture
           tiresome and want a venue where the dance floor is the point.
           Groups who enjoy different genres and want a room where the DJ
-          navigates between them with skill. International visitors — see
+          navigates between them with skill. International visitors (see
           our{" "}
           <Link href="/guides/london-nightlife-international-visitors">
             visitors&apos; guide
-          </Link>{" "}
-          — who want to experience London&apos;s nightlife beyond the
+          </Link>)
+           who want to experience London&apos;s nightlife beyond the
           Mayfair formula.
         </p>
 
         <p>
-          If you prefer the Mayfair experience — more formal service, higher
-          production values, a more curated crowd — venues like{" "}
+          If you prefer the Mayfair experience, more formal service, higher
+          production values, a more curated crowd, venues like{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}deliver that,
           and so does{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus.
           BEAT is the alternative for when the Mayfair formula feels like
-          exactly that — a formula.{" "}
+          exactly that: a formula.{" "}
           <Link href="/contact">Contact our team</Link>{" "}for bookings.
         </p>
 

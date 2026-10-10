@@ -27,12 +27,12 @@ export default function LondonClubsGoingCashlessPage() {
   return (
     <>
       <ArticleSchema
-        title="Why London Clubs Are Going Cashless — And What It Means for You"
+        title="Why London Clubs Are Going Cashless: And What It Means for You"
         description="London's luxury clubs are ditching cash for card-only systems. What the cashless shift means for table service, tipping, and your night out in Mayfair."
         slug="/blog/london-clubs-going-cashless"
       />
       <ArticleLayout
-        title="Why London Clubs Are Going Cashless — And What It Means for You"
+        title="Why London Clubs Are Going Cashless: And What It Means for You"
         subtitle="The quiet revolution changing how Mayfair does bottle service, tips, and tabs"
         heroImage={BLOG_IMAGES["london-clubs-going-cashless"]}
         heroAlt="Interior of a luxury London nightclub with ambient lighting and VIP tables"
@@ -51,8 +51,8 @@ export default function LondonClubsGoingCashlessPage() {
         <p>
           This is not a London-specific phenomenon, but the capital&apos;s
           luxury club scene has adopted cashless operations faster than almost
-          any other hospitality sector. The reasons are practical, financial, and
-          — for guests — worth understanding before you arrive.
+          any other hospitality sector. The reasons are practical, financial, and,
+           for guests, worth understanding before you arrive.
         </p>
 
         <h2>Why Are London Clubs Dropping Cash?</h2>
@@ -62,7 +62,7 @@ export default function LondonClubsGoingCashlessPage() {
           hygiene standard. But even after restrictions lifted, clubs kept going.
           The operational benefits were too significant to reverse. Card-only
           systems mean faster transactions at the bar, fewer discrepancies at
-          close, and dramatically reduced theft — both internal and external.
+          close, and dramatically reduced theft, both internal and external.
           Staff no longer need to count floats at 4am. Managers can reconcile the
           entire night&apos;s revenue from a dashboard.
         </p>
@@ -106,11 +106,11 @@ export default function LondonClubsGoingCashlessPage() {
           , this is genuinely useful. You know exactly what you are spending in
           real time. Several clubs now offer tablet-based ordering at the table,
           so your host can show you the running total at any point. The days of
-          bill shock at 3am are largely over — assuming you pay attention.
+          bill shock at 3am are largely over, assuming you pay attention.
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference — Cashless Night Out Essentials</h4>
+          <h4>Quick Reference: Cashless Night Out Essentials</h4>
           <ul>
             <li>
               <strong>Payment methods accepted:</strong>{" "}Contactless, chip
@@ -142,7 +142,7 @@ export default function LondonClubsGoingCashlessPage() {
           &pound;20 note pressed into a bartender&apos;s hand was the universal
           language of good service. That tradition has not disappeared entirely,
           but the mechanics have shifted. At most Mayfair venues, gratuity is now
-          added to the card payment — either as an optional prompt on the card
+          added to the card payment, either as an optional prompt on the card
           machine or as a service charge on the bill.
         </p>
 
@@ -159,8 +159,8 @@ export default function LondonClubsGoingCashlessPage() {
         </p>
 
         <p>
-          If you still want to tip in cash — and some guests prefer to, as a
-          direct gesture — staff will accept it. But it is no longer expected,
+          If you still want to tip in cash (and some guests prefer to, as a
+          direct gesture), staff will accept it. But it is no longer expected,
           and in some venues the bar staff genuinely do not carry change.
         </p>
 
@@ -174,8 +174,8 @@ export default function LondonClubsGoingCashlessPage() {
           is all you need. This aligns with the broader trend in{" "}
           <Link href="/guides/london-nightlife-international-visitors">
             London nightlife for international visitors
-          </Link>{" "}
-          — the city is increasingly frictionless for those who plan ahead.
+          </Link>:
+           the city is increasingly frictionless for those who plan ahead.
         </p>
 
         <p>
@@ -190,7 +190,7 @@ export default function LondonClubsGoingCashlessPage() {
         <p>
           The cashless shift is not universally popular. Some regular clubgoers
           miss the anonymity of cash. Others point out that card-only systems
-          exclude people who rely on cash payments — though this is less of a
+          exclude people who rely on cash payments, though this is less of a
           concern in the luxury club bracket, where minimum spends already filter
           the audience. There is also a data dimension: every transaction is
           recorded, every purchase is linked to a name, and that level of
@@ -210,7 +210,7 @@ export default function LondonClubsGoingCashlessPage() {
 
         <p>
           The direction is clear. London&apos;s luxury clubs will not go back to
-          cash. If anything, the next step is deeper integration — apps that let
+          cash. If anything, the next step is deeper integration: apps that let
           you order from your table, digital tabs that follow you between venues
           on the same night, and loyalty programmes tied to your payment history.
           Some of this exists already in prototype form. Within two years, it

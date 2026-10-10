@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Inside Tape London: What Makes Mayfair's Most Exclusive Club Different",
   description:
-    "An insider's look at Tape London — the Hanover Square members' club where celebrities and music industry insiders go when they want genuine privacy and exceptional sound.",
+    "An insider's look at Tape London, the Hanover Square members' club where celebrities and music industry insiders go when they want genuine privacy and exceptional sound.",
   keywords:
     "Tape London, Tape London review, Tape London members club, Tape London Mayfair, most exclusive club London",
   openGraph: {
     title: "Inside Tape London: What Makes Mayfair's Most Exclusive Club Different",
     description:
-      "An insider's look at Tape London — genuine privacy, exceptional sound, and Mayfair's most exclusive crowd.",
+      "An insider's look at Tape London: genuine privacy, exceptional sound, and Mayfair's most exclusive crowd.",
     url: "https://londonluxurynightlife.com/blog/tape-london-inside-mayfairs-most-exclusive-club",
     type: "article",
   },
@@ -29,7 +29,7 @@ export default function TapeLondonInsidePage() {
     <>
       <ArticleSchema
         title="Inside Tape London: What Makes Mayfair's Most Exclusive Club Different"
-        description="An insider's look at Tape London — genuine privacy, exceptional sound, and Mayfair's most exclusive crowd."
+        description="An insider's look at Tape London: genuine privacy, exceptional sound, and Mayfair's most exclusive crowd."
         slug="/blog/tape-london-inside-mayfairs-most-exclusive-club"
       />
       <ArticleLayout
@@ -40,14 +40,14 @@ export default function TapeLondonInsidePage() {
       >
         <p>
           Every nightlife city has a venue that sits at the top of the
-          hierarchy — the place that other clubs aspire to, where the guest
+          hierarchy: the place that other clubs aspire to, where the guest
           list is genuine rather than performative, and where the crowd
           includes people who could go anywhere in the world and chose here.
           In London, that venue is{" "}
           <Link href="/clubs/tape-london">Tape London</Link>. But what
           actually makes it different from the dozen other premium clubs
-          within walking distance? Having spent countless nights inside,
-          here is the honest answer.
+          within walking distance? Here is the honest
+          answer.
         </p>
 
         <h2>The No-Phones Culture</h2>
@@ -55,8 +55,8 @@ export default function TapeLondonInsidePage() {
         <p>
           The single most distinctive feature of Tape London is something
           you will not see: phones. While every other club in Mayfair is
-          bathed in the glow of iPhone screens — people filming, stories
-          posting, flash photography destroying any ambient atmosphere — Tape
+          bathed in the glow of iPhone screens (people filming, stories
+          posting, flash photography destroying any ambient atmosphere), Tape
           enforces a strict no-phones-on-the-dancefloor policy. This is not a
           gimmick. It fundamentally changes the experience. People are present.
           Conversations happen face to face. The dance floor has an energy
@@ -79,7 +79,7 @@ export default function TapeLondonInsidePage() {
 
         <p>
           Tape was founded by people from the music industry, and it shows in
-          the sound system. This is not a venue where music is background —
+          the sound system. This is not a venue where music is background;
           it is a venue where music is the point. The system is built for
           the specific dimensions of the room, which means the bass hits
           correctly, the mid-range is clear enough for conversation at the
@@ -92,7 +92,7 @@ export default function TapeLondonInsidePage() {
 
         <p className="pull-quote">
           Tape London&apos;s exclusivity is not about keeping people out. It is
-          about creating conditions where genuine quality is possible — in the
+          about creating conditions where genuine quality is possible, in the
           sound, the atmosphere, and the crowd.
         </p>
 
@@ -101,7 +101,7 @@ export default function TapeLondonInsidePage() {
         <p>
           The door at Tape is the most selective in London and there is no
           diplomatic way to frame that. Guest list through a promoter or
-          concierge is essential — walk-ups do not happen. Table bookings
+          concierge is essential; walk-ups do not happen. Table bookings
           start from &pound;1,500, which is the highest minimum in Mayfair
           and a deliberate filter. The crowd that this produces is
           distinctive: music industry professionals, athletes, entrepreneurs,
@@ -116,7 +116,7 @@ export default function TapeLondonInsidePage() {
         <h2>Is Tape London Worth the Premium?</h2>
 
         <div className="info-box">
-          <h4>Tape London — Key Details</h4>
+          <h4>Tape London: Key Details</h4>
           <ul>
             <li><strong>Location:</strong>{" "}17 Hanover Square, Mayfair</li>
             <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B, Commercial</li>
@@ -145,7 +145,7 @@ export default function TapeLondonInsidePage() {
             Mayfair cost guide
           </Link>{" "}
           breaks down what to expect. For help securing a table at Tape,{" "}
-          <Link href="/contact">contact our concierge team</Link>{" "}— we work
+          <Link href="/contact">contact our concierge team</Link>. We work
           with the venue regularly and can advise on availability and the best
           nights for your group.
         </p>

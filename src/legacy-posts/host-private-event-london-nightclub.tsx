@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Host a Private Event at a London Nightclub",
-  description: "Private event hosting at London nightclubs — from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
+  description: "Private event hosting at London nightclubs, from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
   keywords: "private event london nightclub, private hire london club, exclusive event london, nightclub private party london",
   openGraph: {
     title: "How to Host a Private Event at a London Nightclub",
-    description: "Private event hosting at London nightclubs — from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
+    description: "Private event hosting at London nightclubs, from exclusive venue hire to bespoke packages. What the top clubs offer, what it costs, and how to make it happen.",
     url: "https://londonluxurynightlife.com/blog/host-private-event-london-nightclub",
     type: "article",
   },
@@ -24,12 +24,12 @@ export default function HostPrivateEventLondonNightclubPage() {
     <>
       <ArticleSchema
         title="How to Host a Private Event at a London Nightclub"
-        description="Private event hosting at London nightclubs — from exclusive venue hire to bespoke packages."
+        description="Private event hosting at London nightclubs, from exclusive venue hire to bespoke packages."
         slug="/blog/host-private-event-london-nightclub"
       />
       <ArticleLayout
         title="How to Host a Private Event at a London Nightclub"
-        subtitle="From full venue hire to private rooms — the insider&apos;s guide to making it happen"
+        subtitle="From full venue hire to private rooms: the insider&apos;s guide to making it happen"
         heroImage={BLOG_IMAGES["host-private-event-london-nightclub"]}
         heroAlt="Private event setup inside a luxury London nightclub with bottle service and atmospheric lighting"
       >
@@ -40,14 +40,14 @@ export default function HostPrivateEventLondonNightclubPage() {
           <Link href="/luxury-nightclubs-london">luxury London nightclub</Link>{" "}
           with a dedicated sound system, professional bar staff, and the kind of
           atmosphere you simply cannot manufacture in a hired space. The second
-          version is more achievable than most people realise — if you know how
+          version is more achievable than most people realise, if you know how
           the system works.
         </p>
 
         <p>
           London&apos;s top clubs have been hosting private events for decades.
           Product launches, milestone birthdays, wrap parties, corporate
-          entertaining, engagement celebrations — the venues are built for it.
+          entertaining, engagement celebrations: the venues are built for it.
           But the process of securing a private hire, negotiating the right
           package, and making sure the night actually delivers is opaque to
           anyone who hasn&apos;t done it before.
@@ -63,7 +63,7 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p>
           <strong>Full venue hire</strong>{" "}gives you the entire club for your
-          guests only. This is the premium option — no general admission, no
+          guests only. This is the premium option: no general admission, no
           strangers, complete control over music and lighting. Venues like{" "}
           <Link href="/clubs/maddox">Maddox Club</Link>{" "}offer full
           buyouts for private events, typically on quieter midweek nights or for
@@ -73,8 +73,8 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p>
           <strong>Private room hire</strong>{" "}is the more common option. Most
-          Mayfair clubs have dedicated spaces — separate rooms, mezzanine areas,
-          or cordoned VIP sections — that can be reserved exclusively for your
+          Mayfair clubs have dedicated spaces (separate rooms, mezzanine areas,
+          or cordoned VIP sections) that can be reserved exclusively for your
           group while the rest of the club operates as normal.{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           has its downstairs space that works perfectly for groups of 30 to 80.{" "}
@@ -86,7 +86,7 @@ export default function HostPrivateEventLondonNightclubPage() {
         <p>
           <strong>Enhanced table packages</strong>{" "}sit between a standard VIP
           table and a private hire. You get a prime section of the club, a
-          dedicated host, and an elevated drinks package — but the rest of the
+          dedicated host, and an elevated drinks package, but the rest of the
           venue remains open. This works well for groups of 10 to 25 who want
           the atmosphere of a busy club without the cost of a buyout.
         </p>
@@ -113,7 +113,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}is the
           obvious pick for events that need spectacle. The resident performers,
           theatrical staging, and immersive environment do the heavy lifting for
-          entertainment — your event automatically has a talking point. Private
+          entertainment: your event automatically has a talking point. Private
           hires at Cirque include the performers as standard, which saves you
           the trouble of sourcing entertainment separately.
         </p>
@@ -128,7 +128,7 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p className="pull-quote">
           The best private event venues in London aren&apos;t necessarily the
-          biggest — they&apos;re the ones whose existing atmosphere does half
+          biggest; they&apos;re the ones whose existing atmosphere does half
           the work for you.
         </p>
 
@@ -144,7 +144,7 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p>
           Start the conversation early. For weekend dates at popular venues,
-          you&apos;re looking at 4 to 8 weeks minimum lead time — more for
+          you&apos;re looking at 4 to 8 weeks minimum lead time, more for
           peak periods like December, New Year&apos;s Eve, or bank holiday
           weekends. Midweek dates are easier to secure and often come at
           significantly lower minimum spends.
@@ -159,7 +159,7 @@ export default function HostPrivateEventLondonNightclubPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference — Private Event Essentials</h4>
+          <h4>Quick Reference: Private Event Essentials</h4>
           <ul>
             <li><strong>Lead time:</strong>{" "}4-8 weeks for weekends, 2-3 weeks for midweek</li>
             <li><strong>Minimum spend:</strong>{" "}From &pound;2,000 (private room) to &pound;15,000+ (full venue Saturday)</li>
@@ -176,7 +176,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           basics: exclusive use of the space, a dedicated bar team, the
           venue&apos;s existing sound and lighting setup, door security, and a
           host or event coordinator for the evening. Your minimum spend covers
-          drinks — usually a combination of bottles and cocktails that your
+          drinks, usually a combination of bottles and cocktails that your
           guests order throughout the night.
         </p>
 
@@ -195,7 +195,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           If you&apos;re hosting a corporate event or product launch, ask about
           AV capabilities. Some clubs have built-in screens and projection
           systems; others can accommodate external AV setups with advance
-          notice. This is a detail that catches many organisers off guard —
+          notice. This is a detail that catches many organisers off guard:
           what looks like a straightforward club night can require significant
           technical setup if speeches or presentations are involved.
         </p>
@@ -204,7 +204,7 @@ export default function HostPrivateEventLondonNightclubPage() {
 
         <p>
           Private event costs at London clubs operate on a minimum spend model
-          rather than a flat hire fee. You&apos;re not paying for the room —
+          rather than a flat hire fee. You&apos;re not paying for the room;
           you&apos;re committing to a minimum amount of drinks spend for the
           evening. Anything your guests consume above that minimum is charged
           at standard menu prices.
@@ -238,7 +238,7 @@ export default function HostPrivateEventLondonNightclubPage() {
           London clubs maintain their atmosphere through careful door management,
           and this extends to private events. If your guest list includes large
           groups of the same gender, particularly all-male groups, some venues
-          will push back or require adjustments. This isn&apos;t arbitrary — it
+          will push back or require adjustments. This isn&apos;t arbitrary; it
           protects the atmosphere for everyone in the venue, including your
           guests.
         </p>

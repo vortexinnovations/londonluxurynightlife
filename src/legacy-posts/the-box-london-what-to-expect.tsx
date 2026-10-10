@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   title:
     "The Box London: What to Expect at London's Most Provocative Club",
   description:
-    "An honest guide to The Box in Soho — what the shows are really like, the door policy, what to wear, how to get on the guestlist, and who should (and shouldn't) go.",
+    "An honest guide to The Box in Soho: what the shows are really like, the door policy, what to wear, how to get on the guestlist, and who should (and shouldn't) go.",
   keywords:
     "The Box London, The Box Soho, The Box nightclub London, what is The Box London like",
   openGraph: {
     title:
       "The Box London: What to Expect at London's Most Provocative Club",
     description:
-      "An honest guide to The Box Soho — the performances, the door policy, and what to expect from London's most boundary-pushing nightclub.",
+      "An honest guide to The Box Soho: the performances, the door policy, and what to expect from London's most boundary-pushing nightclub.",
     url: "https://londonluxurynightlife.com/blog/the-box-london-what-to-expect",
     type: "article",
   },
@@ -30,7 +30,7 @@ export default function TheBoxLondonWhatToExpectPage() {
     <>
       <ArticleSchema
         title="The Box London: What to Expect at London's Most Provocative Club"
-        description="An honest guide to The Box in Soho — what the shows are really like, the door policy, and who should (and shouldn't) go."
+        description="An honest guide to The Box in Soho: what the shows are really like, the door policy, and who should (and shouldn't) go."
         slug="/blog/the-box-london-what-to-expect"
       />
       <ArticleLayout
@@ -44,7 +44,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           In London, that venue is{" "}
           <Link href="/clubs/the-box-london">The Box</Link>. Located in the
           heart of Soho, The Box is not a nightclub in any conventional sense.
-          It is a theatre, a cabaret, a provocation, and a party — often all
+          It is a theatre, a cabaret, a provocation, and a party, often all
           within the same hour. If you are considering a visit, you deserve an
           honest account of what actually happens inside, who it is designed
           for, and whether it belongs on your London nightlife itinerary. This
@@ -59,7 +59,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           rather than an afterthought. The London outpost, housed in a former
           theatre space in Soho, follows the same philosophy. The room is
           built around a stage. Every table has a sightline to it. The
-          performances are not interval entertainment between DJ sets — they
+          performances are not interval entertainment between DJ sets; they
           are the reason the venue exists. The music, the drinking, the
           socialising all happen around and between the shows, not the other
           way around.
@@ -80,7 +80,7 @@ export default function TheBoxLondonWhatToExpectPage() {
 
         <p>
           The performances at The Box are provocative by design. This is not
-          burlesque in the conventional sense — it is deliberately
+          burlesque in the conventional sense; it is deliberately
           boundary-pushing, sometimes confrontational, always theatrical. Acts
           rotate regularly and are never announced in advance, which means
           every visit carries genuine unpredictability. The content spans
@@ -93,7 +93,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           audience. The shows explore themes of desire, power, taboo, and
           spectacle with an intensity that can be exhilarating for some and
           uncomfortable for others. There is nudity. There is content that is
-          explicitly adult. The venue makes no apologies for this — it is the
+          explicitly adult. The venue makes no apologies for this; it is the
           entire point. If you arrive expecting a conventional floor show with
           feathers and sequins, you will be surprised. If you arrive expecting
           to be surprised, you will not be disappointed.
@@ -113,7 +113,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           musicians, artists, international visitors who have heard the
           reputation and want to experience it firsthand, and Londoners who
           have exhausted the conventional club circuit and want something with
-          genuine edge. It is not a crowd that is there to be seen — it is a
+          genuine edge. It is not a crowd that is there to be seen; it is a
           crowd that is there to experience something.
         </p>
 
@@ -141,11 +141,11 @@ export default function TheBoxLondonWhatToExpectPage() {
         <div className="info-box">
           <h4>Improving Your Chances at the Door</h4>
           <ul>
-            <li>Book a table — this is the most reliable route to guaranteed entry</li>
+            <li>Book a table: this is the most reliable route to guaranteed entry</li>
             <li>Mixed groups (men and women together) are strongly preferred over single-gender groups</li>
-            <li>Dress creatively but smartly — The Box appreciates fashion-forward choices over corporate formality</li>
+            <li>Dress creatively but smartly: The Box appreciates fashion-forward choices over corporate formality</li>
             <li>Arrive before midnight for the best chance on guestlist</li>
-            <li>Use a concierge service — <Link href="/contact">contact us</Link>{" "}to arrange entry properly</li>
+            <li>Use a concierge service: <Link href="/contact">contact us</Link>{" "}to arrange entry properly</li>
           </ul>
         </div>
 
@@ -154,12 +154,12 @@ export default function TheBoxLondonWhatToExpectPage() {
         <p>
           The Box is one of the few London venues where creative dressing is
           not just accepted but actively encouraged. While Mayfair clubs
-          generally reward classic smartness — tailored trousers, collared
-          shirts, cocktail dresses — The Box sits in Soho and the dress code
+          generally reward classic smartness (tailored trousers, collared
+          shirts, cocktail dresses), The Box sits in Soho and the dress code
           reflects that. Think fashion-forward rather than formal. A well-cut
           jacket with an interesting shirt, statement pieces, confident style
           choices. Women have broader latitude here than at most venues. The
-          common thread is effort and intentionality — the door team can tell
+          common thread is effort and intentionality: the door team can tell
           the difference between someone who has thought about their outfit and
           someone who simply put on their work clothes. For a broader overview
           of London club dress codes, see our{" "}
@@ -175,7 +175,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           Guestlist at The Box is managed carefully and is not simply a
           sign-up form on a website. The most effective approach is through a
           concierge or promoter with a genuine relationship with the venue.
-          Being on the guestlist does not guarantee entry — it gets you to the
+          Being on the guestlist does not guarantee entry; it gets you to the
           front of the queue and removes the cover charge, but the door team
           still makes the final decision based on the criteria above. A table
           booking is the only way to guarantee entry, and on busy nights
@@ -197,8 +197,8 @@ export default function TheBoxLondonWhatToExpectPage() {
           something more intense, The Box is the logical next step. If you are
           visiting London from abroad and want a single venue that you cannot
           replicate anywhere else, The Box delivers that. If you are
-          celebrating a milestone — a birthday, an anniversary, a significant
-          achievement — and want the evening to be genuinely unforgettable,
+          celebrating a milestone (a birthday, an anniversary, a significant
+          achievement) and want the evening to be genuinely unforgettable,
           this is the venue that provides that. For more on which{" "}
           <Link href="/guides/celebrity-clubs-london">
             celebrity-frequented venues
@@ -212,13 +212,13 @@ export default function TheBoxLondonWhatToExpectPage() {
           Honesty serves everyone better than false expectations. The Box is
           not for people who are easily offended by adult content or nudity.
           It is not for people who want a conventional dance-floor-and-DJ
-          experience — venues like{" "}
+          experience; venues like{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}or{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}are far better
           choices for that. It is not ideal for large corporate groups unless
           you are very confident about every attendee&apos;s tolerance for
           provocative content. And it is not for anyone looking for a quiet,
-          low-key evening — The Box is high-intensity by design.
+          low-key evening: The Box is high-intensity by design.
         </p>
 
         <p>
@@ -226,7 +226,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           straightforward solution is to{" "}
           <Link href="/contact">ask us</Link>. We will give you an honest
           assessment based on who is coming and what you are looking for.
-          There is no shame in choosing a different venue — the goal is the
+          There is no shame in choosing a different venue: the goal is the
           right evening, not the most extreme one.
         </p>
 
@@ -237,7 +237,7 @@ export default function TheBoxLondonWhatToExpectPage() {
           Leicester Square stations. Most nights run until 3am or later. The
           performances typically begin around midnight and continue in sets
           throughout the night. Bottle service is available with table
-          bookings — see our{" "}
+          bookings. See our{" "}
           <Link href="/blog/bottle-service-london-explained">
             bottle service guide
           </Link>{" "}

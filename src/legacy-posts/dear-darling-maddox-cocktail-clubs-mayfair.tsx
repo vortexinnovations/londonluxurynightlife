@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Dear Darling vs Maddox: Mayfair's Best Cocktail-to-Club Experiences",
   description:
-    "Two Mayfair venues that blend cocktails with late-night energy. Dear Darling vs Maddox — which suits your style and how each handles the transition from elegant to electric.",
+    "Two Mayfair venues that blend cocktails with late-night energy. Dear Darling vs Maddox: which suits your style and how each handles the transition from elegant to electric.",
   keywords:
     "Dear Darling Mayfair, Maddox club London, cocktail clubs Mayfair, best cocktail bars Mayfair nightlife",
   openGraph: {
@@ -29,7 +29,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
     <>
       <ArticleSchema
         title="Dear Darling vs Maddox: Mayfair's Best Cocktail-to-Club Experiences"
-        description="Two Mayfair venues that blend cocktails with late-night energy — which suits your style?"
+        description="Two Mayfair venues that blend cocktails with late-night energy: which suits your style?"
         slug="/blog/dear-darling-maddox-cocktail-clubs-mayfair"
       />
       <ArticleLayout
@@ -41,7 +41,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
         <p>
           The most common dilemma in London nightlife planning is the
           transition problem. You want cocktails and conversation early in the
-          evening, then energy and dancing later — but moving between venues
+          evening, then energy and dancing later, but moving between venues
           means losing your table, braving the cold, joining a new queue,
           and hoping the second venue matches the standard of the first. Two
           Mayfair venues have solved this problem elegantly:{" "}
@@ -56,7 +56,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
           Dear Darling is, first and foremost, a cocktail bar. The
           chandeliers, velvet booths, and intimate lighting create an
           atmosphere of genuine opulence that rivals dedicated cocktail
-          destinations. The drinks programme is serious — these are not
+          destinations. The drinks programme is serious: these are not
           nightclub cocktails with a premium markup, but properly crafted
           drinks by bartenders who know their craft. You could spend an
           entire evening at Dear Darling simply drinking beautifully made
@@ -70,7 +70,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
           room rises without anyone making an announcement or changing the
           setting. One moment you are having a sophisticated conversation over
           an Old Fashioned. Two hours later you are dancing. The magic is that
-          neither mode feels forced — the room accommodates both with equal
+          neither mode feels forced: the room accommodates both with equal
           conviction.
         </p>
 
@@ -78,7 +78,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
 
         <p>
           Maddox takes the concept further. This is not a bar that gets
-          lively — it is a full Italian restaurant that transforms into a
+          lively; it is a full Italian restaurant that transforms into a
           house music nightclub. The dinner service is genuine: a proper
           Italian menu with quality that stands independently of the late-night
           offering. You book for 8pm, eat well, and then the room around you
@@ -101,7 +101,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
 
         <p className="pull-quote">
           The best evenings are the ones where you never have to leave. Dear
-          Darling and Maddox both understand this — they just approach it from
+          Darling and Maddox both understand this; they just approach it from
           different starting points.
         </p>
 
@@ -123,7 +123,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
           <strong>Music:</strong>{" "}If house music is your sound, Maddox is the
           clear choice. The late-night DJ programme focuses on deep house and
           house music, which makes it an outlier in Mayfair where hip-hop
-          dominates. Dear Darling&apos;s music is more eclectic — lounge-led
+          dominates. Dear Darling&apos;s music is more eclectic: lounge-led
           early, building into a mix that keeps the room moving without
           committing to a single genre.
         </p>
@@ -141,7 +141,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
 
         <p>
           <strong>Atmosphere:</strong>{" "}Dear Darling is more intimate and
-          opulent. The room is designed to flatter — low lighting, rich
+          opulent. The room is designed to flatter: low lighting, rich
           textures, a sense of enclosure that makes everything feel personal.
           Maddox is more open and dynamic, with the energy building as the
           room transforms through the evening.
@@ -164,7 +164,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
           planning corporate entertainment where the seamless format impresses
           clients, or you have a larger group that benefits from the structured
           dinner-to-club progression. Maddox is also the better choice if
-          anyone in your group is not a natural nightclub person — the dinner
+          anyone in your group is not a natural nightclub person: the dinner
           component provides a comfortable starting point.
         </p>
 

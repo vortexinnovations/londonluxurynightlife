@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Every Mayfair Club Ranked: The Definitive Guide for 2025",
   description:
-    "An honest ranking of every luxury nightclub in Mayfair for 2025 — from established icons to the newest openings. The insider's guide to choosing the right venue.",
+    "An honest ranking of every luxury nightclub in Mayfair for 2025, from established icons to the newest openings. The insider's guide to choosing the right venue.",
   keywords:
     "best clubs Mayfair, Mayfair clubs ranked, top Mayfair nightclubs, best nightclub Mayfair 2025",
   openGraph: {
     title: "Every Mayfair Club Ranked: The Definitive Guide for 2025",
     description:
-      "An honest ranking of every luxury nightclub in Mayfair — from established icons to newest openings.",
+      "An honest ranking of every luxury nightclub in Mayfair, from established icons to newest openings.",
     url: "https://londonluxurynightlife.com/blog/best-clubs-mayfair-complete-ranking",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function BestClubsMayfairCompleteRankingPage() {
     <>
       <ArticleSchema
         title="Every Mayfair Club Ranked: The Definitive Guide for 2025"
-        description="An honest ranking of every luxury nightclub in Mayfair — from established icons to newest openings."
+        description="An honest ranking of every luxury nightclub in Mayfair, from established icons to newest openings."
         slug="/blog/best-clubs-mayfair-complete-ranking"
       />
       <ArticleLayout
         title="Every Mayfair Club Ranked: The Definitive Guide for 2025"
-        subtitle="An honest ranking of every luxury nightclub in Mayfair — from established icons to the newest openings"
+        subtitle="An honest ranking of every luxury nightclub in Mayfair, from established icons to the newest openings"
         heroImage={BLOG_IMAGES["best-clubs-mayfair-complete-ranking"]}
         heroAlt="Panoramic view of a premium Mayfair nightclub interior"
       >
@@ -42,21 +42,21 @@ export default function BestClubsMayfairCompleteRankingPage() {
           Mayfair contains the highest concentration of luxury nightclubs in
           Europe, possibly the world. Within a fifteen-minute walk you can
           choose between a dozen premium venues, each with its own identity,
-          crowd, and sound. That density is both a gift and a problem — if
+          crowd, and sound. That density is both a gift and a problem: if
           you are visiting London or simply trying a new venue, how do you
-          decide? This ranking is our honest assessment, based on years of
-          experience inside every room on this list.
+          decide? This ranking is our honest assessment of every room on this
+          list.
         </p>
 
         <p>
           A note on methodology: we are ranking these venues on overall
-          experience — atmosphere, music quality, crowd, service, and
+          experience: atmosphere, music quality, crowd, service, and
           consistency. A lower-ranked venue is not a bad venue. Every club
           on this list delivers a premium night out. The differences are in
           character and execution.
         </p>
 
-        <h2 className="no-num">1. Tape London — The Gold Standard</h2>
+        <h2 className="no-num">1. Tape London: The Gold Standard</h2>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}sits at the top
@@ -70,12 +70,12 @@ export default function BestClubsMayfairCompleteRankingPage() {
           position as Mayfair&apos;s most exclusive night.
         </p>
 
-        <h2 className="no-num">2. Scotch of St James — The Heritage Choice</h2>
+        <h2 className="no-num">2. Scotch of St James: The Heritage Choice</h2>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           carries more history than any venue on this list. The Hendrix
-          connection is not marketing — it is fact. The intimate basement room
+          connection is not marketing; it is fact. The intimate basement room
           rewards individuality over conformity, and the eclectic music policy
           means you might hear rock, indie, and hip-hop in the same set. If
           you want character over flash, Scotch is unmatched. Our{" "}
@@ -85,7 +85,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           covers its remarkable story.
         </p>
 
-        <h2 className="no-num">3. Dear Darling — The Cocktail Gateway</h2>
+        <h2 className="no-num">3. Dear Darling: The Cocktail Gateway</h2>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
@@ -112,7 +112,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           Rumour&apos;s current terms when you enquire.
         </p>
 
-        <h2 className="no-num">5. Maddox Club — The Complete Evening</h2>
+        <h2 className="no-num">5. Maddox Club: The Complete Evening</h2>
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the only venue on this
@@ -120,7 +120,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           music at 2am without changing buildings. That seamless dinner-to-club
           transition makes it uniquely practical for corporate entertainment,
           first dates, and anyone who wants a complete evening under one roof.
-          The house music focus also makes it a Mayfair outlier — if deep
+          The house music focus also makes it a Mayfair outlier: if deep
           house is your sound, Maddox is your venue. Read our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide
@@ -140,7 +140,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           the new name.
         </p>
 
-        <h2 className="no-num">7. Selene London — The Refined Newcomer</h2>
+        <h2 className="no-num">7. Selene London: The Refined Newcomer</h2>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link>{" "}sits just outside
@@ -152,12 +152,12 @@ export default function BestClubsMayfairCompleteRankingPage() {
           is well-dressed and discerning, and the overall experience feels
           a step above the standard new-opening formula. Hip-hop and
           commercial music delivered in a room that whispers rather than
-          shouts. Early signs are very promising — this could climb
+          shouts. Early signs are very promising: this could climb
           significantly higher as it matures.
         </p>
 
         <p className="pull-quote">
-          Mayfair&apos;s strength is not that every club is the same — it is
+          Mayfair&apos;s strength is not that every club is the same; it is
           that every club is different enough to match a specific mood, group,
           and occasion.
         </p>
@@ -168,7 +168,7 @@ export default function BestClubsMayfairCompleteRankingPage() {
           Two venues sit outside Mayfair but deserve mention for anyone
           building a complete London nightlife itinerary.{" "}
           <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho is
-          London&apos;s most provocative nightclub — performance-driven,
+          London&apos;s most provocative nightclub: performance-driven,
           boundary-pushing, and utterly unique. Read our{" "}
           <Link href="/blog/the-box-london-what-to-expect">
             Box guide

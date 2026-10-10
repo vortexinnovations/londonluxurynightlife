@@ -47,14 +47,14 @@ export default function FunkyBuddhaLondonReviewPage() {
         </div>
         <p>
           London nightlife moves fast. Venues open with enormous fanfare,
-          dominate Instagram for eighteen months, and then quietly disappear —
+          dominate Instagram for eighteen months, and then quietly disappear,
           replaced by something newer, shinier, and equally temporary. Against
           that backdrop, <Link href="/clubs/funky-buddha">Funky Buddha</Link>{" "}
-          is something genuinely unusual: a Mayfair nightclub that has not only
+          was something genuinely unusual: a Mayfair nightclub that not only
           survived but remained relevant across multiple eras of London
-          nightlife. While dozens of competitors have opened and closed around
-          it, Funky Buddha continues to fill its room week after week. This is
-          not nostalgia — it is a club that still delivers one of the most
+          nightlife. While dozens of competitors opened and closed around
+          it, Funky Buddha filled its room week after week. That was
+          not nostalgia; it was a club that delivered one of the most
           consistent nights out in the capital.
         </p>
 
@@ -63,8 +63,8 @@ export default function FunkyBuddhaLondonReviewPage() {
         <p>
           Funky Buddha arrived in Mayfair at a time when the area was
           consolidating its position as London&apos;s premier nightlife
-          destination. While other venues were chasing trends — the super-club
-          era, the bottle-service arms race, the celebrity DJ phenomenon —
+          destination. While other venues were chasing trends (the super-club
+          era, the bottle-service arms race, the celebrity DJ phenomenon)
           Funky Buddha carved out something more sustainable: a room that
           prioritised atmosphere and music over spectacle. The formula was
           deceptively simple. An intimate space, a sound system built for the
@@ -79,7 +79,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           trying to cultivate. Models, athletes, musicians, and the genuinely
           well-connected began treating Funky Buddha as their default Thursday
           and Saturday destination. The celebrity connection was organic rather
-          than manufactured — people came because the night was good, not
+          than manufactured: people came because the night was good, not
           because they were paid to appear. That distinction matters, and it is
           one of the reasons the venue has aged well while PR-driven clubs
           have not.
@@ -97,7 +97,7 @@ export default function FunkyBuddhaLondonReviewPage() {
         <p>
           First, the room itself. Funky Buddha is intimate by design. It does
           not try to be a warehouse or a concert venue. The compact floor plan
-          means the energy concentrates rather than dissipates — even on a
+          means the energy concentrates rather than dissipates: even on a
           quieter Wednesday, the room feels alive because there is no dead
           space to absorb the atmosphere. Compare this to larger venues where a
           half-capacity night feels empty and underwhelming.
@@ -124,25 +124,26 @@ export default function FunkyBuddhaLondonReviewPage() {
 
         <p>
           Third, the door. The door policy at Funky Buddha is selective but not
-          performatively so. It is not about exclusion for its own sake — it is
+          performatively so. It is not about exclusion for its own sake; it is
           about maintaining the atmosphere inside. The result is a room where
           everyone present has made an effort and wants to be there, which
           creates a self-reinforcing cycle of quality. This is the same
           principle that makes{" "}
-          <Link href="/clubs/cuckoo-club">The Cuckoo Club</Link>{" "}and{" "}
+          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club) and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           consistently strong on their best nights.
         </p>
 
-        <h2>The Experience Today</h2>
+        <h2>The Experience</h2>
 
         <p>
-          Walking into Funky Buddha now, you notice the things that do not
-          change: the low ceilings that keep the sound contained and powerful,
-          the lighting that flatters without obscuring, the layout that
-          encourages movement between the bar, the booths, and the dance floor.
-          The venue has been refreshed and maintained without losing its
-          character — a careful balance that many venues get wrong by either
+          Walking into Funky Buddha, you noticed the things that did not
+          change: the low ceilings that kept the sound contained and powerful,
+          the lighting that flattered without obscuring, the layout that
+          encouraged movement between the bar, the booths, and the dance floor.
+          The venue had been refreshed and maintained without losing its
+          character, a careful balance that many venues get wrong by either
           neglecting upkeep or over-renovating to the point of sterility.
         </p>
 
@@ -150,7 +151,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           The bottle service is straightforward and well-executed. Tables are
           positioned around the dance floor, giving you proximity to the energy
           without sacrificing the ability to have a conversation. Your host
-          manages the logistics — bottles, mixers, ice — while you focus on the
+          manages the logistics (bottles, mixers, ice) while you focus on the
           evening. For a full breakdown of how table bookings work across
           London clubs, our{" "}
           <Link href="/blog/bottle-service-london-explained">
@@ -168,10 +169,10 @@ export default function FunkyBuddhaLondonReviewPage() {
           among the best you will find in Mayfair.
         </p>
 
-        <h2>Who Funky Buddha Is For</h2>
+        <h2>Who Funky Buddha Was For</h2>
 
         <div className="info-box">
-          <h4>You Will Love Funky Buddha If You Want</h4>
+          <h4>Funky Buddha Suited Guests Who Wanted</h4>
           <ul>
             <li>A genuine dance floor with credible music (hip-hop, R&amp;B, funky house)</li>
             <li>An intimate room with concentrated energy rather than a cavernous space</li>
@@ -182,15 +183,15 @@ export default function FunkyBuddhaLondonReviewPage() {
         </div>
 
         <p>
-          Funky Buddha is ideal for groups who want to dance. If your priority
+          Funky Buddha was ideal for groups who wanted to dance. If your priority
           is a seated, cocktail-focused evening with background music, venues
           like <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}or{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}may suit you better. If
           you want spectacle and theatrical performances,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}or{" "}
           <Link href="/clubs/reign-london">Reign London</Link>{" "}are designed
-          for that. But if you want a proper club night — music, dancing,
-          atmosphere — Funky Buddha remains one of the most reliable choices
+          for that. But for a proper club night (music, dancing,
+          atmosphere), Funky Buddha was one of the most reliable choices
           in the area.
         </p>
 

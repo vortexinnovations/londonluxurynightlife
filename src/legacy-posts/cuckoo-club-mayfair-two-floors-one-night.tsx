@@ -51,7 +51,7 @@ export default function CuckooClubMayfairPage() {
           venue that satisfies nobody. The night starts with tension and ends
           with regret.{" "}
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
-          Street exists to eliminate this problem entirely. Two floors, two
+          Street existed to eliminate this problem entirely. Two floors, two
           genres, one venue. House music downstairs, hip-hop upstairs. Your
           group migrates freely between them all night. Problem solved.
         </p>
@@ -60,7 +60,7 @@ export default function CuckooClubMayfairPage() {
 
         <p>
           The genius of Cuckoo&apos;s layout is its simplicity. The
-          ground-level room plays house music — proper house, not the
+          ground-level room plays house music: proper house, not the
           commercial EDM that passes for it in lesser venues. The lower floor
           runs hip-hop and R&amp;B with a programming quality that competes
           with dedicated hip-hop clubs. The two rooms share the same door
@@ -71,32 +71,32 @@ export default function CuckooClubMayfairPage() {
         </p>
 
         <p>
-          This flexibility makes Cuckoo uniquely practical for groups with
+          This flexibility made Cuckoo uniquely practical for groups with
           mixed musical tastes, which is to say most groups. If you are
           planning a night for more than four people, the statistical
-          likelihood of genre consensus is near zero. Cuckoo respects this
-          reality and builds the solution into its architecture.
+          likelihood of genre consensus is near zero. Cuckoo respected this
+          reality and built the solution into its architecture.
         </p>
 
         <h2>The Consistency Factor</h2>
 
         <p>
-          Cuckoo Club does not have the celebrity magnetism of{" "}
+          Cuckoo Club did not have the celebrity magnetism of{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}or the
           theatrical spectacle of{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>. What it
-          has, and what matters more than most people realise, is consistency.
-          Wednesday through Saturday, Cuckoo delivers a strong night. Not
-          spectacular peaks followed by disappointing troughs — a reliable,
+          had, and what matters more than most people realise, is consistency.
+          Wednesday through Saturday, Cuckoo delivered a strong night. Not
+          spectacular peaks followed by disappointing troughs: a reliable,
           high-quality experience every time you walk through the door. In a
           scene where even the best venues have off nights, this reliability
           is undervalued and significant.
         </p>
 
         <p className="pull-quote">
-          Cuckoo Club is the venue that Mayfair regulars recommend to friends
-          who are visiting for the first time. That endorsement — the personal
-          recommendation, not the marketing campaign — tells you everything.
+          Cuckoo Club was the venue that Mayfair regulars recommended to friends
+          who were visiting for the first time. That endorsement, the personal
+          recommendation, not the marketing campaign, tells you everything.
         </p>
 
         <h2>The Practical Details</h2>
@@ -114,7 +114,7 @@ export default function CuckooClubMayfairPage() {
         </div>
 
         <p>
-          The dress code is smart but approachable — less formal than{" "}
+          The dress code is smart but approachable: less formal than{" "}
           <Link href="/clubs/maddox">Maddox</Link>, less creative than{" "}
           <Link href="/clubs/the-box-london">The Box</Link>, solidly in the
           Mayfair mainstream. Our{" "}
@@ -130,12 +130,12 @@ export default function CuckooClubMayfairPage() {
           explains why.
         </p>
 
-        <h2>Who Cuckoo Club Is For</h2>
+        <h2>Who Cuckoo Club Was For</h2>
 
         <p>
           First-time Mayfair visitors who want a safe, strong introduction.
           Groups with mixed musical tastes who refuse to compromise. Corporate
-          entertainment where the venue needs to work for everyone — our{" "}
+          entertainment where the venue needs to work for everyone: our{" "}
           <Link href="/guides/corporate-entertainment-london">
             corporate guide
           </Link>{" "}

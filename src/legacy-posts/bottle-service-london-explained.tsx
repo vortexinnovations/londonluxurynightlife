@@ -29,7 +29,7 @@ export default function BottleServiceLondonExplainedPage() {
     <>
       <ArticleSchema
         title="Bottle Service in London Explained: What You Actually Get"
-        description="Everything first-timers need to know about bottle service at London clubs — minimum spends, what is included, prices, booking, tipping, and the unwritten rules."
+        description="Everything first-timers need to know about bottle service at London clubs: minimum spends, what is included, prices, booking, tipping, and the unwritten rules."
         slug="/blog/bottle-service-london-explained"
       />
       <ArticleLayout
@@ -43,7 +43,7 @@ export default function BottleServiceLondonExplainedPage() {
           straightforward until you actually try to book it for the first time.
           Suddenly there are minimum spends, table categories, promoter
           contacts, and a set of unwritten expectations that nobody bothers to
-          explain. This guide covers everything — what London club bottle
+          explain. This guide covers everything: what London club bottle
           service actually includes, how the pricing works, how to book
           properly, and the mistakes that mark you as a first-timer. Whether
           you are planning a birthday, hosting clients, or simply want to
@@ -56,7 +56,7 @@ export default function BottleServiceLondonExplainedPage() {
         <p>
           Bottle service means reserving a table at a club and committing to a
           minimum spend on bottles of spirits or champagne. You are not paying
-          for a table — you are guaranteeing a minimum bar spend, and the table
+          for a table; you are guaranteeing a minimum bar spend, and the table
           comes with it. This distinction matters. You cannot book a table for
           &pound;100 and sit there nursing a single drink. The table exists
           because you are committing to purchase bottles at club prices.
@@ -74,12 +74,12 @@ export default function BottleServiceLondonExplainedPage() {
 
         <p>
           Every table at every premium London club comes with a minimum spend.
-          This is the amount you must spend on drinks — primarily bottles — over
+          This is the amount you must spend on drinks, primarily bottles, over
           the course of the evening. At venues like{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
           <Link href="/clubs/maddox">Maddox</Link>, standard table minimums
           range from <strong>&pound;1,000 to &pound;1,500</strong>{" "}on a Friday
-          or Saturday. Premium tables — better locations, larger spaces — start
+          or Saturday. Premium tables (better locations, larger spaces) start
           at &pound;2,000 and go significantly higher.
         </p>
 
@@ -88,7 +88,7 @@ export default function BottleServiceLondonExplainedPage() {
           menu, and your selections need to total at least the minimum amount.
           If your minimum is &pound;1,000 and you order &pound;1,200 in
           bottles, you pay &pound;1,200. If you order &pound;800, you still pay
-          &pound;1,000 — the difference is added to your bill. In practice,
+          &pound;1,000: the difference is added to your bill. In practice,
           most groups comfortably meet or exceed their minimum.
         </p>
 
@@ -113,7 +113,7 @@ export default function BottleServiceLondonExplainedPage() {
           </li>
           <li>
             <strong>Mixers:</strong>{" "}Tonic water, soda, cranberry juice,
-            orange juice, Red Bull, Coca-Cola — all included. You do not pay
+            orange juice, Red Bull, Coca-Cola: all included. You do not pay
             extra for these.
           </li>
           <li>
@@ -129,7 +129,7 @@ export default function BottleServiceLondonExplainedPage() {
         <p>
           At theatrically-oriented venues like{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, bottle
-          deliveries are a performance — sparklers, LED displays, music cues.
+          deliveries are a performance: sparklers, LED displays, music cues.
           At{" "}
           <Link href="/clubs/the-london-reign">The London Reign</Link>, the
           multi-floor format means your table experience varies depending on
@@ -141,8 +141,8 @@ export default function BottleServiceLondonExplainedPage() {
 
         <p>
           Club bottle prices are significantly higher than retail, and this is
-          standard practice globally. You are not just buying a bottle of vodka
-          — you are paying for the venue, the service, the atmosphere, the
+          standard practice globally. You are not just buying a bottle of vodka;
+           you are paying for the venue, the service, the atmosphere, the
           sound system, and the real estate you are occupying for four to five
           hours in one of the most expensive postcodes in the world. Here are
           typical prices:
@@ -153,27 +153,27 @@ export default function BottleServiceLondonExplainedPage() {
           <ul>
             <li>
               <strong>Grey Goose / Belvedere vodka:</strong>{" "}
-              &pound;350&ndash;&pound;500
+              &pound;350 to &pound;500
             </li>
             <li>
               <strong>Casamigos / Don Julio tequila:</strong>{" "}
-              &pound;400&ndash;&pound;550
+              &pound;400 to &pound;550
             </li>
             <li>
               <strong>Hennessy VS cognac:</strong>{" "}
-              &pound;350&ndash;&pound;450
+              &pound;350 to &pound;450
             </li>
             <li>
               <strong>Mo&euml;t &amp; Chandon champagne:</strong>{" "}
-              &pound;350&ndash;&pound;450
+              &pound;350 to &pound;450
             </li>
             <li>
               <strong>Dom P&eacute;rignon:</strong>{" "}
-              &pound;600&ndash;&pound;900
+              &pound;600 to &pound;900
             </li>
             <li>
               <strong>Armand de Brignac (Ace of Spades):</strong>{" "}
-              &pound;1,000&ndash;&pound;2,000+
+              &pound;1,000 to &pound;2,000+
             </li>
           </ul>
         </div>
@@ -181,9 +181,9 @@ export default function BottleServiceLondonExplainedPage() {
         <p>
           A &pound;40 retail bottle of Grey Goose becoming &pound;400 in a club
           is a tenfold markup, and people rightly notice this. But compare it
-          to buying individual cocktails at &pound;18&ndash;&pound;25 each. A
+          to buying individual cocktails at &pound;18 to &pound;25 each. A
           bottle of vodka makes roughly fifteen drinks. At &pound;400, that is
-          around &pound;27 per drink — only marginally more than bar prices,
+          around &pound;27 per drink, only marginally more than bar prices,
           with vastly better service and a guaranteed place to sit. The
           economics make more sense than they initially appear.
         </p>
@@ -197,13 +197,13 @@ export default function BottleServiceLondonExplainedPage() {
           a relationship with the venue. They can often secure better table
           positions, provide honest advice on which night suits your group, and
           act as your point of contact if anything changes. Booking directly
-          through a club&apos;s website is transactional — you get a table, but
+          through a club&apos;s website is transactional: you get a table, but
           no guidance, no advocacy, and no flexibility.
         </p>
 
         <p>
           <Link href="/contact">Contact us</Link>{" "}and we will handle the
-          entire process — venue recommendation, table selection, booking
+          entire process: venue recommendation, table selection, booking
           confirmation, and any special requests. There is no fee to you for
           this service.
         </p>
@@ -235,13 +235,13 @@ export default function BottleServiceLondonExplainedPage() {
           <li>
             <strong>Service throughout:</strong>{" "}Your host pours drinks, brings
             fresh ice, clears glasses, and checks in regularly without being
-            intrusive. Need anything — more mixers, a different bottle, water
-            — just ask.
+            intrusive. Need anything (more mixers, a different bottle, water)?
+            Just ask.
           </li>
           <li>
             <strong>The bill:</strong>{" "}At the end of the night, or when you are
             ready to leave, your host brings the bill. Service charge is
-            typically included (12.5&ndash;15%). Card payment is standard.
+            typically included (12.5 to 15%). Card payment is standard.
           </li>
         </ul>
 
@@ -249,10 +249,10 @@ export default function BottleServiceLondonExplainedPage() {
 
         <p>
           Service charge is usually included in the bill, so tipping is not
-          mandatory. That said, &pound;20&ndash;&pound;50 in cash for your host
+          mandatory. That said, &pound;20 to &pound;50 in cash for your host
           is appreciated, particularly if they have been attentive, handled
           special requests, or gone above the standard service. Exceptional
-          service — a host who has genuinely elevated your evening — warrants
+          service, a host who has genuinely elevated your evening, warrants
           more. Tipping is about recognition, not obligation, and it is noticed
           and remembered. If you plan to return, your host will remember you
           too.
@@ -268,13 +268,13 @@ export default function BottleServiceLondonExplainedPage() {
           </li>
           <li>
             <strong>Not understanding the minimum.</strong>{" "}The minimum is not
-            a budget — it is a floor. If your minimum is &pound;1,000, you
+            a budget; it is a floor. If your minimum is &pound;1,000, you
             cannot order &pound;600 in bottles and leave. Know the number
             before you book.
           </li>
           <li>
             <strong>Arriving too early.</strong>{" "}Most clubs are quiet before
-            11:30pm. Your table is reserved all night — there is no advantage
+            11:30pm. Your table is reserved all night: there is no advantage
             to arriving at 10pm and sitting in an empty room.
           </li>
           <li>
@@ -305,11 +305,11 @@ export default function BottleServiceLondonExplainedPage() {
         <p>
           Consider the alternative: general admission at a Mayfair club means
           standing for four hours, queuing at the bar for every drink, paying
-          &pound;18&ndash;&pound;25 per cocktail, and having no guaranteed
+          &pound;18 to &pound;25 per cocktail, and having no guaranteed
           space. Four people buying drinks at the bar for a full night can
-          easily spend &pound;400&ndash;&pound;600 with nothing to show for it
+          easily spend &pound;400 to &pound;600 with nothing to show for it
           except sore feet and a fragmented evening. A &pound;1,000 table split
-          four ways is &pound;250 per person — and you get a base, a host,
+          four ways is &pound;250 per person, and you get a base, a host,
           proper service, and a completely different night.
         </p>
 
@@ -317,7 +317,7 @@ export default function BottleServiceLondonExplainedPage() {
           The value proposition sharpens further for groups. Six people sharing
           a &pound;1,500 table is &pound;250 each for what amounts to an
           entirely different tier of experience. For corporate entertaining,
-          the equation is even clearer — you cannot host clients standing at a
+          the equation is even clearer: you cannot host clients standing at a
           bar. Read our{" "}
           <Link href="/guides/corporate-entertainment-london">
             corporate entertainment guide
@@ -344,8 +344,8 @@ export default function BottleServiceLondonExplainedPage() {
           <Link href="/clubs/dear-darling">Dear Darling</Link>, where the
           rooms are intimate and the atmosphere is social, having a table puts
           you at the centre of the evening rather than on its periphery. This
-          is particularly true for groups visiting London for a special occasion
-          — the table becomes the anchor point for the entire night.
+          is particularly true for groups visiting London for a special occasion:
+           the table becomes the anchor point for the entire night.
         </p>
 
         <h2>Booking Your First Table</h2>
@@ -361,7 +361,7 @@ export default function BottleServiceLondonExplainedPage() {
           <Link href="/guides/london-nightlife-international-visitors">
             international visitors&apos; guide
           </Link>{" "}
-          covers the additional context you need — currency, tipping customs,
+          covers the additional context you need: currency, tipping customs,
           dress code nuances, and arrival timing.
         </p>
 

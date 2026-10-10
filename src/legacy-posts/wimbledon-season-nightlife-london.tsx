@@ -37,7 +37,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           Every July, London shifts. The city fills with an international crowd
           that splits its time between SW19 strawberries and SW1 champagne. For
           two weeks, the capital&apos;s luxury nightlife scene runs hotter than
-          usual &mdash; and the clubs know it. If you&apos;re in London during
+          usual, and the clubs know it. If you&apos;re in London during
           Wimbledon and wondering where the after-hours action moves to, the
           answer is almost always{" "}
           <Link href="/luxury-nightclubs-london">Mayfair and its surrounding streets</Link>.
@@ -47,9 +47,9 @@ export default function WimbledonSeasonNightlifeLondonPage() {
 
         <p>
           The Championships draw around 500,000 visitors to London over the
-          fortnight. A significant portion of that crowd &mdash; sponsors,
+          fortnight. A significant portion of that crowd (sponsors,
           players&apos; entourages, corporate hospitality groups, international
-          tennis fans with spending power &mdash; doesn&apos;t go home after the
+          tennis fans with spending power) doesn&apos;t go home after the
           last match. They head into central London looking for a night that
           matches the occasion.
         </p>
@@ -60,7 +60,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           booked. Door policies tighten. And the atmosphere inside shifts toward
           something more international, more celebratory, more electric. If
           you&apos;re planning to go out during Wimbledon week, booking ahead
-          isn&apos;t optional &mdash; it&apos;s essential.
+          isn&apos;t optional; it&apos;s essential.
         </p>
 
         <h2>Where the Tennis Crowd Goes Out</h2>
@@ -69,8 +69,8 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           The clubs that benefit most during Wimbledon are the ones already
           positioned for high-spending international guests.{" "}
           <Link href="/clubs/reign-london">Reign</Link>{" "}sits at the top of that
-          list. Its showclub format &mdash; performances, production, bottle
-          service on a grand scale &mdash; appeals to the corporate groups and
+          list. Its showclub format (performances, production, bottle
+          service on a grand scale) appeals to the corporate groups and
           sponsor parties that define Wimbledon nightlife. During the fortnight,
           Reign regularly hosts private post-match events for brands with Centre
           Court hospitality packages.
@@ -120,13 +120,13 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference &mdash; Wimbledon Nightlife Essentials</h4>
+          <h4>Quick Reference: Wimbledon Nightlife Essentials</h4>
           <ul>
             <li><strong>Peak nights:</strong>{" "}Men&apos;s and Women&apos;s semi-final and final days</li>
-            <li><strong>Book ahead:</strong>{" "}Tables fill 1&ndash;2 weeks before the tournament starts</li>
-            <li><strong>Arrival time:</strong>{" "}10:30pm&ndash;11:30pm on match days (later than usual)</li>
-            <li><strong>Expect to spend:</strong>{" "}Minimum spends increase 20&ndash;30% at premium venues</li>
-            <li><strong>Transport:</strong>{" "}Uber surge pricing peaks at 11pm during Wimbledon &mdash; pre-book or use a car service</li>
+            <li><strong>Book ahead:</strong>{" "}Tables fill 1 to 2 weeks before the tournament starts</li>
+            <li><strong>Arrival time:</strong>{" "}10:30pm to 11:30pm on match days (later than usual)</li>
+            <li><strong>Expect to spend:</strong>{" "}Minimum spends increase 20 to 30% at premium venues</li>
+            <li><strong>Transport:</strong>{" "}Uber surge pricing peaks at 11pm during Wimbledon; pre-book or use a car service</li>
           </ul>
         </div>
 
@@ -135,7 +135,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         <p>
           Wimbledon season coincides with summer, which means lighter wardrobes
           and longer evenings. Most of the luxury clubs relax their approach
-          slightly during this period &mdash; smart summer attire replaces the
+          slightly during this period: smart summer attire replaces the
           usual winter formality. That said, standards remain. Trainers,
           sportswear, and anything that looks like you came straight from the
           stands without changing won&apos;t work. Think smart-casual at minimum:
@@ -146,7 +146,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         </p>
 
         <p>
-          The bigger challenge isn&apos;t what you wear &mdash; it&apos;s getting
+          The bigger challenge isn&apos;t what you wear; it&apos;s getting
           in at all. Without a reservation, your chances during Wimbledon
           fortnight drop significantly. Even venues that normally accommodate
           walk-ins will prioritise bookings. If you&apos;re planning a Wimbledon
@@ -158,8 +158,8 @@ export default function WimbledonSeasonNightlifeLondonPage() {
         <p>
           Centre Court matches finish by 9:30pm at the latest, but most
           spectators don&apos;t leave the grounds until 10pm. Factor in the
-          journey from Wimbledon to Mayfair &mdash; roughly 45 minutes by car,
-          longer by public transport &mdash; and most of the tennis crowd arrives
+          journey from Wimbledon to Mayfair (roughly 45 minutes by car,
+          longer by public transport) and most of the tennis crowd arrives
           at clubs between 11pm and midnight. This is later than a typical
           Saturday start time, which means the energy builds slower but peaks
           harder.
@@ -169,7 +169,7 @@ export default function WimbledonSeasonNightlifeLondonPage() {
           <Link href="/clubs/maddox">Maddox</Link>{" "}handles this rhythm well.
           Its cocktail bar absorbs the early arrivals while the club floor
           fills gradually. By 12:30am, the room has the kind of atmosphere that
-          only happens when an entire crowd has shared the same day &mdash; the
+          only happens when an entire crowd has shared the same day: the
           same matches, the same weather, the same collective anticipation.
         </p>
 

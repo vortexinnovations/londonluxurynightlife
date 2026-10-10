@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Cirque Le Soir: Inside London's Most Theatrical Nightclub",
   description:
-    "What it's really like inside Cirque Le Soir — the circus-themed Soho nightclub where fire breathers, contortionists, and celebrities share the dance floor.",
+    "What it's really like inside Cirque Le Soir, the circus-themed Soho nightclub where fire breathers, contortionists, and celebrities share the dance floor.",
   keywords:
     "Cirque Le Soir London, Cirque Le Soir review, Cirque Le Soir experience, circus nightclub London",
   openGraph: {
     title: "Cirque Le Soir: Inside London's Most Theatrical Nightclub",
     description:
-      "What it's really like inside Cirque Le Soir — fire breathers, contortionists, and celebrities on the dance floor.",
+      "What it's really like inside Cirque Le Soir: fire breathers, contortionists, and celebrities on the dance floor.",
     url: "https://londonluxurynightlife.com/blog/cirque-le-soir-circus-nightclub-london",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function CirqueLeSoirCircusNightclubPage() {
     <>
       <ArticleSchema
         title="Cirque Le Soir: Inside London's Most Theatrical Nightclub"
-        description="What it's really like inside Cirque Le Soir — the circus-themed nightclub where performers and celebrities collide."
+        description="What it's really like inside Cirque Le Soir, the circus-themed nightclub where performers and celebrities collide."
         slug="/blog/cirque-le-soir-circus-nightclub-london"
       />
       <ArticleLayout
         title="Cirque Le Soir: Inside London's Most Theatrical Nightclub"
-        subtitle="Fire breathers, contortionists, and a crowd that includes half of Instagram — what to expect inside"
+        subtitle="Fire breathers, contortionists, and a crowd that includes half of Instagram: what to expect inside"
         heroImage={BLOG_IMAGES["cirque-le-soir-circus-nightclub-london"]}
         heroAlt="Cirque Le Soir circus-themed nightclub with theatrical performers"
       >
@@ -55,7 +55,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
 
         <p>
           What separates Cirque Le Soir from every other nightclub is that
-          the entertainment is not scheduled — it is woven into the fabric
+          the entertainment is not scheduled; it is woven into the fabric
           of the evening. There is no announcement, no dimming of lights, no
           moment where the DJ stops and everyone watches a stage. Performers
           simply appear throughout the night, interacting with guests,
@@ -95,7 +95,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
         <p>
           Cirque has historically attracted an extraordinary celebrity
           clientele. The theatrical environment creates a natural explanation
-          for being there — celebrities can attend without it appearing as
+          for being there: celebrities can attend without it appearing as
           though they are simply at a nightclub. The performers provide
           cover, distraction, and entertainment that makes the evening feel
           like an event rather than a routine night out. This is why Cirque
@@ -110,13 +110,13 @@ export default function CirqueLeSoirCircusNightclubPage() {
         <h2>The Practical Reality</h2>
 
         <div className="info-box">
-          <h4>Cirque Le Soir — Key Details</h4>
+          <h4>Cirque Le Soir: Key Details</h4>
           <ul>
             <li><strong>Location:</strong>{" "}Ganton Street, Soho</li>
             <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B</li>
             <li><strong>Open:</strong>{" "}Monday, Wednesday, Friday and Saturday</li>
             <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
-            <li><strong>Dress code:</strong>{" "}Smart glamorous — dress to impress</li>
+            <li><strong>Dress code:</strong>{" "}Smart glamorous, dress to impress</li>
           </ul>
         </div>
 
@@ -124,7 +124,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           The door at Cirque is selective. Mixed groups fare better than
           single-gender groups. Table bookings guarantee entry and are the
           recommended approach on Friday and Saturday. The dress code is
-          smart glamorous — think event-worthy rather than smart casual.
+          smart glamorous: think event-worthy rather than smart casual.
           For specifics, our{" "}
           <Link href="/london-club-dress-code-guide">
             dress code guide
@@ -132,7 +132,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           covers what works and what does not.
         </p>
 
-        <h2>Who Should Go — and Who Should Not</h2>
+        <h2>Who Should Go, and Who Should Not</h2>
 
         <p>
           Cirque Le Soir is perfect for birthdays, celebrations, visitors
@@ -152,7 +152,7 @@ export default function CirqueLeSoirCircusNightclubPage() {
           <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}are stronger choices.
           It is also not ideal for very large groups who might struggle to
-          secure adjacent tables — for group bookings, see our{" "}
+          secure adjacent tables. For group bookings, see our{" "}
           <Link href="/blog/best-clubs-london-large-groups">
             group night out guide
           </Link>

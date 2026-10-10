@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Best Friday Night Clubs in London: Where to Go This Week",
   description:
-    "The definitive guide to Friday night clubs in London. From Tape London and Cirque Le Soir to Reign and Maddox — best venues by category, timing strategy, and booking advice.",
+    "The definitive guide to Friday night clubs in London. From Tape London and Cirque Le Soir to Reign and Maddox: best venues by category, timing strategy, and booking advice.",
   keywords:
     "best Friday night clubs London, Friday night out London, London clubs Friday night, best clubs Friday London, Friday nightlife London",
   openGraph: {
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "What time should I arrive at a London club on Friday?",
     answer:
-      "For guestlist entry on Friday, arrive between 10:30pm and 11:30pm — after this window, doors tighten significantly. For table bookings, most venues specify an arrival window of 10:30pm to 12:30am. The atmosphere typically peaks between midnight and 2am. Arriving too early means sitting in a half-empty room; arriving too late means facing a much harder door.",
+      "For guestlist entry on Friday, arrive between 10:30pm and 11:30pm. After this window, doors tighten significantly. For table bookings, most venues specify an arrival window of 10:30pm to 12:30am. The atmosphere typically peaks between midnight and 2am. Arriving too early means sitting in a half-empty room; arriving too late means facing a much harder door.",
   },
   {
     question: "Do I need to book a table for Friday night in London?",
@@ -69,7 +69,7 @@ export default function BestFridayNightClubsLondonPage() {
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Friday Night Clubs in London"
-        subtitle="The main event night — which venues deliver, how to time it, and why booking matters"
+        subtitle="The main event night: which venues deliver, how to time it, and why booking matters"
         heroImage={BLOG_IMAGES["best-friday-night-clubs-london"]}
         heroAlt="Friday night atmosphere inside a Mayfair club"
       >
@@ -78,7 +78,7 @@ export default function BestFridayNightClubsLondonPage() {
           matches. It is the collective exhale of a city that works
           relentlessly, the night when the energy in every venue runs hotter
           because everyone in the room has earned their place there through
-          five days of effort. The best London clubs understand this — Friday
+          five days of effort. The best London clubs understand this: Friday
           programming is tighter, the DJ bookings are stronger, and the
           atmosphere carries a charge that Saturday, for all its popularity,
           rarely replicates.
@@ -86,7 +86,7 @@ export default function BestFridayNightClubsLondonPage() {
 
         <p>
           This is the guide to spending Friday night at the venues that
-          deserve it — organised by what you actually want from your evening.
+          deserve it, organised by what you actually want from your evening.
         </p>
 
         <h2>Why Friday Is London&apos;s Main Event</h2>
@@ -98,7 +98,7 @@ export default function BestFridayNightClubsLondonPage() {
           people, and city regulars releasing a week of pressure. The energy
           is anticipatory rather than obligatory. People arrive wanting to
           enjoy themselves, not because they feel they should be out. DJs
-          respond to this — sets are more ambitious, the room is more
+          respond to this: sets are more ambitious, the room is more
           responsive, and the overall atmosphere crackles in a way that
           Saturday&apos;s more tourist-heavy crowd seldom achieves.
         </p>
@@ -113,7 +113,7 @@ export default function BestFridayNightClubsLondonPage() {
           setting. The Hanover Square venue draws its music industry clientele
           most heavily on Friday, when the week&apos;s releases and studio
           sessions spill over into the evening&apos;s energy. Tables from
-          &pound;1,500, and on Friday they are in high demand — booking early
+          &pound;1,500, and on Friday they are in high demand: booking early
           is essential.
         </p>
 
@@ -122,7 +122,7 @@ export default function BestFridayNightClubsLondonPage() {
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}in Soho
           delivers an experience that no other London venue attempts. Friday
-          night brings the full circus production — fire breathers,
+          night brings the full circus production: fire breathers,
           contortionists, acrobats weaving between tables while the room
           pounds with hip-hop. If you are visiting London and want a single
           night that you will talk about for years, this is it. The venue is
@@ -139,7 +139,7 @@ export default function BestFridayNightClubsLondonPage() {
           evening to Friday nightlife. The multi-floor format offers different
           experiences depending on where you position yourself, and the
           mixed commercial and hip-hop music policy appeals to groups with
-          varied tastes. Friday at Reign is about spectacle — if you want
+          varied tastes. Friday at Reign is about spectacle: if you want
           your evening to feel like an event rather than just a night out,
           this venue delivers.
         </p>
@@ -152,7 +152,7 @@ export default function BestFridayNightClubsLondonPage() {
           hybrid in Mayfair transitions from Italian dining to deep house
           after midnight, and Friday is when the music programming is at its
           sharpest. The crowd here is slightly older and more musically
-          invested than at the hip-hop venues — people come for the sound
+          invested than at the hip-hop venues: people come for the sound
           rather than the scene. For a different take on house and electronic
           music, <Link href="/clubs/beat-london">BEAT London</Link>{" "}on
           Margaret Street in Fitzrovia offers one of London&apos;s best sound
@@ -178,24 +178,24 @@ export default function BestFridayNightClubsLondonPage() {
           <h4>Friday Night Timeline</h4>
           <ul>
             <li>
-              <strong>9:00pm &ndash; 10:30pm:</strong>{" "}Pre-drinks at a
+              <strong>9:00pm to 10:30pm:</strong>{" "}Pre-drinks at a
               cocktail bar. Set the tone, get the group together.
             </li>
             <li>
-              <strong>10:30pm &ndash; 11:30pm:</strong>{" "}Arrive at the club.
+              <strong>10:30pm to 11:30pm:</strong>{" "}Arrive at the club.
               This is the guestlist window and the ideal table arrival time.
             </li>
             <li>
-              <strong>11:30pm &ndash; 12:30am:</strong>{" "}The room fills. Energy
+              <strong>11:30pm to 12:30am:</strong>{" "}The room fills. Energy
               builds. Order your first bottles if on a table.
             </li>
             <li>
-              <strong>12:30am &ndash; 2:30am:</strong>{" "}Peak hours. The DJ is
+              <strong>12:30am to 2:30am:</strong>{" "}Peak hours. The DJ is
               in full flow, the room is at capacity, and the atmosphere is at
               its highest.
             </li>
             <li>
-              <strong>2:30am &ndash; 3:00am+:</strong>{" "}Last orders and wind
+              <strong>2:30am to 3:00am+:</strong>{" "}Last orders and wind
               down. Some venues push later on Friday.
             </li>
           </ul>
@@ -205,14 +205,14 @@ export default function BestFridayNightClubsLondonPage() {
 
         <p className="pull-quote">
           Friday is the night when every venue in London is at its most
-          selective. A table booking is not a luxury — it is a strategy.
+          selective. A table booking is not a luxury; it is a strategy.
         </p>
 
         <p>
           Walk-up guestlist entry on Friday is possible but competitive. Doors
           are at their most selective, capacity fills faster than any other
           night, and all-male groups face particular scrutiny. A table
-          booking eliminates all of this uncertainty — guaranteed entry,
+          booking eliminates all of this uncertainty: guaranteed entry,
           dedicated service, and a base for the evening. For groups visiting
           London specifically to experience Friday nightlife, the additional
           cost of a table is the difference between a guaranteed exceptional

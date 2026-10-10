@@ -37,7 +37,7 @@ export default function NewYearsEveLondonGuidePage() {
       />
       <ArticleLayout
         title="New Year's Eve in London: The Ultimate Luxury NYE Guide"
-        subtitle="How to ring in the new year in style — and avoid the overpriced disappointments"
+        subtitle="How to ring in the new year in style, and avoid the overpriced disappointments"
         heroImage={BLOG_IMAGES["new-years-eve-london-luxury-guide"]}
         heroAlt="New Year's Eve celebration at a Mayfair luxury club"
         ctaMessage={WA_GENERAL_MESSAGE}
@@ -45,7 +45,7 @@ export default function NewYearsEveLondonGuidePage() {
       >
         <p>
           New Year&apos;s Eve in London is one of the most anticipated nights of
-          the year — and one of the easiest to get wrong. The combination of
+          the year, and one of the easiest to get wrong. The combination of
           inflated pricing, sold-out venues, sky-high expectations, and a city
           operating at full capacity creates a minefield for anyone trying to
           plan a genuinely memorable New Year&apos;s Eve in London&apos;s luxury
@@ -68,14 +68,14 @@ export default function NewYearsEveLondonGuidePage() {
           compressed into a single evening. Every club in London knows this, and
           pricing reflects it. Venues that normally charge reasonable minimum
           spends will double or triple their rates. Guest lists that are
-          typically free suddenly carry ticket prices. And the clientele shifts —
+          typically free suddenly carry ticket prices. And the clientele shifts:
           regulars often stay home or travel, replaced by once-a-year crowds who
           don&apos;t know the venues and don&apos;t understand the etiquette.
         </p>
 
         <p>
           None of this means NYE cannot be exceptional. It absolutely can. But
-          it requires more planning, more realistic expectations, and — frankly —
+          it requires more planning, more realistic expectations, and, frankly,
           more budget than a standard Saturday night. The people who have the
           best NYE experiences are those who treat it as a different kind of
           evening entirely, not simply a more expensive version of a normal
@@ -88,7 +88,7 @@ export default function NewYearsEveLondonGuidePage() {
           Not every London club puts equal effort into New Year&apos;s Eve. Some
           venues treat it as an opportunity to deliver something genuinely
           special, while others simply raise prices and hope the date does the
-          work. From years of experience, these are the venues that consistently
+          work. These are the venues that consistently
           deliver on the biggest night of the year.
         </p>
 
@@ -99,7 +99,7 @@ export default function NewYearsEveLondonGuidePage() {
           Mayfair&apos;s most coveted NYE events. The crowd is elite, the
           production is elevated, and the intimacy of the space means the
           midnight moment actually feels significant rather than lost in a sea of
-          strangers. Tables sell out fast — often by mid-October.
+          strangers. Tables sell out fast, often by mid-October.
         </p>
 
         <p>
@@ -118,7 +118,7 @@ export default function NewYearsEveLondonGuidePage() {
           gives the evening a sense of occasion. It also handles larger groups
           well, which is valuable on a night when party sizes tend to swell.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}is worth considering if you
-          want the dinner-to-club transition built into one venue — their NYE
+          want the dinner-to-club transition built into one venue: their NYE
           packages often include a seated dinner before the club opens up.
         </p>
 
@@ -139,8 +139,8 @@ export default function NewYearsEveLondonGuidePage() {
           Saturday in Mayfair, you might secure a decent table for £1,000 to
           £1,500. On New Year&apos;s Eve, expect to multiply that by two to
           three times. A table that normally runs £1,500 will likely start at
-          £3,000 to £5,000 on NYE. Premium positions — the tables closest to the
-          DJ or in the main room — can run significantly higher.
+          £3,000 to £5,000 on NYE. Premium positions, the tables closest to the
+          DJ or in the main room, can run significantly higher.
         </p>
 
         <p>
@@ -172,7 +172,7 @@ export default function NewYearsEveLondonGuidePage() {
 
         <p>
           Book dinner for 8:00pm. Choose a restaurant in Mayfair or Soho that is
-          walking distance from your club — you do not want to rely on transport
+          walking distance from your club: you do not want to rely on transport
           at 11pm on NYE. Finish by 10:30, perhaps stop for a cocktail at a
           nearby bar, then arrive at the club between 11:00 and 11:30pm. This
           timing puts you inside, settled at your table, with drinks in hand
@@ -205,7 +205,7 @@ export default function NewYearsEveLondonGuidePage() {
           better clubs create their own countdown, with champagne pops, confetti,
           and a genuine atmosphere that makes midnight inside feel more special
           than standing on a cold embankment. If fireworks matter to your group,
-          consider a rooftop bar earlier in the evening — several hotel terraces
+          consider a rooftop bar earlier in the evening: several hotel terraces
           in the West End offer partial views without the crowds.
         </p>
 
@@ -224,7 +224,7 @@ export default function NewYearsEveLondonGuidePage() {
           means a half-empty room. Arriving after midnight means queues, full
           capacity, and the deflating experience of missing the countdown. Club
           nights on NYE typically run until 4:00 or 5:00am, so there is no need
-          to arrive early — just do not arrive late.
+          to arrive early; just do not arrive late.
         </p>
 
         <h2>What to Wear for NYE</h2>
@@ -233,7 +233,7 @@ export default function NewYearsEveLondonGuidePage() {
           New Year&apos;s Eve dress code steps up from a standard club night.
           This is the one evening where overdressing is genuinely impossible. For
           women, floor-length gowns, sequins, and statement pieces are entirely
-          appropriate. For men, a well-cut suit is the minimum — consider a
+          appropriate. For men, a well-cut suit is the minimum; consider a
           dinner jacket or tuxedo at the more upscale venues. Our{" "}
           <Link href="/london-club-dress-code-guide">
             complete dress code guide
@@ -254,7 +254,7 @@ export default function NewYearsEveLondonGuidePage() {
         <p>
           The solution: pre-book a private car or chauffeur service. Arrange
           pick-up at a specific time and location. If that is beyond budget, book
-          your Uber or taxi well in advance of when you actually need it — the
+          your Uber or taxi well in advance of when you actually need it: the
           surge peaks between midnight and 2:00am, then again at closing time.
           Walking distance between dinner and club eliminates at least one
           transport headache.
@@ -280,7 +280,7 @@ export default function NewYearsEveLondonGuidePage() {
             <Link href="/blog/how-much-does-night-out-mayfair-cost">
               Mayfair cost breakdown
             </Link>{" "}
-            gives you a baseline — then multiply accordingly.
+            gives you a baseline, then multiply accordingly.
           </li>
           <li>
             <strong>Choosing the wrong venue for your group.</strong>{" "}A couple
@@ -300,7 +300,7 @@ export default function NewYearsEveLondonGuidePage() {
           club rather than a public nightclub. Members&apos; clubs control their
           crowd more tightly, the pricing is often more reasonable (though still
           elevated), and the atmosphere tends to be more refined. The trade-off
-          is energy — a public club with great production will deliver more raw
+          is energy: a public club with great production will deliver more raw
           excitement than most members&apos; club lounges.
         </p>
 

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Mayfair vs Shoreditch Nightlife Compared",
   description:
-    "A candid comparison of London's two biggest nightlife districts. Mayfair's bottle service luxury versus Shoreditch's underground creativity — which one suits your style?",
+    "A candid comparison of London's two biggest nightlife districts. Mayfair's bottle service luxury versus Shoreditch's underground creativity: which one suits your style?",
   keywords:
     "Mayfair vs Shoreditch, London nightlife areas, best area for nightlife London, Mayfair clubs vs Shoreditch bars",
   openGraph: {
     title: "Mayfair vs Shoreditch: Two Sides of London's Nightlife",
     description:
-      "A candid comparison of London's two biggest nightlife districts — and which one suits your style.",
+      "A candid comparison of London's two biggest nightlife districts, and which one suits your style.",
     url: "https://londonluxurynightlife.com/blog/mayfair-vs-shoreditch-nightlife-compared",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function MayfairVsShoreditchPage() {
     <>
       <ArticleSchema
         title="Mayfair vs Shoreditch: Two Sides of London's Nightlife"
-        description="A candid comparison of London's two biggest nightlife districts — luxury versus underground, and which one suits your style."
+        description="A candid comparison of London's two biggest nightlife districts: luxury versus underground, and which one suits your style."
         slug="/blog/mayfair-vs-shoreditch-nightlife-compared"
       />
       <ArticleLayout
         title="Mayfair vs Shoreditch: Two Sides of London's Nightlife"
-        subtitle="A candid comparison of London's two biggest nightlife districts — and which one suits your style"
+        subtitle="A candid comparison of London's two biggest nightlife districts, and which one suits your style"
         heroImage={BLOG_IMAGES["mayfair-vs-shoreditch-nightlife-compared"]}
         heroAlt="Mayfair luxury club interior contrasted with Shoreditch nightlife"
       >
@@ -42,7 +42,7 @@ export default function MayfairVsShoreditchPage() {
           London does not have one nightlife scene. It has several, and the two
           most distinct are separated by roughly four miles and an almost
           complete philosophical divide. Mayfair vs Shoreditch is not just a
-          geographic comparison — it is a question about what you actually want
+          geographic comparison; it is a question about what you actually want
           from a night out. One offers polished luxury, table service, and the
           kind of evening where your watch matters. The other offers raw
           creativity, warehouse acoustics, and the kind of night where nobody
@@ -53,8 +53,8 @@ export default function MayfairVsShoreditchPage() {
         <h2>The Fundamental Difference</h2>
 
         <p>
-          Mayfair nightlife is built on exclusivity. The entire model —
-          membership requirements, minimum spends, dress codes, guest lists —
+          Mayfair nightlife is built on exclusivity. The entire model
+          (membership requirements, minimum spends, dress codes, guest lists)
           exists to curate a specific crowd and a specific atmosphere. You are
           paying for an experience that feels private, polished, and elevated.
           The venues are intimate. The lighting is considered. The music is
@@ -69,7 +69,7 @@ export default function MayfairVsShoreditchPage() {
           over the aesthetics of the room. Venues are often converted
           warehouses, railway arches, or basement spaces where the raw
           architecture is part of the appeal. Nobody is checking your outfit at
-          the door — they are checking whether you are genuinely there for the
+          the door; they are checking whether you are genuinely there for the
           music.
         </p>
 
@@ -89,10 +89,10 @@ export default function MayfairVsShoreditchPage() {
 
         <p>
           The typical Mayfair evening involves table service with bottle
-          minimums starting at &pound;1,000&ndash;&pound;1,500 on weekends.
+          minimums starting at &pound;1,000 to &pound;1,500 on weekends.
           Your table comes with a dedicated server, mixers, and a prime
           position in the room. The music leans heavily toward hip-hop, R&amp;B,
-          and commercial anthems — tracks that the international clientele
+          and commercial anthems, tracks that the international clientele
           recognises and responds to. Dress codes are strictly smart: tailored
           trousers, collared shirts, and proper shoes for men; elegant evening
           wear for women. For a deeper breakdown of what you will spend, see
@@ -107,10 +107,10 @@ export default function MayfairVsShoreditchPage() {
           <h4>Mayfair at a Glance</h4>
           <ul>
             <li>Entry: Guest list or table booking (minimum &pound;1,000+)</li>
-            <li>Dress code: Strictly smart — no exceptions</li>
+            <li>Dress code: Strictly smart, no exceptions</li>
             <li>Music: Hip-hop, R&amp;B, commercial</li>
             <li>Crowd: International wealthy, celebrities, finance professionals</li>
-            <li>Hours: Typically 10pm&ndash;3am</li>
+            <li>Hours: Typically 10pm to 3am</li>
           </ul>
         </div>
 
@@ -118,10 +118,10 @@ export default function MayfairVsShoreditchPage() {
 
         <p>
           Shoreditch operates on entirely different economics. Entry to most
-          venues runs &pound;10&ndash;&pound;20, sometimes free before a
+          venues runs &pound;10 to &pound;20, sometimes free before a
           certain hour. There are no table minimums. Drinks are London prices
-          but not Mayfair prices — expect &pound;8&ndash;&pound;14 for a
-          cocktail rather than &pound;18&ndash;&pound;25. The total cost of a
+          but not Mayfair prices: expect &pound;8 to &pound;14 for a
+          cocktail rather than &pound;18 to &pound;25. The total cost of a
           full Shoreditch night out, including transport and food, can
           comfortably sit under &pound;100 per person.
         </p>
@@ -130,7 +130,7 @@ export default function MayfairVsShoreditchPage() {
           The venue landscape is different in character. Think converted
           warehouses with exposed brick, basement clubs with low ceilings and
           heavy sound systems, rooftop bars that look out over East London&apos;s
-          cranes and construction. The dress code is functionally nonexistent —
+          cranes and construction. The dress code is functionally nonexistent:
           trainers, vintage, streetwear, whatever you feel like. The only real
           door policy is attitude: aggressive behaviour gets you turned away,
           not your choice of shoes.
@@ -139,11 +139,11 @@ export default function MayfairVsShoreditchPage() {
         <div className="info-box">
           <h4>Shoreditch at a Glance</h4>
           <ul>
-            <li>Entry: &pound;10&ndash;&pound;20, sometimes free early</li>
+            <li>Entry: &pound;10 to &pound;20, sometimes free early</li>
             <li>Dress code: Anything goes</li>
             <li>Music: Techno, house, garage, experimental electronic</li>
             <li>Crowd: Artists, DJs, creatives, tech workers</li>
-            <li>Hours: Varies — some events run to 6am</li>
+            <li>Hours: Varies, some events run to 6am</li>
           </ul>
         </div>
 
@@ -163,7 +163,7 @@ export default function MayfairVsShoreditchPage() {
 
         <p>
           Shoreditch is electronic music territory. Techno, deep house,
-          minimal, garage, drum and bass — the area hosts some of London&apos;s
+          minimal, garage, drum and bass: the area hosts some of London&apos;s
           most respected underground DJs and regularly draws international acts
           on the electronic circuit. The sound systems in venues like XOYO and
           the various warehouse spaces are built for this music in a way that
@@ -209,11 +209,11 @@ export default function MayfairVsShoreditchPage() {
 
         <p>
           The difference is not subtle. A typical Saturday night for two people
-          in Mayfair — dinner, a table at a club, transport — runs
-          &pound;1,500&ndash;&pound;3,000 depending on the venue and how freely
-          you order. The same Saturday for two people in Shoreditch — street
-          food, entry to a club, drinks at the bar, an Uber home — might cost
-          &pound;150&ndash;&pound;250. These are genuinely different categories
+          in Mayfair (dinner, a table at a club, transport) runs
+          &pound;1,500 to &pound;3,000 depending on the venue and how freely
+          you order. The same Saturday for two people in Shoreditch (street
+          food, entry to a club, drinks at the bar, an Uber home) might cost
+          &pound;150 to &pound;250. These are genuinely different categories
           of spending, and neither is inherently better. They are buying
           fundamentally different experiences.
         </p>
@@ -228,7 +228,7 @@ export default function MayfairVsShoreditchPage() {
         <p>
           Choose Mayfair when you want a polished, high-end evening with
           guaranteed table service and a curated atmosphere. It is the right
-          call for celebrations where presentation matters — birthdays,
+          call for celebrations where presentation matters: birthdays,
           promotions, client entertainment, proposals. It is also the better
           choice if you are visiting London for a short trip and want the
           iconic luxury nightlife experience the city is known for. If your
@@ -247,7 +247,7 @@ export default function MayfairVsShoreditchPage() {
           When you want to dance rather than be seen. When your budget is
           sensible rather than extravagant. When you want a night that feels
           spontaneous rather than choreographed. Shoreditch rewards the
-          adventurous — there is always another bar around the corner, another
+          adventurous: there is always another bar around the corner, another
           basement with a DJ you have never heard of playing something that
           makes you stay for three more hours.
         </p>
@@ -256,7 +256,7 @@ export default function MayfairVsShoreditchPage() {
 
         <p>
           Technically, yes. Practically, not really. The geographic distance is
-          manageable — a twenty-minute taxi — but the atmospheric distance is
+          manageable (a twenty-minute taxi) but the atmospheric distance is
           vast. Moving from a Shoreditch warehouse at midnight to a Mayfair
           table-service club (or vice versa) involves a complete shift in dress,
           energy, and expectations. You would need to change clothes, adjust
@@ -276,7 +276,7 @@ export default function MayfairVsShoreditchPage() {
           polish and East London energy.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}in Soho
           provides an immersive, theatrical experience that feels neither
-          traditionally Mayfair nor traditionally Shoreditch — it occupies its
+          traditionally Mayfair nor traditionally Shoreditch; it occupies its
           own category entirely.
         </p>
 
@@ -296,7 +296,7 @@ export default function MayfairVsShoreditchPage() {
           freedom, creativity, and the thrill of a night that could go
           anywhere. The best London nightlife strategy is to know both worlds
           and choose the right one for the right occasion. And if you need help
-          navigating the Mayfair side of that equation —{" "}
+          navigating the Mayfair side of that equation,{" "}
           <Link href="/contact">get in touch</Link>. That is what we do.
         </p>
 

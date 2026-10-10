@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title:
       "London Fashion Week Nightlife: Where the Industry Goes After Dark",
     description:
-      "How LFW transforms London's club scene — the afterparties, the venues, the crowd, and how to be part of it.",
+      "How LFW transforms London's club scene: the afterparties, the venues, the crowd, and how to be part of it.",
     url: "https://londonluxurynightlife.com/blog/london-fashion-week-nightlife-guide",
     type: "article",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       "London Fashion Week Nightlife: Where the Industry Goes After Dark",
     description:
-      "How LFW transforms London's club scene — the afterparties, the venues, the crowd, and how to be part of it.",
+      "How LFW transforms London's club scene: the afterparties, the venues, the crowd, and how to be part of it.",
   },
   alternates: {
     canonical:
@@ -41,18 +41,18 @@ const faqs = [
   {
     question: "How do you get into London Fashion Week parties?",
     answer:
-      "Official LFW afterparties are typically invite-only or accessible through industry connections. However, the clubs hosting these events also operate their normal table service — booking a table during Fashion Week guarantees you are in the room where the afterparties happen. A concierge with industry relationships can advise on which venues are hosting events on specific nights.",
+      "Official LFW afterparties are typically invite-only or accessible through industry connections. However, the clubs hosting these events also operate their normal table service: booking a table during Fashion Week guarantees you are in the room where the afterparties happen. A concierge with industry relationships can advise on which venues are hosting events on specific nights.",
   },
   {
     question: "What should I wear to go out during London Fashion Week?",
     answer:
-      "During Fashion Week, the dress code shifts from standard Mayfair smart-elegant to fashion-forward. The crowd is more directional — designer pieces, statement looks, and creative styling are the norm. You do not need to wear runway pieces, but showing fashion awareness and personal style matters more during LFW than at any other time of year.",
+      "During Fashion Week, the dress code shifts from standard Mayfair smart-elegant to fashion-forward. The crowd is more directional: designer pieces, statement looks, and creative styling are the norm. You do not need to wear runway pieces, but showing fashion awareness and personal style matters more during LFW than at any other time of year.",
   },
   {
     question:
       "When is London Fashion Week and how does it affect nightlife?",
     answer:
-      "London Fashion Week runs twice annually — typically mid-February and mid-September, each lasting five to six days. During this period, club venues become significantly busier, afterparty bookings increase, and the crowd shifts to include fashion industry professionals, models, editors, and international visitors. Table booking well in advance is essential during LFW.",
+      "London Fashion Week runs twice annually, typically mid-February and mid-September, each lasting five to six days. During this period, club venues become significantly busier, afterparty bookings increase, and the crowd shifts to include fashion industry professionals, models, editors, and international visitors. Table booking well in advance is essential during LFW.",
   },
 ];
 
@@ -67,13 +67,13 @@ export default function LondonFashionWeekNightlifeGuidePage() {
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Fashion Week Nightlife: Where the Industry Goes After Dark"
-        subtitle="How LFW transforms the club scene — and how to be in the right room"
+        subtitle="How LFW transforms the club scene, and how to be in the right room"
         heroImage={BLOG_IMAGES["london-fashion-week-nightlife-guide"]}
         heroAlt="London Fashion Week afterparty at a Mayfair club"
       >
         <p>
           London Fashion Week does not end when the lights go down on the final
-          runway show. It migrates — from the exhibition spaces and showrooms
+          runway show. It migrates, from the exhibition spaces and showrooms
           of the daytime schedule to the nightclubs, private members&apos;
           clubs, and afterparty venues that become the fashion industry&apos;s
           unofficial headquarters after dark. For five or six days, twice a
@@ -85,7 +85,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
 
         <p>
           This guide covers what actually happens to London nightlife during
-          Fashion Week — which venues host the events that matter, how to
+          Fashion Week: which venues host the events that matter, how to
           position yourself for the best experience, and what the fashion crowd
           expects from a night out.
         </p>
@@ -99,7 +99,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           designers, models, stylists, photographers, buyers, and the
           international press descend on the same handful of venues. The
           consequence is a week where the atmosphere in the right room is
-          genuinely electric — creative energy amplified by the collective
+          genuinely electric: creative energy amplified by the collective
           momentum of an industry in celebration mode.
         </p>
 
@@ -108,7 +108,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           nights. A club that normally operates its standard Saturday programming
           may instead host a private event for a fashion house, with guest
           lists curated by the brand. These events coexist with the
-          venue&apos;s regular operations — the afterparty may occupy a section
+          venue&apos;s regular operations: the afterparty may occupy a section
           or floor, while table bookings continue in the main room. Being in
           the venue during an afterparty night, even without an invitation to
           the private event, means sharing the room with the afterparty crowd
@@ -127,7 +127,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           natural home for brand afterparties and industry gatherings. During
           LFW, Tape&apos;s already-exclusive door becomes significantly
           tighter, and the crowd inside reads like a fashion week front row.
-          Booking a table well in advance is essential — demand during these
+          Booking a table well in advance is essential: demand during these
           weeks exceeds capacity by a considerable margin.
         </p>
 
@@ -140,8 +140,8 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           and the editorial crowd who seek experience over convention. During
           Fashion Week, The Box becomes a magnet for the industry&apos;s
           creative directors and the international fashion press who want
-          something that cannot be found anywhere else. The dress code —
-          smart and fashionable with creativity encouraged — aligns naturally
+          something that cannot be found anywhere else. The dress code,
+          smart and fashionable with creativity encouraged, aligns naturally
           with a fashion crowd.
         </p>
 
@@ -170,8 +170,8 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         </p>
 
         <p>
-          Unofficial afterparties — where the fashion crowd naturally
-          congregates after shows and events — happen at the same venues but
+          Unofficial afterparties, where the fashion crowd naturally
+          congregates after shows and events, happen at the same venues but
           through the normal booking channels. Book a table at Tape London
           or The Box during Fashion Week and you are in the room where the
           industry ends its evening, regardless of whether a specific brand
@@ -195,7 +195,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
             <li>
               <strong>Use a connected concierge:</strong>{" "}A concierge with
               fashion industry relationships can advise on which venue is
-              hosting which event on which night — information that is not
+              hosting which event on which night, information that is not
               publicly available.
             </li>
             <li>
@@ -211,7 +211,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         <p>
           The{" "}
           <Link href="/london-club-dress-code-guide">standard Mayfair dress code</Link>{" "}
-          — smart, elegant, polished — still applies during Fashion Week, but
+           (smart, elegant, polished) still applies during Fashion Week, but
           the interpretation shifts. The fashion crowd dresses directionally.
           Designer pieces, architectural silhouettes, statement accessories,
           and editorial-quality styling replace the standard blazer-and-shirt
@@ -220,13 +220,13 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         </p>
 
         <p className="pull-quote">
-          During Fashion Week, the dress code is not about looking expensive —
+          During Fashion Week, the dress code is not about looking expensive;
           it is about looking like you understand fashion. There is a
           meaningful difference.
         </p>
 
         <p>
-          For women, this is relatively intuitive — a standout dress, quality
+          For women, this is relatively intuitive: a standout dress, quality
           accessories, and confidence carry the evening. For men, the shift is
           more nuanced. The standard City-professional look reads as
           conservative during LFW. A well-cut suit with unexpected details, a
@@ -265,11 +265,11 @@ export default function LondonFashionWeekNightlifeGuidePage() {
 
         <p>
           The fashion industry socialises differently to the standard Mayfair
-          club clientele. The pace is faster — people arrive later, move
+          club clientele. The pace is faster: people arrive later, move
           between venues more freely, and make decisions spontaneously based
           on where the energy is migrating. Conversations are industry-specific
           and referential. The aesthetic standards are higher but less
-          conventional. The drinking is moderate — this is a working week for
+          conventional. The drinking is moderate: this is a working week for
           most of the crowd, and tomorrow&apos;s 9am show call is real.
         </p>
 
@@ -279,7 +279,7 @@ export default function LondonFashionWeekNightlifeGuidePage() {
           international, well-travelled, and generally welcoming to anyone
           who presents themselves with style and confidence. Having a table
           at a key venue during Fashion Week puts you in a room with some
-          of the most creatively accomplished people in the world — the
+          of the most creatively accomplished people in the world. The
           experience is unique, and it happens only twice a year.
         </p>
 
@@ -287,8 +287,8 @@ export default function LondonFashionWeekNightlifeGuidePage() {
 
         <p>
           The practical advice is straightforward but important. Fashion Week
-          dates are published by the British Fashion Council well in advance
-          — typically months before the shows. As soon as dates are confirmed,
+          dates are published by the British Fashion Council well in advance,
+           typically months before the shows. As soon as dates are confirmed,
           book your table at your preferred venue. Communicate with your
           concierge about which nights are likely to host the most significant
           events. Prepare your outfit with the adjusted dress code in mind.
@@ -316,17 +316,17 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         <ul>
           <li>
             <Link href="/clubs/tape-london">
-              Tape London &mdash; Full Review
+              Tape London: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/the-box-london">
-              The Box London &mdash; Full Review
+              The Box London: Full Review
             </Link>
           </li>
           <li>
             <Link href="/clubs/cirque-le-soir">
-              Cirque Le Soir &mdash; Full Review
+              Cirque Le Soir: Full Review
             </Link>
           </li>
           <li>

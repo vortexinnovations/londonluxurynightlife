@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Scotch of St James: The History and Legacy of London's Most Storied Club",
   description:
-    "From Jimi Hendrix in the 1960s to today — the incredible history of Scotch of St James, Mayfair's most storied nightclub and why it still matters.",
+    "From Jimi Hendrix in the 1960s to today: the incredible history of Scotch of St James, Mayfair's most storied nightclub and why it still matters.",
   keywords:
     "Scotch of St James, Scotch of St James history, Scotch of St James London, Scotch Mayfair",
   openGraph: {
     title: "Scotch of St James: History and Legacy of London's Most Storied Club",
     description:
-      "From Jimi Hendrix to today — the history of Scotch of St James and why it still matters.",
+      "From Jimi Hendrix to today: the history of Scotch of St James and why it still matters.",
     url: "https://londonluxurynightlife.com/blog/scotch-of-st-james-history-legacy",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
     <>
       <ArticleSchema
         title="Scotch of St James: The History and Legacy of London's Most Storied Club"
-        description="From Jimi Hendrix in the 1960s to today — the history of Scotch of St James."
+        description="From Jimi Hendrix in the 1960s to today: the history of Scotch of St James."
         slug="/blog/scotch-of-st-james-history-legacy"
       />
       <ArticleLayout
         title="Scotch of St James: The History and Legacy of London's Most Storied Club"
-        subtitle="From Jimi Hendrix to today — how one Mayfair basement became nightlife royalty"
+        subtitle="From Jimi Hendrix to today: how one Mayfair basement became nightlife royalty"
         heroImage={BLOG_IMAGES["scotch-of-st-james-history-legacy"]}
         heroAlt="Scotch of St James intimate basement club atmosphere in Mayfair"
       >
@@ -42,11 +42,11 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           There are venues in London with bigger rooms, louder sound systems,
           and more Instagram followers. None of them have what{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          possesses: genuine history. Tucked away in Mason&apos;s Yard, Mayfair,
+          possesses: genuine history. Tucked away in Mason&apos;s Yard, St James&apos;s,
           this intimate basement club has been a fixture of London nightlife
           since the 1960s, when it hosted performances by Jimi Hendrix, The
           Who, and a roster of musicians who would go on to define an era.
-          That heritage is not a marketing exercise — it is the foundation of
+          That heritage is not a marketing exercise; it is the foundation of
           everything the venue does today.
         </p>
 
@@ -57,14 +57,14 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           truest sense. At a time when London was the centre of the global
           music revolution, Scotch became the after-hours destination for the
           artists driving that revolution. Hendrix played here before he was
-          Hendrix — before the global tours, before the legend, when he was
+          Hendrix, before the global tours, before the legend, when he was
           simply an extraordinary musician looking for a stage. The Rolling
           Stones, The Beatles, Led Zeppelin, and a who&apos;s-who of
           sixties rock royalty made Scotch their regular haunt.
         </p>
 
         <p>
-          What made the venue magnetic was not its size or its luxury — it
+          What made the venue magnetic was not its size or its luxury; it
           was its intimacy. The basement room created a closeness between
           performers and audience that larger venues could not replicate.
           Musicians played because they wanted to, not because they were being
@@ -89,7 +89,7 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           dance music, the venue adapted its programming without abandoning
           its identity. The space remained intimate. The connection to live
           music remained genuine. The door remained selective in the right
-          way — welcoming of individuality, resistant to conformity.
+          way: welcoming of individuality, resistant to conformity.
         </p>
 
         <p>
@@ -104,8 +104,8 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
 
         <p>
           Walking into Scotch of St James now, you feel the history without
-          being overwhelmed by it. The venue is not a shrine to the sixties
-          — it is a functioning, vibrant nightclub that happens to carry
+          being overwhelmed by it. The venue is not a shrine to the sixties;
+           it is a functioning, vibrant nightclub that happens to carry
           extraordinary credentials. The music policy reflects this: eclectic,
           confident, willing to span rock, indie, hip-hop, and electronic
           within the same evening. The DJs are chosen for their taste rather
@@ -118,7 +118,7 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
           industry people alongside Mayfair regulars, international visitors
           drawn by the history, and Londoners who simply prefer character
           over formula. The intimate space means the energy concentrates
-          powerfully — on a strong Thursday or Saturday, the room generates
+          powerfully: on a strong Thursday or Saturday, the room generates
           an atmosphere that larger venues spend fortunes trying to create.
           If you appreciate what{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}does with
@@ -151,12 +151,12 @@ export default function ScotchOfStJamesHistoryLegacyPage() {
         </p>
 
         <div className="info-box">
-          <h4>Scotch of St James — Key Details</h4>
+          <h4>Scotch of St James: Key Details</h4>
           <ul>
-            <li><strong>Location:</strong>{" "}Mason&apos;s Yard, Mayfair</li>
-            <li><strong>Music:</strong>{" "}Mixed — rock, indie, hip-hop, electronic</li>
+            <li><strong>Location:</strong>{" "}Mason&apos;s Yard, St James&apos;s</li>
+            <li><strong>Music:</strong>{" "}Mixed (rock, indie, hip-hop, electronic)</li>
             <li><strong>Best nights:</strong>{" "}Thursday and Saturday</li>
-            <li><strong>Dress code:</strong>{" "}Smart but not overly formal — individuality welcomed</li>
+            <li><strong>Dress code:</strong>{" "}Smart but not overly formal, individuality welcomed</li>
             <li><strong>Tables from:</strong>{" "}&pound;1,000</li>
           </ul>
         </div>

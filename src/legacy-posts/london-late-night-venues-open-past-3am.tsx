@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "London Clubs Open Past 3AM | Late Night Venues Guide",
   description:
-    "Where to go when Mayfair closes its doors. The best late-night London clubs, after-hours options, casino bars, and venues open past 3am — an insider's guide to London after dark.",
+    "Where to go when Mayfair closes its doors. The best late-night London clubs, after-hours options, casino bars, and venues open past 3am, an insider's guide to London after dark.",
   keywords:
     "London clubs open late, late night London clubs, after hours London, clubs open past 3am London",
   openGraph: {
@@ -29,7 +29,7 @@ export default function LondonLateNightVenuesPage() {
     <>
       <ArticleSchema
         title="London After Dark: The Best Venues Open Past 3AM"
-        description="Where to go when Mayfair closes — late-night clubs, casino bars, after-hours venues, and the Sunday morning scene."
+        description="Where to go when Mayfair closes: late-night clubs, casino bars, after-hours venues, and the Sunday morning scene."
         slug="/blog/london-late-night-venues-open-past-3am"
       />
       <ArticleLayout
@@ -43,7 +43,7 @@ export default function LondonLateNightVenuesPage() {
           closing times can feel abrupt. Most clubs in Mayfair shut their doors
           at 3am, some at 3:30am, and then the streets fill with people who are
           not ready for the night to end. The good news is that London does
-          have late-night options — they just require knowing where to look.
+          have late-night options; they just require knowing where to look.
           The clubs open past 3am in London are not always obvious, but they
           exist, and some of them offer experiences that rival anything earlier
           in the evening.
@@ -57,8 +57,8 @@ export default function LondonLateNightVenuesPage() {
           for specific late-night licences, and these are neither easy nor cheap
           to obtain. Westminster Council, which governs Mayfair and Soho, has a
           particularly conservative approach to late-night licensing. The result
-          is a city where the luxury nightlife district — the part most
-          international visitors come for — largely wraps up by 3am. This is
+          is a city where the luxury nightlife district, the part most
+          international visitors come for, largely wraps up by 3am. This is
           not going to change any time soon, so the practical approach is to
           work with it rather than against it.
         </p>
@@ -72,8 +72,8 @@ export default function LondonLateNightVenuesPage() {
           London&apos;s most significant late-night venue, and it is not
           particularly close. On regular club nights, it runs until 6am. On
           special events and bank holiday weekends, it has been known to push
-          to 7am. The sound system — widely regarded as one of the finest in
-          the world — sounds best at 4am when the crowd has thinned to the
+          to 7am. The sound system, widely regarded as one of the finest in
+          the world, sounds best at 4am when the crowd has thinned to the
           committed and the DJs are playing their deepest material. If you love
           electronic music, a 4am session in the Box at Ministry is one of
           London&apos;s definitive nightlife experiences.
@@ -87,8 +87,8 @@ export default function LondonLateNightVenuesPage() {
           running until 7am or later. The bodysonic dance floor, which uses
           bass transducers built into the floor itself, becomes almost
           meditative in the early hours. Fabric attracts a dedicated electronic
-          music crowd, and the 4&ndash;6am window on a Saturday morning is when
-          the venue feels most itself — stripped of casual visitors, with only
+          music crowd, and the 4 to 6am window on a Saturday morning is when
+          the venue feels most itself, stripped of casual visitors, with only
           the people who came for the music remaining.
         </p>
 
@@ -97,20 +97,20 @@ export default function LondonLateNightVenuesPage() {
         <p>
           Shoreditch&apos;s XOYO holds late licences for certain events, as do
           various warehouse and pop-up venues across East London. The schedule
-          is event-dependent rather than fixed — check specific lineups rather
+          is event-dependent rather than fixed: check specific lineups rather
           than assuming a blanket late closing time. The best of these events
-          run until 5&ndash;6am and attract lineups that would headline
+          run until 5 to 6am and attract lineups that would headline
           festivals in any other context.
         </p>
 
         <div className="info-box">
           <h4>Late-Night Licence Summary</h4>
           <ul>
-            <li>Ministry of Sound: Until 6&ndash;7am (weekends and special events)</li>
+            <li>Ministry of Sound: Until 6 to 7am (weekends and special events)</li>
             <li>Fabric: Until 7am+ (Friday/Saturday)</li>
-            <li>XOYO: Until 5&ndash;6am (event-dependent)</li>
-            <li>Most Mayfair clubs: 3&ndash;3:30am closing</li>
-            <li>Casino bars: Often open until 4&ndash;6am</li>
+            <li>XOYO: Until 5 to 6am (event-dependent)</li>
+            <li>Most Mayfair clubs: 3 to 3:30am closing</li>
+            <li>Casino bars: Often open until 4 to 6am</li>
           </ul>
         </div>
 
@@ -118,8 +118,8 @@ export default function LondonLateNightVenuesPage() {
 
         <p>
           This is the insider move that most visitors overlook. Mayfair is home
-          to some of the world&apos;s most prestigious casinos — The Ritz Club,
-          Crockfords, Les Ambassadeurs, The Palm Beach — and their bars
+          to some of the world&apos;s most prestigious casinos (The Ritz Club,
+          Crockfords, Les Ambassadeurs, The Palm Beach) and their bars
           typically remain open well past 3am, often until 5 or 6am. You do
           not need to gamble to drink, though most require membership or guest
           registration. The atmosphere at 4am in a Mayfair casino bar is
@@ -138,7 +138,7 @@ export default function LondonLateNightVenuesPage() {
           that hit differently at 4am. Various Chinatown restaurants serve until
           4am or later, providing the kind of post-club sustenance that has been
           a London tradition for decades. In Mayfair itself, certain hotel bars
-          continue serving residents and their guests — if you are staying at
+          continue serving residents and their guests: if you are staying at
           The Dorchester, Claridge&apos;s, or The Connaught, your evening does
           not end when the clubs close.
         </p>
@@ -151,7 +151,7 @@ export default function LondonLateNightVenuesPage() {
           residences, members&apos; clubs, or hired spaces, and access is based
           on relationships rather than tickets. They are not advertised on
           social media, not listed on event platforms, and not something you can
-          plan for in advance. They happen organically — someone at your table
+          plan for in advance. They happen organically: someone at your table
           knows someone who is hosting, a promoter extends an invitation, a DJ
           continues their set in a private space. The only way to access this
           world is to be present, social, and connected to the right people on
@@ -162,11 +162,11 @@ export default function LondonLateNightVenuesPage() {
 
         <p>
           For the committed, London&apos;s nightlife does not end on Saturday
-          night — it continues into Sunday morning.{" "}
+          night; it continues into Sunday morning.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           Sunday sessions have become an institution, running from the early
           hours through to Sunday afternoon. Fabric&apos;s Sunday programming
-          carries the same spirit. These are not afterthoughts — they are
+          carries the same spirit. These are not afterthoughts; they are
           deliberately programmed events with dedicated lineups, and the crowd
           at a Sunday morning session is often the most musically engaged
           audience you will find in London. There is a particular clarity to
@@ -188,8 +188,8 @@ export default function LondonLateNightVenuesPage() {
 
         <ul>
           <li>
-            <strong>Eat properly before midnight.</strong>{" "}A full dinner — not
-            bar snacks — provides the stamina for a long evening. Our{" "}
+            <strong>Eat properly before midnight.</strong>{" "}A full dinner, not
+            bar snacks, provides the stamina for a long evening. Our{" "}
             <Link href="/guides/dinner-and-nightclub-london">
               dinner and nightclub guide
             </Link>{" "}
@@ -214,15 +214,15 @@ export default function LondonLateNightVenuesPage() {
           </li>
           <li>
             <strong>Phone battery.</strong>{" "}By 4am, your phone is likely below
-            20%. A portable charger is not optional — it is your way home.
+            20%. A portable charger is not optional; it is your way home.
           </li>
         </ul>
 
         <h2>Why Early Closing Is Not All Bad</h2>
 
         <p>
-          There is an argument — and experienced London nightlife people make
-          it often — that the early closing time actually improves the Mayfair
+          There is an argument, and experienced London nightlife people make
+          it often, that the early closing time actually improves the Mayfair
           experience. It concentrates the energy into a tighter window. Rather
           than a crowd that drifts in and out over eight hours, you get a room
           that fills together, peaks together, and shares a collective
@@ -230,7 +230,7 @@ export default function LondonLateNightVenuesPage() {
           Saturday nights at{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}have an
-          intensity that more permissive cities sometimes lack — precisely
+          intensity that more permissive cities sometimes lack, precisely
           because everyone knows the clock is ticking.
         </p>
 
@@ -238,13 +238,13 @@ export default function LondonLateNightVenuesPage() {
 
         <p>
           London after 3am requires a shift in mindset. The polished,
-          bottle-service world of Mayfair gives way to something rawer —
+          bottle-service world of Mayfair gives way to something rawer:
           electronic music temples, casino bars, private spaces, and the quiet
           dignity of a hotel bar at 4am. Each option has its own appeal, and
           the best late nights in London often come from embracing the
           transition rather than resisting it. If you want help planning an
-          evening that accounts for the full arc — from cocktails at 8pm to
-          wherever the night takes you —{" "}
+          evening that accounts for the full arc, from cocktails at 8pm to
+          wherever the night takes you,{" "}
           <Link href="/contact">reach out</Link>. We know how London works
           after dark.
         </p>

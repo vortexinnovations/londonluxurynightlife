@@ -34,12 +34,12 @@ const faqs = [
   {
     question: "Can I take photos inside London nightclubs?",
     answer:
-      "Policies vary by venue. Most luxury clubs discourage flash photography and filming of other guests. Taking photos of your own group or table is generally acceptable, but pointing cameras at strangers or celebrities is a serious breach of etiquette and may result in removal. At the most exclusive venues like Tape London and The Box, discretion around phones is essential — the appeal of these clubs is partly that people can relax without being filmed.",
+      "Policies vary by venue. Most luxury clubs discourage flash photography and filming of other guests. Taking photos of your own group or table is generally acceptable, but pointing cameras at strangers or celebrities is a serious breach of etiquette and may result in removal. At the most exclusive venues like Tape London and The Box, discretion around phones is essential: the appeal of these clubs is partly that people can relax without being filmed.",
   },
   {
     question: "How much should I tip at a London nightclub?",
     answer:
-      "Service charge (12.5-15%) is typically included in your table bill. Beyond this, £20-50 in cash to your table host is appreciated for good service. For exceptional attention, tip more generously. Bar staff do not expect tips in London clubs, though rounding up is a courteous gesture. Tipping door staff is unnecessary and can appear gauche — save your generosity for the people serving you inside.",
+      "Service charge (12.5-15%) is typically included in your table bill. Beyond this, £20-50 in cash to your table host is appreciated for good service. For exceptional attention, tip more generously. Bar staff do not expect tips in London clubs, though rounding up is a courteous gesture. Tipping door staff is unnecessary and can appear gauche; save your generosity for the people serving you inside.",
   },
   {
     question: "What behaviour will get you thrown out of a London club?",
@@ -54,7 +54,7 @@ const faqs = [
   {
     question: "What is the etiquette for leaving a London nightclub?",
     answer:
-      "Close your tab before leaving — do not make your host chase you. Thank your table host and tip if warranted. Leave with your full group rather than in fragments if possible. Outside the venue, keep noise levels reasonable and do not congregate directly outside the entrance. Order your transport from within the club or move away from the door. A clean exit is remembered positively and improves your reception on future visits.",
+      "Close your tab before leaving; do not make your host chase you. Thank your table host and tip if warranted. Leave with your full group rather than in fragments if possible. Outside the venue, keep noise levels reasonable and do not congregate directly outside the entrance. Order your transport from within the club or move away from the door. A clean exit is remembered positively and improves your reception on future visits.",
   },
 ];
 
@@ -63,20 +63,20 @@ export default function LondonNightlifeEtiquettePage() {
     <>
       <ArticleSchema
         title="London Nightlife Etiquette: The Unwritten Rules Nobody Tells You"
-        description="The unwritten rules of London's luxury club scene — phone etiquette, tipping, VIP behaviour, door protocol, and the social codes that separate insiders from tourists."
+        description="The unwritten rules of London's luxury club scene: phone etiquette, tipping, VIP behaviour, door protocol, and the social codes that separate insiders from tourists."
         slug="/blog/london-nightlife-etiquette-unwritten-rules"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Nightlife Etiquette: The Unwritten Rules"
-        subtitle="Everything the dress code guide doesn't cover — the behavioural codes that define London's luxury club scene"
+        subtitle="Everything the dress code guide doesn't cover: the behavioural codes that define London's luxury club scene"
         heroImage={BLOG_IMAGES["london-nightlife-etiquette-unwritten-rules"]}
         heroAlt="Elegant guests at a London luxury nightclub"
       >
         <p>
           Dress codes are published. Door policies can be researched. But the
           behavioural expectations inside London&apos;s premium clubs exist
-          almost entirely as oral tradition — passed between regulars, learned
+          almost entirely as oral tradition, passed between regulars, learned
           through observation, and occasionally discovered through the
           mortifying experience of getting it wrong. This guide covers the
           unwritten rules: the etiquette that nobody publishes but everyone
@@ -84,7 +84,7 @@ export default function LondonNightlifeEtiquettePage() {
         </p>
 
         <p>
-          This is not about what you wear — our{" "}
+          This is not about what you wear; our{" "}
           <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}
           handles that. This is about how you conduct yourself once you are
           inside.
@@ -95,21 +95,21 @@ export default function LondonNightlifeEtiquettePage() {
         <p>
           The single fastest way to mark yourself as someone who does not
           belong in a premium venue is to treat it like a content creation
-          opportunity. London&apos;s luxury clubs — particularly the most
-          exclusive ones — derive much of their value from discretion. People
+          opportunity. London&apos;s luxury clubs, particularly the most
+          exclusive ones, derive much of their value from discretion. People
           come to these rooms precisely because they can exist without being
           filmed, photographed, and uploaded.
         </p>
 
         <p>
-          A quick photo of your own table, your group, your bottles — this is
+          A quick photo of your own table, your group, your bottles: this is
           fine. What is not fine: filming the room, pointing your camera at
           strangers, attempting to photograph or film celebrities, recording
           performances without permission, or having your phone out on the
           dance floor with the camera rolling. At venues like{" "}
           <Link href="/clubs/tape-london">Tape London</Link>, where music
           industry figures and celebrities are genuinely present, phone
-          discretion is not just etiquette — it is the price of admission to
+          discretion is not just etiquette; it is the price of admission to
           that world.
         </p>
 
@@ -125,15 +125,15 @@ export default function LondonNightlifeEtiquettePage() {
           evening, and the etiquette here is more nuanced than simply meeting
           the dress code. Approach with confidence but not arrogance. Have
           your booking reference or guestlist name ready. Do not argue if
-          asked to wait — capacity management sometimes requires a brief hold
+          asked to wait: capacity management sometimes requires a brief hold
           even for confirmed bookings. Never name-drop unless you genuinely
           know the person and they are genuinely expecting you. Invented
           connections are identified instantly and remembered permanently.
         </p>
 
         <p>
-          If refused entry, ask politely whether there is something specific
-          — group composition, a dress code issue, capacity. Accept the
+          If refused entry, ask politely whether there is something specific:
+           group composition, a dress code issue, capacity. Accept the
           answer. Arguing, offering cash, or raising your voice will not
           reverse the decision and will ensure you are remembered for the
           wrong reasons on any future attempt. For a deeper understanding of
@@ -150,7 +150,7 @@ export default function LondonNightlifeEtiquettePage() {
           Your table host is your concierge for the evening. Treat them
           accordingly. They are professionals working in a demanding
           environment, not servants. A host who likes you will quietly
-          upgrade your experience in ways you will not even notice — better
+          upgrade your experience in ways you will not even notice: better
           positioning, faster service, complimentary touches. A host who
           finds you rude or entitled will provide exactly the minimum
           required service and nothing more.
@@ -161,7 +161,7 @@ export default function LondonNightlifeEtiquettePage() {
           thank you. These are not revolutionary concepts, yet the number of
           people who abandon basic courtesy the moment they sit at an
           expensive table is remarkable. Your host will also be your ally if
-          anything goes wrong during the evening — a lost item, a problem
+          anything goes wrong during the evening: a lost item, a problem
           with another group, a need to change tables. Invest in that
           relationship.
         </p>
@@ -172,7 +172,7 @@ export default function LondonNightlifeEtiquettePage() {
           <h4>Tipping Guide for London Clubs</h4>
           <ul>
             <li>
-              <strong>Table host:</strong>{" "}&pound;20&ndash;&pound;50 in cash
+              <strong>Table host:</strong>{" "}&pound;20 to &pound;50 in cash
               for good service. More for exceptional attention. Service charge
               is already on the bill, so this is discretionary but noticed.
             </li>
@@ -186,7 +186,7 @@ export default function LondonNightlifeEtiquettePage() {
               the opposite of the impression you want.
             </li>
             <li>
-              <strong>Cloakroom:</strong>{" "}&pound;1&ndash;&pound;2 is
+              <strong>Cloakroom:</strong>{" "}&pound;1 to &pound;2 is
               customary when collecting your coat.
             </li>
           </ul>
@@ -221,7 +221,7 @@ export default function LondonNightlifeEtiquettePage() {
             <strong>Your bottles, your table.</strong>{" "}Do not pour from
             bottles at neighbouring tables, and do not allow strangers to help
             themselves to yours. Your host will manage this if it becomes an
-            issue — a quiet word to them is more effective than a
+            issue: a quiet word to them is more effective than a
             confrontation.
           </li>
           <li>
@@ -260,7 +260,7 @@ export default function LondonNightlifeEtiquettePage() {
           areas that are clearly reserved for other parties. Do not approach
           other VIP tables uninvited. If you make eye contact with people at
           another table and receive a welcoming gesture, then social
-          interaction is appropriate — but the invitation must come from them.
+          interaction is appropriate, but the invitation must come from them.
         </p>
 
         <p>
@@ -279,8 +279,8 @@ export default function LondonNightlifeEtiquettePage() {
           London&apos;s club scene is social by nature, and meeting people
           is part of the experience. The etiquette is straightforward:
           read signals before acting on them. Eye contact, a smile, proximity
-          on the dance floor — these are invitations. Arms crossed, turned
-          shoulders, a group deep in conversation — these are not.
+          on the dance floor: these are invitations. Arms crossed, turned
+          shoulders, a group deep in conversation: these are not.
         </p>
 
         <p>
@@ -296,7 +296,7 @@ export default function LondonNightlifeEtiquettePage() {
           The dance floor is the most natural social space in any club.
           Dancing near someone and allowing a connection to develop
           organically is the London way. Grabbing, pulling, or forcing
-          proximity is not — and at well-managed venues, security is
+          proximity is not, and at well-managed venues, security is
           trained to notice and intervene.
         </p>
 
@@ -307,7 +307,7 @@ export default function LondonNightlifeEtiquettePage() {
           liability, and London&apos;s premium venues have a very low
           tolerance for the latter. Staff are trained to identify guests who
           have crossed the line, and intervention ranges from a quiet word to
-          removal. The etiquette expectation is self-regulation — pace
+          removal. The etiquette expectation is self-regulation: pace
           yourself, eat before you arrive, alternate alcohol with water, and
           know your limits. Being cut off by your host or asked to leave is
           not just embarrassing in the moment; at venues with membership
@@ -321,7 +321,7 @@ export default function LondonNightlifeEtiquettePage() {
           The best evenings end on a high note rather than trailing into a
           diminishing return. When the energy in the room starts to drop,
           when your group starts fragmenting, or when you find yourself
-          staying out of inertia rather than enjoyment — that is the moment
+          staying out of inertia rather than enjoyment, that is the moment
           to close your tab, thank your host, and make a clean exit. Lingering
           past your own peak rarely improves the evening and often detracts
           from an otherwise excellent night.
@@ -329,7 +329,7 @@ export default function LondonNightlifeEtiquettePage() {
 
         <p>
           Practically: settle your bill inside the venue rather than creating
-          a situation at the door. Arrange transport before you need it — have
+          a situation at the door. Arrange transport before you need it: have
           the car app open or a cab booked. Leave together as a group where
           possible. Outside, move away from the entrance rather than
           congregating on the pavement. The venue&apos;s neighbours and
@@ -344,7 +344,7 @@ export default function LondonNightlifeEtiquettePage() {
           venues exist to create an atmosphere, and your behaviour either
           contributes to that atmosphere or detracts from it. The guests who
           are welcomed back, who receive the best tables, who find doors
-          opening effortlessly — they are the ones who understand that they
+          opening effortlessly: they are the ones who understand that they
           are not merely consuming an experience but participating in its
           creation. Conduct yourself as someone who elevates the room, and
           the room will reward you.

@@ -75,7 +75,7 @@ export default function BestThursdayNightClubsLondonPage() {
       >
         <p>
           Thursday night in London occupies a peculiar position in the weekly
-          calendar. It is not the weekend — and yet, for anyone who genuinely
+          calendar. It is not the weekend, and yet, for anyone who genuinely
           knows this city&apos;s nightlife, Thursday is often the better night
           out. The crowds are sharper, the atmosphere more convivial, and the
           door policies considerably more forgiving. Most of Mayfair&apos;s
@@ -85,7 +85,7 @@ export default function BestThursdayNightClubsLondonPage() {
         </p>
 
         <p>
-          This is the guide to getting Thursday right — which clubs open, what
+          This is the guide to getting Thursday right: which clubs open, what
           each one offers, and how to choose the venue that matches your mood.
         </p>
 
@@ -135,8 +135,8 @@ export default function BestThursdayNightClubsLondonPage() {
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           carries decades of history in its Mason&apos;s Yard basement, and
-          Thursday is when you feel it most. The mixed music policy — rock,
-          indie, hip-hop — suits the midweek crowd that gravitates here: less
+          Thursday is when you feel it most. The mixed music policy (rock,
+          indie, hip-hop) suits the midweek crowd that gravitates here: less
           mainstream, more musically curious, drawn by the venue&apos;s
           legendary credentials rather than its Instagram presence. If you
           want a night that feels genuinely London rather than generically
@@ -205,11 +205,11 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <p>
           Thursday nights typically run from around 10:30pm to 3am. Most
-          venues reach comfortable capacity between 11:30pm and 1am — a
+          venues reach comfortable capacity between 11:30pm and 1am, a
           window that feels pleasantly full without the sardine-tin density of
           a Saturday peak hour. Dress codes still apply, though the overall
           interpretation tends to be marginally more relaxed. Smart and
-          stylish remains the baseline — consult our{" "}
+          stylish remains the baseline. Consult our{" "}
           <Link href="/guides/what-to-wear-london-clubs">
             dress code guide
           </Link>{" "}
@@ -235,7 +235,7 @@ export default function BestThursdayNightClubsLondonPage() {
           The best Thursday nights in London benefit from a little planning
           but do not require the military-grade logistics of a Saturday.
           Choose your venue based on music preference and atmosphere rather
-          than chasing the biggest crowd — on Thursday, the appeal is
+          than chasing the biggest crowd: on Thursday, the appeal is
           precisely that the crowd is curated by self-selection rather than
           hype. If you are visiting London and have the flexibility, building
           your main nightlife evening around Thursday rather than Saturday is

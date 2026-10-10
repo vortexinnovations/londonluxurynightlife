@@ -39,7 +39,7 @@ export default function StagNightMayfairGuidePage() {
         <p>
           A Mayfair stag night is a different proposition to a pub crawl through
           Shoreditch or a weekend in Prague. Done well, it&apos;s the kind of
-          evening people talk about for years &mdash; proper clubs, serious bottle
+          evening people talk about for years: proper clubs, serious bottle
           service, and the feeling of being genuinely looked after. Done badly,
           it&apos;s a group of lads in matching T-shirts being turned away at the
           door of{" "}
@@ -54,7 +54,7 @@ export default function StagNightMayfairGuidePage() {
           Mayfair&apos;s concentration of luxury clubs within walking distance of
           each other makes it ideal for a group night. You can start with cocktails,
           move to a club, and switch venues without ever needing a taxi. The standard
-          of service is consistently high, and &mdash; critically &mdash; the venues
+          of service is consistently high, and, critically, the venues
           are used to handling groups. This isn&apos;t a residential area that shuts
           down at midnight. It&apos;s purpose-built for exactly this kind of evening.
         </p>
@@ -64,7 +64,7 @@ export default function StagNightMayfairGuidePage() {
           approach. These clubs reward planning. Walk in cold with twelve people and
           no booking and you&apos;ll struggle. Book a table, communicate with the
           venue in advance, and the whole experience changes. You&apos;re not
-          queuing &mdash; you&apos;re being walked to your table with a bottle
+          queuing; you&apos;re being walked to your table with a bottle
           already on ice.
         </p>
 
@@ -78,7 +78,7 @@ export default function StagNightMayfairGuidePage() {
         <p>
           For groups that want spectacle and energy,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}
-          delivers something genuinely different &mdash; performers, theatrics, and a
+          delivers something genuinely different: performers, theatrics, and a
           room that feels like it&apos;s been designed to create stories. It&apos;s a
           strong choice when the group includes people who don&apos;t usually go
           clubbing, because there&apos;s always something to watch.
@@ -101,14 +101,14 @@ export default function StagNightMayfairGuidePage() {
           size means the group stays together. For something that feels genuinely
           exclusive,{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}
-          is the top of the tree &mdash; but it&apos;s the most selective on the
+          is the top of the tree, but it&apos;s the most selective on the
           door, so read the{" "}
           <Link href="/how-to-get-into-tape-london">Tape entry guide</Link>{" "}
           before committing.
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference &mdash; Best Clubs by Stag Type</h4>
+          <h4>Quick Reference: Best Clubs by Stag Type</h4>
           <ul>
             <li>
               <strong>Big group (10+):</strong>{" "}Cirque Le Soir, 99 Regent Street (formerly Cuckoo Club)
@@ -133,23 +133,23 @@ export default function StagNightMayfairGuidePage() {
         <p>
           Transparency on cost is what separates a well-planned stag from one that
           ends in awkward WhatsApp messages the next morning. Mayfair isn&apos;t
-          cheap, but it doesn&apos;t have to be ruinous either &mdash; if you plan
+          cheap, but it doesn&apos;t have to be ruinous either, if you plan
           properly.
         </p>
 
         <p>
           The anchor cost is the table booking. Most Mayfair clubs require a minimum
-          spend, typically starting around &pound;1,500&ndash;&pound;2,000 for a
+          spend, typically starting around &pound;1,500 to &pound;2,000 for a
           standard table on a Saturday night. Premium positions (near the DJ, raised
           areas) cost more. For a group of ten splitting evenly, that&apos;s
-          &pound;150&ndash;&pound;200 per person for the table alone &mdash; which
+          &pound;150 to &pound;200 per person for the table alone, which
           includes your bottles.
         </p>
 
         <p>
           Factor in pre-drinks, transport, and any additional rounds beyond the
           minimum spend. A realistic per-person budget for a proper Mayfair stag
-          night is &pound;250&ndash;&pound;400. That covers cocktail bar
+          night is &pound;250 to &pound;400. That covers cocktail bar
           pre-drinks, table booking with bottles, and a taxi home. Read the full{" "}
           <Link href="/blog/how-much-does-night-out-mayfair-cost">
             Mayfair cost breakdown
@@ -158,7 +158,7 @@ export default function StagNightMayfairGuidePage() {
         </p>
 
         <p className="pull-quote">
-          The best man&apos;s real job isn&apos;t the speech &mdash; it&apos;s
+          The best man&apos;s real job isn&apos;t the speech; it&apos;s
           collecting the money two weeks before the night, not the morning after.
         </p>
 
@@ -166,7 +166,7 @@ export default function StagNightMayfairGuidePage() {
 
         <p>
           This is where most stag nights in Mayfair go wrong. Fancy dress,
-          matching shirts, sashes, L-plates &mdash; none of it flies. Not at any
+          matching shirts, sashes, L-plates: none of it flies. Not at any
           of the venues listed above. The door teams are looking for smart, put-together
           groups, and anything that signals &quot;stag do chaos&quot; will get you
           turned away.
@@ -187,18 +187,18 @@ export default function StagNightMayfairGuidePage() {
 
         <p>
           Most Mayfair clubs open between 10:30pm and 11pm, but the sweet spot for
-          arrival is 11:30pm&ndash;midnight. Arrive too early and the room&apos;s
+          arrival is 11:30pm to midnight. Arrive too early and the room&apos;s
           empty. Arrive after 1am and the queue is long, energy is harder to read,
           and the best tables may already be taken.
         </p>
 
         <p>
-          For pre-drinks, budget 8pm&ndash;10:30pm at a nearby cocktail bar. Check
+          For pre-drinks, budget 8pm to 10:30pm at a nearby cocktail bar. Check
           our{" "}
           <Link href="/blog/best-cocktail-bars-mayfair-before-clubbing">
             best pre-club bars near Mayfair
           </Link>{" "}
-          for options. Keep the group together during the transition &mdash; clubs
+          for options. Keep the group together during the transition: clubs
           prefer groups arriving as one rather than filtering in over an hour.
         </p>
 
@@ -214,7 +214,7 @@ export default function StagNightMayfairGuidePage() {
         <p>
           A table booking is your strongest asset. It essentially guarantees entry
           for your confirmed group size. Without one, a group of eight or more men
-          will face serious scrutiny at most Mayfair doors &mdash; not because
+          will face serious scrutiny at most Mayfair doors, not because
           they&apos;re unwelcome, but because unbooked large groups are the highest
           risk for any door team.
         </p>
@@ -244,7 +244,7 @@ export default function StagNightMayfairGuidePage() {
 
         <p>
           The biggest error is not booking a table. Guestlist can work for small
-          groups, but for a stag night, the table is non-negotiable &mdash; it gives
+          groups, but for a stag night, the table is non-negotiable: it gives
           you guaranteed entry, a base for the group, and bottles that work out
           cheaper than buying rounds at the bar.
         </p>

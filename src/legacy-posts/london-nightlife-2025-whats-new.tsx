@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "London Nightlife 2025: What's New and What's Changed",
   description:
-    "The current state of London's club scene in 2025 — new openings, emerging trends, the dining-meets-nightlife movement, and what to expect from London's best clubs this year.",
+    "The current state of London's club scene in 2025: new openings, emerging trends, the dining-meets-nightlife movement, and what to expect from London's best clubs this year.",
   keywords:
     "London nightlife 2025, new clubs London 2025, London club scene 2025, best clubs London 2025",
   openGraph: {
     title: "London Nightlife in 2025: What's New and What's Changed",
     description:
-      "The current state of the scene — new openings, emerging trends, and what to expect this year.",
+      "The current state of the scene: new openings, emerging trends, and what to expect this year.",
     url: "https://londonluxurynightlife.com/blog/london-nightlife-2025-whats-new",
     type: "article",
   },
@@ -34,7 +34,7 @@ export default function LondonNightlife2025Page() {
       />
       <ArticleLayout
         title="London Nightlife in 2025: What's New and What's Changed"
-        subtitle="The current state of the scene — new openings, emerging trends, and what to expect this year"
+        subtitle="The current state of the scene: new openings, emerging trends, and what to expect this year"
         heroImage={BLOG_IMAGES["london-nightlife-2025-whats-new"]}
         heroAlt="Modern London nightclub interior showcasing 2025 design trends"
       >
@@ -50,7 +50,7 @@ export default function LondonNightlife2025Page() {
           The post-pandemic years brought closures and uncertainty, but what
           has emerged on the other side is a scene that is more refined, more
           confident, and more internationally relevant than it has been in
-          years. The best clubs in London in 2025 are not simply surviving —
+          years. The best clubs in London in 2025 are not simply surviving;
           they are evolving, and the new openings and emerging trends suggest a
           city that is reasserting its place at the top of global nightlife.
         </p>
@@ -58,7 +58,7 @@ export default function LondonNightlife2025Page() {
         <h2>The Post-Pandemic Maturation</h2>
 
         <p>
-          The pandemic did not just close venues temporarily — it forced a
+          The pandemic did not just close venues temporarily; it forced a
           reckoning. The clubs that survived were the ones with genuine
           identity, loyal clientele, and operators who understood their
           audience. What reopened was leaner and sharper. Service standards
@@ -77,11 +77,11 @@ export default function LondonNightlife2025Page() {
           <Link href="/clubs/tabu-london">TABU</Link>{" "}has quickly established
           itself as one of Mayfair&apos;s most compelling new entries. Located
           on Berkeley Street, it brings a modern sensibility to the
-          bottle-service model — the design is sleek and contemporary, the
+          bottle-service model: the design is sleek and contemporary, the
           music programming is more adventurous than the Mayfair standard, and
           the crowd reflects a younger, fashion-conscious international
           clientele. TABU fills a gap that existed between the established
-          institutions and the underground — it is unquestionably luxury, but
+          institutions and the underground: it is unquestionably luxury, but
           it does not feel like a venue trading on legacy alone. TABU now
           trades as Rumour, open Wednesday to Saturday.
         </p>
@@ -94,7 +94,7 @@ export default function LondonNightlife2025Page() {
           installations transform the room throughout the evening, creating an
           environment where the visual production is as much a part of the
           experience as the music. This is a deliberate response to a crowd
-          that expects more than a dark room with a DJ — the Instagram
+          that expects more than a dark room with a DJ: the Instagram
           generation wants spectacle, and Luxx delivers it without sacrificing
           the fundamentals of sound quality and atmosphere. Luxx Club has
           since closed.
@@ -105,8 +105,8 @@ export default function LondonNightlife2025Page() {
         <p>
           <Link href="/clubs/lio-club-london">Lio Club</Link>{" "}brought the
           Ibiza dining-and-entertainment concept to London, and its arrival
-          signals a broader trend. The format — a full dinner service with live
-          entertainment that transitions seamlessly into a club night — has
+          signals a broader trend. The format, a full dinner service with live
+          entertainment that transitions seamlessly into a club night, has
           been proven in Mediterranean markets and translates well to
           London&apos;s appetite for complete evening experiences. Lio is not
           just a new venue; it is a new format for London, and its success is
@@ -118,8 +118,8 @@ export default function LondonNightlife2025Page() {
 
         <p>
           This is perhaps the most significant shift in London nightlife in
-          2025. The traditional model — dinner at one venue, then a separate
-          journey to a club — is being replaced by integrated experiences where
+          2025. The traditional model (dinner at one venue, then a separate
+          journey to a club) is being replaced by integrated experiences where
           dining and nightlife coexist under one roof.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}has refined this format
           over years, offering a restaurant experience that flows naturally
@@ -143,9 +143,9 @@ export default function LondonNightlife2025Page() {
         <div className="info-box">
           <h4>Best Venues for the Complete Evening Experience</h4>
           <ul>
-            <li>Maddox — refined restaurant-to-club transition, live music</li>
-            <li>Dear Darling — cocktail bar that evolves into an intimate late-night venue</li>
-            <li>The London Reign — multi-floor experience with dining, cabaret, and club</li>
+            <li>Maddox: refined restaurant-to-club transition, live music</li>
+            <li>Dear Darling: cocktail bar that evolves into an intimate late-night venue</li>
+            <li>The London Reign: multi-floor experience with dining, cabaret, and club</li>
           </ul>
         </div>
 
@@ -162,7 +162,7 @@ export default function LondonNightlife2025Page() {
           <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}(now 99 Regent
           Street) leaned its upstairs space further into house and electronic
           music. This
-          reflects a broader cultural shift — house music&apos;s resurgence in
+          reflects a broader cultural shift: house music&apos;s resurgence in
           mainstream culture has reached the point where even traditionally
           hip-hop venues are programming house-leaning sets on selected nights.
         </p>
@@ -173,7 +173,7 @@ export default function LondonNightlife2025Page() {
           continues to operate at the highest level, with a sound system and
           programming schedule that justify its reputation as one of the
           world&apos;s great clubs. The London electronic scene in 2025 is as
-          strong as it has ever been — the challenge is that the best of it
+          strong as it has ever been; the challenge is that the best of it
           happens outside Mayfair.
         </p>
 
@@ -187,7 +187,7 @@ export default function LondonNightlife2025Page() {
           to evolve its circus-theatrical concept, adding new performers and
           acts that keep even regular visitors surprised. The London Reign
           offers a multi-floor journey from cabaret to nightclub. This is not
-          novelty — it is a fundamental expectation. The days when a dark room
+          novelty; it is a fundamental expectation. The days when a dark room
           with a good sound system was sufficient are over for the luxury
           market.
         </p>
@@ -208,8 +208,8 @@ export default function LondonNightlife2025Page() {
           Instagram, meanwhile, has become the primary discovery platform.
           Venues invest heavily in content that showcases their atmosphere,
           and potential guests make decisions based on what they see in Stories
-          and Reels. The visual identity of a venue — its lighting, its crowd,
-          its design — matters more than ever because it is being broadcast
+          and Reels. The visual identity of a venue (its lighting, its crowd,
+          its design) matters more than ever because it is being broadcast
           constantly. Clubs that photograph well have a genuine competitive
           advantage in 2025.
         </p>
@@ -244,7 +244,7 @@ export default function LondonNightlife2025Page() {
           Amidst the new openings and trends, the enduring strength of
           London&apos;s established venues is worth noting.{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}remains the
-          definitive Mayfair experience — its celebrity draw, its music-industry
+          definitive Mayfair experience: its celebrity draw, its music-industry
           DNA, and its consistently electric atmosphere are undiminished.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}has been
           reinventing its format for over a decade and shows no sign of
@@ -261,11 +261,11 @@ export default function LondonNightlife2025Page() {
         <h2>Pricing Trends</h2>
 
         <p>
-          Minimum spends have increased across the board — inflation, rising
+          Minimum spends have increased across the board: inflation, rising
           operational costs, and strong demand have pushed table minimums up
-          by roughly 15&ndash;20% compared to pre-pandemic levels. A standard
+          by roughly 15 to 20% compared to pre-pandemic levels. A standard
           Saturday table at a top Mayfair venue now starts at
-          &pound;1,500&ndash;&pound;2,000, up from &pound;1,000&ndash;&pound;1,500
+          &pound;1,500 to &pound;2,000, up from &pound;1,000 to &pound;1,500
           a few years ago. However, the value proposition has arguably improved:
           service is better, production standards are higher, and the overall
           experience is more polished. For a full breakdown of current pricing,
@@ -283,8 +283,8 @@ export default function LondonNightlife2025Page() {
           the dining-nightlife hybrid model suggests more venues will adopt
           this format. House music&apos;s creep into Mayfair is likely to
           accelerate, potentially creating dedicated house nights at venues
-          that have historically been hip-hop-only. The summer season —
-          always London&apos;s strongest period for nightlife — will test
+          that have historically been hip-hop-only. The summer season,
+          always London&apos;s strongest period for nightlife, will test
           whether the new openings can sustain their momentum against
           established competition. And the international visitor market,
           particularly from the Gulf and West Africa, will continue to shape
@@ -292,12 +292,12 @@ export default function LondonNightlife2025Page() {
         </p>
 
         <p>
-          London nightlife in 2025 is not just alive — it is thriving with a
+          London nightlife in 2025 is not just alive; it is thriving with a
           clarity of purpose that was absent five years ago. The venues know
           who they are, the audience knows what it wants, and the gap between
           expectation and delivery has narrowed to the point where a well-planned
           night out in this city is genuinely world-class. If you want help
-          navigating the current scene —{" "}
+          navigating the current scene,{" "}
           <Link href="/contact">get in touch</Link>. The landscape has changed,
           and we know every corner of it.
         </p>

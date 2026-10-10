@@ -48,11 +48,11 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           If you have visited three or four Mayfair nightclubs, you might
           conclude that you have visited them all. Dark rooms, bottle service,
-          hip-hop, velvet ropes — the formula is profitable and most venues
+          hip-hop, velvet ropes: the formula is profitable and most venues
           stick to it faithfully.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>{" "}exists to
+          <Link href="/clubs/tabu-london">TABU London</Link>{" "}existed to
           challenge that assumption. Drawing on Japanese aesthetic traditions
-          — minimalism, shadow play, deliberate restraint — TABU has created
+           (minimalism, shadow play, deliberate restraint), TABU has created
           a nightlife experience that feels genuinely different from anything
           else in the W1 postcode. It arrived quietly and has built its
           reputation on atmosphere rather than marketing, which tells you
@@ -68,13 +68,13 @@ export default function TabuLondonJapaneseUndergroundPage() {
           is darker, more contained, more deliberately atmospheric. The
           Japanese influence manifests in clean lines, natural materials,
           and a sense of depth that rewards attention rather than demanding
-          it. The lighting is considered — pools of warm light punctuate
+          it. The lighting is considered: pools of warm light punctuate
           deeper shadows, creating an intimacy that makes the room feel
           private even when it is full.
         </p>
 
         <p>
-          This design philosophy is not decorative — it shapes the entire
+          This design philosophy is not decorative; it shapes the entire
           experience. The atmosphere builds slowly. Unlike venues where the
           energy hits you at the door and stays at a single pitch all night,
           TABU draws you in gradually. The first hour is moody and
@@ -108,7 +108,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <h2>The Crowd</h2>
 
         <p>
-          TABU attracts a crowd that appreciates subtlety — a quality not
+          TABU attracts a crowd that appreciates subtlety, a quality not
           typically associated with Mayfair nightlife. The guest list skews
           toward fashion, creative industries, and international visitors
           who have done enough research to find their way to a venue that
@@ -130,19 +130,19 @@ export default function TabuLondonJapaneseUndergroundPage() {
           </ul>
         </div>
 
-        <h2>Who TABU Is For</h2>
+        <h2>Who TABU Was For</h2>
 
         <p>
-          TABU is the right choice for anyone who wants the quality and
+          TABU was the right choice for anyone who wanted the quality and
           service of a Mayfair nightclub without the Mayfair homogeneity.
-          It is excellent for couples and smaller groups who value atmosphere
+          It was excellent for couples and smaller groups who value atmosphere
           over capacity, for repeat visitors to London who have exhausted
           the obvious options, and for anyone who appreciates design and
           aesthetics as part of their nightlife experience. Our{" "}
           <Link href="/blog/best-clubs-mayfair-complete-ranking">
             Mayfair ranking
           </Link>{" "}
-          positions TABU as one of the area&apos;s most distinctive offerings.
+          positions Rumour (formerly TABU) as one of the area&apos;s most distinctive offerings.
         </p>
 
         <p>

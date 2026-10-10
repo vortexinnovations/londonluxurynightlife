@@ -37,7 +37,7 @@ export default function BirthdayNightOutLondonGuidePage() {
       />
       <ArticleLayout
         title="Planning a Birthday Night Out in London: The Complete Guide"
-        subtitle="From the first message to the group chat to walking through the door — here's how to make it unforgettable"
+        subtitle="From the first message to the group chat to walking through the door, here's how to make it unforgettable"
         heroImage={BLOG_IMAGES["birthday-night-out-london-planning-guide"]}
         heroAlt="Birthday celebration with sparklers at a London nightclub"
         ctaMessage={WA_GENERAL_MESSAGE}
@@ -48,8 +48,8 @@ export default function BirthdayNightOutLondonGuidePage() {
           does not. Someone&apos;s name is attached to the evening. Expectations
           are higher, the group is larger, and the margin for error is thinner.
           When a birthday night goes well, it becomes a story people retell for
-          years. When it goes badly — the wrong venue, half the group turned
-          away at the door, an argument over the bill — it lingers just as long.
+          years. When it goes badly (the wrong venue, half the group turned
+          away at the door, an argument over the bill) it lingers just as long.
           Planning a birthday night out at London&apos;s best nightclubs is not
           difficult, but it does require more intention than a casual weekend
           plan.
@@ -73,8 +73,8 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          The host — whether that is the birthday person or a friend organising
-          on their behalf — becomes a project manager for the evening. Venue
+          The host, whether that is the birthday person or a friend organising
+          on their behalf, becomes a project manager for the evening. Venue
           selection, communication, timing, costs, and contingencies all fall on
           their shoulders. The single best thing you can do is start early and
           make decisions decisively. Group chats where twenty people debate venue
@@ -108,7 +108,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           If the birthday person values exclusivity and a discerning crowd over
           spectacle, Tape is the natural choice. The intimate space makes a
           birthday table feel significant rather than lost in a larger venue.
-          It is also a name that carries weight — telling people your birthday
+          It is also a name that carries weight: telling people your birthday
           is at Tape London sets expectations appropriately.
         </p>
 
@@ -124,7 +124,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         <p>
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the pick if you want to
           combine a seated birthday dinner with the club night in a single
-          venue — their format transitions seamlessly from restaurant to dance
+          venue: their format transitions seamlessly from restaurant to dance
           floor, removing the logistical challenge of moving a large group
           between locations.
         </p>
@@ -149,7 +149,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           directly is almost always the better move. A good concierge has
           existing relationships with venues and can secure better table
           positions, negotiate on minimum spends, and ensure the club knows it
-          is a birthday — which unlocks the extras that make the night feel
+          is a birthday, which unlocks the extras that make the night feel
           special.
         </p>
 
@@ -163,8 +163,8 @@ export default function BirthdayNightOutLondonGuidePage() {
 
         <p>
           Timing matters. For a Friday or Saturday birthday, two to four weeks
-          of lead time is the minimum. For peak dates — bank holiday weekends,
-          the run-up to Christmas, or NYE — start six to eight weeks out. Our{" "}
+          of lead time is the minimum. For peak dates (bank holiday weekends,
+          the run-up to Christmas, or NYE) start six to eight weeks out. Our{" "}
           <Link href="/blog/bottle-service-london-explained">
             bottle service guide
           </Link>{" "}
@@ -183,7 +183,7 @@ export default function BirthdayNightOutLondonGuidePage() {
 
         <p>
           The key word is &ldquo;complimentary.&rdquo; These extras typically
-          come as part of your table booking — they are not additional charges.
+          come as part of your table booking; they are not additional charges.
           However, they are not automatic either. If you do not mention the
           birthday when booking, do not expect the club to produce a cake at
           midnight. Communicate early, confirm the details the week before, and
@@ -199,7 +199,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         <h2>Managing the Group</h2>
 
         <p>
-          This is where most birthday nights succeed or fail — not at the venue,
+          This is where most birthday nights succeed or fail, not at the venue,
           but in the two weeks of planning beforehand. Three areas need firm
           management.
         </p>
@@ -219,7 +219,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         <p>
           Nothing derails a birthday night faster than someone being refused
           entry. Communicate the dress code clearly, early, and repeatedly. Do
-          not rely on people reading the club&apos;s website — send specific
+          not rely on people reading the club&apos;s website. Send specific
           guidance. No trainers, no sportswear, smart shoes required. For
           detailed advice, point the group to our{" "}
           <Link href="/london-club-dress-code-guide">
@@ -238,7 +238,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           approaches: either the birthday person&apos;s share is covered by the
           group and everyone else splits equally, or the minimum spend is
           divided evenly among all attendees including the birthday person. Both
-          work — what does not work is ambiguity.
+          work; what does not work is ambiguity.
         </p>
 
         <p>
@@ -246,7 +246,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           transfer before the night removes the awkwardness of settling up at
           3am when half the group has left. For a typical Mayfair table with a
           £1,500 minimum spend and a group of ten, each person&apos;s share
-          works out to £150 to £200 — well within reason for a special
+          works out to £150 to £200, well within reason for a special
           occasion.
         </p>
 
@@ -263,7 +263,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           beyond the food. It gathers everyone in one place, gives the group
           time to connect, and creates a natural staging point before the club.
           Without a dinner, you are relying on fifteen people to independently
-          arrive at a nightclub within the same thirty-minute window — which
+          arrive at a nightclub within the same thirty-minute window, which
           rarely happens.
         </p>
 
@@ -307,8 +307,8 @@ export default function BirthdayNightOutLondonGuidePage() {
         <p>
           For a group of twelve at a mid-tier Mayfair venue with dinner, expect
           a total evening cost of roughly £2,500 to £4,500, or £200 to £375 per
-          person. At the higher end — Tape London or Cirque Le Soir with a
-          premium table — that figure climbs. Communicate the per-person cost
+          person. At the higher end (Tape London or Cirque Le Soir with a
+          premium table) that figure climbs. Communicate the per-person cost
           early so nobody is surprised.
         </p>
 
@@ -327,7 +327,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           <li>
             <strong>Nobody can find each other.</strong>{" "}Designate a meeting
             point and share the table location once you arrive. In a loud club,
-            WhatsApp messages go unread — have a plan.
+            WhatsApp messages go unread. Have a plan.
           </li>
           <li>
             <strong>The bill creates drama.</strong>{" "}Settle contributions before
@@ -336,7 +336,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           <li>
             <strong>The birthday person does not actually enjoy it.</strong>{" "}
             This happens when the venue was chosen for the group rather than for
-            the individual. Their preferences come first — always.
+            the individual. Their preferences come first, always.
           </li>
         </ul>
 
@@ -361,7 +361,7 @@ export default function BirthdayNightOutLondonGuidePage() {
             outstanding RSVPs. Confirm birthday extras with the venue.
           </li>
           <li>
-            <strong>1 week before:</strong>{" "}Send final details to the group —
+            <strong>1 week before:</strong>{" "}Send final details to the group:
             meeting time, restaurant address, club name, dress code reminder.
           </li>
           <li>

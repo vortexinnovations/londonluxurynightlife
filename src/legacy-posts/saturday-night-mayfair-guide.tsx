@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Saturday Night in Mayfair: A Local's Guide",
   description:
-    "The insider playbook for Mayfair's biggest night out. From cocktails at 8pm to closing time at 3am — timing, venues, bookings, and the mistakes to avoid.",
+    "The insider playbook for Mayfair's biggest night out. From cocktails at 8pm to closing time at 3am: timing, venues, bookings, and the mistakes to avoid.",
   keywords:
     "Saturday night Mayfair, Saturday night out London, Mayfair Saturday clubs, weekend nightlife Mayfair London",
   openGraph: {
     title: "Saturday Night in Mayfair: A Local's Guide to the Perfect Evening",
     description:
-      "The insider playbook for Mayfair's biggest night — from cocktails at 8pm to closing time at 3am.",
+      "The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time at 3am.",
     url: "https://londonluxurynightlife.com/blog/saturday-night-mayfair-guide",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function SaturdayNightMayfairGuidePage() {
     <>
       <ArticleSchema
         title="Saturday Night in Mayfair: A Local's Guide to the Perfect Evening"
-        description="The insider playbook for Mayfair's biggest night — timing, venues, bookings, and the mistakes to avoid."
+        description="The insider playbook for Mayfair's biggest night: timing, venues, bookings, and the mistakes to avoid."
         slug="/blog/saturday-night-mayfair-guide"
       />
       <ArticleLayout
         title="Saturday Night in Mayfair: A Local's Guide to the Perfect Evening"
-        subtitle="The insider playbook for Mayfair's biggest night — from cocktails at 8pm to closing time at 3am"
+        subtitle="The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time at 3am"
         heroImage={BLOG_IMAGES["saturday-night-mayfair-guide"]}
         heroAlt="Busy Saturday night atmosphere inside a Mayfair club"
       >
@@ -44,7 +44,7 @@ export default function SaturdayNightMayfairGuidePage() {
           Every significant venue is open, every table is in demand, and the
           streets between Berkeley Square and Regent Street carry an energy
           that the rest of the week only approximates. Getting Saturday night
-          in Mayfair right requires understanding the rhythm of the evening —
+          in Mayfair right requires understanding the rhythm of the evening:
           the timing, the transitions, and the unwritten rules that separate a
           great weekend nightlife experience from an expensive disappointment.
         </p>
@@ -56,12 +56,12 @@ export default function SaturdayNightMayfairGuidePage() {
           locals understand instinctively. Here is the structure, hour by hour.
         </p>
 
-        <h3>7:00&ndash;8:30pm: Cocktails</h3>
+        <h3>7:00 to 8:30pm: Cocktails</h3>
 
         <p>
           The evening starts earlier than most visitors expect.{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is an excellent
-          starting point — it operates as a sophisticated cocktail bar and
+          starting point: it operates as a sophisticated cocktail bar and
           restaurant before transitioning into a late-night venue, which means
           you can settle into the evening without rushing. The Mayfair hotel
           bars are equally strong options: The Connaught Bar, Claridge&apos;s
@@ -71,10 +71,10 @@ export default function SaturdayNightMayfairGuidePage() {
           will be glad you came early.
         </p>
 
-        <h3>8:30&ndash;10:00pm: Dinner</h3>
+        <h3>8:30 to 10:00pm: Dinner</h3>
 
         <p>
-          Eating before a Mayfair night out is not optional — it is strategic.
+          Eating before a Mayfair night out is not optional; it is strategic.
           You are looking at a long evening with expensive drinks, and a proper
           meal provides the foundation you need. The dining-to-nightlife
           pipeline is well established: venues like{" "}
@@ -88,11 +88,11 @@ export default function SaturdayNightMayfairGuidePage() {
           .
         </p>
 
-        <h3>10:30pm&ndash;Midnight: Club Arrival</h3>
+        <h3>10:30pm to Midnight: Club Arrival</h3>
 
         <p>
           This is the critical window. If you have a table booked, arriving
-          between 10:30 and 11:30pm is ideal — your table will be ready, the
+          between 10:30 and 11:30pm is ideal: your table will be ready, the
           room is filling but not yet at capacity, and you can settle in as the
           energy builds. Guest list arrivals should aim for 11pm at the latest.
           After midnight, door queues grow, the energy inside is already
@@ -100,7 +100,7 @@ export default function SaturdayNightMayfairGuidePage() {
           prioritise table bookings and regulars.
         </p>
 
-        <h3>Midnight&ndash;1:00am: Peak Entry</h3>
+        <h3>Midnight to 1:00am: Peak Entry</h3>
 
         <p>
           This is when every venue hits its stride. The dance floors fill, the
@@ -112,7 +112,7 @@ export default function SaturdayNightMayfairGuidePage() {
           door.
         </p>
 
-        <h3>1:00&ndash;2:30am: The Peak</h3>
+        <h3>1:00 to 2:30am: The Peak</h3>
 
         <p>
           The hour between 1am and 2am is when Mayfair is at its absolute best.
@@ -124,11 +124,11 @@ export default function SaturdayNightMayfairGuidePage() {
           Saturday is genuinely electric.
         </p>
 
-        <h3>2:30&ndash;3:00am: The Wind-Down</h3>
+        <h3>2:30 to 3:00am: The Wind-Down</h3>
 
         <p>
           Most Mayfair clubs close at 3am, some at 3:30am. The experienced
-          crowd knows the last half-hour changes character — the music
+          crowd knows the last half-hour changes character: the music
           intensifies for a final push, the lights stay low, and there is a
           collective awareness that the evening is reaching its conclusion.
           Smart guests begin thinking about transport by 2:30am.
@@ -137,13 +137,13 @@ export default function SaturdayNightMayfairGuidePage() {
         <h2>Booking: The Non-Negotiable</h2>
 
         <p>
-          Saturday tables in Mayfair sell out. This is not a marketing claim —
+          Saturday tables in Mayfair sell out. This is not a marketing claim;
           it is a logistical reality. The most desirable venues have limited
           table inventory, and Saturday demand exceeds supply every week of the
           year outside August. Booking a week in advance is sensible. Booking
           two weeks ahead for peak periods (bank holidays, fashion week,
           summer) is necessary. Walking up on a Saturday night without a
-          booking and hoping for a table is not a strategy — it is a way to
+          booking and hoping for a table is not a strategy; it is a way to
           spend your evening in a queue.
         </p>
 
@@ -152,10 +152,10 @@ export default function SaturdayNightMayfairGuidePage() {
           <ul>
             <li>Book at least 7 days in advance for standard Saturdays</li>
             <li>Book 14+ days ahead for bank holidays and special events</li>
-            <li>Confirm your booking the day before — no-shows lose tables</li>
+            <li>Confirm your booking the day before: no-shows lose tables</li>
             <li>Communicate your group size accurately (adding guests last-minute is difficult)</li>
             <li>
-              <Link href="/contact">Contact us</Link>{" "}for same-week bookings — we can often secure tables that are not publicly available
+              <Link href="/contact">Contact us</Link>{" "}for same-week bookings: we can often secure tables that are not publicly available
             </li>
           </ul>
         </div>
@@ -166,7 +166,7 @@ export default function SaturdayNightMayfairGuidePage() {
           One of Mayfair&apos;s great advantages is its density. Nearly every
           significant club is within a ten-minute walk of the others. Tape
           London on Hanover Square, Maddox on Maddox Street, Itzel on
-          Berkeley Street — you can cover the entire
+          Berkeley Street: you can cover the entire
           district on foot. This makes Mayfair uniquely suited to an evening
           where you start at one venue and move to another. No taxis, no surge
           pricing, no waiting. Just a short walk through some of London&apos;s
@@ -191,7 +191,7 @@ export default function SaturdayNightMayfairGuidePage() {
 
         <p className="pull-quote">
           Saturday in Mayfair rewards those who plan. The best tables, the
-          smoothest entry, the best positions in the room — all go to people
+          smoothest entry, the best positions in the room: all go to people
           who booked ahead and arrived on time.
         </p>
 
@@ -201,7 +201,7 @@ export default function SaturdayNightMayfairGuidePage() {
           Saturday at 3am is the single busiest moment for taxis in central
           London. Every club in Mayfair, Soho, and the West End is emptying
           simultaneously, and demand for cars vastly exceeds supply. Uber
-          surge pricing at this hour regularly hits 2&ndash;3x standard rates.
+          surge pricing at this hour regularly hits 2 to 3x standard rates.
           The experienced approach is to pre-book a private car (your concierge
           or table host can often arrange this), order your Uber at 2:30am
           before the surge peaks, or have a hotel within walking distance.
@@ -251,8 +251,8 @@ export default function SaturdayNightMayfairGuidePage() {
           combination of energy, music, company, and setting creates evenings
           that people remember for years. But the margin between a perfect
           Saturday and a frustrating one often comes down to planning. If you
-          want the evening handled — table secured, timing optimised, every
-          detail considered — <Link href="/contact">get in touch</Link>. We
+          want the evening handled (table secured, timing optimised, every
+          detail considered), <Link href="/contact">get in touch</Link>. We
           do this every week.
         </p>
 

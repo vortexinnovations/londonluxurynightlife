@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "How Much Does a Night Out in Mayfair Really Cost?",
   description:
-    "A transparent breakdown of every expense on a Mayfair night out — from club minimum spends and bottle prices to dinner, transport, and tips. Realistic budgets for every level.",
+    "A transparent breakdown of every expense on a Mayfair night out, from club minimum spends and bottle prices to dinner, transport, and tips. Realistic budgets for every level.",
   keywords:
     "Mayfair night out cost, how much bottle service London, London club prices, Mayfair club minimum spend, night out London budget",
   openGraph: {
     title: "How Much Does a Night Out in Mayfair Really Cost?",
     description:
-      "A transparent breakdown of every expense — from table minimums to the taxi home. Realistic budgets for every level of luxury.",
+      "A transparent breakdown of every expense, from table minimums to the taxi home. Realistic budgets for every level of luxury.",
     url: "https://londonluxurynightlife.com/blog/how-much-does-night-out-mayfair-cost",
     type: "article",
   },
@@ -29,12 +29,12 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
     <>
       <ArticleSchema
         title="How Much Does a Night Out in Mayfair Really Cost?"
-        description="A transparent breakdown of every expense on a Mayfair night out — from club minimum spends and bottle prices to dinner, transport, and tips."
+        description="A transparent breakdown of every expense on a Mayfair night out, from club minimum spends and bottle prices to dinner, transport, and tips."
         slug="/blog/how-much-does-night-out-mayfair-cost"
       />
       <ArticleLayout
         title="How Much Does a Night Out in Mayfair Really Cost?"
-        subtitle="A transparent breakdown of every expense — from table minimums to the taxi home"
+        subtitle="A transparent breakdown of every expense, from table minimums to the taxi home"
         heroImage={BLOG_IMAGES["how-much-does-night-out-mayfair-cost"]}
         heroAlt="VIP bottle service and champagne at a Mayfair nightclub"
       >
@@ -42,7 +42,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           The single most common question we get asked is some variation of
           &quot;how much does a Mayfair night out cost?&quot; And the honest
           answer is: it depends entirely on what kind of evening you want. But
-          that non-answer helps nobody, so here is the real breakdown — every
+          that non-answer helps nobody, so here is the real breakdown: every
           expense, no euphemisms, no vague ranges designed to get you through
           the door before you see a bill. These are the actual London club
           prices you will encounter in 2025.
@@ -58,8 +58,8 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           spends typically start at <strong>&pound;1,000 to &pound;1,500</strong>{" "}
           on a standard Friday or Saturday night. Smaller tables or quieter
           nights (Tuesday at Tape, Thursday at Maddox) can occasionally start lower, around
-          &pound;500&ndash;&pound;800. Premium tables — those closest to the DJ
-          or in the best sightlines — run &pound;2,000 to &pound;5,000 or more
+          &pound;500 to &pound;800. Premium tables, those closest to the DJ
+          or in the best sightlines, run &pound;2,000 to &pound;5,000 or more
           at top-tier venues.
         </p>
 
@@ -78,8 +78,8 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           offer. Your host manages your table, pours your drinks, keeps your
           area clean, and ensures you are looked after all night. At venues like{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, the
-          theatrical service — sparklers on bottle deliveries, performers at
-          your table — is part of the experience. For a deeper explanation, read
+          theatrical service (sparklers on bottle deliveries, performers at
+          your table) is part of the experience. For a deeper explanation, read
           our{" "}
           <Link href="/blog/bottle-service-london-explained">
             full guide to bottle service in London
@@ -99,23 +99,23 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
         <ul>
           <li>
             <strong>Premium vodka</strong>{" "}(Grey Goose, Belvedere):
-            &pound;350&ndash;&pound;500 per bottle
+            &pound;350 to &pound;500 per bottle
           </li>
           <li>
             <strong>Whisky/tequila</strong>{" "}(Don Julio, Clase Azul):
-            &pound;400&ndash;&pound;600
+            &pound;400 to &pound;600
           </li>
           <li>
             <strong>Champagne</strong>{" "}(Mo&euml;t, Veuve Clicquot):
-            &pound;350&ndash;&pound;500
+            &pound;350 to &pound;500
           </li>
           <li>
             <strong>Premium champagne</strong>{" "}(Dom P&eacute;rignon):
-            &pound;600&ndash;&pound;900
+            &pound;600 to &pound;900
           </li>
           <li>
             <strong>Ultra-premium champagne</strong>{" "}(Ace of Spades, Cristal):
-            &pound;1,000&ndash;&pound;2,000+
+            &pound;1,000 to &pound;2,000+
           </li>
         </ul>
 
@@ -131,12 +131,12 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
         <div className="info-box">
           <h4>The Reality of Spending</h4>
           <p>
-            Most groups spend 20&ndash;50% above their minimum. The minimum
+            Most groups spend 20 to 50% above their minimum. The minimum
             gets you through the door and seated. Once the evening is flowing,
             an extra bottle or a round of champagne for the table is a natural
             progression. A &pound;1,000 minimum night typically ends closer to
-            &pound;1,200&ndash;&pound;1,500 for the table. This is not pressure
-            selling — it is just how good nights go.
+            &pound;1,200 to &pound;1,500 for the table. This is not pressure
+            selling; it is just how good nights go.
           </p>
         </div>
 
@@ -144,9 +144,9 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           Most people doing Mayfair properly will eat first. A quality dinner
-          in the area — Novikov, Sexy Fish, Zuma, or any of the excellent
-          restaurants within walking distance of the clubs — runs{" "}
-          <strong>&pound;60&ndash;&pound;150 per person</strong>{" "}including a
+          in the area (Novikov, Sexy Fish, Zuma, or any of the excellent
+          restaurants within walking distance of the clubs) runs{" "}
+          <strong>&pound;60 to &pound;150 per person</strong>{" "}including a
           couple of drinks. You can spend more, obviously, but that range covers
           a genuinely excellent meal. For specific restaurant-to-club pairings,
           see our{" "}
@@ -160,9 +160,9 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           A cocktail at a Mayfair hotel bar or lounge runs{" "}
-          <strong>&pound;15&ndash;&pound;25 each</strong>. A round at Connaught
+          <strong>&pound;15 to &pound;25 each</strong>. A round at Connaught
           Bar, Claridge&apos;s, or any of the upscale bars in the area will
-          set you back &pound;60&ndash;&pound;100 for a group of four. Some
+          set you back &pound;60 to &pound;100 for a group of four. Some
           people skip this entirely and go straight from dinner to the club,
           which is perfectly sensible and saves a meaningful amount.
         </p>
@@ -171,11 +171,11 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           An Uber from central London to Mayfair costs roughly{" "}
-          <strong>&pound;15&ndash;&pound;30</strong>{" "}depending on distance
-          and surge pricing. Black cabs are similar. At the end of the night —
-          2am to 3am — expect surge pricing on ride-hailing apps, pushing a
-          return journey to &pound;25&ndash;&pound;50 depending on where you are
-          heading. Budget &pound;40&ndash;&pound;80 per person for transport
+          <strong>&pound;15 to &pound;30</strong>{" "}depending on distance
+          and surge pricing. Black cabs are similar. At the end of the night
+          (2am to 3am) expect surge pricing on ride-hailing apps, pushing a
+          return journey to &pound;25 to &pound;50 depending on where you are
+          heading. Budget &pound;40 to &pound;80 per person for transport
           across the entire evening if you are not walking between venues.
         </p>
 
@@ -183,12 +183,12 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <ul>
           <li>
-            <strong>Cloakroom:</strong>{" "}&pound;2&ndash;&pound;5 per item. Not
-            optional in winter — you are not bringing a coat to the table.
+            <strong>Cloakroom:</strong>{" "}&pound;2 to &pound;5 per item. Not
+            optional in winter: you are not bringing a coat to the table.
           </li>
           <li>
             <strong>Tips for your table host:</strong>{" "}Not mandatory in London,
-            but &pound;20&ndash;&pound;50 is appreciated and ensures even
+            but &pound;20 to &pound;50 is appreciated and ensures even
             better service next time. If your host has been exceptional, tip
             accordingly.
           </li>
@@ -206,21 +206,21 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
         </p>
 
         <div className="info-box">
-          <h4>Modest Luxury: &pound;250&ndash;&pound;400 per person</h4>
+          <h4>Modest Luxury: &pound;250 to &pound;400 per person</h4>
           <p>
             Skip the pre-dinner cocktails. A solid dinner (&pound;70pp). Share a
             &pound;1,000 minimum table between four (&pound;250pp). Uber both
-            ways. This is a genuinely excellent night — you have a table at a
+            ways. This is a genuinely excellent night: you have a table at a
             premium club, you have eaten well, and you have not overextended.
           </p>
         </div>
 
         <div className="info-box">
-          <h4>Mid-Range: &pound;500&ndash;&pound;800 per person</h4>
+          <h4>Mid-Range: &pound;500 to &pound;800 per person</h4>
           <p>
             Cocktails beforehand. A top-tier dinner (&pound;120pp). A
-            &pound;1,500&ndash;&pound;2,000 table with premium bottles. Black
-            car home. This is the sweet spot for a special occasion — birthday,
+            &pound;1,500 to &pound;2,000 table with premium bottles. Black
+            car home. This is the sweet spot for a special occasion: birthday,
             celebration, visiting London and doing it right.
           </p>
         </div>
@@ -230,7 +230,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           <p>
             The full experience. Premium dinner. Best table in the house.
             Champagne-heavy bottle selection. This is where you stop counting
-            and start enjoying. Groups regularly spend &pound;5,000&ndash;&pound;10,000+
+            and start enjoying. Groups regularly spend &pound;5,000 to &pound;10,000+
             on a table at venues like{" "}
             <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
             <Link href="/clubs/the-london-reign">The London Reign</Link>.
@@ -247,12 +247,12 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
         <ul>
           <li>
             <strong>Go on a weeknight.</strong>{" "}Wednesday and Thursday minimums
-            are often lower, and the crowds are more interesting — fewer tourist
+            are often lower, and the crowds are more interesting: fewer tourist
             groups, more regulars.
           </li>
           <li>
             <strong>Book through a promoter or concierge.</strong>{" "}
-            <Link href="/contact">Contact us</Link>{" "}— we can often secure
+            <Link href="/contact">Contact us</Link>. We can often secure
             better table positions or more favourable minimums than walking in
             cold.
           </li>
@@ -263,7 +263,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
           </li>
           <li>
             <strong>Eat well but not extravagantly.</strong>{" "}There are excellent
-            Mayfair restaurants at the &pound;60&ndash;&pound;80pp mark. You do
+            Mayfair restaurants at the &pound;60 to &pound;80pp mark. You do
             not need to spend &pound;150 on dinner to have a brilliant meal.
           </li>
           <li>
@@ -283,7 +283,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
 
         <p>
           A Mayfair night out is an investment, and it should be treated as one.
-          The experience — the service, the atmosphere, the calibre of venue —
+          The experience (the service, the atmosphere, the calibre of venue)
           is genuinely different from anything you will find at a standard London
           night out. But going in blind is how people end up shocked by the
           bill. Know the numbers, plan accordingly, and you will have the kind
