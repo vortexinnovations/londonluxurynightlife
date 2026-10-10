@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "London Clubs for High Spenders: Where Big Budgets Go",
   description:
-    "Where serious money gets the best experience in London nightlife. Spend tiers, premium tables, dedicated hosting — maximise every pound.",
+    "Where serious money gets the best experience in London nightlife. Spend tiers, premium tables, dedicated hosting: maximise every pound.",
   keywords:
     "best clubs for high spenders london, luxury bottle service london, high roller clubs london, london clubs for big spenders, premium VIP tables london, high spend nightclubs london",
   openGraph: {
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "Is bottle service worth it at London nightclubs?",
     answer:
-      "At the venues listed in this guide, absolutely. Bottle service guarantees entry, provides a dedicated table and host, and creates an experience fundamentally different from general admission. The value is not in the bottles themselves — it is in the table position, the service, the atmosphere, and the guaranteed access to London's most selective venues.",
+      "At the venues listed in this guide, absolutely. Bottle service guarantees entry, provides a dedicated table and host, and creates an experience fundamentally different from general admission. The value is not in the bottles themselves. It is in the table position, the service, the atmosphere, and the guaranteed access to London's most selective venues.",
   },
   {
     question:
@@ -64,13 +64,13 @@ export default function BestNightclubsForHighSpendersLondonPage() {
     <>
       <ArticleSchema
         title="Best Nightclubs for High Spenders in London"
-        description="Where to spend big in London's nightlife — and where your money actually delivers. The insider's guide to high-roller clubs, premium bottle service, and maximising a significant budget."
+        description="Where to spend big in London's nightlife, and where your money actually delivers. The insider's guide to high-roller clubs, premium bottle service, and maximising a significant budget."
         slug="/best-nightclubs-for-high-spenders-london"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Nightclubs for High Spenders in London"
-        subtitle="Where your money goes furthest at the premium tier — and how to ensure every pound delivers"
+        subtitle="Where your money goes furthest at the premium tier, and how to ensure every pound delivers"
         heroImage={GUIDE_IMAGES["best-nightclubs-for-high-spenders-london"]}
         heroAlt="High-end bottle service and champagne presentation at a premium London nightclub"
       >
@@ -85,8 +85,8 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         </p>
 
         <p>
-          This guide is written for people with serious budgets — whether
-          personal or corporate — who want their money to deliver an
+          This guide is written for people with serious budgets, whether
+          personal or corporate, who want their money to deliver an
           experience proportional to the investment. We have seen too many
           high spenders default to the most expensive option without
           understanding whether it is the best option. Sometimes it is.
@@ -100,12 +100,12 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           London&apos;s premium clubs operate on a tiered minimum spend
           structure that determines your table position, service level, and
           overall experience. Understanding these tiers is essential because
-          the jump between them is not linear — the difference between the
+          the jump between them is not linear: the difference between the
           first and second tier is more significant than the price gap
           suggests.
         </p>
 
-        <h3>The &pound;1,000 Tier — Entry to Premium</h3>
+        <h3>The &pound;1,000 Tier: Entry to Premium</h3>
 
         <p>
           A &pound;1,000 minimum spend at the top Mayfair and West End venues secures
@@ -113,7 +113,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           <Link href="/clubs/selene-london">Selene</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, this tier
-          provides a genuinely premium experience — good tables, attentive
+          provides a genuinely premium experience: good tables, attentive
           service, and an atmosphere that justifies the spend. You will
           typically receive two to three bottles of premium spirits or a
           combination of spirits and champagne, with mixers and a dedicated
@@ -125,10 +125,10 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           the dinner-to-club format means your spend covers both an Italian
           dinner and the subsequent nightclub experience. For a group of
           four to six, the per-person cost is comparable to a good restaurant
-          and a separate club — but the experience is seamlessly integrated.
+          and a separate club, but the experience is seamlessly integrated.
         </p>
 
-        <h3>The &pound;1,500 Tier — The Sweet Spot</h3>
+        <h3>The &pound;1,500 Tier: The Sweet Spot</h3>
 
         <p>
           At &pound;1,500, the experience noticeably elevates.{" "}
@@ -146,18 +146,18 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           table positions are materially better, the service becomes more
           attentive and personalised, and the overall experience feels
           proportionally richer. For groups of six to eight, &pound;1,500 is
-          the point at which the per-person value maximises — you are paying
+          the point at which the per-person value maximises. You are paying
           enough to access the best experiences without overspending relative
           to the return.
         </p>
 
-        <h3>The &pound;2,000+ Tier — VVIP Territory</h3>
+        <h3>The &pound;2,000+ Tier: VVIP Territory</h3>
 
         <p>
           Above &pound;2,000, you enter VVIP territory. This means the best
           table in the house, a dedicated host who manages your entire
           evening rather than simply delivering bottles, access to premium
-          champagnes and rare spirits, and — at the best venues — an
+          champagnes and rare spirits, and, at the best venues, an
           experience that is genuinely bespoke. At Tape, this might mean a
           table adjacent to the night&apos;s most notable guests. At Cirque,
           it means prime placement for the entertainment. At{" "}
@@ -170,13 +170,13 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           becomes critical. The difference between a &pound;2,500 evening
           managed by someone who knows the venue intimately and the same
           spend managed blindly is enormous. The table position, the host
-          assigned to you, the bottles selected, the timing of service — all
+          assigned to you, the bottles selected, the timing of service: all
           of these details are influenced by the person making the booking.
         </p>
 
         <p className="pull-quote">
           The difference between spending &pound;2,000 well and spending
-          &pound;2,000 poorly in a London nightclub is not the venue — it
+          &pound;2,000 poorly in a London nightclub is not the venue: it
           is whether someone who understands the venue is managing your
           evening.
         </p>
@@ -190,7 +190,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           highest return on investment at the premium tier because its
           exclusivity is genuine. The &pound;1,500 minimum is the highest in
           Mayfair, but it buys access to a room that money alone cannot
-          enter — the door policy filters for quality as well as spend. The
+          enter: the door policy filters for quality as well as spend. The
           no-phones policy, the music industry crowd, and the genuine
           celebrity presence create an atmosphere that justifies the premium.
           For high spenders who value exclusivity and atmosphere above all
@@ -208,7 +208,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           <Link href="/guides/corporate-entertainment-london">
             corporate entertainment
           </Link>
-          , this format is exceptionally effective — it demonstrates
+          , this format is exceptionally effective: it demonstrates
           sophistication without excess.
         </p>
 
@@ -218,7 +218,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}delivers
           the most tangible return on a high spend because the entertainment
           component is built into the experience. A premium table at Cirque
-          means you are not simply buying bottles and a table — you are
+          means you are not simply buying bottles and a table. You are
           buying front-row access to performances that would cost hundreds
           at a traditional theatre. The ratio of experience to spend is
           arguably the highest of any London venue.
@@ -241,7 +241,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           genuinely different. The provocative performance format creates
           evenings that people talk about for years. Premium booths offer
           privacy and prime sightlines, and the atmosphere is unlike anything
-          else in London. Not for every occasion — but for the right
+          else in London. Not for every occasion, but for the right
           occasion, it is unmatched.
         </p>
 

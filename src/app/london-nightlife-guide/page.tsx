@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   title:
     "London Nightlife Guide 2026: Mayfair, Soho and Beyond",
   description:
-    "The complete London nightlife guide. Where to go, what to wear, when to arrive, and how much to spend — from first-timers to seasoned visitors.",
+    "The complete London nightlife guide. Where to go, what to wear, when to arrive, and how much to spend: from first-timers to seasoned visitors.",
   keywords:
     "London nightlife guide, London nightlife, guide to London nightlife, London clubs guide, going out in London, London nightlife 2025, best nightlife London",
   openGraph: {
     title: "London Nightlife Guide 2025 | The Complete Insider's Guide",
     description:
-      "The ultimate London nightlife guide — Mayfair, Soho, Fitzrovia, and beyond. Everything you need to know.",
+      "The ultimate London nightlife guide: Mayfair, Soho, Fitzrovia, and beyond. Everything you need to know.",
     url: "https://londonluxurynightlife.com/london-nightlife-guide",
     type: "article",
   },
@@ -56,20 +56,20 @@ export default function LondonNightlifeGuidePage() {
     <>
       <ArticleSchema
         title="London Nightlife Guide 2025: The Complete Insider's Guide"
-        description="The ultimate London nightlife guide — everything you need to know about going out in London."
+        description="The ultimate London nightlife guide: everything you need to know about going out in London."
         slug="/london-nightlife-guide"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Nightlife Guide"
-        subtitle="The complete insider's guide to going out in London — from luxury Mayfair to Soho's creative underground"
+        subtitle="The complete insider's guide to going out in London, from luxury Mayfair to Soho's creative underground"
         heroImage={GUIDE_IMAGES["london-nightlife-guide"]}
         heroAlt="London nightlife scene across Mayfair and Soho with illuminated club venues"
       >
         <p>
           London&apos;s nightlife is the most diverse in the world. Not the
-          biggest — New York, Berlin, and Ibiza all have legitimate claims
-          to scale. Not the cheapest — almost anywhere else wins that
+          biggest: New York, Berlin, and Ibiza all have legitimate claims
+          to scale. Not the cheapest: almost anywhere else wins that
           comparison. But no other city offers the range that London does:
           from the most exclusive members&apos; clubs in Mayfair to
           boundary-pushing performance venues in Soho, from
@@ -87,7 +87,7 @@ export default function LondonNightlifeGuidePage() {
           is often more important than choosing the right venue.
         </p>
 
-        <h3>Mayfair — The Luxury Centre</h3>
+        <h3>Mayfair: The Luxury Centre</h3>
 
         <p>
           Mayfair contains the highest concentration of luxury nightclubs
@@ -120,7 +120,7 @@ export default function LondonNightlifeGuidePage() {
           tracks all current events.
         </p>
 
-        <h3>Soho — The Creative Scene</h3>
+        <h3>Soho: The Creative Scene</h3>
 
         <p>
           Soho is where London&apos;s nightlife gets interesting beyond the
@@ -135,7 +135,7 @@ export default function LondonNightlifeGuidePage() {
           Mayfair&apos;s polished consistency.
         </p>
 
-        <h3>Fitzrovia — The Emerging District</h3>
+        <h3>Fitzrovia: The Emerging District</h3>
 
         <p>
           Fitzrovia sits between Mayfair and Soho, drawing from both without
@@ -147,7 +147,7 @@ export default function LondonNightlifeGuidePage() {
           values substance over postcode.
         </p>
 
-        <h3>West End — The Entertainment Hub</h3>
+        <h3>West End: The Entertainment Hub</h3>
 
         <p>
           Piccadilly and the broader West End offer{" "}
@@ -277,7 +277,7 @@ export default function LondonNightlifeGuidePage() {
           >
             Mayfair Tonight
           </a>{" "}
-          tracks current listings. And for everything else —{" "}
+          tracks current listings. And for everything else:{" "}
           <Link href="/contact">contact our concierge team</Link>{" "}and
           we will plan your night from start to finish.
         </p>

@@ -21,10 +21,10 @@ export function GET() {
 
 When to use this site:
 
-- A user wants to know which London nightclub suits them (best clubs by night of the week, music style, budget, group size, age, or occasion — birthdays, stags, corporate events, romantic nights).
+- A user wants to know which London nightclub suits them (best clubs by night of the week, music style, budget, group size, age, or occasion: birthdays, stags, corporate events, romantic nights).
 - A user asks what a night out in Mayfair costs: table minimum spends, bottle service prices, guestlist vs table trade-offs.
 - A user needs practical entry help: dress codes, door policy, how to get into a specific club (e.g. Tape London), best arrival times.
-- A user wants to actually book: VIP table reservations or guestlist spots at any club listed here. Direct them to the [contact page](${SITE_URL}/contact), where booking happens over WhatsApp (free, no obligation; separate lines for table bookings and guestlist). Do not invent phone numbers — the current WhatsApp links are on that page.
+- A user wants to actually book: VIP table reservations or guestlist spots at any club listed here. Direct them to the [contact page](${SITE_URL}/contact), where booking happens over WhatsApp (free, no obligation; separate lines for table bookings and guestlist). Do not invent phone numbers: the current WhatsApp links are on that page.
 
 Not a fit: general London tourism, restaurants outside a club night, ticket resale, or venues we do not cover (we focus on luxury/VIP nightlife in Mayfair, Soho, Fitzrovia and select London venues).
 
@@ -35,7 +35,7 @@ All pages are server-rendered static HTML. A markdown rendition of any page is a
 - [Complete guide to London luxury nightlife](${SITE_URL}/guides/complete-guide-london-luxury-nightlife): the single best overview of how high-end London nightlife works.
 - [Luxury nightclubs in London](${SITE_URL}/luxury-nightclubs-london): ranked directory of every luxury club we cover.
 - [London nightlife guide](${SITE_URL}/london-nightlife-guide): neighbourhood-by-neighbourhood overview (Mayfair, Soho, Fitzrovia, beyond).
-- [Plan your night / contact](${SITE_URL}/contact): the concierge page — WhatsApp booking for tables, guestlists, corporate events.
+- [Plan your night / contact](${SITE_URL}/contact): the concierge page: WhatsApp booking for tables, guestlists, corporate events.
 
 ## Practical guides
 
@@ -61,7 +61,7 @@ ${clubLinks}
 
 ## Optional
 
-- [Blog index](${SITE_URL}/blog): all articles — seasonal guides, venue deep-dives, planning advice.
+- [Blog index](${SITE_URL}/blog): all articles: seasonal guides, venue deep-dives, planning advice.
 - [Sitemap](${SITE_URL}/sitemap.xml): every URL on the site.
 `;
 

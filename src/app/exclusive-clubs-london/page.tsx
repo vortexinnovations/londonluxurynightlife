@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Most Exclusive Clubs in London | The Definitive Insider Ranking",
     description:
-      "The honest ranking of London's most exclusive nightclubs — what makes them exclusive, how selective the doors are, and what it takes to get in.",
+      "The honest ranking of London's most exclusive nightclubs: what makes them exclusive, how selective the doors are, and what it takes to get in.",
     url: "https://londonluxurynightlife.com/exclusive-clubs-london",
     type: "article",
   },
@@ -29,18 +29,18 @@ export default function ExclusiveClubsLondonPage() {
     <>
       <ArticleSchema
         title="Most Exclusive Clubs in London: The Definitive Ranking"
-        description="The honest insider ranking of London's most exclusive nightclubs — what makes them genuinely exclusive, how selective each door really is, and what it takes to get in."
+        description="The honest insider ranking of London's most exclusive nightclubs: what makes them genuinely exclusive, how selective each door really is, and what it takes to get in."
         slug="/exclusive-clubs-london"
       />
       <ArticleLayout
         title="Most Exclusive Clubs in London"
-        subtitle="What genuinely separates exclusive from merely expensive — and the honest ranking of who gets it right"
+        subtitle="What genuinely separates exclusive from merely expensive, and the honest ranking of who gets it right"
         heroImage={GUIDE_IMAGES["exclusive-clubs-london"]}
         heroAlt="Exclusive London nightclub entrance with doorman and velvet rope in Mayfair"
       >
         <p>
           Every club in Mayfair calls itself exclusive. Most of them are lying.
-          A high minimum spend does not make a venue exclusive — it makes it
+          A high minimum spend does not make a venue exclusive. It makes it
           expensive. Genuine exclusivity is rarer, harder to manufacture, and
           impossible to fake for long. It requires a door policy that actively
           turns away money, a crowd that returns because the room delivers
@@ -50,15 +50,15 @@ export default function ExclusiveClubsLondonPage() {
 
         <p>
           This is the distinction most guides fail to make. A club charging
-          &pound;2,000 for a table but seating anyone who pays is not exclusive
-          — it is a premium product with open distribution. A club that turns
+          &pound;2,000 for a table but seating anyone who pays is not exclusive. 
+          It is a premium product with open distribution. A club that turns
           away a group of six willing to spend &pound;5,000 because they do not
           fit the room is exercising genuine exclusivity. London has both types.
           This guide identifies which is which.
         </p>
 
         <p>
-          We have tested every door on this list repeatedly — with bookings,
+          We have tested every door on this list repeatedly, with bookings,
           on guestlists, and as walk-ups. We know which venues enforce their
           standards and which abandon them the moment revenue is at stake.
           What follows is an honest ranking based on a single criterion: how
@@ -79,7 +79,7 @@ export default function ExclusiveClubsLondonPage() {
 
         <p>
           Door policy severity is the most visible marker. The best doors in
-          London are not operated by security guards — they are operated by
+          London are not operated by security guards. They are operated by
           experienced hosts who assess group composition, energy, dress, and
           whether new arrivals will add to or subtract from the existing room.
           This is not snobbery; it is curation. The difference matters because
@@ -104,13 +104,13 @@ export default function ExclusiveClubsLondonPage() {
 
         <h2>The Ranking: London&apos;s Most Exclusive Clubs</h2>
 
-        <h3>#1 — Tape London</h3>
+        <h3>#1: Tape London</h3>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}is the most
           exclusive nightclub in London by every meaningful measure. The Hanover
           Square venue operates with a door policy that routinely turns away
-          table bookings — not walk-ups, not guestlist hopefuls, but people
+          table bookings, not walk-ups, not guestlist hopefuls, but people
           who have already committed to &pound;1,500 minimum spends. That
           willingness to refuse guaranteed revenue is the clearest signal of
           genuine exclusivity in the city.
@@ -120,11 +120,11 @@ export default function ExclusiveClubsLondonPage() {
           The no-phones policy is the second layer. By removing the ability to
           photograph or film, Tape creates an environment where privacy is
           structural rather than aspirational. This is why A-list musicians,
-          actors, and athletes treat it as their default — not because Tape
+          actors, and athletes treat it as their default, not because Tape
           courts them, but because Tape is the one room where they can exist
           without performance. Tables start from &pound;1,500 and frequently
           exceed &pound;3,000 on premium nights. The crowd is a genuine mix of
-          entertainment industry, finance, and fashion — but only the fraction
+          entertainment industry, finance, and fashion, but only the fraction
           of each world that the door team considers a fit. Learn exactly{" "}
           <Link href="/how-to-get-into-tape-london">
             how to get into Tape London
@@ -132,13 +132,13 @@ export default function ExclusiveClubsLondonPage() {
           in our dedicated guide.
         </p>
 
-        <h3>#2 — Scotch of St James</h3>
+        <h3>#2: Scotch of St James</h3>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           earns its position through a form of exclusivity that money cannot
           replicate: genuine heritage. The Mason&apos;s Yard basement carries
-          decades of cultural weight, and the crowd reflects that — creative
+          decades of cultural weight, and the crowd reflects that: creative
           industry, music, fashion, and the sort of people who choose venues
           for character rather than status. The door policy is selective but
           operates on different criteria to Mayfair clubs: it rewards
@@ -146,7 +146,7 @@ export default function ExclusiveClubsLondonPage() {
           harder to game than venues where a large booking guarantees entry.
         </p>
 
-        <h3>#3 — The Box</h3>
+        <h3>#3: The Box</h3>
 
         <p>
           <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho operates
@@ -155,7 +155,7 @@ export default function ExclusiveClubsLondonPage() {
           and the door team filters accordingly. Groups that appear easily
           shocked or likely to complain are turned away regardless of spend.
           This creates a room with a genuinely adventurous energy that cannot
-          be manufactured. Membership elements add another layer — regular
+          be manufactured. Membership elements add another layer: regular
           guests receive preferential treatment, and first-time visitors face
           genuine scrutiny. See our{" "}
           <Link href="/blog/the-box-london-what-to-expect">
@@ -164,7 +164,7 @@ export default function ExclusiveClubsLondonPage() {
           .
         </p>
 
-        <h3>#4 — Cirque Le Soir</h3>
+        <h3>#4: Cirque Le Soir</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}combines
@@ -172,12 +172,12 @@ export default function ExclusiveClubsLondonPage() {
           The circus-themed Soho venue attracts A-list names on a weekly basis,
           and the intimate capacity means the door must be ruthless. Table
           bookings are the only reliable route, and even those are subject to
-          approval. The result is a room where the entertainment — fire
-          breathers, contortionists, aerialists — plays to an audience that
+          approval. The result is a room where the entertainment (fire
+          breathers, contortionists, aerialists) plays to an audience that
           matches its energy.
         </p>
 
-        <h3>#5 — Dear Darling</h3>
+        <h3>#5: Dear Darling</h3>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}in Mayfair has
@@ -189,7 +189,7 @@ export default function ExclusiveClubsLondonPage() {
           feels genuinely curated rather than merely controlled.
         </p>
 
-        <h3>#6 — Reign London</h3>
+        <h3>#6: Reign London</h3>
 
         <p>
           <Link href="/clubs/reign-london">Reign London</Link>{" "}near Piccadilly
@@ -215,7 +215,7 @@ export default function ExclusiveClubsLondonPage() {
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link>{" "}combines dining and
-          nightlife with a door that reflects its dual format — refined but
+          nightlife with a door that reflects its dual format: refined but
           accessible with a booking.{" "}
           <Link href="/clubs/selene-london">Selene</Link>, in Fitzrovia just
           north of Oxford Circus, is building its reputation as part of a new
@@ -266,7 +266,7 @@ export default function ExclusiveClubsLondonPage() {
           Group composition matters enormously. Mixed groups outperform
           all-male groups at every venue on this list. Arrive before midnight
           for the best chance at doors that operate on a capacity basis.
-          Dress with intention — the{" "}
+          Dress with intention: the{" "}
           <Link href="/london-club-dress-code-guide">
             dress code guide
           </Link>{" "}
@@ -282,7 +282,7 @@ export default function ExclusiveClubsLondonPage() {
             luxury nightclubs guide
           </Link>{" "}
           ranks venues by overall experience rather than exclusivity alone. The
-          two lists overlap significantly but prioritise differently — luxury
+          two lists overlap significantly but prioritise differently: luxury
           measures the quality of the experience inside, while exclusivity
           measures the difficulty of reaching it.
         </p>

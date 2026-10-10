@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "VIP Nightlife London: What Your Money Actually Gets",
   description:
-    "What VIP really means in London clubs — beyond the velvet rope. Table service, VVIP tiers, premium bottles, and whether the upgrade is worth it.",
+    "What VIP really means in London clubs: beyond the velvet rope. Table service, VVIP tiers, premium bottles, and whether the upgrade is worth it.",
   keywords:
     "vip nightlife london, vip night out london, vip clubs london, vip experience london, vip table service london, vip nightclub london",
   openGraph: {
@@ -37,12 +37,12 @@ const faqs = [
   {
     question: "What is the difference between VIP and VVIP at London clubs?",
     answer:
-      "VIP gives you a table in the main VIP area with bottle service. VVIP (offered at venues like Tape London, Cirque Le Soir, and Reign) provides a more private or elevated position — often a booth rather than an open table, closer to the DJ or stage, with enhanced service ratios and sometimes a dedicated host. VVIP minimum spends are typically 50-100% higher than standard VIP.",
+      "VIP gives you a table in the main VIP area with bottle service. VVIP (offered at venues like Tape London, Cirque Le Soir, and Reign) provides a more private or elevated position, often a booth rather than an open table, closer to the DJ or stage, with enhanced service ratios and sometimes a dedicated host. VVIP minimum spends are typically 50-100% higher than standard VIP.",
   },
   {
     question: "Do I need a VIP table to get into London's best clubs?",
     answer:
-      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends — guestlist and walk-up entry is extremely limited. At venues like Selene, Maddox, and BEAT London, guestlist entry is viable without a table on most nights. A table booking always improves your chances regardless of venue.",
+      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends: guestlist and walk-up entry is extremely limited. At venues like Selene, Maddox, and BEAT London, guestlist entry is viable without a table on most nights. A table booking always improves your chances regardless of venue.",
   },
   {
     question: "How many people can sit at a VIP table in London clubs?",
@@ -61,13 +61,13 @@ export default function VIPNightlifeLondonPage() {
     <>
       <ArticleSchema
         title="VIP Nightlife London: What VIP Actually Means at London Clubs"
-        description="What VIP really means in London nightlife — beyond the velvet rope. Table service explained, VIP vs VVIP, which venues deliver the best experience, and how to book properly."
+        description="What VIP really means in London nightlife: beyond the velvet rope. Table service explained, VIP vs VVIP, which venues deliver the best experience, and how to book properly."
         slug="/vip-nightlife-london"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="VIP Nightlife London"
-        subtitle="What VIP actually means at London's best clubs — and the difference between paying for a label and paying for an experience"
+        subtitle="What VIP actually means at London's best clubs, and the difference between paying for a label and paying for an experience"
         heroImage={GUIDE_IMAGES["vip-nightlife-london"]}
         heroAlt="VIP table service at a premium London nightclub with champagne and bottle sparklers"
       >
@@ -76,7 +76,7 @@ export default function VIPNightlifeLondonPage() {
           a roped-off section and a bottle of vodka claims to offer a VIP
           experience. Most of them are offering a table near a speaker with a
           markup that would make a hedge fund blush. Genuine VIP in London is
-          something different entirely — it is an evening where the service,
+          something different entirely. It is an evening where the service,
           the space, the access, and the atmosphere combine to create something
           that general admission simply cannot replicate.
         </p>
@@ -86,8 +86,8 @@ export default function VIPNightlifeLondonPage() {
           causes more disappointment in London nightlife than any other factor.
           People spend &pound;1,000 expecting an experience they have seen on
           social media and receive a table in a corridor with a bottle of
-          Belvedere and a sparkler. Understanding what VIP actually delivers
-          — and which venues deliver it properly — is the difference between
+          Belvedere and a sparkler. Understanding what VIP actually delivers,
+          and which venues deliver it properly, is the difference between
           an evening you celebrate and one you regret.
         </p>
 
@@ -97,9 +97,9 @@ export default function VIPNightlifeLondonPage() {
           At its core, VIP at a London nightclub means three things: a reserved
           table in a designated premium area, dedicated bottle service with a
           waitress assigned to your group, and guaranteed or priority entry.
-          Everything else — the quality of the space, the attentiveness of the
+          Everything else (the quality of the space, the attentiveness of the
           service, the position of the table, the calibre of the crowd around
-          you — varies enormously between venues. That variation is where value
+          you) varies enormously between venues. That variation is where value
           is created or destroyed.
         </p>
 
@@ -108,7 +108,7 @@ export default function VIPNightlifeLondonPage() {
           purchase drinks at venue prices, which typically means bottles of
           spirits at three to five times retail price, accompanied by mixers,
           ice, and garnishes. A &pound;1,000 minimum spend at a Mayfair club
-          translates to roughly two bottles of premium spirit with mixers —
+          translates to roughly two bottles of premium spirit with mixers:
           enough for a group of six to eight to drink comfortably for an
           evening. The spend itself is not the luxury. The luxury is what
           surrounds it.
@@ -119,7 +119,7 @@ export default function VIPNightlifeLondonPage() {
         <p>
           Several of London&apos;s top venues operate a two-tier system that
           creates a meaningful distinction. Standard VIP gives you a table in
-          the main VIP area — visible, accessible, and part of the general
+          the main VIP area: visible, accessible, and part of the general
           energy of the club. VVIP provides something more private: a booth
           rather than an open table, a more secluded position, an enhanced
           service ratio (often one waitress per two tables rather than one per
@@ -138,14 +138,14 @@ export default function VIPNightlifeLondonPage() {
           <Link href="/clubs/reign-london">Reign London</Link>, the elevated
           VVIP area transforms the theatrical entertainment into something
           approaching a private show. The premium for VVIP is typically fifty
-          to one hundred per cent above standard VIP minimums — meaningful,
+          to one hundred per cent above standard VIP minimums, meaningful,
           but at this level, the difference in experience often justifies
           the difference in cost.
         </p>
 
         <p className="pull-quote">
           The difference between good VIP and great VIP is not what is on
-          your table. It is everything around your table — the position, the
+          your table. It is everything around your table: the position, the
           privacy, the service, and the crowd.
         </p>
 
@@ -213,7 +213,7 @@ export default function VIPNightlifeLondonPage() {
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           delivers VIP with genuine heritage character.{" "}
           <Link href="/clubs/the-box-london">The Box</Link>{" "}provides VIP for
-          the adventurous — the performances are not for the faint-hearted.{" "}
+          the adventurous: the performances are not for the faint-hearted.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           offers a different VIP proposition built around its sound system.
         </p>
@@ -265,7 +265,7 @@ export default function VIPNightlifeLondonPage() {
           Darling, regardless of which venue has more Instagram followers.
           Our{" "}
           <Link href="/contact">concierge team</Link>{" "}matches groups to
-          venues based on these factors — it is the most valuable part of
+          venues based on these factors. It is the most valuable part of
           what we do.
         </p>
 

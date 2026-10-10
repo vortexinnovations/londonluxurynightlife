@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Guestlist vs Table Booking London | Which Should You Choose?",
     description:
-      "Guestlist or table booking? The definitive comparison for London nightclubs — cost, guarantees, pros and cons, and venue-by-venue recommendations.",
+      "Guestlist or table booking? The definitive comparison for London nightclubs: cost, guarantees, pros and cons, and venue-by-venue recommendations.",
     url: "https://londonluxurynightlife.com/guestlist-vs-table-booking-london",
     type: "article",
   },
@@ -36,22 +36,22 @@ const faqs = [
   {
     question: "How much does a table cost at London nightclubs?",
     answer:
-      "Minimum table spends range from £500 at mid-tier venues on quieter nights to £1,500+ at top Mayfair clubs on weekends. This spend goes towards bottles and mixers at venue prices. A £1,000 minimum typically covers two bottles of premium spirit with mixers — enough for 6-8 guests. Premium dates and VVIP positions cost significantly more.",
+      "Minimum table spends range from £500 at mid-tier venues on quieter nights to £1,500+ at top Mayfair clubs on weekends. This spend goes towards bottles and mixers at venue prices. A £1,000 minimum typically covers two bottles of premium spirit with mixers: enough for 6-8 guests. Premium dates and VVIP positions cost significantly more.",
   },
   {
     question: "How do I get on a London nightclub guestlist?",
     answer:
-      "There are three main routes: through a promoter (who works with venues to fill the room), through a concierge service, or through the venue's own website or social media. Promoter guestlists typically offer the best terms — free entry or reduced entry with no minimum spend. Apply early in the week for weekend guestlists, as spots fill quickly at popular venues.",
+      "There are three main routes: through a promoter (who works with venues to fill the room), through a concierge service, or through the venue's own website or social media. Promoter guestlists typically offer the best terms: free entry or reduced entry with no minimum spend. Apply early in the week for weekend guestlists, as spots fill quickly at popular venues.",
   },
   {
     question: "Is it worth booking a table at a London nightclub?",
     answer:
-      "If your group has 4+ people and you plan to drink throughout the evening, a table often represents better value than buying drinks at the bar — plus you get guaranteed entry, a reserved space, and dedicated service. For couples or groups of 2-3, guestlist is usually more cost-effective unless you specifically want the VIP experience.",
+      "If your group has 4+ people and you plan to drink throughout the evening, a table often represents better value than buying drinks at the bar, plus you get guaranteed entry, a reserved space, and dedicated service. For couples or groups of 2-3, guestlist is usually more cost-effective unless you specifically want the VIP experience.",
   },
   {
     question: "Can I book a table for just two people at a London club?",
     answer:
-      "Most London clubs accept table bookings for two, but the minimum spend remains the same as for larger groups. This means two people splitting a £1,000 minimum pay £500 each — which may or may not represent good value depending on your drinking plans. Some venues offer smaller tables or bar-side positions with lower minimums for couples.",
+      "Most London clubs accept table bookings for two, but the minimum spend remains the same as for larger groups. This means two people splitting a £1,000 minimum pay £500 each, which may or may not represent good value depending on your drinking plans. Some venues offer smaller tables or bar-side positions with lower minimums for couples.",
   },
   {
     question:
@@ -66,13 +66,13 @@ export default function GuestlistVsTableBookingLondonPage() {
     <>
       <ArticleSchema
         title="Guestlist vs Table Booking London: Which Should You Choose?"
-        description="The definitive comparison of guestlist entry vs table bookings at London nightclubs — cost breakdown, entry guarantees, pros and cons, and which venues require tables."
+        description="The definitive comparison of guestlist entry vs table bookings at London nightclubs: cost breakdown, entry guarantees, pros and cons, and which venues require tables."
         slug="/guestlist-vs-table-booking-london"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Guestlist vs Table Booking London"
-        subtitle="The definitive comparison — what each option actually gives you, what it costs, and which is right for your night"
+        subtitle="The definitive comparison: what each option actually gives you, what it costs, and which is right for your night"
         heroImage={GUIDE_IMAGES["guestlist-vs-table-booking-london"]}
         heroAlt="VIP table booking versus guestlist entry at a London nightclub"
       >
@@ -81,7 +81,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           guestlist or table? The answer is not as straightforward as most
           guides suggest, because it depends on the venue, the night, your
           group size, and what you actually want from the evening. A table
-          booking is not inherently better than a guestlist — it is different,
+          booking is not inherently better than a guestlist. It is different,
           and understanding that difference is the key to spending your money
           where it matters.
         </p>
@@ -90,7 +90,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           We have used both routes at every major London club, and the honest
           truth is that the right choice varies wildly by circumstance. A
           table at <Link href="/clubs/tape-london">Tape London</Link>{" "}on a
-          Saturday is non-negotiable — guestlist is essentially decorative.
+          Saturday is non-negotiable: guestlist is essentially decorative.
           A table at <Link href="/clubs/maddox">Maddox</Link>{" "}on a
           Thursday is a luxury rather than a necessity. This guide gives
           you the specific information needed to make the right call for your
@@ -117,7 +117,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           evening. Promoters receive a fee for each guest they deliver. The
           guests receive free or reduced entry. The venue receives a full
           room that creates atmosphere and generates bar revenue. Everyone
-          benefits — provided the night goes well.
+          benefits, provided the night goes well.
         </p>
 
         <div className="info-box">
@@ -146,7 +146,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           A table booking at a London nightclub provides guaranteed entry,
           a reserved table in the VIP area, dedicated waitress service, and
           a commitment to spend a minimum amount on bottles and drinks. The
-          minimum spend is not a fee — it is a spending commitment that
+          minimum spend is not a fee. It is a spending commitment that
           goes towards your drinks at venue prices. When your bottles are
           delivered, they arrive with mixers, ice, and garnishes, and your
           waitress manages refills throughout the evening.
@@ -155,7 +155,7 @@ export default function GuestlistVsTableBookingLondonPage() {
         <p>
           The economics of a table booking become interesting at certain
           group sizes. For a group of eight splitting a &pound;1,000 minimum,
-          the cost is &pound;125 per person — which buys roughly two bottles
+          the cost is &pound;125 per person, which buys roughly two bottles
           of premium spirit with mixers. At bar prices, those same eight
           people buying individual drinks would spend &pound;80-120 each for
           a full evening of drinking. The table adds guaranteed entry,
@@ -190,7 +190,7 @@ export default function GuestlistVsTableBookingLondonPage() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}operate
           primarily on table bookings at weekends. Guestlist entry at these
           venues on a Friday or Saturday is technically possible but
-          practically unreliable — the door prioritises table bookings so
+          practically unreliable: the door prioritises table bookings so
           heavily that guestlist guests may wait hours or be turned away
           entirely. If Tape or Cirque is your destination, book a table
           through{" "}
@@ -203,8 +203,8 @@ export default function GuestlistVsTableBookingLondonPage() {
             London Bottle Service
           </a>{" "}
           and treat the minimum spend as the cost of admission.{" "}
-          <Link href="/clubs/the-box-london">The Box</Link>{" "}operates similarly
-          — without a booking, entry is a genuine gamble.
+          <Link href="/clubs/the-box-london">The Box</Link>{" "}operates similarly:
+          without a booking, entry is a genuine gamble.
         </p>
 
         <h3>Table Strongly Recommended</h3>
@@ -273,7 +273,7 @@ export default function GuestlistVsTableBookingLondonPage() {
             London Bottle Service
           </a>{" "}
           operates as a booking platform that works directly with venue
-          management to allocate tables — combining the convenience of
+          management to allocate tables, combining the convenience of
           direct booking with the positioning advantage of a promoter
           relationship. For event information and to check what is on at
           specific venues,{" "}

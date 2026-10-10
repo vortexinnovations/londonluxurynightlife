@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "London Luxury Nightlife: The Complete 2026 Guide",
   description:
-    "Every club, every dress code, every unwritten rule. The only London nightlife guide you need — from Mayfair geography to bottle service mechanics.",
+    "Every club, every dress code, every unwritten rule. The only London nightlife guide you need: from Mayfair geography to bottle service mechanics.",
   keywords:
     "London nightlife guide, guide to clubbing in London, London clubs guide for tourists, best nightlife London, Mayfair clubs, luxury nightlife London",
 };
@@ -27,12 +27,12 @@ const faqs = [
   {
     question: "What should I wear to a luxury London nightclub?",
     answer:
-      "Smart and stylish is the universal rule. For men, a well-fitted shirt, tailored trousers, and smart shoes are essential — no trainers, no sportswear, no shorts. For women, cocktail dresses, heels, and elegant evening wear are expected. Some venues like Maddox prefer jackets for gentlemen. When in doubt, overdress rather than underdress.",
+      "Smart and stylish is the universal rule. For men, a well-fitted shirt, tailored trousers, and smart shoes are essential: no trainers, no sportswear, no shorts. For women, cocktail dresses, heels, and elegant evening wear are expected. Some venues like Maddox prefer jackets for gentlemen. When in doubt, overdress rather than underdress.",
   },
   {
     question: "Do I need to be on a guestlist to get into London clubs?",
     answer:
-      "For most luxury London clubs, being on a guestlist or having a table booking is strongly recommended, especially on Friday and Saturday nights. Walk-ins are possible at some venues earlier in the evening, but you risk being turned away if the club is at capacity. A guestlist doesn't guarantee entry — you still need to meet the dress code and the door team's standards.",
+      "For most luxury London clubs, being on a guestlist or having a table booking is strongly recommended, especially on Friday and Saturday nights. Walk-ins are possible at some venues earlier in the evening, but you risk being turned away if the club is at capacity. A guestlist doesn't guarantee entry. You still need to meet the dress code and the door team's standards.",
   },
   {
     question: "What time do London nightclubs close?",
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "Is London nightlife expensive compared to other cities?",
     answer:
-      "London is one of the most expensive nightlife cities in the world, comparable to New York and more expensive than most European capitals. Expect to pay £15–20 for cocktails, £300–500 for a bottle of vodka at a table, and £1,000+ for minimum table spends. However, guestlist entry to many clubs is free before a certain time, making it possible to enjoy luxury venues without booking a table.",
+      "London is one of the most expensive nightlife cities in the world, comparable to New York and more expensive than most European capitals. Expect to pay £15 to 20 for cocktails, £300 to 500 for a bottle of vodka at a table, and £1,000+ for minimum table spends. However, guestlist entry to many clubs is free before a certain time, making it possible to enjoy luxury venues without booking a table.",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           If your reference point for luxury nightlife is Dubai, New York, or
           Ibiza, London will recalibrate your expectations. Dubai trades heavily
-          on spectacle and sheer scale — vast venues, celebrity DJ residencies,
+          on spectacle and sheer scale: vast venues, celebrity DJ residencies,
           and a culture where the table you book says more than the music being
           played. New York&apos;s scene is driven by exclusivity and social
           currency, with velvet ropes that exist primarily to create the
@@ -93,8 +93,8 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         </p>
         <p>
           London borrows a little from each but copies none. The exclusivity is
-          real — Mayfair&apos;s best clubs are genuinely selective about who
-          walks through the door — but it is never performative. The music
+          real, Mayfair&apos;s best clubs are genuinely selective about who
+          walks through the door, but it is never performative. The music
           matters here in a way it simply doesn&apos;t in many bottle-service
           capitals. And the diversity of any given night is unmatched: within a
           fifteen-minute walk you can move from a hip-hop-heavy celebrity haunt
@@ -104,7 +104,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
 
         <div className="info-box">
           <strong>The London Difference:</strong>{" "}Clubs here close between 3am
-          and 4am — far earlier than Ibiza or Berlin. This compresses the
+          and 4am: far earlier than Ibiza or Berlin. This compresses the
           energy into a shorter window and means the atmosphere peaks hard
           between midnight and 2am. Plan accordingly.
         </div>
@@ -114,9 +114,9 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Mayfair: The Epicentre</h3>
         <p>
           If London&apos;s luxury nightlife has a capital, it is Mayfair. This
-          small pocket of central London — bounded roughly by Oxford Street to
+          small pocket of central London (bounded roughly by Oxford Street to
           the north, Piccadilly to the south, Park Lane to the west, and Regent
-          Street to the east — contains the highest concentration of premium
+          Street to the east) contains the highest concentration of premium
           nightclubs anywhere in Europe. The reason is partly historical
           (Mayfair has been synonymous with wealth and exclusivity for
           centuries) and partly practical: the area is dense with five-star
@@ -146,7 +146,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Just east of Mayfair, Soho brings a grittier, more theatrical energy
           to the mix.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}on Ganton
-          Street is the standout — a circus-themed nightclub with live
+          Street is the standout: a circus-themed nightclub with live
           performers, fire breathers, and a celebrity clientele that has made it
           one of the most photographed venues in the city. The West End also
           hosts{" "}
@@ -161,7 +161,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}on Margaret Street
           has carved out a reputation for pure, unfiltered nightclub energy.
           Less concerned with table politics and more focused on sound quality,
-          BEAT attracts those who want to dance rather than be seen — while
+          BEAT attracts those who want to dance rather than be seen, while
           still maintaining the smart dress code and premium feel of a luxury
           venue.
         </p>
@@ -172,7 +172,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Elephant &amp; Castle is in a category of its own. Three decades of
           electronic music heritage, a sound system that remains one of the
           finest on the planet, and a global reputation that precedes it.
-          Ministry is not a Mayfair bottle-service club — it is a temple of
+          Ministry is not a Mayfair bottle-service club. It is a temple of
           dance music, and if house, techno, or electronic music is your
           priority, there is no substitute.
         </p>
@@ -182,7 +182,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Guestlists</h3>
         <p>
           Most luxury London clubs operate guestlist systems, particularly on
-          weekends. Being on the guestlist does not guarantee entry — it means
+          weekends. Being on the guestlist does not guarantee entry. It means
           you have been pre-approved to join the queue, and subject to meeting
           the dress code and the door team&apos;s assessment, you will be
           admitted. Guestlists are typically free and can be arranged through a
@@ -195,7 +195,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           Table booking is the cornerstone of London&apos;s luxury club
           experience. When you book a table, you are reserving a dedicated space
-          in the club — typically a booth or a roped-off section — and
+          in the club, typically a booth or a roped-off section, and
           committing to a minimum spend. This minimum spend goes toward bottles
           of spirits, champagne, and mixers, which are served to your table by a
           dedicated waitress.
@@ -204,15 +204,15 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           Minimum spends vary by club, night, and table location. Across the
           clubs we cover, tables generally start from £1,000 and can reach
           significantly higher for premium positions on peak nights. A standard
-          bottle of Grey Goose or Belvedere typically runs £300&ndash;500, while
+          bottle of Grey Goose or Belvedere typically runs £300 to 500, while
           champagne ranges from £350 for entry-level to several thousand for
-          prestige cuvees. Your table is yours for the night — there is no time
-          limit — and you can typically seat four to ten people depending on
+          prestige cuvees. Your table is yours for the night, there is no time
+          limit, and you can typically seat four to ten people depending on
           the booth.
         </p>
 
         <div className="pull-quote">
-          A table is not just about the drinks. It is your base for the night —
+          A table is not just about the drinks. It is your base for the night:
           somewhere to retreat from the dancefloor, a place to host friends,
           and in most Mayfair clubs, a fundamentally different experience from
           standing at the bar.
@@ -232,7 +232,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
 
         <div className="info-box">
           <strong>Insider tip:</strong>{" "}If you are a smaller group of two to
-          four, ask about bar tables or cocktail tables — these often have
+          four, ask about bar tables or cocktail tables: these often have
           lower minimum spends than the main booths and still give you a
           dedicated space. Contact us via{" "}
           <Link href="/contact">our concierge service</Link>{" "}and we can advise
@@ -262,7 +262,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           Tipping at London clubs is appreciated but not obligatory in the way
           it is in the US. At the bar, rounding up or leaving a pound or two
-          per round is a kind gesture. For table service, a 10&ndash;15% tip
+          per round is a kind gesture. For table service, a 10 to 15% tip
           for your waitress is standard if the service has been good, though
           many clubs add a discretionary service charge to your final bill. If
           a service charge is included, additional tipping is at your
@@ -273,7 +273,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           London clubs do not follow the Mediterranean model of arriving at 2am.
           Doors typically open between 10pm and 11pm, and if you are on a
-          guestlist, arriving between 11pm and midnight is ideal — early enough
+          guestlist, arriving between 11pm and midnight is ideal: early enough
           to avoid the longest queues, late enough that the atmosphere has
           started building. Table bookings are more flexible; you can generally
           arrive any time before 1am, though your table may be released if you
@@ -289,7 +289,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           licences until 3am, with a handful permitted until 4am. Last entry is
           typically one hour before closing. There is no equivalent of Ibiza&apos;s
           6am finishes or Berlin&apos;s open-ended weekends. This compressed
-          timeline means the energy builds faster and peaks harder — the best
+          timeline means the energy builds faster and peaks harder: the best
           nights in London have an intensity that looser-timed cities struggle
           to match.
         </p>
@@ -315,7 +315,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           for house music, pairing deep house and house sets with an elegant,
           mature crowd. For pure electronic music heritage,{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
-          remains unmatched — its Box room is one of the finest purpose-built
+          remains unmatched: its Box room is one of the finest purpose-built
           dance music spaces in the world. Cuckoo Club is now{" "}
           <Link href="/clubs/cuckoo-club">99 Regent Street</Link>, booked under
           its new name.
@@ -349,7 +349,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           occupies a unique position in London nightlife. Open since the 1960s,
           it has hosted some of the most significant moments in British music
           and cultural history. The venue has been refreshed but retains an
-          atmosphere that carries genuine weight — this is not manufactured
+          atmosphere that carries genuine weight. This is not manufactured
           heritage but the real thing. For music lovers and those who appreciate
           history alongside their night out, Scotch is essential.
         </p>
@@ -359,7 +359,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>The Ideal Timeline</h3>
         <p>
           The best luxury nights in London follow a rhythm. Start with dinner at
-          8pm or 8:30pm — Mayfair has no shortage of outstanding restaurants,
+          8pm or 8:30pm: Mayfair has no shortage of outstanding restaurants,
           and venues like <Link href="/clubs/maddox">Maddox</Link>{" "}offer the
           option of dining and clubbing under one roof. For more on combining dinner
           and nightlife, see our{" "}
@@ -376,7 +376,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           Having a drink or two before the club is standard practice in London
           and will save you considerably on your bar bill. The hotels around
-          Mayfair — The Connaught Bar, Claridge&apos;s Bar, The Beaumont —
+          Mayfair (The Connaught Bar, Claridge&apos;s Bar, The Beaumont)
           offer world-class cocktails in settings befitting the evening ahead.
           Alternatively, many Mayfair restaurants have excellent bar areas where
           you can linger after dinner before heading out.
@@ -428,7 +428,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
 
         <div className="pull-quote">
           The best nights in London are not about a single club. They are about
-          the arc of the evening — the dinner, the cocktails, the walk through
+          the arc of the evening: the dinner, the cocktails, the walk through
           Mayfair on a warm night, the anticipation at the door, and the peak
           of the dancefloor at 1am.
         </div>
@@ -445,9 +445,9 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           waiting for you after dark.
         </p>
         <p>
-          If you want help planning a specific night — choosing the right
+          If you want help planning a specific night (choosing the right
           clubs for your group, arranging tables, or building a full evening
-          from dinner to dancefloor —{" "}
+          from dinner to dancefloor),{" "}
           <Link href="/contact">get in touch with our concierge team</Link>.
           We do this every week, and we would love to help you get it right.
         </p>

@@ -29,7 +29,7 @@ export default function LondonVsParisNightlifePage() {
     <>
       <ArticleSchema
         title="London vs Paris Nightlife: Two European Capitals Compared"
-        description="An honest comparison of London and Paris nightlife — two European capitals that share a channel crossing but almost nothing in common after midnight."
+        description="An honest comparison of London and Paris nightlife: two European capitals that share a channel crossing but almost nothing in common after midnight."
         slug="/london-vs-paris-nightlife"
       />
       <ArticleLayout
@@ -68,9 +68,9 @@ export default function LondonVsParisNightlifePage() {
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           are all within walking distance, with{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
-          Oxford Circus. Add the Soho venues —{" "}
+          Oxford Circus. Add the Soho venues:{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
-          <Link href="/clubs/the-box-london">The Box</Link>{" "}— and you
+          <Link href="/clubs/the-box-london">The Box</Link>, and you
           have a walkable ecosystem of world-class venues. Our{" "}
           <Link href="/london-nightlife-guide">
             London nightlife guide
@@ -94,7 +94,7 @@ export default function LondonVsParisNightlifePage() {
         <p>
           For premium nightlife, London&apos;s concentration is a
           decisive advantage. You can change venues, change the
-          energy, change the music — all without a taxi. In Paris,
+          energy, change the music: all without a taxi. In Paris,
           a venue change is a logistical commitment.
         </p>
 
@@ -108,8 +108,8 @@ export default function LondonVsParisNightlifePage() {
           <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>, the
           eclectic programming at{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          — the variety is genuine and the quality within each genre is
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>:{" "}
+          the variety is genuine and the quality within each genre is
           high. Our{" "}
           <Link href="/best-house-music-clubs-london">
             house music guide
@@ -124,7 +124,7 @@ export default function LondonVsParisNightlifePage() {
         <p>
           Paris&apos;s strength is narrower but formidable: electronic
           music and techno. The city&apos;s relationship with electronic
-          music runs deep — from the legacy of French house through Daft
+          music runs deep, from the legacy of French house through Daft
           Punk to the current generation of producers. Venues dedicated
           to techno and house operate at a level that London&apos;s
           premium scene, which tilts toward hip-hop and R&amp;B, does
@@ -152,7 +152,7 @@ export default function LondonVsParisNightlifePage() {
           trousers, collared shirts for men. Heels, fitted dresses,
           considered accessories for women. The rules are published,
           enforced consistently, and departures are punished at the
-          door. The system is rigid but transparent — you know
+          door. The system is rigid but transparent. You know
           precisely what is expected.
         </p>
 
@@ -160,7 +160,7 @@ export default function LondonVsParisNightlifePage() {
           Paris&apos;s dress code culture is equally demanding but far
           less codified. The expectation is that you look good, but
           the definition of good is more fluid. Parisian nightlife
-          rewards a certain effortless style — well-cut jeans with the
+          rewards a certain effortless style: well-cut jeans with the
           right shoes, a leather jacket that fits perfectly, an
           insouciance that cannot be faked. The problem for visitors is
           that the criteria are implicit. What reads as impeccably
@@ -183,15 +183,15 @@ export default function LondonVsParisNightlifePage() {
             door policy guide
           </Link>{" "}
           explains, are systematic. There are knowable criteria, and
-          meeting them — appropriate dress, balanced group, table
-          booking — gives you strong odds of entry. The system rewards
+          meeting them (appropriate dress, balanced group, table
+          booking) gives you strong odds of entry. The system rewards
           preparation.
         </p>
 
         <p>
           Paris&apos;s door culture is more relationship-based. Regular
           patronage, knowing the right promoter, being introduced by
-          someone who matters — these carry more weight than any booking
+          someone who matters: these carry more weight than any booking
           confirmation. First-time visitors to Parisian clubs face a
           steeper barrier not because the policy is stricter but because
           the currency is social rather than transactional. A table
@@ -211,7 +211,7 @@ export default function LondonVsParisNightlifePage() {
         <p>
           London has developed table service into a refined art. The
           dedicated host, the choreographed bottle presentation, the
-          constant attention to detail — Mayfair&apos;s table-service
+          constant attention to detail: Mayfair&apos;s table-service
           culture is the most polished in the world. The experience of
           holding a table at{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
@@ -224,8 +224,8 @@ export default function LondonVsParisNightlifePage() {
           infrastructure is less developed. The service is competent
           but less theatrical, less anticipatory, less designed to
           make you feel like the centre of the room. This is partly
-          cultural — Paris values understated experiences over
-          performative ones — and partly a reflection of the fact
+          cultural, Paris values understated experiences over
+          performative ones, and partly a reflection of the fact
           that Paris&apos;s nightlife economy is less table-service
           dependent than London&apos;s.
         </p>
@@ -240,7 +240,7 @@ export default function LondonVsParisNightlifePage() {
         <p>
           At the premium tier, London and Paris are surprisingly close in
           price. Table minimums at top Parisian venues run &euro;1,000 to
-          &euro;2,000 — comparable to London&apos;s &pound;1,000 to
+          &euro;2,000, comparable to London&apos;s &pound;1,000 to
           &pound;1,500 once you account for exchange rates. Bottle
           prices are similarly aligned at the top end.
         </p>
@@ -262,16 +262,16 @@ export default function LondonVsParisNightlifePage() {
           This is where Paris decisively outperforms London. London&apos;s
           venues typically close between 3am and 4am, with rare
           exceptions. Paris&apos;s premium venues operate until 5am or
-          6am as standard, and certain venues — particularly in the
-          electronic scene — continue until 7am or beyond. The
+          6am as standard, and certain venues, particularly in the
+          electronic scene, continue until 7am or beyond. The
           after-hours culture in Paris is a genuine phenomenon with no
           London equivalent.
         </p>
 
         <p>
           The later hours change everything about the shape of an
-          evening. Parisians arrive later — midnight is early, 1am is
-          normal — and the peak energy hits between 2am and 4am, hours
+          evening. Parisians arrive later (midnight is early, 1am is
+          normal) and the peak energy hits between 2am and 4am, hours
           when London&apos;s venues are winding down. For night owls,
           this is Paris&apos;s single most compelling advantage.
         </p>
@@ -283,8 +283,8 @@ export default function LondonVsParisNightlifePage() {
           for most international visitors removes a significant barrier.
           Paris&apos;s nightlife scene is predominantly French-speaking,
           and while English is widely understood, the interactions that
-          matter — negotiating with door staff, communicating with
-          table hosts, understanding the social dynamics — flow more
+          matter (negotiating with door staff, communicating with
+          table hosts, understanding the social dynamics) flow more
           naturally in French. English-speaking visitors will not be
           excluded, but they may miss nuances that affect their
           experience.
@@ -305,8 +305,8 @@ export default function LondonVsParisNightlifePage() {
           romance and aesthetic beauty that suffuses even the nightlife
           experience. The after-hours culture is genuine and unique.
           The electronic music scene is deeper and more authentic. And
-          the overall vibe — particularly at the non-bottle-service
-          venues — is warmer and less performance-driven than
+          the overall vibe, particularly at the non-bottle-service
+          venues, is warmer and less performance-driven than
           London&apos;s.
         </p>
 
@@ -328,7 +328,7 @@ export default function LondonVsParisNightlifePage() {
 
         <p className="pull-quote">
           Paris gives you the night that unfolds. London gives you the
-          night that delivers. Both are magnificent — but they are not
+          night that delivers. Both are magnificent, but they are not
           the same thing.
         </p>
 
@@ -361,7 +361,7 @@ export default function LondonVsParisNightlifePage() {
         <p>
           For visitors who choose London, advance booking is essential
           at premium venues. Our concierge team works with every club
-          in Mayfair and Soho —{" "}
+          in Mayfair and Soho:{" "}
           <Link href="/contact">contact us</Link>{" "}with your dates and
           preferences and we will handle the details. For direct table
           reservations,{" "}

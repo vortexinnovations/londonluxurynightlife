@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "What dress code should I follow for Mayfair clubs?",
     answer:
-      "Smart and intentional. For men: tailored trousers or smart dark jeans, a collared shirt or high-quality knitwear, smart shoes (no trainers at most venues). For women: cocktail or evening attire, heels preferred but not required. The universal rule is effort — venues want guests who have clearly prepared for the evening. When in doubt, overdress. No venue has ever turned someone away for looking too polished.",
+      "Smart and intentional. For men: tailored trousers or smart dark jeans, a collared shirt or high-quality knitwear, smart shoes (no trainers at most venues). For women: cocktail or evening attire, heels preferred but not required. The universal rule is effort: venues want guests who have clearly prepared for the evening. When in doubt, overdress. No venue has ever turned someone away for looking too polished.",
   },
   {
     question: "How much should I budget for a luxury night out in London?",
@@ -55,7 +55,7 @@ const faqs = [
     question:
       "Should I use a concierge service to plan a luxury night out in London?",
     answer:
-      "For first-time visitors or special occasions, absolutely. A good concierge or promoter secures better table positions at clubs, can coordinate restaurant and club bookings to align timing, and manages the details that make the difference between a good evening and an exceptional one. The service is typically free to the guest — concierges earn commission from venues.",
+      "For first-time visitors or special occasions, absolutely. A good concierge or promoter secures better table positions at clubs, can coordinate restaurant and club bookings to align timing, and manages the details that make the difference between a good evening and an exceptional one. The service is typically free to the guest: concierges earn commission from venues.",
   },
 ];
 
@@ -64,19 +64,19 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
     <>
       <ArticleSchema
         title="How to Plan a Luxury Night Out in London: The Complete Guide"
-        description="The definitive planning guide for a luxury evening in London — timeline, transport, budgets, dress codes, and every detail that separates a great night from a wasted one."
+        description="The definitive planning guide for a luxury evening in London: timeline, transport, budgets, dress codes, and every detail that separates a great night from a wasted one."
         slug="/how-to-plan-a-luxury-night-out-in-london"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="How to Plan a Luxury Night Out in London"
-        subtitle="The complete itinerary — from first cocktail to last dance — with every detail that separates exceptional from average"
+        subtitle="The complete itinerary, from first cocktail to last dance, with every detail that separates exceptional from average"
         heroImage={GUIDE_IMAGES["how-to-plan-a-luxury-night-out-in-london"]}
         heroAlt="Planning a luxury night out in London from cocktail bar to Mayfair nightclub"
       >
         <p>
-          A truly great night out in London is not improvised. It is planned
-          — not rigidly, but thoughtfully, with enough structure to ensure
+          A truly great night out in London is not improvised. It is planned,
+          not rigidly, but thoughtfully, with enough structure to ensure
           that logistics never intrude on the experience and enough
           flexibility to follow the energy of the evening wherever it leads.
           The difference between an evening that flows seamlessly from
@@ -90,7 +90,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           evening in London. It covers timing, venue selection, transport,
           budgets, dress codes, group dynamics, and the specific mistakes
           that undermine otherwise well-intentioned evenings. It is based on
-          years of arranging these evenings for discerning clients — and
+          years of arranging these evenings for discerning clients, and
           years of observing what goes wrong when the planning is neglected.
         </p>
 
@@ -102,7 +102,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           diminishes the whole. Here is the timeline that works.
         </p>
 
-        <h3>7:00pm — Cocktails</h3>
+        <h3>7:00pm: Cocktails</h3>
 
         <p>
           Begin with cocktails rather than heading straight to dinner. This
@@ -110,24 +110,24 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           (someone is always late), it sets the tone for the evening, and it
           gives you a chance to recalibrate if the energy of the group
           suggests a change of plan. Choose a cocktail bar near your dinner
-          reservation — in Mayfair, that means somewhere on or near Berkeley
+          reservation: in Mayfair, that means somewhere on or near Berkeley
           Square, Hanover Square, or along the streets that connect them.
         </p>
 
         <p>
           Allow sixty to ninety minutes for cocktails. Two drinks each is
-          the right pace — enough to establish the evening&apos;s atmosphere
+          the right pace: enough to establish the evening&apos;s atmosphere
           without compromising anyone&apos;s appetite for dinner. The best
           cocktail bars in the Mayfair orbit serve drinks that cost
           &pound;18 to &pound;25 each. Budget accordingly.
         </p>
 
-        <h3>8:30pm — Dinner</h3>
+        <h3>8:30pm: Dinner</h3>
 
         <p>
           Dinner is the anchor of the evening, and in Mayfair, the options
-          are extraordinary. The key consideration is proximity to your club
-          — ideally within walking distance, which in Mayfair means within
+          are extraordinary. The key consideration is proximity to your club,
+          ideally within walking distance, which in Mayfair means within
           a ten-minute stroll. If your club is{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}on Hanover
           Square, choose a restaurant in the surrounding streets. If you are
@@ -137,24 +137,24 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         </p>
 
         <p>
-          The alternative — and increasingly popular — approach is to dine at{" "}
+          The alternative, and increasingly popular, approach is to dine at{" "}
           <Link href="/clubs/maddox">Maddox</Link>, where Italian dining
           transitions seamlessly into house music without leaving your seat.
           This eliminates the dinner-to-club transfer entirely and creates a
           uniquely cohesive evening. It is particularly effective for groups
-          where some members are less enthusiastic about the club element —
+          where some members are less enthusiastic about the club element:
           the gradual transition feels natural rather than forced.
         </p>
 
         <p>
           Book dinner for 8:30pm or 9:00pm. Earlier feels rushed after
           cocktails. Later compresses your time before the club. Allow two
-          hours for a proper dinner — courses, conversation, wine. Do not
+          hours for a proper dinner: courses, conversation, wine. Do not
           rush this. The dinner is not a prelude to the evening; it is part
           of it.
         </p>
 
-        <h3>11:00pm — The Move</h3>
+        <h3>11:00pm: The Move</h3>
 
         <p>
           This is the moment most poorly planned evenings fall apart. The
@@ -162,8 +162,8 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           venue, and thirty minutes are lost to indecision on a pavement.
           The solution is simple: have the club booking confirmed in advance,
           have transport arranged or know the walking route, and have one
-          person in the group who manages the transition. That person — or
-          your concierge — should confirm the table booking by phone or text
+          person in the group who manages the transition. That person, or
+          your concierge, should confirm the table booking by phone or text
           at approximately 10:30pm.
         </p>
 
@@ -171,17 +171,17 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           Arrival at the club between 11:00pm and midnight is optimal. Earlier
           and the room is still building energy. Later and you miss the
           transition from atmospheric warmth to full intensity, which is one
-          of the most enjoyable phases of any club evening. Walk if possible
-          — the Mayfair air clears the head and builds anticipation.
+          of the most enjoyable phases of any club evening. Walk if possible:
+          the Mayfair air clears the head and builds anticipation.
         </p>
 
-        <h3>11:30pm to 3:00am — The Club</h3>
+        <h3>11:30pm to 3:00am: The Club</h3>
 
         <p>
           With a table booked and confirmed, arrival at the club should be
           seamless: approach the door, give the booking name, and you are
           escorted to your table. Bottles arrive within minutes. The first
-          hour is typically the most social — drinks, conversation, settling
+          hour is typically the most social: drinks, conversation, settling
           into the atmosphere. By 12:30am, the energy shifts towards dancing.
           By 1:30am, most London clubs hit their peak. The best evenings end
           naturally between 2:30am and 3:00am, when the energy has been fully
@@ -190,7 +190,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <p className="pull-quote">
           The best nights out are not the longest. They are the ones where
-          every phase — cocktails, dinner, club — is given enough time to
+          every phase (cocktails, dinner, club) is given enough time to
           breathe, and the transitions between them feel effortless.
         </p>
 
@@ -256,10 +256,10 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         <h3>Walking</h3>
 
         <p>
-          Underrated and often optimal. Mayfair is compact — you can walk
+          Underrated and often optimal. Mayfair is compact. You can walk
           from any restaurant to any club in the postcode within fifteen
           minutes. The evening air, the architecture, the energy of the
-          streets — walking between venues is part of the experience. The
+          streets: walking between venues is part of the experience. The
           only consideration is weather and footwear, both of which should
           be factored into your planning.
         </p>
@@ -304,15 +304,15 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           </a>{" "}
           for direct table reservations, or{" "}
           <Link href="/contact">our concierge team</Link>{" "}to coordinate the
-          entire evening — restaurant, club, and transport.
+          entire evening: restaurant, club, and transport.
         </p>
 
         <h2>Dress Code Preparation</h2>
 
         <p>
           Every premium London club enforces a dress code, and being turned
-          away at the door — particularly in front of your group or your
-          clients — is the single most effective way to ruin an evening. The
+          away at the door, particularly in front of your group or your
+          clients, is the single most effective way to ruin an evening. The
           dress code varies slightly by venue, but the underlying principle
           is universal: demonstrate that you have prepared for the occasion.
         </p>
@@ -340,22 +340,22 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
           <h4>Per-Person Budget Guide (Group of 6)</h4>
           <ul>
             <li>
-              <strong>Cocktails (2 drinks):</strong>{" "}&pound;40&ndash;&pound;50
+              <strong>Cocktails (2 drinks):</strong>{" "}&pound;40 to &pound;50
             </li>
             <li>
               <strong>Dinner (3 courses + wine):</strong>{" "}
-              &pound;80&ndash;&pound;150
+              &pound;80 to &pound;150
             </li>
             <li>
               <strong>Club (table service, shared):</strong>{" "}
-              &pound;170&ndash;&pound;250
+              &pound;170 to &pound;250
             </li>
             <li>
-              <strong>Transport:</strong>{" "}&pound;20&ndash;&pound;50
+              <strong>Transport:</strong>{" "}&pound;20 to &pound;50
             </li>
             <li>
               <strong>Total per person:</strong>{" "}
-              &pound;310&ndash;&pound;500
+              &pound;310 to &pound;500
             </li>
           </ul>
           <p>
@@ -371,7 +371,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <p>
           Groups larger than four require active management. Designate one
-          person as the evening&apos;s coordinator — or better, delegate this
+          person as the evening&apos;s coordinator, or better, delegate this
           to a concierge. The coordinator confirms reservations, manages the
           group chat, handles the club check-in, and makes the executive
           decisions when the group reaches the inevitable fork in the road
@@ -381,8 +381,8 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         </p>
 
         <p>
-          For mixed groups — different ages, different preferences, different
-          energy levels — venue selection becomes critical.{" "}
+          For mixed groups (different ages, different preferences, different
+          energy levels), venue selection becomes critical.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}handles mixed energy
           levels with its gradual dinner-to-club transition.{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}unites
@@ -394,7 +394,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <p>
           After years of planning luxury evenings in London, these are the
-          recurring failure points — and their solutions:
+          recurring failure points, and their solutions:
         </p>
 
         <ul>

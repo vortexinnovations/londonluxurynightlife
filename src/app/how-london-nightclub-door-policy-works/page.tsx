@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "Why are London nightclubs so selective at the door?",
     answer:
-      "London's premium clubs are selective because their business model depends on curation. The atmosphere inside — which is the product these venues sell — is created by the crowd. An open-door policy would dilute the experience, reduce the perceived value, and ultimately drive away the clientele who make the venue worth visiting. Selectivity is not elitism for its own sake; it is quality control.",
+      "London's premium clubs are selective because their business model depends on curation. The atmosphere inside, which is the product these venues sell, is created by the crowd. An open-door policy would dilute the experience, reduce the perceived value, and ultimately drive away the clientele who make the venue worth visiting. Selectivity is not elitism for its own sake; it is quality control.",
   },
   {
     question: "Do London clubs discriminate at the door?",
@@ -39,17 +39,17 @@ const faqs = [
   {
     question: "What is the best group composition for getting into London clubs?",
     answer:
-      "Mixed-gender groups have the highest success rate at London's door policies. A balanced group of men and women is preferred at virtually every venue. All-female groups are welcomed warmly everywhere. All-male groups face the most scrutiny — the larger the group, the harder the door. If arriving as a male group, keep numbers small (2-4), dress impeccably, and ideally have a table booking.",
+      "Mixed-gender groups have the highest success rate at London's door policies. A balanced group of men and women is preferred at virtually every venue. All-female groups are welcomed warmly everywhere. All-male groups face the most scrutiny: the larger the group, the harder the door. If arriving as a male group, keep numbers small (2-4), dress impeccably, and ideally have a table booking.",
   },
   {
     question: "What time should I arrive at a London nightclub?",
     answer:
-      "For guestlist entry, arrive between 10:30pm and 11:30pm — this is the window when doors are most accommodating. After midnight, capacity tightens and the door becomes more selective. For table bookings, most venues specify an arrival window (typically 10:30pm-12:30am) and you should arrive within it. Arriving after your window risks losing your table or being given a less desirable position.",
+      "For guestlist entry, arrive between 10:30pm and 11:30pm. This is the window when doors are most accommodating. After midnight, capacity tightens and the door becomes more selective. For table bookings, most venues specify an arrival window (typically 10:30pm-12:30am) and you should arrive within it. Arriving after your window risks losing your table or being given a less desirable position.",
   },
   {
     question: "Can I talk my way into a London club if refused at the door?",
     answer:
-      "Almost never. Door decisions at professional venues are final, and arguing reduces your chances from zero to negative — you may be remembered and refused on future visits. If refused, the productive approach is to ask politely what the issue was (dress code, capacity, group composition) and either correct it or visit a different venue. Aggression, name-dropping, and offers of cash are all counterproductive.",
+      "Almost never. Door decisions at professional venues are final, and arguing reduces your chances from zero to negative. You may be remembered and refused on future visits. If refused, the productive approach is to ask politely what the issue was (dress code, capacity, group composition) and either correct it or visit a different venue. Aggression, name-dropping, and offers of cash are all counterproductive.",
   },
   {
     question: "Do promoters guarantee entry to London clubs?",
@@ -63,7 +63,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
     <>
       <ArticleSchema
         title="How London Nightclub Door Policy Works: Entry Rules Explained"
-        description="Demystifying London's nightclub door policies — why doors are selective, what they look for, the promoter system, worst mistakes, and how to maximise your chances."
+        description="Demystifying London's nightclub door policies: why doors are selective, what they look for, the promoter system, worst mistakes, and how to maximise your chances."
         slug="/how-london-nightclub-door-policy-works"
       />
       <FAQSchema faqs={faqs} />
@@ -76,7 +76,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <p>
           London&apos;s nightclub door policies have a reputation for being
           opaque, arbitrary, and occasionally infuriating. That reputation is
-          not entirely undeserved — but the system is considerably more
+          not entirely undeserved, but the system is considerably more
           logical than it appears from the wrong side of the rope. Doors are
           selective for specific, rational reasons. They assess specific,
           identifiable criteria. And the people who understand those criteria
@@ -88,7 +88,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           This guide exists to provide that information honestly. We are not
           going to pretend that every door decision is fair or that every
           rejection is justified. But we are going to explain the system as
-          it actually operates — the logic behind it, the criteria used, the
+          it actually operates: the logic behind it, the criteria used, the
           mistakes that guarantee failure, and the strategies that maximise
           success. Whether you are a first-time visitor or a Londoner who has
           been refused one too many times, this is the guide you need.
@@ -101,7 +101,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           for its own sake. It is about product quality. A nightclub sells an
           atmosphere, and that atmosphere is created primarily by the people
           in the room. An open-door policy would fill the venue quickly but
-          destroy the product — the crowd would be random, the energy
+          destroy the product: the crowd would be random, the energy
           unpredictable, and the experience inconsistent. The people who pay
           &pound;1,000 for a table at{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}are paying for
@@ -112,8 +112,8 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <p>
           This is why the best doors in London are not operated by security
           guards in the traditional sense. They are operated by experienced
-          hosts — often with backgrounds in hospitality, fashion, or
-          entertainment — who understand what combination of people creates
+          hosts (often with backgrounds in hospitality, fashion, or
+          entertainment) who understand what combination of people creates
           the best possible evening. Their job is not to exclude. It is to
           curate. The distinction matters because it explains everything
           about how doors actually operate.
@@ -158,7 +158,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
             <li>
               <strong>Capacity and balance:</strong>{" "}Even when all other
               criteria are met, a full venue may require the door to hold.
-              This is not a rejection — it is physics. Arriving earlier
+              This is not a rejection. It is physics. Arriving earlier
               eliminates this variable.
             </li>
           </ul>
@@ -223,7 +223,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           table booking facilitation (often with better positions than direct
           bookings), and door introductions (a promoter vouching for your
           group carries real weight). In return, they need you to show up,
-          look good, and behave well — because their reputation with the
+          look good, and behave well, because their reputation with the
           venue depends on the quality of the guests they deliver. This
           alignment of incentives is what makes the promoter system work.
         </p>
@@ -241,18 +241,18 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <p>
           Some behaviours guarantee refusal at any London venue, and they are
           worth listing explicitly because they are remarkably common.
-          Arriving visibly drunk is the fastest route to a refused evening
-          — pre-drink moderately or not at all. Arguing with the door is
-          the second fastest — door decisions are final, and escalation only
+          Arriving visibly drunk is the fastest route to a refused evening:
+          pre-drink moderately or not at all. Arguing with the door is
+          the second fastest: door decisions are final, and escalation only
           ensures you are remembered unfavourably. Name-dropping is the
-          third — unless the person you are dropping is physically present
+          third, unless the person you are dropping is physically present
           and known to the door team, it achieves nothing except marking you
           as someone who relies on association rather than personal merit.
         </p>
 
         <p>
           Offering cash to the door is culturally inappropriate in London
-          and will be refused at every venue on this list — this is not
+          and will be refused at every venue on this list. This is not
           Las Vegas. Arriving in a large all-male group with no booking
           on a Saturday night is setting yourself up for failure at any
           premium venue. And the most avoidable mistake of all: ignoring
@@ -269,14 +269,14 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}operates the
-          strictest door in the city — table bookings are refused, let alone
+          strictest door in the city: table bookings are refused, let alone
           walk-ups. Our{" "}
           <Link href="/how-to-get-into-tape-london">
             dedicated Tape entry guide
           </Link>{" "}
           covers the specifics.{" "}
           <Link href="/clubs/the-box-london">The Box</Link>{" "}adds an
-          additional layer — the door assesses not just whether you meet the
+          additional layer: the door assesses not just whether you meet the
           standard but whether you can handle the performances.
         </p>
 
@@ -315,7 +315,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           are inside, and treat the door team with straightforward respect.
           Do all of these and you will gain entry to every venue in London
           on virtually every night. Fail on any one and the probability
-          drops — fail on several and the evening becomes an expensive
+          drops: fail on several and the evening becomes an expensive
           lesson in standing on pavements.
         </p>
 

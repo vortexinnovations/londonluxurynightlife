@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "London vs Dubai Nightlife | The Honest Comparison",
     description:
-      "Two nightlife capitals, two entirely different philosophies. A genuine comparison of London and Dubai clubs — costs, culture, music, and which city suits you.",
+      "Two nightlife capitals, two entirely different philosophies. A genuine comparison of London and Dubai clubs: costs, culture, music, and which city suits you.",
     url: "https://londonluxurynightlife.com/london-vs-dubai-nightlife",
     type: "article",
   },
@@ -29,18 +29,18 @@ export default function LondonVsDubaiNightlifePage() {
     <>
       <ArticleSchema
         title="London vs Dubai Nightlife: An Honest Comparison"
-        description="A genuine comparison of London and Dubai nightlife — two cities that both claim the crown but deliver exclusivity in fundamentally different ways."
+        description="A genuine comparison of London and Dubai nightlife: two cities that both claim the crown but deliver exclusivity in fundamentally different ways."
         slug="/london-vs-dubai-nightlife"
       />
       <ArticleLayout
         title="London vs Dubai Nightlife"
-        subtitle="Two cities that both claim world-class nightlife — but deliver it through entirely different philosophies of exclusivity"
+        subtitle="Two cities that both claim world-class nightlife, but deliver it through entirely different philosophies of exclusivity"
         heroImage={GUIDE_IMAGES["london-vs-dubai-nightlife"]}
         heroAlt="London versus Dubai nightlife comparison with luxury club scenes from both cities"
       >
         <p>
           London and Dubai sit at opposite ends of the luxury nightlife
-          spectrum, yet both attract the same international clientele —
+          spectrum, yet both attract the same international clientele:
           high-net-worth travellers who expect the best and have the means
           to access it. The question of which city offers the better night
           out has no universal answer. It depends entirely on what you
@@ -51,7 +51,7 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           Having spent extensive time in the premium venues of both cities,
-          we can offer something most comparisons cannot — an honest
+          we can offer something most comparisons cannot: an honest
           assessment that acknowledges where each city genuinely excels and
           where it falls short. Neither city is categorically better. But
           one will almost certainly suit you more than the other.
@@ -61,11 +61,11 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           London&apos;s nightlife operates on a principle of
-          exclusivity-through-curation. The best venues —{" "}
+          exclusivity-through-curation. The best venues (
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          — earn their status through door policies that select for the
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>){" "}
+          earn their status through door policies that select for the
           right crowd, music programming that rewards genuine taste, and
           atmospheres that cannot be purchased. Money is necessary but not
           sufficient. The wealthiest person in the queue can still be
@@ -74,7 +74,7 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           Dubai operates on exclusivity-through-spending. The door policies
-          are far less selective — presentable appearance and a willingness
+          are far less selective: presentable appearance and a willingness
           to meet minimum spends will gain entry to virtually any venue.
           The exclusivity is economic rather than cultural. This is not a
           criticism; it is simply a different model, and for many visitors
@@ -86,7 +86,7 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           The assumption that Dubai is dramatically more expensive than
           London is only partially correct. Dubai&apos;s minimum table
-          spends are typically higher — expect AED 5,000 to AED 15,000
+          spends are typically higher: expect AED 5,000 to AED 15,000
           (&pound;1,100 to &pound;3,300) at premium venues, compared to
           London&apos;s &pound;1,000 to &pound;1,500 at equivalent
           venues. However, Dubai&apos;s bottle prices, once you account
@@ -121,7 +121,7 @@ export default function LondonVsDubaiNightlifePage() {
           programming at{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>
           , to the sound-system-first approach at{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link>{" "}— the
+          <Link href="/clubs/beat-london">BEAT London</Link>: the
           variety is genuine and the quality is high. Our guides to the{" "}
           <Link href="/best-hip-hop-clubs-london">
             best hip-hop clubs
@@ -135,7 +135,7 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           Dubai&apos;s music policy at premium venues tends toward safe
-          commercial programming — chart hits, mainstream EDM, and
+          commercial programming: chart hits, mainstream EDM, and
           crowd-pleasing remixes. There are exceptions, particularly at
           certain hotel venues during special events, but the baseline is
           considerably more conservative than London&apos;s. If music is
@@ -176,7 +176,7 @@ export default function LondonVsDubaiNightlifePage() {
           <Link href="/london-club-dress-code-guide">
             dress code culture
           </Link>{" "}
-          leans toward understated luxury — well-fitted, quality fabrics,
+          leans toward understated luxury: well-fitted, quality fabrics,
           designer pieces worn without logos. The look is wealthy but not
           performative. Think Savile Row sensibility translated to nightlife.
         </p>
@@ -184,7 +184,7 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           Dubai&apos;s dress code is bolder. Visible branding, statement
           pieces, and overt luxury are not just accepted but expected.
-          The aesthetic is more Mediterranean — louder, more colourful,
+          The aesthetic is more Mediterranean: louder, more colourful,
           more overtly expensive. Neither approach is superior; they
           reflect the broader cultural attitudes of each city. But
           visitors should calibrate their wardrobe accordingly.
@@ -197,7 +197,7 @@ export default function LondonVsDubaiNightlifePage() {
           like <Link href="/clubs/tape-london">Tape London</Link>{" "}enforce
           strict no-phone policies, creating spaces where high-profile
           guests can relax without surveillance. The celebrity presence in
-          London is genuine but invisible — you might share a room with a
+          London is genuine but invisible. You might share a room with a
           Premier League footballer or a chart-topping musician and never
           know. Our{" "}
           <Link href="/celebrity-nightclubs-london">
@@ -228,7 +228,7 @@ export default function LondonVsDubaiNightlifePage() {
 
         <p>
           The practical impact is that London evenings are more
-          concentrated — the energy builds faster because there is less
+          concentrated: the energy builds faster because there is less
           time. Dubai evenings are more elongated, with later arrivals
           and a slower build. Visitors who find London&apos;s closing
           times frustratingly early will appreciate Dubai&apos;s
@@ -252,8 +252,8 @@ export default function LondonVsDubaiNightlifePage() {
           others reduce their programming, and the overall energy shifts.
           Visitors planning Dubai trips should check dates carefully.
           Outside of Ramadan, Dubai&apos;s premium venues serve alcohol
-          without restriction, though the cultural context is different
-          — the pace is often more measured, and the relationship with
+          without restriction, though the cultural context is different:
+          the pace is often more measured, and the relationship with
           alcohol less central to the experience.
         </p>
 
@@ -262,7 +262,7 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           Dubai wins on scale, spectacle, weather, and hours. The venues
           are larger and more architecturally ambitious. The outdoor
-          elements — rooftop bars, pool parties, beach clubs — are
+          elements (rooftop bars, pool parties, beach clubs) are
           genuinely world-class and have no London equivalent. The
           weather permits a style of nightlife that London&apos;s
           climate simply cannot support. And the later hours give the
@@ -277,12 +277,12 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           London wins on heritage, musical credibility, genuine
           exclusivity, and variety. The depth of London&apos;s nightlife
-          — the number of distinct, excellent venues within walking
-          distance of each other in Mayfair alone — is unmatched. The
+          (the number of distinct, excellent venues within walking
+          distance of each other in Mayfair alone) is unmatched. The
           musical programming is richer, more diverse, and more
           adventurous. The exclusivity is authentic rather than purely
-          economic. And the heritage — venues like Scotch of St James
-          with decades of genuine history — creates an atmosphere that
+          economic. And the heritage, venues like Scotch of St James
+          with decades of genuine history, creates an atmosphere that
           new-build Dubai venues cannot replicate. Our{" "}
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
@@ -327,7 +327,7 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           If London is your choice, the practical next steps are
           straightforward. Secure a table booking through a reputable
-          promoter or concierge — our team works with every premium venue
+          promoter or concierge: our team works with every premium venue
           in the city.{" "}
           <Link href="/contact">Contact us</Link>{" "}with your dates and
           preferences. For self-service bookings,{" "}

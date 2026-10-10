@@ -32,7 +32,7 @@ function turndown(): TurndownService {
 }
 
 function notFoundMarkdown(path: string): string {
-  return `# 404 — Page Not Found
+  return `# 404: Page Not Found
 
 \`${path}\` does not exist on ${SITE_NAME}.
 
@@ -78,7 +78,7 @@ export async function GET(
 
 ---
 
-*Markdown rendition of ${canonical} — HTML available at the same URL. Site guide for agents: ${SITE_URL}/llms.txt*
+*Markdown rendition of ${canonical} (HTML available at the same URL). Site guide for agents: ${SITE_URL}/llms.txt*
 `;
 
   return new Response(markdown, { status: 200, headers: MARKDOWN_HEADERS });

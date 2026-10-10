@@ -29,12 +29,12 @@ export default function BestHipHopClubsLondonPage() {
     <>
       <ArticleSchema
         title="Best Hip Hop Clubs in London: The Definitive Guide"
-        description="The insider's guide to London's best hip-hop and RnB clubs — from Tape London's curated exclusivity to Cirque Le Soir's live entertainment."
+        description="The insider's guide to London's best hip-hop and RnB clubs, from Tape London's curated exclusivity to Cirque Le Soir's live entertainment."
         slug="/best-hip-hop-clubs-london"
       />
       <ArticleLayout
         title="Best Hip Hop Clubs in London"
-        subtitle="Where to find genuine hip-hop and RnB programming — not a generic playlist on shuffle"
+        subtitle="Where to find genuine hip-hop and RnB programming, not a generic playlist on shuffle"
         heroImage={GUIDE_IMAGES["best-hip-hop-clubs-london"]}
         heroAlt="Hip hop and RnB night at a London club with DJ and dancefloor energy"
       >
@@ -49,8 +49,8 @@ export default function BestHipHopClubsLondonPage() {
 
         <p>
           The distinction matters. A venue that hires a DJ who understands
-          hip-hop — who can read a room, build a set, transition between eras
-          and sub-genres — creates an entirely different evening from one that
+          hip-hop (who can read a room, build a set, transition between eras
+          and sub-genres) creates an entirely different evening from one that
           puts a Spotify playlist through expensive speakers. This guide
           identifies the venues that get it right, explains what distinguishes
           them, and tells you exactly which nights to target.
@@ -60,8 +60,8 @@ export default function BestHipHopClubsLondonPage() {
 
         <p>
           The first test is the DJ. A genuine hip-hop DJ does not simply play
-          popular tracks in sequence. They build a narrative across the night
-          — opening with deeper cuts and slower grooves before escalating
+          popular tracks in sequence. They build a narrative across the night:
+          opening with deeper cuts and slower grooves before escalating
           through classic anthems and into harder, more energetic territory as
           the room fills. They read the crowd and adjust. They mix, rather
           than simply crossfade. The difference is immediately audible to
@@ -86,12 +86,12 @@ export default function BestHipHopClubsLondonPage() {
 
         <h2>The Definitive Ranking</h2>
 
-        <h3>1. Tape London — Credibility Above Everything</h3>
+        <h3>1. Tape London: Credibility Above Everything</h3>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}earns the top
-          position because its hip-hop credentials are not a marketing choice
-          — they are embedded in the venue&apos;s DNA. Founded by music
+          position because its hip-hop credentials are not a marketing choice. 
+          They are embedded in the venue&apos;s DNA. Founded by music
           industry professionals, Tape was designed from the ground up for
           people who genuinely care about sound. The no-phones policy on the
           dance floor creates an atmosphere where artists, producers, and
@@ -106,7 +106,7 @@ export default function BestHipHopClubsLondonPage() {
           classics through to current releases, mixed with a sophistication
           that reflects the venue&apos;s Mayfair setting without sanitising
           the music. Tables start from &pound;1,500, which is the highest
-          minimum in Mayfair — and the crowd that meets that threshold tends
+          minimum in Mayfair, and the crowd that meets that threshold tends
           to be there because they value the experience, not because they want
           to be seen. Read our{" "}
           <Link href="/blog/tape-london-inside-mayfairs-most-exclusive-club">
@@ -115,13 +115,13 @@ export default function BestHipHopClubsLondonPage() {
           for the full picture.
         </p>
 
-        <h3>2. Cirque Le Soir — Hip-Hop Meets Entertainment</h3>
+        <h3>2. Cirque Le Soir: Hip-Hop Meets Entertainment</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}does not
           fit neatly into any category, which is precisely its appeal. The
           Soho venue combines hip-hop and R&amp;B music with live circus
-          entertainment — fire breathers, contortionists, stilt walkers —
+          entertainment (fire breathers, contortionists, stilt walkers)
           creating an experience that is as much theatrical spectacle as it is
           nightclub. The music is the connective tissue, and the hip-hop
           programming is stronger than the venue&apos;s theatrical reputation
@@ -132,7 +132,7 @@ export default function BestHipHopClubsLondonPage() {
           Celebrity attendance at Cirque is frequent and genuine, which
           creates an atmosphere that elevates the standard hip-hop club
           experience into something more memorable. Drake, Rihanna, and
-          countless others have been photographed here — not because they were
+          countless others have been photographed here, not because they were
           paid to attend, but because Cirque offers an evening unlike anything
           available elsewhere. Our{" "}
           <Link href="/blog/cirque-le-soir-circus-nightclub-london">
@@ -141,7 +141,7 @@ export default function BestHipHopClubsLondonPage() {
           has the full breakdown.
         </p>
 
-        <h3>3. Selene London — Refined New Energy</h3>
+        <h3>3. Selene London: Refined New Energy</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link>, in Fitzrovia just
@@ -157,14 +157,14 @@ export default function BestHipHopClubsLondonPage() {
           covers what makes it worth watching.
         </p>
 
-        <h3>4. BEAT London — Sound System First</h3>
+        <h3>4. BEAT London: Sound System First</h3>
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           deserves mention because its room-tuned sound system delivers
           hip-hop with a clarity and weight that Mayfair venues cannot match.
           When BEAT programmes hip-hop nights, the experience is defined by
-          the bass response and sonic detail — you hear elements of tracks
+          the bass response and sonic detail. You hear elements of tracks
           that you have never noticed before. It is a different proposition
           from the Mayfair venues, but for genuine music enthusiasts, it is
           essential.
@@ -184,7 +184,7 @@ export default function BestHipHopClubsLondonPage() {
 
         <p className="pull-quote">
           The best hip-hop nights in London are not about playing the most
-          popular tracks — they are about curating an atmosphere where the
+          popular tracks. They are about curating an atmosphere where the
           music, the crowd, and the venue create something greater than the
           sum of their parts.
         </p>
@@ -208,7 +208,7 @@ export default function BestHipHopClubsLondonPage() {
           soundtrack, Mayfair delivers that better than anywhere else in
           London. If you want a raw, underground experience where the music
           comes first and the venue is secondary, look beyond W1. And if you
-          want both — start your evening at BEAT in Fitzrovia, then move to
+          want both: start your evening at BEAT in Fitzrovia, then move to
           Mayfair.
         </p>
 

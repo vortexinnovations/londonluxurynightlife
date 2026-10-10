@@ -40,8 +40,8 @@ export default function PrivacyPage() {
       <p>
         You can read every page on this site without creating an account or
         accepting any cookies, and we do not set any. Our hosting provider,
-        Vercel Inc., processes standard technical request data &mdash; IP
-        address, browser user agent, requested URL, and timestamps &mdash; in
+        Vercel Inc., processes standard technical request data (IP
+        address, browser user agent, requested URL, and timestamps) in
         short-lived server logs used for security, abuse prevention, and
         keeping the site online. We do not use this data to identify or
         profile visitors. Photography on the site is served through our own
@@ -53,8 +53,8 @@ export default function PrivacyPage() {
 
       <p>
         Booking enquiries happen over WhatsApp, which you start by tapping a
-        button on this site. When you do, we receive whatever you send us
-        &mdash; typically your name, phone number, dates, group size, and what
+        button on this site. When you do, we receive whatever you send us,
+        typically your name, phone number, dates, group size, and what
         kind of night you are planning. We use that information for one
         purpose: arranging your booking. Where a reservation requires it, we
         share only the details a venue needs (typically a name, group size,
@@ -97,8 +97,8 @@ export default function PrivacyPage() {
       <h2>Changes to this policy</h2>
 
       <p>
-        If how we handle data changes &mdash; for example, if we ever add
-        analytics &mdash; we will update this page and change the date below
+        If how we handle data changes (for example, if we ever add
+        analytics), we will update this page and change the date below
         before the change takes effect.
       </p>
 

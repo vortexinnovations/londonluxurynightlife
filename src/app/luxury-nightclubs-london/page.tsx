@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Luxury Nightclubs London: Where Quality Meets Exclusivity",
   description:
-    "London's finest nightclubs ranked by experience, not hype. Sound systems, service, crowds, and atmosphere — the insider's quality guide for 2026.",
+    "London's finest nightclubs ranked by experience, not hype. Sound systems, service, crowds, and atmosphere: the insider's quality guide for 2026.",
   keywords:
     "luxury nightclubs London, exclusive clubs London, VIP nightclubs London, premium clubs London, best luxury clubs London, Mayfair nightclubs, high end clubs London",
   openGraph: {
@@ -29,12 +29,12 @@ export default function LuxuryNightclubsLondonPage() {
     <>
       <ArticleSchema
         title="Luxury Nightclubs in London: The Definitive Guide"
-        description="The insider's guide to London's most exclusive luxury nightclubs — what makes them premium, which venues deliver, and how to access the best."
+        description="The insider's guide to London's most exclusive luxury nightclubs: what makes them premium, which venues deliver, and how to access the best."
         slug="/luxury-nightclubs-london"
       />
       <ArticleLayout
         title="Luxury Nightclubs in London"
-        subtitle="What separates a genuinely exclusive club from one that simply charges more — and where to find the real thing"
+        subtitle="What separates a genuinely exclusive club from one that simply charges more, and where to find the real thing"
         heroImage={GUIDE_IMAGES["luxury-nightclubs-london"]}
         heroAlt="Luxury nightclubs in London's Mayfair district with premium VIP interiors"
       >
@@ -44,7 +44,7 @@ export default function LuxuryNightclubsLondonPage() {
           difference between a premium venue and an expensive one is the
           difference between an evening you remember for years and one you
           remember only for the bill. This guide exists to make that
-          distinction clear — to identify which London clubs actually deliver
+          distinction clear: to identify which London clubs actually deliver
           a luxury experience and explain precisely what that means in
           practice.
         </p>
@@ -64,8 +64,8 @@ export default function LuxuryNightclubsLondonPage() {
         <p>
           Before we name venues, it is worth defining terms. A luxury
           nightclub is not simply a dark room with expensive bottles. It is
-          an environment where every element — the space, the sound, the
-          service, the crowd, the atmosphere — has been considered and
+          an environment where every element (the space, the sound, the
+          service, the crowd, the atmosphere) has been considered and
           curated to create an experience that cannot be replicated at a
           lesser venue. The bottle of Grey Goose costs the same wholesale
           everywhere. What you are paying for is everything around it.
@@ -87,18 +87,18 @@ export default function LuxuryNightclubsLondonPage() {
         <p>
           These venues represent the highest standard of luxury nightlife
           available in London. They are not simply good clubs with high
-          prices — they are venues where every element of the experience
+          prices. They are venues where every element of the experience
           operates at an exceptional level.
         </p>
 
-        <h3>Tape London — Mayfair&apos;s Most Exclusive Room</h3>
+        <h3>Tape London: Mayfair&apos;s Most Exclusive Room</h3>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}occupies the
           top position for a reason that money alone cannot create: genuine
           exclusivity backed by genuine quality. The Hanover Square venue
           was founded by music industry professionals, and that DNA runs
-          through everything — from the room-specific sound system to the
+          through everything, from the room-specific sound system to the
           no-phones policy that creates an atmosphere of real privacy. The
           crowd includes A-list celebrities, musicians, and entrepreneurs
           who choose Tape because it is the one venue where they can behave
@@ -115,7 +115,7 @@ export default function LuxuryNightclubsLondonPage() {
           .
         </p>
 
-        <h3>Scotch of St James — Heritage as Luxury</h3>
+        <h3>Scotch of St James: Heritage as Luxury</h3>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -133,7 +133,7 @@ export default function LuxuryNightclubsLondonPage() {
 
         <p className="pull-quote">
           Genuine luxury in nightlife is not about how much you spend. It is
-          about whether the experience justifies the spend — and in London,
+          about whether the experience justifies the spend, and in London,
           the best venues make that justification effortless.
         </p>
 
@@ -146,14 +146,14 @@ export default function LuxuryNightclubsLondonPage() {
           preferences.
         </p>
 
-        <h3>Cirque Le Soir — Theatrical Luxury</h3>
+        <h3>Cirque Le Soir: Theatrical Luxury</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}
           redefines luxury as experience rather than environment. The
           circus-themed Soho venue delivers an evening where fire breathers,
           contortionists, and acrobats share the space with celebrity
-          clientele. No other venue in London — or arguably the world —
+          clientele. No other venue in London, or arguably the world,
           creates this combination of entertainment and nightlife at this
           level. See our{" "}
           <Link href="/blog/cirque-le-soir-circus-nightclub-london">
@@ -162,7 +162,7 @@ export default function LuxuryNightclubsLondonPage() {
           .
         </p>
 
-        <h3>Dear Darling — Cocktail Elegance</h3>
+        <h3>Dear Darling: Cocktail Elegance</h3>
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
@@ -173,7 +173,7 @@ export default function LuxuryNightclubsLondonPage() {
           sophistication and a party in the same evening.
         </p>
 
-        <h3>Maddox Club — Dining Luxury</h3>
+        <h3>Maddox Club: Dining Luxury</h3>
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the only venue where
@@ -188,13 +188,13 @@ export default function LuxuryNightclubsLondonPage() {
 
         <h2>Tier Three: The Strong Contenders</h2>
 
-        <h3>The Box — Provocative Excellence</h3>
+        <h3>The Box: Provocative Excellence</h3>
 
         <p>
           <Link href="/clubs/the-box-london">The Box</Link>{" "}in Soho is
           luxury expressed as daring. The performance-first nightclub pushes
           boundaries that other venues do not approach, creating evenings
-          that are genuinely unforgettable. Not for everyone — but for the
+          that are genuinely unforgettable. Not for everyone, but for the
           right audience, it is unmatched. See our{" "}
           <Link href="/blog/the-box-london-what-to-expect">
             honest guide
@@ -202,17 +202,17 @@ export default function LuxuryNightclubsLondonPage() {
           .
         </p>
 
-        <h3>Reign London — Spectacle at Scale</h3>
+        <h3>Reign London: Spectacle at Scale</h3>
 
         <p>
           <Link href="/clubs/reign-london">Reign London</Link>{" "}delivers
-          theatrical entertainment — aerial acts, cabaret, live
-          performances — on a scale that Mayfair venues cannot match.
+          theatrical entertainment (aerial acts, cabaret, live
+          performances) on a scale that Mayfair venues cannot match.
           Ideal for celebrations and occasions where the evening needs to
           feel like an event.
         </p>
 
-        <h3>Selene London — The New Generation</h3>
+        <h3>Selene London: The New Generation</h3>
 
         <p>
           <Link href="/clubs/selene-london">Selene</Link>, just north of
@@ -225,7 +225,7 @@ export default function LuxuryNightclubsLondonPage() {
           covers what to expect.
         </p>
 
-        <h3>BEAT London — Sonic Luxury</h3>
+        <h3>BEAT London: Sonic Luxury</h3>
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia

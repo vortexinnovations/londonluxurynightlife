@@ -19,7 +19,7 @@ const faqs = [
     question:
       "Which London clubs are best for corporate client entertainment?",
     answer:
-      "Maddox and Reign London are ideal for their dinner-to-club format, allowing a structured evening. Scotch of St James and Dear Darling suit sophisticated, conversation-friendly entertainment. The best choice depends on your client relationship and industry — contact us for a tailored recommendation.",
+      "Maddox and Reign London are ideal for their dinner-to-club format, allowing a structured evening. Scotch of St James and Dear Darling suit sophisticated, conversation-friendly entertainment. The best choice depends on your client relationship and industry. Contact us for a tailored recommendation.",
   },
   {
     question:
@@ -41,7 +41,7 @@ const faqs = [
     question:
       "What if my clients have dietary requirements or don't drink alcohol?",
     answer:
-      "All premium London clubs offer soft drinks, premium water, and non-alcoholic cocktails alongside bottle service. For dinner-club venues like Maddox and Reign London, dietary requirements are handled as they would be at any high-end restaurant — just inform us when booking.",
+      "All premium London clubs offer soft drinks, premium water, and non-alcoholic cocktails alongside bottle service. For dinner-club venues like Maddox and Reign London, dietary requirements are handled as they would be at any high-end restaurant. Just inform us when booking.",
   },
 ];
 
@@ -68,8 +68,8 @@ export default function CorporateEntertainmentPage() {
           and the margin for error is considerably thinner. A well-executed
           client evening in one of London&apos;s premium venues can
           strengthen a business relationship in ways that no boardroom
-          meeting or golf day ever will. A poorly planned one — wrong venue,
-          wrong vibe, wrong logistics — can set things back just as
+          meeting or golf day ever will. A poorly planned one (wrong venue,
+          wrong vibe, wrong logistics) can set things back just as
           decisively.
         </p>
 
@@ -100,7 +100,7 @@ export default function CorporateEntertainmentPage() {
           relatively new business relationship, you want a venue that
           impresses without surprising.{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          is exceptional for this — its heritage lends gravitas, the
+          is exceptional for this: its heritage lends gravitas, the
           atmosphere is refined without being stiff, and the mixed music
           policy means there is something for everyone.{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is another
@@ -112,8 +112,8 @@ export default function CorporateEntertainmentPage() {
         <h3>For the Dinner-to-Club Transition</h3>
 
         <p>
-          If you want to structure the evening with a clear arc — dinner
-          first, then drinks and entertainment —{" "}
+          If you want to structure the evening with a clear arc (dinner
+          first, then drinks and entertainment),{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}is the gold standard for
           corporate entertaining.{" "}
           The Italian dining is genuinely excellent, the
@@ -175,7 +175,7 @@ export default function CorporateEntertainmentPage() {
           individual guests. For corporate groups, you need a direct
           relationship with the venue or, better still, a nightlife
           concierge who has one.{" "}
-          <Link href="/contact">Contact us directly</Link>{" "}— we have
+          <Link href="/contact">Contact us directly</Link>: we have
           standing relationships with every venue mentioned in this guide,
           and we can secure tables, negotiate arrangements, and handle
           special requests in a way that a website form simply cannot.
@@ -212,8 +212,8 @@ export default function CorporateEntertainmentPage() {
           </li>
           <li>
             <strong>Dietary requirements and preferences.</strong>{" "}Essential
-            for dinner-club venues, but also relevant for bottle service
-            — some guests may prefer specific spirits, champagne, or
+            for dinner-club venues, but also relevant for bottle service:
+            some guests may prefer specific spirits, champagne, or
             non-alcoholic options.
           </li>
         </ul>
@@ -230,7 +230,7 @@ export default function CorporateEntertainmentPage() {
 
         <p>
           Most Mayfair clubs operate on a minimum spend model rather than
-          an entry fee. You are not paying for the table itself — you are
+          an entry fee. You are not paying for the table itself. You are
           committing to a minimum amount on drinks. For the venues in this
           guide, expect:
         </p>
@@ -255,15 +255,15 @@ export default function CorporateEntertainmentPage() {
           The minimum spend covers premium spirits and champagne served at
           your table. A £1,500 minimum for a group of eight works out to
           under £200 per person for a premium open-bar experience with table
-          service — which, presented that way to your finance team, is
+          service, which, presented that way to your finance team, is
           remarkably reasonable.
         </p>
 
         <h3>Dinner Costs</h3>
 
         <p>
-          If you are incorporating dinner — and for corporate groups, we
-          strongly recommend it — budget £100-£200 per person at the
+          If you are incorporating dinner (and for corporate groups, we
+          strongly recommend it), budget £100-£200 per person at the
           restaurant or dinner-club venues like{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
           <Link href="/clubs/reign-london">Reign London</Link>. This covers
@@ -278,7 +278,7 @@ export default function CorporateEntertainmentPage() {
           Factor in private car hire or taxis (£100-£200 for the evening,
           depending on group size and distances), and a small contingency
           for anything unexpected. Cloakroom charges are typically £2-£3 per
-          item — negligible, but worth mentioning for completeness.
+          item: negligible, but worth mentioning for completeness.
         </p>
 
         <blockquote className="pull-quote">
@@ -291,14 +291,14 @@ export default function CorporateEntertainmentPage() {
 
         <p>
           The flow of a corporate evening matters enormously. You are not
-          just choosing a venue — you are designing an experience. Here is
+          just choosing a venue. You are designing an experience. Here is
           the structure that works:
         </p>
 
         <h3>The Pre-Dinner Drink (7:30-8:00pm)</h3>
 
         <p>
-          Start with a drink somewhere neutral — a hotel bar, a cocktail
+          Start with a drink somewhere neutral: a hotel bar, a cocktail
           lounge near your dinner venue. This gives everyone time to arrive,
           settle any first-meeting nerves, and establishes a relaxed tone
           before you sit down to eat. Do not skip this step. Walking
@@ -313,7 +313,7 @@ export default function CorporateEntertainmentPage() {
           relationship building, short enough that energy does not flag. If
           you are at Maddox or Reign, this is built into the venue. If you
           are dining elsewhere, choose a restaurant within walking distance
-          of your club — see our{" "}
+          of your club. See our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide
           </Link>{" "}
@@ -325,7 +325,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           At dinner-club venues, this happens naturally. If you are moving
           between venues, have transport pre-arranged. The transition is
-          where corporate evenings most often stumble — fifteen minutes
+          where corporate evenings most often stumble: fifteen minutes
           standing on a pavement trying to hail taxis can undo an hour of
           careful rapport building.
         </p>
@@ -335,7 +335,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           Arrive and go straight to your table. Have the first round of
           drinks poured immediately. The initial fifteen minutes at the
-          table set the tone — if bottles are on the table and everyone has
+          table set the tone, if bottles are on the table and everyone has
           a drink, the evening takes on its own momentum. As the host, your
           job is to ensure everyone is comfortable and then step back.
           The venue does the rest.
@@ -364,7 +364,7 @@ export default function CorporateEntertainmentPage() {
           </li>
           <li>
             <strong>Handle payment discreetly.</strong>{" "}At dinner, arrange
-            to settle the bill away from the table — a quick word with the
+            to settle the bill away from the table: a quick word with the
             restaurant manager. At the club, the minimum spend is arranged
             in advance. Your clients should never see a bill, never see a
             card machine, never have any moment where the commercial reality
@@ -383,7 +383,7 @@ export default function CorporateEntertainmentPage() {
         <p>
           Corporate entertainment dress code sits at the intersection of
           business and nightlife, and getting it right sends the right
-          signal. Advise your guests in advance — a simple note in the
+          signal. Advise your guests in advance: a simple note in the
           invitation saying &quot;the venue dress code is smart
           elegant&quot; gives everyone the information they need without
           making it feel like a school trip.
@@ -392,8 +392,8 @@ export default function CorporateEntertainmentPage() {
         <p>
           For men, the safest approach is business attire with the tie
           removed: a well-cut suit or tailored trousers with a blazer,
-          leather shoes, open-collar shirt. For women, business evening wear
-          — a smart dress, tailored separates, or an elevated version of
+          leather shoes, open-collar shirt. For women, business evening wear:
+          a smart dress, tailored separates, or an elevated version of
           office attire. Consult our{" "}
           <Link href="/london-club-dress-code-guide">
             complete dress code guide
@@ -409,14 +409,14 @@ export default function CorporateEntertainmentPage() {
           and we recommend asking for this when you book rather than at the
           end of the night when management may be less available. If you
           book through our concierge service, we can provide a single,
-          consolidated invoice covering all elements of the evening — venue,
+          consolidated invoice covering all elements of the evening: venue,
           any dinner arrangements, and our coordination fee. This simplifies
           expense reporting considerably.
         </p>
 
         <p>
           For VAT-registered businesses, venue receipts will include VAT
-          details. Keep all documentation — entertainment expenses have
+          details. Keep all documentation: entertainment expenses have
           specific HMRC treatment, and your finance team will thank you for
           a clean paper trail.
         </p>
@@ -457,8 +457,8 @@ export default function CorporateEntertainmentPage() {
         <p>
           Organising corporate entertainment in a world you may not know
           well is stressful. It does not have to be.{" "}
-          <Link href="/contact">Contact us</Link>{" "}with your brief — date,
-          group size, budget, client type — and we will handle everything.
+          <Link href="/contact">Contact us</Link>{" "}with your brief (date,
+          group size, budget, client type) and we will handle everything.
           We have coordinated corporate evenings for financial institutions,
           tech companies, creative agencies, and professional services firms
           across London. We know what works, and we know what does not.

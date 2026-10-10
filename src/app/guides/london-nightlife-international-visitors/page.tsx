@@ -17,32 +17,32 @@ const faqs = [
   {
     question: "Is London nightlife safe for tourists?",
     answer:
-      "London is one of the safest major cities in the world for nightlife. Mayfair and the West End are well-lit, heavily policed, and populated until the early hours. Standard precautions apply — keep your phone secure, use licensed taxis or Uber, and avoid unlit side streets late at night. The venues themselves have professional security teams and a duty of care to guests.",
+      "London is one of the safest major cities in the world for nightlife. Mayfair and the West End are well-lit, heavily policed, and populated until the early hours. Standard precautions apply: keep your phone secure, use licensed taxis or Uber, and avoid unlit side streets late at night. The venues themselves have professional security teams and a duty of care to guests.",
   },
   {
     question: "Can I use US dollars or euros in London nightclubs?",
     answer:
-      "No. London operates exclusively in British pounds (GBP). However, virtually every venue accepts contactless card payments (Visa, Mastercard, Amex) and Apple Pay or Google Pay. You rarely need cash in London's luxury clubs, though carrying £50–100 in notes is useful for tipping or black cabs.",
+      "No. London operates exclusively in British pounds (GBP). However, virtually every venue accepts contactless card payments (Visa, Mastercard, Amex) and Apple Pay or Google Pay. You rarely need cash in London's luxury clubs, though carrying £50 to 100 in notes is useful for tipping or black cabs.",
   },
   {
     question: "Do I need to tip at London nightclubs?",
     answer:
-      "Tipping is appreciated but not obligatory in the UK. For table service, 10–15% is a generous gesture if service has been excellent, though many clubs add a discretionary service charge. At the bar, rounding up by a pound or two is common but not expected. London's tipping culture is far more relaxed than in the US.",
+      "Tipping is appreciated but not obligatory in the UK. For table service, 10 to 15% is a generous gesture if service has been excellent, though many clubs add a discretionary service charge. At the bar, rounding up by a pound or two is common but not expected. London's tipping culture is far more relaxed than in the US.",
   },
   {
     question: "What time should I arrive at a London nightclub?",
     answer:
-      "Aim to arrive between 11pm and midnight. London clubs typically open around 10pm–11pm and close between 3am and 4am. Arriving before 11pm means a quiet venue; arriving after 1am risks long queues or being turned away at capacity. The peak atmosphere is usually between midnight and 2am.",
+      "Aim to arrive between 11pm and midnight. London clubs typically open around 10pm to 11pm and close between 3am and 4am. Arriving before 11pm means a quiet venue; arriving after 1am risks long queues or being turned away at capacity. The peak atmosphere is usually between midnight and 2am.",
   },
   {
     question: "Which London clubs are best for American visitors?",
     answer:
-      "American visitors tend to gravitate toward Tape London, Selene, and Cirque Le Soir — venues with strong hip-hop and RnB programming, high energy, and a familiar bottle-service format. If you prefer house music or a more European vibe, try Maddox or Ministry of Sound. For a theatrical experience unlike anything in the US, Cirque Le Soir is unmissable.",
+      "American visitors tend to gravitate toward Tape London, Selene, and Cirque Le Soir: venues with strong hip-hop and RnB programming, high energy, and a familiar bottle-service format. If you prefer house music or a more European vibe, try Maddox or Ministry of Sound. For a theatrical experience unlike anything in the US, Cirque Le Soir is unmissable.",
   },
   {
     question: "Do London clubs have a last entry time?",
     answer:
-      "Yes. Most London clubs stop admitting guests approximately one hour before closing — so typically 2am–2:30am for a venue that closes at 3am. If you are on a guestlist without a table booking, arriving after 1am on a weekend is risky. Table bookings are more flexible, but arriving before 1am is still recommended.",
+      "Yes. Most London clubs stop admitting guests approximately one hour before closing, so typically 2am to 2:30am for a venue that closes at 3am. If you are on a guestlist without a table booking, arriving after 1am on a weekend is risky. Table bookings are more flexible, but arriving before 1am is still recommended.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function LondonNightlifeInternationalVisitors() {
     <>
       <ArticleSchema
         title="London Nightlife for International Visitors"
-        description="Your complete guide to navigating London's luxury club scene as an international visitor — from transport and tipping to which Mayfair clubs suit your style."
+        description="Your complete guide to navigating London's luxury club scene as an international visitor, from transport and tipping to which Mayfair clubs suit your style."
         slug="/guides/london-nightlife-international-visitors"
         datePublished="2025-01-15"
         dateModified="2025-06-01"
@@ -60,7 +60,7 @@ export default function LondonNightlifeInternationalVisitors() {
 
       <ArticleLayout
         title="London Nightlife for International Visitors"
-        subtitle="Your complete guide to navigating London's luxury club scene — from Heathrow to your first Mayfair afterparty"
+        subtitle="Your complete guide to navigating London's luxury club scene, from Heathrow to your first Mayfair afterparty"
         heroImage={GUIDE_IMAGES["london-nightlife-international-visitors"]}
         heroAlt="International visitors enjoying London nightlife in a luxury Mayfair venue"
         ctaMessage={WA_GENERAL_MESSAGE}
@@ -73,7 +73,7 @@ export default function LondonNightlifeInternationalVisitors() {
           fundamentally different from what you know. The sophistication is
           world-class, the venues are exceptional, but the rules, rhythms, and
           culture have their own distinct character. This guide exists to bridge
-          that gap — so your first night out feels less like a tourist
+          that gap, so your first night out feels less like a tourist
           experience and more like an insider one.
         </p>
 
@@ -113,7 +113,7 @@ export default function LondonNightlifeInternationalVisitors() {
           <strong>Pro tip:</strong>{" "}When booking a hotel, check if they offer a
           concierge service that handles nightclub reservations. Many five-star
           London hotels have direct relationships with clubs. Alternatively,{" "}
-          <Link href="/contact">reach out to us</Link>{" "}— we can arrange
+          <Link href="/contact">reach out to us</Link>: we can arrange
           guestlists, tables, and full evening itineraries regardless of where
           you are staying.
         </div>
@@ -126,8 +126,8 @@ export default function LondonNightlifeInternationalVisitors() {
           and can be hailed from the street. They are reliable, their drivers
           know every street in the city, and they accept card payments. However,
           at 3am on a Saturday when every club in Mayfair empties simultaneously,
-          finding a free black cab can take time. This is where rideshare apps —
-          primarily Uber and Bolt — become essential. Download both before you
+          finding a free black cab can take time. This is where rideshare apps,
+          primarily Uber and Bolt, become essential. Download both before you
           go out; surge pricing on Uber at closing time is notorious, and
           switching to Bolt often saves a significant amount.
         </p>
@@ -178,14 +178,14 @@ export default function LondonNightlifeInternationalVisitors() {
         </p>
         <p>
           Tipping culture in the UK is markedly different from the US. At bars,
-          tipping is not expected — though rounding up by a pound or two is a
+          tipping is not expected, though rounding up by a pound or two is a
           nice gesture. For table service at nightclubs, 10 to 15 percent is
           generous and appreciated, but many venues add a discretionary service
           charge to your bill. Check the bill before adding extra. If a service
           charge is included, there is no obligation to tip further. For
           European visitors accustomed to minimal tipping, the UK will feel
           familiar. For American visitors accustomed to 20 percent, you can
-          relax — nobody will judge you for tipping less here.
+          relax: nobody will judge you for tipping less here.
         </p>
 
         <h2>UK Drinking Culture</h2>
@@ -193,7 +193,7 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           The British relationship with alcohol is distinct. Pubs are the
           bedrock of social life, and pre-drinking before heading out is
-          universal — from students to executives. Do not be surprised to see
+          universal, from students to executives. Do not be surprised to see
           well-dressed groups having cocktails at a hotel bar before moving on
           to a club at 11pm. This is standard practice, not a sign that
           something better is happening elsewhere.
@@ -203,7 +203,7 @@ export default function LondonNightlifeInternationalVisitors() {
           strong cocktails and generous pours, and the compressed timeline
           (four to five hours of active clubbing) means the evening moves
           quickly. The staff at high-end venues are attentive but will not cut
-          you off until it becomes an issue — managing your own intake is part
+          you off until it becomes an issue: managing your own intake is part
           of the culture. Bottle service at your table allows you to control
           the pace, which is another reason tables are worth considering.
         </p>
@@ -224,7 +224,7 @@ export default function LondonNightlifeInternationalVisitors() {
           is in its final stretch. Plan your evening to arrive by midnight at
           the latest, and accept that a London night out is a sprint, not a
           marathon. Many visitors find this compressed format surprisingly
-          exhilarating — the urgency creates an atmosphere that longer nights
+          exhilarating: the urgency creates an atmosphere that longer nights
           sometimes lack.
         </p>
 
@@ -275,7 +275,7 @@ export default function LondonNightlifeInternationalVisitors() {
           from outside the UK, pick up a UK eSIM before you travel or buy a
           pay-as-you-go SIM card at the airport. Providers like Three, Vodafone,
           and EE offer tourist SIMs with generous data allowances for under £20.
-          This gives you a local number for WhatsApp (essential — London&apos;s
+          This gives you a local number for WhatsApp (essential: London&apos;s
           nightlife runs on WhatsApp for promoter communication, guestlists,
           and group coordination), reliable maps, and rideshare apps without
           roaming charges.
@@ -283,7 +283,7 @@ export default function LondonNightlifeInternationalVisitors() {
         <p>
           Most London clubs have Wi-Fi, though signal quality inside basements
           and underground venues can be patchy. Do not rely on club Wi-Fi for
-          booking a taxi home — a local data connection is far more dependable.
+          booking a taxi home: a local data connection is far more dependable.
         </p>
 
         <h2>Which Clubs Suit Which Visitors</h2>
@@ -299,7 +299,7 @@ export default function LondonNightlifeInternationalVisitors() {
           distinguishes London from US nightlife. For something you genuinely
           cannot get back home, add{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}to your
-          itinerary — the theatrical element is unparalleled.
+          itinerary: the theatrical element is unparalleled.
         </p>
 
         <h3>Middle Eastern &amp; Gulf Visitors</h3>
@@ -319,7 +319,7 @@ export default function LondonNightlifeInternationalVisitors() {
           If you are coming from Berlin, Amsterdam, or Paris with a taste for
           electronic music,{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}should
-          be your first stop — its sound system and programming are world-class.
+          be your first stop: its sound system and programming are world-class.
           Within Mayfair,{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}offers sophisticated house
           music in an elegant setting. For cocktail-forward evenings,{" "}
@@ -345,28 +345,28 @@ export default function LondonNightlifeInternationalVisitors() {
         </p>
         <ul>
           <li>
-            <strong>Summer (June&ndash;August):</strong>{" "}Peak season. The city
+            <strong>Summer (June to August):</strong>{" "}Peak season. The city
             is at its busiest, the weather allows for rare open-air events, and
             the international crowd swells London&apos;s clubs with visitors
             from the Gulf, the US, and southern Europe. Tables should be booked
             well in advance, especially in July and August.
           </li>
           <li>
-            <strong>Autumn (September&ndash;November):</strong>{" "}Excellent for
+            <strong>Autumn (September to November):</strong>{" "}Excellent for
             nightlife. The summer tourist peak fades, regulars return, and the
             atmosphere in clubs feels more authentically London. Fashion Week in
             September brings a particularly glamorous crowd.
           </li>
           <li>
-            <strong>Winter (December&ndash;February):</strong>{" "}December is
-            electric — Christmas parties and New Year&apos;s Eve make it one
+            <strong>Winter (December to February):</strong>{" "}December is
+            electric: Christmas parties and New Year&apos;s Eve make it one
             of the busiest months for London&apos;s clubs. January and February
             are quieter, which means lower minimum spends, easier guestlist
             access, and a more relaxed atmosphere. An excellent time for a
             first visit.
           </li>
           <li>
-            <strong>Spring (March&ndash;May):</strong>{" "}The city wakes up. May
+            <strong>Spring (March to May):</strong>{" "}The city wakes up. May
             bank holidays bring long weekends and strong club nights. Easter is
             a popular time for European visitors. Spring offers a good balance
             between atmosphere and accessibility.
@@ -388,15 +388,15 @@ export default function LondonNightlifeInternationalVisitors() {
           The best approach for international visitors is simple: stay in
           Mayfair, download Uber and WhatsApp, dress smart, arrive by midnight,
           and let the city do the rest. London&apos;s nightlife rewards
-          preparation — a guestlist or table arranged in advance, a clear idea
+          preparation: a guestlist or table arranged in advance, a clear idea
           of which venues suit your taste, and a rough plan for the evening.
           But it also rewards spontaneity. Some of the best nights happen when
           you leave one club, walk through Mayfair&apos;s streets, and follow
           the energy into somewhere unexpected.
         </p>
         <p>
-          For a comprehensive overview of how London&apos;s club scene works —
-          table booking, bottle service, dress codes, and more — read our{" "}
+          For a comprehensive overview of how London&apos;s club scene works
+          (table booking, bottle service, dress codes, and more), read our{" "}
           <Link href="/guides/complete-guide-london-luxury-nightlife">
             complete guide to London luxury nightlife
           </Link>

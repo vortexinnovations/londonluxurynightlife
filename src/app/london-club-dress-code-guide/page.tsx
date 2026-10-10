@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "Can I wear jeans to a London nightclub?",
     answer:
-      "It depends on the venue and the jeans. Dark, slim-fit designer jeans are accepted at most London clubs including many Mayfair venues. Distressed, ripped, baggy, or light-wash jeans will be refused at strict venues like Tape London, Scotch of St James, and Dear Darling. When in doubt, choose tailored trousers instead — they are never the wrong choice.",
+      "It depends on the venue and the jeans. Dark, slim-fit designer jeans are accepted at most London clubs including many Mayfair venues. Distressed, ripped, baggy, or light-wash jeans will be refused at strict venues like Tape London, Scotch of St James, and Dear Darling. When in doubt, choose tailored trousers instead. They are never the wrong choice.",
   },
   {
     question: "What should men wear to Mayfair nightclubs?",
@@ -39,17 +39,17 @@ const faqs = [
   {
     question: "What should women wear to London nightclubs?",
     answer:
-      "Women have considerably more flexibility than men. Cocktail dresses, stylish jumpsuits, tailored separates, and elevated going-out tops with trousers or skirts all work at every London venue. Heels are common but not required — smart flats and fashion trainers are accepted at most clubs. The key is intentionality: your outfit should look considered, not accidental.",
+      "Women have considerably more flexibility than men. Cocktail dresses, stylish jumpsuits, tailored separates, and elevated going-out tops with trousers or skirts all work at every London venue. Heels are common but not required: smart flats and fashion trainers are accepted at most clubs. The key is intentionality: your outfit should look considered, not accidental.",
   },
   {
     question: "Do London clubs have different dress codes for different nights?",
     answer:
-      "Yes. Many venues relax their dress code slightly on quieter midweek nights (Monday-Wednesday) and enforce it more strictly on weekends and special events. However, the safest approach is to dress for the strictest interpretation — you will never be turned away for being overdressed, but you can absolutely be refused for being underdressed.",
+      "Yes. Many venues relax their dress code slightly on quieter midweek nights (Monday-Wednesday) and enforce it more strictly on weekends and special events. However, the safest approach is to dress for the strictest interpretation. You will never be turned away for being overdressed, but you can absolutely be refused for being underdressed.",
   },
   {
     question: "Will I be turned away for wearing trainers to a London club?",
     answer:
-      "At most Mayfair clubs, yes. Trainers — even expensive designer ones — are refused at venues like Tape London, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London, The Box, and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
+      "At most Mayfair clubs, yes. Trainers, even expensive designer ones, are refused at venues like Tape London, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London, The Box, and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
   },
   {
     question: "What is the dress code for The Box London?",
@@ -63,21 +63,21 @@ export default function LondonClubDressCodeGuidePage() {
     <>
       <ArticleSchema
         title="London Club Dress Code Guide: What to Wear to London Nightclubs"
-        description="The definitive dress code guide for London's best nightclubs — men's and women's guides, venue-by-venue strictness tiers, Mayfair expectations, and every common mistake to avoid."
+        description="The definitive dress code guide for London's best nightclubs: men's and women's guides, venue-by-venue strictness tiers, Mayfair expectations, and every common mistake to avoid."
         slug="/london-club-dress-code-guide"
       />
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Club Dress Code Guide"
-        subtitle="What to actually wear to London's best nightclubs — venue by venue, gender by gender, and mistake by mistake"
+        subtitle="What to actually wear to London's best nightclubs: venue by venue, gender by gender, and mistake by mistake"
         heroImage={GUIDE_IMAGES["london-club-dress-code-guide"]}
         heroAlt="Smart dress code at a London nightclub with well-dressed guests arriving"
       >
         <p>
           More people are turned away from London&apos;s best nightclubs for
           dress code violations than for any other reason. Not for being too
-          drunk, not for arriving too late, not for having the wrong attitude
-          — for wearing the wrong shoes. It is a remarkably avoidable problem,
+          drunk, not for arriving too late, not for having the wrong attitude:
+          for wearing the wrong shoes. It is a remarkably avoidable problem,
           yet it ruins evenings with depressing regularity because the
           information available online is either too vague to be useful or
           too outdated to be accurate.
@@ -103,7 +103,7 @@ export default function LondonClubDressCodeGuidePage() {
           Every London club, regardless of its specific dress code, operates
           on a single underlying principle: intentionality. Your outfit should
           look like a decision, not an afterthought. Door staff are not
-          checking labels or measuring hemlines — they are assessing whether
+          checking labels or measuring hemlines. They are assessing whether
           you have made an effort that matches the standard of the venue. A
           well-fitted outfit from the high street will outperform an expensive
           outfit worn carelessly every time.
@@ -113,7 +113,7 @@ export default function LondonClubDressCodeGuidePage() {
           This principle explains why dress codes in London feel inconsistent
           to visitors. The same jeans that gained entry on Wednesday get
           refused on Saturday. The same trainers that worked at one venue fail
-          at another. It is not inconsistency — it is context. Dress codes
+          at another. It is not inconsistency. It is context. Dress codes
           flex with the night, the crowd, and the energy the venue is
           curating. Understanding that context is more useful than memorising
           rules.
@@ -132,7 +132,7 @@ export default function LondonClubDressCodeGuidePage() {
           <h4>Men&apos;s Safe Formula</h4>
           <ul>
             <li>
-              <strong>Shoes:</strong>{" "}Leather or suede shoes — loafers, Chelsea
+              <strong>Shoes:</strong>{" "}Leather or suede shoes: loafers, Chelsea
               boots, smart brogues, or dress shoes. This is the single most
               important item. Wrong shoes guarantee refusal at strict venues.
             </li>
@@ -142,7 +142,7 @@ export default function LondonClubDressCodeGuidePage() {
               shorts under any circumstances.
             </li>
             <li>
-              <strong>Top:</strong>{" "}Collared shirt (not necessarily formal —
+              <strong>Top:</strong>{" "}Collared shirt (not necessarily formal:
               an open-collar shirt works), smart fitted knitwear, or a
               well-chosen polo. No t-shirts at strict venues.
             </li>
@@ -171,14 +171,14 @@ export default function LondonClubDressCodeGuidePage() {
           Women enjoy considerably more flexibility in London&apos;s club
           dress codes. The range of acceptable outfits spans from cocktail
           dresses and heels to fashion-forward separates with statement
-          trainers. The underlying rule remains intentionality — your outfit
+          trainers. The underlying rule remains intentionality: your outfit
           should look considered and appropriate for a premium evening out.
         </p>
 
         <p>
           Cocktail dresses and smart jumpsuits work universally. Tailored
           trousers with an elevated top are reliable at every venue.
-          Co-ordinated sets — matching top and skirt or trouser — read as
+          Co-ordinated sets, matching top and skirt or trouser, read as
           polished and intentional. Heels are common but not compulsory;
           smart flats, elegant mules, and even clean fashion trainers are
           accepted at most venues. The key distinction for women is between
@@ -202,7 +202,7 @@ export default function LondonClubDressCodeGuidePage() {
 
         <h2>Venue-by-Venue Strictness Tiers</h2>
 
-        <h3>Tier 1: Strict — Dress Impeccably</h3>
+        <h3>Tier 1: Strict, Dress Impeccably</h3>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
@@ -211,12 +211,12 @@ export default function LondonClubDressCodeGuidePage() {
           These venues enforce the highest standard. Smart shoes mandatory,
           no trainers, no jeans on peak nights (dark designer jeans may pass
           midweek), collared shirts expected for men. These are the venues
-          where a blazer is not optional — it is insurance. Tape&apos;s door
+          where a blazer is not optional. It is insurance. Tape&apos;s door
           is the strictest in London and will refuse designer trainers that
           every other club would accept.
         </p>
 
-        <h3>Tier 2: Smart — Effort Required</h3>
+        <h3>Tier 2: Smart, Effort Required</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
@@ -229,7 +229,7 @@ export default function LondonClubDressCodeGuidePage() {
           Cirque rewards creative dressing that matches its theatrical energy.
         </p>
 
-        <h3>Tier 3: Relaxed Smart — Personality Welcome</h3>
+        <h3>Tier 3: Relaxed Smart, Personality Welcome</h3>
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
@@ -261,9 +261,9 @@ export default function LondonClubDressCodeGuidePage() {
 
         <p>
           Summer creates specific challenges. Men cannot wear shorts to any
-          venue on this list — no exceptions, regardless of temperature. Open
-          shoes for men remain prohibited. Women gain more options in summer
-          — open-toe heels, lighter fabrics, and more relaxed silhouettes
+          venue on this list: no exceptions, regardless of temperature. Open
+          shoes for men remain prohibited. Women gain more options in summer:
+          open-toe heels, lighter fabrics, and more relaxed silhouettes
           work well. Winter is simpler: coat check exists at every venue, so
           what you wear over your outfit is irrelevant. Dress for the club,
           not the commute.
@@ -279,7 +279,7 @@ export default function LondonClubDressCodeGuidePage() {
           >
             London Bottle Service
           </a>{" "}
-          and mention any dress code concerns — the team can confirm current
+          and mention any dress code concerns: the team can confirm current
           standards for your specific night. For event schedules and themed
           nights that may have different dress requirements, check{" "}
           <a

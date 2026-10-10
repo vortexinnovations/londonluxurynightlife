@@ -68,7 +68,7 @@ export default function HowToGetIntoTapeLondonPage() {
       <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="How to Get Into Tape London"
-        subtitle="The complete guide to accessing Mayfair's most exclusive nightclub — from guestlist to table booking"
+        subtitle="The complete guide to accessing Mayfair's most exclusive nightclub, from guestlist to table booking"
         heroImage={GUIDE_IMAGES["how-to-get-into-tape-london"]}
         heroAlt="Tape London nightclub entrance in Mayfair with exclusive door policy"
         ctaMessage={waClubMessage("Tape London")}
@@ -80,7 +80,7 @@ export default function HowToGetIntoTapeLondonPage() {
           requires more than simply showing up well-dressed. The Hanover
           Square venue operates at a level of exclusivity that frustrates
           many and rewards those who understand how the system works. This
-          guide explains that system clearly — the entry routes, the door
+          guide explains that system clearly: the entry routes, the door
           policy, the dress code, the timing, and the strategies that
           maximise your chances of experiencing what is genuinely London&apos;s
           finest nightclub.
@@ -100,13 +100,13 @@ export default function HowToGetIntoTapeLondonPage() {
 
         <h2>The Three Routes In</h2>
 
-        <h3>1. Table Booking — The Guaranteed Route</h3>
+        <h3>1. Table Booking: The Guaranteed Route</h3>
 
         <p>
           A table booking is the only way to guarantee entry to Tape London.
           Minimum spends start from &pound;1,500, which is the highest in
           Mayfair and a deliberate filter. This spend is on bottles and
-          drinks, not a cover charge — your &pound;1,500 buys you premium
+          drinks, not a cover charge: your &pound;1,500 buys you premium
           spirits, mixers, ice, and dedicated service throughout the night.
           Table bookings also give you the best position in the room and the
           attention of the hosting team.
@@ -132,7 +132,7 @@ export default function HowToGetIntoTapeLondonPage() {
           handles bookings across all premium venues.
         </p>
 
-        <h3>2. Guestlist — The Conditional Route</h3>
+        <h3>2. Guestlist: The Conditional Route</h3>
 
         <p>
           Guestlist entry at Tape is managed through promoters, concierges
@@ -147,7 +147,7 @@ export default function HowToGetIntoTapeLondonPage() {
           significantly harder to achieve.
         </p>
 
-        <h3>3. Walk-Up — The Improbable Route</h3>
+        <h3>3. Walk-Up: The Improbable Route</h3>
 
         <p>
           Walking up to Tape London without a booking or guestlist placement
@@ -181,7 +181,7 @@ export default function HowToGetIntoTapeLondonPage() {
         <h2>What to Wear</h2>
 
         <p>
-          Tape London&apos;s dress code is smart and stylish — not smart
+          Tape London&apos;s dress code is smart and stylish, not smart
           casual, not business formal, but a considered level of effort
           that signals you understand where you are going.
         </p>

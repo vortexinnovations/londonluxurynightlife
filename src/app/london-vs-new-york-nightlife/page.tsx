@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "London vs New York Nightlife: Two Great Cities Compared for 2026",
   description:
-    "London and New York are the world's two great nightlife capitals. An honest comparison of clubs, costs, door policies, music, and culture — from someone who knows both.",
+    "London and New York are the world's two great nightlife capitals. An honest comparison of clubs, costs, door policies, music, and culture: from someone who knows both.",
   keywords:
     "london vs new york nightlife, london nightlife compared to nyc, new york vs london clubs, nyc london clubs comparison, london new york nightlife, best nightlife london or new york",
   openGraph: {
@@ -29,24 +29,24 @@ export default function LondonVsNewYorkNightlifePage() {
     <>
       <ArticleSchema
         title="London vs New York Nightlife: The Two Great Capitals Compared"
-        description="An honest comparison of London and New York nightlife — the two cities that have defined global clubbing culture for decades."
+        description="An honest comparison of London and New York nightlife: the two cities that have defined global clubbing culture for decades."
         slug="/london-vs-new-york-nightlife"
       />
       <ArticleLayout
         title="London vs New York Nightlife"
-        subtitle="The two cities that defined modern nightlife culture — compared honestly by someone who has spent years in both"
+        subtitle="The two cities that defined modern nightlife culture: compared honestly by someone who has spent years in both"
         heroImage={GUIDE_IMAGES["london-vs-new-york-nightlife"]}
         heroAlt="London versus New York nightlife comparison featuring iconic club scenes"
       >
         <p>
           London and New York are the only two cities with a legitimate
           claim to being the world&apos;s nightlife capital. Every other
-          contender — Ibiza, Berlin, Dubai, Tokyo — excels in a niche.
+          contender (Ibiza, Berlin, Dubai, Tokyo) excels in a niche.
           London and New York deliver the full spectrum: premium table
           service, underground music venues, legendary heritage clubs,
           celebrity culture, and a depth of quality that sustains
           weeks of exploration. The question is not which city is better
-          in absolute terms — it is which city better suits the evening
+          in absolute terms. It is which city better suits the evening
           you want.
         </p>
 
@@ -65,8 +65,8 @@ export default function LondonVsNewYorkNightlifePage() {
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
-          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          — all within a fifteen-minute walk of each other. Add{" "}
+          <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,{" "}
+          all within a fifteen-minute walk of each other. Add{" "}
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus, and Soho venues like{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
@@ -106,11 +106,11 @@ export default function LondonVsNewYorkNightlifePage() {
         <p>
           This is perhaps the most fundamental cultural difference. London
           has developed the most sophisticated table-service culture in
-          the world. In Mayfair, the table is not merely a place to sit
-          — it is your territory for the evening, your base of operations,
+          the world. In Mayfair, the table is not merely a place to sit. 
+          It is your territory for the evening, your base of operations,
           your social headquarters. The service infrastructure around it
-          — dedicated hosts, bottle presentation, mixers replenished
-          before you notice — is polished to an extraordinary degree.
+          (dedicated hosts, bottle presentation, mixers replenished
+          before you notice) is polished to an extraordinary degree.
           Our{" "}
           <Link href="/best-nightclubs-for-high-spenders-london">
             high-spender guide
@@ -124,8 +124,8 @@ export default function LondonVsNewYorkNightlifePage() {
           Even at expensive venues, the expectation is that you will
           leave your table and join the floor. The social hierarchy is
           less rigidly defined by where you sit. This creates a more
-          democratic atmosphere — the energy is more collective, less
-          compartmentalised — but it also means the premium experience
+          democratic atmosphere (the energy is more collective, less
+          compartmentalised), but it also means the premium experience
           is less differentiated from the general admission experience.
         </p>
 
@@ -141,13 +141,13 @@ export default function LondonVsNewYorkNightlifePage() {
 
         <p>
           London&apos;s premium nightlife splits cleanly along a musical
-          axis. The hip-hop and R&amp;B venues —{" "}
+          axis. The hip-hop and R&amp;B venues:{" "}
           <Link href="/clubs/tape-london">Tape</Link>,{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>{" "}— operate in one
-          lane. The house music venues —{" "}
+          <Link href="/clubs/selene-london">Selene</Link>: operate in one
+          lane. The house music venues:{" "}
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
-          <Link href="/clubs/beat-london">BEAT</Link>{" "}— operate in
+          <Link href="/clubs/beat-london">BEAT</Link>: operate in
           another. A few, like{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>,
           bridge the gap from night to night. This specialisation means
@@ -160,7 +160,7 @@ export default function LondonVsNewYorkNightlifePage() {
           venues. A single night at a premium New York club might move
           through hip-hop, house, Latin, and pop without apology. The
           DJs are expected to read the room and shift accordingly. This
-          creates a more unpredictable energy — sometimes brilliantly,
+          creates a more unpredictable energy, sometimes brilliantly,
           sometimes jarringly.
         </p>
 
@@ -220,7 +220,7 @@ export default function LondonVsNewYorkNightlifePage() {
           The real cost divergence is in tipping. London includes service
           in bottle prices; an additional tip is appreciated but not
           expected. New York&apos;s tipping culture adds 20 to 25 per
-          cent to every transaction — a bottle, a round of drinks, even
+          cent to every transaction: a bottle, a round of drinks, even
           a coat check. This compounding gratuity can add &dollar;500 or
           more to a premium evening. Factor this in and New York is
           genuinely more expensive at equivalent quality levels.
@@ -231,8 +231,8 @@ export default function LondonVsNewYorkNightlifePage() {
         <p>
           New York&apos;s 4am closing time, with many venues pushing
           later, gives it an unambiguous edge over London&apos;s typical
-          3am last call. The extra hours change the shape of the evening
-          — New Yorkers arrive later, build slower, and the peak energy
+          3am last call. The extra hours change the shape of the evening:
+          New Yorkers arrive later, build slower, and the peak energy
           hits between 1am and 3am rather than London&apos;s midnight to
           2am window.
         </p>
@@ -241,7 +241,7 @@ export default function LondonVsNewYorkNightlifePage() {
           For visitors who find London&apos;s compressed timeline
           frustrating, New York&apos;s pace will feel more natural. For
           those who appreciate the intensity that a tighter window
-          creates, London&apos;s limitations are actually a feature —
+          creates, London&apos;s limitations are actually a feature:
           the energy concentrates rather than dissipates.
         </p>
 
@@ -263,9 +263,9 @@ export default function LondonVsNewYorkNightlifePage() {
           New York has a similar neighbourhood diversity, but the
           nightlife-specific districts are fewer and more diffuse.
           London&apos;s advantage is that its premium nightlife
-          neighbourhood — Mayfair — is both more concentrated and
+          neighbourhood, Mayfair, is both more concentrated and
           more immediately adjacent to its creative nightlife
-          neighbourhood — Soho. The transition from one world to
+          neighbourhood, Soho. The transition from one world to
           another takes five minutes on foot.
         </p>
 
@@ -278,8 +278,8 @@ export default function LondonVsNewYorkNightlifePage() {
           programming within individual venues, and a sense of
           spontaneity that London&apos;s more structured scene
           sometimes lacks. The city also offers a broader range of
-          nightlife beyond clubs — jazz bars, speakeasies, rooftop
-          venues, late-night dining — that creates a more complete
+          nightlife beyond clubs (jazz bars, speakeasies, rooftop
+          venues, late-night dining) that creates a more complete
           after-dark ecosystem.
         </p>
 
@@ -301,7 +301,7 @@ export default function LondonVsNewYorkNightlifePage() {
 
         <p className="pull-quote">
           New York gives you the night that could go anywhere. London
-          gives you the night that goes exactly where you want it to —
+          gives you the night that goes exactly where you want it to,
           at the highest possible level.
         </p>
 
@@ -332,7 +332,7 @@ export default function LondonVsNewYorkNightlifePage() {
         <p>
           For visitors choosing London, the key to a successful evening
           is advance planning. Secure a table booking through our
-          concierge team —{" "}
+          concierge team:{" "}
           <Link href="/contact">contact us</Link>{" "}with your dates,
           group size, and musical preferences, and we will recommend
           the right venue and handle the booking. For self-service

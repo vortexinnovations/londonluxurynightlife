@@ -13,11 +13,11 @@ import {
 export const metadata: Metadata = {
   title: "Plan Your Night | London Luxury Nightlife Concierge",
   description:
-    "Our personalised nightlife concierge service handles everything — from choosing the perfect venue to securing VIP tables. Tell us what kind of night you're looking for and we'll handle the rest.",
+    "Our personalised nightlife concierge service handles everything, from choosing the perfect venue to securing VIP tables. Tell us what kind of night you're looking for and we'll handle the rest.",
   openGraph: {
     title: "Plan Your Night | London Luxury Nightlife Concierge",
     description:
-      "Our personalised nightlife concierge service handles everything — from choosing the perfect venue to securing VIP tables.",
+      "Our personalised nightlife concierge service handles everything, from choosing the perfect venue to securing VIP tables.",
     url: `${SITE_URL}/contact`,
     type: "website",
   },
@@ -76,7 +76,7 @@ const steps = [
     number: "04",
     title: "You Arrive and Enjoy",
     description:
-      "Walk in knowing everything is sorted. No queues, no uncertainty — just an exceptional night out.",
+      "Walk in knowing everything is sorted. No queues, no uncertainty, just an exceptional night out.",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function ContactPage() {
                 <p className="font-prose text-warm-gray leading-relaxed mb-8">
                   We work with every major venue in Mayfair, Soho, and beyond.
                   Just tell us your dates, group size, and what kind of atmosphere
-                  you&apos;re after &mdash; we&apos;ll take it from there.
+                  you&apos;re after. We&apos;ll take it from there.
                 </p>
                 <WhatsAppCTA
                   message={WA_GENERAL_MESSAGE}
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 <p className="font-prose text-warm-gray leading-relaxed mb-3">
                   For PAs, executive assistants, and business professionals who
                   need to organise a memorable evening for clients or colleagues.
-                  We understand the nuances of corporate entertainment &mdash;
+                  We understand the nuances of corporate entertainment:
                   discretion, quality, and reliability are guaranteed.
                 </p>
                 <p className="font-prose text-warm-gray leading-relaxed mb-8">
@@ -192,8 +192,8 @@ export default function ContactPage() {
                   Need a Recommendation?
                 </h2>
                 <p className="font-prose text-warm-gray leading-relaxed mb-8">
-                  Not sure which club is right for you? No commitment needed
-                  &mdash; just send us a quick message with what you&apos;re looking
+                  Not sure which club is right for you? No commitment needed. 
+                  Just send us a quick message with what you&apos;re looking
                   for and we&apos;ll point you in the right direction. We know every
                   venue inside out and we&apos;re happy to help.
                 </p>

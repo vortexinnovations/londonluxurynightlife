@@ -41,7 +41,7 @@ export default function AboutPage() {
         Every venue reviewed on this site has been visited multiple times
         by our editorial team. We do not accept payment from clubs in
         exchange for coverage or favourable reviews. Our recommendations
-        are based entirely on the quality of the experience — the music,
+        are based entirely on the quality of the experience: the music,
         the crowd, the service, the atmosphere, and whether the evening
         justifies the spend. When a venue falls short, we say so. When
         it exceeds expectations, we explain precisely why.
@@ -60,31 +60,31 @@ export default function AboutPage() {
 
       <p>
         We cover 13 active venues across Mayfair, Soho, Fitzrovia, and
-        the West End — from the most exclusive members&apos; clubs to
+        the West End, from the most exclusive members&apos; clubs to
         theatrical showclubs and sound-system-first nightclubs. Our
         coverage includes:
       </p>
 
       <ul>
         <li>
-          <strong>In-depth club reviews</strong>{" "}— honest assessments of
+          <strong>In-depth club reviews</strong>: honest assessments of
           every venue we cover, updated as experiences change
         </li>
         <li>
-          <strong>Editorial guides</strong>{" "}— from{" "}
+          <strong>Editorial guides</strong>: from{" "}
           <Link href="/london-club-dress-code-guide">dress codes</Link>{" "}to{" "}
           <Link href="/how-london-nightclub-door-policy-works">door policies</Link>,{" "}
           <Link href="/guestlist-vs-table-booking-london">booking strategy</Link>{" "}to{" "}
           <Link href="/how-to-plan-a-luxury-night-out-in-london">evening planning</Link>
         </li>
         <li>
-          <strong>Pillar guides</strong>{" "}— comprehensive resources on{" "}
+          <strong>Pillar guides</strong>: comprehensive resources on{" "}
           <Link href="/luxury-nightclubs-london">luxury nightclubs</Link>,{" "}
           <Link href="/celebrity-nightclubs-london">celebrity venues</Link>, and{" "}
           <Link href="/london-nightlife-guide">the full London scene</Link>
         </li>
         <li>
-          <strong>Concierge service</strong>{" "}— direct table booking and
+          <strong>Concierge service</strong>: direct table booking and
           guestlist access at every venue through our{" "}
           <Link href="/contact">WhatsApp concierge</Link>
         </li>
@@ -114,7 +114,7 @@ export default function AboutPage() {
           Mayfair Tonight
         </a>{" "}
         tracks what&apos;s happening in real time. Each site serves a
-        distinct purpose — this one provides the editorial depth and
+        distinct purpose: this one provides the editorial depth and
         independent guidance that booking sites cannot.
       </p>
 

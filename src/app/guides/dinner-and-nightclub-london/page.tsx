@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What time should I book dinner before going to a London club?",
     answer:
-      "Book dinner for 8:00-8:30pm. This gives you a relaxed two-hour meal, finishing around 10-10:30pm. After a short break or a drink at a nearby bar, you arrive at the club between 11pm and midnight — the ideal window for Mayfair venues.",
+      "Book dinner for 8:00-8:30pm. This gives you a relaxed two-hour meal, finishing around 10-10:30pm. After a short break or a drink at a nearby bar, you arrive at the club between 11pm and midnight: the ideal window for Mayfair venues.",
   },
   {
     question: "Can I wear the same outfit for dinner and clubbing in London?",
@@ -64,7 +64,7 @@ export default function DinnerAndNightclubPage() {
           turns a good night into something genuinely memorable. But pulling
           this off in London requires more than simply picking a restaurant
           and a venue. The timing, the location, the dress code, the
-          transport — every detail matters, and getting any one of them wrong
+          transport: every detail matters, and getting any one of them wrong
           can puncture the evening before it truly begins.
         </p>
 
@@ -80,7 +80,7 @@ export default function DinnerAndNightclubPage() {
 
         <p>
           Understanding the timeline is everything. London&apos;s luxury
-          clubs do not operate like casual bars — they have a natural rhythm,
+          clubs do not operate like casual bars. They have a natural rhythm,
           and arriving at the wrong time fundamentally changes your
           experience. Here is the framework that consistently produces the
           best evenings:
@@ -92,7 +92,7 @@ export default function DinnerAndNightclubPage() {
             cocktails if the venue has a bar.
           </p>
           <p>
-            <strong>8:00-10:00pm:</strong>{" "}Dinner. Two hours is ideal — long
+            <strong>8:00-10:00pm:</strong>{" "}Dinner. Two hours is ideal: long
             enough to enjoy three courses without rushing, short enough to
             maintain energy.
           </p>
@@ -103,7 +103,7 @@ export default function DinnerAndNightclubPage() {
           </p>
           <p>
             <strong>11:00pm-12:00am:</strong>{" "}Arrive at the club. This is the
-            sweet spot — the venue is filling with energy but not yet at
+            sweet spot: the venue is filling with energy but not yet at
             capacity.
           </p>
           <p>
@@ -117,7 +117,7 @@ export default function DinnerAndNightclubPage() {
           9:30pm reservation means you are finishing around 11:30pm, arriving
           at the club after midnight feeling full and sluggish, and missing
           the best window for table service and atmosphere. Equally, dining
-          too early — say 6:30pm — creates an awkward two-hour gap where
+          too early, say 6:30pm, creates an awkward two-hour gap where
           energy dissipates. The 8pm booking is the backbone of a great night.
         </p>
 
@@ -126,7 +126,7 @@ export default function DinnerAndNightclubPage() {
         <p>
           Geography matters enormously. You want your restaurant within a
           ten-minute walk or a five-minute taxi ride of your club. This is
-          not the night for a lengthy Uber across town — that dead time in
+          not the night for a lengthy Uber across town: that dead time in
           transit kills momentum and makes logistics unnecessarily
           complicated.
         </p>
@@ -140,7 +140,7 @@ export default function DinnerAndNightclubPage() {
           <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus, you are spoilt for restaurant choices. Mayfair itself is home to some of
           London&apos;s finest dining. High-end Italian restaurants along
-          Mount Street and Bruton Place are reliable choices for groups —
+          Mount Street and Bruton Place are reliable choices for groups:
           the food is consistently excellent, the atmosphere is appropriately
           glamorous, and the clientele tends to be heading to the same places
           you are. Japanese restaurants in the area offer something more
@@ -151,7 +151,7 @@ export default function DinnerAndNightclubPage() {
           For upscale steakhouses, Mayfair has several world-class options
           that attract a well-dressed crowd and serve until late enough that
           you never feel rushed. The atmosphere in these restaurants around
-          9pm on a Friday is already electric — you will be surrounded by
+          9pm on a Friday is already electric. You will be surrounded by
           people with similar plans for the rest of their evening.
         </p>
 
@@ -164,7 +164,7 @@ export default function DinnerAndNightclubPage() {
           your destination, Soho is where you should eat. The neighbourhood
           is dense with excellent restaurants spanning every cuisine, and the
           walk to either venue takes minutes. The energy of Soho on a
-          weekend evening is itself part of the experience — moving through
+          weekend evening is itself part of the experience: moving through
           those streets after dinner, the buzz of the West End around you,
           sets the tone beautifully.
         </p>
@@ -212,8 +212,8 @@ export default function DinnerAndNightclubPage() {
           this. The venue operates as an Italian fine dining restaurant
           earlier in the evening, then transforms into a house music club as
           midnight approaches. You sit down for dinner at 8pm, enjoy an
-          exceptional meal, and then — without changing venue, without
-          queueing, without stepping outside — the energy shifts around you.
+          exceptional meal, and then (without changing venue, without
+          queueing, without stepping outside), the energy shifts around you.
           The lights lower, the DJ takes over, and dinner becomes a night
           out. For groups who want zero logistics and maximum impact, Maddox
           is the answer. The dress code is smart elegant, jacket preferred
@@ -237,7 +237,7 @@ export default function DinnerAndNightclubPage() {
           further to{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}just north of
           Oxford Circus. This is the
-          refined choice — excellent food, a beautiful walk through
+          refined choice: excellent food, a beautiful walk through
           Mayfair&apos;s quieter streets, and arrival at a venue where the
           atmosphere matches the standard you have already set. Ideal for
           groups of four to eight.
@@ -279,7 +279,7 @@ export default function DinnerAndNightclubPage() {
         <p>
           There is no changing between dinner and the club. Your outfit needs
           to work seamlessly for both, which means dressing for the stricter
-          of the two environments — invariably, the club. For detailed
+          of the two environments: invariably, the club. For detailed
           guidance, read our{" "}
           <Link href="/london-club-dress-code-guide">
             complete dress code guide
@@ -300,7 +300,7 @@ export default function DinnerAndNightclubPage() {
           or an elevated going-out look with heels. London&apos;s best
           restaurants and clubs share an expectation of glamour, so leaning
           slightly overdressed is always better than underdressed. Bring a
-          clutch rather than a large bag — cloakroom queues at busy clubs
+          clutch rather than a large bag: cloakroom queues at busy clubs
           can eat into your evening.
         </p>
 
@@ -322,7 +322,7 @@ export default function DinnerAndNightclubPage() {
             <strong>Pre-book a private car.</strong>{" "}For groups of six or
             more, or if your restaurant and club are in different
             neighbourhoods, arrange a private car in advance. Do not rely on
-            ride-hailing apps at peak time — surge pricing and wait times can
+            ride-hailing apps at peak time: surge pricing and wait times can
             derail the momentum of your evening.
           </li>
           <li>
@@ -344,7 +344,7 @@ export default function DinnerAndNightclubPage() {
         <p>
           How you arrive at the club matters. If you have a table booked
           through us, your name will be on the guestlist and your table will
-          be ready. Arrive together as a group where possible — it looks
+          be ready. Arrive together as a group where possible: it looks
           better at the door and means everyone is settled at the table at
           the same time. Have your booking confirmation or concierge contact
           number easily accessible. The transition from pavement to table
@@ -368,7 +368,7 @@ export default function DinnerAndNightclubPage() {
           timing considerations, and the kind of venue knowledge that only
           comes from doing this regularly.{" "}
           <Link href="/contact">Contact us</Link>{" "}and we will build the
-          entire evening for you — restaurant recommendation, club table
+          entire evening for you: restaurant recommendation, club table
           booking, transport advice, and any other details your group needs.
           We do this every week, and we are very good at it.
         </p>

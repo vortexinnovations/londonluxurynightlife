@@ -18,12 +18,12 @@ export default function CelebrityClubsPage() {
     <>
       <ArticleSchema
         title="Celebrity Clubs in London: Where the Famous Go Out"
-        description="An insider's guide to the clubs that actually attract A-listers in London — and what to expect when you're there."
+        description="An insider's guide to the clubs that actually attract A-listers in London, and what to expect when you're there."
         slug="/guides/celebrity-clubs-london"
       />
       <ArticleLayout
         title="Celebrity Clubs in London: Where the Famous Go Out"
-        subtitle="An insider's guide to the clubs that actually attract A-listers — and what to expect when you're there"
+        subtitle="An insider's guide to the clubs that actually attract A-listers, and what to expect when you're there"
         heroImage={GUIDE_IMAGES["celebrity-clubs-london"]}
         heroAlt="Celebrity nightlife scene at an exclusive London club with VIP bottle service"
       >
@@ -79,8 +79,8 @@ export default function CelebrityClubsPage() {
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}holds a
           unique position in London&apos;s celebrity nightlife. Its
-          circus-themed spectacle — fire breathers, contortionists, stilt
-          walkers, and performers who defy easy description — creates an
+          circus-themed spectacle (fire breathers, contortionists, stilt
+          walkers, and performers who defy easy description) creates an
           environment that appeals to celebrities precisely because it takes
           the attention off them. When there is a contortionist performing on
           the bar, nobody is staring at the musician in the corner booth.
@@ -93,7 +93,7 @@ export default function CelebrityClubsPage() {
           performances alongside the resident acts. Athletes celebrate
           victories here. The Hollywood crowd gravitates toward Cirque when
           they want a night that feels unlike anything available in Los
-          Angeles or New York — because, frankly, nothing like Cirque Le
+          Angeles or New York, because, frankly, nothing like Cirque Le
           Soir exists anywhere else.
         </p>
 
@@ -116,7 +116,7 @@ export default function CelebrityClubsPage() {
           </li>
           <li>
             <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}
-            attracts celebrities who want spectacle — its Piccadilly
+            attracts celebrities who want spectacle: its Piccadilly
             location and extravagant shows draw a crowd that includes
             reality television stars, social media personalities, and
             athletes celebrating in style.
@@ -132,7 +132,7 @@ export default function CelebrityClubsPage() {
           <li>
             <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}attracts
             celebrities who prefer a more intimate, cocktail-forward
-            environment — the kind of venue where a famous face might spend
+            environment: the kind of venue where a famous face might spend
             the early part of the evening before heading elsewhere.
           </li>
           <li>
@@ -143,7 +143,7 @@ export default function CelebrityClubsPage() {
           </li>
           <li>
             <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
-            occupies its own category entirely — major DJs and electronic
+            occupies its own category entirely: major DJs and electronic
             music artists both perform and party here, making it the default
             for anyone connected to dance music culture.
           </li>
@@ -164,8 +164,8 @@ export default function CelebrityClubsPage() {
           Soir, there are discreet side entrances or carefully managed front
           doors where high-profile guests are moved through in seconds. At
           Tape, the unmarked door and basement layout mean a celebrity can
-          arrive without anyone on the street even noticing. Security teams
-          — both the venue&apos;s and the celebrity&apos;s own — coordinate
+          arrive without anyone on the street even noticing. Security teams,
+          both the venue&apos;s and the celebrity&apos;s own, coordinate
           in advance. By the time the general public inside the venue is
           aware of a celebrity presence, that person is already settled at
           their table with a drink in hand.
@@ -190,7 +190,7 @@ export default function CelebrityClubsPage() {
         <p>
           Venue security at celebrity-friendly clubs is trained to be
           invisible but effective. You will not see heavy-handed bouncers
-          surrounding famous guests. Instead, there is a subtle awareness —
+          surrounding famous guests. Instead, there is a subtle awareness:
           certain staff positioned nearby, a gentle redirection if someone
           is approaching a VVIP table without invitation. The best venues
           manage this so smoothly that most guests are barely aware it is
@@ -200,7 +200,7 @@ export default function CelebrityClubsPage() {
         <blockquote className="pull-quote">
           The clubs that celebrities return to are the ones where they can
           forget, even briefly, that they are famous. Privacy is not a
-          feature — it is the foundation.
+          feature. It is the foundation.
         </blockquote>
 
         <h2>Why Celebrities Choose These Venues</h2>
@@ -230,7 +230,7 @@ export default function CelebrityClubsPage() {
             <strong>The right crowd.</strong>{" "}Famous people want to be
             around other interesting people. The door policies at these
             venues ensure that the room is filled with a well-dressed,
-            well-behaved, socially aware crowd — people who are there to
+            well-behaved, socially aware crowd: people who are there to
             enjoy their own evening, not to gawk.
           </li>
           <li>
@@ -292,7 +292,7 @@ export default function CelebrityClubsPage() {
           <li>
             <strong>No photographs.</strong>{" "}This cannot be stressed enough.
             Taking photographs of celebrities in London&apos;s private clubs
-            is not just rude — it can get you permanently banned from the
+            is not just rude. It can get you permanently banned from the
             venue and, through the small world of London nightlife
             promoters, from other venues too. Keep your phone in your pocket
             when it matters.
@@ -308,8 +308,8 @@ export default function CelebrityClubsPage() {
             have an excellent night at your own table. Be well-dressed, be
             fun, be generous with your own group. That kind of energy is
             attractive, and it is noticed. The most genuine celebrity
-            interactions happen organically — on the dance floor, at the
-            bar, through mutual friends — not through forced approaches.
+            interactions happen organically (on the dance floor, at the
+            bar, through mutual friends) not through forced approaches.
           </li>
           <li>
             <strong>Trust the process.</strong>{" "}If you are at a venue like
@@ -337,7 +337,7 @@ export default function CelebrityClubsPage() {
 
         <p>
           Combine your club night with dinner nearby for the full
-          experience — our{" "}
+          experience: our{" "}
           <Link href="/guides/dinner-and-nightclub-london">
             dinner and nightclub guide
           </Link>{" "}
@@ -350,7 +350,7 @@ export default function CelebrityClubsPage() {
         </p>
 
         <p>
-          For dress code specifics — and these venues are strict — consult
+          For dress code specifics (and these venues are strict), consult
           our{" "}
           <Link href="/london-club-dress-code-guide">
             complete dress code guide
@@ -363,7 +363,7 @@ export default function CelebrityClubsPage() {
           <Link href="/contact">Get in touch</Link>{" "}and tell us what you
           are looking for. We know which nights are likely to be memorable,
           and we can position you in the right venue at the right time. The
-          rest is up to you — and the evening.
+          rest is up to you, and the evening.
         </p>
       </ArticleLayout>
     </>

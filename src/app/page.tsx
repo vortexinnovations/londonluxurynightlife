@@ -64,7 +64,7 @@ const guides = [
   {
     title: "London Nightlife Guide",
     description:
-      "The complete insider’s guide to going out in London. From Mayfair luxury to Soho’s creative underground — everything you need to know.",
+      "The complete insider’s guide to going out in London. From Mayfair luxury to Soho’s creative underground: everything you need to know.",
     href: "/london-nightlife-guide",
     label: "Read the guide",
   },
@@ -78,7 +78,7 @@ const guides = [
   {
     title: "What to Wear to London’s Best Clubs",
     description:
-      "Dress codes in Mayfair are enforced, but rarely explained. We break down what each venue actually expects — and the mistakes that get people turned away.",
+      "Dress codes in Mayfair are enforced, but rarely explained. We break down what each venue actually expects: and the mistakes that get people turned away.",
     href: "/london-club-dress-code-guide",
     label: "Read the dress code guide",
   },
@@ -132,7 +132,7 @@ export default function Home() {
           aria-hidden
           className="hidden lg:block absolute right-8 bottom-24 z-10 font-sans text-[10px] uppercase tracking-[0.4em] text-warm-gray/70 [writing-mode:vertical-rl]"
         >
-          Issue &mdash; London &middot; Est. After Midnight
+          Issue &middot; London &middot; Est. After Midnight
         </span>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 lg:pb-20">
@@ -182,8 +182,8 @@ export default function Home() {
               rooms beneath Georgian townhouses, and in the private corners of
               members&rsquo; clubs where the music is loud enough to feel but never loud
               enough to shout over. This is the London that draws royalty, film
-              stars, and tech founders to the same banquettes on a Thursday night
-              &mdash; not because anyone announced it, but because the right people
+              stars, and tech founders to the same banquettes on a Thursday night,
+              not because anyone announced it, but because the right people
               simply know where to go.
             </p>
             <p>
@@ -196,8 +196,8 @@ export default function Home() {
               Street, adds a grittier creative energy. Fitzrovia brings a younger
               edge. And south of the river, a converted warehouse near Elephant
               &amp; Castle has been shaping electronic music culture for three decades.
-              Understanding these neighbourhoods &mdash; and what each one offers after
-              dark &mdash; is the first step to getting London nightlife right.
+              Understanding these neighbourhoods, and what each one offers after
+              dark, is the first step to getting London nightlife right.
             </p>
             <p>
               This site exists because good information about London&rsquo;s luxury
@@ -205,8 +205,8 @@ export default function Home() {
               either pay-to-play advertising or surface-level listicles written by
               people who&rsquo;ve never actually walked through the door. We take a
               different approach. Every club reviewed here has been visited
-              repeatedly. Every detail &mdash; from the real dress code expectations to
-              the table minimums no one publishes &mdash; comes from direct experience.
+              repeatedly. Every detail, from the real dress code expectations to
+              the table minimums no one publishes, comes from direct experience.
               Think of us as the well-connected friend who&rsquo;ll tell you the truth
               about where to go, what to spend, and what to skip.
             </p>
@@ -224,7 +224,7 @@ export default function Home() {
                 Featured <span className="accent-word">Clubs</span>
               </h2>
               <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
-                Every venue reviewed in depth &mdash; honest assessments of the crowd,
+                Every venue reviewed in depth: honest assessments of the crowd,
                 the music, the spend, and whether it&rsquo;s worth your evening.
               </p>
             </div>
@@ -266,7 +266,7 @@ export default function Home() {
               </h2>
               <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
                 Deep-dive editorial guides covering everything from dress codes to
-                corporate entertaining &mdash; written from genuine experience.
+                corporate entertaining, written from genuine experience.
               </p>
             </div>
           </Reveal>
@@ -317,7 +317,7 @@ export default function Home() {
             </h2>
             <p className="font-prose text-lg text-foreground/80 leading-relaxed mb-10 max-w-lg mx-auto">
               Tell us when you&rsquo;re coming, how many are in your group, and what kind
-              of night you&rsquo;re after. We&rsquo;ll come back with a plan &mdash; the right
+              of night you&rsquo;re after. We&rsquo;ll come back with a plan: the right
               venue, the right table, and everything arranged before you land.
             </p>
             <WhatsAppCTA

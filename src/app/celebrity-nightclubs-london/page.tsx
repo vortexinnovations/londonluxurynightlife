@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Celebrity Nightclubs London: Where A-Listers Actually Go",
   description:
-    "Which London clubs do celebrities genuinely choose — not where PR says they go. Insider ranking by real celebrity frequency, privacy, and VVIP access.",
+    "Which London clubs do celebrities genuinely choose: not where PR says they go. Insider ranking by real celebrity frequency, privacy, and VVIP access.",
   keywords:
     "celebrity nightclubs London, celebrity clubs London, where do celebrities go out London, famous people clubs London, celebrity nightlife London, A-list clubs London",
   openGraph: {
@@ -34,7 +34,7 @@ export default function CelebrityNightclubsLondonPage() {
       />
       <ArticleLayout
         title="Celebrity Nightclubs in London"
-        subtitle="Where the famous actually go out — not where marketing says they do"
+        subtitle="Where the famous actually go out, not where marketing says they do"
         heroImage={GUIDE_IMAGES["celebrity-nightclubs-london"]}
         heroAlt="Celebrity nightclub in London with exclusive VVIP area and premium atmosphere"
       >
@@ -44,7 +44,7 @@ export default function CelebrityNightclubsLondonPage() {
           same as a Grammy winner choosing to spend their Thursday night in
           a particular room. The distinction matters if you care about
           experiencing London&apos;s nightlife at the level where genuinely
-          notable people are in attendance — not because celebrity proximity
+          notable people are in attendance, not because celebrity proximity
           is the point, but because the venues that consistently attract
           high-profile guests tend to be the ones getting everything else
           right too.
@@ -65,7 +65,7 @@ export default function CelebrityNightclubsLondonPage() {
 
         <h2>The Top Tier: Consistent Celebrity Presence</h2>
 
-        <h3>1. Tape London — The Industry Standard</h3>
+        <h3>1. Tape London: The Industry Standard</h3>
 
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}is where
@@ -83,18 +83,18 @@ export default function CelebrityNightclubsLondonPage() {
         <p>
           <strong>Who you might see:</strong>{" "}Chart-topping musicians,
           Premier League footballers, actors between film shoots, fashion
-          designers during London Fashion Week. The specifics change weekly
-          — the calibre does not.
+          designers during London Fashion Week. The specifics change weekly:
+          the calibre does not.
         </p>
 
-        <h3>2. Cirque Le Soir — The Celebrity Spectacle</h3>
+        <h3>2. Cirque Le Soir: The Celebrity Spectacle</h3>
 
         <p>
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}has
           built a reputation as the venue where celebrities come to be
           entertained rather than merely to be present. The circus-themed
           format gives high-profile guests a reason to attend beyond the
-          standard nightclub offering — the fire breathers, contortionists,
+          standard nightclub offering: the fire breathers, contortionists,
           and performers create an experience that justifies the outing
           even for people who have exhausted every conventional club on
           earth. The intimate Soho setting means celebrity tables are
@@ -120,11 +120,11 @@ export default function CelebrityNightclubsLondonPage() {
 
         <h2>The Second Tier: Regular Celebrity Sightings</h2>
 
-        <h3>The Box — The Provocative Choice</h3>
+        <h3>The Box: The Provocative Choice</h3>
 
         <p>
           <Link href="/clubs/the-box-london">The Box</Link>{" "}attracts
-          celebrities from the creative industries — fashion, music, art —
+          celebrities from the creative industries (fashion, music, art)
           who want a night that challenges rather than flatters. The Soho
           venue&apos;s provocative performances draw a crowd that values
           experience over exposure. Celebrities here tend to be less
@@ -135,7 +135,7 @@ export default function CelebrityNightclubsLondonPage() {
           .
         </p>
 
-        <h3>Scotch of St James — The Heritage Draw</h3>
+        <h3>Scotch of St James: The Heritage Draw</h3>
 
         <p>
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
@@ -145,11 +145,11 @@ export default function CelebrityNightclubsLondonPage() {
           that larger venues cannot facilitate.
         </p>
 
-        <h3>Reign London — The Event Celebrity</h3>
+        <h3>Reign London: The Event Celebrity</h3>
 
         <p>
           <Link href="/clubs/reign-london">Reign London</Link>{" "}attracts
-          celebrities for special occasions — birthday celebrations,
+          celebrities for special occasions: birthday celebrations,
           post-show parties, promotional events. The theatrical format
           provides a spectacular backdrop that creates genuine social
           media moments, which appeals to profile-conscious guests.
@@ -167,7 +167,7 @@ export default function CelebrityNightclubsLondonPage() {
           <h4>The VIP Reality</h4>
           <ul>
             <li><strong>Separate entrances:</strong>{" "}Most top-tier venues have discreet side or rear entrances for high-profile guests</li>
-            <li><strong>VVIP sections:</strong>{" "}Separate from regular VIP — often elevated, curtained, or in a distinct area</li>
+            <li><strong>VVIP sections:</strong>{" "}Separate from regular VIP, often elevated, curtained, or in a distinct area</li>
             <li><strong>Security:</strong>{" "}Personal security is accommodated but expected to be discreet</li>
             <li><strong>Privacy:</strong>{" "}Genuine celebrity venues enforce phone restrictions in VVIP areas</li>
             <li><strong>Service:</strong>{" "}Dedicated hosts, direct management attention, pre-arranged preferences</li>
@@ -177,7 +177,7 @@ export default function CelebrityNightclubsLondonPage() {
         <h2>Can You Get In If You Are Not Famous?</h2>
 
         <p>
-          Yes — with the right approach. Every venue on this list is
+          Yes, with the right approach. Every venue on this list is
           accessible through table bookings. A &pound;1,000-1,500 minimum
           spend secures your table, your entry, and your place in the same
           room. You will not be in the VVIP section (that requires a
@@ -214,7 +214,7 @@ export default function CelebrityNightclubsLondonPage() {
           photographs unless explicitly invited. No approaching tables
           uninvited. No staring. The venues enforce these norms, and the
           other guests expect them. Behaving well in celebrity company is
-          how you get invited back — and how these venues maintain the
+          how you get invited back, and how these venues maintain the
           atmosphere that attracts celebrities in the first place. Our{" "}
           <Link href="/guides/celebrity-clubs-london">
             full celebrity clubs guide
@@ -230,8 +230,8 @@ export default function CelebrityNightclubsLondonPage() {
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>
-          . For practical planning — what to wear, what to budget, how the
-          evening works — our{" "}
+          . For practical planning (what to wear, what to budget, how the
+          evening works), our{" "}
           <Link href="/guides/complete-guide-london-luxury-nightlife">
             comprehensive nightlife guide
           </Link>{" "}
