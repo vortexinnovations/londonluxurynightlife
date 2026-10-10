@@ -65,6 +65,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const withLiveWhatsApp = (md: string) =>
   md.replace(/(wa\.me\/|api\.whatsapp\.com\/send\?phone=)\d+/g, `$1${TABLE_NUMBER}`);
 
+// Each table sits in a scroll box (styled in globals.css) so a wide table
+// scrolls sideways on mobile instead of widening the page.
+marked.use({
+  hooks: {
+    postprocess: (html) =>
+      html.replace(/<table>/g, '<div class="table-scroll"><table>').replace(/<\/table>/g, "</table></div>"),
+  },
+});
+
 // Database posts carry the editor byline and Person authorship the site's
 // recent posts use (the content API rejects a byline in the body).
 const EDITOR = { name: "Isabella Marsh", jobTitle: "Luxury Lifestyle Editor", url: `${SITE_URL}/about-the-editor/` };

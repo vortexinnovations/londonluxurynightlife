@@ -466,24 +466,42 @@ a:hover > .editorial-img {
   }
 }
 
-/* Tables in content-API (Markdown) posts */
-.db-body table {
-  display: block;
-  width: 100%;
+/* Tables in content-API (Markdown) posts. The renderer wraps each table in
+   .table-scroll so a wide table scrolls inside the column on mobile instead of
+   widening the page. */
+.db-body .table-scroll {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 0 1.75rem;
+  border: 1px solid var(--dark-border);
+}
+.db-body table {
+  width: 100%;
   border-collapse: collapse;
   font-family: var(--font-newsreader);
   font-size: 1rem;
-  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.db-body th,
+.db-body td {
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
 }
 .db-body th {
-  text-align: left;
+  background: var(--gold-wash);
   color: var(--cream);
   font-weight: 600;
-  padding: 0.5rem 1rem 0.5rem 0;
-  border-bottom: 1px solid var(--gold);
+  border-bottom: 1px solid var(--hairline-gold);
 }
 .db-body td {
-  padding: 0.5rem 1rem 0.5rem 0;
   border-bottom: 1px solid var(--dark-border);
+}
+.db-body tbody tr:last-child td {
+  border-bottom: none;
+}
+.db-body td:first-child {
+  color: var(--cream);
+  min-width: 8rem;
 }
