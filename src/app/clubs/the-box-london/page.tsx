@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
@@ -12,7 +13,7 @@ const DESCRIPTION =
   "An honest insider review of The Box in Soho. Discover what really happens inside London's most provocative nightclub, what to expect from the performances, and whether The Box lives up to its notorious reputation.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/the-box-london",

@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,7 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VIP Nightlife London: What Your Money Actually Gets",
+  title: fitTitle("VIP Nightlife London: What Your Money Actually Gets"),
   description:
     "What VIP really means in London clubs: beyond the velvet rope. Table service, VVIP tiers, premium bottles, and whether the upgrade is worth it.",
   keywords:

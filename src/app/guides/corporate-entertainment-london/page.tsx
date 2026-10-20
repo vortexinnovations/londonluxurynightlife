@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_CORPORATE_MESSAGE, SITE_NAME } from "@/lib/constants";
@@ -10,7 +11,7 @@ const DESCRIPTION =
   "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   keywords:
     "corporate entertainment London nightclub, client entertainment London, corporate night out London, entertaining clients London club",

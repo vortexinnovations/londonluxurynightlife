@@ -1,11 +1,12 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ECOSYSTEM } from "@/lib/ecosystem";
 import Link from "next/link";
 import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "About London Luxury Nightlife | Our Editorial Team",
+  title: fitTitle("About London Luxury Nightlife | Our Editorial Team"),
   description:
     "Who we are, how we review, and why we built the most trusted luxury nightlife guide in London. Independent editorial, no pay-to-play, every venue visited in person.",
   openGraph: {

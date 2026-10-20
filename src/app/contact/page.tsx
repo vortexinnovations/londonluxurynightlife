@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { fitTitle } from "@/lib/metadata";
 import Link from "next/link";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Reveal from "@/components/Reveal";
@@ -12,7 +13,7 @@ import {
 import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Plan Your Night | London Luxury Nightlife Concierge",
+  title: fitTitle("Plan Your Night | London Luxury Nightlife Concierge"),
   description:
     "Our personalised nightlife concierge service handles everything, from choosing the perfect venue to securing VIP tables. Tell us what kind of night you're looking for and we'll handle the rest.",
   openGraph: {

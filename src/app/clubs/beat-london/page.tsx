@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
@@ -12,7 +13,7 @@ const DESCRIPTION =
   "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/beat-london",

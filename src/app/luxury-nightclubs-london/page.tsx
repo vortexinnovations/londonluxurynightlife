@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Luxury Nightclubs London: Where Quality Meets Exclusivity",
+  title: fitTitle("Luxury Nightclubs London: Where Quality Meets Exclusivity"),
   description:
     "London's finest nightclubs ranked by experience, not hype. Sound systems, service, crowds, and atmosphere: the insider's quality guide for 2026.",
   keywords:

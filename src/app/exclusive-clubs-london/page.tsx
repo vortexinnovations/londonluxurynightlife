@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Most Exclusive Clubs in London: How to Get In",
+  title: fitTitle("Most Exclusive Clubs in London: How to Get In"),
   description:
     "London's most selective nightclubs ranked by door difficulty. Which venues actually turn people away, what the door team looks for, and how to get past them.",
   keywords:

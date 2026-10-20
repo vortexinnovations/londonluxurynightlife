@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Best Hip-Hop Clubs London 2026: Ranked by Insiders",
+  title: fitTitle("Best Hip-Hop Clubs London 2026: Ranked by Insiders"),
   description:
     "London's best hip-hop and R&B clubs ranked by music quality, not marketing spend. From Tape's credibility to Cirque Le Soir's theatre.",
   keywords:

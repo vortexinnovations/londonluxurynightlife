@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
@@ -13,7 +14,7 @@ const DESCRIPTION =
   "Funky Buddha on Berkeley Street, Mayfair, has closed, and Itzel now operates at its address. What the club was, and the open Mayfair clubs to book instead.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/funky-buddha",

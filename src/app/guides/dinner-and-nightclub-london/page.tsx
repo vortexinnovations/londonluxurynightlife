@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { SITE_NAME } from "@/lib/constants";
@@ -10,7 +11,7 @@ const DESCRIPTION =
   "How to plan a seamless dinner and club night in London. The best restaurants near Mayfair clubs, perfect timing, dress codes that work for both, and recommended dinner-to-nightclub combinations.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   keywords:
     "dinner and club London, luxury evening London, dinner before clubbing Mayfair, full night out London plan",

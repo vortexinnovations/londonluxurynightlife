@@ -8,6 +8,7 @@ import { getMergedPostBySlug, getMergedPosts } from "@/lib/blog-data";
 import { bodyFaqs } from "@/lib/body-faqs";
 import { SITE_NAME, SITE_URL, TABLE_NUMBER } from "@/lib/constants";
 import { postImage } from "@/lib/images";
+import { fitTitle } from "@/lib/metadata";
 import { legacyPosts } from "@/legacy-posts";
 
 // Every post: the site's original posts (one module each in src/legacy-posts)
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // og:image, which Next also uses for twitter:image.
     return {
       ...metadata,
+      ...(typeof metadata.title === "string" ? { title: fitTitle(metadata.title) } : {}),
       alternates: metadata.alternates ?? { canonical: url },
       openGraph: {
         ...(image ? { images: [{ url: image, alt: post.imageAlt ?? post.title }] } : {}),
@@ -52,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
   return {
-    title: post.metaTitle,
+    title: fitTitle(post.metaTitle),
     description: post.metaDescription,
     openGraph: {
       title: post.title,

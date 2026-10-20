@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -7,9 +8,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: {
-    absolute: "How to Get Into Tape London: Guestlist, Tables, Dress Code",
-  },
+  title: fitTitle("How to Get Into Tape London: Guestlist, Tables, Dress Code"),
   description:
     "Tape London, 17 Hanover Square: open Tuesday, Friday, Saturday and Sunday, 11pm to 3.45am as of October 2026. Guestlist, tables, door policy and dress code.",
   keywords:

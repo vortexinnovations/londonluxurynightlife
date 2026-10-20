@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
@@ -12,7 +13,7 @@ const DESCRIPTION =
   "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/reign-london",

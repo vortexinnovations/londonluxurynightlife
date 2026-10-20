@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London vs Paris Nightlife: Two European Capitals Compared for 2026",
+  title: fitTitle("London vs Paris Nightlife: Two European Capitals Compared for 2026"),
   description:
     "London and Paris are Europe's two nightlife heavyweights, but they deliver very different evenings. An honest comparison of clubs, music, costs, culture, and closing times.",
   keywords:

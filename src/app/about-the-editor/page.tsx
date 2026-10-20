@@ -1,10 +1,10 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import Link from "next/link";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
+import { SITE_OPEN_GRAPH, fitTitle } from "@/lib/metadata";
 
 export const metadata: Metadata = {
-  title: "About the Editor: Isabella Marsh",
+  title: fitTitle("About the Editor: Isabella Marsh"),
   description:
     "Meet Isabella Marsh, Luxury Lifestyle Editor. She covers London's high-end nightlife: members' clubs, celebrity-spotted venues, and the season's most exclusive parties.",
   openGraph: {

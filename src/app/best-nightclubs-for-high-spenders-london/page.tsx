@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London Clubs for High Spenders: Where Big Budgets Go",
+  title: fitTitle("London Clubs for High Spenders: Where Big Budgets Go"),
   description:
     "Where serious money gets the best experience in London nightlife. Spend tiers, premium tables, dedicated hosting: maximise every pound.",
   keywords:

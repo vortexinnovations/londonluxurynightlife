@@ -7,10 +7,10 @@ import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Reveal from "@/components/Reveal";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import { postImage } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
+import { SITE_OPEN_GRAPH, fitTitle } from "@/lib/metadata";
 
 export const metadata: Metadata = {
-  title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
+  title: fitTitle("London Nightlife Blog | Insider Tips, Guides & Club Reviews"),
   description:
     "Expert articles on London's luxury nightlife scene. Insider tips on Mayfair clubs, bottle service costs, dress codes, birthday planning, and everything you need for a world-class night out.",
   keywords: [

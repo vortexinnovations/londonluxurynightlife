@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
@@ -14,7 +15,7 @@ const DESCRIPTION =
   "Luna Club London in Mayfair has closed. What the club was, and the open Mayfair and West End clubs with the same hip-hop, RnB and stylish crowd.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luna-club-london",

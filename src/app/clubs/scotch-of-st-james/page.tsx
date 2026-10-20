@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
@@ -12,7 +13,7 @@ const DESCRIPTION =
   "Honest review of The Scotch of St James, the 1960s Mason's Yard club where Hendrix played. Crowd, music, dress code, tables from £1,000 as of October 2026.";
 
 export const metadata: Metadata = {
-  title: { absolute: TITLE },
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/scotch-of-st-james",

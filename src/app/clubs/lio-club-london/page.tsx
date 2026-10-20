@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
@@ -13,7 +14,7 @@ const DESCRIPTION =
   "Lio Club London in Mayfair has closed. What the dinner, show and club concept was, and the open London venues to book for a similar night.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/lio-club-london",

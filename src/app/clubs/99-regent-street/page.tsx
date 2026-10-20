@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import ArticleLayout from "@/components/ArticleLayout";
@@ -19,7 +20,7 @@ const DESCRIPTION =
   "99 Regent Street (formerly Cuckoo Club) reviewed: two floors off Swallow Street, hip-hop and RnB upstairs, house downstairs, a 19+ door and tables from £600. Open Wednesday to Saturday.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}${PATH}`,

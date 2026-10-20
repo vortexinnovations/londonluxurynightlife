@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { SITE_NAME } from "@/lib/constants";
@@ -10,7 +11,7 @@ const DESCRIPTION =
   "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   keywords:
     "celebrity club etiquette London, VVIP section London clubs, celebrity nightlife etiquette, how VIP sections work London",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
@@ -10,7 +11,7 @@ const DESCRIPTION =
   "Essential guide for international visitors to London's luxury nightlife. Covers transport, tipping, safety, where to stay, UK drinking culture, and which Mayfair clubs suit your style.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   keywords:
     "London nightlife tourists, visiting London clubs, London nightlife guide visitors, first time London nightlife, London clubs international visitors",

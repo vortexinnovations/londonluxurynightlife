@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London Club Dress Code: What Actually Gets You In",
+  title: fitTitle("London Club Dress Code: What Actually Gets You In"),
   description:
     "Mayfair dress codes decoded with specific advice per venue. What to wear, what gets you turned away, and why the jeans question depends on which club.",
   keywords:

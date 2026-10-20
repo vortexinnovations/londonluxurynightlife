@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Romantic Nightlife London: The Couples Guide to an Unforgettable Evening",
+  title: fitTitle("Romantic Nightlife London: The Couples Guide to an Unforgettable Evening"),
   description:
     "The insider's guide to romantic nightlife in London for couples. Best clubs for date nights, dinner-to-club transitions, what to wear, and how to plan the perfect evening together.",
   keywords:

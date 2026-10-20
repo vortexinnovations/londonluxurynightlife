@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
@@ -13,7 +14,7 @@ const DESCRIPTION =
   "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luxx-club-london",

@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London vs Dubai Nightlife: An Honest Comparison for 2026",
+  title: fitTitle("London vs Dubai Nightlife: An Honest Comparison for 2026"),
   description:
     "London and Dubai both claim world-class nightlife, but they deliver it in fundamentally different ways. A genuine comparison of clubs, costs, culture, and which city suits which visitor.",
   keywords:

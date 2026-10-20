@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
@@ -12,7 +13,7 @@ const DESCRIPTION =
   "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.";
 
 export const metadata: Metadata = {
-  title: { absolute: TITLE },
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/dear-darling",

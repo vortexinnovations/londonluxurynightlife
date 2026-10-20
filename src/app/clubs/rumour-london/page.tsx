@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import Link from "next/link";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, NightClubSchema } from "@/components/SchemaMarkup";
@@ -17,7 +18,7 @@ const DESCRIPTION =
   "Rumour (formerly Tabu) reviewed: one intimate red room of velvet booths at 1 Dover Street, Mayfair, with no photos on the floor. Booths from £1,000, a ladies' guestlist, open Wednesday to Saturday.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}${PATH}`,

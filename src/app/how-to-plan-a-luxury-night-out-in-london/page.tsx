@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Plan a Luxury Night Out in London: Hour by Hour",
+  title: fitTitle("Plan a Luxury Night Out in London: Hour by Hour"),
   description:
     "The complete luxury evening timeline: 7pm cocktails to 3am close. Restaurants near Mayfair, transport, dress code prep, and the booking strategy.",
   keywords:

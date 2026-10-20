@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Best House Music Clubs London: Where to Hear It",
+  title: fitTitle("Best House Music Clubs London: Where to Hear It"),
   description:
     "London's best house music venues from Mayfair deep house to Fitzrovia sound systems. Maddox, BEAT London, Dear Darling: where the sound matters most.",
   keywords:

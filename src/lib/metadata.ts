@@ -21,3 +21,15 @@ export const SITE_OPEN_GRAPH = {
     },
   ],
 } satisfies Metadata["openGraph"];
+
+// The layout's title.template appends " | London Luxury Nightlife" (26
+// characters) to every page title. Google cuts titles off at about 60
+// characters, so the site name is added only when the whole title still fits;
+// otherwise the page's own title (its "body") stands alone. Pass the body
+// without the site name.
+export const TITLE_SUFFIX = ` | ${SITE_NAME}`;
+export const MAX_TITLE_LENGTH = 60;
+
+export function fitTitle(body: string): string | { absolute: string } {
+  return body.length + TITLE_SUFFIX.length <= MAX_TITLE_LENGTH ? body : { absolute: body };
+}

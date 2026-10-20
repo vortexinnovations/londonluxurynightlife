@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London Club Door Policy: How It Really Works",
+  title: fitTitle("London Club Door Policy: How It Really Works"),
   description:
     "Why London clubs turn people away and what they're actually looking for. Group composition, dress standards, the promoter system, and how to get in.",
   keywords:

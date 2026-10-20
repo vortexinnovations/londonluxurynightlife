@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "London Nightlife Guide 2026: Mayfair, Soho and Beyond",
+  title: fitTitle("London Nightlife Guide 2026: Mayfair, Soho and Beyond"),
   description:
     "The complete London nightlife guide. Where to go, what to wear, when to arrive, and how much to spend: from first-timers to seasoned visitors.",
   keywords:

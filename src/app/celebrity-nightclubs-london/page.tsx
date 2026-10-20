@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -6,8 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Celebrity Nightclubs London: Where A-Listers Actually Go",
+  title: fitTitle("Celebrity Nightclubs London: Where A-Listers Actually Go"),
   description:
     "Which London clubs do celebrities genuinely choose: not where PR says they go. Insider ranking by real celebrity frequency, privacy, and VVIP access.",
   keywords:

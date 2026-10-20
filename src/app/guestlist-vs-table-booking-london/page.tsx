@@ -1,4 +1,5 @@
 import { Metadata } from "next/types";
+import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { ECOSYSTEM } from "@/lib/ecosystem";
@@ -8,8 +9,7 @@ import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title:
-    "Guestlist vs Table Booking: Which to Choose in London",
+  title: fitTitle("Guestlist vs Table Booking: Which to Choose in London"),
   description:
     "The honest comparison: guestlist entry vs table booking at London clubs. Cost, guarantee of entry, which venues require tables, and when guestlist works.",
   keywords:
