@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The insider's guide to London's best hip-hop and RnB clubs. Every venue worth your night, ranked and reviewed by people who actually go.",
     url: "https://londonluxurynightlife.com/best-hip-hop-clubs-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["best-hip-hop-clubs-london"], alt: "A dancer posing in a lit cage" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/best-hip-hop-clubs-london",

@@ -1,25 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "dear-darling")!;
 
+const TITLE = "Dear Darling Mayfair: Honest Review, Dress Code and Tables";
+const DESCRIPTION =
+  "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.";
+
 export const metadata: Metadata = {
-  title: {
-    absolute: "Dear Darling Mayfair: Honest Review, Dress Code and Tables",
-  },
-  description:
-    "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/dear-darling",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/dear-darling",
+    images: [{ url: CLUB_IMAGES["dear-darling"].hero, alt: "A guest dancing with eyes closed in a crowd" }],
   },
 };
 

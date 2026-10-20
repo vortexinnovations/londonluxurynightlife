@@ -20,6 +20,7 @@ export const metadata: Metadata = {
       "Guestlist or table booking? The definitive comparison for London nightclubs: cost, guarantees, pros and cons, and venue-by-venue recommendations.",
     url: "https://londonluxurynightlife.com/guestlist-vs-table-booking-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["guestlist-vs-table-booking-london"], alt: "Guests at a table as bottles with sparklers arrive" }],
   },
   alternates: {
     canonical:

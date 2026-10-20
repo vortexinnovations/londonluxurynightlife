@@ -1,23 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
+const TITLE = "Dinner and Nightclub London | Plan a Full Luxury Evening";
+const DESCRIPTION =
+  "How to plan a seamless dinner and club night in London. The best restaurants near Mayfair clubs, perfect timing, dress codes that work for both, and recommended dinner-to-nightclub combinations.";
+
 export const metadata: Metadata = {
-  title:
-    "Dinner and Nightclub London | Plan a Full Luxury Evening",
-  description:
-    "How to plan a seamless dinner and club night in London. The best restaurants near Mayfair clubs, perfect timing, dress codes that work for both, and recommended dinner-to-nightclub combinations.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords:
     "dinner and club London, luxury evening London, dinner before clubbing Mayfair, full night out London plan",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/dinner-and-nightclub-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/guides/dinner-and-nightclub-london",
+    images: [{ url: GUIDE_IMAGES["dinner-and-nightclub-london"], alt: "Dancers performing in lit cages beside the DJ booth" }],
   },
 };
 

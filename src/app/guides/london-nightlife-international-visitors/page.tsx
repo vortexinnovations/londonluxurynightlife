@@ -1,23 +1,30 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
+const TITLE = "London Nightlife for International Visitors | First-Timer's Guide";
+const DESCRIPTION =
+  "Essential guide for international visitors to London's luxury nightlife. Covers transport, tipping, safety, where to stay, UK drinking culture, and which Mayfair clubs suit your style.";
+
 export const metadata: Metadata = {
-  title: "London Nightlife for International Visitors | First-Timer's Guide",
-  description:
-    "Essential guide for international visitors to London's luxury nightlife. Covers transport, tipping, safety, where to stay, UK drinking culture, and which Mayfair clubs suit your style.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords:
     "London nightlife tourists, visiting London clubs, London nightlife guide visitors, first time London nightlife, London clubs international visitors",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/london-nightlife-international-visitors",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/guides/london-nightlife-international-visitors",
+    images: [{ url: GUIDE_IMAGES["london-nightlife-international-visitors"], alt: "Three guests in costume at a themed club night" }],
   },
 };
 

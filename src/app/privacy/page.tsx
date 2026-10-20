@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
       "How London Luxury Nightlife handles your data: what we collect, how WhatsApp enquiries are used, and your rights.",
     url: `${SITE_URL}/privacy`,
     type: "website",
+    images: SITE_OPEN_GRAPH.images,
   },
   alternates: {
     canonical: `${SITE_URL}/privacy`,

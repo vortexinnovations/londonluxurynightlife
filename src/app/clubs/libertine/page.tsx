@@ -1,24 +1,31 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "libertine")!;
 
 // Closed; Selene now operates in its place (owner, 2026-10-07). Indexable: closed pages keep their search traffic.
+const TITLE = "Libertine London Has Closed: Selene Now Operates in Its Place";
+const DESCRIPTION =
+  "Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead.";
+
 export const metadata: Metadata = {
-  title: "Libertine London Has Closed: Selene Now Operates in Its Place",
-  description:
-    "Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/libertine",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/libertine",
+    images: [{ url: CLUB_IMAGES["libertine"].hero, alt: "A DJ in headphones at the decks, with stage lights behind" }],
   },
 };
 

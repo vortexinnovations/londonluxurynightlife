@@ -20,6 +20,7 @@ export const metadata: Metadata = {
       "Getting into Tape London at 17 Hanover Square: opening nights, guestlist through the members' app, table bookings, door policy, ID and dress code.",
     url: "https://londonluxurynightlife.com/how-to-get-into-tape-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["how-to-get-into-tape-london"], alt: "A performer singing in front of a lit dancer cage" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/how-to-get-into-tape-london",

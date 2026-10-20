@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ECOSYSTEM } from "@/lib/ecosystem";
 import Link from "next/link";
+import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "About London Luxury Nightlife | Our Editorial Team",
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
       "Who we are, how we review, and why we built the most trusted luxury nightlife guide in London.",
     url: "https://londonluxurynightlife.com/about",
     type: "website",
+    images: [{ url: GUIDE_IMAGES["about"], alt: "Champagne bottles with sparklers held up in a crowd" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/about",

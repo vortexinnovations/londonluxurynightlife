@@ -1,24 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { WA_CORPORATE_MESSAGE } from "@/lib/constants";
+import { WA_CORPORATE_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
+const TITLE = "Corporate Entertainment London Nightclub | Client Nights";
+const DESCRIPTION =
+  "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.";
+
 export const metadata: Metadata = {
-  title:
-    "Corporate Entertainment London Nightclub | Client Nights",
-  description:
-    "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords:
     "corporate entertainment London nightclub, client entertainment London, corporate night out London, entertaining clients London club",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/corporate-entertainment-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/guides/corporate-entertainment-london",
+    images: [{ url: GUIDE_IMAGES["corporate-entertainment-london"], alt: "Two bottles with sparklers raised over a table" }],
   },
 };
 

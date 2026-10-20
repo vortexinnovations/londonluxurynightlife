@@ -1,24 +1,31 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 
 // Closed; its successor is Itzel (owner, 2026-10-07). Indexable: closed pages keep their search traffic.
+const TITLE = "Luxx Club London Has Closed: Itzel and Mayfair Alternatives";
+const DESCRIPTION =
+  "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.";
+
 export const metadata: Metadata = {
-  title: "Luxx Club London Has Closed: Itzel and Mayfair Alternatives",
-  description:
-    "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luxx-club-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/luxx-club-london",
+    images: [{ url: CLUB_IMAGES["luxx-club-london"].hero, alt: "A guest dancing under a ceiling of purple lights" }],
   },
 };
 

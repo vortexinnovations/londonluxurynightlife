@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The honest ranking of London's most exclusive nightclubs: what makes them exclusive, how selective the doors are, and what it takes to get in.",
     url: "https://londonluxurynightlife.com/exclusive-clubs-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["exclusive-clubs-london"], alt: "Hostesses carrying champagne bottles with sparklers" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/exclusive-clubs-london",

@@ -1,24 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "beat-london")!;
 
+const TITLE = "BEAT London Review | What It's Really Like Inside";
+const DESCRIPTION =
+  "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.";
+
 export const metadata: Metadata = {
-  title:
-    "BEAT London Review | What It's Really Like Inside",
-  description:
-    "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/beat-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/beat-london",
+    images: [{ url: CLUB_IMAGES["beat-london"].hero, alt: "A guest dancing under a spotlight" }],
   },
 };
 

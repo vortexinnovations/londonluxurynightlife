@@ -1,6 +1,7 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import Link from "next/link";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: "About the Editor: Isabella Marsh",
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
       "Isabella Marsh covers London's high-end nightlife: members' clubs, celebrity-spotted venues, and the most exclusive parties.",
     url: "https://londonluxurynightlife.com/about-the-editor",
     type: "profile",
+    images: SITE_OPEN_GRAPH.images,
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/about-the-editor",

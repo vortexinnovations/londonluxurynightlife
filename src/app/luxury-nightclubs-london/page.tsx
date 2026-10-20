@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The insider's guide to London's most exclusive luxury nightclubs. What makes a club premium, which venues deliver, and how to get in.",
     url: "https://londonluxurynightlife.com/luxury-nightclubs-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["luxury-nightclubs-london"], alt: "A packed dancefloor under purple light beams" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/luxury-nightclubs-london",

@@ -7,6 +7,7 @@ import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Reveal from "@/components/Reveal";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import { postImage } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
     description:
       "Expert articles on London's luxury nightlife scene. Insider tips, real costs, and everything you need for a world-class night out.",
+    images: SITE_OPEN_GRAPH.images,
   },
   alternates: {
     canonical: `${SITE_URL}/blog`,

@@ -1,24 +1,31 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "lio-club-london")!;
 
 // Closed. Indexable: closed pages keep their search traffic.
+const TITLE = "Lio Club London Has Closed: Dinner and Club Alternatives";
+const DESCRIPTION =
+  "Lio Club London in Mayfair has closed. What the dinner, show and club concept was, and the open London venues to book for a similar night.";
+
 export const metadata: Metadata = {
-  title: "Lio Club London Has Closed: Dinner and Club Alternatives",
-  description:
-    "Lio Club London in Mayfair has closed. What the dinner, show and club concept was, and the open London venues to book for a similar night.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/lio-club-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/lio-club-london",
+    images: [{ url: CLUB_IMAGES["lio-club-london"].hero, alt: "A guest smiling and making peace signs" }],
   },
 };
 

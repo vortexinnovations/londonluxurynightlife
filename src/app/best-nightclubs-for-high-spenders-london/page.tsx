@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Where to spend big in London's nightlife and where your money actually delivers. High-roller clubs, premium bottle service, and how to maximise a significant budget.",
     url: "https://londonluxurynightlife.com/best-nightclubs-for-high-spenders-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["best-nightclubs-for-high-spenders-london"], alt: "Dancers in neon outfits performing on a stage" }],
   },
   alternates: {
     canonical:

@@ -1,25 +1,32 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "luna-club-london")!;
 
 // Closed (owner, 2026-10-07). The page stays live and indexable: people still
 // search for Luna by name, and it now answers them honestly.
+const TITLE = "Luna Club London Has Closed: Mayfair Alternatives";
+const DESCRIPTION =
+  "Luna Club London in Mayfair has closed. What the club was, and the open Mayfair and West End clubs with the same hip-hop, RnB and stylish crowd.";
+
 export const metadata: Metadata = {
-  title: "Luna Club London Has Closed: Mayfair Alternatives",
-  description:
-    "Luna Club London in Mayfair has closed. What the club was, and the open Mayfair and West End clubs with the same hip-hop, RnB and stylish crowd.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luna-club-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/luna-club-london",
+    images: [{ url: CLUB_IMAGES["luna-club-london"].hero, alt: "A guest in sunglasses posing by a lit doorway" }],
   },
 };
 

@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Why London club doors are selective, what they look for, the worst mistakes to avoid, and how to maximise your chances at every venue.",
     url: "https://londonluxurynightlife.com/how-london-nightclub-door-policy-works",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["how-london-nightclub-door-policy-works"], alt: "A bottle with a sparkler held above a crowd" }],
   },
   alternates: {
     canonical:

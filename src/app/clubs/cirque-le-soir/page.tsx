@@ -1,25 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "cirque-le-soir")!;
 
+const TITLE = "Cirque Le Soir Review: Honest Guide to Entry and Dress Code";
+const DESCRIPTION =
+  "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.";
+
 export const metadata: Metadata = {
-  title: {
-    absolute: "Cirque Le Soir Review: Honest Guide to Entry and Dress Code",
-  },
-  description:
-    "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/cirque-le-soir",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/cirque-le-soir",
+    images: [{ url: CLUB_IMAGES["cirque-le-soir"].hero, alt: "A guest glancing back over one shoulder in a dark club" }],
   },
 };
 

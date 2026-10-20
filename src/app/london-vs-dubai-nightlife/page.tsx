@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Two nightlife capitals, two entirely different philosophies. A genuine comparison of London and Dubai clubs: costs, culture, music, and which city suits you.",
     url: "https://londonluxurynightlife.com/london-vs-dubai-nightlife",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["london-vs-dubai-nightlife"], alt: "A dancer posing between purple light tubes" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/london-vs-dubai-nightlife",

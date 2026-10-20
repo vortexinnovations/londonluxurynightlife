@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Which London nightclubs do celebrities actually go to? The insider's guide to A-list venues.",
     url: "https://londonluxurynightlife.com/celebrity-nightclubs-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["celebrity-nightclubs-london"], alt: "Champagne bottles with sparklers under a ceiling of green lights" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/celebrity-nightclubs-london",

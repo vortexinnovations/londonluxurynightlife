@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The definitive guide to London's best house music clubs. Every venue where house music is taken seriously, reviewed by people who know the difference.",
     url: "https://londonluxurynightlife.com/best-house-music-clubs-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["best-house-music-clubs-london"], alt: "Dancers in lit cages above a crowded dancefloor" }],
   },
   alternates: {
     canonical:

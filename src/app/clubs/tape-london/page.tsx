@@ -1,24 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "tape-london")!;
 
+const TITLE = "Tape London Review | What It's Really Like Inside";
+const DESCRIPTION =
+  "An honest Tape London review from nightlife insiders. Discover what the Tape London experience is really like, what is Tape London like inside, and whether this exclusive Mayfair members' club lives up to the hype.";
+
 export const metadata: Metadata = {
-  title:
-    "Tape London Review | What It's Really Like Inside",
-  description:
-    "An honest Tape London review from nightlife insiders. Discover what the Tape London experience is really like, what is Tape London like inside, and whether this exclusive Mayfair members' club lives up to the hype.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/tape-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/tape-london",
+    images: [{ url: CLUB_IMAGES["tape-london"].hero, alt: "Tape London: a light-up champagne bottle held above the crowd in the main room" }],
   },
 };
 

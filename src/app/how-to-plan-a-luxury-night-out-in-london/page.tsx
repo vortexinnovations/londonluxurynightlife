@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The definitive planning guide for a luxury evening in London. Timeline, transport, budgets, dress codes, and every detail that matters.",
     url: "https://londonluxurynightlife.com/how-to-plan-a-luxury-night-out-in-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["how-to-plan-a-luxury-night-out-in-london"], alt: "Guests with sparklers and phones in a red-lit club" }],
   },
   alternates: {
     canonical:

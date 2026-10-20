@@ -17,6 +17,7 @@ export const metadata: Metadata = {
       "What VIP really means in London nightlife. Table service explained, VIP vs VVIP, which venues deliver, and how to book properly.",
     url: "https://londonluxurynightlife.com/vip-nightlife-london",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["vip-nightlife-london"], alt: "Bottles with sparklers carried through a crowd" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/vip-nightlife-london",

@@ -9,6 +9,7 @@ import {
   GUESTLIST_NUMBER,
   SITE_URL,
 } from "@/lib/constants";
+import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Plan Your Night | London Luxury Nightlife Concierge",
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
       "Our personalised nightlife concierge service handles everything, from choosing the perfect venue to securing VIP tables.",
     url: `${SITE_URL}/contact`,
     type: "website",
+    images: [{ url: GUIDE_IMAGES["contact"], alt: "Guests holding up bottles with sparklers under a ceiling of lights" }],
   },
   alternates: {
     canonical: `${SITE_URL}/contact`,

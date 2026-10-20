@@ -46,15 +46,13 @@ export const metadata: Metadata = {
     "celebrity clubs London",
   ],
   // No og:url here, for the same reason as the canonical below: each page sets
-  // `openGraph.url` to its own URL (pages without Open Graph fields of their
-  // own spread SITE_OPEN_GRAPH and add it).
+  // its own `openGraph`, url included.
   openGraph: SITE_OPEN_GRAPH,
+  // Only the card type. A page that sets no twitter title, description or
+  // image of its own gets them from its own Open Graph fields (Next fills
+  // them in); set here, every such page would share the home page's card.
   twitter: {
     card: "summary_large_image",
-    title: "London Luxury Nightlife | The Insider's Guide",
-    description:
-      "The definitive guide to London's luxury nightlife. Expert reviews, VIP table booking, and insider tips.",
-    images: [`${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`],
   },
   robots: {
     index: true,

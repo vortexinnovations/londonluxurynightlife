@@ -1,25 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "maddox")!;
 
+const TITLE = "Maddox Club London Review: Dinner, Dress Code and Tables";
+const DESCRIPTION =
+  "Honest Maddox Club review: Italian dinner at 3-5 Mill Street, Mayfair, then house music until 3am. Jacket preferred, tables from £1,000 as of October 2026.";
+
 export const metadata: Metadata = {
-  title: {
-    absolute: "Maddox Club London Review: Dinner, Dress Code and Tables",
-  },
-  description:
-    "Honest Maddox Club review: Italian dinner at 3-5 Mill Street, Mayfair, then house music until 3am. Jacket preferred, tables from £1,000 as of October 2026.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/maddox",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/maddox",
+    images: [{ url: CLUB_IMAGES["maddox"].hero, alt: "Two guests smiling with drinks in a club" }],
   },
 };
 

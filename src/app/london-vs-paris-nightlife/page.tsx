@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Europe's two great nightlife cities compared honestly. Music, door culture, closing times, costs, and which city delivers the evening you actually want.",
     url: "https://londonluxurynightlife.com/london-vs-paris-nightlife",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["london-vs-paris-nightlife"], alt: "Guests surrounded by sparklers at a table" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/london-vs-paris-nightlife",

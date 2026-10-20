@@ -1,23 +1,30 @@
 import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
+const TITLE = "London Luxury Nightlife: The Complete 2026 Guide";
+const DESCRIPTION =
+  "Every club, every dress code, every unwritten rule. The only London nightlife guide you need: from Mayfair geography to bottle service mechanics.";
+
 export const metadata: Metadata = {
-  title: "London Luxury Nightlife: The Complete 2026 Guide",
-  description:
-    "Every club, every dress code, every unwritten rule. The only London nightlife guide you need: from Mayfair geography to bottle service mechanics.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords:
     "London nightlife guide, guide to clubbing in London, London clubs guide for tourists, best nightlife London, Mayfair clubs, luxury nightlife London",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/complete-guide-london-luxury-nightlife",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/guides/complete-guide-london-luxury-nightlife",
+    images: [{ url: GUIDE_IMAGES["complete-guide-london-luxury-nightlife"], alt: "Sparkler bottles held up under a ceiling of lights" }],
   },
 };
 

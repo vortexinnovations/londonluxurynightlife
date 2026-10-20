@@ -1,24 +1,31 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, closedClubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "funky-buddha")!;
 
 // Closed (owner, 2026-10-07); Itzel now operates at its Berkeley Street address (owner-confirmed). The page stays live and indexable.
+const TITLE = "Funky Buddha London Has Closed: Itzel and Mayfair Alternatives";
+const DESCRIPTION =
+  "Funky Buddha on Berkeley Street, Mayfair, has closed, and Itzel now operates at its address. What the club was, and the open Mayfair clubs to book instead.";
+
 export const metadata: Metadata = {
-  title: "Funky Buddha London Has Closed: Itzel and Mayfair Alternatives",
-  description:
-    "Funky Buddha on Berkeley Street, Mayfair, has closed, and Itzel now operates at its address. What the club was, and the open Mayfair clubs to book instead.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/funky-buddha",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/funky-buddha",
+    images: [{ url: CLUB_IMAGES["funky-buddha"].hero, alt: "Two guests in a dark club, one in a baseball cap" }],
   },
 };
 

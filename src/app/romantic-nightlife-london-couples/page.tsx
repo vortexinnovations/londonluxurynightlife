@@ -19,6 +19,7 @@ export const metadata: Metadata = {
       "Where to take a date in London after dark. The best clubs, cocktail bars, and late-night venues for couples: ranked by someone who has tested every one.",
     url: "https://londonluxurynightlife.com/romantic-nightlife-london-couples",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["romantic-nightlife-london-couples"], alt: "A cake with sparklers carried through a club" }],
   },
   alternates: {
     canonical:

@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The two great nightlife capitals compared honestly. Mayfair vs Meatpacking, table service vs dancefloor culture, and which city suits your style.",
     url: "https://londonluxurynightlife.com/london-vs-new-york-nightlife",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["london-vs-new-york-nightlife"], alt: "Gold champagne bottles with sparklers raised over a crowd" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/london-vs-new-york-nightlife",

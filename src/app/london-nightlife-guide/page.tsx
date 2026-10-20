@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The ultimate London nightlife guide: Mayfair, Soho, Fitzrovia, and beyond. Everything you need to know.",
     url: "https://londonluxurynightlife.com/london-nightlife-guide",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["london-nightlife-guide"], alt: "Sparklers carried to a table in a dimly lit club" }],
   },
   alternates: {
     canonical: "https://londonluxurynightlife.com/london-nightlife-guide",

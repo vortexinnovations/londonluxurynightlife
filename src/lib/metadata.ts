@@ -3,9 +3,10 @@ import { SITE_NAME, SITE_URL } from "@/lib/constants";
 
 // The site-wide Open Graph fields, set by the root layout. Next merges
 // metadata shallowly, so a page that sets `openGraph` replaces the layout's
-// whole object: pages without Open Graph fields of their own spread these and
-// add `url`. There is no url here: a layout's og:url is inherited by every
-// page that does not set one, which told crawlers every page was the home page.
+// whole object: every page sets its own title, description, url and image,
+// and pages with no picture of their own use these `images`. There is no url
+// here: a layout's og:url is inherited by every page that does not set one,
+// which told crawlers every page was the home page.
 export const SITE_OPEN_GRAPH = {
   type: "website",
   locale: "en_GB",

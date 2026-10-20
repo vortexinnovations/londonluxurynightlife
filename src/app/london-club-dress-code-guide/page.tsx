@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "The definitive dress code guide for London's best nightclubs. Venue-by-venue strictness, men's and women's guides, and every common mistake to avoid.",
     url: "https://londonluxurynightlife.com/london-club-dress-code-guide",
     type: "article",
+    images: [{ url: GUIDE_IMAGES["london-club-dress-code-guide"], alt: "Guests cheering as sparkler bottles arrive at a table" }],
   },
   alternates: {
     canonical:

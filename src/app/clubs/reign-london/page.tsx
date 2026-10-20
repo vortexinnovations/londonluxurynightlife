@@ -1,24 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "reign-london")!;
 
+const TITLE = "Reign London Review | What It's Really Like Inside";
+const DESCRIPTION =
+  "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.";
+
 export const metadata: Metadata = {
-  title:
-    "Reign London Review | What It's Really Like Inside",
-  description:
-    "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/reign-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/reign-london",
+    images: [{ url: CLUB_IMAGES["reign-london"].hero, alt: "The London Reign: confetti falling over the main room" }],
   },
 };
 

@@ -1,24 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "selene-london")!;
 
+const TITLE = "Selene London Review | Sophisticated Fitzrovia Elegance";
+const DESCRIPTION =
+  "An insider review of Selene London. Discover why this sophisticated club just north of Oxford Circus is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.";
+
 export const metadata: Metadata = {
-  title:
-    "Selene London Review | Sophisticated Fitzrovia Elegance",
-  description:
-    "An insider review of Selene London. Discover why this sophisticated club just north of Oxford Circus is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/selene-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/selene-london",
+    images: [{ url: CLUB_IMAGES["selene-london"].hero, alt: "A DJ's hands on the mixer under blue light" }],
   },
 };
 

@@ -1,23 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
+import { SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
+const TITLE = "Celebrity Club Etiquette in London | How VIP Sections Really Work";
+const DESCRIPTION =
+  "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.";
+
 export const metadata: Metadata = {
-  title:
-    "Celebrity Club Etiquette in London | How VIP Sections Really Work",
-  description:
-    "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.",
+  title: TITLE,
+  description: DESCRIPTION,
   keywords:
     "celebrity club etiquette London, VVIP section London clubs, celebrity nightlife etiquette, how VIP sections work London",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/celebrity-clubs-london",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/guides/celebrity-clubs-london",
+    images: [{ url: GUIDE_IMAGES["celebrity-clubs-london"], alt: "A guest posing between purple light tubes" }],
   },
 };
 

@@ -1,26 +1,33 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "ministry-of-sound")!;
 
 // Open: Ministry of Sound in Elephant and Castle is trading (public listings show
 // club nights through October 2026). It was wrongly marked closed in March 2026.
 
+const TITLE = "Ministry of Sound Review | What It's Really Like Inside";
+const DESCRIPTION =
+  "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.";
+
 export const metadata: Metadata = {
-  title: "Ministry of Sound Review | What It's Really Like Inside",
-  description:
-    "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/ministry-of-sound",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/ministry-of-sound",
+    images: [{ url: CLUB_IMAGES["ministry-of-sound"].hero, alt: "A guest posing in a dark club" }],
   },
 };
 

@@ -28,16 +28,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getMergedPostBySlug(slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${slug}`;
+  const image = postImage(post);
   if (post.source !== "db") {
     const metadata = (await legacyPosts[slug]?.())?.metadata ?? {};
     // The original modules carry no dates: add the post's dates and category
     // from blog-data as article:* tags (read by the content API's editor).
     // Every module sets its own canonical and og:url; the fallbacks keep a
     // post from ever having none now that the root layout sets neither.
+    // Nor do they set an image: the post's hero (lib/images.ts) is its
+    // og:image, which Next also uses for twitter:image.
     return {
       ...metadata,
       alternates: metadata.alternates ?? { canonical: url },
       openGraph: {
+        ...(image ? { images: [{ url: image, alt: post.imageAlt ?? post.title }] } : {}),
         ...metadata.openGraph,
         url: metadata.openGraph?.url ?? url,
         type: "article",
@@ -47,7 +51,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     };
   }
-  const image = postImage(post);
   return {
     title: post.metaTitle,
     description: post.metaDescription,

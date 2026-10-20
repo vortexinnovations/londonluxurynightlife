@@ -1,25 +1,30 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { waClubMessage, clubs } from "@/lib/constants";
+import { waClubMessage, clubs, SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
-import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "scotch-of-st-james")!;
 
+const TITLE = "The Scotch of St James Review: Honest Guide, Dress Code";
+const DESCRIPTION =
+  "Honest review of The Scotch of St James, the 1960s Mason's Yard club where Hendrix played. Crowd, music, dress code, tables from £1,000 as of October 2026.";
+
 export const metadata: Metadata = {
-  title: {
-    absolute: "The Scotch of St James Review: Honest Guide, Dress Code",
-  },
-  description:
-    "Honest review of The Scotch of St James, the 1960s Mason's Yard club where Hendrix played. Crowd, music, dress code, tables from £1,000 as of October 2026.",
+  title: { absolute: TITLE },
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/scotch-of-st-james",
   },
   openGraph: {
-    ...SITE_OPEN_GRAPH,
+    type: "article",
+    locale: "en_GB",
+    siteName: SITE_NAME,
+    title: TITLE,
+    description: DESCRIPTION,
     url: "https://londonluxurynightlife.com/clubs/scotch-of-st-james",
+    images: [{ url: CLUB_IMAGES["scotch-of-st-james"].hero, alt: "Two guests posing in front of a lit back bar" }],
   },
 };
 
