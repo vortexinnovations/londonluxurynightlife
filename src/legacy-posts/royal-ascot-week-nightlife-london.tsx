@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Royal Ascot Week Nightlife London",
   description:
-    "How Royal Ascot week transforms London's luxury club scene. Where the racing crowd goes after dark, which nights peak, and how to navigate Mayfair during the races.",
+    "Ladies' Day Thursday is the peak night of Royal Ascot week in Mayfair's clubs. Where the racing crowd goes after dark and how far ahead to book a table.",
   keywords:
     "royal ascot nightlife london, ascot week clubs london, ladies day nightlife london, luxury nightlife racing season",
   authors: [

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "How Much Does a Night Out in Mayfair Really Cost?",
   description:
-    "A transparent breakdown of every expense on a Mayfair night out, from club minimum spends and bottle prices to dinner, transport, and tips. Realistic budgets for every level.",
+    "Mayfair table minimums start at £1,000 to £1,500 on a Friday or Saturday. Bottle prices, dinner, cocktails, taxis and tips, with budgets from £250 a head.",
   keywords:
     "Mayfair night out cost, how much bottle service London, London club prices, Mayfair club minimum spend, night out London budget",
   openGraph: {

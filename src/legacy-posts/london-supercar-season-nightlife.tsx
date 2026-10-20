@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "London Supercar Season Nightlife",
   description:
-    "How London's summer supercar season reshapes Mayfair nightlife: the wealth influx it signals, the crowd it brings, and where the international set goes after dark.",
+    "From June to September, supercar season fills Mayfair with the international set. How it reshapes London's clubs, the crowd and the spend after dark.",
   keywords:
     "london supercar season nightlife, mayfair supercar season, knightsbridge supercars summer, london summer luxury nightlife, where the wealthy party london",
   authors: [

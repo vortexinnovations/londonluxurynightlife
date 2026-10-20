@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Mayfair vs Shoreditch Nightlife Compared",
   description:
-    "A candid comparison of London's two biggest nightlife districts. Mayfair's bottle service luxury versus Shoreditch's underground creativity: which one suits your style?",
+    "Mayfair tables start from £1,000; Shoreditch entry runs £10 to £20 with no minimums. London's two nightlife districts compared on music, crowd and cost.",
   keywords:
     "Mayfair vs Shoreditch, London nightlife areas, best area for nightlife London, Mayfair clubs vs Shoreditch bars",
   openGraph: {

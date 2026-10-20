@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)",
+    "12 London Nightlife Mistakes First-Timers Make",
   description:
-    "The most common London nightlife mistakes, from wrong dress codes and bad timing to ignoring the promoter system. Honest advice so your first night out goes smoothly.",
+    "Arrive between 11pm and midnight, book ahead and know your minimum spend. The 12 London nightlife mistakes first-timers make, and how to avoid them.",
   keywords:
     "London nightlife mistakes, London clubbing mistakes, first time London nightlife tips, what not to do London clubs, London nightlife tips beginners",
   openGraph: {

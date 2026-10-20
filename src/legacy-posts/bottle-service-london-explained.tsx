@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Bottle Service in London Explained: What You Actually Get",
   description:
-    "Everything first-timers need to know about bottle service in London clubs. How minimum spends work, what is included, bottle prices, how to book, tipping, and common mistakes to avoid.",
+    "Bottle service in London means a minimum spend, with Grey Goose at £350 to £500 a bottle. What is included, how to book, tipping and the mistakes to avoid.",
   keywords:
     "bottle service London, London club bottle service, VIP bottle service explained, table service London clubs, bottle service prices London",
   openGraph: {

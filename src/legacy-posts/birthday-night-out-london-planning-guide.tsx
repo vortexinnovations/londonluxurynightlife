@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Planning a Birthday Night Out in London: The Complete Guide",
+    "Planning a Birthday Night Out in London: Clubs and Budget",
   description:
-    "Everything you need to plan a birthday night out in London's best clubs. Venue selection, birthday packages, group management, budget planning, and the timeline for making it unforgettable.",
+    "Birthday tables in London clubs run £1,000 to £3,000 minimum spend; book two to four weeks ahead for a weekend. Venues, packages, costs and the timeline.",
   keywords:
     "birthday night out London, birthday clubs London, birthday party London nightclub, birthday celebration London",
   openGraph: {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Best London Clubs for Large Groups and Parties",
   description:
-    "Where to take 10, 20, or 50+ people for a night out in London. The best clubs for large groups, corporate parties, stag and hen dos, and how to manage multi-table bookings without the night falling apart.",
+    "Rumour takes groups from £1,000 and 99 Regent Street runs two floors at weekends. London clubs for 10, 20 or 50+ people and how to book several tables.",
   keywords:
     "London clubs large groups, group night out London, best clubs for groups London, party venues London nightclub",
   openGraph: {
