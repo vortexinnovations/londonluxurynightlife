@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "BEAT London Review | What It's Really Like Inside",
   description:
     "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/beat-london",
+  },
 };
 
 export default function BeatLondonReview() {

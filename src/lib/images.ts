@@ -27,17 +27,25 @@ export const CLUB_IMAGES: Record<string, { hero: string; inline: string[] }> = {
     hero: img("DSC_7154.jpg"),
     inline: [img("DSC_7164.jpg"), img("DSC_7176.jpg")],
   },
-  "tabu-london": {
-    hero: img("fe4414_52d6295c80bc46b3b8b13d5eb0c385f5.jpg"),
-    inline: [img("fe4414_ab79d0b759bf40809b9f375b219a4b87.jpg"), img("fe4414_b73c59d02559433baf6bdaff91a1bff3.jpg")],
+  // Rumour (formerly Tabu): one photo of the red booths, reused for every slot.
+  "rumour-london": {
+    hero: img("rumour-london.jpg"),
+    inline: [img("rumour-london.jpg")],
   },
   "funky-buddha": {
     hero: img("fe4414_9bca79c7758d42a48f33bfe38f57e6d0.jpg"),
     inline: [img("fe4414_c0f53cc6cfe84299987ece034fa64e25.jpg"), img("fe4414_f00637f3a2a740078b492ed93e5ec5e5.jpg")],
   },
-  "cuckoo-club": {
-    hero: img("fe4414_8d1b76fde5204b9d845400d8d6d40739.jpg"),
-    inline: [img("fe4414_423495393edf437d9425d453f03729f1.jpg"), img("fe4414_22bea265d7434a9990ce468023444910.jpg")],
+  // 99 Regent Street (formerly Cuckoo Club): renders of the new interiors.
+  // inline order: entrance, staircase, bar, downstairs.
+  "99-regent-street": {
+    hero: img("99-regent-street-main-room.jpg"),
+    inline: [
+      img("99-regent-street-entrance.jpg"),
+      img("99-regent-street-staircase.jpg"),
+      img("99-regent-street-bar.jpg"),
+      img("99-regent-street-downstairs.jpg"),
+    ],
   },
   "scotch-of-st-james": {
     hero: img("fe4414_072d223d158244a6815f1ed7b01e900b.jpg"),
@@ -91,9 +99,9 @@ export const CLUB_THUMBNAILS: Record<string, string> = {
   "tape-london": img("fe4414_c01ffefe47204db4837e42c2d0ace275.jpg"),
   "cirque-le-soir": img("fe4414_e922024731294a3ea658c81cc1c1c77f.jpg"),
   "reign-london": img("DSC_7155.jpg"),
-  "tabu-london": img("fe4414_1700d1cd0c8f417493e5e7a301dbcfa7.jpg"),
+  "rumour-london": img("rumour-london.jpg"),
   "funky-buddha": img("fe4414_5dd524d974ed4435b62b0b022ff2d04a.jpg"),
-  "cuckoo-club": img("fe4414_25212b50087449d0b99b5afa8c93287d.jpg"),
+  "99-regent-street": img("99-regent-street-entrance.jpg"),
   "scotch-of-st-james": img("fe4414_4f8ffd1c85424160acecfb2179b112e5.jpg"),
   "dear-darling": img("fe4414_abfb3ef6a9794a8ab2e27779ebfab3f5.jpg"),
   maddox: img("fe4414_344fbd63598246e7aa317196b7721a0c.jpg"),
@@ -163,8 +171,8 @@ export const BLOG_IMAGES: Record<string, string> = {
   "dear-darling-maddox-cocktail-clubs-mayfair": img("fe4414_d98580822591406082db347183f9192a.jpg"),
   "tape-london-inside-mayfairs-most-exclusive-club": img("fe4414_9aad49408a0f4a57b95f42d24fb5ed1f.jpg"),
   "cirque-le-soir-circus-nightclub-london": img("fe4414_141a8e5a0dc0400caa5217cf2d206ba5.jpg"),
-  "tabu-london-japanese-underground-nightclub": img("fe4414_7fd0b80992234fc6be62b06ab7d8ccac.jpg"),
-  "cuckoo-club-mayfair-two-floors-one-night": img("fe4414_2b0b9405f5084a1bb087854db63c68ab.jpg"),
+  "tabu-london-japanese-underground-nightclub": img("rumour-london.jpg"),
+  "cuckoo-club-mayfair-two-floors-one-night": img("99-regent-street-staircase.jpg"),
   "beat-london-sound-system-fitzrovia": img("fe4414_f06a962e34d74d8d88f62e3607c5dab0.jpg"),
   "luna-selene-new-mayfair-clubs-2025": img("fe4414_54a8200c73ae49e7a5ee7170777de8bf.jpg"),
   "stag-night-mayfair-guide": img("fe4414_250ad5247e7546dcbe9f0c7b4e2fcbaf.jpg"),

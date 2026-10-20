@@ -155,7 +155,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club) on Swallow Street, open Wednesday to Saturday, suits
           the same post-racing crowd. The two-floor layout works particularly
           well during Ascot week because one floor offers space for extended

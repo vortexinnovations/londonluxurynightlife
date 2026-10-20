@@ -36,7 +36,7 @@ export interface Club {
   openingNights: string;
   dressCode: string;
   shortDescription: string;
-  /** "rebranded": the same venue trading under a new name (see renamedClubs). */
+  /** "rebranded": the same venue trading under a new name. */
   status?: "open" | "closed" | "rebranded";
   /** Rebranded venues: the old name people still search for. */
   formerName?: string;
@@ -44,6 +44,12 @@ export interface Club {
   successor?: string;
   /** The successor's page on this site, when the site covers it. */
   successorSlug?: string;
+  /**
+   * Open clubs that trade under a new name: the name they used before. The
+   * club page shows it in the title, as a "Formerly ..." line under the H1 and
+   * as the JSON-LD alternateName; it does not change the open-club layout.
+   */
+  previousName?: string;
 }
 
 /** Active, currently open venues — shown in all listings and navigation */
@@ -83,6 +89,32 @@ export const clubs: Club[] = [
     openingNights: "Tuesday, Thursday, Friday and Saturday",
     dressCode: "Smart and glamorous. Heels for ladies.",
     shortDescription: "An extravagant showclub on Piccadilly featuring aerial acts, live performances, and a crowd that comes as much for the spectacle as the party.",
+  },
+  {
+    name: "Rumour",
+    slug: "rumour-london",
+    tagline: "One intimate red room on Dover Street, and no cameras on the floor",
+    location: "1 Dover Street, Mayfair",
+    area: "Mayfair",
+    musicStyle: "Open Format, Hip-Hop, RnB, House",
+    tablesFrom: "£1,000",
+    openingNights: "Wednesday to Saturday",
+    dressCode: "Smart and dressed up. Heels for ladies, no sportswear, no fancy dress.",
+    shortDescription: "Formerly Tabu: one room of around 200 built around red velvet booths, with no photos or video on the floor. Booths from £1,000 cover entry for the whole group.",
+    previousName: "Tabu",
+  },
+  {
+    name: "99 Regent Street",
+    slug: "99-regent-street",
+    tagline: "Two floors behind the Swallow Street door, hip-hop above and house below",
+    location: "99 Regent Street, Mayfair (entrance on Swallow Street)",
+    area: "Mayfair",
+    musicStyle: "Hip-Hop, RnB (upstairs), House (downstairs)",
+    tablesFrom: "£600",
+    openingNights: "Wednesday to Saturday",
+    dressCode: "Elegant and enforced. No sportswear, running trainers, shorts, caps or fancy dress.",
+    shortDescription: "Formerly the Cuckoo Club: two floors at the Piccadilly Circus end of Regent Street, a 19+ door and tables from £600, spent on drinks.",
+    previousName: "Cuckoo Club",
   },
   {
     name: "Scotch of St James",
@@ -243,40 +275,7 @@ export const closedClubs: Club[] = [
   },
 ];
 
-/**
- * Renamed venues (owner, 2026-10-07): the same club trading under a new name.
- * Kept for the old name's search traffic; booked under the new name. Old-club
- * details (music, prices, dress code) are not carried over to the new venue.
- */
-export const renamedClubs: Club[] = [
-  {
-    name: "Rumour (formerly TABU)",
-    slug: "tabu-london",
-    tagline: "TABU London is now Rumour",
-    location: "Mayfair",
-    area: "Mayfair",
-    musicStyle: "Ask us for the current music policy",
-    tablesFrom: "Ask us for current minimums",
-    openingNights: "Wednesday to Saturday",
-    dressCode: "Smart. Ask us for the current door policy.",
-    shortDescription: "TABU London is now Rumour. Tables and guestlist are booked under the new name.",
-    status: "rebranded",
-    formerName: "TABU London",
-    successor: "Rumour",
-  },
-  {
-    name: "99 Regent Street (formerly Cuckoo Club)",
-    slug: "cuckoo-club",
-    tagline: "Cuckoo Club is now 99 Regent Street",
-    location: "Swallow Street, Mayfair",
-    area: "Mayfair",
-    musicStyle: "Ask us for the current music policy",
-    tablesFrom: "Ask us for current minimums",
-    openingNights: "Wednesday to Saturday",
-    dressCode: "Smart. Ask us for the current door policy.",
-    shortDescription: "Cuckoo Club is now 99 Regent Street. Tables and guestlist are booked under the new name.",
-    status: "rebranded",
-    formerName: "Cuckoo Club",
-    successor: "99 Regent Street",
-  },
-];
+// Renamed venues now live in `clubs` under their new names (99 Regent Street,
+// formerly Cuckoo Club; Rumour, formerly Tabu), with `previousName` set. The
+// old URLs /clubs/cuckoo-club and /clubs/tabu-london redirect permanently
+// (next.config.ts).

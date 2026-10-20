@@ -21,6 +21,19 @@ const nextConfig: NextConfig = {
         destination: "/clubs/reign-london",
         permanent: true,
       },
+      // Renamed venues (October 2026): the old club pages move to the new
+      // names' pages. Markdown renditions use the same URLs (content
+      // negotiation in src/proxy.ts runs after these redirects).
+      {
+        source: "/clubs/cuckoo-club",
+        destination: "/clubs/99-regent-street",
+        permanent: true,
+      },
+      {
+        source: "/clubs/tabu-london",
+        destination: "/clubs/rumour-london",
+        permanent: true,
+      },
       // Fix 1: Celebrity cannibalization
       {
         source: "/where-celebrities-party-in-london",

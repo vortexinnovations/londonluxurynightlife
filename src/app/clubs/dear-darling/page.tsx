@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description:
     "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/dear-darling",
+  },
 };
 
 export default function DearDarlingReview() {

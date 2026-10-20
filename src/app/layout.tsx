@@ -70,9 +70,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: SITE_URL,
-  },
+  // No canonical here: a layout's canonical is inherited by every page that
+  // does not set its own, which pointed the whole site at the home page. Each
+  // page sets `alternates.canonical` to its own URL (the home page in page.tsx).
 };
 
 export const viewport = {

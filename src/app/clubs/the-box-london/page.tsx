@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "The Box London Review | Soho's Most Daring Club",
   description:
     "An honest insider review of The Box in Soho. Discover what really happens inside London's most provocative nightclub, what to expect from the performances, and whether The Box lives up to its notorious reputation.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/the-box-london",
+  },
 };
 
 export default function TheBoxLondonPage() {

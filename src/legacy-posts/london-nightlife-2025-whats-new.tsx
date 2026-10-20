@@ -74,16 +74,17 @@ export default function LondonNightlife2025Page() {
         <h3>TABU London (now Rumour)</h3>
 
         <p>
-          <Link href="/clubs/tabu-london">TABU</Link>{" "}has quickly established
-          itself as one of Mayfair&apos;s most compelling new entries. Located
-          on Berkeley Street, it brings a modern sensibility to the
-          bottle-service model: the design is sleek and contemporary, the
-          music programming is more adventurous than the Mayfair standard, and
-          the crowd reflects a younger, fashion-conscious international
-          clientele. TABU fills a gap that existed between the established
-          institutions and the underground: it is unquestionably luxury, but
-          it does not feel like a venue trading on legacy alone. TABU now
-          trades as Rumour, open Wednesday to Saturday.
+          In 2025, TABU quickly established itself as one of Mayfair&apos;s
+          most compelling new entries. On Dover Street, it brought a modern
+          sensibility to the bottle-service model: the design was sleek and
+          contemporary, the music programming more adventurous than the
+          Mayfair standard, and the crowd a younger, fashion-conscious
+          international clientele. It filled a gap between the established
+          institutions and the underground. In October 2026 the same owners
+          relaunched it as{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>, a full rebrand with
+          a new design: one intimate red room of velvet booths with no photos
+          on the floor, open Wednesday to Saturday.
         </p>
 
         <h3>Luxx Club London (since closed)</h3>
@@ -159,9 +160,9 @@ export default function LondonNightlife2025Page() {
           in venues that previously played it rarely.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}incorporates house and
           disco elements into its programming, and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}(now 99 Regent
-          Street) leaned its upstairs space further into house and electronic
-          music. This
+          the Cuckoo Club (now{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>) leaned
+          its upstairs space further into house and electronic music. This
           reflects a broader cultural shift: house music&apos;s resurgence in
           mainstream culture has reached the point where even traditionally
           hip-hop venues are programming house-leaning sets on selected nights.

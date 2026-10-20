@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Selene London Review | Sophisticated Fitzrovia Elegance",
   description:
     "An insider review of Selene London. Discover why this sophisticated club just north of Oxford Circus is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/selene-london",
+  },
 };
 
 export default function SeleneLondonPage() {

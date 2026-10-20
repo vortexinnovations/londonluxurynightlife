@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description:
     "Honest Maddox Club review: Italian dinner at 3-5 Mill Street, Mayfair, then house music until 3am. Jacket preferred, tables from £1,000 as of October 2026.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/maddox",
+  },
 };
 
 export default function MaddoxPage() {

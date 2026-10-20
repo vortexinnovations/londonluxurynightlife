@@ -31,8 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const metadata = (await legacyPosts[slug]?.())?.metadata ?? {};
     // The original modules carry no dates: add the post's dates and category
     // from blog-data as article:* tags (read by the content API's editor).
+    // Every module sets its own canonical; the fallback keeps a post from
+    // ever having none now that the root layout sets no canonical.
     return {
       ...metadata,
+      alternates: metadata.alternates ?? { canonical: `${SITE_URL}/blog/${slug}` },
       openGraph: {
         ...metadata.openGraph,
         type: "article",

@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Luxx Club London Has Closed: Itzel and Mayfair Alternatives",
   description:
     "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/luxx-club-london",
+  },
 };
 
 export default function LuxxClubLondonPage() {

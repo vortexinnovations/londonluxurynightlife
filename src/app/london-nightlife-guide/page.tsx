@@ -99,6 +99,10 @@ export default function LondonNightlifeGuidePage() {
           (the most historic),{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}(the most
           elegant),{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly Tabu:
+          one red room, no photos on the floor),{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
+          (formerly Cuckoo Club: two floors, two sounds),{" "}
           and{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}(the best for dinner
           and dancing). Just north of Oxford Circus, in Fitzrovia and a short

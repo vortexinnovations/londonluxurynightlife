@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Libertine London Has Closed: Selene Now Operates in Its Place",
   description:
     "Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/libertine",
+  },
 };
 
 export default function LibertinePage() {

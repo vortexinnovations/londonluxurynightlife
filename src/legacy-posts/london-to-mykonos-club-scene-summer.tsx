@@ -131,7 +131,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
         <p>
           Tabu Mykonos carries the Japanese-inspired design language of the
           original TABU London in Mayfair (now{" "}
-          <Link href="/clubs/tabu-london">Rumour</Link>), adapted for the
+          <Link href="/clubs/rumour-london">Rumour</Link>), adapted for the
           island context. The outdoor terrace is the main draw, with low
           seating areas that feel more like a private villa party than a
           commercial club. The pacing of the night is entirely different: in
@@ -154,7 +154,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
           The overlap between the London and Mykonos clientele runs at roughly
           70 percent, from what our bookings team sees across several summers. The core
           regulars from{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly Cuckoo Club),{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly Cuckoo Club),{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}show up in Mykonos
           between late June and mid-August. They bring the same table-booking
@@ -269,7 +269,8 @@ export default function LondonToMykonosClubSceneSummerPage() {
 
         <ul>
           <li><Link href="/clubs/tape-london">Tape London: Full Club Profile</Link></li>
-          <li><Link href="/clubs/tabu-london">Rumour (formerly TABU London)</Link></li>
+          <li><Link href="/clubs/rumour-london">Rumour (formerly TABU London)</Link></li>
+          <li><Link href="/clubs/99-regent-street">99 Regent Street (formerly Cuckoo Club)</Link></li>
           <li><Link href="/blog/quiet-luxury-london-nightlife">Quiet Luxury in London Nightlife</Link></li>
         </ul>
       </ArticleLayout>

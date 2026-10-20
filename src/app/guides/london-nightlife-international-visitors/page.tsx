@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "Essential guide for international visitors to London's luxury nightlife. Covers transport, tipping, safety, where to stay, UK drinking culture, and which Mayfair clubs suit your style.",
   keywords:
     "London nightlife tourists, visiting London clubs, London nightlife guide visitors, first time London nightlife, London clubs international visitors",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/guides/london-nightlife-international-visitors",
+  },
 };
 
 const faqs = [

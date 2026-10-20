@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Funky Buddha London Has Closed: Itzel and Mayfair Alternatives",
   description:
     "Funky Buddha on Berkeley Street, Mayfair, has closed, and Itzel now operates at its address. What the club was, and the open Mayfair clubs to book instead.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/funky-buddha",
+  },
 };
 
 export default function FunkyBuddhaPage() {

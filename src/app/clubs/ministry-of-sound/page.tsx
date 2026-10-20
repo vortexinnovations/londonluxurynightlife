@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Ministry of Sound Review | What It's Really Like Inside",
   description:
     "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/ministry-of-sound",
+  },
 };
 
 export default function MinistryOfSoundReview() {

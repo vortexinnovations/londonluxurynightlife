@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description:
     "Honest review of The Scotch of St James, the 1960s Mason's Yard club where Hendrix played. Crowd, music, dress code, tables from £1,000 as of October 2026.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/scotch-of-st-james",
+  },
 };
 
 export default function ScotchOfStJamesReview() {

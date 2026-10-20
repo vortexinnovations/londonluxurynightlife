@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.",
   keywords:
     "corporate entertainment London nightclub, client entertainment London, corporate night out London, entertaining clients London club",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/guides/corporate-entertainment-london",
+  },
 };
 
 const faqs = [

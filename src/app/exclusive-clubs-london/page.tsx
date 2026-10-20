@@ -202,11 +202,22 @@ export default function ExclusiveClubsLondonPage() {
           minimum spends.
         </p>
 
+        <h3>#7: Rumour (formerly Tabu)</h3>
+
         <p>
-          Older names, updated:{" "}
-          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
-          (both booked under their new names), and{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}on Dover Street
+          builds its exclusivity into the room itself. One intimate room of
+          around 200, booths in deep red velvet and a no-photography rule on the
+          floor that the floor team enforces make it one of the most private
+          nights in Mayfair. The guestlist is for ladies only, so men and mixed
+          groups come in on a booth, from &pound;1,000 minimum spend, and the
+          room fills early by design. It presents itself as a members&apos;
+          club; we book booths and guestlist for non-members.
+        </p>
+
+        <p>
+          Older names, updated: Tabu now trades as Rumour (above), the Cuckoo
+          Club as 99 Regent Street (below), and{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
           Itzel now at its Berkeley Street address.
         </p>
@@ -214,6 +225,10 @@ export default function ExclusiveClubsLondonPage() {
         <h3>The Rest of the Field</h3>
 
         <p>
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
+          (formerly Cuckoo Club) runs a 19+ door with physical photo ID and an
+          elegant dress code that is enforced, across two floors off Swallow
+          Street.{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}combines dining and
           nightlife with a door that reflects its dual format: refined but
           accessible with a booking.{" "}

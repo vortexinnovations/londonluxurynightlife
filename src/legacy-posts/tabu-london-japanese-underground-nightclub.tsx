@@ -36,7 +36,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         title="TABU London (Now Rumour): Mayfair's Japanese-Inspired Club"
         subtitle="TABU London is now Rumour: our review of the venue as TABU"
         heroImage={BLOG_IMAGES["tabu-london-japanese-underground-nightclub"]}
-        heroAlt="TABU London Japanese-inspired underground nightclub interior"
+        heroAlt="Rumour (formerly Tabu): red velvet booths in the main room on Dover Street"
       >
 
         <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
@@ -50,7 +50,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
           conclude that you have visited them all. Dark rooms, bottle service,
           hip-hop, velvet ropes: the formula is profitable and most venues
           stick to it faithfully.{" "}
-          <Link href="/clubs/tabu-london">TABU London</Link>{" "}existed to
+          <Link href="/clubs/rumour-london">TABU London</Link>{" "}existed to
           challenge that assumption. Drawing on Japanese aesthetic traditions
            (minimalism, shadow play, deliberate restraint), TABU has created
           a nightlife experience that feels genuinely different from anything
@@ -148,7 +148,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
         <p>
           If TABU&apos;s moody, slow-building approach is not your speed,
           venues like{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club) or{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}offer more
           immediate energy. For international visitors building a London
@@ -164,7 +164,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
 
         <ul>
           <li>
-            <Link href="/clubs/tabu-london">
+            <Link href="/clubs/rumour-london">
               Rumour (formerly TABU London)
             </Link>
           </li>

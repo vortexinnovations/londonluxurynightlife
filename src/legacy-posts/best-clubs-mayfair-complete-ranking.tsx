@@ -103,13 +103,14 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">4. Rumour (formerly TABU London): The Dark Horse</h2>
 
         <p>
-          <Link href="/clubs/tabu-london">Rumour</Link>{" "}is the Mayfair club
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}is the Mayfair club
           that traded as TABU London, and it now opens Wednesday to Saturday
           under its new name. As TABU it built a devoted following through
           atmosphere rather than marketing, with a slow-building night that
-          stood apart from the typical Mayfair formula. The music policy and
-          table minimums may have changed with the rename, so we confirm
-          Rumour&apos;s current terms when you enquire.
+          stood apart from the typical Mayfair formula. Rumour is a full
+          rebrand on Dover Street: one intimate room of around 200 built around
+          red velvet booths, open-format music read to the room, no photos on
+          the floor, and booths from &pound;1,000 minimum spend.
         </p>
 
         <h2 className="no-num">5. Maddox Club: The Complete Evening</h2>
@@ -131,13 +132,14 @@ export default function BestClubsMayfairCompleteRankingPage() {
         <h2 className="no-num">6. 99 Regent Street (formerly Cuckoo Club): The Reliable All-Rounder</h2>
 
         <p>
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}is the
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}is the
           Swallow Street venue that traded as Cuckoo Club, open Wednesday to
           Saturday. As Cuckoo Club it offered two different nights under one
           roof, with house and hip-hop on separate floors, and a consistency
           that made it one of Mayfair&apos;s safest choices for groups who
-          cannot agree on a genre. Ask us for the current music policy under
-          the new name.
+          cannot agree on a genre. 99 keeps the two floors, with hip-hop and
+          RnB upstairs and house downstairs, adds a 19+ door, and starts tables
+          from &pound;600 minimum spend.
         </p>
 
         <h2 className="no-num">7. Selene London: The Refined Newcomer</h2>

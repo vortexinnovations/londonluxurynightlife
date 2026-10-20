@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Reign London Review | What It's Really Like Inside",
   description:
     "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/reign-london",
+  },
 };
 
 export default function ReignLondonPage() {

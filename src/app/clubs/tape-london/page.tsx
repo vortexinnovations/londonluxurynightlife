@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Tape London Review | What It's Really Like Inside",
   description:
     "An honest Tape London review from nightlife insiders. Discover what the Tape London experience is really like, what is Tape London like inside, and whether this exclusive Mayfair members' club lives up to the hype.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/tape-london",
+  },
 };
 
 export default function TapeLondonPage() {

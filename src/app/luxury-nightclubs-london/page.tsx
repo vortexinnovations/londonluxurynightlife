@@ -173,6 +173,17 @@ export default function LuxuryNightclubsLondonPage() {
           sophistication and a party in the same evening.
         </p>
 
+        <h3>Rumour (formerly Tabu): Privacy by Design</h3>
+
+        <p>
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}on Dover Street
+          treats privacy as the luxury. One intimate room of around 200 is
+          built around booths in deep red velvet, under dark panelling and a
+          chandelier, and no photos or video are allowed on the floor. The
+          music is open format, read to the room, and booths start from
+          &pound;1,000 minimum spend, covering entry for the whole group.
+        </p>
+
         <h3>Maddox Club: Dining Luxury</h3>
 
         <p>
@@ -212,6 +223,18 @@ export default function LuxuryNightclubsLondonPage() {
           feel like an event.
         </p>
 
+        <h3>99 Regent Street (formerly Cuckoo Club): Two Floors, One Address</h3>
+
+        <p>
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}reunites
+          the Cuckoo founders on the Swallow Street floors with a new concept:
+          open-format hip-hop and RnB in the upstairs main room, house
+          downstairs, dark panelling, banquettes and a long bar. The door is
+          19+ with physical photo ID and the dress code is enforced, and
+          tables from &pound;600 minimum spend make it one of the gentler first
+          tables in Mayfair.
+        </p>
+
         <h3>Selene London: The New Generation</h3>
 
         <p>
@@ -235,10 +258,8 @@ export default function LuxuryNightclubsLondonPage() {
         </p>
 
         <p>
-          Older names, updated:{" "}
-          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
-          (both booked under their new names), and{" "}
+          Older names, updated: Tabu now trades as Rumour and the Cuckoo Club
+          as 99 Regent Street (both above), and{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
           Itzel now at its Berkeley Street address.
         </p>

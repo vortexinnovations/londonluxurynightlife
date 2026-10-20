@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description:
     "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/cirque-le-soir",
+  },
 };
 
 export default function CirqueLeSoirPage() {

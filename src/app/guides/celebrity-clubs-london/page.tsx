@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.",
   keywords:
     "celebrity club etiquette London, VVIP section London clubs, celebrity nightlife etiquette, how VIP sections work London",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/guides/celebrity-clubs-london",
+  },
 };
 
 export default function CelebrityClubsPage() {

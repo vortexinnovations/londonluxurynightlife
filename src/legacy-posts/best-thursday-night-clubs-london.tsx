@@ -113,22 +113,21 @@ export default function BestThursdayNightClubsLondonPage() {
 
         <h3>Rumour (formerly TABU London)</h3>
         <p>
-          <Link href="/clubs/tabu-london">Rumour</Link>, the Mayfair club that
+          <Link href="/clubs/rumour-london">Rumour</Link>, the Mayfair club that
           traded as TABU London, opens Wednesday to Saturday, so Thursday is
-          one of its nights. As TABU, its dark, atmospheric room suited
-          Thursday&apos;s more intimate energy. The music policy and table
-          minimums may have changed with the new name, so we confirm
-          Rumour&apos;s current terms when you enquire.
+          one of its nights. Thursday is one of Rumour&apos;s more relaxed
+          nights and among the easiest for its ladies&apos; guestlist: one
+          intimate red room of velvet booths, open-format music and no photos
+          on the floor, with booths from &pound;1,000 minimum spend.
         </p>
 
         <h3>99 Regent Street (formerly Cuckoo Club)</h3>
         <p>
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>, the Swallow
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>, the Swallow
           Street venue that traded as Cuckoo Club, opens Wednesday to
-          Saturday. As Cuckoo Club it ran two floors with different music on
-          each, which gave groups options within a single venue on a night
-          when they might not want to commit to one genre. Ask us for the
-          current music policy under the new name.
+          Saturday. On a Thursday one of its two floors opens, so the night
+          runs in a single room; tables start from &pound;600 minimum spend
+          and the door is 19+ with physical photo ID.
         </p>
 
         <h3>Scotch of St James</h3>
@@ -255,12 +254,12 @@ export default function BestThursdayNightClubsLondonPage() {
             </Link>
           </li>
           <li>
-            <Link href="/clubs/tabu-london">
+            <Link href="/clubs/rumour-london">
               Rumour (formerly TABU London)
             </Link>
           </li>
           <li>
-            <Link href="/clubs/cuckoo-club">
+            <Link href="/clubs/99-regent-street">
               99 Regent Street (formerly Cuckoo Club)
             </Link>
           </li>

@@ -88,18 +88,20 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club), open Wednesday to Saturday, is a strong choice at this
-          size. The two-floor layout gives your group room to spread out
-          without leaving the venue; ask us for the current music policy
-          under the new name.
+          size. On Friday and Saturday both floors run, hip-hop and RnB
+          upstairs and house downstairs, which gives your group room to spread
+          out without leaving the venue. Tables start from &pound;600 minimum
+          spend, and larger tables are arranged on request.
         </p>
 
         <p>
-          <Link href="/clubs/tabu-london">Rumour</Link>{" "}(formerly TABU
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly TABU
           London) is another Mayfair option at this size, open Wednesday to
-          Saturday; we confirm its current table layout and minimums when you
-          enquire.
+          Saturday: one intimate room built around red velvet booths, from
+          &pound;1,000 minimum spend with entry included for the whole group.
+          We confirm the booth layout for a group your size when you enquire.
         </p>
 
         <div className="info-box">
@@ -303,7 +305,7 @@ export default function BestClubsLondonLargeGroupsPage() {
 
         <p>
           The two floors at{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club), Ministry of Sound&apos;s multiple rooms, and The London
           Reign&apos;s mix of entertainment and club energy all serve this
           purpose. The worst choice for a diverse group is a single-room venue

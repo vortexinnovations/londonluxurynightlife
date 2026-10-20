@@ -85,6 +85,57 @@ export function ArticleSchema({
   );
 }
 
+/**
+ * A club page's venue as a schema.org NightClub. `alternateName` carries a
+ * former name (a renamed club), so searches for the old name meet the venue.
+ */
+export function NightClubSchema({
+  name,
+  alternateName,
+  slug,
+  description,
+  image,
+  streetAddress,
+  postalCode,
+  openingHours,
+}: {
+  name: string;
+  alternateName?: string;
+  /** The page path, e.g. "/clubs/99-regent-street". */
+  slug: string;
+  description: string;
+  image?: string;
+  streetAddress: string;
+  postalCode: string;
+  /** schema.org openingHours, e.g. "We-Sa 23:00-04:00". */
+  openingHours: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "NightClub",
+    name,
+    ...(alternateName ? { alternateName } : {}),
+    description,
+    url: `${SITE_URL}${slug}`,
+    ...(image ? { image: image.startsWith("/") ? `${SITE_URL}${image}` : image } : {}),
+    address: {
+      "@type": "PostalAddress",
+      streetAddress,
+      addressLocality: "London",
+      postalCode,
+      addressCountry: "GB",
+    },
+    openingHours,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",

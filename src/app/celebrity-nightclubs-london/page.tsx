@@ -110,10 +110,13 @@ export default function CelebrityNightclubsLondonPage() {
         </p>
 
         <p>
-          Older names, updated:{" "}
-          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>,{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>{" "}
-          (both booked under their new names), and{" "}
+          Older names, updated: Tabu now trades as{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>, one intimate red room
+          on Dover Street with no photos or video allowed on the floor, and the
+          Cuckoo Club as{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>, two
+          floors off Swallow Street with a 19+ door; both open Wednesday to
+          Saturday.{" "}
           <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, with
           Itzel now at its Berkeley Street address.
         </p>

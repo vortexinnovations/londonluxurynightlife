@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "How to plan a seamless dinner and club night in London. The best restaurants near Mayfair clubs, perfect timing, dress codes that work for both, and recommended dinner-to-nightclub combinations.",
   keywords:
     "dinner and club London, luxury evening London, dinner before clubbing Mayfair, full night out London plan",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/guides/dinner-and-nightclub-london",
+  },
 };
 
 const faqs = [

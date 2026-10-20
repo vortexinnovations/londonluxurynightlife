@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Lio Club London Has Closed: Dinner and Club Alternatives",
   description:
     "Lio Club London in Mayfair has closed. What the dinner, show and club concept was, and the open London venues to book for a similar night.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/lio-club-london",
+  },
 };
 
 export default function LioClubLondonPage() {

@@ -167,9 +167,13 @@ export default function BestFridayNightClubsLondonPage() {
           a full club night without changing location. Its opulent setting
           serves world-class cocktails before the late-night energy takes
           over.{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
-          Cuckoo Club, open Wednesday to Saturday) has two floors on Swallow
-          Street; ask us for its current music policy.
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
+          Cuckoo Club, open Wednesday to Saturday) runs both of its floors on
+          a Friday, hip-hop and RnB upstairs and house downstairs, with tables
+          from &pound;600.{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly Tabu), one
+          intimate red room on Dover Street, fills out on a Friday and is worth
+          arranging in advance.
         </p>
 
         <h2>Friday Night Timing Strategy</h2>

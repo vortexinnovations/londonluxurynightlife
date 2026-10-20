@@ -131,7 +131,13 @@ export default function SaturdayNightMayfairGuidePage() {
           crowd knows the last half-hour changes character: the music
           intensifies for a final push, the lights stay low, and there is a
           collective awareness that the evening is reaching its conclusion.
-          Smart guests begin thinking about transport by 2:30am.
+          Smart guests begin thinking about transport by 2:30am. Two clubs run
+          an hour later, to 4am:{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
+          (formerly Cuckoo Club), which opens both of its floors on a
+          Saturday, and{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly Tabu),
+          which fills early and is worth arranging in advance.
         </p>
 
         <h2>Booking: The Non-Negotiable</h2>
@@ -165,8 +171,9 @@ export default function SaturdayNightMayfairGuidePage() {
         <p>
           One of Mayfair&apos;s great advantages is its density. Nearly every
           significant club is within a ten-minute walk of the others. Tape
-          London on Hanover Square, Maddox on Maddox Street, Itzel on
-          Berkeley Street: you can cover the entire
+          London on Hanover Square, Maddox on Maddox Street, Rumour on Dover
+          Street, 99 Regent Street off Swallow Street, Itzel on Berkeley
+          Street: you can cover the entire
           district on foot. This makes Mayfair uniquely suited to an evening
           where you start at one venue and move to another. No taxis, no surge
           pricing, no waiting. Just a short walk through some of London&apos;s

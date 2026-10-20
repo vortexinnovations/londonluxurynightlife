@@ -5,6 +5,8 @@ import { WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER } from "@/li
 
 interface ArticleLayoutProps {
   title: string;
+  /** A renamed venue's former name, shown as a "Formerly ..." line under the H1. */
+  previousName?: string;
   subtitle?: string;
   heroImage?: string;
   heroAlt?: string;
@@ -27,6 +29,7 @@ function Headline({ text }: { text: string }) {
 
 export default function ArticleLayout({
   title,
+  previousName,
   subtitle,
   heroImage,
   heroAlt,
@@ -43,6 +46,11 @@ export default function ArticleLayout({
           <h1 className="font-serif text-[clamp(2.5rem,6vw,4.25rem)] font-normal text-cream leading-[1.05] tracking-[-0.01em] mb-6">
             <Headline text={title} />
           </h1>
+          {previousName && (
+            <p className="font-sans text-[11px] font-medium uppercase tracking-[0.35em] text-gold mb-6">
+              Formerly {previousName}
+            </p>
+          )}
           {subtitle && (
             <p className="font-prose italic text-xl text-warm-gray max-w-2xl mx-auto leading-relaxed">
               {subtitle}

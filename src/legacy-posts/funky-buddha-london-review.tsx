@@ -129,7 +129,7 @@ export default function FunkyBuddhaLondonReviewPage() {
           everyone present has made an effort and wants to be there, which
           creates a self-reinforcing cycle of quality. This is the same
           principle that makes{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club) and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
           consistently strong on their best nights.

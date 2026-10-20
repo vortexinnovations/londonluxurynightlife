@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Luna Club London Has Closed: Mayfair Alternatives",
   description:
     "Luna Club London in Mayfair has closed. What the club was, and the open Mayfair and West End clubs with the same hip-hop, RnB and stylish crowd.",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/clubs/luna-club-london",
+  },
 };
 
 export default function LunaClubLondonPage() {

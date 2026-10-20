@@ -132,7 +132,7 @@ export default function AnniversaryNightOutLondonPlanningPage() {
           anniversary. Most Mayfair clubs will accommodate requests for
           particular table positions - corners for privacy, slightly elevated
           spots for better views of the room.{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club) has a split-level layout that creates natural pockets
           of intimacy even on busy nights.
         </p>

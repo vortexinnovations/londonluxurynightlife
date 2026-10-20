@@ -170,14 +170,31 @@ export default function BestHipHopClubsLondonPage() {
           essential.
         </p>
 
-        <h3>Renamed and Closed: TABU, Cuckoo Club and Funky Buddha</h3>
+        <h3>5. Rumour (formerly Tabu): One Red Room</h3>
 
         <p>
-          Three names from older versions of this list have changed.{" "}
-          <Link href="/clubs/tabu-london">TABU London is now Rumour</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club is now 99 Regent Street</Link>;
-          both are booked under their new names, with current music, nights and
-          minimums confirmed when you book.{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>, the Dover Street club
+          that traded as Tabu before its October 2026 rebrand, plays open
+          format: hip-hop and RnB alongside house, read to the room on the
+          night. It is one intimate room of around 200, built around red velvet
+          booths, with no photos or video allowed on the floor. Booths start
+          from &pound;1,000 minimum spend, and the guestlist is for ladies.
+        </p>
+
+        <h3>6. 99 Regent Street (formerly Cuckoo Club): Hip-Hop Upstairs</h3>
+
+        <p>
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}gives
+          hip-hop its main room: open-format hip-hop and RnB upstairs, where
+          most of the tables sit, with house on the floor below on Friday and
+          Saturday. The door is 19+ with physical photo ID and an enforced dress
+          code, and tables start from &pound;600 minimum spend, one of the
+          lower first tables in Mayfair.
+        </p>
+
+        <h3>Closed: Funky Buddha</h3>
+
+        <p>
           <Link href="/clubs/funky-buddha">Funky Buddha has closed</Link>, and
           Itzel now operates at its Berkeley Street address.
         </p>
@@ -219,19 +236,25 @@ export default function BestHipHopClubsLondonPage() {
           <ul>
             <li>
               <strong>Wednesday:</strong>{" "}Cirque Le Soir opens on Monday and
-              Wednesday, the strongest midweek hip-hop option.
+              Wednesday, the strongest midweek hip-hop option.{" "}
+              <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}and{" "}
+              <Link href="/clubs/rumour-london">Rumour</Link>{" "}both open from
+              Wednesday, with one floor running at 99 midweek.
             </li>
             <li>
               <strong>Thursday:</strong>{" "}Selene opens from Thursday,
-              for those who prefer a slightly more relaxed atmosphere.
+              for those who prefer a slightly more relaxed atmosphere. Rumour
+              is at its most relaxed midweek, and easiest for guestlist entry.
             </li>
             <li>
               <strong>Friday:</strong>{" "}The peak night across all venues. Tape,
-              Cirque Le Soir and BEAT all deliver their strongest programming.
+              Cirque Le Soir and BEAT all deliver their strongest programming,
+              and both floors open at 99 Regent Street.
             </li>
             <li>
               <strong>Saturday:</strong>{" "}Every venue fires. Cirque Le Soir adds
-              the entertainment dimension. Tape at its most exclusive.
+              the entertainment dimension. Tape at its most exclusive. Rumour
+              fills early, so arrange it in advance.
             </li>
           </ul>
         </div>

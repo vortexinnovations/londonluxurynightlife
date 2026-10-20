@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "Every club, every dress code, every unwritten rule. The only London nightlife guide you need: from Mayfair geography to bottle service mechanics.",
   keywords:
     "London nightlife guide, guide to clubbing in London, London clubs guide for tourists, best nightlife London, Mayfair clubs, luxury nightlife London",
+  alternates: {
+    canonical: "https://londonluxurynightlife.com/guides/complete-guide-london-luxury-nightlife",
+  },
 };
 
 const faqs = [
@@ -131,6 +134,10 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           with late-night house music;{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>, draped in
           chandeliers and velvet;{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly Tabu) on
+          Dover Street, one intimate red room with no photos on the floor;{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
+          (formerly Cuckoo Club), two floors off Swallow Street;{" "}
           and{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>, one
           of the most historically significant nightclubs in the world. The fact
@@ -304,9 +311,11 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           follows them, Tape plays the best in hip-hop, RnB, and commercial
           music in one of Mayfair&apos;s most exclusive settings.{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}also runs hip-hop
-          and RnB in a more refined room just north of Oxford Circus. TABU is now{" "}
-          <Link href="/clubs/tabu-london">Rumour</Link>, booked under its new
-          name.
+          and RnB in a more refined room just north of Oxford Circus.{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}gives
+          open-format hip-hop and RnB its upstairs main room, and{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}mixes them with
+          house in one red room on Dover Street.
         </p>
 
         <h3>House Music &amp; Electronic</h3>
@@ -316,9 +325,10 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           mature crowd. For pure electronic music heritage,{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           remains unmatched: its Box room is one of the finest purpose-built
-          dance music spaces in the world. Cuckoo Club is now{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>, booked under
-          its new name.
+          dance music spaces in the world. Downstairs at{" "}
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}is a
+          house floor, darker and more dance-focused than the hip-hop room
+          above; both floors run on Friday and Saturday.
         </p>
 
         <h3>Entertainment &amp; Showclubs</h3>

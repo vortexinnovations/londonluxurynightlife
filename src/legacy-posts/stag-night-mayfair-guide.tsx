@@ -87,7 +87,7 @@ export default function StagNightMayfairGuidePage() {
         <p>
           For a more classic luxury experience,{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly
           Cuckoo Club, open Wednesday to Saturday) both handle groups well.
           Maddox has the advantage of a ground-floor bar that works for earlier
           drinks before moving downstairs. 99 Regent Street&apos;s two-floor

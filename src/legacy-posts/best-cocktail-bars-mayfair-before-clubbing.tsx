@@ -142,7 +142,7 @@ export default function BestCocktailBarsMayfairPage() {
           house-made ingredients, and combinations you will not find
           elsewhere. Cocktails from &pound;16. Located between Soho and
           Mayfair, it works well as a pre-club stop before heading to{" "}
-          <Link href="/clubs/cuckoo-club">99 Regent Street</Link>{" "}(formerly Cuckoo Club) or the Soho
+          <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}(formerly Cuckoo Club) or the Soho
           venues. Best for groups who take cocktails seriously.
         </p>
 

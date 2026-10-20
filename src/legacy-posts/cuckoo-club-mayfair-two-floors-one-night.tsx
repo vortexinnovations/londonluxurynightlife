@@ -36,7 +36,7 @@ export default function CuckooClubMayfairPage() {
         title="Cuckoo Club Mayfair (Now 99 Regent Street): Two Floors, One Night"
         subtitle="Cuckoo Club is now 99 Regent Street: our review of the Swallow Street venue as Cuckoo Club"
         heroImage={BLOG_IMAGES["cuckoo-club-mayfair-two-floors-one-night"]}
-        heroAlt="Cuckoo Club Mayfair dual-floor nightclub on Swallow Street"
+        heroAlt="99 Regent Street (formerly Cuckoo Club): the staircase between the two floors"
       >
 
         <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
@@ -50,7 +50,7 @@ export default function CuckooClubMayfairPage() {
           Half want hip-hop. Half want house. Someone suggests a compromise
           venue that satisfies nobody. The night starts with tension and ends
           with regret.{" "}
-          <Link href="/clubs/cuckoo-club">Cuckoo Club</Link>{" "}on Swallow
+          <Link href="/clubs/99-regent-street">Cuckoo Club</Link>{" "}on Swallow
           Street existed to eliminate this problem entirely. Two floors, two
           genres, one venue. House music downstairs, hip-hop upstairs. Your
           group migrates freely between them all night. Problem solved.
@@ -146,7 +146,7 @@ export default function CuckooClubMayfairPage() {
 
         <p>
           If you want something with more edge, consider{" "}
-          <Link href="/clubs/tabu-london">Rumour</Link>{" "}(formerly TABU) or{" "}
+          <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly TABU) or{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}for a newer
           refined experience.{" "}
           <Link href="/contact">Contact our team</Link>{" "}for bookings and
@@ -157,7 +157,7 @@ export default function CuckooClubMayfairPage() {
 
         <ul>
           <li>
-            <Link href="/clubs/cuckoo-club">
+            <Link href="/clubs/99-regent-street">
               99 Regent Street (formerly Cuckoo Club)
             </Link>
           </li>
