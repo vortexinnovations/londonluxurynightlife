@@ -360,7 +360,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           Not every great night in London requires a dancefloor.{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is an opulent
-          Mayfair bar that transitions from world-class cocktails early in the
+          St James&apos;s bar that transitions from world-class cocktails early in the
           evening to a late-night party atmosphere as the hours progress. It is
           perfect for groups who want elegance and energy without committing to
           a full nightclub environment.

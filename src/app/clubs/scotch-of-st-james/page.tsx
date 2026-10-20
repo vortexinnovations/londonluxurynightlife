@@ -106,7 +106,7 @@ export default function ScotchOfStJamesReview() {
 
         <h2>Who It&apos;s Best For</h2>
         <p>
-          Scotch of St James is ideal for those who want a Mayfair night out without the Mayfair cliches. If you find most West End clubs formulaic and interchangeable, Scotch offers a genuine alternative. It suits groups who value atmosphere over spectacle, music over volume, and character over flash. Couples will find the intimacy appealing. Music industry visitors will feel at home. International guests looking for something authentically London rather than generically luxury will be richly rewarded.
+          Scotch of St James is ideal for those who want a West End night out without the Mayfair cliches. If you find most West End clubs formulaic and interchangeable, Scotch offers a genuine alternative. It suits groups who value atmosphere over spectacle, music over volume, and character over flash. Couples will find the intimacy appealing. Music industry visitors will feel at home. International guests looking for something authentically London rather than generically luxury will be richly rewarded.
         </p>
         <p>
           It is less suited to large groups seeking a high-energy, high-volume party environment or anyone whose primary motivation is being photographed. Scotch is a club for people who are there because they want to be, not because they need others to know they were.
@@ -114,7 +114,7 @@ export default function ScotchOfStJamesReview() {
 
         <h2>Is Scotch of St James Worth It?</h2>
         <p>
-          Without question. In a city saturated with nightlife options that blur into one another, Scotch of St James occupies a category of its own. It is one of the very few London clubs where you can feel the weight of genuine history in the walls while dancing to a DJ who is playing for the joy of it. The minimum spends are reasonable, the atmosphere is magnetic, and the crowd is the kind of company that makes a night memorable. If you only visit one Mayfair club during your time in London, there is a strong argument that Scotch should be the one.
+          Without question. In a city saturated with nightlife options that blur into one another, Scotch of St James occupies a category of its own. It is one of the very few London clubs where you can feel the weight of genuine history in the walls while dancing to a DJ who is playing for the joy of it. The minimum spends are reasonable, the atmosphere is magnetic, and the crowd is the kind of company that makes a night memorable. If you only visit one West End club during your time in London, there is a strong argument that Scotch should be the one.
         </p>
         <p>
           For a different experience nearby, explore <Link href="/clubs/selene-london">Selene</Link>, a refined room just north of Oxford Circus, or <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}if you want cocktail-forward elegance. Those drawn to Scotch&apos;s music-first philosophy will also appreciate <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia or the legendary <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}in South London.

@@ -167,7 +167,7 @@ export default function LuxuryNightclubsLondonPage() {
 
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is the most
-          beautiful room in Mayfair. Chandeliers, velvet, and a cocktail
+          beautiful room in St James&apos;s. Chandeliers, velvet, and a cocktail
           programme that rivals any dedicated bar in London. The seamless
           transition from refined cocktail evening to late-night energy
           makes Dear Darling the venue of choice for anyone who wants

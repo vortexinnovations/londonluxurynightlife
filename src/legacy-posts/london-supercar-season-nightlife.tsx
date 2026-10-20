@@ -149,8 +149,8 @@ export default function LondonSupercarSeasonNightlifePage() {
           Mayfair night as a given rather than an occasion. The spend rises, as
           the high-minimum tables that can feel ambitious in February become the
           baseline in August. And the rooms run later and fuller, carried by a
-          crowd on holiday time with nowhere to be in the morning. From
-          experience, the difference between a Mayfair Saturday in spring and one
+          crowd on holiday time with nowhere to be in the morning. The
+          difference between a Mayfair Saturday in spring and one
           at the height of the season is not the venue, it is the wallet and the
           stamina of the room.
         </p>

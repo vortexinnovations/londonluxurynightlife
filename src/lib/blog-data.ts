@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
     title: "London After Dark: The Best Venues Open Past 3AM",
     metaTitle: "London Clubs Open Late | Best Venues Past 3AM Guide 2025",
     metaDescription: "Where to go when London's clubs close. The best late-night venues, after-parties, and spots open past 3AM for those who aren't ready for the night to end.",
-    excerpt: "When most of Mayfair closes its doors at 3AM, the night doesn't have to end. Here's where London's real after-hours scene lives.",
+    excerpt: "When Mayfair closes its doors, the night doesn't have to end. Here's where London's real after-hours scene lives.",
     category: "Guide",
     publishDate: "2026-03-10",
     modifiedDate: "2026-03-25",

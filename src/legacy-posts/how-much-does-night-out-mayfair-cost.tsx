@@ -233,7 +233,7 @@ export default function HowMuchDoesNightOutMayfairCostPage() {
             and start enjoying. Groups regularly spend &pound;5,000 to &pound;10,000+
             on a table at venues like{" "}
             <Link href="/clubs/tape-london">Tape London</Link>{" "}or{" "}
-            <Link href="/clubs/the-london-reign">The London Reign</Link>.
+            <Link href="/clubs/reign-london">The London Reign</Link>.
           </p>
         </div>
 

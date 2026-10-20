@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -32,7 +31,7 @@ const faqs = [
     question:
       "What is the best nightclub in London for a couple's date night?",
     answer:
-      "Dear Darling in Mayfair is the top recommendation for couples. Its cocktail-forward elegance, intimate lighting, and seamless transition from refined drinks to late-night energy make it the ideal date night venue. Maddox is the best alternative if you want dinner and clubbing under one roof.",
+      "Dear Darling in St James's is the top recommendation for couples. Its cocktail-forward elegance, intimate lighting, and seamless transition from refined drinks to late-night energy make it the ideal date night venue. Maddox is the best alternative if you want dinner and clubbing under one roof.",
   },
   {
     question: "Do London clubs allow couples without a large group?",
@@ -158,7 +157,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
         <p>
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}occupies
           the top position because it was effectively designed for the kind
-          of evening couples want. The Mayfair venue combines a
+          of evening couples want. The St James&apos;s venue combines a
           world-class cocktail programme with an intimate room that
           transitions seamlessly from refined early-evening elegance to
           late-night energy. The lighting is flattering without being dim
@@ -336,17 +335,7 @@ export default function RomanticNightlifeLondonCouplesPage() {
           minimums for couples on quieter nights. A cocktail bar followed
           by guestlist entry rather than a table booking can bring the
           club portion down to &pound;100 to &pound;200 for the
-          evening. For table bookings and the best couple-friendly
-          packages,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          can arrange preferential rates at every venue on this list.
+          evening.
         </p>
 
         <h2>The Cocktail Bar vs Club Decision</h2>
@@ -418,22 +407,6 @@ export default function RomanticNightlifeLondonCouplesPage() {
             our planning guide
           </Link>{" "}
           walks through every detail from reservation to last drink.
-        </p>
-
-        <p>
-          For couples visiting London specifically and wanting to combine
-          nightlife with the broader experience,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          provides real-time updates on what is happening at every venue
-          on any given evening: invaluable for choosing the right night
-          for your plans.
         </p>
 
         <p className="pull-quote">

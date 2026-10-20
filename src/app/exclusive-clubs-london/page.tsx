@@ -181,7 +181,7 @@ export default function ExclusiveClubsLondonPage() {
         <h3>#5: Dear Darling</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}in Mayfair has
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}in St James&apos;s has
           quickly established one of the more discerning doors in the area.
           The cocktail-forward format attracts a crowd that values
           sophistication, and the door policy reflects that preference. Groups

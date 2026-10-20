@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title:
     "Saturday Night in Mayfair: A Local's Guide",
   description:
-    "The insider playbook for Mayfair's biggest night out. From cocktails at 8pm to closing time at 3am: timing, venues, bookings, and the mistakes to avoid.",
+    "The insider playbook for Mayfair's biggest night out. From cocktails at 8pm to closing time: timing, venues, bookings, and the mistakes to avoid.",
   keywords:
     "Saturday night Mayfair, Saturday night out London, Mayfair Saturday clubs, weekend nightlife Mayfair London",
   openGraph: {
     title: "Saturday Night in Mayfair: A Local's Guide to the Perfect Evening",
     description:
-      "The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time at 3am.",
+      "The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time.",
     url: "https://londonluxurynightlife.com/blog/saturday-night-mayfair-guide",
     type: "article",
   },
@@ -34,7 +34,7 @@ export default function SaturdayNightMayfairGuidePage() {
       />
       <ArticleLayout
         title="Saturday Night in Mayfair: A Local's Guide to the Perfect Evening"
-        subtitle="The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time at 3am"
+        subtitle="The insider playbook for Mayfair's biggest night, from cocktails at 8pm to closing time"
         heroImage={BLOG_IMAGES["saturday-night-mayfair-guide"]}
         heroAlt="Busy Saturday night atmosphere inside a Mayfair club"
       >
@@ -127,12 +127,13 @@ export default function SaturdayNightMayfairGuidePage() {
         <h3>2:30 to 3:00am: The Wind-Down</h3>
 
         <p>
-          Most Mayfair clubs close at 3am, some at 3:30am. The experienced
+          Closing times vary: Tape&apos;s main room closes at 3:45am, as does
+          Cirque le Soir in nearby Soho. The experienced
           crowd knows the last half-hour changes character: the music
           intensifies for a final push, the lights stay low, and there is a
           collective awareness that the evening is reaching its conclusion.
           Smart guests begin thinking about transport by 2:30am. Two clubs run
-          an hour later, to 4am:{" "}
+          later still, to 4am:{" "}
           <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
           (formerly Cuckoo Club), which opens both of its floors on a
           Saturday, and{" "}

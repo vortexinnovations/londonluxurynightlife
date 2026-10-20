@@ -158,7 +158,7 @@ export default function BestHouseMusicClubsLondonPage() {
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}is not
           primarily a house music venue, but its late-night programming
           increasingly incorporates the genre, and the result is one of
-          Mayfair&apos;s most elegant house experiences. The cocktail bar
+          the West End&apos;s most elegant house experiences. The cocktail bar
           aesthetic (chandeliers, velvet, impeccable drinks) creates a
           context for house music that feels distinctly European, closer to
           a Parisian club than a London one. When the transition happens,

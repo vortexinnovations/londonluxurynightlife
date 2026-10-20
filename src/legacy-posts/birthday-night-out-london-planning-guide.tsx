@@ -113,7 +113,7 @@ export default function BirthdayNightOutLondonGuidePage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}combines
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}combines
           spectacle with space. The aerial performers and live entertainment
           create natural talking points for a group where not everyone knows
           each other, and the venue handles larger parties well. For groups of

@@ -106,7 +106,7 @@ export default function NinetyNineRegentStreetPage() {
             drinks and covering entry for the whole group
           </p>
           <p>
-            <strong>Guestlist:</strong> By request, mixed groups welcome. Entry from
+            <strong>Guestlist:</strong>{" "}By request, mixed groups welcome. Entry from
             free to about &pound;50, depending on the night and arrival time.
           </p>
         </div>

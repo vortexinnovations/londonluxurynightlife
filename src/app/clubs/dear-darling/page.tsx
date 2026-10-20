@@ -56,7 +56,7 @@ export default function DearDarlingReview() {
         <p>
           <strong>In short:</strong>{" "}Dear Darling, the venue most people search
           for as Dear Darling Mayfair, is a chandeliered cocktail bar at 91
-          Jermyn Street, St James&apos;s, on the southern edge of Mayfair, that
+          Jermyn Street, St James&apos;s, just south of Mayfair, that
           turns into a late-night club as the evening builds. It is one of the
           most beautiful rooms in the West End and our pick for a dressed-up
           night that starts with cocktails rather than a dance floor. This
@@ -102,10 +102,10 @@ export default function DearDarlingReview() {
 
         <h2>What Makes It Unique</h2>
         <p>
-          Dear Darling fills a specific gap in the Mayfair landscape: the venue for people who love going out but have grown tired of nightclubs. It offers all the energy, social electricity, and late-night momentum of a club night within the framework of a world-class cocktail bar. The result is an experience that feels mature without being boring, lively without being chaotic. For anyone who has ever left a beautiful restaurant wishing they could keep the evening going without stepping into a thumping, impersonal nightclub, Dear Darling is the answer.
+          Dear Darling fills a specific gap in the West End landscape: the venue for people who love going out but have grown tired of nightclubs. It offers all the energy, social electricity, and late-night momentum of a club night within the framework of a world-class cocktail bar. The result is an experience that feels mature without being boring, lively without being chaotic. For anyone who has ever left a beautiful restaurant wishing they could keep the evening going without stepping into a thumping, impersonal nightclub, Dear Darling is the answer.
         </p>
         <p>
-          The table experience reinforces this philosophy. Minimum spends are present but proportionate. Service is attentive and warm, with staff who treat guests as regulars-in-waiting rather than walking credit cards. The booths themselves are among the most comfortable in Mayfair, designed for lingering rather than perching.
+          The table experience reinforces this philosophy. Minimum spends are present but proportionate. Service is attentive and warm, with staff who treat guests as regulars-in-waiting rather than walking credit cards. The booths themselves are among the most comfortable in the West End, designed for lingering rather than perching.
         </p>
 
         <h2>Who It&apos;s Best For</h2>

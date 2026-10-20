@@ -131,7 +131,7 @@ export default function BottleServiceLondonExplainedPage() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>, bottle
           deliveries are a performance: sparklers, LED displays, music cues.
           At{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>, the
+          <Link href="/clubs/reign-london">The London Reign</Link>, the
           multi-floor format means your table experience varies depending on
           which level you book. Each venue adds its own signature to the basic
           package.

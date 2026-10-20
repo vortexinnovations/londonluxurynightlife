@@ -97,7 +97,7 @@ export default function StagNightMayfairGuidePage() {
         <p>
           If the groom is into his music,{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          has the best sound in Mayfair for hip-hop and R&amp;B, and its intimate
+          has the best sound in St James&apos;s and Mayfair for hip-hop and R&amp;B, and its intimate
           size means the group stays together. For something that feels genuinely
           exclusive,{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}

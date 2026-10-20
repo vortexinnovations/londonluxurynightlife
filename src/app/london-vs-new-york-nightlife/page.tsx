@@ -9,7 +9,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: fitTitle("London vs New York Nightlife 2026: Costs and Closing Times"),
   description:
-    "London tables run £1,000 to £1,500 and most clubs close by 3am; New York closes at 4am. Clubs, costs, door policies, music and culture compared.",
+    "London tables run £1,000 to £1,500 and most clubs close between 3am and 4am; New York closes at 4am. Clubs, costs, door policies, music and culture compared.",
   keywords:
     "london vs new york nightlife, london nightlife compared to nyc, new york vs london clubs, nyc london clubs comparison, london new york nightlife, best nightlife london or new york",
   openGraph: {
@@ -62,7 +62,7 @@ export default function LondonVsNewYorkNightlifePage() {
 
         <p>
           London&apos;s premium nightlife is remarkably concentrated.
-          Mayfair alone contains{" "}
+          Mayfair and neighbouring St James&apos;s contain{" "}
           <Link href="/clubs/tape-london">Tape London</Link>,{" "}
           <Link href="/clubs/dear-darling">Dear Darling</Link>,{" "}
           <Link href="/clubs/maddox">Maddox</Link>, and{" "}

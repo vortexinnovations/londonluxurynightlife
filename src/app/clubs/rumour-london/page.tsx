@@ -87,7 +87,7 @@ export default function RumourLondonPage() {
             entry for the whole group
           </p>
           <p>
-            <strong>Guestlist:</strong> Ladies, free to &pound;20 on the door
+            <strong>Guestlist:</strong>{" "}Ladies, free to &pound;20 on the door
             depending on the night and how busy it is
           </p>
           <p>

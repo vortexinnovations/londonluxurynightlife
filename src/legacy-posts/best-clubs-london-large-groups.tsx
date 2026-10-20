@@ -125,7 +125,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}is
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}is
           purpose-built for this scale. The venue&apos;s generous floor plan,
           semi-private areas, and experience with large party bookings make it
           one of the most reliable choices in central London for groups in this
@@ -173,7 +173,7 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}can
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}can
           accommodate groups in the thirty-to-fifty range with advance
           coordination. Their events team can configure sections of the venue
           for a semi-private experience, which gives you the energy of a public
