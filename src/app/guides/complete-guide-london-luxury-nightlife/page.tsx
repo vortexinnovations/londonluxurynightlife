@@ -6,7 +6,7 @@ import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
-const TITLE = "London Luxury Nightlife: The Complete 2026 Guide";
+const TITLE = "Luxury Nightlife in London: 2026 Guide to High-End Clubs";
 const DESCRIPTION =
   "Every club, every dress code, every unwritten rule. The only London nightlife guide you need: from Mayfair geography to bottle service mechanics.";
 

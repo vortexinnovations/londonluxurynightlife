@@ -15,7 +15,7 @@ const images = CLUB_IMAGES["rumour-london"];
 const PATH = "/clubs/rumour-london";
 const TITLE = `${club.name} (formerly ${club.previousName}): Review, Booths and Guestlist`;
 const DESCRIPTION =
-  "Rumour (formerly Tabu) reviewed: one intimate red room of velvet booths at 1 Dover Street, Mayfair, with no photos on the floor. Booths from £1,000, a ladies' guestlist, open Wednesday to Saturday.";
+  "Rumour (formerly Tabu), 1 Dover Street, Mayfair: one red velvet room, open Wednesday to Saturday, no photos. Booths from £1,000 and a ladies' guestlist.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

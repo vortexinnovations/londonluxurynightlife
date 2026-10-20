@@ -7,9 +7,9 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: fitTitle("London vs Dubai Nightlife: An Honest Comparison for 2026"),
+  title: fitTitle("London vs Dubai Nightlife 2026: Costs, Hours and Ramadan"),
   description:
-    "London and Dubai both claim world-class nightlife, but they deliver it in fundamentally different ways. A genuine comparison of clubs, costs, culture, and which city suits which visitor.",
+    "Dubai tables run AED 5,000 to 15,000 against London's £1,000 to £1,500. Clubs, costs, licensing hours, Ramadan and culture: which city suits which visitor.",
   keywords:
     "london vs dubai nightlife, london nightlife compared to dubai, dubai vs london clubs, london dubai clubs comparison, dubai nightlife vs london, best nightlife london or dubai",
   openGraph: {

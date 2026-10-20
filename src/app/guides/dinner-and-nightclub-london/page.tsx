@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const TITLE = "Dinner and Nightclub London | Plan a Full Luxury Evening";
 const DESCRIPTION =
-  "How to plan a seamless dinner and club night in London. The best restaurants near Mayfair clubs, perfect timing, dress codes that work for both, and recommended dinner-to-nightclub combinations.";
+  "Book dinner for 8pm to 8:30pm, then reach the club between 11pm and midnight. The best restaurants near Mayfair clubs and dinner-to-nightclub pairings.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

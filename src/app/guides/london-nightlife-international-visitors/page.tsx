@@ -6,9 +6,9 @@ import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
-const TITLE = "London Nightlife for International Visitors | First-Timer's Guide";
+const TITLE = "London Nightlife for Tourists and International Visitors";
 const DESCRIPTION =
-  "Essential guide for international visitors to London's luxury nightlife. Covers transport, tipping, safety, where to stay, UK drinking culture, and which Mayfair clubs suit your style.";
+  "Most London clubs close between 3am and 4am and the city is nearly cashless. A visitor's guide to transport, tipping, hotels and which clubs suit you.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

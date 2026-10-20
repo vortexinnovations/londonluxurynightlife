@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "beat-london")!;
 
 const TITLE = "BEAT London Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.";
+  "BEAT London, 48 Margaret Street, Fitzrovia: open Friday, Saturday and select Thursdays, tables from £1,000. The sound system, the crowd and the dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

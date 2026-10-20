@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const TITLE = "Corporate Entertainment London Nightclub | Client Nights";
 const DESCRIPTION =
-  "The professional's guide to corporate entertainment in London's luxury nightlife venues. How to host impressive client evenings, which clubs to choose, budgeting, booking, and logistics for business entertaining.";
+  "Standard VIP tables for 6 to 10 guests run £1,000 to £2,000 minimum spend. How to host client nights at London clubs: venues, budgets, timing and booking.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

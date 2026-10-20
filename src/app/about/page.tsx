@@ -6,9 +6,9 @@ import Link from "next/link";
 import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: fitTitle("About London Luxury Nightlife | Our Editorial Team"),
+  title: fitTitle("About Our Editorial Team"),
   description:
-    "Who we are, how we review, and why we built the most trusted luxury nightlife guide in London. Independent editorial, no pay-to-play, every venue visited in person.",
+    "Who we are, how we review and why we built this luxury nightlife guide to London: independent editorial, no pay-to-play, every venue visited in person.",
   openGraph: {
     title: "About London Luxury Nightlife | Our Editorial Team",
     description:

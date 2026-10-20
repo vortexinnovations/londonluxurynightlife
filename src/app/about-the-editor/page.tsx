@@ -6,7 +6,7 @@ import { SITE_OPEN_GRAPH, fitTitle } from "@/lib/metadata";
 export const metadata: Metadata = {
   title: fitTitle("About the Editor: Isabella Marsh"),
   description:
-    "Meet Isabella Marsh, Luxury Lifestyle Editor. She covers London's high-end nightlife: members' clubs, celebrity-spotted venues, and the season's most exclusive parties.",
+    "Isabella Marsh, Luxury Lifestyle Editor, covers London's high-end nightlife: members' clubs, celebrity-spotted venues and the social season's parties.",
   openGraph: {
     title: "About the Editor: Isabella Marsh | London Luxury Nightlife",
     description:

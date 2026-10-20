@@ -8,9 +8,9 @@ import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "the-box-london")!;
 
-const TITLE = "The Box London Review | Soho's Most Daring Club";
+const TITLE = "The Box London Review: Soho Shows, Dress Code and Tables";
 const DESCRIPTION =
-  "An honest insider review of The Box in Soho. Discover what really happens inside London's most provocative nightclub, what to expect from the performances, and whether The Box lives up to its notorious reputation.";
+  "The Box, Walker's Court, Soho: open Wednesday to Saturday, tables from £1,000. What happens inside, the performances, the crowd and the dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

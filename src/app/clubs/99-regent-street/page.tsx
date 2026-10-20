@@ -17,7 +17,7 @@ const [entrance, staircase, bar, downstairs] = images.inline;
 const PATH = "/clubs/99-regent-street";
 const TITLE = `${club.name} (formerly ${club.previousName}): Review and Tables`;
 const DESCRIPTION =
-  "99 Regent Street (formerly Cuckoo Club) reviewed: two floors off Swallow Street, hip-hop and RnB upstairs, house downstairs, a 19+ door and tables from £600. Open Wednesday to Saturday.";
+  "99 Regent Street (formerly Cuckoo Club), Swallow Street: hip-hop and RnB upstairs, house downstairs, 19+, tables from £600, Wednesday to Saturday.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

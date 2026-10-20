@@ -7,9 +7,9 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: fitTitle("London vs New York Nightlife: Two Great Cities Compared for 2026"),
+  title: fitTitle("London vs New York Nightlife 2026: Costs and Closing Times"),
   description:
-    "London and New York are the world's two great nightlife capitals. An honest comparison of clubs, costs, door policies, music, and culture: from someone who knows both.",
+    "London tables run £1,000 to £1,500 and most clubs close by 3am; New York closes at 4am. Clubs, costs, door policies, music and culture compared.",
   keywords:
     "london vs new york nightlife, london nightlife compared to nyc, new york vs london clubs, nyc london clubs comparison, london new york nightlife, best nightlife london or new york",
   openGraph: {

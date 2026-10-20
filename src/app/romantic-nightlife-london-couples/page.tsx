@@ -7,9 +7,9 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: fitTitle("Romantic Nightlife London: The Couples Guide to an Unforgettable Evening"),
+  title: fitTitle("Romantic Nightlife London: Date Night Clubs for Couples"),
   description:
-    "The insider's guide to romantic nightlife in London for couples. Best clubs for date nights, dinner-to-club transitions, what to wear, and how to plan the perfect evening together.",
+    "A dinner-to-club evening for two in Mayfair runs £700 to £1,300. The best London clubs for couples, the timing, what to wear and how to plan the night.",
   keywords:
     "romantic nightlife london, best clubs for couples london, couples night out london, romantic evening london clubs, date night london nightlife, romantic clubs london, couples date night Mayfair",
   openGraph: {

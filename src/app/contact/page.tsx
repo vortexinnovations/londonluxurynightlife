@@ -13,9 +13,9 @@ import {
 import { GUIDE_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: fitTitle("Plan Your Night | London Luxury Nightlife Concierge"),
+  title: fitTitle("Nightlife Concierge London: Book Tables and Guestlists"),
   description:
-    "Our personalised nightlife concierge service handles everything, from choosing the perfect venue to securing VIP tables. Tell us what kind of night you're looking for and we'll handle the rest.",
+    "A free, discreet nightlife concierge for London: send your date and group size and we find the club, secure the table or add you to the guestlist.",
   openGraph: {
     title: "Plan Your Night | London Luxury Nightlife Concierge",
     description:

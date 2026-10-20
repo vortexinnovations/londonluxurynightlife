@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "reign-london")!;
 
 const TITLE = "Reign London Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.";
+  "Reign London on Piccadilly: open Tuesday, Thursday, Friday and Saturday, tables from £1,000. The aerial acts, live shows, crowd and dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

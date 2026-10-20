@@ -12,7 +12,7 @@ import { SITE_OPEN_GRAPH, fitTitle } from "@/lib/metadata";
 export const metadata: Metadata = {
   title: fitTitle("London Nightlife Blog | Insider Tips, Guides & Club Reviews"),
   description:
-    "Expert articles on London's luxury nightlife scene. Insider tips on Mayfair clubs, bottle service costs, dress codes, birthday planning, and everything you need for a world-class night out.",
+    "Articles on London's luxury nightlife: Mayfair club tips, bottle service costs, dress codes, birthday planning and everything for a night out in London.",
   keywords: [
     "London nightlife blog",
     "Mayfair club guide",

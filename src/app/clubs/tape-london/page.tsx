@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "tape-london")!;
 
 const TITLE = "Tape London Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "An honest Tape London review from nightlife insiders. Discover what the Tape London experience is really like, what is Tape London like inside, and whether this exclusive Mayfair members' club lives up to the hype.";
+  "Tape London review: the members' club at 17 Hanover Square, Mayfair, tables from £1,500. What it is like inside, who goes and the no-trainers dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

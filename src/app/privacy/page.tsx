@@ -7,7 +7,7 @@ import { SITE_OPEN_GRAPH, fitTitle } from "@/lib/metadata";
 export const metadata: Metadata = {
   title: fitTitle("Privacy Policy"),
   description:
-    "How London Luxury Nightlife handles your data: what we collect (very little), how WhatsApp enquiries are used to arrange bookings, and your rights under UK GDPR.",
+    "How London Luxury Nightlife handles your data: no tracking cookies, WhatsApp enquiries used only to arrange bookings, and your rights under UK GDPR.",
   openGraph: {
     title: "Privacy Policy | London Luxury Nightlife",
     description:

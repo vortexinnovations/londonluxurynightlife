@@ -13,7 +13,7 @@ const club = clubs.find((c) => c.slug === "ministry-of-sound")!;
 
 const TITLE = "Ministry of Sound Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.";
+  "Ministry of Sound, Elephant and Castle: open Friday and Saturday, tables from £1,000. The superclub's sound system, rooms, crowd and late nights.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

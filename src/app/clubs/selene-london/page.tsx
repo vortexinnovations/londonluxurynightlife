@@ -8,9 +8,9 @@ import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "selene-london")!;
 
-const TITLE = "Selene London Review | Sophisticated Fitzrovia Elegance";
+const TITLE = "Selene Club London Review: Fitzrovia, Tables and Bowling";
 const DESCRIPTION =
-  "An insider review of Selene London. Discover why this sophisticated club just north of Oxford Circus is the refined choice for discerning nightlife guests, what sets it apart from flashier venues, and whether its elegant approach delivers.";
+  "Selene London, 4 Winsley Street, Fitzrovia: open Thursday to Sunday, tables from £1,000 and private bowling lanes. The room, crowd and dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

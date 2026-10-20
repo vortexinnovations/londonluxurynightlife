@@ -6,9 +6,9 @@ import { SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
-const TITLE = "Celebrity Club Etiquette in London | How VIP Sections Really Work";
+const TITLE = "Celebrity Club Etiquette in London: How VIP Sections Work";
 const DESCRIPTION =
-  "The unwritten rules of London's celebrity nightlife. How VVIP sections work, what to do when a celebrity is at the next table, the phone policy, and how to behave in high-profile company.";
+  "Tape London and Cirque Le Soir draw the most celebrities in London. How VVIP sections work, the phone rules and how to behave near a famous table.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

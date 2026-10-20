@@ -7,9 +7,9 @@ import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: fitTitle("London vs Paris Nightlife: Two European Capitals Compared for 2026"),
+  title: fitTitle("London vs Paris Nightlife 2026: Costs, Music and Hours"),
   description:
-    "London and Paris are Europe's two nightlife heavyweights, but they deliver very different evenings. An honest comparison of clubs, music, costs, culture, and closing times.",
+    "Paris clubs run to 5am or 6am; London's close between 3am and 4am. Table minimums, music, costs and culture in Europe's two nightlife capitals compared.",
   keywords:
     "london vs paris nightlife, london nightlife compared to paris, paris vs london clubs, paris london clubs comparison, london paris nightlife, best nightlife london or paris",
   openGraph: {

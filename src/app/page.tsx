@@ -8,10 +8,9 @@ import Reveal from "@/components/Reveal";
 import { HOME_IMAGES, SECTION_IMAGES } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title:
-    "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
+  title: { absolute: "London Luxury Nightlife: Exclusive Clubs and VIP Tables" },
   description:
-    "The definitive insider's guide to luxury nightlife in London. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, celebrity hotspots, dress codes, and everything you need for an unforgettable VIP night out in London.",
+    "Mayfair's most exclusive clubs reviewed, from Tape London to Rumour, with VIP table booking, dress codes, celebrity hotspots and a free concierge.",
   keywords: [
     "luxury nightlife London",
     "VIP night out London",
