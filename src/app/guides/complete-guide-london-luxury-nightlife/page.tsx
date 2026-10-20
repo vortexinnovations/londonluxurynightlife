@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
     "London nightlife guide, guide to clubbing in London, London clubs guide for tourists, best nightlife London, Mayfair clubs, luxury nightlife London",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/complete-guide-london-luxury-nightlife",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/guides/complete-guide-london-luxury-nightlife",
   },
 };
 

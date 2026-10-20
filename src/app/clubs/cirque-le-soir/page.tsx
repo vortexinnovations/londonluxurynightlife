@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "cirque-le-soir")!;
 
@@ -15,6 +16,10 @@ export const metadata: Metadata = {
     "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/cirque-le-soir",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/cirque-le-soir",
   },
 };
 

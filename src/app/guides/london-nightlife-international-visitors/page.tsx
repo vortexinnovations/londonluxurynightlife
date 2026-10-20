@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
     "London nightlife tourists, visiting London clubs, London nightlife guide visitors, first time London nightlife, London clubs international visitors",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/london-nightlife-international-visitors",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/guides/london-nightlife-international-visitors",
   },
 };
 

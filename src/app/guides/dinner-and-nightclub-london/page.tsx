@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
     "dinner and club London, luxury evening London, dinner before clubbing Mayfair, full night out London plan",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/dinner-and-nightclub-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/guides/dinner-and-nightclub-london",
   },
 };
 

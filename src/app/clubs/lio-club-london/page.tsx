@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "lio-club-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "Lio Club London in Mayfair has closed. What the dinner, show and club concept was, and the open London venues to book for a similar night.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/lio-club-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/lio-club-london",
   },
 };
 

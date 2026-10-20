@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "libertine")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "Libertine on Winsley Street, Fitzrovia, has closed, and Selene London now operates in its place. What Libertine was, and the open clubs nearby to book instead.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/libertine",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/libertine",
   },
 };
 

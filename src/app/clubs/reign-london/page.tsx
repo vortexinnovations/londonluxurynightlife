@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "reign-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "An honest Reign London review from nightlife insiders. Discover what the Reign London experience is really like, what Reign London club is like inside, and why this Piccadilly showclub is one of the West End's most extraordinary nights out.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/reign-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/reign-london",
   },
 };
 

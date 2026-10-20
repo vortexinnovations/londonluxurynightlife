@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "tape-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "An honest Tape London review from nightlife insiders. Discover what the Tape London experience is really like, what is Tape London like inside, and whether this exclusive Mayfair members' club lives up to the hype.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/tape-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/tape-london",
   },
 };
 

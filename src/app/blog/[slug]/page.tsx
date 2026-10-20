@@ -27,17 +27,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = await getMergedPostBySlug(slug);
   if (!post) return {};
+  const url = `${SITE_URL}/blog/${slug}`;
   if (post.source !== "db") {
     const metadata = (await legacyPosts[slug]?.())?.metadata ?? {};
     // The original modules carry no dates: add the post's dates and category
     // from blog-data as article:* tags (read by the content API's editor).
-    // Every module sets its own canonical; the fallback keeps a post from
-    // ever having none now that the root layout sets no canonical.
+    // Every module sets its own canonical and og:url; the fallbacks keep a
+    // post from ever having none now that the root layout sets neither.
     return {
       ...metadata,
-      alternates: metadata.alternates ?? { canonical: `${SITE_URL}/blog/${slug}` },
+      alternates: metadata.alternates ?? { canonical: url },
       openGraph: {
         ...metadata.openGraph,
+        url: metadata.openGraph?.url ?? url,
         type: "article",
         publishedTime: post.publishDate,
         modifiedTime: post.modifiedDate,
@@ -45,7 +47,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     };
   }
-  const url = `${SITE_URL}/blog/${slug}`;
   const image = postImage(post);
   return {
     title: post.metaTitle,

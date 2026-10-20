@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "funky-buddha")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "Funky Buddha on Berkeley Street, Mayfair, has closed, and Itzel now operates at its address. What the club was, and the open Mayfair clubs to book instead.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/funky-buddha",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/funky-buddha",
   },
 };
 

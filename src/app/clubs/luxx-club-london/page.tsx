@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luxx-club-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/luxx-club-london",
   },
 };
 

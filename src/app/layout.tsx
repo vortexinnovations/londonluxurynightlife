@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { LocalBusinessSchema, WebSiteSchema, SiteNavigationSchema } from "@/components/SchemaMarkup";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -44,21 +45,10 @@ export const metadata: Metadata = {
     "high end clubs London",
     "celebrity clubs London",
   ],
-  openGraph: {
-    type: "website",
-    locale: "en_GB",
-    url: SITE_URL,
-    siteName: SITE_NAME,
-    title: "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
-    description:
-      "The definitive guide to London's luxury nightlife. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
-    images: [
-      {
-        url: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
-        alt: "Luxury nightclub interior in Mayfair, London",
-      },
-    ],
-  },
+  // No og:url here, for the same reason as the canonical below: each page sets
+  // `openGraph.url` to its own URL (pages without Open Graph fields of their
+  // own spread SITE_OPEN_GRAPH and add it).
+  openGraph: SITE_OPEN_GRAPH,
   twitter: {
     card: "summary_large_image",
     title: "London Luxury Nightlife | The Insider's Guide",

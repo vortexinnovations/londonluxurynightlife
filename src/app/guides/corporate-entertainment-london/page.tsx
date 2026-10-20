@@ -3,6 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
 import { WA_CORPORATE_MESSAGE } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "corporate entertainment London nightclub, client entertainment London, corporate night out London, entertaining clients London club",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/corporate-entertainment-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/guides/corporate-entertainment-london",
   },
 };
 

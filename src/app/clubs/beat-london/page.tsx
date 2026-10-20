@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "beat-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "An honest BEAT London review from London nightlife insiders. Discover what the BEAT London experience is really like, from the sound system to the crowd. What is BEAT London like? Our full breakdown.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/beat-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/beat-london",
   },
 };
 

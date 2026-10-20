@@ -2,6 +2,7 @@ import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
     "celebrity club etiquette London, VVIP section London clubs, celebrity nightlife etiquette, how VIP sections work London",
   alternates: {
     canonical: "https://londonluxurynightlife.com/guides/celebrity-clubs-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/guides/celebrity-clubs-london",
   },
 };
 

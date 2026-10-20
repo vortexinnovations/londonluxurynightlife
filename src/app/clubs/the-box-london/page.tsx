@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "the-box-london")!;
 
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "An honest insider review of The Box in Soho. Discover what really happens inside London's most provocative nightclub, what to expect from the performances, and whether The Box lives up to its notorious reputation.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/the-box-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/the-box-london",
   },
 };
 

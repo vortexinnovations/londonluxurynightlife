@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, closedClubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = closedClubs.find((c) => c.slug === "luna-club-london")!;
 
@@ -15,6 +16,10 @@ export const metadata: Metadata = {
     "Luna Club London in Mayfair has closed. What the club was, and the open Mayfair and West End clubs with the same hip-hop, RnB and stylish crowd.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/luna-club-london",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/luna-club-london",
   },
 };
 

@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "maddox")!;
 
@@ -15,6 +16,10 @@ export const metadata: Metadata = {
     "Honest Maddox Club review: Italian dinner at 3-5 Mill Street, Mayfair, then house music until 3am. Jacket preferred, tables from £1,000 as of October 2026.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/maddox",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/maddox",
   },
 };
 

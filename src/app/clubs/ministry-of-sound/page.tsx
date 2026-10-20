@@ -4,6 +4,7 @@ import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs } from "@/lib/constants";
 import Link from "next/link";
 import { CLUB_IMAGES } from "@/lib/images";
+import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
 const club = clubs.find((c) => c.slug === "ministry-of-sound")!;
 
@@ -16,6 +17,10 @@ export const metadata: Metadata = {
     "An honest Ministry of Sound review from London nightlife insiders: the Elephant and Castle superclub's sound system, rooms, crowd and late nights, and how to plan a visit.",
   alternates: {
     canonical: "https://londonluxurynightlife.com/clubs/ministry-of-sound",
+  },
+  openGraph: {
+    ...SITE_OPEN_GRAPH,
+    url: "https://londonluxurynightlife.com/clubs/ministry-of-sound",
   },
 };
 
