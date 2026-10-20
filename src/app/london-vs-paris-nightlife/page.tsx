@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -364,17 +363,7 @@ export default function LondonVsParisNightlifePage() {
           at premium venues. Our concierge team works with every club
           in Mayfair and Soho:{" "}
           <Link href="/contact">contact us</Link>{" "}with your dates and
-          preferences and we will handle the details. For direct table
-          reservations,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          provides instant access to all premium venues.
+          preferences and we will handle the details.
         </p>
 
         <h2>Related Reading</h2>

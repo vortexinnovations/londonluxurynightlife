@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { waClubMessage } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -119,17 +118,7 @@ export default function HowToGetIntoTapeLondonPage() {
           left. It also means your host knows your arrival time, your group
           size, and any specific requirements.{" "}
           <Link href="/contact">Our concierge team</Link>{" "}books Tape
-          regularly and can secure the right table for your evening. For
-          direct table reservations,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          handles bookings across all premium venues.
+          regularly and can secure the right table for your evening.
         </p>
 
         <h3>2. Guestlist: The Conditional Route</h3>
@@ -282,17 +271,7 @@ export default function HowToGetIntoTapeLondonPage() {
             in-depth Tape article
           </Link>{" "}
           and{" "}
-          <Link href="/clubs/tape-london">venue profile</Link>. For
-          direct bookings across all London venues,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          handles reservations.
+          <Link href="/clubs/tape-london">venue profile</Link>.
         </p>
 
         <h2>Related Reading</h2>

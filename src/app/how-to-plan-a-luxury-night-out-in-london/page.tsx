@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -295,16 +294,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
 
         <p>
           For all club bookings, use{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          for direct table reservations, or{" "}
-          <Link href="/contact">our concierge team</Link>{" "}to coordinate the
+          <Link href="/contact">our concierge team</Link>{" "}to book the table or to coordinate the
           entire evening: restaurant, club, and transport.
         </p>
 
@@ -452,26 +442,7 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         </p>
 
         <p>
-          For self-service club bookings,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          provides direct table reservations across every premium venue. For
-          tonight&apos;s events and availability, check{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>
-          . And for the full landscape of London&apos;s luxury nightlife, our{" "}
+          For the full landscape of London&apos;s luxury nightlife, our{" "}
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>{" "}

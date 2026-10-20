@@ -1,7 +1,6 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import Link from "next/link";
 import { GUIDE_IMAGES } from "@/lib/images";
 
@@ -92,34 +91,6 @@ export default function AboutPage() {
           <Link href="/contact">WhatsApp concierge</Link>
         </li>
       </ul>
-
-      <h2>Our Network</h2>
-
-      <p>
-        London Luxury Nightlife is the editorial arm of a specialist
-        nightlife network. For direct table bookings and bottle service,{" "}
-        <a
-          href={ECOSYSTEM.bottleService.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gold hover:text-gold/80"
-        >
-          London Bottle Service
-        </a>{" "}
-        handles reservations across all venues. For tonight&apos;s events
-        and live listings,{" "}
-        <a
-          href={ECOSYSTEM.mayfairTonight.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gold hover:text-gold/80"
-        >
-          Mayfair Tonight
-        </a>{" "}
-        tracks what&apos;s happening in real time. Each site serves a
-        distinct purpose: this one provides the editorial depth and
-        independent guidance that booking sites cannot.
-      </p>
 
       <h2>Editorial Independence</h2>
 

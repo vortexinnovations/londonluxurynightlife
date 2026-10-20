@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -117,16 +116,8 @@ export default function BestHouseMusicClubsLondonPage() {
           Minimum spends at Maddox are reasonable by Mayfair standards,
           particularly when the dinner element is factored in. The total
           evening cost is often lower than a separate restaurant and club
-          combination. See{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          for current table pricing.
+          combination. For current table pricing,{" "}
+          <Link href="/contact">contact our concierge team</Link>.
         </p>
 
         <h3>BEAT London: Where Sound Quality Defines Everything</h3>
@@ -177,16 +168,8 @@ export default function BestHouseMusicClubsLondonPage() {
           policy and the music industry crowd create an atmosphere where DJs
           can take risks, play deeper and more challenging sets, and rely on
           an audience that is listening rather than performing for social
-          media. Check with our concierge team or{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          to find Tape&apos;s house music nights.
+          media. Check with our{" "}
+          <Link href="/contact">concierge team</Link>{" "}to find Tape&apos;s house music nights.
         </p>
 
         <p className="pull-quote">
@@ -254,15 +237,6 @@ export default function BestHouseMusicClubsLondonPage() {
 
         <p>
           For table bookings at any of these venues,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          provides direct reservations, or{" "}
           <Link href="/contact">contact our concierge team</Link>{" "}for
           personalised recommendations based on your group and preferences.
         </p>

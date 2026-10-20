@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -54,7 +53,7 @@ const faqs = [
   {
     question: "Should I book VIP through the club directly or through a promoter?",
     answer:
-      "Booking through an experienced promoter or concierge service typically gets you better table positions, more accurate expectations about the night, and someone advocating for your group at the door. Direct bookings work but you may receive a less desirable table location. Services like London Bottle Service work with venues directly to secure the best available positions.",
+      "Booking through an experienced promoter or concierge service typically gets you better table positions, more accurate expectations about the night, and someone advocating for your group at the door. Direct bookings work but you may receive a less desirable table location. Our concierge team works with venues directly to secure the best available positions.",
   },
 ];
 
@@ -228,16 +227,7 @@ export default function VIPNightlifeLondonPage() {
             <li>
               <strong>Book through a concierge or promoter:</strong>{" "}Better
               table positions, managed expectations, and someone in your
-              corner at the venue. For direct table reservations,{" "}
-              <a
-                href={ECOSYSTEM.bottleService.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gold hover:text-gold/80"
-              >
-                London Bottle Service
-              </a>{" "}
-              secures the best available positions across all top venues.
+              corner at the venue.
             </li>
             <li>
               <strong>Confirm your group size accurately:</strong>{" "}Table
@@ -286,16 +276,7 @@ export default function VIPNightlifeLondonPage() {
           <Link href="/exclusive-clubs-london">
             exclusive clubs ranking
           </Link>{" "}
-          provide the full picture. And for tonight&apos;s events,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          has the latest schedules.
+          provide the full picture.
         </p>
 
         <h2>Frequently Asked Questions</h2>

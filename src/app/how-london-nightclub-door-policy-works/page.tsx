@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -190,15 +189,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           small (two to four is the sweet spot), dress one tier above the
           minimum standard, arrive before midnight, and ideally have a table
           booking. A table booking through{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          largely neutralises the group composition concern because the
+          <Link href="/contact">our concierge team</Link>{" "}largely neutralises the group composition concern because the
           venue has already committed your table and factored your group
           into the evening&apos;s balance.
         </p>
@@ -330,17 +321,7 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>{" "}
-          ranks every premium venue. And for tonight&apos;s events and
-          listings,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          has the current schedule.
+          ranks every premium venue.
         </p>
 
         <h2>Frequently Asked Questions</h2>

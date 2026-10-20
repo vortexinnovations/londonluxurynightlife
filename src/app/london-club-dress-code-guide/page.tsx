@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -272,26 +271,8 @@ export default function LondonClubDressCodeGuidePage() {
 
         <p>
           For table bookings at any venue on this list, book through{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          and mention any dress code concerns: the team can confirm current
-          standards for your specific night. For event schedules and themed
-          nights that may have different dress requirements, check{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>
-          .
+          <Link href="/contact">our concierge team</Link>{" "}and mention any dress code concerns: the
+          team can confirm current standards for your specific night.
         </p>
 
         <h2>Frequently Asked Questions</h2>

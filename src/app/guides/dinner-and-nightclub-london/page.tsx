@@ -176,7 +176,7 @@ export default function DinnerAndNightclubPage() {
         <p>
           If{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}or{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}is
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}is
           your destination, Soho is where you should eat. The neighbourhood
           is dense with excellent restaurants spanning every cuisine, and the
           walk to either venue takes minutes. The energy of Soho on a

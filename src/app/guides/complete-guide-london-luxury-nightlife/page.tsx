@@ -170,7 +170,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           performers, fire breathers, and a celebrity clientele that has made it
           one of the most photographed venues in the city. The West End also
           hosts{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}on
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}on
           Piccadilly, an extravagant showclub where the entertainment is as much
           a draw as the party.
         </p>
@@ -351,7 +351,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}fuses
           nightclub energy with live circus performance in a way that no other
           city has replicated.{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}on
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}on
           Piccadilly brings aerial acts and cabaret into a lavish showclub
           setting.
         </p>

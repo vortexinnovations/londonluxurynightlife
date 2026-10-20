@@ -113,7 +113,7 @@ export default function NewYearsEveLondonGuidePage() {
         <h3>Strong Alternatives</h3>
 
         <p>
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}offers
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}offers
           sheer spectacle with aerial performers and live entertainment that
           gives the evening a sense of occasion. It also handles larger groups
           well, which is valuable on a night when party sizes tend to swell.{" "}

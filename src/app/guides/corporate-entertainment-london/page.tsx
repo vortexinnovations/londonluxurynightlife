@@ -166,7 +166,7 @@ export default function CorporateEntertainmentPage() {
             <strong>Venues to avoid for conservative clients:</strong>{" "}
             <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>&apos;s
             circus performances and{" "}
-            <Link href="/clubs/the-london-reign">
+            <Link href="/clubs/reign-london">
               The London Reign
             </Link>&apos;s
             cabaret-style shows, while spectacular, can feel too wild for a

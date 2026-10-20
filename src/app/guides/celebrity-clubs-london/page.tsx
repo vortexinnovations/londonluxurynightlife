@@ -131,7 +131,7 @@ export default function CelebrityClubsPage() {
             value authenticity over flashiness.
           </li>
           <li>
-            <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}
+            <Link href="/clubs/reign-london">The London Reign</Link>{" "}
             attracts celebrities who want spectacle: its Piccadilly
             location and extravagant shows draw a crowd that includes
             reality television stars, social media personalities, and

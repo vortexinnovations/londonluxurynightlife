@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -336,17 +335,7 @@ export default function LondonVsNewYorkNightlifePage() {
           concierge team:{" "}
           <Link href="/contact">contact us</Link>{" "}with your dates,
           group size, and musical preferences, and we will recommend
-          the right venue and handle the booking. For self-service
-          reservations,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          offers direct access to tables at every premium venue.
+          the right venue and handle the booking.
         </p>
 
         <h2>Related Reading</h2>

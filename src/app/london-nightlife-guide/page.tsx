@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -113,16 +112,7 @@ export default function LondonNightlifeGuidePage() {
           <Link href="/luxury-nightclubs-london">
             luxury nightclubs guide
           </Link>{" "}
-          ranks every venue. For what&apos;s on tonight,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          tracks all current events.
+          ranks every venue.
         </p>
 
         <h3>Soho: The Creative Scene</h3>
@@ -177,15 +167,7 @@ export default function LondonNightlifeGuidePage() {
             bottle service guide
           </Link>{" "}
           explains the system in detail. For bookings across all venues,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          handles reservations directly.
+          <Link href="/contact">contact our concierge team</Link>.
         </p>
 
         <h3>Dress Code</h3>
@@ -260,30 +242,10 @@ export default function LondonNightlifeGuidePage() {
           abroad.
         </p>
 
-        <h2>The London Nightlife Ecosystem</h2>
+        <h2>Planning Your Night</h2>
 
         <p>
-          This guide is part of a network of specialist London nightlife
-          resources. For table bookings and bottle service pricing,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          provides direct reservations. For tonight&apos;s events and
-          what&apos;s on in Mayfair,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          tracks current listings. And for everything else:{" "}
+          For table bookings, bottle service pricing and everything else,{" "}
           <Link href="/contact">contact our concierge team</Link>{" "}and
           we will plan your night from start to finish.
         </p>

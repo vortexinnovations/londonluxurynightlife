@@ -323,7 +323,7 @@ export default function LondonNightlifeInternationalVisitors() {
           London has long been a summer destination for visitors from the Gulf,
           and the club scene reflects this.{" "}
           <Link href="/clubs/tape-london">Tape London</Link>{" "}and{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}are
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}are
           popular with Gulf visitors for their premium table service, opulent
           interiors, and strong hip-hop programming. Table booking is strongly
           recommended, especially during the July-August peak season when

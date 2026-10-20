@@ -42,10 +42,6 @@ const ORGANIZATION = {
     addressRegion: "Greater London",
     addressCountry: "GB",
   },
-  sameAs: [
-    "https://londonbottleservice.com",
-    "https://mayfairtonight.com",
-  ],
 };
 
 export function ArticleSchema({

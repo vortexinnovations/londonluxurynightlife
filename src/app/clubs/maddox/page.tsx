@@ -244,7 +244,7 @@ export default function MaddoxPage() {
           refined setting, is unique in London. The {club.tablesFrom} club
           minimum is fair, and the dinner pricing is reasonable for Mayfair
           Italian of this quality. If you want spectacle, go to{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>. If
+          <Link href="/clubs/reign-london">The London Reign</Link>. If
           you want exclusivity, go to{" "}
           <Link href="/clubs/tape-london">Tape London</Link>. But if you want
           the most complete evening in Mayfair, from first course to last

@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -198,16 +197,7 @@ export default function CelebrityNightclubsLondonPage() {
           <Link href="/blog/fight-night-london-nightlife">big London fight night</Link>{" "}
           brings the ringside crowd into these rooms after the main event, and the summer{" "}
           <Link href="/blog/london-supercar-season-nightlife">supercar season</Link>{" "}
-          fills them with international visitors. For direct bookings,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          handles VIP table reservations.
+          fills them with international visitors.
         </p>
 
         <h2>Celebrity Etiquette: The Unwritten Rules</h2>
@@ -243,17 +233,7 @@ export default function CelebrityNightclubsLondonPage() {
           <Link href="/guides/london-nightlife-international-visitors">
             visitors&apos; guide
           </Link>{" "}
-          for London-specific advice. And for what&apos;s happening tonight
-          at Mayfair&apos;s best venues, check{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>
-          .
+          for London-specific advice.
         </p>
 
         <h2>Related Reading</h2>

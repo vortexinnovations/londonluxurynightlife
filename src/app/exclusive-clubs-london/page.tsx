@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -257,15 +256,7 @@ export default function ExclusiveClubsLondonPage() {
             <li>
               <strong>Direct table booking:</strong>{" "}Reliable at most venues
               but not a guarantee at the most exclusive doors. Book through{" "}
-              <a
-                href={ECOSYSTEM.bottleService.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gold hover:text-gold/80"
-              >
-                London Bottle Service
-              </a>{" "}
-              for the best table positions.
+              <Link href="/contact">our concierge team</Link>{" "}for the best table positions.
             </li>
             <li>
               <strong>Guestlist:</strong>{" "}Works at tier two and three venues.
@@ -301,20 +292,6 @@ export default function ExclusiveClubsLondonPage() {
           two lists overlap significantly but prioritise differently: luxury
           measures the quality of the experience inside, while exclusivity
           measures the difficulty of reaching it.
-        </p>
-
-        <p>
-          For event listings and to see what is on tonight at any of these
-          venues, check{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          for up-to-date schedules.
         </p>
 
         <h2>Related Reading</h2>

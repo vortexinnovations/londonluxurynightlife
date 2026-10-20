@@ -198,7 +198,7 @@ export default function TapeLondonPage() {
           </Link>
           . Tape sits at the very top of that list, but venues like{" "}
           <Link href="/clubs/cirque-le-soir">Cirque Le Soir</Link>{" "}and{" "}
-          <Link href="/clubs/the-london-reign">The London Reign</Link>{" "}offer a
+          <Link href="/clubs/reign-london">The London Reign</Link>{" "}offer a
           completely different flavour of high-end nightlife.
         </p>
 

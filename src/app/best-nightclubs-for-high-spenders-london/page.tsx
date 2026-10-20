@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -319,16 +318,7 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <h2>Book Your Evening</h2>
 
         <p>
-          For table reservations at every venue on this list,{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          provides direct bookings with full spend guidance. Our{" "}
+          For table reservations at every venue on this list, our{" "}
           <Link href="/contact">concierge team</Link>{" "}offers personalised
           venue selection and table positioning based on your budget and
           requirements. For cost planning, our{" "}

@@ -2,7 +2,6 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
-import { ECOSYSTEM } from "@/lib/ecosystem";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
@@ -193,17 +192,8 @@ export default function GuestlistVsTableBookingLondonPage() {
           venues on a Friday or Saturday is technically possible but
           practically unreliable: the door prioritises table bookings so
           heavily that guestlist guests may wait hours or be turned away
-          entirely. If Tape or Cirque is your destination, book a table
-          through{" "}
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          and treat the minimum spend as the cost of admission.{" "}
+          entirely. If Tape or Cirque is your destination, book a table through{" "}
+          <Link href="/contact">our concierge team</Link>{" "}and treat the minimum spend as the cost of admission.{" "}
           <Link href="/clubs/the-box-london">The Box</Link>{" "}operates similarly:
           without a booking, entry is a genuine gamble.
         </p>
@@ -262,31 +252,6 @@ export default function GuestlistVsTableBookingLondonPage() {
           have a relationship with the door and management team that can
           smooth any issues. Direct bookings through venue websites work
           but often default to the least desirable available table position.
-        </p>
-
-        <p>
-          <a
-            href={ECOSYSTEM.bottleService.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            London Bottle Service
-          </a>{" "}
-          operates as a booking platform that works directly with venue
-          management to allocate tables, combining the convenience of
-          direct booking with the positioning advantage of a promoter
-          relationship. For event information and to check what is on at
-          specific venues,{" "}
-          <a
-            href={ECOSYSTEM.mayfairTonight.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/80"
-          >
-            Mayfair Tonight
-          </a>{" "}
-          provides up-to-date schedules.
         </p>
 
         <h2>The Decision Framework</h2>
