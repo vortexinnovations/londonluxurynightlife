@@ -1,7 +1,7 @@
 // Set NEXT_PUBLIC_TABLE_NUMBER / NEXT_PUBLIC_GUESTLIST_NUMBER on Vercel to
 // override these (redeploy required — values are inlined at build time).
 export const TABLE_NUMBER =
-  process.env.NEXT_PUBLIC_TABLE_NUMBER || "447880662708";
+  process.env.NEXT_PUBLIC_TABLE_NUMBER || "447348644054";
 export const GUESTLIST_NUMBER =
   process.env.NEXT_PUBLIC_GUESTLIST_NUMBER || "447348644054";
 export const SITE_URL = "https://londonluxurynightlife.com";
