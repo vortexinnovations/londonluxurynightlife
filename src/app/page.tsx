@@ -203,9 +203,9 @@ export default function Home() {
               nightlife is surprisingly hard to find. Most of what&rsquo;s online is
               either pay-to-play advertising or surface-level listicles written by
               people who&rsquo;ve never actually walked through the door. We take a
-              different approach. Every club reviewed here has been visited
-              repeatedly. Every detail, from the real dress code expectations to
-              the table minimums no one publishes, comes from direct experience.
+              different approach. Every club reviewed here is one we book, and
+              every detail, from the real dress code expectations to the table
+              minimums no one publishes, comes from booking them.
               Think of us as the well-connected friend who&rsquo;ll tell you the truth
               about where to go, what to spend, and what to skip.
             </p>

@@ -111,7 +111,7 @@ export default function ExclusiveClubsLondonPage() {
           exclusive nightclub in London by every meaningful measure. The Hanover
           Square venue operates with a door policy that routinely turns away
           table bookings, not walk-ups, not guestlist hopefuls, but people
-          who have already committed to &pound;1,500 minimum spends. That
+          who have already committed to a table&apos;s minimum spend. That
           willingness to refuse guaranteed revenue is the clearest signal of
           genuine exclusivity in the city.
         </p>
@@ -122,8 +122,7 @@ export default function ExclusiveClubsLondonPage() {
           structural rather than aspirational. This is why A-list musicians,
           actors, and athletes treat it as their default, not because Tape
           courts them, but because Tape is the one room where they can exist
-          without performance. Tables start from &pound;1,500 and frequently
-          exceed &pound;3,000 on premium nights. The crowd is a genuine mix of
+          without performance. Tables start from &pound;750. The crowd is a genuine mix of
           entertainment industry, finance, and fashion, but only the fraction
           of each world that the door team considers a fit. Learn exactly{" "}
           <Link href="/how-to-get-into-tape-london">

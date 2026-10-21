@@ -125,7 +125,7 @@ export default function TabuLondonJapaneseUndergroundPage() {
             <li><strong>Location:</strong>{" "}Mayfair</li>
             <li><strong>Music (as TABU):</strong>{" "}Hip-Hop, R&amp;B</li>
             <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
-            <li><strong>Tables (as TABU):</strong>{" "}from &pound;1,000; ask us for Rumour&apos;s current minimums</li>
+            <li><strong>Booths:</strong>{" "}from &pound;1,000 minimum spend</li>
             <li><strong>Dress code:</strong>{" "}Smart, no sportswear or casual wear</li>
           </ul>
         </div>

@@ -181,7 +181,7 @@ export default function CelebrityNightclubsLondonPage() {
 
         <p>
           Yes, with the right approach. Every venue on this list is
-          accessible through table bookings. A &pound;1,000-1,500 minimum
+          accessible through table bookings. A table&apos;s minimum
           spend secures your table, your entry, and your place in the same
           room. You will not be in the VVIP section (that requires a
           different relationship), but you will experience the same music,

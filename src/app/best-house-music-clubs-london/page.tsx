@@ -211,7 +211,7 @@ export default function BestHouseMusicClubsLondonPage() {
             </li>
             <li>
               <strong>BEAT London:</strong>{" "}Fitzrovia. Superior sound system.
-              Best for music purists. Lower minimum spends than Mayfair.
+              Best for music purists.
             </li>
             <li>
               <strong>Dear Darling:</strong>{" "}Cocktail bar transitioning to
@@ -219,7 +219,7 @@ export default function BestHouseMusicClubsLondonPage() {
             </li>
             <li>
               <strong>Tape London:</strong>{" "}Selective house nights. Best for
-              exclusive, intimate experience. Minimum spend from &pound;1,500.
+              exclusive, intimate experience. Minimum spend from &pound;750.
             </li>
           </ul>
         </div>

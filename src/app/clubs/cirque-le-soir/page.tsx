@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "cirque-le-soir")!;
 
 const TITLE = "Cirque Le Soir Review: Honest Guide to Entry and Dress Code";
 const DESCRIPTION =
-  "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £1,000 as of October 2026.";
+  "Honest Cirque Le Soir review: fire breathers and aerialists at 15-21 Ganton Street, Soho. Strict door, dress code, tables from £800 as of October 2026.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -70,7 +70,7 @@ export default function CirqueLeSoirPage() {
           contortionists and aerialists on the floor beside a celebrity-heavy
           crowd, but the door is strict and it is never a quiet night. This
           honest review covers the entrance, the shows, the crowd, the dress
-          code and what a table costs (from &pound;1,000 as of October 2026).
+          code and what a table costs (from &pound;800 as of October 2026).
         </p>
 
         <p>

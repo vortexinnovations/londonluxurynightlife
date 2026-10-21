@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "selene-london")!;
 
 const TITLE = "Selene Club London Review: Fitzrovia, Tables and Bowling";
 const DESCRIPTION =
-  "Selene London, 4 Winsley Street, Fitzrovia: open Thursday to Sunday, tables from £1,000 and private bowling lanes. The room, crowd and dress code.";
+  "Selene London, 4 Winsley Street, Fitzrovia: open Thursday to Sunday, tables from £800 and private bowling lanes. The room, crowd and dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

@@ -102,8 +102,7 @@ export default function LuxuryNightclubsLondonPage() {
           no-phones policy that creates an atmosphere of real privacy. The
           crowd includes A-list celebrities, musicians, and entrepreneurs
           who choose Tape because it is the one venue where they can behave
-          normally. Tables start from &pound;1,500, the highest minimum in
-          Mayfair, and every penny is justified by the experience. Read
+          normally. Tables start from &pound;750, and every penny is justified by the experience. Read
           our{" "}
           <Link href="/blog/tape-london-inside-mayfairs-most-exclusive-club">
             in-depth Tape London review

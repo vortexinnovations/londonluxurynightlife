@@ -108,7 +108,7 @@ export default function CuckooClubMayfairPage() {
             <li><strong>Location:</strong>{" "}Swallow Street, Mayfair</li>
             <li><strong>Music (as Cuckoo Club):</strong>{" "}House (upstairs), Hip-Hop &amp; R&amp;B (downstairs)</li>
             <li><strong>Open:</strong>{" "}Wednesday to Saturday</li>
-            <li><strong>Tables (as Cuckoo Club):</strong>{" "}from &pound;1,000; ask us for current minimums</li>
+            <li><strong>Tables:</strong>{" "}from &pound;600 minimum spend</li>
             <li><strong>Dress code:</strong>{" "}Smart and stylish, no sportswear</li>
           </ul>
         </div>

@@ -90,6 +90,9 @@ const EDITOR = { name: "Isabella Marsh", jobTitle: "Luxury Lifestyle Editor", ur
 const longDate = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 
+/** Posts about clubs that run no guestlist: no guestlist button. */
+const NO_GUESTLIST_POSTS = new Set(["the-box-london-what-to-expect", "scotch-of-st-james-history-legacy"]);
+
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = await getMergedPostBySlug(slug);
@@ -127,6 +130,7 @@ export default async function BlogPostPage({ params }: Props) {
         subtitle={post.excerpt}
         heroImage={image}
         heroAlt={post.imageAlt}
+        noGuestlist={NO_GUESTLIST_POSTS.has(slug)}
       >
         <p className="text-sm text-warm-gray mb-1">
           By <Link href="/about-the-editor">{EDITOR.name}</Link>, {EDITOR.jobTitle}

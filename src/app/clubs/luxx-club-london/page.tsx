@@ -11,7 +11,7 @@ const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 // Closed; its successor is Itzel (owner, 2026-10-07). Indexable: closed pages keep their search traffic.
 const TITLE = "Luxx Club London Has Closed: Itzel and Mayfair Alternatives";
 const DESCRIPTION =
-  "Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead.";
+  "Luxx Club London in Mayfair has closed, and its Berkeley Street site now operates as Itzel. What Luxx was, and the open London clubs to book instead.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -35,7 +35,7 @@ export default function LuxxClubLondonPage() {
     <>
       <ArticleSchema
         title="Luxx Club London Has Closed: Itzel and Mayfair Alternatives"
-        description="Luxx Club London in Mayfair has closed, and its successor is Itzel. What Luxx was, and the open London clubs to book instead."
+        description="Luxx Club London in Mayfair has closed, and its Berkeley Street site now operates as Itzel. What Luxx was, and the open London clubs to book instead."
         slug="/clubs/luxx-club-london"
       />
       <ArticleLayout

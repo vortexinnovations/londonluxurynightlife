@@ -33,15 +33,7 @@ const ORGANIZATION = {
   url: SITE_URL,
   logo: `${SITE_URL}/icon.svg`,
   image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
-  description: "Independent editorial authority on London's luxury nightlife. Every venue visited, no pay-to-play.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Mayfair",
-    addressLocality: "London",
-    postalCode: "W1K",
-    addressRegion: "Greater London",
-    addressCountry: "GB",
-  },
+  description: "Independent editorial authority on London's luxury nightlife. Clubs we book, with their door policies, prices and nights. No pay-to-play.",
 };
 
 export function ArticleSchema({
@@ -151,14 +143,6 @@ export function LocalBusinessSchema() {
         url: `${SITE_URL}/contact`,
       },
     ],
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Mayfair",
-      addressLocality: "London",
-      postalCode: "W1K",
-      addressRegion: "Greater London",
-      addressCountry: "GB",
-    },
     areaServed: {
       "@type": "City",
       name: "London",

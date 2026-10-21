@@ -102,8 +102,7 @@ export default function TapeLondonInsidePage() {
           The door at Tape is the most selective in London and there is no
           diplomatic way to frame that. Guest list through a promoter or
           concierge is essential; walk-ups do not happen. Table bookings
-          start from &pound;1,500, which is the highest minimum in Mayfair
-          and a deliberate filter. The crowd that this produces is
+          start from &pound;750. The crowd that this produces is
           distinctive: music industry professionals, athletes, entrepreneurs,
           models, and international visitors who understand what they are
           paying for. If the selectivity concerns you, it is worth noting
@@ -121,7 +120,7 @@ export default function TapeLondonInsidePage() {
             <li><strong>Location:</strong>{" "}17 Hanover Square, Mayfair</li>
             <li><strong>Music:</strong>{" "}Hip-Hop, R&amp;B, Commercial</li>
             <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.45am, with Little Tape next door until 5.30am on Friday and Saturday (as of October 2026)</li>
-            <li><strong>Tables from:</strong>{" "}&pound;1,500</li>
+            <li><strong>Tables from:</strong>{" "}&pound;750</li>
             <li><strong>Dress code:</strong>{" "}Smart and stylish, no sportswear</li>
           </ul>
         </div>

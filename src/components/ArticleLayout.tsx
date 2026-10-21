@@ -13,6 +13,8 @@ interface ArticleLayoutProps {
   children: React.ReactNode;
   ctaMessage?: string;
   ctaLabel?: string;
+  /** The club runs no guestlist: no guestlist button. */
+  noGuestlist?: boolean;
 }
 
 /** Italicize the final word of a headline — the typographic signature */
@@ -36,6 +38,7 @@ export default function ArticleLayout({
   children,
   ctaMessage = WA_GENERAL_MESSAGE,
   ctaLabel = "Plan Your Night",
+  noGuestlist = false,
 }: ArticleLayoutProps) {
   return (
     <>
@@ -94,14 +97,16 @@ export default function ArticleLayout({
               Ready to experience London&apos;s luxury <span className="accent-word">nightlife</span>?
             </p>
             <WhatsAppCTA message={ctaMessage} label={ctaLabel} />
-            <div className="mt-6">
-              <WhatsAppCTA
-                message={WA_GUESTLIST_MESSAGE}
-                label="Or join the guestlist"
-                variant="inline"
-                number={GUESTLIST_NUMBER}
-              />
-            </div>
+            {!noGuestlist && (
+              <div className="mt-6">
+                <WhatsAppCTA
+                  message={WA_GUESTLIST_MESSAGE}
+                  label="Or join the guestlist"
+                  variant="inline"
+                  number={GUESTLIST_NUMBER}
+                />
+              </div>
+            )}
           </div>
         </div>
       </article>

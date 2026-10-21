@@ -44,6 +44,7 @@ export default function TheBoxLondonPage() {
         heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage(club.name)}
         ctaLabel="Book a Table at The Box"
+        noGuestlist
       >
         <div className="info-box">
           <p>
@@ -60,6 +61,10 @@ export default function TheBoxLondonPage() {
           </p>
           <p>
             <strong>Tables From:</strong> {club.tablesFrom}
+          </p>
+          <p>
+            <strong>Guestlist:</strong> None. The Box doesn&apos;t run a
+            guestlist: entry is by table booking, from {club.tablesFrom}.
           </p>
         </div>
 

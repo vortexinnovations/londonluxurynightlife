@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How to Get Into Tape London: Guestlist, Tables, Dress Code",
     description:
-      "Getting into Tape London at 17 Hanover Square: opening nights, guestlist through the members' app, table bookings, door policy, ID and dress code.",
+      "Getting into Tape London at 17 Hanover Square: opening nights, guestlist, table bookings, door policy, ID and dress code.",
     url: "https://londonluxurynightlife.com/how-to-get-into-tape-london",
     type: "article",
     images: [{ url: GUIDE_IMAGES["how-to-get-into-tape-london"], alt: "A performer singing in front of a lit dancer cage" }],
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: "How much does a table at Tape London cost?",
-    answer: "Table minimum spends at Tape London start from £1,500, the highest in Mayfair. This covers your table reservation and is spent on bottles and drinks. On premium nights (bank holidays, special events), minimums can increase significantly.",
+    answer: "Table minimum spends at Tape London start from £750. This covers your table reservation and is spent on bottles and drinks. On premium nights (bank holidays, special events), minimums can increase significantly.",
   },
   {
     question: "What should I wear to Tape London?",
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: "Is Tape London a members' club?",
-    answer: "Tape describes itself as primarily a private members' club, with membership handled through the Tape Members app. Non-members get in through table bookings and guestlists, which can be requested through the app, a promoter or a concierge. Either way, the door team makes the final call on the night.",
+    answer: "Tape describes itself as primarily a private members' club. Non-members get in through table bookings and guestlists, which can be requested through a promoter or a concierge; guestlist entry runs from free to £20, usually depending on arrival time. Either way, the door team makes the final call on the night.",
   },
   {
     question: "Do I need ID to get into Tape London?",
@@ -61,7 +61,7 @@ export default function HowToGetIntoTapeLondonPage() {
     <>
       <ArticleSchema
         title="How to Get Into Tape London: The Complete Entry Guide"
-        description="Getting into Tape London at 17 Hanover Square: opening nights, guestlist through the members' app, table bookings, door policy, ID and dress code."
+        description="Getting into Tape London at 17 Hanover Square: opening nights, guestlist, table bookings, door policy, ID and dress code."
         slug="/how-to-get-into-tape-london"
       />
       <FAQSchema faqs={faqs} />
@@ -91,9 +91,9 @@ export default function HowToGetIntoTapeLondonPage() {
             <li><strong>Address:</strong>{" "}17 Hanover Square, Mayfair, London W1S 1HU, a few minutes&apos; walk from Oxford Circus station</li>
             <li><strong>Open:</strong>{" "}Tuesday, Friday, Saturday and Sunday, 11pm to 3.45am</li>
             <li><strong>After party:</strong>{" "}Little Tape, Friday and Saturday, 3am to 5.30am</li>
-            <li><strong>Getting in:</strong>{" "}a table booking, or a guestlist place requested through a promoter, a concierge or the Tape Members app</li>
+            <li><strong>Getting in:</strong>{" "}a table booking, or a guestlist place requested through a promoter or a concierge, with entry from free to &pound;20, usually depending on arrival time</li>
             <li><strong>ID:</strong>{" "}physical ID for every guest; photographs of ID are not accepted</li>
-            <li><strong>Tables:</strong>{" "}minimum spends from &pound;1,500</li>
+            <li><strong>Tables:</strong>{" "}minimum spends from &pound;750</li>
           </ul>
         </div>
 
@@ -103,9 +103,8 @@ export default function HowToGetIntoTapeLondonPage() {
 
         <p>
           A table booking is the only way to guarantee entry to Tape London.
-          Minimum spends start from &pound;1,500, which is the highest in
-          Mayfair and a deliberate filter. This spend is on bottles and
-          drinks, not a cover charge: your &pound;1,500 buys you premium
+          Minimum spends start from &pound;750. This spend is on bottles and
+          drinks, not a cover charge: your minimum spend buys you premium
           spirits, mixers, ice, and dedicated service throughout the night.
           Table bookings also give you the best position in the room and the
           attention of the hosting team.
@@ -124,10 +123,10 @@ export default function HowToGetIntoTapeLondonPage() {
         <h3>2. Guestlist: The Conditional Route</h3>
 
         <p>
-          Guestlist entry at Tape is managed through promoters, concierges
-          and the club&apos;s own Tape Members app, where you can request a
-          place for the night you want to attend. Being on
-          the guestlist removes the cover charge and gets you to the front
+          Guestlist entry at Tape is managed through promoters and
+          concierges. Entry on the guestlist runs from free to &pound;20,
+          usually depending on arrival time. Being on
+          the guestlist gets you to the front
           of any queue, but it does not override the door policy. The door
           team makes the final decision based on the crowd balance, your
           group composition, your appearance, and the night&apos;s capacity.
@@ -219,8 +218,8 @@ export default function HowToGetIntoTapeLondonPage() {
         <p>
           <strong>Tuesday and Sunday:</strong>{" "}The nights either side of
           the weekend. If you are hoping for a guestlist place rather than a
-          table, ask your promoter or concierge, or request through the Tape
-          Members app, which nights have space that week.
+          table, ask your promoter or concierge which nights have space that
+          week.
         </p>
 
         <p>

@@ -44,6 +44,7 @@ export default function ScotchOfStJamesReview() {
         heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage("Scotch of St James")}
         ctaLabel="Book Scotch of St James"
+        noGuestlist
       >
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
@@ -51,6 +52,7 @@ export default function ScotchOfStJamesReview() {
           <p><strong>Opening Nights:</strong> {club.openingNights}</p>
           <p><strong>Dress Code:</strong> {club.dressCode}</p>
           <p><strong>Tables From:</strong> {club.tablesFrom}</p>
+          <p><strong>Entry:</strong> Entry is walk-in at the door; there is no guestlist. Tables can be booked.</p>
         </div>
 
         <p>

@@ -305,10 +305,11 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <h3>Licensing Laws</h3>
         <p>
           UK licensing law is the single biggest cultural adjustment for
-          visitors from cities with later nightlife. Most London clubs hold
-          licences until 3am, with a handful permitted until 4am. Last entry is
-          typically one hour before closing. There is no equivalent of Ibiza&apos;s
-          6am finishes or Berlin&apos;s open-ended weekends. This compressed
+          visitors from cities with later nightlife. Most of the clubs we book
+          close at 3:45am or 4am; the Scotch of St James runs until 5am, and
+          Maddox, Dear Darling Mayfair and BEAT London until 6am. Last entry is
+          typically one hour before closing. There is no equivalent of
+          Berlin&apos;s open-ended weekends. This compressed
           timeline means the energy builds faster and peaks harder: the best
           nights in London have an intensity that looser-timed cities struggle
           to match.

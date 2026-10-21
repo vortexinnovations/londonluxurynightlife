@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "What is the highest minimum spend at a London nightclub?",
     answer:
-      "Tape London has the highest standard minimum spend in Mayfair at £1,500 per table. On premium dates such as New Year's Eve or bank holidays, minimums across top venues can rise to £3,000-£5,000 or more. Bespoke packages for large groups or corporate events can exceed £10,000.",
+      "Standard table minimums at the top Mayfair clubs start from £600 at 99 Regent Street, £750 at Tape London and £1,000 at Maddox and Rumour. On premium dates such as New Year's Eve or bank holidays, minimums across top venues can rise to £3,000-£5,000 or more. Bespoke packages for large groups or corporate events can exceed £10,000.",
   },
   {
     question: "What does a £2,000 minimum spend get you at a London club?",
@@ -188,8 +188,8 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <p>
           <Link href="/clubs/tape-london">Tape London</Link>{" "}delivers the
           highest return on investment at the premium tier because its
-          exclusivity is genuine. The &pound;1,500 minimum is the highest in
-          Mayfair, but it buys access to a room that money alone cannot
+          exclusivity is genuine. Tables start from &pound;750, and a table buys
+          access to a room that money alone cannot
           enter: the door policy filters for quality as well as spend. The
           no-phones policy, the music industry crowd, and the genuine
           celebrity presence create an atmosphere that justifies the premium.

@@ -188,7 +188,7 @@ export const blogPosts: BlogPost[] = [
     publishDate: "2026-03-22",
     modifiedDate: "2026-03-25",
     readTime: "7 min read",
-    keywords: ["Scotch of St James", "Scotch of St James history", "Scotch of St James London", "Scotch Mayfair"],
+    keywords: ["Scotch of St James", "Scotch of St James history", "Scotch of St James London", "The Scotch of St James"],
   },
   {
     slug: "dear-darling-maddox-cocktail-clubs-mayfair",

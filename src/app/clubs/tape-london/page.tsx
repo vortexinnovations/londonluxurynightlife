@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "tape-london")!;
 
 const TITLE = "Tape London Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "Tape London review: the members' club at 17 Hanover Square, Mayfair, tables from £1,500. What it is like inside, who goes and the no-trainers dress code.";
+  "Tape London review: the members' club at 17 Hanover Square, Mayfair, tables from £750. What it is like inside, who goes and the no-trainers dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -155,8 +155,7 @@ export default function TapeLondonPage() {
         <h2>What to Expect</h2>
 
         <p>
-          Tables at Tape start from {club.tablesFrom}, which places it at the
-          higher end of London&apos;s nightlife pricing. But the minimum spend
+          Tables at Tape start from {club.tablesFrom}, and the minimum spend
           reflects the exclusivity of the space. You are not paying for
           fireworks or a stage show. You are paying for access to a room that
           most people in London will never enter. Bottles are premium, service

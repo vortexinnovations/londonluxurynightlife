@@ -132,13 +132,15 @@ export default function SaturdayNightMayfairGuidePage() {
           crowd knows the last half-hour changes character: the music
           intensifies for a final push, the lights stay low, and there is a
           collective awareness that the evening is reaching its conclusion.
-          Smart guests begin thinking about transport by 2:30am. Two clubs run
-          later still, to 4am:{" "}
+          Smart guests begin thinking about transport by 2:30am. Two Mayfair
+          rooms run later still, to 4am:{" "}
           <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}
           (formerly Cuckoo Club), which opens both of its floors on a
           Saturday, and{" "}
           <Link href="/clubs/rumour-london">Rumour</Link>{" "}(formerly Tabu),
-          which fills early and is worth arranging in advance.
+          which fills early and is worth arranging in advance. Reign London
+          and The Box also close at 4am, the Scotch of St James runs until
+          5am, and Maddox and Dear Darling Mayfair run until 6am.
         </p>
 
         <h2>Booking: The Non-Negotiable</h2>

@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "reign-london")!;
 
 const TITLE = "Reign London Review | What It's Really Like Inside";
 const DESCRIPTION =
-  "Reign London on Piccadilly: open Tuesday, Thursday, Friday and Saturday, tables from £1,000. The aerial acts, live shows, crowd and dress code.";
+  "Reign London on Piccadilly: open Tuesday, Thursday, Friday and Saturday, tables from £800. The aerial acts, live shows, crowd and dress code.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),

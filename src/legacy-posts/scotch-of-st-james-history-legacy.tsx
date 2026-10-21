@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "From Jimi Hendrix in the 1960s to today: the incredible history of Scotch of St James, Mayfair's most storied nightclub and why it still matters.",
   keywords:
-    "Scotch of St James, Scotch of St James history, Scotch of St James London, Scotch Mayfair",
+    "Scotch of St James, Scotch of St James history, Scotch of St James London, The Scotch of St James",
   openGraph: {
     title: "Scotch of St James: History and Legacy of London's Most Storied Club",
     description:

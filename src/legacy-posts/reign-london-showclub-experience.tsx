@@ -135,7 +135,7 @@ export default function ReignLondonShowclubExperiencePage() {
           <h4>Reign London at a Glance</h4>
           <ul>
             <li><strong>Location:</strong>{" "}Piccadilly, West End</li>
-            <li><strong>Tables from:</strong>{" "}&pound;1,000 minimum spend</li>
+            <li><strong>Tables from:</strong>{" "}&pound;800 minimum spend</li>
             <li><strong>Best nights:</strong>{" "}Friday and Saturday</li>
             <li><strong>Best for:</strong>{" "}Birthdays, celebrations, tourists, corporate events</li>
             <li><strong>Music:</strong>{" "}Mixed, commercial, hip-hop</li>

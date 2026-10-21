@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "How much does a VIP table cost in London?",
     answer:
-      "VIP table minimum spends in London range from £500 at mid-tier venues on quieter nights to £1,500+ at top Mayfair clubs like Tape London on weekends. Premium dates (New Year's Eve, bank holidays) can double or triple standard minimums. Your spend goes towards bottles and mixers at marked-up venue prices.",
+      "VIP table minimum spends in London range from £500 at mid-tier venues on quieter nights to £1,500 or more for premium tables at top Mayfair clubs on weekends. Premium dates (New Year's Eve, bank holidays) can double or triple standard minimums. Your spend goes towards bottles and mixers at marked-up venue prices.",
   },
   {
     question: "What is the difference between VIP and VVIP at London clubs?",

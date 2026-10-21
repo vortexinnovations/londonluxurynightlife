@@ -105,8 +105,7 @@ export default function BestHipHopClubsLondonPage() {
           Instagram following. The result is sets that span golden-era
           classics through to current releases, mixed with a sophistication
           that reflects the venue&apos;s Mayfair setting without sanitising
-          the music. Tables start from &pound;1,500, which is the highest
-          minimum in Mayfair, and the crowd that meets that threshold tends
+          the music. Tables start from &pound;750, and the crowd tends
           to be there because they value the experience, not because they want
           to be seen. Read our{" "}
           <Link href="/blog/tape-london-inside-mayfairs-most-exclusive-club">

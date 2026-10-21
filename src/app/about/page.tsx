@@ -7,7 +7,7 @@ import { GUIDE_IMAGES } from "@/lib/images";
 export const metadata: Metadata = {
   title: fitTitle("About Our Editorial Team"),
   description:
-    "Who we are, how we review and why we built this luxury nightlife guide to London: independent editorial, no pay-to-play, every venue visited in person.",
+    "Who we are and why we built this luxury nightlife guide to London: independent editorial, no pay-to-play, and clubs we book, with their door policies, prices and nights.",
   openGraph: {
     title: "About London Luxury Nightlife | Our Editorial Team",
     description:
@@ -25,7 +25,7 @@ export default function AboutPage() {
   return (
     <ArticleLayout
       title="About London Luxury Nightlife"
-      subtitle="Independent editorial. Every venue visited. No pay-to-play."
+      subtitle="Independent editorial. Clubs we book, with their door policies, prices and nights. No pay-to-play."
     >
       <p>
         London Luxury Nightlife is the editorial authority on the
@@ -40,8 +40,8 @@ export default function AboutPage() {
       <h2>How We Work</h2>
 
       <p>
-        Every venue reviewed on this site has been visited multiple times
-        by our editorial team. We do not accept payment from clubs in
+        Every venue reviewed on this site is a club we book, with its door
+        policy, prices and nights. We do not accept payment from clubs in
         exchange for coverage or favourable reviews. Our recommendations
         are based entirely on the quality of the experience: the music,
         the crowd, the service, the atmosphere, and whether the evening
