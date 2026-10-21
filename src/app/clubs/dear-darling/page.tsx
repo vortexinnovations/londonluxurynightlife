@@ -10,7 +10,7 @@ const club = clubs.find((c) => c.slug === "dear-darling")!;
 
 const TITLE = "Dear Darling Mayfair: Honest Review, Dress Code and Tables";
 const DESCRIPTION =
-  "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £1,000 as of October 2026.";
+  "Dear Darling Mayfair reviewed: the chandeliered Jermyn Street cocktail bar that becomes a late club. Crowd, dress code, tables from £800 as of October 2026.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -61,7 +61,7 @@ export default function DearDarlingReview() {
           most beautiful rooms in the West End and our pick for a dressed-up
           night that starts with cocktails rather than a dance floor. This
           honest review covers the room, the crowd, the drinks, the dress code
-          and what a table costs (from &pound;1,000 as of October 2026).
+          and what a table costs (from &pound;800 as of October 2026).
         </p>
 
         <p>

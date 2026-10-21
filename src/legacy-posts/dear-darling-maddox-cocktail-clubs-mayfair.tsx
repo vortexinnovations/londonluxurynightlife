@@ -115,7 +115,7 @@ export default function DearDarlingMaddoxCocktailClubsMayfairPage() {
             <li><strong>Transition:</strong>{" "}Dear Darling = gradual mood shift / Maddox = distinct dinner-to-club phases</li>
             <li><strong>Dress code:</strong>{" "}Dear Darling = elegant / Maddox = smart elegant, jacket preferred</li>
             <li><strong>Best for:</strong>{" "}Dear Darling = cocktail lovers, couples / Maddox = dinner planners, house music fans</li>
-            <li><strong>Tables from:</strong>{" "}Both from &pound;1,000</li>
+            <li><strong>Tables from:</strong>{" "}Dear Darling from &pound;800, Maddox from &pound;1,000</li>
           </ul>
         </div>
 

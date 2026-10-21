@@ -135,7 +135,7 @@ export const clubs: Club[] = [
     location: "91 Jermyn Street, St James's",
     area: "St James's",
     musicStyle: "Mixed, Lounge, House",
-    tablesFrom: "£1,000",
+    tablesFrom: "£800",
     openingNights: "Thursday to Sunday",
     dressCode: "Elegant. Smart dress essential.",
     shortDescription: "An opulent St James's bar draped in chandeliers and velvet, where world-class cocktails give way to late-night revelry in the most elegant setting.",

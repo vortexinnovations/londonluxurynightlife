@@ -110,14 +110,15 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <p>
           A &pound;1,000 minimum spend at the top Mayfair and West End venues secures
           a table, entry, and a respectable position. At{" "}
-          <Link href="/clubs/selene-london">Selene</Link>,{" "}
-          <Link href="/clubs/maddox">Maddox</Link>, and{" "}
-          <Link href="/clubs/dear-darling">Dear Darling</Link>, this tier
+          <Link href="/clubs/selene-london">Selene</Link>{" "}and{" "}
+          <Link href="/clubs/maddox">Maddox</Link>, this tier
           provides a genuinely premium experience: good tables, attentive
           service, and an atmosphere that justifies the spend. You will
           typically receive two to three bottles of premium spirits or a
           combination of spirits and champagne, with mixers and a dedicated
-          server.
+          server.{" "}
+          <Link href="/clubs/dear-darling">Dear Darling Mayfair</Link>{" "}sits
+          just below this tier, with tables from &pound;800 minimum spend.
         </p>
 
         <p>
