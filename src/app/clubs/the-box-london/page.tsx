@@ -63,7 +63,7 @@ export default function TheBoxLondonPage() {
             <strong>Tables From:</strong> {club.tablesFrom}
           </p>
           <p>
-            <strong>Guestlist:</strong> None. The Box doesn&apos;t run a
+            <strong>Guestlist:</strong>{" "}None. The Box doesn&apos;t run a
             guestlist: entry is by table booking, from {club.tablesFrom}.
           </p>
         </div>
