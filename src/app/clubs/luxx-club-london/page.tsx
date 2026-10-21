@@ -8,7 +8,7 @@ import { CLUB_IMAGES } from "@/lib/images";
 
 const club = closedClubs.find((c) => c.slug === "luxx-club-london")!;
 
-// Closed; its successor is Itzel (owner, 2026-10-07). Indexable: closed pages keep their search traffic.
+// Closed; the Berkeley Street site is now Itzel (owner, 2026-10-07). Indexable: closed pages keep their search traffic.
 const TITLE = "Luxx Club London Has Closed: Itzel and Mayfair Alternatives";
 const DESCRIPTION =
   "Luxx Club London in Mayfair has closed, and its Berkeley Street site now operates as Itzel. What Luxx was, and the open London clubs to book instead.";
@@ -49,7 +49,7 @@ export default function LuxxClubLondonPage() {
         <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-4 mb-6">
           <p className="text-red-400 font-semibold text-sm uppercase tracking-wider mb-1">Permanently Closed</p>
           <p className="text-warm-gray text-sm">
-            Luxx Club London has closed, and its successor is Itzel. Luxx no longer takes table bookings or guestlist names; the open alternatives below suit the same crowd.
+            Luxx Club London has closed. Its Berkeley Street site became Funky Buddha again and now operates as Itzel. Luxx no longer takes table bookings or guestlist names; the open alternatives below suit the same crowd.
           </p>
         </div>
 
@@ -61,12 +61,12 @@ export default function LuxxClubLondonPage() {
             <strong>Music (when open):</strong> {club.musicStyle}
           </p>
           <p>
-            <strong>Status:</strong>{" "}Closed. Its successor is Itzel.
+            <strong>Status:</strong>{" "}Closed. The Berkeley Street site now operates as Itzel.
           </p>
         </div>
 
         <p>
-          Luxx Club London was the Mayfair club built around light, and it has now closed. Its successor is Itzel. People still search for Luxx by name, so this page explains what it was and where to go now.
+          Luxx Club London was the Mayfair club built around light, and it has now closed. The Berkeley Street site was Funky Buddha, then went through several rebrands including Luxx, became Funky Buddha again, and now operates as Itzel. People still search for Luxx by name, so this page explains what it was and where to go now.
         </p>
 
         <h2>What Luxx Club Was</h2>
