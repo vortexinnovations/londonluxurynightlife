@@ -201,26 +201,33 @@ export default function GuestlistVsTableBookingLondonPage() {
         <h3>Table Strongly Recommended</h3>
 
         <p>
-          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}and{" "}
+          <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}on
+          weekends. Guestlist entry is possible but the intimate capacity
+          means the door fills quickly. A table removes all uncertainty.
+          Midweek, guestlist works comfortably there.{" "}
           <Link href="/clubs/scotch-of-st-james">Scotch of St James</Link>{" "}
-          on weekends. Guestlist entry is possible at these venues but
-          the intimate capacities mean the door fills quickly. A table
-          removes all uncertainty. Midweek, guestlist works comfortably
-          at all four.
+          is different: entry is walk-in at the door; there is no guestlist.
+          Tables can be booked.
         </p>
 
         <h3>Guestlist Works Well</h3>
 
         <p>
           <Link href="/clubs/maddox">Maddox</Link>,{" "}
-          <Link href="/clubs/reign-london">Reign London</Link>,{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link>,{" "}
-          <Link href="/clubs/selene-london">Selene</Link>, and{" "}
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>.
+          <Link href="/clubs/reign-london">Reign London</Link>, and{" "}
+          <Link href="/clubs/selene-london">Selene</Link>.
           These venues operate healthy guestlist systems that deliver genuine
           value. Arrive before midnight, dress appropriately, and a guestlist
           will get you in on most nights. Tables are available and enhance the
           experience but are not required for entry.
+        </p>
+
+        <h3>No Guestlist</h3>
+
+        <p>
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}and{" "}
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
+          don&apos;t run a guestlist. Entry is by table booking.
         </p>
 
         <h2>How to Get on a Guestlist</h2>

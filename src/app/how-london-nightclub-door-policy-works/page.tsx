@@ -288,14 +288,15 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         <h3>Welcoming with Standards</h3>
 
         <p>
-          <Link href="/clubs/maddox">Maddox</Link>,{" "}
-          <Link href="/clubs/reign-london">Reign London</Link>,{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link>, and{" "}
-          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>.
+          <Link href="/clubs/maddox">Maddox</Link>{" "}and{" "}
+          <Link href="/clubs/reign-london">Reign London</Link>.
           These venues maintain dress codes and basic standards but operate
           with a welcoming approach that makes entry straightforward for
           anyone who has made a reasonable effort. Guestlist works reliably,
-          walk-up is viable on most nights.
+          walk-up is viable on most nights.{" "}
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}and{" "}
+          <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
+          don&apos;t run a guestlist. Entry is by table booking.
         </p>
 
         <h2>How to Maximise Your Chances</h2>

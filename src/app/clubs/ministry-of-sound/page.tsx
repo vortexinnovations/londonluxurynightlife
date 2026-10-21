@@ -47,6 +47,7 @@ export default function MinistryOfSoundReview() {
         heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage(club.name)}
         ctaLabel="Plan a Night at Ministry of Sound"
+        noGuestlist
       >
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
@@ -54,6 +55,7 @@ export default function MinistryOfSoundReview() {
           <p><strong>Opening Nights:</strong> {club.openingNights}</p>
           <p><strong>Dress Code:</strong> {club.dressCode}</p>
           <p><strong>Tables From:</strong> {club.tablesFrom}</p>
+          <p><strong>Guestlist:</strong> None. Ministry of Sound doesn&apos;t run a guestlist. Entry is by table booking.</p>
         </div>
 
         <p>

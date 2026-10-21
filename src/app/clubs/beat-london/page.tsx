@@ -44,6 +44,7 @@ export default function BeatLondonReview() {
         heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage("BEAT London")}
         ctaLabel="Book BEAT London"
+        noGuestlist
       >
         <div className="info-box">
           <p><strong>Location:</strong> {club.location}</p>
@@ -51,6 +52,7 @@ export default function BeatLondonReview() {
           <p><strong>Opening Nights:</strong> {club.openingNights}</p>
           <p><strong>Dress Code:</strong> {club.dressCode}</p>
           <p><strong>Tables From:</strong> {club.tablesFrom}</p>
+          <p><strong>Guestlist:</strong> None. BEAT doesn&apos;t run a guestlist. Entry is by table booking.</p>
         </div>
 
         <p>

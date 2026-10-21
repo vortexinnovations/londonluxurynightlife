@@ -91,7 +91,11 @@ const longDate = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 
 /** Posts about clubs that run no guestlist: no guestlist button. */
-const NO_GUESTLIST_POSTS = new Set(["the-box-london-what-to-expect", "scotch-of-st-james-history-legacy"]);
+const NO_GUESTLIST_POSTS = new Set([
+  "the-box-london-what-to-expect",
+  "scotch-of-st-james-history-legacy",
+  "beat-london-sound-system-fitzrovia",
+]);
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;

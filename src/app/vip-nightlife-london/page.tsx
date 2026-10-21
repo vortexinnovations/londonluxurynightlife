@@ -43,7 +43,7 @@ const faqs = [
   {
     question: "Do I need a VIP table to get into London's best clubs?",
     answer:
-      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends: guestlist and walk-up entry is extremely limited. At venues like Selene, Maddox, and BEAT London, guestlist entry is viable without a table on most nights. A table booking always improves your chances regardless of venue.",
+      "At the most exclusive venues like Tape London and Cirque Le Soir, a table booking is essentially required on weekends: guestlist and walk-up entry is extremely limited. At venues like Selene and Maddox, guestlist entry is viable without a table on most nights. BEAT London doesn't run a guestlist: entry is by table booking. A table booking always improves your chances regardless of venue.",
   },
   {
     question: "How many people can sit at a VIP table in London clubs?",
