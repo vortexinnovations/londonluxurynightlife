@@ -147,7 +147,7 @@ The homepage should feel like a premium nightlife blog/magazine, NOT a booking l
 
 ## WhatsApp Integration
 
-WhatsApp number: **447880662708**
+WhatsApp number: **447348644054**
 
 Use `wa.me` link format with pre-filled messages. The CTAs should feel like a helpful concierge, NOT a sales pitch.
 
