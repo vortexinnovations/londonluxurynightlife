@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Luna Club and Selene London Reviewed: Luna Has Closed",
+    "Luna Club London Is Now Maya: Maya and Selene Compared",
   description:
-    "Luna Club London in Mayfair has closed. Our review of Luna as it was, and of Selene London, just north of Oxford Circus, which is open Thursday to Sunday.",
+    "Luna Club London is now Maya, beneath Inca London on Argyll Street, open Friday and Saturday. What changed, and how Maya compares with Selene London.",
   keywords:
-    "Luna Club London, Selene London, new Mayfair clubs, new clubs London 2025, Luna Club review, Selene London review",
+    "Luna Club London, Maya London, Inca London, Selene London, Luna by INCA, Selene London review",
   openGraph: {
-    title: "Luna Club and Selene London Reviewed: Luna Has Closed",
+    title: "Luna Club London Is Now Maya: Maya and Selene Compared",
     description:
-      "Luna Club London has closed. Our review of Luna as it was, and of Selene London, which is open Thursday to Sunday.",
+      "Luna Club London is now Maya, the lounge club beneath Inca London. What changed, how it compares with Selene London, and how to book both.",
     url: "https://londonluxurynightlife.com/blog/luna-selene-new-mayfair-clubs-2025",
     type: "article",
   },
@@ -28,21 +28,21 @@ export default function LunaSeleneNewMayfairClubsPage() {
   return (
     <>
       <ArticleSchema
-        title="Luna Club and Selene London Reviewed: Luna Has Closed"
-        description="Luna Club London has closed. Our review of Luna as it was, and of Selene London, which is open Thursday to Sunday."
+        title="Luna Club London Is Now Maya: Maya and Selene Compared"
+        description="Luna Club London is now Maya, the lounge club beneath Inca London. What changed, how it compares with Selene London, and how to book both."
         slug="/blog/luna-selene-new-mayfair-clubs-2025"
       />
       <ArticleLayout
-        title="Luna Club and Selene London Reviewed: Luna Has Closed"
-        subtitle="Luna Club London has closed; Selene, just north of Oxford Circus, is open Thursday to Sunday"
+        title="Luna Club London Is Now Maya: Maya and Selene Compared"
+        subtitle="Luna is now Maya, beneath Inca London; Selene, just north of Oxford Circus, is open Thursday to Sunday"
         heroImage={BLOG_IMAGES["luna-selene-new-mayfair-clubs-2025"]}
         heroAlt="Luna Club and Selene London new luxury nightclub interiors"
       >
 
         <div className="bg-gold/10 border border-gold/30 rounded-lg p-4 mb-6">
-          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Luna has closed</p>
+          <p className="text-gold font-semibold text-sm uppercase tracking-wider mb-1">Luna is now Maya</p>
           <p className="text-warm-gray text-sm">
-            Luna Club London has closed. Selene London, at 4 Winsley Street just north of Oxford Circus, is open Thursday to Sunday, 11pm to 4am. The Luna sections below describe the club as it was.
+            Luna Club London has rebranded as <Link href="/clubs/luna-club-london">Maya</Link>, the luxury lounge club beneath Inca London on Argyll Street, open Friday and Saturday, 11pm to 3am; we book its tables and guestlist, with table prices confirmed when you book. Selene London, at 4 Winsley Street just north of Oxford Circus, is open Thursday to Sunday, 11pm to 4am. The Luna sections below describe the club before the rebrand.
           </p>
         </div>
         <p>
@@ -54,7 +54,7 @@ export default function LunaSeleneNewMayfairClubsPage() {
           affluent audience.{" "}
           <Link href="/clubs/luna-club-london">Luna Club London</Link>{" "}and{" "}
           <Link href="/clubs/selene-london">Selene London</Link>{" "}were the
-          most notable additions. Luna has since closed; Selene is worth
+          most notable additions. Luna is now Maya, beneath Inca London; Selene is worth
           understanding if you are planning a night in Mayfair. One note on geography: Selene is
           not in Mayfair itself. It is at 4 Winsley Street in Fitzrovia, in
           Libertine&apos;s former space just north of Oxford Circus, a short
@@ -118,9 +118,8 @@ export default function LunaSeleneNewMayfairClubsPage() {
         </p>
 
         <p className="pull-quote">
-          Luna brought energy to Mayfair before it closed. Selene brings the
-          restraint that West End regulars respect, and it is the one of the
-          two you can still visit.
+          Luna brought energy to the West End before it became Maya. Selene
+          brings the restraint that West End regulars respect.
         </p>
 
         <h2>How They Compare</h2>
@@ -133,9 +132,9 @@ export default function LunaSeleneNewMayfairClubsPage() {
             <li><strong>Crowd:</strong>{" "}Luna = younger, energetic / Selene = older, discerning</li>
             <li><strong>Music:</strong>{" "}Both hip-hop/R&amp;B focused. Luna louder, Selene more curated</li>
             <li><strong>Best for:</strong>{" "}Luna = groups wanting energy / Selene = couples and smaller groups wanting sophistication</li>
-            <li><strong>Tables from:</strong>{" "}Selene from &pound;1,000 (Luna has closed)</li>
-            <li><strong>Location:</strong>{" "}Luna = Mayfair / Selene = 4 Winsley Street, Fitzrovia, just north of Oxford Circus</li>
-            <li><strong>Open:</strong>{" "}Luna = closed / Selene = Thursday to Sunday, 11pm to 4am</li>
+            <li><strong>Tables from:</strong>{" "}Selene from &pound;1,000; Maya (formerly Luna) price confirmed when you book</li>
+            <li><strong>Location:</strong>{" "}Maya (formerly Luna) = beneath Inca London, Argyll Street / Selene = 4 Winsley Street, Fitzrovia, just north of Oxford Circus</li>
+            <li><strong>Open:</strong>{" "}Maya (formerly Luna) = Friday and Saturday, 11pm to 3am / Selene = Thursday to Sunday, 11pm to 4am</li>
           </ul>
         </div>
 
@@ -181,7 +180,7 @@ export default function LunaSeleneNewMayfairClubsPage() {
         <ul>
           <li>
             <Link href="/clubs/luna-club-london">
-              Luna Club London Has Closed: Alternatives
+              Luna Club London Is Now Maya: Tables and Guestlist
             </Link>
           </li>
           <li>

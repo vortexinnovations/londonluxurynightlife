@@ -253,7 +253,9 @@ export default function BestNightclubsForHighSpendersLondonPage() {
           option for high spenders who want to be early adopters. Newer venues
           often offer more competitive terms and more attentive service as they
           build their client base. Luna Club, which opened in the same wave,
-          has since closed; the{" "}
+          is now{" "}
+          <Link href="/clubs/luna-club-london">Maya</Link>, a luxury lounge
+          club beneath Inca London open on Friday and Saturday; the{" "}
           <Link href="/blog/luna-selene-new-mayfair-clubs-2025">
             Selene review
           </Link>{" "}

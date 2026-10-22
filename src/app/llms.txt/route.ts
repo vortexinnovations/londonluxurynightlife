@@ -11,7 +11,7 @@ export function GET() {
   const clubLinks = clubs
     .map(
       (c) =>
-        `- [${c.name}](${SITE_URL}/clubs/${c.slug})${c.previousName ? ` (formerly ${c.previousName})` : ""}: ${c.tagline}. ${c.location}; music: ${c.musicStyle}; tables from ${c.tablesFrom}; open ${c.openingNights}.`
+        `- [${c.name}](${SITE_URL}/clubs/${c.slug})${c.previousName ? ` (formerly ${c.previousName})` : ""}: ${c.tagline}. ${c.location}; music: ${c.musicStyle}; ${c.tablesFrom ? `tables from ${c.tablesFrom}` : "table prices confirmed when you book"}; open ${c.openingNights}.`
     )
     .join("\n");
 

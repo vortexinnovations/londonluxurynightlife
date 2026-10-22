@@ -32,7 +32,7 @@ export default function ClubCard({ club, index }: { club: Club; index?: number }
         <p className="font-serif italic text-sm text-gold/90 mb-2.5">{club.tagline}</p>
         <p className="font-prose text-sm text-warm-gray leading-relaxed mb-3.5">{club.shortDescription}</p>
         <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-warm-gray leading-relaxed">
-          {club.area} &middot; Tables from {club.tablesFrom} &middot; {club.openingNights}
+          {club.area} &middot; {club.tablesFrom ? `Tables from ${club.tablesFrom}` : "Table prices on request"} &middot; {club.openingNights}
         </p>
         <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-warm-gray/70 mt-1">
           {club.musicStyle}

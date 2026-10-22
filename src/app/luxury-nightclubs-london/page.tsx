@@ -239,8 +239,9 @@ export default function LuxuryNightclubsLondonPage() {
         <p>
           <Link href="/clubs/selene-london">Selene</Link>, just north of
           Oxford Circus in Fitzrovia, brings refined sophistication and
-          represents the next generation of West End luxury. Luna Club, which opened in the same wave, has since
-          closed. Our{" "}
+          represents the next generation of West End luxury. Luna Club, which opened in the same wave, is now{" "}
+          <Link href="/clubs/luna-club-london">Maya</Link>, the Mayan-inspired
+          lounge club beneath Inca London on Argyll Street. Our{" "}
           <Link href="/blog/luna-selene-new-mayfair-clubs-2025">
             Selene review
           </Link>{" "}
