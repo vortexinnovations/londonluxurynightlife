@@ -1,5 +1,6 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
+import Image from "next/image";
 import Link from "next/link";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, NightClubSchema } from "@/components/SchemaMarkup";
@@ -11,6 +12,7 @@ import { CLUB_IMAGES } from "@/lib/images";
 // permanently (next.config.ts).
 const club = clubs.find((c) => c.slug === "rumour-london")!;
 const images = CLUB_IMAGES["rumour-london"];
+const [boothsWide, archedDoorway, boothDiscWall, bar, boothsLighting, tablesCurtains] = images.inline;
 
 const PATH = "/clubs/rumour-london";
 const TITLE = `${club.name} (formerly ${club.previousName}): Review, Booths and Guestlist`;
@@ -30,9 +32,26 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
     url: `${SITE_URL}${PATH}`,
-    images: [{ url: images.hero, alt: "Rumour (formerly Tabu): red velvet booths in the main room" }],
+    images: [{ url: images.hero, alt: "Rumour (formerly Tabu): the DJ booth with Pioneer decks in front of a backlit disc wall" }],
   },
 };
+
+function Photo({ src, alt, caption }: { src: string; alt: string; caption: string }) {
+  return (
+    <figure className="my-10">
+      <div className="relative aspect-[3/2] overflow-hidden">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="editorial-img object-cover"
+          sizes="(max-width: 768px) 100vw, 768px"
+        />
+      </div>
+      <figcaption className="font-prose italic text-sm text-warm-gray mt-3">{caption}</figcaption>
+    </figure>
+  );
+}
 
 export default function RumourLondonPage() {
   return (
@@ -42,7 +61,7 @@ export default function RumourLondonPage() {
         description={DESCRIPTION}
         slug={PATH}
         datePublished="2026-10-20"
-        dateModified="2026-10-20"
+        dateModified="2026-10-23"
       />
       <NightClubSchema
         name={club.name}
@@ -59,7 +78,7 @@ export default function RumourLondonPage() {
         previousName={club.previousName}
         subtitle={club.tagline}
         heroImage={images.hero}
-        heroAlt="Rumour (formerly Tabu): red velvet booths, dark panelling and a chandelier in the main room on Dover Street"
+        heroAlt="Rumour (formerly Tabu), Mayfair: the DJ booth with Pioneer decks in front of a backlit gold disc wall and red velvet booths"
         ctaMessage={waClubMessage(club.name)}
         ctaLabel="Book a Table at Rumour"
       >
@@ -111,13 +130,26 @@ export default function RumourLondonPage() {
 
         <p>
           Rumour is a single room, and it is built to feel like one. Booths in
-          deep red velvet line the walls under dark panelling, a chandelier
-          hangs over the floor and the lighting stays low and warm all night.
+          deep red velvet line the room beneath walls of backlit gold discs,
+          under dark timber beams, with red velvet curtains, an arched doorway
+          and low red lighting.
           With a capacity of around 200, the room fills early by design, and the
           booths are the point of the place: this is a club for a group that
           wants its own corner of one room. Dover Street sits between Piccadilly
           and Grafton Street, a few minutes&apos; walk from Green Park.
         </p>
+
+        <Photo
+          src={boothsWide}
+          alt="A row of red velvet booths beneath the backlit disc wall at Rumour, Mayfair"
+          caption="Red velvet booths beneath the disc wall."
+        />
+
+        <Photo
+          src={archedDoorway}
+          alt="The lit arched doorway and steps between two backlit disc walls at Rumour, Mayfair"
+          caption="The arched doorway between two disc walls."
+        />
 
         <h2>No Photos on the Floor</h2>
 
@@ -128,12 +160,20 @@ export default function RumourLondonPage() {
           rather their night stayed off someone else&apos;s story, that one rule
           does more for privacy than any velvet rope, and it changes the feel of
           the room: people are there for the night, not for the record of it.
+          The photos on this page are the venue&apos;s own; guests cannot take
+          photos inside.
           For more on discretion as the new status symbol, see our piece on{" "}
           <Link href="/blog/quiet-luxury-london-nightlife">
             quiet luxury in London nightlife
           </Link>
           .
         </p>
+
+        <Photo
+          src={boothDiscWall}
+          alt="A curved red velvet booth with ice buckets on the tables beneath the gold disc wall at Rumour, Mayfair"
+          caption="A curved booth beneath the disc wall, with ice buckets on the tables."
+        />
 
         <h2>The Music</h2>
 
@@ -148,6 +188,12 @@ export default function RumourLondonPage() {
           <Link href="/best-house-music-clubs-london">house music guide</Link>{" "}
           sort the rest of London by sound.
         </p>
+
+        <Photo
+          src={bar}
+          alt="The bar and its backlit bottle display at Rumour, Mayfair"
+          caption="The bar, with its backlit bottle display."
+        />
 
         <h2>The Door and the Dress Code</h2>
 
@@ -186,6 +232,12 @@ export default function RumourLondonPage() {
           sets out when each route makes sense.
         </p>
 
+        <Photo
+          src={tablesCurtains}
+          alt="Tables set with glassware and ice buckets in front of red velvet curtains at Rumour, Mayfair"
+          caption="Tables set with glassware and ice buckets. A booth's minimum spend goes on drinks."
+        />
+
         <h2>Private Hire and Membership</h2>
 
         <p>
@@ -207,13 +259,19 @@ export default function RumourLondonPage() {
           but the rebrand is complete: a new name, a new design and a new
           concept, opened in October 2026. Where Tabu was known for its
           Japanese-inspired minimalism, Rumour went the other way, into red
-          velvet, dark panelling and a chandelier. Our{" "}
+          velvet, backlit disc walls and red light. Our{" "}
           <Link href="/blog/tabu-london-japanese-underground-nightclub">
             earlier piece on Tabu and what changed
           </Link>{" "}
           keeps the history; everything on this page describes the club as it
           trades today.
         </p>
+
+        <Photo
+          src={boothsLighting}
+          alt="Booths around the room with red LED underlighting at Rumour, Mayfair"
+          caption="Booths around the room, lit red from below."
+        />
 
         <blockquote>
           Rumour&apos;s best feature is the one you cannot photograph: one red

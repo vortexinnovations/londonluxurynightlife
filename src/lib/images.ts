@@ -27,10 +27,19 @@ export const CLUB_IMAGES: Record<string, { hero: string; inline: string[] }> = {
     hero: img("DSC_7154.jpg"),
     inline: [img("DSC_7164.jpg"), img("DSC_7176.jpg")],
   },
-  // Rumour (formerly Tabu): one photo of the red booths, reused for every slot.
+  // Rumour (formerly Tabu): the venue's own photos (supplied 2026-10-23).
+  // inline order: booths-wide, arched-doorway, booth-disc-wall, bar,
+  // room-booths-lighting, tables-curtains.
   "rumour-london": {
-    hero: img("rumour-london.jpg"),
-    inline: [img("rumour-london.jpg")],
+    hero: img("rumour-london-dj-booth.jpg"),
+    inline: [
+      img("rumour-london-booths-wide.jpg"),
+      img("rumour-london-arched-doorway.jpg"),
+      img("rumour-london-booth-disc-wall.jpg"),
+      img("rumour-london-bar.jpg"),
+      img("rumour-london-room-booths-lighting.jpg"),
+      img("rumour-london-tables-curtains.jpg"),
+    ],
   },
   "funky-buddha": {
     hero: img("fe4414_9bca79c7758d42a48f33bfe38f57e6d0.jpg"),
@@ -99,7 +108,7 @@ export const CLUB_THUMBNAILS: Record<string, string> = {
   "tape-london": img("fe4414_c01ffefe47204db4837e42c2d0ace275.jpg"),
   "cirque-le-soir": img("fe4414_e922024731294a3ea658c81cc1c1c77f.jpg"),
   "reign-london": img("DSC_7155.jpg"),
-  "rumour-london": img("rumour-london.jpg"),
+  "rumour-london": img("rumour-london-room-across-bar.jpg"),
   "funky-buddha": img("fe4414_5dd524d974ed4435b62b0b022ff2d04a.jpg"),
   "99-regent-street": img("99-regent-street-entrance.jpg"),
   "scotch-of-st-james": img("fe4414_4f8ffd1c85424160acecfb2179b112e5.jpg"),
