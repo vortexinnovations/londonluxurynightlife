@@ -177,8 +177,9 @@ export default function LuxuryNightclubsLondonPage() {
         <p>
           <Link href="/clubs/rumour-london">Rumour</Link>{" "}on Dover Street
           treats privacy as the luxury. One intimate room of around 200 is
-          built around booths in deep red velvet, under dark panelling and a
-          chandelier, and no photos or video are allowed on the floor. The
+          built around red velvet booths beneath backlit gold disc walls, with
+          red velvet curtains and low red lighting, and no photos or video are
+          allowed on the floor. The
           music is open format, read to the room, and booths start from
           &pound;1,000 minimum spend, covering entry for the whole group.
         </p>
