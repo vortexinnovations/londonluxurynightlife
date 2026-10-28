@@ -1,7 +1,7 @@
 import Image from "next/image";
 import WhatsAppCTA from "./WhatsAppCTA";
 import RelatedGuides from "./RelatedGuides";
-import { WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER } from "@/lib/constants";
+import { WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER, SITE_NAME } from "@/lib/constants";
 
 interface ArticleLayoutProps {
   title: string;
@@ -15,6 +15,8 @@ interface ArticleLayoutProps {
   ctaLabel?: string;
   /** The club runs no guestlist: no guestlist button. */
   noGuestlist?: boolean;
+  /** A venue that has asked us to make our independence clear: shown under the dek. */
+  independentOf?: string;
 }
 
 /** Italicize the final word of a headline — the typographic signature */
@@ -39,6 +41,7 @@ export default function ArticleLayout({
   ctaMessage = WA_GENERAL_MESSAGE,
   ctaLabel = "Plan Your Night",
   noGuestlist = false,
+  independentOf,
 }: ArticleLayoutProps) {
   return (
     <>
@@ -57,6 +60,12 @@ export default function ArticleLayout({
           {subtitle && (
             <p className="font-prose italic text-xl text-warm-gray max-w-2xl mx-auto leading-relaxed">
               {subtitle}
+            </p>
+          )}
+          {independentOf && (
+            <p className="mt-6 font-sans text-xs text-warm-gray/80 max-w-xl mx-auto leading-relaxed">
+              Independent guide. {SITE_NAME} is not affiliated with, endorsed by or acting for {independentOf}.
+              Enquiries go to our own concierge service, not to the venue.
             </p>
           )}
         </header>

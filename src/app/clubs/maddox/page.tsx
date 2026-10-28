@@ -41,9 +41,10 @@ export default function MaddoxPage() {
         title={club.name}
         subtitle={club.tagline}
         heroImage={CLUB_IMAGES["maddox"]?.hero}
-        heroAlt={`${club.name} nightclub in ${club.location}`}
+        heroAlt="Two guests smiling with drinks on a night out"
         ctaMessage={waClubMessage(club.name)}
-        ctaLabel="Book a Table at Maddox"
+        ctaLabel="Ask Our Concierge"
+        independentOf="Maddox Club"
       >
         <div className="info-box">
           <p>
