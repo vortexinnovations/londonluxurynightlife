@@ -235,8 +235,7 @@ export default function ExclusiveClubsLondonPage() {
           north of Oxford Circus, is building its reputation as part of a new
           generation of West End venues.{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
-          operates with music-first selectivity that prizes genuine enthusiasm
-          over status.{" "}
+          is entered by table booking only, with house music from 1am.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}in
           Elephant and Castle is a different proposition altogether, built
           around one of the most famous sound systems in the world.
@@ -262,8 +261,8 @@ export default function ExclusiveClubsLondonPage() {
               Not viable at Tape or Cirque on weekends.
             </li>
             <li>
-              <strong>Walk-up:</strong>{" "}Only realistic at Maddox and BEAT on
-              quieter nights. Do not attempt at Tape.
+              <strong>Walk-up:</strong>{" "}Only realistic at Maddox on quieter
+              nights. Do not attempt at Tape.
             </li>
           </ul>
         </div>

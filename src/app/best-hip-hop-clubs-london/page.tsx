@@ -156,20 +156,7 @@ export default function BestHipHopClubsLondonPage() {
           covers what makes it worth watching.
         </p>
 
-        <h3>4. BEAT London: Sound System First</h3>
-
-        <p>
-          <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
-          deserves mention because its room-tuned sound system delivers
-          hip-hop with a clarity and weight that Mayfair venues cannot match.
-          When BEAT programmes hip-hop nights, the experience is defined by
-          the bass response and sonic detail. You hear elements of tracks
-          that you have never noticed before. It is a different proposition
-          from the Mayfair venues, but for genuine music enthusiasts, it is
-          essential.
-        </p>
-
-        <h3>5. Rumour (formerly Tabu): One Red Room</h3>
+        <h3>4. Rumour (formerly Tabu): One Red Room</h3>
 
         <p>
           <Link href="/clubs/rumour-london">Rumour</Link>, the Dover Street club
@@ -180,7 +167,7 @@ export default function BestHipHopClubsLondonPage() {
           from &pound;1,000 minimum spend, and the guestlist is for ladies.
         </p>
 
-        <h3>6. 99 Regent Street (formerly Cuckoo Club): Hip-Hop Upstairs</h3>
+        <h3>5. 99 Regent Street (formerly Cuckoo Club): Hip-Hop Upstairs</h3>
 
         <p>
           <Link href="/clubs/99-regent-street">99 Regent Street</Link>{" "}gives
@@ -223,9 +210,7 @@ export default function BestHipHopClubsLondonPage() {
           night out and want a premium experience with hip-hop as the
           soundtrack, Mayfair delivers that better than anywhere else in
           London. If you want a raw, underground experience where the music
-          comes first and the venue is secondary, look beyond W1. And if you
-          want both: start your evening at BEAT in Fitzrovia, then move to
-          Mayfair.
+          comes first and the venue is secondary, look beyond W1.
         </p>
 
         <h2>Best Nights for Hip-Hop</h2>
@@ -246,8 +231,8 @@ export default function BestHipHopClubsLondonPage() {
               is at its most relaxed midweek, and easiest for guestlist entry.
             </li>
             <li>
-              <strong>Friday:</strong>{" "}The peak night across all venues. Tape,
-              Cirque Le Soir and BEAT all deliver their strongest programming,
+              <strong>Friday:</strong>{" "}The peak night across all venues. Tape
+              and Cirque Le Soir both deliver their strongest programming,
               and both floors open at 99 Regent Street.
             </li>
             <li>

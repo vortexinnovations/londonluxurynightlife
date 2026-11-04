@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "Will I be turned away for wearing trainers to a London club?",
     answer:
-      "At most Mayfair clubs, yes. Trainers, even expensive designer ones, are refused at venues like Tape London, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London, The Box, and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
+      "At most Mayfair clubs, yes. Trainers, even expensive designer ones, are refused at venues like Tape London, Scotch of St James, and Dear Darling. Exceptions exist: BEAT London accepts trainers only if clean and smart, at the door's discretion, and The Box and some themed nights at other venues accept clean, fashion-forward trainers. If trainers are essential to your outfit, check with the venue or your promoter before arriving.",
   },
   {
     question: "What is the dress code for The Box London?",
@@ -238,8 +238,8 @@ export default function LondonClubDressCodeGuidePage() {
           These venues welcome more personality in dress. Clean designer
           trainers are generally accepted, dark jeans work comfortably, and
           the emphasis shifts from formality to style. The Box actively
-          encourages creative and expressive outfits. BEAT accepts the
-          fashion trainer with open arms. The basic rule remains: no
+          encourages creative and expressive outfits. At BEAT, trainers
+          only work if clean and smart, at the door&apos;s discretion. The basic rule remains: no
           sportswear, no flip-flops, no effort-free clothing.
         </p>
 

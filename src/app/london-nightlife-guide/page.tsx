@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: "Which area of London is best for nightlife?",
-    answer: "Mayfair is the centre of London's luxury nightlife with the highest concentration of premium clubs. Soho offers more creative and theatrical venues. Fitzrovia has emerging options like BEAT London. South London (Elephant & Castle area) is home to the electronic music scene.",
+    answer: "Mayfair is the centre of London's luxury nightlife with the highest concentration of premium clubs. Soho offers more creative and theatrical venues. Fitzrovia has BEAT London, an after-hours house music club. South London (Elephant & Castle area) is home to the electronic music scene.",
   },
   {
     question: "Can tourists get into London's exclusive clubs?",
@@ -136,9 +136,9 @@ export default function LondonNightlifeGuidePage() {
           Fitzrovia sits between Mayfair and Soho, drawing from both without
           belonging to either.{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}on Margaret
-          Street has established itself as the area&apos;s flagship venue,
-          with a sound system that prioritises audio quality over everything
-          else. The scene is smaller but growing, attracting a crowd that
+          Street has established itself as the area&apos;s flagship venue:
+          an after-hours house music club with what it describes as one of
+          London&apos;s finest sound systems. The scene is smaller but growing, attracting a crowd that
           values substance over postcode.
         </p>
 

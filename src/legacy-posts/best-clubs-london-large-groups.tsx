@@ -135,11 +135,11 @@ export default function BestClubsLondonLargeGroupsPage() {
         </p>
 
         <p>
-          <Link href="/clubs/beat-london">BEAT London</Link>{" "}delivers raw
-          nightclub energy with a sound system that ranks among London&apos;s
-          best. For groups that prioritise the music and the party over visual
-          spectacle, BEAT is the pick. The venue can accommodate larger bookings
-          and the staff understand how to manage multi-table setups.
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}is an
+          after-hours house music club with what the venue describes as one of
+          London&apos;s finest sound systems. For groups that prioritise the
+          music over visual spectacle, BEAT is the pick, though the capacity is
+          about 250, so speak to us early about a larger booking.
         </p>
 
         <p>
@@ -196,8 +196,8 @@ export default function BestClubsLondonLargeGroupsPage() {
         <p>
           Clubs that embrace the stag and hen market tend to be those with
           higher capacity, more theatrical energy, and a crowd that expects a
-          celebration atmosphere. The London Reign, Cirque Le Soir, and BEAT
-          London all handle these groups well. Be upfront with the venue or
+          celebration atmosphere. The London Reign and Cirque Le Soir both
+          handle these groups well. Be upfront with the venue or
           your concierge about the nature of the event: a club that knows it
           is hosting a stag do can prepare accordingly, while one that discovers
           it on the night may not be accommodating.

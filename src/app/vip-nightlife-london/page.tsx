@@ -203,9 +203,9 @@ export default function VIPNightlifeLondonPage() {
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
-          delivers VIP where the sound system is the star. The room-tuned
-          audio means your table puts you inside the music rather than beside
-          it.
+          delivers VIP where the sound system is the star: the venue&apos;s own
+          account is that it is one of London&apos;s finest. VIP tables start
+          from &pound;2,000.
         </p>
 
         <h3>Other Notable VIP Experiences</h3>

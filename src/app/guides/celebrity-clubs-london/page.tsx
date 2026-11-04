@@ -152,10 +152,10 @@ export default function CelebrityClubsPage() {
             the early part of the evening before heading elsewhere.
           </li>
           <li>
-            <Link href="/clubs/beat-london">BEAT London</Link>{" "}sees
-            occasional celebrity appearances, particularly from musicians
-            and DJs who appreciate the focus on sound and energy over
-            posturing.
+            <Link href="/clubs/beat-london">BEAT London</Link>{" "}has its
+            own music history: by the venue&apos;s own account it opened in
+            1966 as The Speakeasy Club, which hosted Jimi Hendrix, The Beatles,
+            Bob Marley and David Bowie.
           </li>
           <li>
             <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}

@@ -30,7 +30,7 @@ export default function BestHouseMusicClubsLondonPage() {
     <>
       <ArticleSchema
         title="Best House Music Clubs in London: The Definitive Guide"
-        description="The definitive guide to London's best house music clubs, from Maddox's seamless dinner-to-dance transition to BEAT London's audiophile sound system."
+        description="The definitive guide to London's best house music clubs, from Maddox's seamless dinner-to-dance transition to BEAT London's 1am doors."
         slug="/best-house-music-clubs-london"
       />
       <ArticleLayout
@@ -126,21 +126,16 @@ export default function BestHouseMusicClubsLondonPage() {
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
           occupies a unique position in this guide. It is not a Mayfair
           venue, and it does not offer the same luxury framework. What it
-          offers instead is a sound system that is arguably the finest in any
-          intimate London venue, and when that system is playing house music,
-          the experience is transcendent.
+          offers instead is house music from 1am to 6am, and a sound system
+          that, by the venue&apos;s own account, is one of London&apos;s finest.
         </p>
 
         <p>
-          The room at BEAT was tuned by acoustic engineers specifically for
-          electronic music. Bass frequencies are felt physically without
-          overwhelming the mid-range. High-frequency detail is preserved at
-          volume. The result is that you hear house music as it was produced:
-          every layer, every subtle modulation, every element of the mix.
-          For anyone who has only experienced house music through standard
-          club sound systems, hearing it at BEAT is a revelation. The crowd
-          reflects this. These are people who chose BEAT specifically for the
-          sonic experience.
+          The late hours are what set it apart. The doors are at 1am, so BEAT
+          can follow dinner or a bar elsewhere, and the club runs until 6am on
+          Friday, Saturday and select Thursdays. The room holds about 250, and
+          entry is by table booking, with tables from &pound;1,000 minimum
+          spend.
         </p>
 
         <h3>Dear Darling: Cocktail House</h3>
@@ -186,9 +181,6 @@ export default function BestHouseMusicClubsLondonPage() {
           its DJ bookings. Maddox has built the most consistent roster, with
           resident DJs who understand the venue&apos;s specific energy and
           regular guest bookings that bring fresh perspectives.
-          BEAT&apos;s bookings tend towards the more adventurous: DJs who
-          appreciate the sound system and want to showcase their
-          production-level mixing.
         </p>
 
         <p>
@@ -210,8 +202,8 @@ export default function BestHouseMusicClubsLondonPage() {
               Minimum spend from &pound;1,000.
             </li>
             <li>
-              <strong>BEAT London:</strong>{" "}Fitzrovia. Superior sound system.
-              Best for music purists.
+              <strong>BEAT London:</strong>{" "}Fitzrovia. House music from 1am to 6am.
+              Minimum spend from &pound;1,000.
             </li>
             <li>
               <strong>Dear Darling:</strong>{" "}Cocktail bar transitioning to
@@ -231,8 +223,8 @@ export default function BestHouseMusicClubsLondonPage() {
           gradually, which is precisely what house music itself does. Begin
           with dinner at Maddox and stay as the room transforms, or have
           cocktails at Dear Darling and let the evening evolve naturally. If
-          you want pure music focus, start at BEAT and experience the sound
-          system with fresh ears.
+          you want pure music focus, finish at BEAT, where the doors open at
+          1am.
         </p>
 
         <p>

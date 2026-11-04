@@ -134,7 +134,7 @@ export default function BirthdayNightOutLondonGuidePage() {
           <p>
             Groups of 8-12 work at almost any Mayfair club. Groups of 15-20
             need venues with flexible table configurations: The London Reign
-            and BEAT London handle this well. For 20+, see our{" "}
+            handles this well. For 20+, see our{" "}
             <Link href="/blog/best-clubs-london-large-groups">
               guide to London clubs for large groups
             </Link>

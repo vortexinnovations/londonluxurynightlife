@@ -253,9 +253,9 @@ export default function LuxuryNightclubsLondonPage() {
 
         <p>
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}in Fitzrovia
-          defines luxury through sound quality. The room-tuned system
-          delivers an audio experience that Mayfair venues cannot match,
-          attracting a crowd united by genuine enthusiasm for music.
+          defines luxury through sound. The venue&apos;s own account is that it
+          has one of London&apos;s finest sound systems, and it plays house
+          music from 1am to 6am.
         </p>
 
         <p>

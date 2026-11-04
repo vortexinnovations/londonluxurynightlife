@@ -179,11 +179,9 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         <p>
           North of Oxford Street,{" "}
           <Link href="/clubs/beat-london">BEAT London</Link>{" "}on Margaret Street
-          has carved out a reputation for pure, unfiltered nightclub energy.
-          Less concerned with table politics and more focused on sound quality,
-          BEAT attracts those who want to dance rather than be seen, while
-          still maintaining the smart dress code and premium feel of a luxury
-          venue.
+          is an after-hours house music club, open from 1am to 6am by table
+          booking. BEAT attracts those who want to dance rather than be seen,
+          while still keeping a smart casual dress code.
         </p>
 
         <h3>South London</h3>

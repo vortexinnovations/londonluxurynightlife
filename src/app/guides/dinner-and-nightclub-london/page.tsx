@@ -204,7 +204,8 @@ export default function DinnerAndNightclubPage() {
           with bistros, trattorias, and contemporary restaurants that are
           perfect for pre-club dining. The area has a slightly more relaxed
           energy than Mayfair, which suits BEAT&apos;s own
-          less-pretentious-more-music approach to nightlife.
+          less-pretentious-more-music approach to nightlife. BEAT&apos;s doors
+          are at 1am, so there is plenty of time for a full dinner first.
         </p>
 
         <h2>The Seamless Transition: Dinner-to-Club Venues</h2>
@@ -282,8 +283,8 @@ export default function DinnerAndNightclubPage() {
         <h3>The Music-First Night</h3>
         <p>
           Dinner in Fitzrovia, then{" "}
-          <Link href="/clubs/beat-london">BEAT London</Link>{" "}for serious
-          sound system energy, or a pre-booked taxi south to{" "}
+          <Link href="/clubs/beat-london">BEAT London</Link>{" "}for house music
+          from 1am, or a pre-booked taxi south to{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
           for a legendary electronic music experience. This route suits
           groups who care most about the music and want a less formal but no
