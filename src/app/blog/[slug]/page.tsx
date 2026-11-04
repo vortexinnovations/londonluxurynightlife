@@ -1,3 +1,4 @@
+import { escapedHtml, safeLinks, safeJsonLd } from "@/lib/safe-output";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
@@ -10,6 +11,9 @@ import { SITE_NAME, SITE_URL, TABLE_NUMBER } from "@/lib/constants";
 import { postImage } from "@/lib/images";
 import { fitTitle } from "@/lib/metadata";
 import { legacyPosts } from "@/legacy-posts";
+
+// Database posts are plain Markdown; raw HTML shows as text and only safe link schemes render.
+marked.use(escapedHtml, safeLinks);
 
 // Every post: the site's original posts (one module each in src/legacy-posts)
 // and posts published through the dashboard content API (Supabase
@@ -127,7 +131,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(articleSchema) }} />
       {faqs.length > 0 && <FAQSchema faqs={faqs} />}
       <ArticleLayout
         title={post.title}
