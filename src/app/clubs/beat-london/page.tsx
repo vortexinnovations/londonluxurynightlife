@@ -57,7 +57,7 @@ export default function BeatLondonReview() {
         </div>
 
         <p>
-          Strip away the chandeliers. Forget the Instagram-ready interiors. Remove the dinner menu, the cocktail theatre, the celebrity sightings, and the performative luxury. What remains when you reduce a night out to its essential components? Music, a sound system that does it justice, and a room full of people who came to dance. That is the case for BEAT London: an after-hours house music club at 48 Margaret Street in Fitzrovia, open from 1am to 6am on Friday, Saturday and select Thursdays, with entry by table booking from £1,000. Our short review: worth it if you want house music and a very late night, and the wrong choice if you want to be in a club by eleven. This is a nightclub for people who actually like nightclubs.
+          Strip away the chandeliers. Forget the Instagram-ready interiors. Remove the dinner menu, the cocktail theatre, the celebrity sightings, and the performative luxury. What remains when you reduce a night out to its essential components? Music, a sound system that does it justice, and a room full of people who came to dance. That is the case for BEAT London: an after-hours house music club at 48 Margaret Street in Fitzrovia, open from 1am to 6am on Friday, Saturday and select Thursdays, with entry by table booking from £1,000. Our short review: worth it if you want house music and a very late night, and the wrong choice if you want an early start. This is a nightclub for people who actually like nightclubs.
         </p>
 
         <h2>The Experience</h2>
@@ -65,7 +65,7 @@ export default function BeatLondonReview() {
           The venue announces its priorities in its own account of itself. BEAT describes its sound system as one of London&apos;s finest, and that is the claim to hold it to. With a capacity of about 250, this is a small enough room to be judged on what you hear rather than on how much of it there is. For anyone accustomed to the volume-over-quality approach of most central London clubs, it is a refreshing thing for a venue to lead with.
         </p>
         <p>
-          The other thing that defines the experience is the clock. BEAT is an after-hours club, and the doors are at 1am. The evening starts somewhere else, with dinner or a bar, and this is where it ends: most of the clubs we book close at 3:45am or 4am, while BEAT runs until 6am. Everything here is in service of the late part of the night.
+          The other thing that defines the experience is the clock. BEAT is an after-hours club, and the doors are at 1am. The evening starts somewhere else, with dinner or a bar, and this is where it ends: most of the clubs we book have closed well before BEAT&apos;s 6am finish. Everything here is in service of the late part of the night.
         </p>
 
         <h2>Atmosphere and Crowd</h2>
