@@ -94,7 +94,7 @@ export default function BeatLondonReview() {
 
         <h2>What to Expect on a Typical Night</h2>
         <p>
-          Doors open at 1am and the club closes at 6am. Plan dinner or a bar first, have your table confirmed before you set off, and bring photo ID. There is no earlier door to aim for, so there is nothing to gain from arriving ahead of time.
+          Doors open at 1am and the club closes at 6am. Nights run into the next morning, so a Friday night at BEAT means doors at 1am on Saturday morning. Plan dinner or a bar first, have your table confirmed before you set off, and bring photo ID. There is no earlier door to aim for, so there is nothing to gain from arriving ahead of time.
         </p>
         <p>
           Your table is your way in, not an optional extra. There is no guestlist and there are no tickets. As of November 2026, tables start from £1,000 minimum spend, spent on drinks, and VIP tables from £2,000. Bottles start from £750, in line with other clubs. If you are celebrating, tables can be booked for birthdays, with extras on request.
