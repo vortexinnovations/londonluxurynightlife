@@ -55,6 +55,11 @@ export async function GET(
   const { path } = await params;
   const segments = path.join("/");
   const pagePath = segments === "index" ? "/" : `/${segments}`;
+
+  // Pages only: this handler never fetches another API route, or itself.
+  if (segments === "api" || segments.startsWith("api/")) {
+    return new Response(notFoundMarkdown(pagePath), { status: 404, headers: MARKDOWN_HEADERS });
+  }
   const origin = new URL(request.url).origin;
 
   const upstream = await fetch(`${origin}${pagePath}`, {
