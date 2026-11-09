@@ -5,7 +5,8 @@ import { clubs, WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER, SITE
 import ClubCard from "@/components/ClubCard";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 import Reveal from "@/components/Reveal";
-import { HOME_IMAGES, SECTION_IMAGES } from "@/lib/images";
+import { HOME_IMAGES, SECTION_IMAGES, postImage } from "@/lib/images";
+import { getMergedPosts } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
   title: { absolute: "London Luxury Nightlife: Exclusive Clubs and VIP Tables" },
@@ -111,7 +112,20 @@ const guides = [
   },
 ];
 
-export default function Home() {
+// Prerendered. The "Latest Guides" block reads the same merged post list as
+// /blog, at build and regeneration only; /api/revalidate marks this page stale
+// when the content API publishes, and this daily regeneration is a safety net.
+// A failed read throws, as on /blog, so the last good page keeps being served.
+export const revalidate = 86400;
+
+const LATEST_POSTS = 6;
+
+export default async function Home() {
+  // Same list and order as the /blog index.
+  const latestPosts = [...(await getMergedPosts())]
+    .sort((a, b) => b.publishDate.localeCompare(a.publishDate))
+    .slice(0, LATEST_POSTS);
+
   return (
     <>
       {/* Hero — the cover */}
@@ -297,6 +311,69 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      {/* Latest guides: the six newest blog posts, linked in the server HTML */}
+      {latestPosts.length > 0 && (
+        <section aria-labelledby="latest-guides" className="py-24 sm:py-32 px-4 sm:px-6 bg-dark-surface border-t border-dark-border">
+          <div className="max-w-6xl mx-auto">
+            <Reveal className="mb-16">
+              <span className="eyebrow mb-6">The Journal &middot; No. 04</span>
+              <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+                <h2 id="latest-guides" className="font-serif text-[clamp(2.25rem,4.5vw,3.5rem)] font-normal text-cream leading-tight">
+                  Latest <span className="accent-word">Guides</span>
+                </h2>
+                <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
+                  The newest articles from the journal: club guides, real costs
+                  and what to know before a night out in London.
+                </p>
+              </div>
+            </Reveal>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
+              {latestPosts.map((post, i) => (
+                <Reveal key={post.slug} delay={(i % 3) * 80}>
+                  <article className="group relative">
+                    {postImage(post) && (
+                      <div className="relative aspect-[3/2] overflow-hidden">
+                        <Image
+                          src={postImage(post)}
+                          alt={post.imageAlt ?? post.title}
+                          fill
+                          className="editorial-img object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-[var(--ease-lux)]"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-ink/50 to-transparent" />
+                      </div>
+                    )}
+                    <div className="pt-4 border-t border-dark-border mt-[1px]">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="font-sans text-[10px] font-medium uppercase tracking-[0.25em] text-gold">
+                          {post.category}
+                        </span>
+                        <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-warm-gray">
+                          {post.readTime}
+                        </span>
+                      </div>
+                      <h3 className="font-serif text-xl font-medium text-foreground group-hover:text-gold-light transition-colors duration-200 mb-3 leading-snug">
+                        <Link href={`/blog/${post.slug}`} className="after:absolute after:inset-0">
+                          {post.title}
+                        </Link>
+                      </h3>
+                      <p className="font-prose text-sm text-warm-gray leading-relaxed">
+                        {post.excerpt}
+                      </p>
+                    </div>
+                  </article>
+                </Reveal>
+              ))}
+            </div>
+            <div className="mt-16 text-center">
+              <Link href="/blog" className="link-luxe">
+                Read every article &rarr;
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* WhatsApp CTA Section */}
       <section aria-labelledby="concierge" className="relative py-24 sm:py-32 px-4 sm:px-6 overflow-hidden border-y border-hairline-gold">
