@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { whatsappLink, WA_GENERAL_MESSAGE } from "@/lib/constants";
+import { PreferredSourceButton } from "./PreferredSourceButton";
 
 const navLinks = [
   { href: "/luxury-nightclubs-london", label: "Luxury Clubs" },
@@ -95,6 +96,12 @@ export default function MobileNav({
                 <span className="live-dot" aria-hidden />
                 Concierge online &middot; Replies in minutes
               </span>
+            </div>
+            <div className="mt-10 pt-8 border-t border-dark-border flex flex-col items-center gap-3">
+              <PreferredSourceButton placement="menu" />
+              <p className="font-sans text-[11px] tracking-[0.08em] text-warm-gray">
+                See us first in Google Search &amp; AI Mode
+              </p>
             </div>
           </nav>
         </div>

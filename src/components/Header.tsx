@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { whatsappLink, WA_GENERAL_MESSAGE } from "@/lib/constants";
 import LazyMobileNav from "./LazyMobileNav";
+import { PreferredSourceButton } from "./PreferredSourceButton";
 
 const navLinks = [
   { href: "/luxury-nightclubs-london", label: "Luxury Clubs" },
@@ -91,6 +92,13 @@ export default function Header() {
 
           <LazyMobileNav onOpenChange={setMenuOpen} />
         </div>
+      </div>
+
+      {/* Preferred Sources pill. The 1280px bar is full (logo, nav and the
+          WhatsApp button leave about 40px), so the pill sits at the right edge
+          of the screen, from the width where it clears the WhatsApp button. */}
+      <div className="hidden min-[1720px]:flex absolute inset-y-0 right-6 items-center">
+        <PreferredSourceButton placement="header" />
       </div>
     </header>
   );

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import WhatsAppCTA from "./WhatsAppCTA";
 import RelatedGuides from "./RelatedGuides";
+import { ArticlePreferredSourcePrompt } from "./PreferredSourceButton";
 import { WA_GENERAL_MESSAGE, WA_GUESTLIST_MESSAGE, GUESTLIST_NUMBER, SITE_NAME } from "@/lib/constants";
 
 interface ArticleLayoutProps {
@@ -94,6 +95,8 @@ export default function ArticleLayout({
         <div className="max-w-3xl mx-auto px-4 sm:px-6 article-content pt-14">
           {children}
         </div>
+
+        <ArticlePreferredSourcePrompt />
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <RelatedGuides />

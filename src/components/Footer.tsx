@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { clubs, WA_GENERAL_MESSAGE } from "@/lib/constants";
 import WhatsAppCTA from "./WhatsAppCTA";
+import { PreferredSourceButton } from "./PreferredSourceButton";
 
 export default function Footer() {
   return (
@@ -27,6 +28,12 @@ export default function Footer() {
             <p className="text-sm text-warm-gray leading-relaxed mb-4">
               The insider&apos;s guide to London&apos;s most exclusive clubs and luxury nightlife experiences. Curated for discerning visitors and locals alike.
             </p>
+            <div className="mt-6">
+              <PreferredSourceButton placement="footer" />
+              <p className="mt-2.5 text-xs text-warm-gray/70">
+                See us first in Google Search, Discover &amp; AI Mode.
+              </p>
+            </div>
           </div>
 
           <div>
