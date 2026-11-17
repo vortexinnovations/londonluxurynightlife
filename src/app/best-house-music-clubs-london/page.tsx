@@ -220,7 +220,7 @@ export default function BestHouseMusicClubsLondonPage() {
             <li>
               <strong>The Rex Rooms:</strong>{" "}Chelsea. House Wednesday, plus
               house and Latin across the week, 11pm to 3am. Minimum spend
-              confirmed when you book.
+              from &pound;1,000.
             </li>
             <li>
               <strong>Dear Darling:</strong>{" "}Cocktail bar transitioning to

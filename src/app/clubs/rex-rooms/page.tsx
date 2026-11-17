@@ -7,8 +7,8 @@ import { ArticleSchema, NightClubSchema } from "@/components/SchemaMarkup";
 import { waClubMessage, clubs, SITE_URL, SITE_NAME } from "@/lib/constants";
 import { CLUB_IMAGES } from "@/lib/images";
 
-// The Rex Rooms, 151 King's Road, Chelsea (owner facts, 2026-11-17). Table
-// minimum spends are not confirmed, so the page never quotes one; drinks prices
+// The Rex Rooms, 151 King's Road, Chelsea (owner facts, 2026-11-17). Tables are
+// from £1,000 minimum spend in both rooms (no separate room figure); drinks prices
 // are the owner's November 2026 menu and are confirmed when you book. The
 // photos are the owner's own and are used only on Rex Rooms pages.
 const club = clubs.find((c) => c.slug === "rex-rooms")!;
@@ -118,7 +118,7 @@ export default function RexRoomsPage() {
           </p>
           <p>
             <strong>Tables:</strong> In the Main Room and the VIP King&apos;s
-            Room. The minimum spend is confirmed when you book.
+            Room, from &pound;1,000 minimum spend.
           </p>
           <p>
             <strong>Drinks:</strong> Each room has its own menu. Packages from
@@ -204,8 +204,8 @@ export default function RexRoomsPage() {
           tables, numbered 1 to 14, are arranged around the main bar. Which
           room suits your group comes down to the night you want: the Main
           Room for being in the middle of it, the King&apos;s Room for a night
-          among your own guests. We confirm the table and its minimum spend
-          when you book; the minimum is not published.
+          among your own guests. Tables are from &pound;1,000
+          minimum spend, and we confirm the table when you book.
         </p>
 
         <Photo
