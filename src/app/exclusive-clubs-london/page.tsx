@@ -238,7 +238,13 @@ export default function ExclusiveClubsLondonPage() {
           is entered by table booking only, with house music from 1am.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}in
           Elephant and Castle is a different proposition altogether, built
-          around one of the most famous sound systems in the world.
+          around one of the most famous sound systems in the world. Away from
+          the West End,{" "}
+          <Link href="/clubs/rex-rooms">The Rex Rooms</Link>{" "}at 151
+          King&apos;s Road in Chelsea keeps its exclusivity for the VIP
+          King&apos;s Room, a more private space with a private-party feel
+          beside a Main Room that is open to everyone; tables in both are
+          booked ahead.
         </p>
 
         <h2>How to Maximise Your Chances</h2>

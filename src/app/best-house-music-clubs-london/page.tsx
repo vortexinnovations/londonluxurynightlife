@@ -138,6 +138,18 @@ export default function BestHouseMusicClubsLondonPage() {
           spend.
         </p>
 
+        <h3>The Rex Rooms: House on the King&apos;s Road</h3>
+
+        <p>
+          <Link href="/clubs/rex-rooms">The Rex Rooms</Link>{" "}at 151
+          King&apos;s Road takes house music to Chelsea. Wednesday is House
+          Wednesday, and the resident, DJ Tiempo, usually plays house and
+          Latin, with DJ Dan usually on more commercial sets.
+          The room is the other draw: a hand-carved bar, a black-and-white wave
+          floor and purple velvet booths. It opens on Monday and Wednesday to
+          Saturday, 11:30pm to 3am, with last entry at 2am.
+        </p>
+
         <h3>Dear Darling: Cocktail House</h3>
 
         <p>
@@ -204,6 +216,11 @@ export default function BestHouseMusicClubsLondonPage() {
             <li>
               <strong>BEAT London:</strong>{" "}Fitzrovia. House music from 1am to 6am.
               Minimum spend from &pound;1,000.
+            </li>
+            <li>
+              <strong>The Rex Rooms:</strong>{" "}Chelsea. House Wednesday, plus
+              house and Latin across the week, 11:30pm to 3am. Minimum spend
+              confirmed when you book.
             </li>
             <li>
               <strong>Dear Darling:</strong>{" "}Cocktail bar transitioning to

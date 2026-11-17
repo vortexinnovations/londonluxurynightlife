@@ -84,6 +84,16 @@ export const CLUB_IMAGES: Record<string, { hero: string; inline: string[] }> = {
     hero: img("fe4414_11a552e726fa49a4a469fe4ce46a7272.jpg"),
     inline: [img("fe4414_03e57f432c7d4f689fa9a2d9906ef9d0.jpg"), img("fe4414_016460dc35074665a9f15d051da0d9de.jpg")],
   },
+  // The Rex Rooms: the owner's own photos (2026-11-17), Rex Rooms pages only.
+  // inline order: velvet-booths, entrance (portrait), floor-plan.
+  "rex-rooms": {
+    hero: img("rex-rooms-chelsea-bar.jpg"),
+    inline: [
+      img("rex-rooms-chelsea-velvet-booths.jpg"),
+      img("rex-rooms-chelsea-entrance.jpg"),
+      img("rex-rooms-chelsea-floor-plan.jpg"),
+    ],
+  },
   // Closed clubs
   libertine: {
     hero: img("fe4414_6e2adddf70f24f388d49faeba85db960.jpg"),
@@ -118,6 +128,7 @@ export const CLUB_THUMBNAILS: Record<string, string> = {
   "luna-club-london": img("fe4414_9584be9cd3af42b28799afa2a52a64ec.jpg"),
   "selene-london": img("fe4414_486e18bdbca0451bb2f8be457b112419.jpg"),
   "beat-london": img("fe4414_243e282bb43f4d2cb03320ddb0cf5549.jpg"),
+  "rex-rooms": img("rex-rooms-chelsea-entrance.jpg"),
 };
 
 // ── Guide / editorial page hero images ──────────────────────────────

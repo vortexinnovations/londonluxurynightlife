@@ -258,6 +258,17 @@ export default function LuxuryNightclubsLondonPage() {
           music from 1am to 6am.
         </p>
 
+        <h3>The Rex Rooms: Design and Champagne in Chelsea</h3>
+
+        <p>
+          <Link href="/clubs/rex-rooms">The Rex Rooms</Link>{" "}at 151
+          King&apos;s Road is Chelsea&apos;s case for luxury as design: a
+          hand-carved bar over a black-and-white wave floor, purple velvet
+          booths under sculpted arches, and the VIP King&apos;s Room for a
+          private-party feel. As of November 2026 the champagne list starts at
+          &pound;500 and the signature packages at &pound;1,100.
+        </p>
+
         <p>
           Older names, updated: Tabu now trades as Rumour and the Cuckoo Club
           as 99 Regent Street (both above), and{" "}

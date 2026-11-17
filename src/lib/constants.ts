@@ -202,6 +202,18 @@ export const clubs: Club[] = [
     shortDescription: "An after-hours house music club on Margaret Street, open from 1am to 6am, by table booking. BEAT's own account is that it has one of London's finest sound systems.",
   },
   {
+    name: "The Rex Rooms",
+    slug: "rex-rooms",
+    tagline: "A sculpted room on the King's Road, a VIP King's Room and champagne from £500",
+    location: "151 King's Road, Chelsea",
+    area: "Chelsea",
+    musicStyle: "House, Latin, Commercial",
+    tablesFrom: "",
+    openingNights: "Monday and Wednesday to Saturday, 11:30pm to 3am",
+    dressCode: "Smart and stylish. No sportswear; the door has the final say.",
+    shortDescription: "Two rooms at 151 King's Road, Chelsea, on the site of the former 151 Club: the Main Room around the DJ and the bar, and the VIP King's Room with a private-party feel. Champagne from £500, packages from £1,100.",
+  },
+  {
     name: "Ministry of Sound",
     slug: "ministry-of-sound",
     tagline: "London's iconic temple of electronic music",

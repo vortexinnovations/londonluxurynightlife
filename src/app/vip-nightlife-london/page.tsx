@@ -216,7 +216,11 @@ export default function VIPNightlifeLondonPage() {
           <Link href="/clubs/the-box-london">The Box</Link>{" "}provides VIP for
           the adventurous: the performances are not for the faint-hearted.{" "}
           <Link href="/clubs/ministry-of-sound">Ministry of Sound</Link>{" "}
-          offers a different VIP proposition built around its sound system.
+          offers a different VIP proposition built around its sound system.{" "}
+          <Link href="/clubs/rex-rooms">The Rex Rooms</Link>{" "}on the
+          King&apos;s Road in Chelsea gives its VIP guests a room of their
+          own, the King&apos;s Room, with its own bar and a private-party feel,
+          and a champagne list that starts at &pound;500 (as of November 2026).
         </p>
 
         <h2>How to Book VIP Properly</h2>
