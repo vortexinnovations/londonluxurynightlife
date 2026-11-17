@@ -18,7 +18,7 @@ const [velvetBooths, entrance, floorPlan] = images.inline;
 const PATH = "/clubs/rex-rooms";
 const TITLE = "The Rex Rooms Chelsea: King's Room and Champagne List";
 const DESCRIPTION =
-  "The Rex Rooms, 151 King's Road, Chelsea: a sculpted bar, the VIP King's Room and champagne from £500. Open Monday and Wednesday to Saturday, 11:30pm to 3am.";
+  "The Rex Rooms, 151 King's Road, Chelsea: a sculpted bar, the VIP King's Room and champagne from £350. Open Monday and Wednesday to Saturday, 11:30pm to 3am.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -121,8 +121,10 @@ export default function RexRoomsPage() {
             Room. The minimum spend is confirmed when you book.
           </p>
           <p>
-            <strong>Drinks:</strong> Champagne from &pound;500, signature
-            packages from &pound;1,100 (as of November 2026)
+            <strong>Drinks:</strong> Each room has its own menu. Packages from
+            &pound;1,100 in both rooms. Main Room: champagne from &pound;350,
+            spirits from &pound;550. King&apos;s Room: champagne from
+            &pound;500, spirits from &pound;650 (as of November 2026)
           </p>
           <p>
             <strong>Entry:</strong> Free for mixed groups before 11:30pm (as
@@ -137,8 +139,9 @@ export default function RexRoomsPage() {
           Club, open since March 2025. It is one of the most richly designed rooms on
           the King&apos;s Road: a hand-carved bar, a black-and-white wave floor
           and purple velvet booths. The VIP King&apos;s Room is where many of
-          its VIP guests spend the night, and the champagne list starts at
-          &pound;500 and climbs to a thirty-litre bottle. It opens on Monday
+          its VIP guests spend the night. Each room has its own menu:
+          champagne starts at &pound;350 in the Main Room and &pound;500 in
+          the King&apos;s Room, and climbs to a thirty-litre bottle. It opens on Monday
           and Wednesday to Saturday, 11:30pm to 3am, with last entry at 2am.
           This page covers the design, the two rooms, the champagne list and
           how to book a table through us.
@@ -212,46 +215,85 @@ export default function RexRoomsPage() {
           aspect="aspect-square max-w-lg"
         />
 
-        <h2>The Champagne List</h2>
+        <h2>The Champagne List, Room by Room</h2>
 
         <p>
-          For a luxury night, the list is the second reason to book. Champagne
-          starts at &pound;500 for a bottle of Ruinart Brut and runs through
-          the prestige cuvées to the rosés, and the large formats go all the way
-          to a thirty-litre bottle. These are the prices as of November
-          2026; they can change and are confirmed when you book.
+          For a luxury night, the list is the second reason to book, and each
+          room has its own menu. The signature packages start at
+          &pound;1,100 in both rooms. In the Main Room, champagne starts at
+          &pound;350 for Moët and spirits at &pound;550; in the King&apos;s
+          Room, champagne starts at &pound;500 for Ruinart Brut and spirits at
+          &pound;650. These are the prices as of November 2026; they can
+          change and are confirmed when you book.
         </p>
+
+        <h3>Champagne in Both Rooms</h3>
+
+        <p>The champagne list is the same in the Main Room and the King&apos;s Room (75cl, magnums and larger bottles in brackets):</p>
 
         <ul>
           <li>Ruinart Brut: &pound;500</li>
-          <li>Ruinart Blanc de Blancs: &pound;550</li>
+          <li>Ruinart Blanc de Blancs: &pound;550 (magnum &pound;950)</li>
           <li>Krug Grande Cuvée: &pound;650</li>
-          <li>Dom Pérignon Luminous: &pound;650</li>
-          <li>Armand de Brignac Brut Gold: &pound;890</li>
+          <li>Dom Pérignon Luminous: &pound;650 (magnum &pound;1,300)</li>
+          <li>Armand de Brignac Brut Gold: &pound;890 (magnum &pound;1,690, jeroboam &pound;5,900, methuselah &pound;24,900)</li>
           <li>Dom Pérignon P2: &pound;1,290</li>
-          <li>Dom Pérignon Rosé Luminous: &pound;1,490</li>
-          <li>Armand de Brignac Rosé: &pound;1,490</li>
+          <li>Dom Pérignon Rosé Luminous: &pound;1,490 (magnum &pound;3,500)</li>
+          <li>Armand de Brignac Rosé: &pound;1,490 (magnum &pound;3,500, jeroboam &pound;6,900, methuselah &pound;32,900)</li>
         </ul>
 
         <p>
-          The signature packages pair champagne with Belvedere 10: the Rex
-          Royal Duo at &pound;1,100 (Belvedere 10 and Dom Pérignon Luminous),
-          the Rex Rosé Affair at &pound;1,900 (Belvedere 10 and Dom Pérignon
-          Rosé) and the Rex Rampage at &pound;4,900 (six Dom Pérignon Luminous
-          and a Belvedere 10 magnum).
+          Armand de Brignac goes further still: a nine-litre Salmanazar at
+          &pound;34,900, a nine-litre Salmanazar Rosé at &pound;59,900, a
+          twelve-litre Balthazar at &pound;49,500 and, at the summit, the
+          Midas, thirty litres by special order, at &pound;170,000.
         </p>
 
+        <h3>Main Room Only: Moët</h3>
+
+        <ul>
+          <li>Moët &amp; Chandon Brut Impérial: &pound;350</li>
+          <li>Moët &amp; Chandon Rosé Impérial: &pound;400</li>
+        </ul>
+
+        <h3>Signature Packages in Both Rooms</h3>
+
+        <ul>
+          <li>Rex Royal Duo: &pound;1,100 (Belvedere 10 and Dom Pérignon Luminous)</li>
+          <li>Rex Rosé Affair: &pound;1,900 (Belvedere 10 and Dom Pérignon Rosé Luminous)</li>
+          <li>Rex Rampage: &pound;4,900 (six Dom Pérignon Luminous and a Belvedere 10 magnum)</li>
+        </ul>
+
+        <h3>Main Room Spirits</h3>
+
+        <p>70cl, with the 1.75L magnum in brackets:</p>
+
+        <ul>
+          <li>Vodka: Belvedere 10 &pound;650 (&pound;1,390), Belvedere Pure &pound;550 (&pound;750), Meili &pound;590, Dirty Brew &pound;550</li>
+          <li>Tequila: Clase Azul Ultra Añejo &pound;10,995, Clase Azul Reposado &pound;1,590 (&pound;2,100), Volcán X.A. &pound;750 (&pound;1,200), Volcán Reposado &pound;580, Volcán Blanco &pound;550</li>
+          <li>Gin: 71 Gin &pound;700, Palmarae &pound;650, Tanqueray No. Ten &pound;550</li>
+          <li>Rum: Eminente 7 Year Old &pound;600, Eminente Ámbar Claro &pound;550</li>
+          <li>Cognac: Hennessy Paradis &pound;3,500, Hennessy XO &pound;850, Hennessy V.S. &pound;650</li>
+          <li>Whisky: Glenmorangie Signet &pound;650, Sir Davis &pound;550</li>
+        </ul>
+
+        <h3>King&apos;s Room Spirits</h3>
+
+        <p>70cl, with the magnum in brackets:</p>
+
+        <ul>
+          <li>Vodka: Belvedere 10 &pound;650 (&pound;1,390), Meili &pound;650</li>
+          <li>Tequila: Clase Azul Ultra Añejo &pound;10,995, Clase Azul Reposado magnum only &pound;2,100, Volcán X.A. &pound;750 (&pound;1,200), Volcán Reposado &pound;700, Volcán Blanco &pound;650</li>
+          <li>Gin: 71 Gin &pound;700, Palmarae &pound;650</li>
+          <li>Rum: Eminente 7 Year Old &pound;650</li>
+          <li>Cognac: Louis XIII &pound;11,900, Hennessy Paradis &pound;3,500, Hennessy XO &pound;850</li>
+          <li>Whisky: Glenmorangie Signet &pound;850, Sir Davis &pound;650</li>
+        </ul>
+
         <p>
-          Then there are the large formats. Magnums run from &pound;950 for
-          Ruinart Blanc de Blancs and &pound;1,300 for Dom Pérignon Luminous
-          to &pound;1,690 for Armand de Brignac Brut Gold and &pound;3,500 for
-          Armand de Brignac Rosé. Armand de Brignac Brut Gold continues in a
-          jeroboam at &pound;5,900, a methuselah at &pound;24,900, a
-          nine-litre salmanazar at &pound;34,900 and a twelve-litre balthazar
-          at &pound;49,500. At the summit is the Midas, thirty litres by
-          special order, at &pound;170,000. For spirits, the list runs from
-          Belvedere 10 at &pound;650 to Hennessy Paradis at &pound;3,500 and
-          Clase Azul Ultra Añejo at &pound;10,995.
+          Louis XIII is on the King&apos;s Room menu only, and the same bottle
+          can be priced differently in each room, so we confirm the menu for
+          your table when you book.
         </p>
 
         <blockquote>

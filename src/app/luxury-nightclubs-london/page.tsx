@@ -265,8 +265,9 @@ export default function LuxuryNightclubsLondonPage() {
           King&apos;s Road is Chelsea&apos;s case for luxury as design: a
           hand-carved bar over a black-and-white wave floor, purple velvet
           booths under sculpted arches, and the VIP King&apos;s Room for a
-          private-party feel. As of November 2026 the champagne list starts at
-          &pound;500 and the signature packages at &pound;1,100.
+          private-party feel. Each room has its own menu: as of November 2026, champagne starts
+          at &pound;350 in the Main Room and &pound;500 in the King&apos;s Room,
+          and the signature packages at &pound;1,100 in both.
         </p>
 
         <p>

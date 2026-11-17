@@ -219,8 +219,9 @@ export default function VIPNightlifeLondonPage() {
           offers a different VIP proposition built around its sound system.{" "}
           <Link href="/clubs/rex-rooms">The Rex Rooms</Link>{" "}on the
           King&apos;s Road in Chelsea gives its VIP guests a room of their
-          own, the King&apos;s Room, with its own bar and a private-party feel,
-          and a champagne list that starts at &pound;500 (as of November 2026).
+          own, the King&apos;s Room: its own bar, a private-party feel and its
+          own menu, where champagne starts at &pound;500 (as of November
+          2026).
         </p>
 
         <h2>How to Book VIP Properly</h2>

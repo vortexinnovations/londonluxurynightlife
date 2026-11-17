@@ -204,14 +204,14 @@ export const clubs: Club[] = [
   {
     name: "The Rex Rooms",
     slug: "rex-rooms",
-    tagline: "A sculpted room on the King's Road, a VIP King's Room and champagne from £500",
+    tagline: "A sculpted room on the King's Road, a VIP King's Room and packages from £1,100",
     location: "151 King's Road, Chelsea",
     area: "Chelsea",
     musicStyle: "House, Latin, Commercial",
     tablesFrom: "",
     openingNights: "Monday and Wednesday to Saturday, 11:30pm to 3am",
     dressCode: "Smart and stylish. No sportswear; the door has the final say.",
-    shortDescription: "Two rooms at 151 King's Road, Chelsea, on the site of the former 151 Club: the Main Room around the DJ and the bar, and the VIP King's Room with a private-party feel. Champagne from £500, packages from £1,100.",
+    shortDescription: "Two rooms at 151 King's Road, Chelsea, on the site of the former 151 Club: the Main Room around the DJ and the bar, and the VIP King's Room with a private-party feel. Packages from £1,100 in both rooms; champagne from £350 in the Main Room and £500 in the King's Room.",
   },
   {
     name: "Ministry of Sound",
