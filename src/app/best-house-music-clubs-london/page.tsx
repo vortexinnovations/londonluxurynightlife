@@ -147,7 +147,7 @@ export default function BestHouseMusicClubsLondonPage() {
           Latin, with DJ Dan usually on more commercial sets.
           The room is the other draw: a hand-carved bar, a black-and-white wave
           floor and purple velvet booths. It opens on Monday and Wednesday to
-          Saturday, 11:30pm to 3am, with last entry at 2am.
+          Saturday, 11pm to 3am, with last entry at 2am.
         </p>
 
         <h3>Dear Darling: Cocktail House</h3>
@@ -219,7 +219,7 @@ export default function BestHouseMusicClubsLondonPage() {
             </li>
             <li>
               <strong>The Rex Rooms:</strong>{" "}Chelsea. House Wednesday, plus
-              house and Latin across the week, 11:30pm to 3am. Minimum spend
+              house and Latin across the week, 11pm to 3am. Minimum spend
               confirmed when you book.
             </li>
             <li>

@@ -18,7 +18,7 @@ const [velvetBooths, entrance, floorPlan] = images.inline;
 const PATH = "/clubs/rex-rooms";
 const TITLE = "The Rex Rooms Chelsea: King's Room and Champagne List";
 const DESCRIPTION =
-  "The Rex Rooms, 151 King's Road, Chelsea: a sculpted bar, the VIP King's Room and champagne from £350. Open Monday and Wednesday to Saturday, 11:30pm to 3am.";
+  "The Rex Rooms, 151 King's Road, Chelsea: a sculpted bar, the VIP King's Room and champagne from £350. Open Monday and Wednesday to Saturday, 11pm to 3am.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -83,11 +83,11 @@ export default function RexRoomsPage() {
         name={club.name}
         alternateName="Rex Rooms Chelsea"
         slug={PATH}
-        description="Chelsea nightclub at 151 King's Road, on the site of the former 151 Club, opened in March 2025. Two rooms: the Main Room with the DJ and the bar, and the VIP King's Room. House, Latin and commercial music. Open Monday and Wednesday to Saturday, 11:30pm to 3am, last entry 2am. 18+ with photo ID."
+        description="Chelsea nightclub at 151 King's Road, on the site of the former 151 Club, opened in March 2025. Two rooms: the Main Room with the DJ and the bar, and the VIP King's Room. House, Latin and commercial music. Open Monday and Wednesday to Saturday, 11pm to 3am, last entry 2am. 18+ with photo ID."
         image={images.hero}
         streetAddress="151 King's Road"
         postalCode="SW3 5TX"
-        openingHours="Mo,We,Th,Fr,Sa 23:30-03:00"
+        openingHours="Mo,We,Th,Fr,Sa 23:00-03:00"
       />
       <ArticleLayout
         title={club.name}
@@ -107,7 +107,7 @@ export default function RexRoomsPage() {
           </p>
           <p>
             <strong>Opening Nights:</strong> Monday, Wednesday, Thursday,
-            Friday and Saturday, 11:30pm to 3am, last entry 2am. Closed
+            Friday and Saturday, 11pm to 3am, last entry 2am. Closed
             Tuesday and Sunday.
           </p>
           <p>
@@ -127,8 +127,8 @@ export default function RexRoomsPage() {
             &pound;500, spirits from &pound;650 (as of November 2026)
           </p>
           <p>
-            <strong>Entry:</strong> Free for mixed groups before 11:30pm (as
-            of November 2026). Otherwise guestlist and entry are by request,
+            <strong>Entry:</strong> Doors open at 11pm, and mixed groups who
+            arrive before 11:30pm get in free (as of November 2026). Otherwise guestlist and entry are by request,
             and any door charge is confirmed when you book.
           </p>
         </div>
@@ -142,7 +142,7 @@ export default function RexRoomsPage() {
           its VIP guests spend the night. Each room has its own menu:
           champagne starts at &pound;350 in the Main Room and &pound;500 in
           the King&apos;s Room, and climbs to a thirty-litre bottle. It opens on Monday
-          and Wednesday to Saturday, 11:30pm to 3am, with last entry at 2am.
+          and Wednesday to Saturday, 11pm to 3am, with last entry at 2am.
           This page covers the design, the two rooms, the champagne list and
           how to book a table through us.
         </p>
@@ -245,8 +245,8 @@ export default function RexRoomsPage() {
         <p>
           Armand de Brignac goes further still: a nine-litre Salmanazar at
           &pound;34,900, a nine-litre Salmanazar Rosé at &pound;59,900, a
-          twelve-litre Balthazar at &pound;49,500 and, at the summit, the
-          Midas, thirty litres by special order, at &pound;170,000.
+          twelve-litre Balthazar at &pound;49,500, a fifteen-litre Nebuchadnezzar
+          of Brut Gold at &pound;111,000 and, at the summit, the Midas, thirty litres by special order, at &pound;170,000.
         </p>
 
         <h3>Main Room Only: Moët</h3>
@@ -304,7 +304,7 @@ export default function RexRoomsPage() {
         <h2>The Nights and the Music</h2>
 
         <p>
-          The Rex Rooms opens five nights a week, from 11:30pm to 3am, with
+          The Rex Rooms opens five nights a week, from 11pm to 3am, with
           last entry at 2am:
         </p>
 
@@ -330,7 +330,8 @@ export default function RexRoomsPage() {
         <p>
           The Rex Rooms is 18+, and you need photo ID. The dress code is smart
           and stylish: avoid sportswear, and the door has the final say. As of
-          November 2026, entry is free for mixed groups before 11:30pm;
+          November 2026, the doors open at 11pm and mixed groups who arrive
+          before 11:30pm get in free;
           otherwise guestlist and entry are by request, and any door charge is
           confirmed when you book. Our{" "}
           <Link href="/london-club-dress-code-guide">dress code guide</Link>{" "}

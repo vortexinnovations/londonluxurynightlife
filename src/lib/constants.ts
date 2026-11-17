@@ -209,7 +209,7 @@ export const clubs: Club[] = [
     area: "Chelsea",
     musicStyle: "House, Latin, Commercial",
     tablesFrom: "",
-    openingNights: "Monday and Wednesday to Saturday, 11:30pm to 3am",
+    openingNights: "Monday and Wednesday to Saturday, 11pm to 3am",
     dressCode: "Smart and stylish. No sportswear; the door has the final say.",
     shortDescription: "Two rooms at 151 King's Road, Chelsea, on the site of the former 151 Club: the Main Room around the DJ and the bar, and the VIP King's Room with a private-party feel. Packages from £1,100 in both rooms; champagne from £350 in the Main Room and £500 in the King's Room.",
   },
