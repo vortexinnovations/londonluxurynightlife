@@ -3,6 +3,7 @@ import { Archivo, Bodoni_Moda, Newsreader } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LeadRefTracker from "@/components/LeadRefTracker";
 import { LocalBusinessSchema, WebSiteSchema, SiteNavigationSchema } from "@/components/SchemaMarkup";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import { SITE_OPEN_GRAPH } from "@/lib/metadata";
@@ -86,6 +87,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <LeadRefTracker />
       </body>
     </html>
   );
