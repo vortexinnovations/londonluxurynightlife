@@ -8,9 +8,11 @@ import { CLUB_IMAGES } from "@/lib/images";
 
 const club = clubs.find((c) => c.slug === "tape-london")!;
 
-const TITLE = "Tape London Review | What It's Really Like Inside";
+// The luxury angle (tables, service, crowd): mfnights.com owns the bare
+// "tape london reviews" search, so this page no longer leads with "review".
+const TITLE = "Tape London Bottle Service: A Luxury Night in Mayfair";
 const DESCRIPTION =
-  "Tape London review: the members' club at 17 Hanover Square, Mayfair, tables from £750. What it is like inside, who goes and the no-trainers dress code.";
+  "Tape London bottle service at 17 Hanover Square: tables from £750, premium bottles, discreet table service and a high-end Mayfair crowd until 3:45am.";
 
 export const metadata: Metadata = {
   title: fitTitle(TITLE),
@@ -33,13 +35,14 @@ export default function TapeLondonPage() {
   return (
     <>
       <ArticleSchema
-        title="Tape London Review"
-        description="An insider review of Tape London, the exclusive Mayfair members' club on Hanover Square favoured by celebrities and music industry insiders."
+        title={TITLE}
+        description={DESCRIPTION}
         slug="/clubs/tape-london"
+        dateModified="2026-11-22"
       />
       <ArticleLayout
         title={club.name}
-        subtitle={club.tagline}
+        subtitle="Premium tables, discreet service and Mayfair's most private crowd"
         heroImage={CLUB_IMAGES["tape-london"]?.hero}
         heroAlt={`${club.name} nightclub in ${club.location}`}
         ctaMessage={waClubMessage(club.name)}
@@ -59,18 +62,29 @@ export default function TapeLondonPage() {
             <strong>Dress Code:</strong> {club.dressCode}
           </p>
           <p>
-            <strong>Tables From:</strong> {club.tablesFrom}
+            <strong>Tables From:</strong> {club.tablesFrom} minimum spend
+          </p>
+          <p>
+            <strong>Hours:</strong> Main room until 3:45am; Little Tape next
+            door, Friday and Saturday, 3am to 5:30am
+          </p>
+          <p>
+            <strong>Guestlist:</strong> £0 to £20, by arrival time
           </p>
         </div>
 
         <p>
-          There are exclusive clubs in London, and then there is Tape. Tucked
-          behind an unmarked door on Hanover Square, this is the venue that
-          genuinely operates on a different level of access. You will not find
-          Tape advertising on Instagram. You will not stumble across it on a
-          Friday night walk through Mayfair. It exists for people who already
-          know about it, and that deliberate invisibility is precisely what
-          makes it magnetic.
+          Bottle service at Tape London is the luxury way to do one of
+          Mayfair&apos;s most private clubs: a reserved table from{" "}
+          {club.tablesFrom} minimum spend, premium bottles brought to the
+          table, and staff who look after the group without hovering until the
+          main room closes at 3:45am. Tape sits at 17 Hanover Square and opens
+          on Tuesday, Friday, Saturday and Sunday. The room is intimate and the
+          crowd is high-end, with faces from music, sport and film who come for
+          the privacy rather than the spectacle. Guestlist entry runs from £0
+          to £20 depending on arrival time, but a table is the surest way in
+          and the full experience, and on Friday and Saturday the night carries
+          on next door at Little Tape from 3am to 5:30am.
         </p>
 
         <h2>Walking Into Tape London</h2>
@@ -160,7 +174,12 @@ export default function TapeLondonPage() {
           fireworks or a stage show. You are paying for access to a room that
           most people in London will never enter. Bottles are premium, service
           is seamless, and the table experience feels personal rather than
-          transactional.
+          transactional. For how minimum spends and table service work across
+          the city, see our{" "}
+          <Link href="/blog/bottle-service-london-explained">
+            guide to bottle service in London
+          </Link>
+          .
         </p>
 
         <p>
