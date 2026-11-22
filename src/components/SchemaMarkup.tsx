@@ -87,9 +87,10 @@ export function NightClubSchema({
   streetAddress,
   postalCode,
   openingHours,
+  opensOnly,
 }: {
   name: string;
-  alternateName?: string;
+  alternateName?: string | string[];
   /** The page path, e.g. "/clubs/99-regent-street". */
   slug: string;
   description: string;
@@ -97,7 +98,12 @@ export function NightClubSchema({
   streetAddress: string;
   postalCode: string;
   /** schema.org openingHours, e.g. "We-Sa 23:00-04:00". */
-  openingHours: string;
+  openingHours?: string;
+  /**
+   * A club that publishes no closing time: its open days and opening time
+   * only, as an OpeningHoursSpecification with no `closes`.
+   */
+  opensOnly?: { days: string[]; opens: string };
 }) {
   const schema = {
     "@context": "https://schema.org",
@@ -114,7 +120,16 @@ export function NightClubSchema({
       postalCode,
       addressCountry: "GB",
     },
-    openingHours,
+    ...(openingHours ? { openingHours } : {}),
+    ...(opensOnly
+      ? {
+          openingHoursSpecification: {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: opensOnly.days.map((d) => `https://schema.org/${d}`),
+            opens: opensOnly.opens,
+          },
+        }
+      : {}),
   };
 
   return (

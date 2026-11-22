@@ -138,6 +138,21 @@ export default function BestHouseMusicClubsLondonPage() {
           spend.
         </p>
 
+        <h3>Bisou Mayfair: House on an Audiophile System</h3>
+
+        <p>
+          <Link href="/clubs/bisou-mayfair">Bisou Mayfair</Link>{" "}at 9
+          Swallow Street opened in 2026 and describes itself as an audiophile
+          space. The music is house, and the room runs on a Void Acoustics
+          sound system tuned to it. It opens on Thursday, Friday and Saturday
+          from 11pm until late, with guestlist by request and tables from
+          &pound;1,000 minimum spend. Our piece on{" "}
+          <Link href="/blog/bisou-mayfair-sound-system">
+            Bisou&apos;s sound system
+          </Link>{" "}
+          lists what is in the room.
+        </p>
+
         <h3>The Rex Rooms: House on the King&apos;s Road</h3>
 
         <p>
@@ -215,6 +230,11 @@ export default function BestHouseMusicClubsLondonPage() {
             </li>
             <li>
               <strong>BEAT London:</strong>{" "}Fitzrovia. House music from 1am to 6am.
+              Minimum spend from &pound;1,000.
+            </li>
+            <li>
+              <strong>Bisou Mayfair:</strong>{" "}Mayfair. House on a Void
+              Acoustics system, Thursday to Saturday from 11pm until late.
               Minimum spend from &pound;1,000.
             </li>
             <li>

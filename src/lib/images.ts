@@ -94,6 +94,13 @@ export const CLUB_IMAGES: Record<string, { hero: string; inline: string[] }> = {
       img("rex-rooms-chelsea-floor-plan.jpg"),
     ],
   },
+  // Bisou Mayfair: there are no photos of the club yet (2026-11-22). These are
+  // general club photographs with no venue identifiable; alt text and the
+  // page say so. Replace with the club's own photos when the owner has them.
+  "bisou-mayfair": {
+    hero: img("fe4414_2291dbc51f7c454086afe6888d025fdb.jpg"),
+    inline: [],
+  },
   // Closed clubs
   libertine: {
     hero: img("fe4414_6e2adddf70f24f388d49faeba85db960.jpg"),
@@ -129,6 +136,13 @@ export const CLUB_THUMBNAILS: Record<string, string> = {
   "selene-london": img("fe4414_486e18bdbca0451bb2f8be457b112419.jpg"),
   "beat-london": img("fe4414_243e282bb43f4d2cb03320ddb0cf5549.jpg"),
   "rex-rooms": img("rex-rooms-chelsea-entrance.jpg"),
+  "bisou-mayfair": img("fe4414_407bdf6a1f044803832c867cc694c953.jpg"),
+};
+
+// Card alt text for a thumbnail that is not a photo of the club itself (the
+// default alt says "<club> nightclub interior", which would be untrue).
+export const CLUB_THUMBNAIL_ALTS: Record<string, string> = {
+  "bisou-mayfair": "A crowd dancing in blue haze under ceiling-hung speakers: a general club photograph",
 };
 
 // ── Guide / editorial page hero images ──────────────────────────────

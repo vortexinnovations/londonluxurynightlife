@@ -258,6 +258,17 @@ export default function LuxuryNightclubsLondonPage() {
           music from 1am to 6am.
         </p>
 
+        <h3>Bisou Mayfair: The Audiophile Room</h3>
+
+        <p>
+          <Link href="/clubs/bisou-mayfair">Bisou Mayfair</Link>{" "}at 9
+          Swallow Street, opened in 2026, makes its case through sound as
+          well. It describes itself as an audiophile space: house music on a
+          Void Acoustics system tuned to the room, on Thursday, Friday and
+          Saturday from 11pm until late. Tables start from &pound;1,000
+          minimum spend and guestlist is by request.
+        </p>
+
         <h3>The Rex Rooms: Design and Champagne in Chelsea</h3>
 
         <p>

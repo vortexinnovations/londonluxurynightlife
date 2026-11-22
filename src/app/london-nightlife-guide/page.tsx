@@ -105,7 +105,10 @@ export default function LondonNightlifeGuidePage() {
           (formerly Cuckoo Club: two floors, two sounds),{" "}
           and{" "}
           <Link href="/clubs/maddox">Maddox</Link>{" "}(the best for dinner
-          and dancing). Just north of Oxford Circus, in Fitzrovia and a short
+          and dancing). On Swallow Street, by Piccadilly Circus,{" "}
+          <Link href="/clubs/bisou-mayfair">Bisou Mayfair</Link>{" "}plays
+          house on an audiophile sound system from Thursday to Saturday. Just
+          north of Oxford Circus, in Fitzrovia and a short
           walk from Mayfair,{" "}
           <Link href="/clubs/selene-london">Selene</Link>{" "}is the most
           refined newcomer. Our{" "}

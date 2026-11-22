@@ -14,6 +14,8 @@ interface ArticleLayoutProps {
   children: React.ReactNode;
   ctaMessage?: string;
   ctaLabel?: string;
+  /** A guestlist request that names the club; the general one otherwise. */
+  guestlistMessage?: string;
   /** The club runs no guestlist: no guestlist button. */
   noGuestlist?: boolean;
   /** A venue that has asked us to make our independence clear: shown under the dek. */
@@ -41,6 +43,7 @@ export default function ArticleLayout({
   children,
   ctaMessage = WA_GENERAL_MESSAGE,
   ctaLabel = "Plan Your Night",
+  guestlistMessage = WA_GUESTLIST_MESSAGE,
   noGuestlist = false,
   independentOf,
 }: ArticleLayoutProps) {
@@ -112,7 +115,7 @@ export default function ArticleLayout({
             {!noGuestlist && (
               <div className="mt-6">
                 <WhatsAppCTA
-                  message={WA_GUESTLIST_MESSAGE}
+                  message={guestlistMessage}
                   label="Or join the guestlist"
                   variant="inline"
                   number={GUESTLIST_NUMBER}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Club } from "@/lib/constants";
-import { CLUB_THUMBNAILS } from "@/lib/images";
+import { CLUB_THUMBNAILS, CLUB_THUMBNAIL_ALTS } from "@/lib/images";
 
 export default function ClubCard({ club, index }: { club: Club; index?: number }) {
   const thumbnail = CLUB_THUMBNAILS[club.slug];
@@ -12,7 +12,7 @@ export default function ClubCard({ club, index }: { club: Club; index?: number }
         <div className="relative aspect-[4/5] overflow-hidden">
           <Image
             src={thumbnail}
-            alt={`${club.name} nightclub interior`}
+            alt={CLUB_THUMBNAIL_ALTS[club.slug] ?? `${club.name} nightclub interior`}
             fill
             className="editorial-img object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-[var(--ease-lux)]"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"

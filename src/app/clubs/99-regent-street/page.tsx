@@ -141,6 +141,13 @@ export default function NinetyNineRegentStreetPage() {
           today.
         </p>
 
+        <p>
+          The lane has a second club now.{" "}
+          <Link href="/clubs/bisou-mayfair">Bisou Mayfair</Link>, a house
+          music bar and nightclub that opened in 2026, is also on Swallow
+          Street, at number 9.
+        </p>
+
         <Photo
           src={entrance}
           alt="99 Regent Street (formerly Cuckoo Club): the reception at the Swallow Street entrance, under the NinetyNine Regent Street sign"

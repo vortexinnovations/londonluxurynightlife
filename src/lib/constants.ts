@@ -25,6 +25,16 @@ export function waClubMessage(clubName: string): string {
   return `Hi, I read your review of ${clubName} on londonluxurynightlife.com and I'd like to book. Here are my details:\n\nDate:\nGroup size:\nBudget:\nAny preferences:`;
 }
 
+/** Table enquiry for a club page that is not written as a review. */
+export function waClubTableMessage(clubName: string): string {
+  return `Hi, I read about ${clubName} on londonluxurynightlife.com and I'd like to book a table. Here are my details:\n\nDate:\nGroup size:\nBudget:\nAny preferences:`;
+}
+
+/** Guestlist request that already names the club. */
+export function waClubGuestlistMessage(clubName: string): string {
+  return `Hi, I found you on londonluxurynightlife.com and I'd like to join the guestlist for ${clubName}. Here are my details:\n\nDate:\nGroup size (girls/guys):\nArrival time:`;
+}
+
 export interface Club {
   name: string;
   slug: string;
@@ -212,6 +222,20 @@ export const clubs: Club[] = [
     openingNights: "Monday and Wednesday to Saturday, 11pm to 3am",
     dressCode: "Smart and stylish. No sportswear; the door has the final say.",
     shortDescription: "Two rooms at 151 King's Road, Chelsea, on the site of the former 151 Club: the Main Room around the DJ and the bar, and the VIP King's Room with a private-party feel. Packages from £1,100 in both rooms; champagne from £350 in the Main Room and £500 in the King's Room.",
+  },
+  {
+    // Bisou (owner facts, 2026-11-22): no closing time, age limit or dress
+    // code is published, so none is stated; tables from £1,000 minimum spend.
+    name: "Bisou Mayfair",
+    slug: "bisou-mayfair",
+    tagline: "An audiophile bar and nightclub on Swallow Street, built around house music",
+    location: "9 Swallow Street, Mayfair",
+    area: "Mayfair",
+    musicStyle: "House",
+    tablesFrom: "£1,000",
+    openingNights: "Thursday to Saturday, 11pm until late",
+    dressCode: "The club publishes no dress code. Our guidance: dress smart, as for any Mayfair club, with no sportswear; the door has the final say.",
+    shortDescription: "A bar and nightclub at 9 Swallow Street, opened in 2026, that describes itself as an audiophile space: house music on a Void Acoustics sound system tuned to the room. Guestlist by request and tables from £1,000 minimum spend.",
   },
   {
     name: "Ministry of Sound",
