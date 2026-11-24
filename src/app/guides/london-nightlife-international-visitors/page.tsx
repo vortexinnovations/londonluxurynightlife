@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -69,10 +69,7 @@ export default function LondonNightlifeInternationalVisitors() {
         title="London Nightlife for International Visitors"
         description="Your complete guide to navigating London's luxury club scene as an international visitor, from transport and tipping to which Mayfair clubs suit your style."
         slug="/guides/london-nightlife-international-visitors"
-        datePublished="2025-01-15"
-        dateModified="2025-06-01"
       />
-      <FAQSchema faqs={faqs} />
 
       <ArticleLayout
         title="London Nightlife for International Visitors"

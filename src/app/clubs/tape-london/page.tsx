@@ -38,7 +38,6 @@ export default function TapeLondonPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug="/clubs/tape-london"
-        dateModified="2026-11-22"
       />
       <ArticleLayout
         title={club.name}

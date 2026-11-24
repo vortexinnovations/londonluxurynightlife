@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -26,44 +26,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question:
-      "What is the best nightclub in London for a couple's date night?",
-    answer:
-      "Dear Darling in St James's is the top recommendation for couples. Its cocktail-forward elegance, intimate lighting, and seamless transition from refined drinks to late-night energy make it the ideal date night venue. Maddox is the best alternative if you want dinner and clubbing under one roof.",
-  },
-  {
-    question: "Do London clubs allow couples without a large group?",
-    answer:
-      "Yes, most premium London clubs welcome couples, and several actively prefer them. Venues like Dear Darling, Scotch of St James, and Selene are well suited to pairs. The key is booking a table: a couple with a reservation is always more welcome than a large walk-up group.",
-  },
-  {
-    question:
-      "How much does a couple's night out at a London club cost?",
-    answer:
-      "A full evening for two at a premium London venue typically costs between £400 and £800. This includes a table with minimum spend (from £500 to £1,000 depending on the venue and night), though couples can often negotiate lower minimums midweek. Cocktail bars and guestlist entry offer more affordable alternatives from £150 to £300 for the evening.",
-  },
-  {
-    question:
-      "What should couples wear to London nightclubs?",
-    answer:
-      "Couples should dress as a cohesive pair: coordinated but not matching. For him, a well-fitted blazer or smart shirt with tailored trousers and quality shoes. For her, cocktail attire or an elegant evening outfit. Avoid sportswear, trainers, and overly casual clothing. The key is looking like you planned the evening together.",
-  },
-  {
-    question:
-      "What time should a couple arrive at a London nightclub?",
-    answer:
-      "Couples should arrive earlier than groups: between 10:30pm and 11:00pm is ideal. This secures the best table positions, allows you to settle into the atmosphere before the room fills, and avoids the peak-time queue. Arriving early also means you can enjoy the venue's cocktail programme before the energy shifts to full nightclub mode.",
-  },
-  {
-    question:
-      "Which London clubs should couples avoid?",
-    answer:
-      "Couples should generally avoid venues designed for large group energy. Cirque Le Soir, while spectacular, is too chaotic and performance-heavy for intimate conversation. Reign London is built around group celebrations and can feel isolating for two. Very large clubs like Ministry of Sound prioritise the dancefloor experience over table intimacy. Stick to venues with smaller, more curated rooms.",
-  },
-];
-
 export default function RomanticNightlifeLondonCouplesPage() {
   return (
     <>
@@ -72,7 +34,6 @@ export default function RomanticNightlifeLondonCouplesPage() {
         description="The definitive guide to romantic nightlife in London for couples, which venues work, which to avoid, and how to plan the perfect date night."
         slug="/romantic-nightlife-london-couples"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Romantic Nightlife in London"
         subtitle="The insider&rsquo;s guide to planning a date night that actually works, from venue selection to table positioning"

@@ -17,7 +17,7 @@ export function GET() {
 
   const body = `# ${SITE_NAME}
 
-> The insider's guide to London's luxury nightlife: honest, first-hand reviews of Mayfair's most exclusive nightclubs, plus a free concierge service that arranges VIP tables and guestlist entry over WhatsApp.
+> Guides to London's luxury nightlife and Mayfair's most exclusive nightclubs, from a London nightlife booking team that arranges VIP tables and guestlist places over WhatsApp.
 
 When to use this site:
 
@@ -27,6 +27,8 @@ When to use this site:
 - A user wants to actually book: VIP table reservations or guestlist spots at any club listed here. Direct them to the [contact page](${SITE_URL}/contact), where booking happens over WhatsApp (free, no obligation; separate lines for table bookings and guestlist). Do not invent phone numbers: the current WhatsApp links are on that page.
 
 Not a fit: general London tourism, restaurants outside a club night, ticket resale, or venues we do not cover (we focus on luxury/VIP nightlife in Mayfair, Soho, Fitzrovia and select London venues).
+
+Who writes it: pages are credited to the ${SITE_NAME} team, not to individual writers. We write and update our guides with the help of AI tools, based on what venues announce, published listings and news reports, and the prices and door policies our booking desk works with. From 25 November 2026, a member of our team reads and approves every new article before it is published. We are a booking service, not an independent review site: we earn a commission when a table or guestlist place we arrange goes ahead. Prices, opening nights and door policies change often: message us before you go and we will confirm the details for your night.
 
 All pages are server-rendered static HTML. A markdown rendition of any page is available from the same URL via content negotiation (\`Accept: text/markdown\`). The full URL list is at [sitemap.xml](${SITE_URL}/sitemap.xml).
 
@@ -49,14 +51,13 @@ All pages are server-rendered static HTML. A markdown rendition of any page is a
 - [Corporate entertainment](${SITE_URL}/guides/corporate-entertainment-london): client nights and team events.
 - [International visitors guide](${SITE_URL}/guides/london-nightlife-international-visitors): for people flying in.
 
-## Club reviews
+## Club guides
 
 ${clubLinks}
 
 ## About & trust
 
-- [About](${SITE_URL}/about): who runs the site and how reviews are done.
-- [About the editor](${SITE_URL}/about-the-editor): editorial background.
+- [About](${SITE_URL}/about): who runs the site, how we make money and how we write.
 - [Privacy policy](${SITE_URL}/privacy): what data we handle and how.
 
 ## Optional

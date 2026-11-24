@@ -76,8 +76,6 @@ export default function RexRoomsPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug={PATH}
-        datePublished="2026-11-17"
-        dateModified="2026-11-17"
       />
       <NightClubSchema
         name={club.name}

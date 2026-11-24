@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,34 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "What are the best clubs in London on a Friday night?",
-    answer:
-      "The best Friday night clubs in London include Tape London for celebrity-grade exclusivity, Cirque Le Soir for theatrical spectacle, Reign London for showclub entertainment, Maddox Club for house music, BEAT London for pure sound system energy, and 99 Regent Street (formerly Cuckoo Club) for reliable Mayfair nightlife. The best choice depends on your music preference and what kind of evening you want.",
-  },
-  {
-    question: "What time should I arrive at a London club on Friday?",
-    answer:
-      "For guestlist entry on Friday, arrive between 10:30pm and 11:30pm. After this window, doors tighten significantly. For table bookings, most venues specify an arrival window of 10:30pm to 12:30am. The atmosphere typically peaks between midnight and 2am. Arriving too early means sitting in a half-empty room; arriving too late means facing a much harder door.",
-  },
-  {
-    question: "Do I need to book a table for Friday night in London?",
-    answer:
-      "Table booking is strongly recommended for Friday nights at London's premium clubs. Friday is the busiest night of the week, and walk-up guestlist entry is competitive. A table guarantees entry, provides dedicated service, and gives you a base for the evening. Booking through a concierge service ensures the best table positioning and removes uncertainty.",
-  },
-  {
-    question: "Is Friday or Saturday better for clubbing in London?",
-    answer:
-      "Friday tends to offer a slightly more energetic, release-of-the-working-week atmosphere with a crowd that is celebrating the start of the weekend. Saturday draws a broader crowd including more tourists and occasional visitors. Both are excellent, but Friday often feels more electric because of the collective anticipation. Many London regulars prefer Friday for exactly this reason.",
-  },
-  {
-    question: "How much does a Friday night out at a London club cost?",
-    answer:
-      "Costs vary significantly. Guestlist entry is free at most venues but not guaranteed. Table minimum spends on Friday range from £1,000 to £2,000+ depending on the venue and table position. Individual drinks at the bar cost £15-25 each. A full Friday night including pre-drinks, club entry, and drinks can range from £100 per person on guestlist to £300+ per person with bottle service.",
-  },
-];
-
 export default function BestFridayNightClubsLondonPage() {
   return (
     <>
@@ -66,7 +38,6 @@ export default function BestFridayNightClubsLondonPage() {
         description="The definitive guide to Friday night clubs in London. Best venues by category, timing strategy, booking advice, and what makes Friday the main event."
         slug="/blog/best-friday-night-clubs-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Friday Night Clubs in London"
         subtitle="The main event night: which venues deliver, how to time it, and why booking matters"

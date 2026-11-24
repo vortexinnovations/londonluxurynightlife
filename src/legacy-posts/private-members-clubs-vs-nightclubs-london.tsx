@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -32,31 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question:
-      "What is the difference between a members club and a nightclub in London?",
-    answer:
-      "A members club requires membership (annual fee, application process, often referrals) and offers an ongoing social environment: dining, working, socialising, and sometimes late-night entertainment. A nightclub is open to the public (subject to door policy) and focuses specifically on nightlife entertainment: music, dancing, bottle service, and performances. Members clubs sell belonging; nightclubs sell an experience.",
-  },
-  {
-    question: "How much does membership cost at London's private members clubs?",
-    answer:
-      "Annual membership at London's prominent private members clubs ranges from approximately £1,000 to £3,000+ per year, with joining fees sometimes adding another £500-1,500 on top. Soho House membership starts around £1,200 annually. Higher-tier clubs like Annabel's charge significantly more. Most also require a proposer and seconder who are existing members, and many have waiting lists.",
-  },
-  {
-    question: "Can you visit a private members club in London without being a member?",
-    answer:
-      "Most private members clubs allow members to bring guests, so you can visit as someone's guest. Some clubs also operate public restaurants or bars at street level while keeping upper floors members-only. A few venues, like Tape London, operate as both a members club and a nightclub: members access certain areas, while the nightclub element is accessible through table bookings and guestlists.",
-  },
-  {
-    question:
-      "Are private members clubs better than nightclubs for a night out?",
-    answer:
-      "Neither is objectively better; they serve different purposes. Members clubs offer a more relaxed, social evening in refined surroundings with a consistent crowd. Nightclubs deliver higher energy, better sound systems, professional DJ programming, and a more dynamic atmosphere. If you want to dance until 3am with world-class music and theatrical energy, a nightclub is the answer. If you want civilised drinks and conversation in an exclusive setting, a members club is the answer.",
-  },
-];
-
 export default function PrivateMembersClubsVsNightclubsPage() {
   return (
     <>
@@ -65,7 +40,6 @@ export default function PrivateMembersClubsVsNightclubsPage() {
         description="How London's members clubs and nightclubs compare on atmosphere, exclusivity, cost, music, and crowd, and which experience suits you."
         slug="/blog/private-members-clubs-vs-nightclubs-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Private Members Clubs vs Public Nightclubs in London"
         subtitle="An honest comparison of two fundamentally different approaches to London nightlife"

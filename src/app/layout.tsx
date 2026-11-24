@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LeadRefTracker from "@/components/LeadRefTracker";
-import { LocalBusinessSchema, WebSiteSchema, SiteNavigationSchema } from "@/components/SchemaMarkup";
+import { OrganizationSchema, WebSiteSchema, SiteNavigationSchema } from "@/components/SchemaMarkup";
 import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import { SITE_OPEN_GRAPH } from "@/lib/metadata";
 
@@ -81,7 +81,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://wa.me" />
       </head>
       <body className="min-h-screen bg-background text-foreground font-sans antialiased">
-        <LocalBusinessSchema />
+        <OrganizationSchema />
         <WebSiteSchema />
         <SiteNavigationSchema />
         <Header />

@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,34 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "Is 30 too old to go clubbing in London?",
-    answer:
-      "Absolutely not. The average age at most Mayfair luxury clubs skews 28-45. These venues are designed for professionals and affluent adults, not students. You will likely feel more comfortable in your 30s at a Mayfair club than you did at university nightclubs in your 20s.",
-  },
-  {
-    question: "Which London clubs have the oldest crowd?",
-    answer:
-      "Scotch of St James, Maddox Club, and Dear Darling consistently attract the most mature crowds, typically 30-50. These venues prioritise sophistication over volume and attract established professionals, creatives, and industry figures rather than a young party crowd.",
-  },
-  {
-    question: "Do London clubs have age limits?",
-    answer:
-      "Most London clubs require guests to be at least 18, with many Mayfair venues setting 21 as their minimum. There is no upper age limit. The door policy at luxury clubs favours well-presented, confident guests regardless of age. Looking polished matters far more than looking young.",
-  },
-  {
-    question: "Is table service better for over 30s?",
-    answer:
-      "Table service is ideal for over 30s. It eliminates standing for hours, queuing at the bar, and competing for space. You have a dedicated area, a personal host, and a far more civilised experience. Most groups in their 30s find the per-person cost of splitting a table very reasonable for the quality of evening it provides.",
-  },
-  {
-    question: "What should someone over 30 wear to a London club?",
-    answer:
-      "Smart and refined. For men: tailored trousers or dark jeans, a well-fitted shirt or blazer, and quality shoes. No trainers. For women: cocktail dress, elegant separates, or tailored pieces with heels. The Mayfair dress code rewards polish and understated quality over trend-chasing.",
-  },
-];
-
 export default function BestLondonClubsOver30sPage() {
   return (
     <>
@@ -66,7 +38,6 @@ export default function BestLondonClubsOver30sPage() {
         description="The best London clubs for over 30s who want a sophisticated night out. Mayfair venues where 28-45 is the norm, not the exception."
         slug="/blog/best-london-clubs-over-30s"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best London Clubs for Over 30s: Where the Grown-Up Crowd Goes"
         subtitle="Mayfair's luxury scene is the over-30s scene, you just didn't know it yet"

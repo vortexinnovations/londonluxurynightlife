@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "From June to September, supercar season fills Mayfair with the international set. How it reshapes London's clubs, the crowd and the spend after dark.",
   keywords:
     "london supercar season nightlife, mayfair supercar season, knightsbridge supercars summer, london summer luxury nightlife, where the wealthy party london",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "London's Supercar Season: How Summer Wealth Reshapes Mayfair Nightlife",
     description:
@@ -39,35 +32,6 @@ export default function LondonSupercarSeasonNightlifePage() {
         datePublished="2026-06-13"
         dateModified="2026-06-13"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "London's Supercar Season: How Summer Wealth Reshapes Mayfair Nightlife",
-            datePublished: "2026-06-13",
-            dateModified: "2026-06-13",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-382.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/london-supercar-season-nightlife",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="London's Supercar Season: How Summer Wealth Reshapes Mayfair Nightlife"
         subtitle="How the summer influx of supercars and the international set fills Mayfair's most exclusive rooms"
@@ -75,8 +39,7 @@ export default function LondonSupercarSeasonNightlifePage() {
         heroAlt="Luxury supercars parked outside an exclusive Mayfair venue on a summer night"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury
-          Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 13 June 2026</p>
 

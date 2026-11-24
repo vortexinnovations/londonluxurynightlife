@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "How Frieze week reshapes London's luxury nightlife every October. The dinners, the members' rooms, which nights peak, and how the art crowd actually socialises.",
   keywords:
     "frieze week london nightlife, art fair week london evenings, london art week dinners, luxury nightlife october london",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title:
       "Frieze Week Nightlife: Where London's Art Crowd Goes After Dark",
@@ -41,34 +34,6 @@ export default function FriezeWeekLondonNightlifePage() {
         datePublished="2026-09-04"
         dateModified="2026-09-04"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Frieze Week Nightlife: Where London's Art Crowd Goes After Dark",
-            datePublished: "2026-09-04",
-            dateModified: "2026-09-04",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/frieze-week-london-nightlife",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Frieze Week Nightlife: Where London&apos;s Art Crowd Goes After Dark"
         subtitle="How one week in October turns Mayfair's evenings over to the art world"
@@ -76,7 +41,7 @@ export default function FriezeWeekLondonNightlifePage() {
         heroAlt="An elegant, low-lit London members room during art fair week"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">
           Last updated: 4 September 2026

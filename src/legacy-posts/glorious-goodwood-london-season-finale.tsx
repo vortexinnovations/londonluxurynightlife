@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "How Glorious Goodwood week plays out in London after dark: the season finale rhythm, the quiet midweek, the last full weekend, and where summer goes next.",
   keywords:
     "glorious goodwood london nightlife, goodwood week london, london social season finale, qatar goodwood festival nightlife, end of london season party",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "Glorious Goodwood Week: How London's Social Season Ends After Dark",
     description:
@@ -39,35 +32,6 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
         datePublished="2026-07-06"
         dateModified="2026-07-06"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Glorious Goodwood Week: How London's Social Season Ends After Dark",
-            datePublished: "2026-07-06",
-            dateModified: "2026-07-06",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/fe4414_d2deed200e764c838ba29b12be5dde53.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/glorious-goodwood-london-season-finale",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Glorious Goodwood Week: How London's Social Season Ends After Dark"
         subtitle="The season that opens at Ascot takes its bow on the Sussex Downs, and London's most exclusive rooms feel every act of it"
@@ -75,8 +39,7 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
         heroAlt="Champagne service in an exclusive London club during the summer social season"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury
-          Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 6 July 2026</p>
 

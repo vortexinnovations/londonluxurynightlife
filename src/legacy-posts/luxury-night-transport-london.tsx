@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "Luxury night transport in London explained: how chauffeurs and security drivers work the club circuit, what standby costs, and how the 3am pick-up is arranged.",
   keywords:
     "luxury night transport london, chauffeur night out london, security driver london nightlife, private driver london clubs, 3am pick up london clubs",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "Chauffeurs After Dark: How London's Luxury Crowd Gets Around at Night",
     description:
@@ -39,35 +32,6 @@ export default function LuxuryNightTransportLondonPage() {
         datePublished="2026-07-07"
         dateModified="2026-07-07"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Chauffeurs After Dark: How London's Luxury Crowd Gets Around at Night",
-            datePublished: "2026-07-07",
-            dateModified: "2026-07-07",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-590.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/luxury-night-transport-london",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Chauffeurs After Dark: How London's Luxury Crowd Gets Around at Night"
         subtitle="The quietest flex in London nightlife is the car that is already waiting before you have asked for it"
@@ -75,8 +39,7 @@ export default function LuxuryNightTransportLondonPage() {
         heroAlt="Late-night arrival scene at an exclusive London nightclub during the summer season"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury
-          Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 7 July 2026</p>
 

@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -66,7 +66,6 @@ export default function LondonClubDressCodeGuidePage() {
         description="The definitive dress code guide for London's best nightclubs: men's and women's guides, venue-by-venue strictness tiers, Mayfair expectations, and every common mistake to avoid."
         slug="/london-club-dress-code-guide"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Club Dress Code Guide"
         subtitle="What to actually wear to London's best nightclubs: venue by venue, gender by gender, and mistake by mistake"

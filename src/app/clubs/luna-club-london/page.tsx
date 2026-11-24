@@ -43,8 +43,6 @@ export default function MayaLondonPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug={PATH}
-        datePublished="2026-10-22"
-        dateModified="2026-10-22"
       />
       <NightClubSchema
         name={club.name}

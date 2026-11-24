@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -66,7 +66,6 @@ export default function DinnerAndNightclubPage() {
         description="How to seamlessly combine fine dining with world-class nightlife for an unforgettable London evening. Restaurant recommendations, timing, transport, and dress code advice."
         slug="/guides/dinner-and-nightclub-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Dinner and Nightclub: Planning a Full Luxury Evening in London"
         subtitle="How to seamlessly combine fine dining with world-class nightlife for an unforgettable London evening"

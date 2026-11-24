@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,29 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "What time should I start pre-drinks before going to a Mayfair club?",
-    answer:
-      "Arrive at your cocktail bar between 8:30pm and 9:30pm. This gives you a comfortable two hours for drinks and conversation before heading to the club at 10:30-11:30pm, which is the ideal arrival window for both guestlist and table bookings at most Mayfair venues.",
-  },
-  {
-    question: "What should I drink at a cocktail bar before clubbing?",
-    answer:
-      "Start with cocktails you enjoy but pace yourself: the evening is a marathon, not a sprint. Classic cocktails (Negroni, Old Fashioned, Espresso Martini) are reliable choices at quality bars. Avoid heavy, cream-based drinks that sit in the stomach. Switch to champagne or lighter serves towards the end of pre-drinks to keep your energy up for the club.",
-  },
-  {
-    question: "Do I need to dress for the club at the cocktail bar?",
-    answer:
-      "Yes. Dress for your final destination from the start of the evening. Mayfair cocktail bars have smart dress codes that align with club standards, so there is no conflict. Changing outfits between venues is impractical and unnecessary. Wear your club outfit to the bar: you will fit in perfectly at both.",
-  },
-  {
-    question: "How much do cocktails cost in Mayfair?",
-    answer:
-      "Cocktails at Mayfair's premium bars typically range from £16 to £25 each. A comfortable pre-drinks session of two to three cocktails per person will cost £35-75 per person before any food. Champagne by the glass ranges from £15-30. Budget approximately £50-80 per person for a civilised pre-club drinks session.",
-  },
-];
-
 export default function BestCocktailBarsMayfairPage() {
   return (
     <>
@@ -61,7 +38,6 @@ export default function BestCocktailBarsMayfairPage() {
         description="Where to drink before hitting Mayfair's clubs. The best cocktail bars near Tape London, Maddox, 99 Regent Street, and more, with timing and price guidance."
         slug="/blog/best-cocktail-bars-mayfair-before-clubbing"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Cocktail Bars Near Mayfair Clubs for Pre-Drinks"
         subtitle="Where to set the tone before the main event: the best bars within walking distance of London's top clubs"

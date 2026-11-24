@@ -144,18 +144,19 @@ test("homepage carries all four metadata signals", async () => {
 
 // ── 6. Organization schema completeness ─────────────────────────────
 
-test("Organization/LocalBusiness schema includes contactPoint and address", async () => {
+test("Organization schema includes contactPoint and no address", async () => {
   const res = await get("/");
   const html = await res.text();
   const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
     .map((m) => JSON.parse(m[1].replace(/&amp;/g, "&")));
-  const org = blocks.find((b) => b["@type"] === "LocalBusiness" || b["@type"] === "Organization");
+  assert.ok(!blocks.some((b) => b["@type"] === "LocalBusiness"), "the site is an Organization, not a LocalBusiness");
+  const org = blocks.find((b) => b["@type"] === "Organization");
   assert.ok(org, "Organization schema present");
   assert.ok(org.contactPoint, "contactPoint present");
   const cp = Array.isArray(org.contactPoint) ? org.contactPoint[0] : org.contactPoint;
   assert.ok(cp.telephone, "contactPoint.telephone");
   assert.equal(cp.contactType, "customer service");
-  assert.equal(org.address?.["@type"], "PostalAddress", "PostalAddress present");
+  assert.equal(org.address, undefined, "no address (house rule)");
 });
 
 // ── 7. Trust anchor pages ───────────────────────────────────────────

@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "How private views work in London: the 6pm invitation, the gallery-dinner circle, the migration to members' rooms, and how the art world builds its evenings.",
   keywords:
     "london private view culture, art gallery private view london, art world evenings london, gallery opening night london, art fair week london evenings",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "Private Views in London: How the Art World Does Its Evenings",
     description:
@@ -39,35 +32,6 @@ export default function PrivateViewsLondonArtWorldPage() {
         datePublished="2026-07-13"
         dateModified="2026-07-13"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Private Views in London: How the Art World Does Its Evenings",
-            datePublished: "2026-07-13",
-            dateModified: "2026-07-13",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-526.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/private-views-london-art-world",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Private Views in London: How the Art World Does Its Evenings"
         subtitle="The invitation says six to nine, and what happens after nine is the part nobody prints"
@@ -75,8 +39,7 @@ export default function PrivateViewsLondonArtWorldPage() {
         heroAlt="An elegant evening gathering in an exclusive London setting"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury
-          Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 13 July 2026</p>
 

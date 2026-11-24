@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_CORPORATE_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -68,7 +68,6 @@ export default function CorporateEntertainmentPage() {
         description="The professional's guide to hosting impressive client evenings in London's luxury nightlife venues. Venue selection, budgets, booking, and logistics."
         slug="/guides/corporate-entertainment-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Corporate Entertainment & Client Nights in London's Best Clubs"
         subtitle="The professional's guide to hosting impressive client evenings in London's luxury nightlife venues"

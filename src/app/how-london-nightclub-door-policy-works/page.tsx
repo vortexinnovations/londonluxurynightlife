@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -66,7 +66,6 @@ export default function HowLondonNightclubDoorPolicyWorksPage() {
         description="Demystifying London's nightclub door policies: why doors are selective, what they look for, the promoter system, worst mistakes, and how to maximise your chances."
         slug="/how-london-nightclub-door-policy-works"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="How London Nightclub Door Policy Works"
         subtitle="Why London's doors are selective, what they actually look for, and how to maximise your chances at every venue"

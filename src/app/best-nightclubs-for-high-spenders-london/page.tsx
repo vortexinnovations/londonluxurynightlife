@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -67,7 +67,6 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         description="Where to spend big in London's nightlife, and where your money actually delivers. The insider's guide to high-roller clubs, premium bottle service, and maximising a significant budget."
         slug="/best-nightclubs-for-high-spenders-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Nightclubs for High Spenders in London"
         subtitle="Where your money goes furthest at the premium tier, and how to ensure every pound delivers"

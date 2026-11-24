@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -12,12 +11,6 @@ export const metadata: Metadata = {
     "How London film premiere after-parties really work. The venues studios book, who actually gets in, and how premiere season reshapes Mayfair's most exclusive clubs.",
   keywords:
     "london film premiere after parties, premiere afterparty london, london red carpet afterparty, bfi premiere afterparty, mayfair film premiere",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title:
       "London Film Premiere After-Parties: Inside the Capital's Red Carpet Nightlife Circuit",
@@ -42,37 +35,6 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         datePublished="2026-05-11"
         dateModified="2026-05-11"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "London Film Premiere After-Parties: Inside the Capital's Red Carpet Nightlife Circuit",
-            datePublished: "2026-05-11",
-            dateModified: "2026-05-11",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-180.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonluxurynightlife.com/blog/london-film-premiere-after-parties",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="London Film Premiere After-Parties: Inside the Capital's Red Carpet Nightlife Circuit"
         subtitle="How premiere season reshapes Mayfair's most exclusive clubs - and who actually gets through the door"
@@ -80,7 +42,7 @@ export default function LondonFilmPremiereAfterPartiesPage() {
         heroAlt="Discreet luxury nightclub interior in Mayfair during a film premiere after-party"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">
           Last updated: 11 May 2026

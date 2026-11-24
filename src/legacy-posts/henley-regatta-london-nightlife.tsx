@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "How Henley Royal Regatta week reshapes London nightlife: the social season crowd, the nights that matter, and where the regatta set goes after the river.",
   keywords:
     "henley regatta london nightlife, henley royal regatta parties, regatta week london, social season nightlife london, henley after parties",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "Henley Royal Regatta Nightlife: How London Does Regatta Week",
     description:
@@ -40,37 +33,6 @@ export default function HenleyRegattaLondonNightlifePage() {
         datePublished="2026-06-10"
         dateModified="2026-06-10"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Henley Royal Regatta Nightlife: How London Does Regatta Week",
-            datePublished: "2026-06-10",
-            dateModified: "2026-06-10",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-303.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonluxurynightlife.com/blog/henley-regatta-london-nightlife",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Henley Royal Regatta Nightlife: How London Does Regatta Week"
         subtitle="The social season's most English week, and the London nights that bracket it"
@@ -78,7 +40,7 @@ export default function HenleyRegattaLondonNightlifePage() {
         heroAlt="Elegant London nightclub interior during Henley Royal Regatta week"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 10 June 2026</p>
 

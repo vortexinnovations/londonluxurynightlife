@@ -1,64 +1,88 @@
 import { safeJsonLd } from "@/lib/safe-output";
 import { SITE_URL, SITE_NAME, TABLE_NUMBER } from "@/lib/constants";
+import { blogPosts } from "@/lib/blog-data";
+import { PAGE_DATES } from "@/lib/page-dates";
 
-interface FAQItem {
-  question: string;
-  answer: string;
-}
+// The site itself: a booking service with no premises of its own, so an
+// Organization (not a LocalBusiness) and never an address. No FAQPage,
+// HowTo, speakable or SearchAction markup: FAQ rich results ended in May
+// 2026, HowTo and the sitelinks search box are retired, and speakable is
+// only for news publishers. The visible FAQ sections stay on the pages.
 
-export function FAQSchema({ faqs }: { faqs: FAQItem[] }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
-    />
-  );
-}
-
-const ORGANIZATION = {
+/** The site's Organization, as the publisher of every page. */
+export const ORGANIZATION = {
   "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
   logo: `${SITE_URL}/icon.svg`,
-  image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
-  description: "Independent editorial authority on London's luxury nightlife. Clubs we book, with their door policies, prices and nights. No pay-to-play.",
 };
+
+/** Every page is credited to the team; "How we write" is on the about page. */
+export const AUTHOR = {
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: `${SITE_URL}/about`,
+};
+
+/** The full Organization node: the site-wide block and the about page's `about`. */
+export function organizationNode() {
+  return {
+    ...ORGANIZATION,
+    image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
+    description:
+      "London nightlife booking team: VIP tables and guestlist places at London's luxury clubs, arranged on WhatsApp, with guides to the clubs we book.",
+    telephone: `+${TABLE_NUMBER}`,
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: `+${TABLE_NUMBER}`,
+        contactType: "customer service",
+        areaServed: "GB",
+        availableLanguage: "English",
+        url: `${SITE_URL}/contact`,
+      },
+    ],
+    areaServed: {
+      "@type": "City",
+      name: "London",
+    },
+  };
+}
+
+/** A page's stored dates: code pages in lib/page-dates.ts, the original blog posts in lib/blog-data.ts. */
+function storedDates(slug: string): { published?: string; modified?: string } {
+  const page = PAGE_DATES[slug];
+  if (page) return page;
+  const post = slug.startsWith("/blog/") ? blogPosts.find((p) => `/blog/${p.slug}` === slug) : undefined;
+  return post ? { published: post.publishDate, modified: post.modifiedDate } : {};
+}
 
 export function ArticleSchema({
   title,
   description,
   slug,
-  datePublished = "2025-01-15",
-  dateModified = "2026-03-25",
+  datePublished,
+  dateModified,
 }: {
   title: string;
   description: string;
   slug: string;
+  /** Only where the page states its own dates; otherwise the stored ones. Never a default. */
   datePublished?: string;
   dateModified?: string;
 }) {
+  const stored = storedDates(slug);
+  const published = datePublished ?? stored.published;
+  const modified = dateModified ?? stored.modified;
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description,
     url: `${SITE_URL}${slug}`,
-    datePublished,
-    dateModified,
-    author: ORGANIZATION,
+    ...(published ? { datePublished: published } : {}),
+    ...(modified ? { dateModified: modified } : {}),
+    author: AUTHOR,
     publisher: ORGANIZATION,
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -75,8 +99,11 @@ export function ArticleSchema({
 }
 
 /**
- * A club page's venue as a schema.org NightClub. `alternateName` carries a
- * former name (a renamed club), so searches for the old name meet the venue.
+ * A club page's venue: the NightClub is what our page is about, so the page
+ * (not the club) carries our URL; the club's own website is never given.
+ * `alternateName` carries a former name (a renamed club), so searches for the
+ * old name meet the venue. Opening hours only where the closing time is
+ * confirmed: an hours entry without one is left out.
  */
 export function NightClubSchema({
   name,
@@ -87,7 +114,6 @@ export function NightClubSchema({
   streetAddress,
   postalCode,
   openingHours,
-  opensOnly,
 }: {
   name: string;
   alternateName?: string | string[];
@@ -99,37 +125,28 @@ export function NightClubSchema({
   postalCode: string;
   /** schema.org openingHours, e.g. "We-Sa 23:00-04:00". */
   openingHours?: string;
-  /**
-   * A club that publishes no closing time: its open days and opening time
-   * only, as an OpeningHoursSpecification with no `closes`.
-   */
-  opensOnly?: { days: string[]; opens: string };
 }) {
+  const pageUrl = `${SITE_URL}${slug}`;
   const schema = {
     "@context": "https://schema.org",
-    "@type": "NightClub",
-    name,
-    ...(alternateName ? { alternateName } : {}),
-    description,
-    url: `${SITE_URL}${slug}`,
-    ...(image ? { image: image.startsWith("/") ? `${SITE_URL}${image}` : image } : {}),
-    address: {
-      "@type": "PostalAddress",
-      streetAddress,
-      addressLocality: "London",
-      postalCode,
-      addressCountry: "GB",
+    "@type": "WebPage",
+    "@id": pageUrl,
+    url: pageUrl,
+    about: {
+      "@type": "NightClub",
+      name,
+      ...(alternateName ? { alternateName } : {}),
+      description,
+      ...(image ? { image: image.startsWith("/") ? `${SITE_URL}${image}` : image } : {}),
+      address: {
+        "@type": "PostalAddress",
+        streetAddress,
+        addressLocality: "London",
+        postalCode,
+        addressCountry: "GB",
+      },
+      ...(openingHours ? { openingHours } : {}),
     },
-    ...(openingHours ? { openingHours } : {}),
-    ...(opensOnly
-      ? {
-          openingHoursSpecification: {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: opensOnly.days.map((d) => `https://schema.org/${d}`),
-            opens: opensOnly.opens,
-          },
-        }
-      : {}),
   };
 
   return (
@@ -140,30 +157,10 @@ export function NightClubSchema({
   );
 }
 
-export function LocalBusinessSchema() {
+export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: SITE_NAME,
-    description: "London's premier luxury nightlife concierge and guide. Expert recommendations for VIP table bookings, exclusive clubs, and luxury evenings in Mayfair and beyond.",
-    url: SITE_URL,
-    image: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
-    telephone: `+${TABLE_NUMBER}`,
-    contactPoint: [
-      {
-        "@type": "ContactPoint",
-        telephone: `+${TABLE_NUMBER}`,
-        contactType: "customer service",
-        areaServed: "GB",
-        availableLanguage: "English",
-        url: `${SITE_URL}/contact`,
-      },
-    ],
-    areaServed: {
-      "@type": "City",
-      name: "London",
-    },
-    priceRange: "£££",
+    ...organizationNode(),
   };
 
   return (
@@ -180,7 +177,7 @@ export function WebSiteSchema() {
     "@type": "WebSite",
     name: SITE_NAME,
     url: SITE_URL,
-    description: "The definitive insider's guide to London's luxury nightlife. Expert reviews of exclusive Mayfair clubs, VIP experiences, and premium nightlife for discerning visitors.",
+    description: "Guides to London's luxury nightlife and the exclusive clubs of Mayfair, from a booking team that arranges VIP tables and guestlist places.",
   };
 
   return (

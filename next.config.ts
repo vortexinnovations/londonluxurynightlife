@@ -47,6 +47,13 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // The editor persona is retired (November 2026): pages are credited to
+      // the team, and the old author page moves to the about page.
+      {
+        source: "/about-the-editor",
+        destination: "/about",
+        permanent: true,
+      },
       // Legacy rename
       {
         source: "/clubs/the-london-reign",

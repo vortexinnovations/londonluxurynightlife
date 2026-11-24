@@ -60,8 +60,6 @@ export default function NinetyNineRegentStreetPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug={PATH}
-        datePublished="2026-10-20"
-        dateModified="2026-10-20"
       />
       <NightClubSchema
         name={club.name}

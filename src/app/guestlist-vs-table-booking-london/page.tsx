@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
@@ -69,7 +69,6 @@ export default function GuestlistVsTableBookingLondonPage() {
         description="The definitive comparison of guestlist entry vs table bookings at London nightclubs: cost breakdown, entry guarantees, pros and cons, and which venues require tables."
         slug="/guestlist-vs-table-booking-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Guestlist vs Table Booking London"
         subtitle="The definitive comparison: what each option actually gives you, what it costs, and which is right for your night"

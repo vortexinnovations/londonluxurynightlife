@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "How major boxing nights reshape London nightlife: the crowd that comes to town, the late surge into Mayfair, and how to plan a night around a big card.",
   keywords:
     "fight night london nightlife, boxing after party london, big fight weekend london, boxing night out london, where boxers party london",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "Fight Night London: How Big Boxing Weekends Take Over the City's Nightlife",
     description:
@@ -40,37 +33,6 @@ export default function FightNightLondonNightlifePage() {
         datePublished="2026-06-11"
         dateModified="2026-06-11"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Fight Night London: How Big Boxing Weekends Take Over the City's Nightlife",
-            datePublished: "2026-06-11",
-            dateModified: "2026-06-11",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-420.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonluxurynightlife.com/blog/fight-night-london-nightlife",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Fight Night London: How Big Boxing Weekends Take Over the City's Nightlife"
         subtitle="The latest-starting luxury nights in the calendar, and where the ringside crowd actually goes"
@@ -78,8 +40,7 @@ export default function FightNightLondonNightlifePage() {
         heroAlt="Plush London nightclub interior in the late hours of a big fight night"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury
-          Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 11 June 2026</p>
 

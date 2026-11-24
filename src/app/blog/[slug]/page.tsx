@@ -4,9 +4,8 @@ import { notFound } from "next/navigation";
 import { marked } from "marked";
 import ArticleLayout from "@/components/ArticleLayout";
 import Link from "next/link";
-import { FAQSchema } from "@/components/SchemaMarkup";
+import { AUTHOR, ORGANIZATION } from "@/components/SchemaMarkup";
 import { getMergedPostBySlug, getMergedPosts } from "@/lib/blog-data";
-import { bodyFaqs } from "@/lib/body-faqs";
 import { SITE_NAME, SITE_URL, TABLE_NUMBER } from "@/lib/constants";
 import { postImage } from "@/lib/images";
 import { fitTitle } from "@/lib/metadata";
@@ -87,9 +86,9 @@ marked.use({
   },
 });
 
-// Database posts carry the editor byline and Person authorship the site's
-// recent posts use (the content API rejects a byline in the body).
-const EDITOR = { name: "Isabella Marsh", jobTitle: "Luxury Lifestyle Editor", url: `${SITE_URL}/about-the-editor/` };
+// Every post is credited to the team, linking to "How we write" on the about
+// page. The database's author_name and author_role columns are never read
+// (the content API rejects a byline in the body).
 
 const longDate = (iso: string) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
@@ -114,7 +113,6 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const body = post.bodyMd ?? "";
-  const faqs = bodyFaqs(body);
   const image = postImage(post);
   const articleSchema = {
     "@context": "https://schema.org",
@@ -124,15 +122,14 @@ export default async function BlogPostPage({ params }: Props) {
     url: `${SITE_URL}/blog/${slug}`,
     datePublished: post.publishDate,
     dateModified: post.modifiedDate,
-    author: { "@type": "Person", ...EDITOR },
-    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    author: AUTHOR,
+    publisher: ORGANIZATION,
     ...(image ? { image: image.startsWith("/") ? `${SITE_URL}${image}` : image } : {}),
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${slug}` },
   };
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(articleSchema) }} />
-      {faqs.length > 0 && <FAQSchema faqs={faqs} />}
       <ArticleLayout
         title={post.title}
         subtitle={post.excerpt}
@@ -141,7 +138,7 @@ export default async function BlogPostPage({ params }: Props) {
         noGuestlist={NO_GUESTLIST_POSTS.has(slug)}
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">{EDITOR.name}</Link>, {EDITOR.jobTitle}
+          By the <Link href="/about#how-we-write">{SITE_NAME} team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: {longDate(post.modifiedDate)}</p>
         <div

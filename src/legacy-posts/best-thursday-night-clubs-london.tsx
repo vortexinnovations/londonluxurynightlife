@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,34 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "Which London clubs are open on Thursday nights?",
-    answer:
-      "Several of London's best luxury clubs open on Thursday, including Rumour (formerly TABU London), 99 Regent Street (formerly Cuckoo Club), Itzel, Scotch of St James, Dear Darling, and Selene London, which is just north of Oxford Circus in Fitzrovia. Most Mayfair venues treat Thursday as the start of their weekend calendar.",
-  },
-  {
-    question: "Is Thursday a good night to go clubbing in London?",
-    answer:
-      "Thursday is one of the best nights for clubbing in London if you prefer a more intimate, social atmosphere. The crowds are smaller, entry is easier, and the vibe tends to be more relaxed and industry-oriented compared to Friday and Saturday. Many London regulars consider Thursday their favourite night.",
-  },
-  {
-    question: "Are Thursday nights cheaper than weekends at London clubs?",
-    answer:
-      "Table minimum spends on Thursday are often lower than Friday and Saturday at the same venues, sometimes by 20-30%. Guestlist entry is also more accessible. The overall cost of a Thursday night out is typically less than a weekend equivalent, making it excellent value for the quality of experience.",
-  },
-  {
-    question: "What time do London clubs open on Thursday?",
-    answer:
-      "Most London clubs open their doors between 10pm and 10:30pm on Thursday nights. The atmosphere tends to build from around 11pm, with peak energy between midnight and 2am. Closing times vary by venue but are typically 3am on a Thursday.",
-  },
-  {
-    question: "Do I need to book a table for Thursday night at London clubs?",
-    answer:
-      "Table booking is recommended but not always essential on Thursday. Guestlist entry is more readily available than on weekends. However, if you want a guaranteed experience with bottle service, booking a table through a concierge ensures the best positioning and avoids any uncertainty at the door.",
-  },
-];
-
 export default function BestThursdayNightClubsLondonPage() {
   return (
     <>
@@ -66,7 +38,6 @@ export default function BestThursdayNightClubsLondonPage() {
         description="The definitive guide to Thursday nightlife in London. Which luxury clubs open on Thursday, what the crowd is like, and why insiders prefer it to the weekend."
         slug="/blog/best-thursday-night-clubs-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Best Thursday Night Clubs in London"
         subtitle="Why insiders choose Thursday, which clubs open, and where to go for every vibe"

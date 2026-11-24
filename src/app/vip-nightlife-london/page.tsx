@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -65,7 +65,6 @@ export default function VIPNightlifeLondonPage() {
         description="What VIP really means in London nightlife: beyond the velvet rope. Table service explained, VIP vs VVIP, which venues deliver the best experience, and how to book properly."
         slug="/vip-nightlife-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="VIP Nightlife London"
         subtitle="What VIP actually means at London's best clubs, and the difference between paying for a label and paying for an experience"

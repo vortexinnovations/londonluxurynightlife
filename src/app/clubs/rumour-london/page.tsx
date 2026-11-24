@@ -60,8 +60,6 @@ export default function RumourLondonPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug={PATH}
-        datePublished="2026-10-20"
-        dateModified="2026-10-23"
       />
       <NightClubSchema
         name={club.name}

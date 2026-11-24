@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,29 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "What are the best nightclubs in Soho London?",
-    answer:
-      "The two flagship luxury nightclubs in Soho are The Box on Walker's Court, known for its provocative theatrical performances, and Cirque Le Soir on Ganton Street, a circus-themed venue with live performers. Both offer table service and attract celebrity clientele, operating at a different register to Mayfair but with comparable exclusivity.",
-  },
-  {
-    question: "How does Soho nightlife differ from Mayfair?",
-    answer:
-      "Soho nightlife is grittier, more creatively driven, and less focused on traditional bottle service than Mayfair. Where Mayfair is polished and wealth-signalling, Soho rewards fashion-forward dressing and creative energy. The venues are more theatrical and boundary-pushing. Soho also has a denser concentration of late-night bars surrounding the club venues.",
-  },
-  {
-    question: "Is it easy to walk from Soho to Mayfair clubs?",
-    answer:
-      "Yes. Soho and Mayfair are adjacent. The walk from Soho's core around Wardour Street to Mayfair's club district around Berkeley Street takes roughly 10-15 minutes on foot. Many people start their evening in Soho for dinner and bars, then walk to Mayfair for a club, or vice versa.",
-  },
-  {
-    question: "What should I wear to Soho clubs?",
-    answer:
-      "Soho clubs reward fashion-forward, creative dressing rather than the strict smart-elegant codes of Mayfair. At The Box, creativity is actively encouraged. At Cirque Le Soir, smart glamorous is the standard. Both venues appreciate effort and personality in how you dress: looking interesting matters as much as looking expensive.",
-  },
-];
-
 export default function SohoNightlifeGuidePage() {
   return (
     <>
@@ -61,7 +38,6 @@ export default function SohoNightlifeGuidePage() {
         description="The insider guide to Soho nightlife in London. From The Box and Cirque Le Soir to late-night bars and the walk to Mayfair."
         slug="/blog/soho-nightlife-guide"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="Soho Nightlife Guide: The Box, Cirque Le Soir and Beyond"
         subtitle="London's creative heartland after dark: grittier, bolder, and utterly different from Mayfair"

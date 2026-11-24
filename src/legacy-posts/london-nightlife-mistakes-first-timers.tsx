@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -32,35 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "What time should you arrive at a London nightclub?",
-    answer:
-      "For guestlist entry, arrive between 10:30pm and 11:30pm. For table bookings, most venues specify an arrival window of 10:30pm to 12:30am. Arriving before 10:30pm means sitting in a near-empty venue. Arriving after midnight on guestlist is risky as doors tighten significantly and the club may already be at capacity.",
-  },
-  {
-    question:
-      "What should you not wear to a London club?",
-    answer:
-      "Avoid trainers, sportswear, casual shorts, flip-flops, and overly casual attire. Most Mayfair clubs enforce a smart dress code: dark jeans or tailored trousers with a collared shirt or smart knitwear for men, and cocktail-appropriate attire for women. When in doubt, overdress rather than underdress.",
-  },
-  {
-    question: "Do you need to book ahead for London clubs?",
-    answer:
-      "Yes, booking ahead is strongly recommended for any premium London club on a Friday or Saturday. Guestlist spots and tables fill up, and walk-ups face a much harder door. Booking through a concierge or promoter is free and significantly improves your chances of a smooth entry and a good experience.",
-  },
-  {
-    question: "How much should you budget for a night out in London?",
-    answer:
-      "For a premium Mayfair club, expect minimum table spends from £1,000 (split between your group). Guestlist entry is typically free but drinks at the bar are £15-25 each. Including dinner, transport, and drinks, budget £150-300 per person for a full evening depending on whether you book a table or go guestlist.",
-  },
-  {
-    question: "Can you just walk into London nightclubs?",
-    answer:
-      "At most premium London clubs, walking up without a booking is possible but not recommended. Door staff assess walk-ups on appearance, group composition, and the ratio of men to women. Large all-male groups face the hardest time. Having a guestlist spot, table booking, or promoter contact dramatically improves your experience at the door.",
-  },
-];
-
 export default function LondonNightlifeMistakesFirstTimersPage() {
   return (
     <>
@@ -69,7 +40,6 @@ export default function LondonNightlifeMistakesFirstTimersPage() {
         description="The most common London nightlife mistakes, from wrong dress codes and bad timing to ignoring the promoter system. Honest advice for first-timers."
         slug="/blog/london-nightlife-mistakes-first-timers"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="12 London Nightlife Mistakes First-Timers Make (and How to Avoid Them)"
         subtitle="The honest guide to avoiding every rookie error on your first London night out"

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { WA_GENERAL_MESSAGE, SITE_NAME } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -69,10 +69,7 @@ export default function CompleteGuideLondonLuxuryNightlife() {
         title="The Complete Guide to London's Luxury Nightlife"
         description="Everything you need to know about London's most exclusive clubs, from Mayfair's velvet-rope venues to South London's iconic dancefloors."
         slug="/guides/complete-guide-london-luxury-nightlife"
-        datePublished="2025-01-15"
-        dateModified="2025-06-01"
       />
-      <FAQSchema faqs={faqs} />
 
       <ArticleLayout
         title="The Complete Guide to London's Luxury Nightlife"

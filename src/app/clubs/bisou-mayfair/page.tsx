@@ -2,7 +2,7 @@ import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import Link from "next/link";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema, NightClubSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema, NightClubSchema } from "@/components/SchemaMarkup";
 import {
   waClubTableMessage,
   waClubGuestlistMessage,
@@ -94,8 +94,6 @@ export default function BisouMayfairPage() {
         title={TITLE}
         description={DESCRIPTION}
         slug={PATH}
-        datePublished="2026-11-22"
-        dateModified="2026-11-22"
       />
       <NightClubSchema
         name="Bisou"
@@ -104,9 +102,7 @@ export default function BisouMayfairPage() {
         description="Bar and nightclub at 9 Swallow Street, Mayfair, opened in 2026. House music on a Void Acoustics sound system tuned to the room. Open Thursday to Saturday from 11pm until late. Guestlist by request; tables from £1,000 minimum spend. Photo ID required."
         streetAddress="9 Swallow Street"
         postalCode="W1B 4DF"
-        opensOnly={{ days: ["Thursday", "Friday", "Saturday"], opens: "23:00" }}
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title={club.name}
         subtitle={club.tagline}

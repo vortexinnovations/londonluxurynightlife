@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -67,7 +67,6 @@ export default function HowToPlanALuxuryNightOutInLondonPage() {
         description="The definitive planning guide for a luxury evening in London: timeline, transport, budgets, dress codes, and every detail that separates a great night from a wasted one."
         slug="/how-to-plan-a-luxury-night-out-in-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="How to Plan a Luxury Night Out in London"
         subtitle="The complete itinerary, from first cocktail to last dance, with every detail that separates exceptional from average"

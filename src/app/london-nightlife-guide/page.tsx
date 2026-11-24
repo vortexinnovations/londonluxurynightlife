@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -59,7 +59,6 @@ export default function LondonNightlifeGuidePage() {
         description="The ultimate London nightlife guide: everything you need to know about going out in London."
         slug="/london-nightlife-guide"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Nightlife Guide"
         subtitle="The complete insider's guide to going out in London, from luxury Mayfair to Soho's creative underground"

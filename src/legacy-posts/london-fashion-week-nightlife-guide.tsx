@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -32,30 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "Which London clubs host Fashion Week afterparties?",
-    answer:
-      "Tape London, The Box, and Cirque Le Soir are the venues most consistently associated with London Fashion Week afterparties. Tape London has historically hosted official and brand-affiliated events. The Box attracts the fashion-forward creative crowd, and Cirque Le Soir draws international fashion figures. Specific brand parties rotate between venues each season.",
-  },
-  {
-    question: "How do you get into London Fashion Week parties?",
-    answer:
-      "Official LFW afterparties are typically invite-only or accessible through industry connections. However, the clubs hosting these events also operate their normal table service: booking a table during Fashion Week guarantees you are in the room where the afterparties happen. A concierge with industry relationships can advise on which venues are hosting events on specific nights.",
-  },
-  {
-    question: "What should I wear to go out during London Fashion Week?",
-    answer:
-      "During Fashion Week, the dress code shifts from standard Mayfair smart-elegant to fashion-forward. The crowd is more directional: designer pieces, statement looks, and creative styling are the norm. You do not need to wear runway pieces, but showing fashion awareness and personal style matters more during LFW than at any other time of year.",
-  },
-  {
-    question:
-      "When is London Fashion Week and how does it affect nightlife?",
-    answer:
-      "London Fashion Week runs twice annually, typically mid-February and mid-September, each lasting five to six days. During this period, club venues become significantly busier, afterparty bookings increase, and the crowd shifts to include fashion industry professionals, models, editors, and international visitors. Table booking well in advance is essential during LFW.",
-  },
-];
-
 export default function LondonFashionWeekNightlifeGuidePage() {
   return (
     <>
@@ -64,7 +40,6 @@ export default function LondonFashionWeekNightlifeGuidePage() {
         description="Where fashion industry insiders go out during London Fashion Week. LFW afterparties, which clubs host events, what to wear, and how to get into the best parties."
         slug="/blog/london-fashion-week-nightlife-guide"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Fashion Week Nightlife: Where the Industry Goes After Dark"
         subtitle="How LFW transforms the club scene, and how to be in the right room"

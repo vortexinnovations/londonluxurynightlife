@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -9,7 +8,6 @@ export const metadata: Metadata = {
   title: "London Clubs in Mykonos",
   description: "How London's top nightclubs expand to Mykonos each summer. The venues, the crowd, and what changes when Mayfair meets the Aegean.",
   keywords: "london clubs mykonos summer, london nightclub mykonos expansion, mayfair clubs mykonos, luxury nightlife mykonos london",
-  authors: [{ name: "Isabella Marsh", url: "https://londonluxurynightlife.com/about-the-editor/" }],
   openGraph: {
     title: "London to Mykonos: How the Capital's Club Scene Goes Global Each Summer",
     description: "How London's top nightclubs expand to Mykonos each summer. The venues, the crowd, and what changes when Mayfair meets the Aegean.",
@@ -31,34 +29,6 @@ export default function LondonToMykonosClubSceneSummerPage() {
         datePublished="2026-05-04"
         dateModified="2026-05-04"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "London to Mykonos: How the Capital's Club Scene Goes Global Each Summer",
-            datePublished: "2026-05-04",
-            dateModified: "2026-05-04",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image: "https://londonluxurynightlife.com/gallery/images/maison-close-540.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonluxurynightlife.com/blog/london-to-mykonos-club-scene-summer",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="London to Mykonos: How the Capital's Club Scene Goes Global Each Summer"
         subtitle="The Mayfair-to-Aegean pipeline that defines luxury nightlife each June"
@@ -66,7 +36,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
         heroAlt="Luxury nightlife atmosphere with warm lighting and premium ambiance"
       >
         <p>
-          <em>By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor</em>
+          <em>By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link></em>
         </p>
 
         <p>

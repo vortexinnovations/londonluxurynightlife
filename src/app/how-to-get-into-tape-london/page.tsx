@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
 import { fitTitle } from "@/lib/metadata";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { waClubMessage } from "@/lib/constants";
 import { GUIDE_IMAGES } from "@/lib/images";
 import Link from "next/link";
@@ -64,7 +64,6 @@ export default function HowToGetIntoTapeLondonPage() {
         description="Getting into Tape London at 17 Hanover Square: opening nights, guestlist, table bookings, door policy, ID and dress code."
         slug="/how-to-get-into-tape-london"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="How to Get Into Tape London"
         subtitle="The complete guide to accessing Mayfair's most exclusive nightclub, from guestlist to table booking"

@@ -1,6 +1,6 @@
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
-import { ArticleSchema, FAQSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema } from "@/components/SchemaMarkup";
 import { BLOG_IMAGES } from "@/lib/images";
 import Link from "next/link";
 
@@ -30,34 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqs = [
-  {
-    question: "Can I take photos inside London nightclubs?",
-    answer:
-      "Policies vary by venue. Most luxury clubs discourage flash photography and filming of other guests. Taking photos of your own group or table is generally acceptable, but pointing cameras at strangers or celebrities is a serious breach of etiquette and may result in removal. At the most exclusive venues like Tape London and The Box, discretion around phones is essential: the appeal of these clubs is partly that people can relax without being filmed.",
-  },
-  {
-    question: "How much should I tip at a London nightclub?",
-    answer:
-      "Service charge (12.5-15%) is typically included in your table bill. Beyond this, £20-50 in cash to your table host is appreciated for good service. For exceptional attention, tip more generously. Bar staff do not expect tips in London clubs, though rounding up is a courteous gesture. Tipping door staff is unnecessary and can appear gauche; save your generosity for the people serving you inside.",
-  },
-  {
-    question: "What behaviour will get you thrown out of a London club?",
-    answer:
-      "Aggressive behaviour, excessive intoxication, filming other guests without consent, harassing staff or other patrons, and attempting to move into VIP sections without a booking are the most common reasons for removal. Drug use, if observed by staff, results in immediate ejection at every reputable venue. Being argumentative with security or staff will also end your evening quickly.",
-  },
-  {
-    question: "Is it acceptable to approach people at other tables in London clubs?",
-    answer:
-      "You may approach people socially, but respect boundaries. Making eye contact and receiving a welcoming response before walking over is basic protocol. Never sit down at another group's table uninvited, never touch bottles or drinks at tables that are not yours, and if your approach is not reciprocated, return to your own space gracefully. Persistence after a polite decline is the fastest way to involve security.",
-  },
-  {
-    question: "What is the etiquette for leaving a London nightclub?",
-    answer:
-      "Close your tab before leaving; do not make your host chase you. Thank your table host and tip if warranted. Leave with your full group rather than in fragments if possible. Outside the venue, keep noise levels reasonable and do not congregate directly outside the entrance. Order your transport from within the club or move away from the door. A clean exit is remembered positively and improves your reception on future visits.",
-  },
-];
-
 export default function LondonNightlifeEtiquettePage() {
   return (
     <>
@@ -66,7 +38,6 @@ export default function LondonNightlifeEtiquettePage() {
         description="The unwritten rules of London's luxury club scene: phone etiquette, tipping, VIP behaviour, door protocol, and the social codes that separate insiders from tourists."
         slug="/blog/london-nightlife-etiquette-unwritten-rules"
       />
-      <FAQSchema faqs={faqs} />
       <ArticleLayout
         title="London Nightlife Etiquette: The Unwritten Rules"
         subtitle="Everything the dress code guide doesn't cover: the behavioural codes that define London's luxury club scene"

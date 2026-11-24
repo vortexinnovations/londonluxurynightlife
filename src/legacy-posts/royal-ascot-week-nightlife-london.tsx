@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "Ladies' Day Thursday is the peak night of Royal Ascot week in Mayfair's clubs. Where the racing crowd goes after dark and how far ahead to book a table.",
   keywords:
     "royal ascot nightlife london, ascot week clubs london, ladies day nightlife london, luxury nightlife racing season",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title:
       "Royal Ascot Week Nightlife: Where the Luxury Crowd Goes After the Races",
@@ -41,37 +34,6 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         datePublished="2026-05-07"
         dateModified="2026-05-07"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Royal Ascot Week Nightlife: Where the Luxury Crowd Goes After the Races",
-            datePublished: "2026-05-07",
-            dateModified: "2026-05-07",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-292.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonluxurynightlife.com/blog/royal-ascot-week-nightlife-london",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="Royal Ascot Week Nightlife: Where the Luxury Crowd Goes After the Races"
         subtitle="How five days of racing transform Mayfair's club scene every June"
@@ -79,7 +41,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         heroAlt="Luxury nightlife atmosphere at a London club during Royal Ascot week"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">
           Last updated: 7 May 2026

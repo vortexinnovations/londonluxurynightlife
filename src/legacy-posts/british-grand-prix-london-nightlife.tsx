@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next/types";
 import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema } from "@/components/SchemaMarkup";
@@ -11,12 +10,6 @@ export const metadata: Metadata = {
     "Where the British Grand Prix crowd parties in London. How F1 weekend reshapes Mayfair nightlife, who comes to town, and the nights that matter most.",
   keywords:
     "british grand prix london nightlife, f1 weekend london, silverstone afterparty london, formula 1 london clubs, grand prix luxury nightlife",
-  authors: [
-    {
-      name: "Isabella Marsh",
-      url: "https://londonluxurynightlife.com/about-the-editor/",
-    },
-  ],
   openGraph: {
     title: "British Grand Prix Nightlife: Where the F1 Crowd Parties in London",
     description:
@@ -40,37 +33,6 @@ export default function BritishGrandPrixLondonNightlifePage() {
         datePublished="2026-06-08"
         dateModified="2026-06-08"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "British Grand Prix Nightlife: Where the F1 Crowd Parties in London",
-            datePublished: "2026-06-08",
-            dateModified: "2026-06-08",
-            author: {
-              "@type": "Person",
-              name: "Isabella Marsh",
-              url: "https://londonluxurynightlife.com/about-the-editor/",
-              jobTitle: "Luxury Lifestyle Editor",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Luxury Nightlife",
-              url: "https://londonluxurynightlife.com",
-            },
-            image:
-              "https://londonluxurynightlife.com/gallery/images/maison-close-042.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonluxurynightlife.com/blog/british-grand-prix-london-nightlife",
-            },
-          }),
-        }}
-      />
       <ArticleLayout
         title="British Grand Prix Nightlife: Where the F1 Crowd Parties in London"
         subtitle="How F1 weekend pulls a global luxury crowd through Mayfair - and the nights that actually matter"
@@ -78,7 +40,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
         heroAlt="Discreet luxury Mayfair nightclub interior during British Grand Prix weekend"
       >
         <p className="text-sm text-warm-gray mb-1">
-          By <Link href="/about-the-editor">Isabella Marsh</Link>, Luxury Lifestyle Editor
+          By the <Link href="/about#how-we-write">London Luxury Nightlife team</Link>
         </p>
         <p className="text-sm text-warm-gray mb-8">Last updated: 8 June 2026</p>
 
