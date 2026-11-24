@@ -327,8 +327,8 @@ export default function LondonVsDubaiNightlifePage() {
         <p>
           If London is your choice, the practical next steps are
           straightforward. Secure a table booking through a reputable
-          promoter or concierge: our team works with every premium venue
-          in the city.{" "}
+          promoter or concierge: we arrange VIP tables and guestlist places
+          at London clubs.{" "}
           <Link href="/contact">Contact us</Link>{" "}with your dates and
           preferences.
         </p>

@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "The definitive guide to London's luxury nightlife. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, celebrity hotspots, and insider tips for an unforgettable night out.",
+    "The definitive guide to London's luxury nightlife. Guides to Mayfair's most exclusive clubs, VIP table booking, celebrity hotspots, and insider tips for an unforgettable night out.",
   keywords: [
     "luxury nightlife London",
     "VIP night out London",

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title:
       "Romantic Nightlife in London | The Definitive Couples Guide",
     description:
-      "Where to take a date in London after dark. The best clubs, cocktail bars, and late-night venues for couples: ranked by someone who has tested every one.",
+      "Where to take a date in London after dark. The best clubs, cocktail bars, and late-night venues for couples, and how to book the right table for two.",
     url: "https://londonluxurynightlife.com/romantic-nightlife-london-couples",
     type: "article",
     images: [{ url: GUIDE_IMAGES["romantic-nightlife-london-couples"], alt: "A cake with sparklers carried through a club" }],
@@ -62,12 +62,11 @@ export default function RomanticNightlifeLondonCouplesPage() {
         </p>
 
         <p>
-          We have tested every venue on this list as a couple. We know
-          which tables seat two comfortably and which leave you stranded at
-          the end of a booth designed for ten. We know which rooms allow
-          conversation and which render it impossible. What follows is
-          honest, specific, and written for people who refuse to leave a
-          date night to chance.
+          This guide sets out which tables seat two comfortably and which
+          leave you stranded at the end of a booth designed for ten, and which
+          rooms allow conversation and which render it impossible. It is
+          specific, and written for people who refuse to leave a date night
+          to chance.
         </p>
 
         <h2>Why Some Venues Work for Couples and Others Do Not</h2>

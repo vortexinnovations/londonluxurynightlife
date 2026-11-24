@@ -189,9 +189,8 @@ export default function CorporateEntertainmentPage() {
           individual guests. For corporate groups, you need a direct
           relationship with the venue or, better still, a nightlife
           concierge who has one.{" "}
-          <Link href="/contact">Contact us directly</Link>: we have
-          standing relationships with every venue mentioned in this guide,
-          and we can secure tables, negotiate arrangements, and handle
+          <Link href="/contact">Contact us directly</Link>: we arrange VIP
+          tables and guestlist places at London clubs, and we can handle
           special requests in a way that a website form simply cannot.
         </p>
 
@@ -473,9 +472,6 @@ export default function CorporateEntertainmentPage() {
           well is stressful. It does not have to be.{" "}
           <Link href="/contact">Contact us</Link>{" "}with your brief (date,
           group size, budget, client type) and we will handle everything.
-          We have coordinated corporate evenings for financial institutions,
-          tech companies, creative agencies, and professional services firms
-          across London. We know what works, and we know what does not.
         </p>
 
         <p>

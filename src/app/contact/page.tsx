@@ -197,8 +197,8 @@ export default function ContactPage() {
                 <p className="font-prose text-warm-gray leading-relaxed mb-8">
                   Not sure which club is right for you? No commitment needed. 
                   Just send us a quick message with what you&apos;re looking
-                  for and we&apos;ll point you in the right direction. We know every
-                  venue inside out and we&apos;re happy to help.
+                  for and we&apos;ll point you in the right direction. We&apos;re
+                  happy to help.
                 </p>
                 <WhatsAppCTA
                   message={WA_GENERAL_MESSAGE}

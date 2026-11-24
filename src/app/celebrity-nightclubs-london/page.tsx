@@ -51,11 +51,10 @@ export default function CelebrityNightclubsLondonPage() {
         </p>
 
         <p>
-          This guide is based on years of direct experience, not press
-          releases. We know which venues celebrities choose when they are
-          not being paid, which rooms they return to repeatedly, and what
-          creates the conditions that make famous people feel comfortable
-          enough to actually enjoy themselves. For the full etiquette and
+          This guide looks at which venues celebrities are reported to
+          choose when they are not being paid to appear, which rooms they
+          return to, and what creates the conditions that make famous people
+          feel comfortable enough to actually enjoy themselves. For the full etiquette and
           experience guide, see our{" "}
           <Link href="/guides/celebrity-clubs-london">
             detailed celebrity clubs guide

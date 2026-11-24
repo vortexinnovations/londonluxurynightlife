@@ -58,10 +58,7 @@ export default function ExclusiveClubsLondonPage() {
         </p>
 
         <p>
-          We have tested every door on this list repeatedly, with bookings,
-          on guestlists, and as walk-ups. We know which venues enforce their
-          standards and which abandon them the moment revenue is at stake.
-          What follows is an honest ranking based on a single criterion: how
+          What follows is a ranking based on a single criterion: how
           difficult is it to actually get through the door?
         </p>
 

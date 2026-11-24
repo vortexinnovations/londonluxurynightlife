@@ -50,13 +50,11 @@ export default function LuxuryNightclubsLondonPage() {
         </p>
 
         <p>
-          We have spent years inside every venue on this list. We know which
-          rooms justify their minimum spends and which are trading on
-          reputation alone. We know which door policies create genuine
-          exclusivity and which are merely performative. What follows is an
-          honest, opinionated guide written for people who expect the best
-          and refuse to settle for a premium price tag on a mediocre
-          experience.
+          This guide sets out which rooms justify their minimum spends and
+          which are trading on reputation alone, and which door policies
+          create genuine exclusivity and which are merely performative. It is
+          an opinionated guide written for people who expect the best and
+          refuse to settle for a premium price tag on a mediocre experience.
         </p>
 
         <h2>What Makes a Nightclub &ldquo;Luxury&rdquo;</h2>

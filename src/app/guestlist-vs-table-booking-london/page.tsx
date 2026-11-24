@@ -86,8 +86,8 @@ export default function GuestlistVsTableBookingLondonPage() {
         </p>
 
         <p>
-          We have used both routes at every major London club, and the honest
-          truth is that the right choice varies wildly by circumstance. A
+          The honest truth is that the right choice varies wildly by
+          circumstance. A
           table at <Link href="/clubs/tape-london">Tape London</Link>{" "}on a
           Saturday is non-negotiable: guestlist is essentially decorative.
           A table at <Link href="/clubs/maddox">Maddox</Link>{" "}on a

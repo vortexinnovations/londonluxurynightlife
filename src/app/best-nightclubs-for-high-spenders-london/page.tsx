@@ -86,8 +86,8 @@ export default function BestNightclubsForHighSpendersLondonPage() {
         <p>
           This guide is written for people with serious budgets, whether
           personal or corporate, who want their money to deliver an
-          experience proportional to the investment. We have seen too many
-          high spenders default to the most expensive option without
+          experience proportional to the investment. Too many high spenders
+          default to the most expensive option without
           understanding whether it is the best option. Sometimes it is.
           Often it is not. What follows is an honest assessment of where your
           money works hardest in London nightlife.

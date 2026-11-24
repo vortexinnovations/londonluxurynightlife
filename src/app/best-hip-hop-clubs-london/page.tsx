@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Hip Hop Clubs in London | Real RnB & Hip-Hop Nights",
     description:
-      "The insider's guide to London's best hip-hop and RnB clubs. Every venue worth your night, ranked and reviewed by people who actually go.",
+      "The insider's guide to London's best hip-hop and RnB clubs. Every venue worth your night, ranked, with the music, the nights and the table prices.",
     url: "https://londonluxurynightlife.com/best-hip-hop-clubs-london",
     type: "article",
     images: [{ url: GUIDE_IMAGES["best-hip-hop-clubs-london"], alt: "A dancer posing in a lit cage" }],

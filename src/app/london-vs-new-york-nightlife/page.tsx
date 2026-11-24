@@ -34,7 +34,7 @@ export default function LondonVsNewYorkNightlifePage() {
       />
       <ArticleLayout
         title="London vs New York Nightlife"
-        subtitle="The two cities that defined modern nightlife culture: compared honestly by someone who has spent years in both"
+        subtitle="The two cities that defined modern nightlife culture, compared side by side"
         heroImage={GUIDE_IMAGES["london-vs-new-york-nightlife"]}
         heroAlt="London versus New York nightlife comparison featuring iconic club scenes"
       >

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: "London Nightlife Blog | Insider Tips, Guides & Club Reviews",
     description:
-      "Expert articles on London's luxury nightlife scene. Insider tips, real costs, and everything you need for a world-class night out.",
+      "Articles on London's luxury nightlife scene. Insider tips, real costs, and everything you need for a world-class night out.",
     images: SITE_OPEN_GRAPH.images,
   },
   alternates: {
@@ -176,7 +176,7 @@ export default async function BlogPage() {
                 Done reading? Let us plan your <span className="accent-word">night</span>.
               </p>
               <p className="font-prose italic text-lg text-warm-gray leading-relaxed mb-8">
-                Our team knows every club on this list personally. Tell us what you&apos;re looking for.
+                Our booking team can help you choose the right club. Tell us what you&apos;re looking for.
               </p>
               <WhatsAppCTA message={WA_GENERAL_MESSAGE} label="Speak to Our Team" />
             </div>

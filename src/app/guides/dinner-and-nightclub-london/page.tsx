@@ -241,8 +241,7 @@ export default function DinnerAndNightclubPage() {
 
         <p>
           Beyond the all-in-one options, here are the pairings we
-          consistently recommend to clients, tested over hundreds of
-          evenings:
+          recommend:
         </p>
 
         <h3>The Classic Mayfair Evening</h3>

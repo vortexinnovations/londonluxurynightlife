@@ -261,7 +261,7 @@ export default function HowToGetIntoTapeLondonPage() {
 
         <p>
           <Link href="/contact">Contact our team</Link>{" "}for Tape London
-          table bookings and guestlist. We work with the venue weekly and
+          table bookings and guestlist. We book tables at Tape London and
           can advise on the best night, the best table position, and what
           to expect. For the full Tape London experience review, read
           our{" "}

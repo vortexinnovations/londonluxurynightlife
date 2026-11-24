@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title:
       "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
     description:
-      "The definitive insider's guide to luxury nightlife in London. Expert reviews of Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
+      "The definitive insider's guide to luxury nightlife in London. Guides to Mayfair's most exclusive clubs, VIP table booking, and insider tips for an unforgettable night out.",
     images: [
       {
         url: `${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title:
       "London Luxury Nightlife | The Insider's Guide to Exclusive Clubs & VIP Experiences",
     description:
-      "The definitive insider's guide to luxury nightlife in London. Expert reviews, VIP table booking, celebrity hotspots, and insider tips.",
+      "The definitive insider's guide to luxury nightlife in London. Club guides, VIP table booking, celebrity hotspots, and insider tips.",
     images: [`${SITE_URL}/gallery/images/fe4414_a94245ac02fb461eb7770b08c25d60dd.jpg`],
   },
   alternates: {
@@ -157,8 +157,8 @@ export default async function Home() {
             </h1>
             <p className="mt-7 font-prose italic text-lg sm:text-xl text-cream/80 leading-relaxed max-w-xl">
               Honest reviews, real insider knowledge, and direct access to
-              Mayfair&rsquo;s finest clubs. We&rsquo;ve spent years in these rooms so you
-              know exactly what to expect before you arrive.
+              Mayfair&rsquo;s finest clubs. We book these rooms, so you know
+              exactly what to expect before you arrive.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10">
               <WhatsAppCTA
@@ -214,12 +214,10 @@ export default async function Home() {
             </p>
             <p>
               This site exists because good information about London&rsquo;s luxury
-              nightlife is surprisingly hard to find. Most of what&rsquo;s online is
-              either pay-to-play advertising or surface-level listicles written by
-              people who&rsquo;ve never actually walked through the door. We take a
-              different approach. Every club reviewed here is one we book, and
-              every detail, from the real dress code expectations to the table
-              minimums no one publishes, comes from booking them.
+              nightlife is surprisingly hard to find. Every club reviewed here is
+              one we book, and details such as the real dress code expectations
+              and the table minimums no one publishes come from our booking
+              desk.
               Think of us as the well-connected friend who&rsquo;ll tell you the truth
               about where to go, what to spend, and what to skip.
             </p>
@@ -279,7 +277,7 @@ export default async function Home() {
               </h2>
               <p className="font-prose italic text-lg text-warm-gray max-w-md lg:text-right">
                 Deep-dive editorial guides covering everything from dress codes to
-                corporate entertaining, written from genuine experience.
+                corporate entertaining.
               </p>
             </div>
           </Reveal>
