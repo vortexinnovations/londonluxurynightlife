@@ -35,7 +35,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
       />
       <ArticleLayout
         title="British Grand Prix Nightlife: Where the F1 Crowd Parties in London"
-        subtitle="How F1 weekend pulls a global luxury crowd through Mayfair - and the nights that actually matter"
+        subtitle="How F1 weekend pulls a global luxury crowd through Mayfair, and the nights that actually matter"
         heroImage={BLOG_IMAGES["british-grand-prix-london-nightlife"]}
         heroAlt="Discreet luxury Mayfair nightclub interior during British Grand Prix weekend"
       >
@@ -181,7 +181,7 @@ export default function BritishGrandPrixLondonNightlifePage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - British Grand Prix Weekend in London</h4>
+          <h4>Quick Reference: British Grand Prix Weekend in London</h4>
           <ul>
             <li>
               <strong>When:</strong>{" "}Early July (race on the Sunday), as of 2026

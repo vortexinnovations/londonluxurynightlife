@@ -180,7 +180,7 @@ export default function LondonToMykonosClubSceneSummerPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - London to Mykonos Club Guide</h4>
+          <h4>Quick Reference: London to Mykonos Club Guide</h4>
           <ul>
             <li><strong>Season:</strong>{" "}Late June through mid-September</li>
             <li><strong>Key London brands on the island:</strong>{" "}Tape Mykonos, Tabu Mykonos</li>

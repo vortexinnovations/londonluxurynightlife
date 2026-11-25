@@ -165,7 +165,7 @@ export default function LondonSupercarSeasonNightlifePage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - London&apos;s Supercar Season</h4>
+          <h4>Quick Reference: London&apos;s Supercar Season</h4>
           <ul>
             <li>
               <strong>When:</strong>{" "}Roughly June to September, peaking July and

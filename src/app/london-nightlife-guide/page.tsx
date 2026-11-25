@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What time do London nightclubs open and close?",
-    answer: "Most London nightclubs open between 10pm and 11pm and close at 3am. Some venues with late licences, particularly in South London and Shoreditch, operate until 6am or later on weekends. In the West End, Tape and Cirque le Soir close at 3:45am; Rumour, 99 Regent Street, Reign London, The Box and Selene London at 4am; the Scotch of St James at 5am; and Maddox, Dear Darling Mayfair and BEAT London at 6am.",
+    answer: "Most London nightclubs open between 10pm and 11pm and close at 3am. Some venues with late licences, particularly in South London and Shoreditch, operate until 6am or later on weekends. In the West End, Tape and Cirque Le Soir close at 3:45am; Rumour, 99 Regent Street, Reign London, The Box and Selene London at 4am; the Scotch of St James at 5am; and Maddox, Dear Darling Mayfair and BEAT London at 6am.",
   },
   {
     question: "How much does a night out in London cost?",
@@ -192,7 +192,7 @@ export default function LondonNightlifeGuidePage() {
           London&apos;s luxury clubs open at 10-11pm. Arriving before
           midnight is advisable for guestlist entry. The energy peaks
           between midnight and 2am. Licensing keeps closing early: Tape&apos;s
-          main room and Cirque le Soir close at 3:45am; Rumour, 99 Regent
+          main room and Cirque Le Soir close at 3:45am; Rumour, 99 Regent
           Street, Reign London, The Box and Selene London at 4am; the Scotch
           of St James at 5am; and Maddox, Dear Darling Mayfair and BEAT London
           at 6am. If you want to keep going after that, our{" "}

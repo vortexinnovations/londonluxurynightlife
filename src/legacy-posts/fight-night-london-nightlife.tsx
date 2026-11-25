@@ -173,7 +173,7 @@ export default function FightNightLondonNightlifePage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - Big Fight Nights in London</h4>
+          <h4>Quick Reference: Big Fight Nights in London</h4>
           <ul>
             <li>
               <strong>When:</strong>{" "}A handful of marquee cards a year, usually

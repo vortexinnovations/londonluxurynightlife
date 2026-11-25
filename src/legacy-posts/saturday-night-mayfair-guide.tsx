@@ -128,7 +128,7 @@ export default function SaturdayNightMayfairGuidePage() {
 
         <p>
           Closing times vary: Tape&apos;s main room closes at 3:45am, as does
-          Cirque le Soir in nearby Soho. The experienced
+          Cirque Le Soir in nearby Soho. The experienced
           crowd knows the last half-hour changes character: the music
           intensifies for a final push, the lights stay low, and there is a
           collective awareness that the evening is reaching its conclusion.

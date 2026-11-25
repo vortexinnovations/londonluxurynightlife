@@ -102,7 +102,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
 
         <p>
           The venues that benefit most from Ascot week are the ones already
-          serving a well-heeled, slightly older clientele - the places where
+          serving a well-heeled, slightly older clientele: the places where
           a cocktail dress or tailored suit never looks out of place at
           the bar.
         </p>
@@ -128,7 +128,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
 
         <p>
           <Link href="/clubs/maddox">Maddox Club</Link>{" "}attracts the
-          corporate entertainment contingent - groups who have hosted clients
+          corporate entertainment contingent: groups who have hosted clients
           at Ascot during the day and want to continue the evening at a
           matching standard. During racing week our bookings team sees a
           marked rise in tables for groups of eight to twelve, a clear sign that corporate organisers had planned the
@@ -140,7 +140,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
           <Link href="/clubs/dear-darling">Dear Darling</Link>{" "}represent
           the quieter end of the Ascot week spectrum. If the main Mayfair
           clubs feel too energetic after a full day at the races, these
-          venues offer a more measured pace - cocktails first, club
+          venues offer a more measured pace: cocktails first, club
           atmosphere later, and a crowd that favours sophistication over
           volume.
         </p>
@@ -148,7 +148,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         <h2>Ladies&apos; Day Thursday: The Peak of Ascot Week</h2>
 
         <p>
-          Thursday - Ladies&apos; Day - is the undisputed peak. It is the
+          Thursday (Ladies&apos; Day) is the undisputed peak. It is the
           single biggest day at the racecourse in terms of attendance and
           atmosphere, and that energy translates directly to London&apos;s
           clubs.
@@ -175,7 +175,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         <p className="pull-quote">
           Ladies&apos; Day Thursday is the one night of the year when
           Mayfair&apos;s clubs feel like a natural extension of the
-          racecourse itself - the same crowd, the same energy, the same
+          racecourse itself: the same crowd, the same energy, the same
           sense of occasion.
         </p>
 
@@ -208,7 +208,7 @@ export default function RoyalAscotWeekNightlifeLondonPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - Royal Ascot Week Nightlife</h4>
+          <h4>Quick Reference: Royal Ascot Week Nightlife</h4>
           <ul>
             <li>
               <strong>Peak night:</strong>{" "}Thursday (Ladies&apos; Day)

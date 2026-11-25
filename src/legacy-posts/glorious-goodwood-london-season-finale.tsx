@@ -160,7 +160,7 @@ export default function GloriousGoodwoodLondonSeasonFinalePage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - Goodwood Week in London</h4>
+          <h4>Quick Reference: Goodwood Week in London</h4>
           <ul>
             <li>
               <strong>When:</strong>{" "}Five days at the end of July on the Sussex

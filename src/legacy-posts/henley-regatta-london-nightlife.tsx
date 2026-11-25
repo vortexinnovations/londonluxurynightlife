@@ -193,7 +193,7 @@ export default function HenleyRegattaLondonNightlifePage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - Henley Royal Regatta Week in London</h4>
+          <h4>Quick Reference: Henley Royal Regatta Week in London</h4>
           <ul>
             <li>
               <strong>When:</strong>{" "}End of June into the first weekend of

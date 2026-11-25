@@ -131,7 +131,7 @@ export default function LuxuryNightTransportLondonPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - Luxury Night Transport in London</h4>
+          <h4>Quick Reference: Luxury Night Transport in London</h4>
           <ul>
             <li>
               <strong>Book:</strong>{" "}24 to 48 hours ahead for a dedicated

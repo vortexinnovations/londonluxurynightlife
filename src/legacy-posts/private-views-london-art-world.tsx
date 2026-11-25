@@ -161,7 +161,7 @@ export default function PrivateViewsLondonArtWorldPage() {
         </p>
 
         <div className="info-box">
-          <h4>Quick Reference - The London Private View</h4>
+          <h4>Quick Reference: The London Private View</h4>
           <ul>
             <li>
               <strong>Format:</strong>{" "}Six to nine in the evening, drinks in
